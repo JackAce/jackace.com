@@ -1,0 +1,33 @@
+<svg version="1.1" width="280" height="180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Copyright 2021 JackAce.com -->
+  <style type="text/css" >
+      <![CDATA[
+          .redSpot {
+            fill: #c00;
+          }
+          .blackSpot {
+            fill: #000;
+          }
+          .greenSpot {
+            fill: #5bd631;
+          }
+          .numberText {
+            font-family: Cambria, Baskerville, Verdana, Helvetica;
+            font-size: 170px;
+            font-weight: bold;
+            text-anchor: middle;
+            fill: #fff;
+            stroke: #333;
+            stroke-width: 1px;
+          }
+      ]]>
+  </style>
+
+  <g class="greenSpot">
+    <ellipse cx="140" cy="90" rx="140" ry="90"/>
+  </g>
+  <g class="numberText">
+    <text x="140" y="160">0</text>
+  </g>
+
+</svg>

@@ -1,0 +1,79 @@
+<svg version="1.1" width="280" height="180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Copyright 2021 JackAce.com -->
+<defs>
+      <linearGradient id="greenGradient" x1="0" x2="1" y1="1" y2="0">
+        <stop class="greenEdge" offset="0%"/>
+        <stop class="greenMiddle" offset="50%"/>
+        <stop class="greenEdge" offset="100%"/>
+      </linearGradient>
+      <linearGradient id="redGradient" x1="0" x2="1" y1="1" y2="0">
+        <stop class="redEdge" offset="0%"/>
+        <stop class="redMiddle" offset="50%"/>
+        <stop class="redEdge" offset="100%"/>
+      </linearGradient>
+      <linearGradient id="blackGradient" x1="0" x2="1" y1="1" y2="0">
+        <stop class="blackEdge" offset="0%"/>
+        <stop class="blackMiddle" offset="50%"/>
+        <stop class="blackEdge" offset="100%"/>
+      </linearGradient>
+  </defs>
+  <style type="text/css" >
+      <![CDATA[
+          .greenEdge { stop-color: #0c0; }
+          .greenMiddle { stop-color: #93f346; }
+          .redEdge { stop-color: #c00; }
+          .redMiddle { stop-color: #ec5b3f; }
+          .blackEdge { stop-color: #000; }
+          .blackMiddle { stop-color: #37360b; }
+
+          .borderLine {
+            stroke: #fff;
+            stroke-width: 10;
+            opacity: 0.8;
+          }
+          .greenSpot {
+            fill: url(#greenGradient);
+            xfill: #5bd631;
+          }
+          .redSpot {
+            fill: url(#redGradient);
+            xfill: #c00;
+          }
+          .blackSpot {
+            fill: url(#blackGradient);
+            xfill: #000;
+          }
+          .yellowOval {
+            stroke: #ff0;
+            stroke-width: 6px;
+            fill: none;
+            opacity: 0.8;
+          }
+          .numberText {
+            font-family: Bernard MT Condensed, Verdana, Helvetica;
+            font-size: 170px;
+            font-weight: bold;
+            text-anchor: middle;
+            fill: #fff;
+            stroke: #333;
+            stroke-width: 1px;
+          }
+          .outsideText {
+            font-family: Verdana, Helvetica;
+            font-size: 70px;
+            text-anchor: middle;
+            fill: #fff;
+            stroke: #000;
+            stroke-width: 1px;
+          }
+      ]]>
+  </style>
+
+  <g class="redSpot">
+    <ellipse cx="140" cy="90" rx="140" ry="90"/>
+  </g>
+  <g class="numberText">
+    <text x="140" y="160">25</text>
+  </g>
+
+</svg>
