@@ -1,8 +1,5 @@
-- title: Twitter
-  url: https://twitter.com/JackAce
-  icon: fab fa-twitter
 - title: GitHub
-  url: https://github.com/JackAceStudios
+  url: https://github.com/JackAce
   icon: fab fa-github
 - title: YouTube
   url: https://www.youtube.com/channel/UCINg22R9y7_qrYXH1zWwIVQ
@@ -10,15 +7,18 @@
 - title: Soundcloud
   url: https://soundcloud.com/jackacestudios
   icon: fab fa-soundcloud
-- title: JSFiddle
-  url: https://jsfiddle.net/user/JackAce/fiddles/
-  icon: fab fa-jsfiddle
-- title: Instagram
-  url: https://www.instagram.com/jackacestudios/
-  icon: fab fa-instagram
-- title: Discord
-  url: https://discord.gg/R6nTPzcpma
-  icon: fab fa-discord
-- title: Twitch
-  url: https://www.twitch.tv/jackacestudios
-  icon: fab fa-twitch
+- title: Twitter
+  url: https://twitter.com/JackAce
+  icon: fab fa-twitter
+# - title: JSFiddle
+#   url: https://jsfiddle.net/user/JackAce/fiddles/
+#   icon: fab fa-jsfiddle
+# - title: Instagram
+#   url: https://www.instagram.com/jackacestudios/
+#   icon: fab fa-instagram
+# - title: Discord
+#   url: https://discord.gg/R6nTPzcpma
+#   icon: fab fa-discord
+# - title: Twitch
+#   url: https://www.twitch.tv/jackacestudios
+#   icon: fab fa-twitch
