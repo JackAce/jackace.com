@@ -1,0 +1,20 @@
+---
+layout: post
+title: "test post: ignore"
+date: 2021-12-03 00:01:00 -0800
+author: Jack Hayes
+twitterUrl: https://twitter.com/JackAce
+email: jackace@jackace.com
+categories: jackace
+---
+
+just setting up my jackace
+
+## Welcome to JackAce.com!
+
+I'm a big fan of GitHub Pages, so I set up a site of my own! It uses Jekyll for markup and Disqus for comments. If you're familiar with GitHub and GitHub Pages,
+you already know that you can contribute to my site by making corrections or adding content and submitting a Pull Request. This site's repo is
+[JackAce/jackace.com](https://github.com/JackAce/jackace.com).
+
+This is the first of many blog posts, so stay tuned!
+
