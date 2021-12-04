@@ -7,4 +7,7 @@ title: JackAce
 {% for post in site.posts %}
 ## [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {{ post.excerpt }}
+<span class="more-link">
+    [read more...]({{ site.baseurl }}{{ post.url }})
+</span>
 {% endfor %}
