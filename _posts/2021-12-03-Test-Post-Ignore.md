@@ -23,4 +23,4 @@ This will be an educational site teaching donkeys like *YOU* about gambling, and
 [YouTube channel](https://www.youtube.com/channel/UCINg22R9y7_qrYXH1zWwIVQ) will be the main source of content, and this
 site/blog will help supplement it.
 
-This is the first of many blog posts, so stay tuned!
+This is the first of many posts, so stay tuned!

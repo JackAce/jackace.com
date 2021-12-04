@@ -15,12 +15,13 @@ and [`rec.gambling.poker`](https://groups.google.com/g/rec.gambling.poker)), Yah
 and more recently, Reddit ([`/r/blackjack`](https://reddit.com/r/blackjack/) and [`/r/poker`](https://reddit.com/r/poker/)).
 
 Things I have done:
-* Received a degree in Actuarial Mathematics with a Specialization in Computing
+* Got a degree in Actuarial Mathematics with a Specialization in Computing
 * Worked for two gambling sites for over 7 years
-* Tried to become a professional blackjack player
+* Studied to become a professional blackjack player
 * Fell asleep one time and had a dream about being a professional poker player
 * Wrote 4 gambling related titles for the iPhone
 * Wrote 2 gambling apps for the T-Mobile Sidekick (Danger Hiptop) Smartphone
-* Published a gambling site exploit for [2600: The Hacker Quarterly](https://store.2600.com/collections/2000-2009/products/summer-2005)
+* Once met Young MC backstage at a concert
+* Published an article about a gambling site exploit for [2600: The Hacker Quarterly](https://store.2600.com/collections/2000-2009/products/summer-2005)
 
 Hopefully, you find my content educational!
