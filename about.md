@@ -8,8 +8,8 @@ Jack Hayes is a gambler. a mathematician. an engineer.
 
 ## Who is Jack Hayes?
 
-I've been posting and answering questions about gambling on the internet since 1994-1995. I've been contributing
-to Usenet newsgroups (shout out to [`rec.gambling.blackjack`](https://groups.google.com/g/rec.gambling.blackjack)
+I've been posting and answering questions about gambling on the internet since 1994. I've been contributing
+to Usenet newsgroups ([`rec.gambling.blackjack`](https://groups.google.com/g/rec.gambling.blackjack)
 and [`rec.gambling.poker`](https://groups.google.com/g/rec.gambling.poker)), Yahoo! Answers
 ([Games & Recreation - Gambling](https://web.archive.org/web/20120512004918/http://answers.yahoo.com/dir/index?sid=396545375)),
 and more recently, Reddit ([`/r/blackjack`](https://reddit.com/r/blackjack/) and [`/r/poker`](https://reddit.com/r/poker/)).

@@ -9,7 +9,7 @@ categories: blackjack basicstrategy
 ### Hard Hands
 
 | Player Total | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | T | A |
-| --- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Hard 8- | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) |
 | Hard 9 | ![H](../../../../../../assets/img/actions/h.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) |
 | Hard 10 | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) |
@@ -25,7 +25,7 @@ categories: blackjack basicstrategy
 ### Soft Hands
 
 | Player Total | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | T | A |
-| --- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | A-2 (Soft 13) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) |
 | A-3 (Soft 14) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) |
 | A-4 (Soft 15) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![Dh](../../../../../../assets/img/actions/dh.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) |
@@ -39,7 +39,7 @@ categories: blackjack basicstrategy
 ### Pairs
 
 | Player Hand | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | T | A |
-| --- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 2-2 | ![Ph](../../../../../../assets/img/actions/ph.svg) | ![Ph](../../../../../../assets/img/actions/ph.svg) | ![P](../../../../../../assets/img/actions/p.svg) | ![P](../../../../../../assets/img/actions/p.svg) | ![P](../../../../../../assets/img/actions/p.svg) | ![P](../../../../../../assets/img/actions/p.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) |
 | 3-3 | ![Ph](../../../../../../assets/img/actions/ph.svg) | ![Ph](../../../../../../assets/img/actions/ph.svg) | ![P](../../../../../../assets/img/actions/p.svg) | ![P](../../../../../../assets/img/actions/p.svg) | ![P](../../../../../../assets/img/actions/p.svg) | ![P](../../../../../../assets/img/actions/p.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) |
 | 4-4 | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![Ph](../../../../../../assets/img/actions/ph.svg) | ![Ph](../../../../../../assets/img/actions/ph.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) | ![H](../../../../../../assets/img/actions/h.svg) |
@@ -55,7 +55,7 @@ categories: blackjack basicstrategy
 ### Legend
 
 | Symbol                        | Action                                                  |
-| ---                           | ---                                                     |
+| :-:                           | ---                                                     |
 | ![H](../../../../../../assets/img/actions/h.svg)     | Hit                                                     |
 | ![S](../../../../../../assets/img/actions/s.svg)     | Stand                                                   |
 | ![Dh](../../../../../../assets/img/actions/dh.svg)   | Double if possible, otherwise Hit                       |
@@ -73,7 +73,7 @@ categories: blackjack basicstrategy
 [YouTube: Blackjack Basic Strategy - 4+ Decks, Stand on Soft 17](https://www.youtube.com/watch?v=Tis_YoGzSOk&list=PLf7_Bpai9n_0Kxy1s0MX7wvOE94EZGbnV)
 
 ### Other Basic Strategy Charts
-[1D S17](./1D_S17.md) | [1D H17](./1D_H17.md) | [2D S17](./2D_H17.md) | [2D H17](./2D_H17.md) | [MD S17](./MD_H17.md) | [MD H17](./MD_H17.md)
+[1D S17](../1D_S17) | [1D H17](../1D_H17) | [2D S17](../2D_H17) | [2D H17](../2D_H17) | [MD S17](../MD_S17) | [MD H17](../MD_H17)
 
 ### Sources
 [Wizard of Odds - Blackjack Basic Strategy - 4 decks](https://wizardofodds.com/games/blackjack/strategy/4-decks/), [Playing Blackjack as a Business](https://www.amazon.com/Playing-Blackjack-Business-Lawrence-Revere/dp/1607967626/)
