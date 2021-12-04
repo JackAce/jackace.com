@@ -15,7 +15,7 @@ contact:
 avatar: https://en.gravatar.com/userimage/16333631/fd0ff7b3a6145af790737011dc6b2272.png?size=300
 location: Southern California
 skin: midnight
-# date_format: %b %-d, %Y
+date_format: "%-d %b %Y"
 # Settings for Hamilton theme
 
 # Subscribe Feed
