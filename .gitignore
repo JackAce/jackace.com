@@ -1,0 +1,9 @@
+
+_site
+
+# Mac crap
+.DS_Store
+
+.sass-cache/
+.jekyll-metadata
+
