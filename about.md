@@ -24,4 +24,4 @@ Other things I have done:
 * Once met Young MC backstage at a concert
 * Published an article about a gambling site exploit for [2600: The Hacker Quarterly](https://store.2600.com/collections/2000-2009/products/summer-2005)
 
-Hopefully, you find my content informative and entertaining!
+Hopefully you find my content informative and entertaining!
