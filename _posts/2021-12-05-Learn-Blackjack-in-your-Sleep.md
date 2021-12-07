@@ -7,6 +7,7 @@ twitterUrl: https://twitter.com/JackAce
 email: jackace@jackace.com
 tags: [blackjack,basic strategy,soundcloud,flashcards]
 #excerpt_image: https://jackace.com/assets/img/jackace.png
+comments: true
 ---
 
 Memorizing the 281 decisions needed to master [Blackjack's Basic Strategy](/gambling/blackjack/systems/basic-strategy/charts/MD_S17) can be a daunting
