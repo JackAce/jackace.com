@@ -23,13 +23,13 @@ Check out one of the playlists here:
 
 &nbsp;
 
-I have created playlists for every combination of decks (Single deck, Double deck, and 4+ decks) and Soft 17 rules (Hit/Stand). Pick
-[the playlist](https://soundcloud.com/jackacestudios/sets) that's appropriate for the game you usually play. You can even create
-your own playlist to highlight decisions that you feel you haven't mastered yet.
+I've created playlists for every combination of decks (Single deck, Double deck, and 4+ decks) and for Hitting/Standing on Soft 17. Pick
+[the playlist](https://soundcloud.com/jackacestudios/sets) that matches your favorite casino's house rules. You can even create
+your *own* playlist to highlight decisions that you feel you haven't mastered yet.
 
 If you use the High/Low Card Counting system, I've even created a playlist for the [Illustrious 18 and Fab 4 Surrender
 Deviations](https://soundcloud.com/jackacestudios/sets/blackjack-high-low-count).
 
-This method of learning works best as a great reinforcement tool after studing the [Blackjack Basic Strategy Charts](/gambling/blackjack/systems/basic-strategy/).
-Once you learn the basics, you can help quiz yourself in the car, on a plane, or even in your sleep! Once you believe you've mastered Basic Strategy,
+This method of learning works best as a complement to the [Blackjack Basic Strategy Charts](/gambling/blackjack/systems/basic-strategy/).
+Once you learn the basics, you can help quiz yourself in the car, on a plane, or even subliminally in your sleep! Once you believe you've mastered Basic Strategy,
 you'll be able to play blackjack with almost no house advantage!
