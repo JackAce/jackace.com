@@ -2,5 +2,8 @@
   url: /
 - title: Blackjack
   url: /gambling/blackjack/
+  sublinks:
+    - title: Basic Strategy
+      url: /gambling/blackjack/systems/basic-strategy
 - title: About
   url: /about/

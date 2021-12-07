@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page
 title: "Blackjack Basic Strategy"
 ---
-
-# Blackjack Basic Strategy Charts
 
 Basic Strategy is the set of decisions that are optimal for each combination of player hand and dealer up card. Memorizing the decisions for Basic Strategy can reduce the casino's house advantage to less then 1/2 of a
 percent, which is one of the lowest disadvantages for the player available in a casino.
