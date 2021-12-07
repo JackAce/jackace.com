@@ -2,6 +2,10 @@
 h1 {
     font-size: 28px;
 }
+li {
+    list-style-type: none;
+}
+
 .copyright {
     font-size: 10px;
 }
@@ -10,6 +14,18 @@ h1 {
 }
 .amt-neg {
     color: #c00;
+}
+.blog-list-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.blog-list-date {
+    font-size: 12px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.blog-list-excerpt {
+    font-size: 16px;
 }
 .more-link {
     font-size: 12px;

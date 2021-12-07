@@ -1,0 +1,22 @@
+---
+layout: default
+title: JackAce
+---
+<h1>Latest Posts</h1>
+
+<div>
+    {% for post in site.posts %}
+
+        <div class="blog-list-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+        <div class="blog-list-date">
+            {{ post.date | date: site.date_format }}
+        </div>
+        <div class="blog-list-excerpt">
+            {{ post.excerpt }}
+        </div>
+        <span class="more-link">
+            <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+        </span>
+        <br/><br/>
+    {% endfor %}
+</div>
