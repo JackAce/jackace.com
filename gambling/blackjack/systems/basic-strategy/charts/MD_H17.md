@@ -62,7 +62,6 @@ categories: blackjack basicstrategy
 | ![Ds](../../../../../../assets/img/actions/ds.svg)   | Double if possible, otherwise Stand                     |
 | ![P](../../../../../../assets/img/actions/p.svg)     | Split                                                   |
 | ![Ph](../../../../../../assets/img/actions/ph.svg)   | Split if Double after splits allowed, otherwise Hit     |
-| ![Pd](../../../../../../assets/img/actions/pd.svg)   | Split if Double after splits allowed, otherwise Double  |
 | ![Rh](../../../../../../assets/img/actions/rh.svg)   | Surrender if possible, otherwise Hit                    |
 | ![Rs](../../../../../../assets/img/actions/rs.svg)   | Surrender if possible, otherwise Stand                  |
 | ![Rp](../../../../../../assets/img/actions/rp.svg)   | Surrender if possible, otherwise Split                  |
