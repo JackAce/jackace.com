@@ -30,9 +30,11 @@ show_excerpts: true  # set to true to show excerpts on the homepage, otherwise f
 
 # Comments
 # To enable comments, set the `enabled` field to true and supply either a Disqus short name or a Jekyll comments receiver
+disqus: "jackace.disqus.com"
 comments:
   enabled: true
-  disqus: jackace
+  #disqus: jackace
+
   #show_count: true
   #receiver:
 
