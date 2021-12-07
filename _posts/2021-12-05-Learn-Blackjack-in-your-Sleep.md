@@ -5,7 +5,6 @@ date: 2021-12-05 00:01:00 -0800
 author: Jack Hayes
 twitterUrl: https://twitter.com/JackAce
 email: jackace@jackace.com
-categories: jackace
 tags: [blackjack,basic strategy,soundcloud,flashcards]
 #excerpt_image: https://jackace.com/assets/img/jackace.png
 ---
