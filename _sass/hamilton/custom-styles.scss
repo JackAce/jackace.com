@@ -5,15 +5,27 @@ h1 {
 li {
     list-style-type: none;
 }
+th {
+    font-size: 12px;
+    padding: 0px;
+}
+td {
+    font-size: 12px;
+    padding: 0px;
+}
 
 .copyright {
     font-size: 10px;
 }
 .amt-pos {
     color: #0c0;
-}
+  }
 .amt-neg {
     color: #c00;
+}
+.amt-0 {
+    color: #ccc;
+    font-style: italic;
 }
 .blog-list-title {
     font-size: 30px;
