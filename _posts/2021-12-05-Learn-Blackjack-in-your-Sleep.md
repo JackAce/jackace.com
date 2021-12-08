@@ -5,6 +5,8 @@ date: 2021-12-05 00:01:00 -0800
 author: Jack Hayes
 tags: [blackjack,basic strategy,soundcloud,flashcards]
 excerpt_image: "/assets/img/posts/2021-12-05/blackjack-1160x386.jpeg"
+summary: "Memorizing the 281 decisions needed to master Blackjack's Basic Strategy can be a daunting
+task. You can stare at the charts for hours, or you could print out blank tables that you fill out over and over by hand. But now there's a better way!"
 comments: true
 ---
 
