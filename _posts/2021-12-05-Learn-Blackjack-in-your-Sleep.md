@@ -3,10 +3,8 @@ layout: post
 title: "Learn Blackjack in your Sleep!"
 date: 2021-12-05 00:01:00 -0800
 author: Jack Hayes
-twitterUrl: https://twitter.com/JackAce
-email: jackace@jackace.com
 tags: [blackjack,basic strategy,soundcloud,flashcards]
-#excerpt_image: https://jackace.com/assets/img/jackace.png
+excerpt_image: "/assets/img/posts/2021-12-05/blackjack-1160x386.jpeg"
 comments: true
 ---
 
