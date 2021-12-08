@@ -10,6 +10,7 @@ task. You can stare at the charts for hours, or you could print out blank tables
 comments: true
 ---
 
+<img src="{{ page.excerpt_image }}" class="excerpt-image">
 Memorizing the 281 decisions needed to master [Blackjack's Basic Strategy](/gambling/blackjack/systems/basic-strategy/charts/MD_S17) can be a daunting
 task. You can stare at the charts for hours, or you could print out blank tables that you fill out over and over by hand. But now there's a *better* way!
 
