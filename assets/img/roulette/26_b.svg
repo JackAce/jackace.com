@@ -33,15 +33,21 @@
           }
           .greenSpot {
             fill: url(#greenGradient);
-            xfill: #5bd631;
+            stroke: #696;
+            stroke-width: 6px;
+            stroke-opacity: 0.5;
           }
           .redSpot {
             fill: url(#redGradient);
-            xfill: #c00;
+            stroke: #ccc;
+            stroke-width: 7px;
+            stroke-opacity: 0.5;
           }
           .blackSpot {
             fill: url(#blackGradient);
-            xfill: #000;
+            stroke: #969;
+            stroke-width: 7px;
+            stroke-opacity: 0.5;
           }
           .yellowOval {
             stroke: #ff0;
@@ -51,7 +57,7 @@
           }
           .numberText {
             font-family: Bernard MT Condensed, Verdana, Helvetica;
-            font-size: 170px;
+            font-size: 160px;
             font-weight: bold;
             text-anchor: middle;
             fill: #fff;
@@ -69,10 +75,9 @@
       ]]>
   </style>
   <g class="blackSpot">
-    <ellipse cx="140" cy="90" rx="140" ry="90"/>
+    <ellipse cx="140" cy="90" rx="136" ry="86"/>
   </g>
   <g class="numberText">
-    <text x="140" y="160">26</text>
+    <text x="140" y="155">26</text>
   </g>
-
 </svg>

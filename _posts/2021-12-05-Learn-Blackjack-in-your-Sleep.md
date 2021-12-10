@@ -3,13 +3,14 @@ layout: post
 title: "Learn Blackjack in your Sleep!"
 date: 2021-12-05 00:01:00 -0800
 author: Jack Hayes
-twitterUrl: https://twitter.com/JackAce
-email: jackace@jackace.com
 tags: [blackjack,basic strategy,soundcloud,flashcards]
-#excerpt_image: https://jackace.com/assets/img/jackace.png
+excerpt_image: "/assets/img/posts/2021-12-05/blackjack-600x334.png"
+summary: "Memorizing the 281 decisions needed to master Blackjack's Basic Strategy can be a daunting
+task. You can stare at the charts for hours, or you could print out blank tables that you fill out over and over by hand. But now there's a better way!"
 comments: true
 ---
 
+<img src="{{ page.excerpt_image }}" class="excerpt-image" /> <br/>
 Memorizing the 281 decisions needed to master [Blackjack's Basic Strategy](/gambling/blackjack/systems/basic-strategy/charts/MD_S17) can be a daunting
 task. You can stare at the charts for hours, or you could print out blank tables that you fill out over and over by hand. But now there's a *better* way!
 
