@@ -22,14 +22,22 @@ td {
 }
 
 .amt-pos {
-    color: #0c0;
+    color: #0f0;
   }
 .amt-neg {
-    color: #c00;
+    color: #f00;
 }
 .amt-0 {
     color: #ccc;
     font-style: italic;
+}
+.cell-center {
+    text-align: center;
+    white-space: nowrap;
+}
+.cell-stats {
+    background-color: #333;
+    font-weight: bold;
 }
 .blog-list-title {
     font-size: 30px;
@@ -49,6 +57,10 @@ td {
     border: solid 1px #2d3339;
     padding: 6px 10px;
 }
+.roulette-spot {
+    width: 42px;
+    height: 27px;
+}
 .strategy-table {
     font-size: 16px;
     th {
@@ -56,6 +68,21 @@ td {
     }
     td {
         padding: 0px 2px 2px 2px;
+    }
+    img {
+        margin: 0px;
+        min-width: 40px;
+        min-height: 20px;
+    }
+}
+.betting-system-table {
+    th {
+        padding: 4px;
+        font-size: 16px;
+    }
+    td {
+        padding: 4px;
+        font-size: 16px;
     }
     img {
         margin: 0px;
