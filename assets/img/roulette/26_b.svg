@@ -56,16 +56,16 @@
             opacity: 0.8;
           }
           .numberText {
-            font-family: Bernard MT Condensed, Verdana, Helvetica;
-            font-size: 160px;
+            font-family: Garamond, Times New Roman, Georgia;
+            font-size: 140px;
             font-weight: bold;
             text-anchor: middle;
             fill: #fff;
             stroke: #333;
-            stroke-width: 1px;
+            stroke-width: 3px;
           }
           .outsideText {
-            font-family: Verdana, Helvetica;
+            font-family: Garamond, Times New Roman, Georgia;
             font-size: 70px;
             text-anchor: middle;
             fill: #fff;
@@ -78,6 +78,6 @@
     <ellipse cx="140" cy="90" rx="136" ry="86"/>
   </g>
   <g class="numberText">
-    <text x="140" y="155">26</text>
+    <text x="140" y="135">26</text>
   </g>
 </svg>
