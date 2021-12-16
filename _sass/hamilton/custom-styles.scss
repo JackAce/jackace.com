@@ -1,10 +1,9 @@
 // Custom CSS for site
 h1 {
     font-size: 28px;
-    color: #009bb0;
 }
-h2 {
-    color: #4cd5e7;
+h1, h2, h3, h4, h5, h6 {
+    color: #009bb0;
 }
 th {
     font-size: 12px;
@@ -13,6 +12,11 @@ th {
 td {
     font-size: 12px;
     padding: 0px;
+}
+figcaption {
+    margin-top: 2px;
+    color: #666;
+    font-style: italic;
 }
 
 .copyright {
@@ -39,6 +43,7 @@ td {
 .cell-stats {
     background-color: #333;
     font-weight: bold;
+    font-size: 20px !important;
 }
 .blog-list-title {
     font-size: 30px;
