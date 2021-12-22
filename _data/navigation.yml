@@ -8,7 +8,7 @@
       url: /gambling/blackjack/systems/basic-strategy
     - title: High Low Count
       url: /gambling/blackjack/systems/high-low
-    - title: KO Count
-      url: /gambling/blackjack/systems/ko-count
+    - title: Other Systems
+      url: /gambling/blackjack/systems
 - title: About
   url: /about/
