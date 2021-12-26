@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Don't EVER cover more than 35 different numbers in Roulette!"
-date: 2021-12-16 00:01:00 -0800
+date: 2021-12-30 00:01:00 -0800
 author: Jack Hayes
 tags: [roulette,bet-nullification,CEG Dealer School]
-excerpt_image: "/assets/img/posts/2021-12-24/roulette.jpg"
+excerpt_image: "/assets/img/posts/2021-12-24/roulette-title-2831x1594.png"
 summary: "Don't ever cover more than 35 numbers in Roulette! Some or even ALL of your bets may end up being worthless!"
 comments: true
 math: true
@@ -28,11 +28,11 @@ math: true
     18 numbers at a time).
 </p>
 <p>
-    For example, you could bet $100 on Red AND $100 on \(36 \over 38\) or 94.7% of the time you'll end up exactly
-    where you started. For example, when it lands on
+    For example, you could bet $100 on Red AND $100 on Black and \(36 \over 38\) (94.7%) of the time you'll end
+    up with no gain and no loss. In this case, when the Roulette ball lands on any number between
     <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" alt="1 Red" width="40"/>
-    through <img src="{{site.baseurl}}/assets/img/roulette/36_r.svg" alt="36 Red" width="40"/>, your winning bet
-    will cancel out your losing bet.
+    and <img src="{{site.baseurl}}/assets/img/roulette/36_r.svg" alt="36 Red" width="40"/>, your $100 winning bet
+    will cancel out your $100 losing bet.
 </p>
 <p>
     But when you hit the
@@ -47,17 +47,21 @@ math: true
     </figure>
 </p>
 <p>
-    This is a result of "Bet Nullification". When ever one bet cancels out the wins of another bet or set of bets, there is
-    zero upside to making the bets at all.
+    This is a result of <i>Bet Nullification</i> (I made this term up). Whenever the win from one bet completely cancels
+    out the losses of another bet or set of bets, there is zero upside to making the bets at all.
 </p> 
 <p>
-    This is an <i>EXTREMELY</i> simple example of how you could make bets that nullify each other, but are there
-    bet combinations that are more difficult to identify?
+    And creating a Bet Nullification situation is a mathematical <i>certainty</i> once you hit the threshold of
+    betting on 36 different numbers.
+</p> 
+<p>
+    The Red/Black bet example is an <i>EXTREMELY</i> simple example of how you could make bets that nullify each
+    other, but are there bet combinations that are more difficult to identify?
 </p> 
 
 <h2>Covering 36 Numbers with Inside AND Outside Bets</h2>
 <p>
-    I was watching <a href="https://www.youtube.com/watch?v=eZgHu0fdWTo&t=94s">CEG Dealer School's</a>
+    I was watching <a href="https://www.youtube.com/watch?v=eZgHu0fdWTo">CEG Dealer School's</a>
     YouTube channel recently and they were playing a system called "DIAMOND HEIST!" where they made the
     following bets:
 </p> 
@@ -71,7 +75,7 @@ math: true
     </figure>
 </p>
 <p>
-    It may not be instantly apparent, but they managed to spread $95 across all 36 natural (Non-zero) numbers.
+    It may not be instantly apparent, but they managed to spread $95 across all 36 Natural (non-zero) numbers.
 </p> 
 <p>
     And it's tough to see exactly <i>how much</i> of the $95 is being wasted, but it is <b>A LOT</b>. In fact,
@@ -79,7 +83,7 @@ math: true
 </p> 
 <p>
     To identify the bet overlaps, we can apply
-    the <i>Commutative Betting Property<sup>TM</sup></i> of Roulette (I made this term up as well), which states that:
+    the <i>Commutative Betting Property</i> of Roulette (I made this term up as well), which states that:
 </p> 
 <blockquote>
     Betting $X on an n-number bet is equivalent to Betting \(\$X \over n\) on each of the covered numbers straight-up
@@ -113,7 +117,7 @@ math: true
 <p>
     <figure>
         <img src="{{site.baseurl}}/assets/img/posts/2021-12-24/roulette-bets-v3.png" alt="Roulette Bets (OPTIMAL)" height="300" />
-        <figcaption>Every single number has the same payout, except you save $45 when it hits 0 and 00</figcaption>
+        <figcaption>Every payout in this modified system has the same payout as the original system, except you save $45 when it hits 0 and 00</figcaption>
     </figure>
 </p>
 <p>
@@ -122,14 +126,32 @@ math: true
     and <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" alt="00 Green" width="40"/>. When the Zeroes hit,
     you only lose $50 instead of the original $95.
 </p>
+<p>
+    And if you're looking at these bets and you're thinking that a casino won't let you bet these fractional amounts, 
+    that's true. And it just so happens that we can rearrage all these bets and come up with the following bets that 
+    a casino <i>will</i> allow.
+</p>
+<p>
+    <figure>
+        <img src="{{site.baseurl}}/assets/img/posts/2021-12-24/roulette-bets-v4.png" alt="Roulette Bets (OPTIMAL and REARRANGED)" height="300" />
+        <figcaption>The Commutative Property of Roulette also allows you to roll up bets</figcaption>
+    </figure>
+</p>
+<p>
+    And this makes sense if you understand what bets were removed. We've pulled $15 off the 3rd column and we've taken
+    down $30 in 6 corner bets that makes up the first two columns. Those 6 bets could have been replicated by putting
+    $15 on the 1st column and $15 on the 2nd column, and then getting rid of the $45 of nullified bets becomes trivial.
+</p> 
+<p>
+    <figure>
+        <img src="{{site.baseurl}}/assets/img/posts/2021-12-24/roulette-bets-v4-diff.png" alt="Roulette Bets (OPTIMAL and REARRANGED and diffed)" height="300" />
+        <figcaption>Removed bets are displayed here in yellow</figcaption>
+    </figure>
+</p>
 
 <h2>Protect Yourself</h2>
 <p>
     So if you <i>ever</i> find yourself betting on 36 different numbers, you should know that you've triggered a
-    Bet Nullification situation and that you should consider taking some money off the table to fix it
-</p> 
-<p>
-    It's a little tricky in this specific situation because the optimal bets are fractional amounts, which wouldn't
-    be possible in a real-world situation, but if you multiply all bets (including the original system), then you can
-    get whole dollar bet sizes.
+    Bet Nullification situation and that you should try to identify the nullified bets so that you can remove them
+    from the table. You'll save yourself a lot of EV with zero downside!
 </p> 
