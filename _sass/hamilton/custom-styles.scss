@@ -3,9 +3,10 @@ h1 {
     font-size: 28px;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: #009bb0;
+    color: #2da5b8;
 }
 th {
+    color: #2da5b8;
     font-size: 12px;
     padding: 0px;
 }
@@ -23,6 +24,20 @@ figcaption {
     margin-top: 2px;
     color: #666;
     font-style: italic;
+}
+b {
+    color: #8acdd8;
+}
+i {
+    color: #8acdd8;
+}
+.post-content {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Roboto Slab', 'Noto Serif SC', 'Noto Serif TC';
+    }
+}
+.post-title {
+    font-family: 'Roboto Slab', 'Noto Serif SC', 'Noto Serif TC';
 }
 
 .copyright {
