@@ -13,6 +13,12 @@ td {
     font-size: 12px;
     padding: 0px;
 }
+figure {
+    // display: block;
+    // margin-left: auto;
+    // margin-right: auto;
+    width: 90%;
+}
 figcaption {
     margin-top: 2px;
     color: #666;
@@ -35,6 +41,9 @@ figcaption {
 .amt-0 {
     color: #ccc;
     font-style: italic;
+}
+.p-center {
+    text-align: center;
 }
 .cell-center {
     text-align: center;
