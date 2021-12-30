@@ -1,0 +1,514 @@
+---
+layout: post
+title: "The Basics of Roulette Math"
+date: 2021-12-29 00:01:00 -0800
+author: Jack Hayes
+tags: [roulette]
+excerpt_image: /assets/img/posts/2021-12-29/roulette-00-title-601x291.png
+summary: "Have you ever wanted to learn the basics of Roulette math in just a few minutes? <b>No?</b> Well, too bad, because I'm going to teach them to you anyway! The good news for you is that the basics are dead simple, and I promise it'll be painless."
+comments: true
+math: true
+---
+
+<img src="{{site.baseurl}}{{page.excerpt_image}}" class="excerpt-image" />
+<br/>
+<p>
+    Have you ever wanted to learn the basics of Roulette math in just a few minutes? <b>No?</b> Well,
+    too bad, because I'm going to teach them to you anyway! The good news for you is that the basics
+    are dead simple, and I promise it'll be painless.
+</p>
+
+<h2>Eyeballing Payouts</h2>
+<p>
+    If you're starting your Roulette education from scratch, the first thing you'll need to learn 
+    is the payouts for the various bets. You can wager on 1 to up to 18 numbers on a single bet and
+    each wager pays out at different odds depending on your chances of winning.
+</p>
+<p>
+    Luckily, it's easy to figure out the payouts of each of these bets, and you don't need to memorize
+    a big table or learn a complicated formula. For almost <i>all</i> of the bets, you can determine the
+    payout by eyeballing the layout and slicing and dicing it visually.
+</p>
+<p>
+    The trick is knowing that there is <i>NO</i> house advantage (a.k.a "house edge") in Roulette if we
+    remove the zeroes
+    (<img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" class="roulette-spot" alt="0 Green" /> 
+    and <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" class="roulette-spot" alt="00 Green" />).
+    That means that if you were to make the same bet multiple times until you've bet on all the numbers that
+    aren't <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" class="roulette-spot" alt="0 Green" /> 
+    or <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" class="roulette-spot" alt="00 Green" />,
+    then your winning bets would be paid off by all of your losing bets, leaving you with no gain and no
+    loss.
+</p>
+<p>
+    To figure out how much each bet pays out, just keep making the same type of bet until you've bet
+    on all 36 numbers and recognize that the number of losing bets is what your payout would need to be
+    to pay off the winning bet. We're also going to pretend (in this payout calculation section) that
+    we're dealing with a special Roulette wheel that doesn't contain Zeroes.
+</p>
+<p>
+    Keep in mind that there's <i>NO</i> reason to ever bet on all 36 numbers, since there's no chance of
+    making money on the aggregate bets. We're just doing it here hypothetically to make our calculation
+    simple.
+</p>
+<h3>1 Number Bet: "Straight-Up"</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/roulette-01-straight-up-601x291.png" alt="35 losing bets pay the winning bet" />
+    <figcaption>35 losing bets pay the winning bet (35:1). The green background represents the potential winning spin and the red
+    background represents the losing bets that would be needed to pay off the winning bet.
+    </figcaption>
+</figure>
+<p>
+    There are 36 non-zero numbers, so if you bet on all 36 "Straight-Up" bets, your spin will have one
+    winner (again, we're assuming no zeroes) and 35 losers. For there to be no house advantage with 
+    our zeroless wheel, the Straight-Up bet needs to pay 35 to 1.
+</p>
+<h3>2 Number Bet: "Split"</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/roulette-02-split-601x291.png" alt="17 losing bets pay the winning bet" />
+    <figcaption>17 losing bets pay the winning bet (17:1)</figcaption>
+</figure>
+<p>
+    You can make 18 "Split" bets to cover up the entire non-zero field. For the Split bet scenario, you
+    have to make sure there is no "overlap" in your bets, where hitting a single number would result in
+    more than one Split bet winning.
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/roulette-02a-split-overlap-601x291.png" alt="Two Split bets that overlap and win when the 1 hits" />
+    <figcaption>Two Split bets that overlap and both win when the <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> hits</figcaption>
+</figure>
+<p>
+    The 17 losing bets will pay off the winning bet, so the 2-number bet pays 17 to 1. It's possible for
+    Split bets to overlap, so make sure your bets are evenly
+    distributed.
+</p>
+<h3>3 Number Bet: "Street"</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/roulette-03-street-601x291.png" alt="11 losing bets pay the winning bet" />
+    <figcaption>11 losing bets pay the winning bet (11:1)</figcaption>
+</figure>
+<p>
+    You can bet on all 12 "Streets" (each street is a row on the layout), and the 11 losing bets will pay off the
+    one winner at a rate of 11 to 1.
+</p>
+<h3>4 Number Bet: "Corner"</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/roulette-04-corner-601x291.png" alt="8 losing bets pay the winning bet" />
+    <figcaption>The 4-number bets along the top (the red striped regions) are not valid Corner bets, but are included here to illustrate coverage of the table</figcaption>
+</figure>
+<p>
+    This one is a little tricky, because you kind of have to <i>warp</i> the definition of a "Corner" bet.
+    You can't cover all 36 numbers exclusively with Corner bets without having <i>some</i> overlap of some
+    of the numbers.
+</p>
+<p>
+    There wouldn't be an issue with a casino allowing some type of "a-la-carte" 4-number bet where all four
+    numbers were in a straight line (for example, if you could make a 4-number bet on the
+    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />,
+    <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />,
+    <img src="{{site.baseurl}}/assets/img/roulette/9_r.svg" class="roulette-spot" alt="9 Red" />, &amp;
+    <img src="{{site.baseurl}}/assets/img/roulette/12_r.svg" class="roulette-spot" alt="12 Red" />),
+    the problem is with the game's layout. There's no area on the felt where you could place a chip
+    and it would unambiguously identify which 4 spots you wanted to bet on. It would most
+    likely just look like you were trying to make a 2-number split bet.
+</p>
+<p>
+    But if you <i>could</i> make 4-number bets in the hypothetical betting scheme above,
+    the 8 losing bets would pay off the winning bet at 8 to 1.
+</p>
+<h3>5 Number Bet: "Basket"</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/roulette-05-basket-601x291.png" alt="The 5-number 'Basket' bet can not evenly split up the 36 number field" />
+    <figcaption>The 5-number 'Basket' bet can not evenly split up the 36 number field</figcaption>
+</figure>
+<p>
+    We're going to skip this bet for now. The five-number "Basket" bet is only possible by betting on
+    <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" class="roulette-spot" alt="0 Green" /> ,
+    <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" class="roulette-spot" alt="00 Green" />,
+    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" />,
+    <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />, and
+    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />, which
+    isn't going to be possible with our zeroless wheel.
+</p>
+<p>
+    It's also the only bet that can't evenly split the 36 number field (since 36 is not evenly divisible by 5)
+    and consequently, it's the only bet that doesn't offer fair odds on our mythical non-zero layout.
+</p>
+<h3>6 Number Bet: "Double-Street"</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/roulette-06-double-street-601x291.png" alt="5 losing bets pay the winning bet" />
+    <figcaption>5 losing bets pay the winning bet (5:1)</figcaption>
+</figure>
+<p>
+    Pays 5 to 1. Hopefully, you've figured out how this works by now.
+</p>
+<h3>12 Number Bet: "Dozen" or "Column"</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/roulette-12-dozen-601x291.png" alt="2 losing bets pay the winning bet" />
+    <figcaption>2 losing bets pay the winning bet (2:1)</figcaption>
+</figure>
+<p>
+    Pays 2 to 1.
+</p>
+<h3>18 Number Bet: "Red"/"Black", "Even"/"Odd", "1st Half"/"2nd Half"</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/roulette-18-even-money-601x291.png" alt="Losing bet pays the winning bet" />
+    <figcaption>Losing bet pays the winning bet (1:1)</figcaption>
+</figure>
+<p>
+    Pays 1 to 1 (even money).
+</p>
+
+<h2>The Payout Formula</h2>
+<p>
+    If you're not a visual person like me and you <i>don't</i> want to visualize the Roulette betting layout
+    every time you want to calculate the payouts, you can just use the following formula:
+</p>
+<p class="p-center">
+    \begin{align}
+    { Payout_{n-number-bet} } = { {36 \over n } - 1 } \\
+    \end{align}
+</p>
+<p>
+    This should be easy to understand because it's the formulaic representation of the slicing and dicing
+    we saw above.
+</p>
+<p>
+    We took the 36 number layout, divided it by the number of spots we want to bet on at a time (<i>n</i>)
+    and then subtracted the 1 winning bet to see how many losing bets we need to pay off the winner.
+</p>
+<p>
+    For you non-visual learners, here's a table with all the calculations you need to determine the
+    payouts:
+</p>
+<table class="condensed-table">
+    <tr>
+        <th>
+            Bet
+        </th>
+        <th>
+            n
+        </th>
+        <th>
+            Payout
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Straight Up
+        </td>
+        <td class="cell-center">
+            1
+        </td>
+        <td class="cell-center">
+            \( { { 36 \over 1 } - 1 } = 35\times \)
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Split
+        </td>
+        <td class="cell-center">
+            2
+        </td>
+        <td class="cell-center">
+            \( { { 36 \over 2 } - 1 } = 17\times \)
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Street
+        </td>
+        <td class="cell-center">
+            3
+        </td>
+        <td class="cell-center">
+            \( { { 36 \over 3 } - 1 } = 11\times \)
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Corner
+        </td>
+        <td class="cell-center">
+            4
+        </td>
+        <td class="cell-center">
+            \( { { 36 \over 4 } - 1 } = 8\times \)
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Double Street
+        </td>
+        <td class="cell-center">
+            6
+        </td>
+        <td class="cell-center">
+            \( { { 36 \over 6 } - 1 } = 5\times \)
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Dozen/Column
+        </td>
+        <td class="cell-center">
+            12
+        </td>
+        <td class="cell-center">
+            \( { { 36 \over 12 } - 1 } = 2\times \)
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Half
+        </td>
+        <td class="cell-center">
+            18
+        </td>
+        <td class="cell-center">
+            \( { { 36 \over 18 } - 1 } = 1\times \)
+        </td>
+    </tr>
+</table>
+
+<h2>Calculating the House Advantage</h2>
+<p>
+    Since we know that a zeroless Roulette wheel has no house advantage
+    (for all bets besides the 5-number bet), we can simply calculate the
+    house edge by calculating the probability of hitting any of the zeroes
+    on the wheel.
+</p>
+<table class="condensed-table">
+    <tr>
+        <th>
+            Wheel Type
+        </th>
+        <th>
+            Probability
+        </th>
+        <th>
+            House Advantage %
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Single Zero
+        </td>
+        <td class="cell-center">
+            \( 1 \over 37 \)
+        </td>
+        <td class="cell-center">
+            2.70%
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Double Zero
+        </td>
+        <td class="cell-center">
+            \( 2 \over 38 \)
+        </td>
+        <td class="cell-center">
+            5.26%
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Triple Zero
+        </td>
+        <td class="cell-center">
+            \( 3 \over 39 \)
+        </td>
+        <td class="cell-center">
+            7.69%
+        </td>
+    </tr>
+</table>
+<h2>That Pesky 5-Number "Basket" Bet</h2>
+<p>
+    To calculate the house advantage of <i>any</i> bet, you can use the more generic formula:
+</p>
+<p class="cell-center">
+    \begin{align}
+    { Advantage_{n-number-bet} } & = { { 36 - n - (n \times p) + z } \over { 36 + z } }
+    \end{align}
+</p>
+<p>
+    Where <i>n</i> is the number of spots covered, <i>p</i> is the payout for the n-number bet, and
+    <i>z</i> is the number of zeroes on the wheel.
+</p>
+<p>
+    For all the bets we've covered so far, the \(\color{#8acdd8}36 - n - (n \times p)\) portion of the
+    formula was always equal to 0. This is why there is no house edge in a zeroless wheel.
+</p>
+<p>
+    But since the number 5 doesn't divide evenly into 36, it's not possible to have a fair payout that is a nice
+    round number. That's why casinos short-change you on the payout of this bet by only paying you 6-to-1 instead
+    of 6.2-to-1, making the 5-number bet the <i>persona non grata</i> of Roulette bets.
+</p>
+<p>
+    To calculate the house advantage of the Basket bet on the Double Zero wheel, we get
+</p>
+<p class="cell-center">
+    \begin{align}
+    { Advantage_{basket} } & = { { 36 - 5 - (5 \times 6) + 2 } \over { 36 + 2 } } \\
+    \\
+    & = { { 36 - 5 - 30 + 2 } \over 38 } \\
+    \\
+    & = { 3 \over 38 } \\
+    \\
+    & = 7.89\% \\
+    \end{align}
+</p>
+<p>
+    Here is the house edge on the 5-number bet for the various wheel configurations:
+</p>
+<table class="condensed-table">
+    <tr>
+        <th>
+            Wheel Type
+        </th>
+        <th>
+            House Advantage of Basket Bet
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Single Zero
+        </td>
+        <td class="cell-center">
+            <i>Basket Bet not possible</i>
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Double Zero
+        </td>
+        <td class="cell-center">
+            \( { 1 + 2 \over 38 } = { 7.89\% } \)
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Triple Zero
+        </td>
+        <td class="cell-center">
+            \( { 1 + 3 \over 39 } = { 10.26\% } \)
+        </td>
+    </tr>
+</table>
+<p>
+    The Basket bet is truly the <i>WORST</i> bet available on one of the worst table games.
+    So, if you ever find yourself betting the Basket, you should ask yourself this question:
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/ryan-reynolds-but-why-498x278.gif" alt="But why?" />
+    <figcaption>My reaction when someone bets the Basket</figcaption>
+</figure>
+
+<h2>Comparing Roulette to Other Table Games</h2>
+<p>
+    So, now you know the house advantage for Roulette. In the US (where Double Zero wheels are the norm),
+    it's 5.26% per bet and that is <b>HUGE</b>.
+</p>
+<p>
+    The house edge for 6-deck Blackjack is only about 0.42% if you play perfect
+    <a href="{{site.baseurl}}/gambling/blackjack/systems/basic-strategy/">Basic Strategy</a>,
+    making Roulette <b>12 and a half times worse</b>!
+</p>
+<p>
+    And here's how Roulette stacks up against the most popular casino table games.
+</p>
+
+<table class="condensed-table">
+    <tr>
+        <th>
+            Table Game
+        </th>
+        <th>
+            House Advantage
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            6-Deck Blackjack
+        </td>
+        <td class="cell-center">
+            0.42%
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Baccarat (Banker Bet)
+        </td>
+        <td class="cell-center">
+            1.06%
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Craps (Pass/Come)
+        </td>
+        <td class="cell-center">
+            1.41%
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Double Zero Roulette
+        </td>
+        <td class="cell-center amt-bad">
+            5.26%
+        </td>
+    </tr>
+</table>
+
+<p>
+    Roulette doesn't have as many events (i.e. spins) per hour as the other table games, but even with
+    this factor working to the player's benefit, the hourly loss for the game is horrendous.
+</p>
+<p>
+    In Blackjack, betting $10/hand at 105 hands/hour
+    (<a href="https://wizardofodds.com/ask-the-wizard/136/">an estimate</a>
+    for a table with 3 players) with a house edge of 0.42%, your hourly loss is about
+</p>
+<p class="cell-center">
+    \( \$10/hand \times 105 {hands \over hour} \times 0.42\% = $4.41/hour\)
+</p>
+<p>
+    In Roulette, betting $10/spin at 60 spins/hour (again,
+    <a href="https://wizardofodds.com/ask-the-wizard/136/">estimating</a> for a 3 player table) with
+    a house edge of 5.26%, your hourly loss is about
+</p>
+<p class="cell-center">
+    \( \$10/hand \times 60 {hands \over hour} \times 5.26\% = \color{red}{$31.56/hour}\)
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/mouth-agape-omg-wtf-bbq.jpeg" alt="mfw I see the hourly loss for Roulette" />
+    <figcaption>My face when I calculate the hourly loss for Roulette</figcaption>
+</figure>
+<h2>You're Now a Roulette Math Expert!</h2>
+<p>
+    Congratulations! You now know about 99% of what you need to know about Roulette Math!
+</p>
+<p>
+    There's really not a lot to this game and I think the people who enjoy it are drawn in by its simplicity.
+    Of course, casinos recognize this and it is their reason for charging patrons with an <i>EXORBITANT</i>
+    house advantage of 5.26%.
+</p>
+<blockquote>
+    You're being penalized for not taking the time to learn Basic Strategy.<br/>
+    You're being penalized for not having enough money to play Baccarat.<br/>
+    You're being penalized for being intimidated by the Craps layout.<br/>
+</blockquote>
+<p>
+    Now that you're an expert, hopefully you recognize that Roulette is one of the absolute
+    <i>WORST</i> games out there. And if you're looking to interpret any of the numbers we've calculated
+    above, you should follow these rules:
+</p>
+<blockquote>
+    If you <i>must</i> play Roulette, try to play a Single Zero game.<br/>
+    If you can't find or afford a Single Zero game <i>NEVER</i> play a Triple Zero game.<br/>
+    And no matter what, <i>NEVER</i> play the 5-number Basket bet.<br/>
+</blockquote>
