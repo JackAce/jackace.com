@@ -5,7 +5,7 @@ date: 2021-12-29 00:01:00 -0800
 author: Jack Hayes
 tags: [roulette]
 excerpt_image: /assets/img/posts/2021-12-29/roulette-00-title-601x291.png
-summary: "Have you ever wanted to learn the basics of Roulette math in just a few minutes? <b>No?</b> Well, too bad, because I'm going to teach them to you anyway! The good news for you is that the basics are dead simple, and I promise it'll be painless."
+summary: "Jack Hayes teaches teaches Roulette math, keeping it simple and painless."
 comments: true
 math: true
 ---
@@ -21,13 +21,14 @@ math: true
 <h2>Eyeballing Payouts</h2>
 <p>
     If you're starting your Roulette education from scratch, the first thing you'll need to learn 
-    is the payouts for the various bets. You can wager on 1 to up to 18 numbers on a single bet and
-    each wager pays out at different odds depending on your chances of winning.
+    is the payouts for the various bets. You can wager on 1 number up to as many as 18 numbers on a
+    single bet and each wager pays out at different odds depending on your chances of winning.
 </p>
 <p>
     Luckily, it's easy to figure out the payouts of each of these bets, and you don't need to memorize
-    a big table or learn a complicated formula. For almost <i>all</i> of the bets, you can determine the
-    payout by eyeballing the layout and slicing and dicing it visually.
+    a big table or learn a complicated formula (although we will look at tables and formulas later on).
+    For almost <i>all</i> of the bets, you can determine the payout by eyeballing the layout and slicing
+    and dicing it visually.
 </p>
 <p>
     The trick is knowing that there is <i>NO</i> house advantage (a.k.a "house edge") in Roulette if we
@@ -37,7 +38,7 @@ math: true
     That means that if you were to make the same bet multiple times until you've bet on all the numbers that
     aren't <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" class="roulette-spot" alt="0 Green" /> 
     or <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" class="roulette-spot" alt="00 Green" />,
-    then your winning bets would be paid off by all of your losing bets, leaving you with no gain and no
+    then your winning bet would be paid off by all of your losing bets, leaving you with no gain and no
     loss.
 </p>
 <p>
@@ -46,9 +47,8 @@ math: true
     pay out your the winning bet.
 </p>
 <p>
-    Keep in mind that there's <i>NO</i> reason to ever bet on all 36 numbers, since would be no chance of
-    making money on the bets as a whole. We're just doing it here hypothetically to make our calculation
-    simple.
+    Keep in mind that there's no reason to <b>ever</b> bet on all 36 numbers, since would be no chance of
+    making money on the bets as a whole. We're just doing it here hypothetically for illustrative purposes.
 </p>
 <h3>1-Number Bet: "Straight-Up"</h3>
 <figure>
@@ -127,12 +127,12 @@ math: true
     <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" />,
     <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />, and
     <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />, which
-    isn't going to be possible with our zeroless wheel.
+    won't allow us to ignore the zeroes as we have been so far.
 </p>
 <p>
-    It's also the only bet that can't evenly split the 36 number field (since 36 is not evenly divisible by 5)
-    and consequently, it's the only bet that doesn't offer fair odds even when we assume the ball won't land
-    on a zero.
+    It's also the only bet that <i>can't</i> evenly split the 36 number field (since 36 is not evenly divisible
+    by 5) and consequently, it's the only bet that doesn't offer fair odds when we assume a wheel with only 36
+    spots.
 </p>
 <h3>6-Number Bet: "Double-Street"</h3>
 <figure>
@@ -198,7 +198,7 @@ math: true
             Straight Up
         </td>
         <td class="cell-center">
-            1
+            1 number
         </td>
         <td class="cell-center">
             \( { { 36 \over 1 } - 1 } = 35\times \)
@@ -209,7 +209,7 @@ math: true
             Split
         </td>
         <td class="cell-center">
-            2
+            2 numbers
         </td>
         <td class="cell-center">
             \( { { 36 \over 2 } - 1 } = 17\times \)
@@ -220,7 +220,7 @@ math: true
             Street
         </td>
         <td class="cell-center">
-            3
+            3 numbers
         </td>
         <td class="cell-center">
             \( { { 36 \over 3 } - 1 } = 11\times \)
@@ -231,7 +231,7 @@ math: true
             Corner
         </td>
         <td class="cell-center">
-            4
+            4 numbers
         </td>
         <td class="cell-center">
             \( { { 36 \over 4 } - 1 } = 8\times \)
@@ -239,10 +239,21 @@ math: true
     </tr>
     <tr>
         <td class="cell-center">
+            Basket
+        </td>
+        <td class="cell-center">
+            5 numbers
+        </td>
+        <td class="cell-center">
+            <i>(does not conform to formula)</i>
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
             Double Street
         </td>
         <td class="cell-center">
-            6
+            6 numbers
         </td>
         <td class="cell-center">
             \( { { 36 \over 6 } - 1 } = 5\times \)
@@ -253,7 +264,7 @@ math: true
             Dozen/Column
         </td>
         <td class="cell-center">
-            12
+            12 numbers
         </td>
         <td class="cell-center">
             \( { { 36 \over 12 } - 1 } = 2\times \)
@@ -264,7 +275,7 @@ math: true
             Half
         </td>
         <td class="cell-center">
-            18
+            18 numbers
         </td>
         <td class="cell-center">
             \( { { 36 \over 18 } - 1 } = 1\times \)
@@ -285,10 +296,12 @@ math: true
             Wheel Type
         </th>
         <th>
-            Probability
+            Probability of<br/>
+            hitting any zero
         </th>
         <th>
-            House Advantage %
+            House<br/>
+            Advantage %
         </th>
     </tr>
     <tr>
@@ -358,7 +371,7 @@ math: true
     \\
     & = { 3 \over 38 } \\
     \\
-    & = 7.89\% \\
+    & = \color{red}{7.89\%} \\
     \end{align}
 </p>
 <p>
@@ -505,7 +518,7 @@ math: true
 <p>
     Now that you're an expert, hopefully you recognize that Roulette is one of the absolute
     <i>WORST</i> games out there. And if you're looking to interpret any of the numbers we've calculated
-    above, you should follow these rules:
+    above, you should follow that I call "Roulette Basic Strategy":
 </p>
 <blockquote>
     Avoid Roulette.<br/>
