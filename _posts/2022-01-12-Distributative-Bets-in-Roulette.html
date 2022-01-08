@@ -24,7 +24,7 @@ published: true
     The Distributive Property of Roulette Betting states
 </p>
 <blockquote>
-    Betting $X on an n-number bet is equivalent to betting \($X \over n\) each the covered numbers straight-up.
+    Betting $X on an n-number bet is equivalent to betting \($X \over n\) each of the n-numbers Straight-up.
 </blockquote>
 <p>
     Which can be represented formulaically as
@@ -45,12 +45,13 @@ published: true
         These two betting configurations are equivalent.
     </figcaption>
 </figure>
+<h3>Does this really work?</h3>
 <p>
     If we look at the two sets of wagers above, we can easily see that hitting any number outside of
     <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> -
     <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />
     will
-    result in a $6 loss. But what happens when we hit a number between
+    result in a <span class="amt-neg">$6</span> loss. But what happens when we hit a number between
     <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> -
     <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />?
 </p>
@@ -58,7 +59,7 @@ published: true
     With the single $6 Double Street bet, we win 5-to-1, for a <b>net win of $30</b>.
 </p>
 <p>
-    With the six $1 Straight-up bets, we will lose $5, but win $35 on the straight-up bet, for a
+    With the six $1 Straight-up bets, we will lose $5, but win $35 on the Straight-up bet, for a
     <b>net win of $30</b>.
 </p>
 <p>
@@ -66,10 +67,10 @@ published: true
     <span class="amt-pos">$30</span> when we hit.
 </p>
 <p>
-    And this Distributive Property of Roulette Bets works with any combination of bets where the bets are all
-    uniform. So you can consolidate three straight-up bets into a 3-number Street bet. And you can consolidate 
-    four straight-up bets into one 4-number Corner bet. You can even consolidate two Street bets into a single
-    Double Street bet.
+    And this Distributive Property of Roulette Bets works with <i>any</i> combination of bets where the bets
+    are all uniform. So you can consolidate three Straight-up bets into a 3-number Street bet. And you can
+    consolidate four Straight-up bets into one 4-number Corner bet. You can even consolidate two Street bets
+    into a single Double Street bet.
 </p>
 <figure>
     <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/all-equivalent-bets-600x666.png" alt="Valid decompositions of the $6 Double Street bet" />
@@ -77,7 +78,6 @@ published: true
         These are all equivalent decompositions of the $6 Double Street bet.
     </figcaption>
 </figure>
-
 <p>
     And this works for <i>all</i> bets with the exception of the 5 number (Basket) bet, which is a bet on
     the numbers
@@ -89,9 +89,9 @@ published: true
 </p>
 <h2>What is this Sorcery?</h2>
 <p>
-    This all magically works out because all Roulette Bets would be "fair" (i.e. There would be no House Edge)
-    if there were no Zeroes on the wheel. So as long as your <i>density</i> of bets is consistent (the amount
-    of money bet evenly across numbers), then the payout should be identical.
+    This all magically works out because all Roulette Bets (besides that pesky 5-number bet) have the same
+    house edge (<span class="amt-bad">5.26%!</span>). This means if you bet the same amount on n spots, your Expected Value (EV) should be
+    <i>exactly the same</i> if you bet that same amount on and n-number bet. 
 </p>
 <p>
     And we can prove this mathematcially using one of the formulas I've introduced in my post on the
@@ -120,13 +120,13 @@ published: true
     \end{align}
 </p>
 <p>
-    Which is the win from a single $1 straight-up bet minus the <i>(n-1)</i> losses from the losing
-    straight-up bets.
+    Which is the win from a single $1 Straight-up bet minus the <i>(n-1)</i> losses from the losing
+    Straight-up bets.
 </p>
 <p>
-    For example, if you bet $1 on 12 numbers straight-up, then one of those bets will win $35 and 11 of those
-    bets will lose, for a net win of $24, which is what your payout would be for betting $12 on a dozen or a
-    column.
+    For example, if you bet $1 on 12 numbers Straight-up, then one of those bets will win $35 and 11 of those
+    bets will lose, for a net win of $24, which is what your 2-to-1 payout would be for betting $12 on a dozen
+    or column.
 </p>
 <p>
     \begin{align}
@@ -138,7 +138,7 @@ published: true
     \end{align}
 </p>
 <p>
-    Here's the formula applied to all 7 bet types (bar the basket bet):
+    Here's the formula applied to all 7 bet types (without the Basket bet):
 </p>
 <table class="betting-system-table">
     <tr>
@@ -146,18 +146,24 @@ published: true
             n
         </th>
         <th>
+            Bet
+        </th>
+        <th>
             Consolidated<br/>Bet Type
         </th>
         <th>
-            Consolidated<br/>Payout
+            Consolidated<br/>Bet<br/>Payout
         </th>
         <th>
-            Decomposed<br/>Payout
+            Distributed<br/>Bet<br/>Payout
         </th>
     </tr>
     <tr>
         <td class="cell-center">
             18
+        </td>
+        <td class="cell-center">
+            $18
         </td>
         <td class="cell-center">
             Even Money
@@ -174,6 +180,9 @@ published: true
             12
         </td>
         <td class="cell-center">
+            $12
+        </td>
+        <td class="cell-center">
             Dozens/Columns
         </td>
         <td class="cell-center">
@@ -186,6 +195,9 @@ published: true
     <tr>
         <td class="cell-center">
             6
+        </td>
+        <td class="cell-center">
+            $6
         </td>
         <td class="cell-center">
             Double Streets
@@ -202,6 +214,9 @@ published: true
             4
         </td>
         <td class="cell-center">
+            $4
+        </td>
+        <td class="cell-center">
             Corners
         </td>
         <td class="cell-center">
@@ -214,6 +229,9 @@ published: true
     <tr>
         <td class="cell-center">
             3
+        </td>
+        <td class="cell-center">
+            $3
         </td>
         <td class="cell-center">
             Streets
@@ -230,6 +248,9 @@ published: true
             2
         </td>
         <td class="cell-center">
+            $2
+        </td>
+        <td class="cell-center">
             Splits
         </td>
         <td class="cell-center">
@@ -244,7 +265,10 @@ published: true
             1
         </td>
         <td class="cell-center">
-            Straight Up
+            $1
+        </td>
+        <td class="cell-center">
+            Straight-Up
         </td>
         <td class="cell-center">
             35:1 = <span class="amt-pos">$35</span>
@@ -261,14 +285,13 @@ published: true
 <h2>Terminology</h2>
 <p>
     If you've never heard of the <i>Distributive Property of Roulette Betting</i>, it's probably because I
-    made up the phrase. I was just analyzing some Roulette betting systems and realized how a lot of them
-    waste time by making you sprinkle bets needlessly all over the layout. I've never seen this property
-    formally discussed anywhere (it's really hard to search for any valid analysis of Roulette because it's
-    mostly just garbage Martingale inspired systems), so I thought I'd give it a name.
+    just made up the name. I've recently been analyzing some Roulette betting systems and realized how a lot
+    of them waste time by making you sprinkle bets needlessly all over the layout. I've never seen this
+    property formally discussed anywhere, so I thought I'd give it a name.
 </p>
 <p>
     So, with that being said, let me also introduce you to some of the other terms involved in this property
-    that we have already been using.
+    that you may have already figured out.
 </p>
 
 <h3>Consolidation</h3>
@@ -276,15 +299,22 @@ published: true
     <i>Consolidation</i> is "rolling-up" individual bets into a single bet with the same win/loss characteristics.
     A typical consolidation is taking n number of $X bets into a single $Nx n-number bet.
 </p>
-<h3>Distribution</h3>
+<h3>Distribution/Decomposition</h3>
 <p>
     <i>Distribution</i> or <i>Decomposition</i> is taking a multi-number bet and breaking it down into smaller bets,
-    often a series of "straight-up" single-number bets.
+    often a series of "Straight-up" single-number bets.
 </p>
 <p>
-    It's also possible to decompose a multi-number bet into smaller multi-number bets. For example, a $10
-    double-street bet can be broken down into two $5 street bets.
+    It's also possible to decompose a multi-number bet into smaller multi-number bets. For example, a $12
+    double-street bet can be broken down into two $6 street bets. Or it could be broken down into one $6 street
+    bet and three $2 Straight-up bets. Or it could be broken down into an $8 Corner bet and a $4 Split bet.
 </p>
+<figure>
+    <a href="https://www.youtube.com/watch?v=CXDxNCzUspM" target="_blank"><img src="{{site.baseurl}}/assets/img/posts/2022-01-12/first-citiwide-change-bank-600x392.png" alt="We will work with you..." /></a>
+    <figcaption>
+        You can break down a multi-number bet in many different ways.
+    </figcaption>
+</figure>
 <h3>Density</h3>
 <p>
     <i>Density</i> or <i>Betting Density</i> is the bet amount per spot once a multi-number bet has
@@ -334,14 +364,17 @@ published: true
     brick and mortar casino.
 </p>
 <p>
-    These systems may seem enjoyable on paper, but it's often extremely impractical to be betting on spots
-    all over the table, since you may have to reach over other people. These systems also often require
-    betting odd amounts if there's any Martingale-style "doubling-up" involved when you lose.
+    These systems may seem enjoyable on paper or even tapping your finger on a Roulette iPad app, but it's
+    often extremely impractical to be betting on spots all over a real-world table, since you may have to
+    reach over other people. These systems also often require betting odd amounts if there's any
+    Martingale-style "doubling-up" involved when you lose.
 </p>
 <p>
-    But if you're able to consolidate them using the Distributive Property of Roulette
+    But if you can consolidate your bets using the Distributive Property of Roulette
     Betting, you can often save time and prevent yourself from encroaching awkwardly into
-    other people's personal space.
+    other people's personal space. On a Roulette table,
+    <a href="https://www.urbandictionary.com/define.php?term=reacharound" target="_blank">reach-arounds</a>
+    are a bad thing.
 </p>
 <figure>
     <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/roulette-01-ceg-800x372.png" alt="Alex at CEG Dealer School bets $30 on the first two columns" />
@@ -349,33 +382,38 @@ published: true
         In CEG Dealer School's review of the system named
         <a href="https://www.youtube.com/watch?v=eZgHu0fdWTo&t=80s">"Diamond Heist"</a>, they bet $30
         across 6 corner bets that are spread evenly across the first two columns. They could have just
-        put $15 on Column 1 and $15 on Column 2, saving time and the dreaded "reach around" --
-        stretching their arms awkwardly across the felt and potentially annoying other players.
+        put $15 on Column 1 and $15 on Column 2, saving time and the dreaded "reach around" -
+        stretching their arms awkwardly across the felt and annoying other players.
     </figcaption>
 </figure>
 <p>
     A few days ago, The CEG Dealer School reviewed a Roulette system named
     <a href="https://www.youtube.com/watch?v=eZgHu0fdWTo&t=80s">"Diamond Heist"</a>, where they made
     6 corner bets that covered the entire first two columns. For the purposes of this post, we're
-    going to ignore the other bets involved.
+    going to ignore the other bets involved in this system.
 </p>
 <figure>
     <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/roulette-02-ceg-800x387.png" alt="6 Corner Bets covering the first two columns." />
     <figcaption>
-        The 6 bets in question
+        The 6 bets in question in the "Diamond Heist" Roulette system.
     </figcaption>
 </figure>
 <p>
-    So, there is $30 covering the first two columns evenly. This is the perfect candidate for consolidation!
-    Since there's no "Double Column" bet, we can instead place $15 on each of the first two column bets.
+    So, there is $30 covering the first two columns evenly (with a betting density of $1.25 per spot). This
+    is the perfect candidate for consolidation! Since there's no "Double Column" bet, we can instead place
+    $15 on each of the first two column bets.
 </p>
 <figure>
     <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/roulette-03-ceg-800x387.png" alt="These two $15 bets are easier to make." />
     <figcaption>
-        It's easier to make two $15 on one side of the felt rather than spread $30 all across the table.
+        It's easier to make two $15 on one side of the felt rather than spread $30 all across the table,
+        especially when the table is full.
     </figcaption>
 </figure>
 <p>
     We've saved ourselves some time and we've eliminated the awkward "reach-around"! This is what
     the Distributive Property of Roulette Betting is all about!
+</p>
+<p>
+    And it's important to understand this property before we advance to future topics. WIP FINISH THIS CONCLUSION
 </p>
