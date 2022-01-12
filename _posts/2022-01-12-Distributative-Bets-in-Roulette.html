@@ -4,7 +4,7 @@ title: "The Distributive Property of Roulette Betting"
 date: 2022-01-07 00:01:01 -0800
 author: Jack Hayes
 tags: [roulette,distributve property,CEG Dealer School,math]
-excerpt_image: /assets/img/posts/2022-01-12/roulette-00-title-800x600.png
+excerpt_image: /assets/img/posts/2022-01-12/00-title-800x600.png
 summary: ""
 comments: true
 math: true
@@ -24,10 +24,17 @@ published: true
     The Distributive Property of Roulette Betting states
 </p>
 <blockquote>
-    Betting $X on an n-number bet is equivalent to betting \($X \over n\) each of the n-numbers Straight-up.
+    Every multi-number bet (besides the 5-number bet) can be reconstructed by distributing the bet
+    amount equally amongst the numbers covered by the original bet.
 </blockquote>
 <p>
-    Which can be represented formulaically as
+    or in other words
+</p>
+<blockquote>
+    Betting $X on an n-number bet is equivalent to betting \($X \over n\) each of the n numbers Straight-up.
+</blockquote>
+<p>
+    which can be represented formulaically as
 </p>
 <p class="p-center">
     \({$X \times Payout_n} = n \times {$X \over n} \times Payout_1 \)
@@ -36,15 +43,15 @@ published: true
     Where \(\color{#8acdd8}Payout_n\) is the payout multiplier for an n-number bet (when \(n \neq 5\)).
 </p>
 <p>
-    And this is true for all variations of Roulette, including single-zero, double-zero, and the
-    <b>obnoxious</b> triple-zero wheels.
+    And this is true for all variations of Roulette, including single-zero, double-zero, and even the
+    <b>horrendous</b> triple-zero wheel.
 </p>
 <p>
     So betting $6 on the 6-number "Double Street" is equivalent to making six $1 bets on each of the
     covered numbers individually.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/double-street-6-6x1-600x333.png" alt="These two betting sets are equivalent" />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/01-DSt-SU-6-6x1-600x333.png" alt="These two betting sets are equivalent" />
     <figcaption>
         These two betting configurations are equivalent.
     </figcaption>
@@ -56,7 +63,7 @@ published: true
     <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />
     will
     result in a <span class="amt-neg">$6</span> loss. But what happens when we hit a number between
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> -
+    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> and
     <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />?
 </p>
 <p>
@@ -64,27 +71,27 @@ published: true
     <span class="amt-pos">$30</span>.
 </p>
 <p>
-    With the six $1 Straight-up bets, we will lose 5 of the $1 bets, but win $35 on the Straight-up
-    bet, for a net win of <span class="amt-pos">$30</span>.
+    With the six $1 Straight-up bets, we will lose five of the $1 bets, but one will win $35,
+    for a net win of <span class="amt-pos">$30</span>.
 </p>
 <p>
     So in <i>both</i> scenarios, we lose <span class="amt-neg">$6</span> when we miss and win
     <span class="amt-pos">$30</span> when we hit.
 </p>
 <p>
-    And this Distributive Property of Roulette Bets works with <i>any</i> combination of bets where the bets
-    are all uniform (besides the 5-number "Basket" bet). So you can consolidate three Straight-up bets into a
-    3-number Street bet. And you can consolidate four Straight-up bets into one 4-number Corner bet. You can
-    even consolidate two Street bets into a single Double Street bet.
+    This property works with any combination of bets where the bets are all uniform.
+    You can consolidate three Straight-up bets into a 3-number Street bet. You can
+    consolidate four Straight-up bets into one 4-number Corner bet. You can even consolidate
+    two Street bets into a single Double Street bet.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/all-equivalent-bets-600x666.png" alt="Valid decompositions of the $6 Double Street bet" />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/02-all-equivalent-bets-600x666.png" alt="Valid decompositions of the $6 Double Street bet" />
     <figcaption>
         These are all equivalent decompositions of the $6 Double Street bet.
     </figcaption>
 </figure>
 <p>
-    And this works for <i>all</i> bets with the exception of the 5-number Basket bet, which is a bet on
+    The only bet where this property does not apply is the 5-number "Basket" bet, which is a bet on
     the numbers
     <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" class="roulette-spot" alt="0 Green" />, 
     <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" class="roulette-spot" alt="00 Green" />, 
@@ -92,16 +99,103 @@ published: true
     <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />, and
     <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />.
 </p>
+
+<h2>Terminology</h2>
+<p>
+    If you've never heard of the <i>Distributive Property of Roulette Betting</i>, it's probably because I
+    literally just made it up. Recently, I've been analyzing Roulette betting systems and noticed how
+    a lot of them waste time by making you sprinkle bets needlessly all over the layout. I've never seen
+    this property formally discussed anywhere, so I thought I'd just give it a formal name.
+</p>
+<p>
+    I named it the Distributive Property because you're just taking the multi-number bet and distributing
+    it equally across the single-number bets.
+</p>
+<p>
+    Hopefuly, you've already read my post on the Basics of Roulette Math. In that post, I cover the names
+    of all the multi-number bets, so if you're not familiar with them, please read that post first. xxxxx
+</p>
+<p>
+    Before I tell you how this all works, let's go over some of the other terms
+    involved in this property.
+</p>
+
+<h3>Distribution/Decomposition</h3>
+<p>
+    <i>Distribution</i> or <i>Decomposition</i> is taking a multi-number bet and breaking it down into smaller bets,
+    often a series of "Straight-up" single-number bets.
+</p>
+<p>
+    It's also possible to distrubute a multi-number bet into smaller multi-number bets. For example, a $12
+    Double Street bet can be split into two $6 Street bets. Or it could be split into a $6 Street
+    bet and three $2 Straight-up bets. Or it could be split into an $8 Corner bet and a $4 Split bet.
+</p>
+<figure>
+    <a href="https://www.youtube.com/watch?v=CXDxNCzUspM" target="_blank"><img src="{{site.baseurl}}/assets/img/posts/2022-01-12/03-first-citiwide-change-bank-600x392.png" alt="We will work with you..." /></a>
+    <figcaption>
+        You can break down a multi-number bet in many different ways.
+    </figcaption>
+</figure>
+
+<h3>Consolidation</h3>
+<p>
+    <i>Consolidation</i> is "rolling-up" individual bets into a single bet with the same win/loss characteristics.
+    A typical consolidation is taking n number of $X Straight-up bets into a single $nx n-number bet. For example,
+    rolling up four $2 bets into a single $8 Corner bet.    
+</p>
+
+<h3>Density</h3>
+<p>
+    <i>Density</i> or <i>Betting Density</i> is the bet amount per spot once a multi-number bet has
+    been fully distributed to single-number bets. You can also think of this as the <i>equity</i> per spot.
+</p>
+<p>
+    In order for two betting scenarios to be equivalent, their betting density must be equal for the covered
+    area. For example, you can bet $6 on the
+    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> -
+    <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />
+    Double Street, but that would have a different density
+    compared to betting $3 on the 
+    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" />, 
+    <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />,
+    <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" class="roulette-spot" alt="4 Black" />,
+    <img src="{{site.baseurl}}/assets/img/roulette/5_r.svg" class="roulette-spot" alt="5 Red" />
+    Corner Bet in conjunction with a $3
+    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />, 
+    <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />
+    Split Bet. This implies that the two betting schemes are not equivalent and will pay out
+    differently when the numbers hit.
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/04-drake-600x766.png" alt="Drake knows what's up. Make sure the betting density is consistent, or Distributive Property won't apply." />
+    <figcaption>
+        For two betting schemes to be equivalent, their densities must be consistent. In this example,
+        the $3 + $3 bets are unevenly spread out even though the total amout bet is the same. The
+        overall payout will be higher if you hit the 
+        <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> or
+        <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" class="roulette-spot" alt="4 Black" />
+        (<span class="amt-pos">$48</span>) over hitting the 
+        <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />,
+        <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />, 
+        <img src="{{site.baseurl}}/assets/img/roulette/5_r.svg" class="roulette-spot" alt="5 Red" />, or
+        <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />,
+        (<span class="amt-pos">$21</span>).
+        With the $2 + $4 bets, the payout is consistently <span class="amt-pos">$30</span>, which is
+        identical to the payout for the $6 Double Street bet.
+    </figcaption>
+</figure>
+
 <h2>What is this Sorcery?</h2>
 <p>
     This all magically works out because all Roulette bets (besides that pesky 5-number bet) have the same
-    house edge (<span class="amt-bad">5.26%!</span>). This means if you bet the same amount on n spots, your Expected Value (EV) should be
-    <i>exactly the same</i> if you bet that same amount on an n-number bet. 
+    horrible house edge (<span class="amt-bad">5.26%</span> for double-zero!). This means if you bet the same
+    amount on n spots, your Expected Value (EV) should be <i>exactly the same</i> if you bet that same amount
+    on an n-number bet. 
 </p>
 <p>
-    And we can prove this mathematcially using one of the formulas I've introduced in my post on the
+    And we can prove this mathematcially using one of the formulas I introduced in my post on the
     <a href="{{site.baseurl}}/blog/2021/12/29/The-Basics-of-Roulette-Math/">Basics of Roulette Math</a>.
-    The payout for every bet in Roulette (besides the 5 number "Basket" bet) can be calculated by using
+    The payout for every bet in Roulette (besides the 5-number bet) can be calculated by using
     the formula:
 </p>
 <p class="p-center">
@@ -143,7 +237,7 @@ published: true
     \end{align}
 </p>
 <p>
-    Here's the formula applied to all 7 bet types (without the Basket bet):
+    Here's the formula applied to all 7 bet types (without the 5-number bet):
 </p>
 <table class="betting-system-table">
     <tr>
@@ -288,80 +382,6 @@ published: true
     Where <i>n</i> is the number of bets covered and the Betting Density is $1 per spot.
 </p>
 
-<h2>Terminology</h2>
-<p>
-    If you've never heard of the <i>Distributive Property of Roulette Betting</i>, it's probably because I
-    just made up the name. I've recently been analyzing some Roulette betting systems and realized how a lot
-    of them waste time by making you sprinkle bets needlessly all over the layout. I've never seen this
-    property formally discussed anywhere, so I thought I'd give it a name.
-</p>
-<p>
-    So, with that being said, let me also introduce you to some of the other terms involved in this property
-    that you may have already figured out.
-</p>
-
-<h3>Consolidation</h3>
-<p>
-    <i>Consolidation</i> is "rolling-up" individual bets into a single bet with the same win/loss characteristics.
-    A typical consolidation is taking n number of $X bets into a single $Nx n-number bet.
-</p>
-<h3>Distribution/Decomposition</h3>
-<p>
-    <i>Distribution</i> or <i>Decomposition</i> is taking a multi-number bet and breaking it down into smaller bets,
-    often a series of "Straight-up" single-number bets.
-</p>
-<p>
-    It's also possible to decompose a multi-number bet into smaller multi-number bets. For example, a $12
-    Double-Street bet can be decomposed into two $6 Street bets. Or it could be decomposed into a $6 Street
-    bet and three $2 Straight-up bets. Or it could be decomposed into an $8 Corner bet and a $4 Split bet.
-</p>
-<figure>
-    <a href="https://www.youtube.com/watch?v=CXDxNCzUspM" target="_blank"><img src="{{site.baseurl}}/assets/img/posts/2022-01-12/first-citiwide-change-bank-600x392.png" alt="We will work with you..." /></a>
-    <figcaption>
-        You can break down a multi-number bet in many different ways.
-    </figcaption>
-</figure>
-<h3>Density</h3>
-<p>
-    <i>Density</i> or <i>Betting Density</i> is the bet amount per spot once a multi-number bet has
-    been fully distributed to single-number bets. You can also think of this as the <i>equity</i> per spot.
-</p>
-<p>
-    In order for two betting scenarios to be equivalent, their betting density must be equal for the covered
-    area. For example, you can bet $6 on the
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> -
-    <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />
-    Double Street, but that would have a different density
-    compared to betting $3 on the 
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" />, 
-    <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />,
-    <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" class="roulette-spot" alt="4 Black" />,
-    <img src="{{site.baseurl}}/assets/img/roulette/5_r.svg" class="roulette-spot" alt="5 Red" />
-    Corner Bet in conjunction with a $3
-    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />, 
-    <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />
-    Split Bet. This implies that the two betting schemes are not equivalent and will pay out
-    differently when the numbers hit.
-</p>
-<figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/roulette-04-drake-1242x1586.png" alt="Drake knows what's up. Make sure the betting density is consistent, or Distributive Property won't apply." />
-    <figcaption>
-        The densities must be consistent. The $3 + $3 bets are unevenly spread out, so the overall payout
-        will be higher if you hit the 
-        <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> or
-        <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" class="roulette-spot" alt="4 Black" />
-        (<span class="amt-pos">$48</span>) over hitting the 
-        <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />,
-        <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />, 
-        <img src="{{site.baseurl}}/assets/img/roulette/5_r.svg" class="roulette-spot" alt="5 Red" />, or
-        <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />,
-        (<span class="amt-pos">$21</span>).
-        <br/>
-        With the $2 + $4 bets, the payout is consistently <span class="amt-pos">$30</span>, which is
-        identical to the payout for the $6 Double Street bet.
-    </figcaption>
-</figure>
-
 <h2>How can I make use of the Distributive Property of Roulette Betting?</h2>
 <p>
     I've been watching a lot of Roulette system reviews on
@@ -376,14 +396,13 @@ published: true
     Martingale-style "doubling-up" involved when you lose.
 </p>
 <p>
-    But if you can consolidate your bets using the Distributive Property of Roulette
-    Betting, you can often save time and prevent yourself from encroaching awkwardly into
-    other people's personal space. On a Roulette table,
-    <a href="https://www.urbandictionary.com/define.php?term=reacharound" target="_blank">reach-arounds</a>
-    are a bad thing.
+    If you can consolidate your bets using the Distributive Property of Roulette
+    Betting, you can often save time and prevent yourself from awkwardly reaching over
+    other people. On a Roulette table, reach-arounds are a bad thing.
 </p>
+<h3>Case Study: "Diamond Heist"</h3>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/roulette-01-ceg-800x372.png" alt="Alex at CEG Dealer School bets $30 on the first two columns" />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/05-ceg-dh-800x372.png" alt="Alex at CEG Dealer School bets $30 on the first two columns" />
     <figcaption>
         In CEG Dealer School's review of the system named
         <a href="https://www.youtube.com/watch?v=eZgHu0fdWTo&t=80s">"Diamond Heist"</a>, they bet $30
@@ -392,7 +411,6 @@ published: true
         stretching their arms awkwardly across the felt and annoying other players.
     </figcaption>
 </figure>
-<h3>Applications in the Real World</h3>
 <p>
     A few days ago, The CEG Dealer School reviewed a Roulette system named
     <a href="https://www.youtube.com/watch?v=eZgHu0fdWTo&t=80s" target="_blank">"Diamond Heist"</a>,
@@ -400,7 +418,7 @@ published: true
     post, we're going to ignore the other bets involved in this system.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/roulette-02-ceg-800x387.png" alt="6 Corner Bets covering the first two columns." />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/06-ceg-dh-800x387.png" alt="6 Corner Bets covering the first two columns." />
     <figcaption>
         The 6 bets in question in the "Diamond Heist" Roulette system.
     </figcaption>
@@ -411,7 +429,7 @@ published: true
     $15 on each of the first two column bets.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/roulette-03-ceg-800x387.png" alt="These two $15 bets are easier to make." />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/07-ceg-dh-800x387.png" alt="These two $15 bets are easier to make." />
     <figcaption>
         It's easier to make two $15 on one side of the felt rather than spread $30 all across the table,
         especially when the table is full.
@@ -426,9 +444,74 @@ published: true
     bet, for a net gain of <span class="amt-pos">$15</span>.
 </p>
 <p>
+    With the two column bets, you've concentrated your bets to one small section of the field, instead of
+    stretching across 2/3 of the inside betting area.
+</p>
+
+<h3>Case Study: "Not too Low, Not too High"</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/08-ceg-not-too-low-800x452.png" alt="Even more opportunities to consolidate!" />
+    <figcaption>
+        The <a href="https://www.youtube.com/watch?v=KQNx0Cczlvw">"Not too Low, Not too High"</a> system has
+        even more opportunities to consolidate your bets.
+    </figcaption>
+</figure>
+<p>
+    The CEG Dealer School crew also reviewed another system called
+    <a href="https://www.youtube.com/watch?v=KQNx0Cczlvw" target="_blank">"Not too Low, Not too High"</a>,
+    which has even <i>more</i> opportunities to consolidate.
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/09-ceg-not-too-low-800x387.png" alt="Hopefully you see the opportunities to consolidate pretty quickly." />
+    <figcaption>
+        This is the original version of the "Not too Low, Not too High" system, with three sets of
+        three $10 Splits that can be consolidated into three $30 Double Street bets.
+    </figcaption>
+</figure>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-12/10-ceg-not-too-low-800x387.png" alt="xxxxx" />
+    <figcaption>
+        Instead of making 11 bets covering 2/3 of the inside layout, we've consolidated the bets
+        into 4 bets along the inside/outside edge.
+    </figcaption>
+</figure>
+<p>
+    Once the
+    <img src="{{site.baseurl}}/assets/img/roulette/16_r.svg" class="roulette-spot" alt="16 Red" /> -
+    <img src="{{site.baseurl}}/assets/img/roulette/21_r.svg" class="roulette-spot" alt="21 Red" />
+    Double Street has been consolidated, you can redistribute it into two $15 Street bets. And once
+    you notice you have four Street Bets ($10, $15, $15, and $10), $10 of each Street Bet can be
+    rolled up into a single $40 bet on the 2nd Dozen, leaving two $5 Street Bets in the middle two
+    Streets. These are finally rolled up into a $10 Double Street bet, and we have reached our
+    final form.
+</p>
+<p>
+    If you check the payouts, you'll find that they are identical to the original system. You get paid
+    <span class="amt-pos">$10</span> for the
+    <img src="{{site.baseurl}}/assets/img/roulette/13_b.svg" class="roulette-spot" alt="13 Black" /> -
+    <img src="{{site.baseurl}}/assets/img/roulette/15_b.svg" class="roulette-spot" alt="15 Black" />
+    Street and the 
+    <img src="{{site.baseurl}}/assets/img/roulette/22_b.svg" class="roulette-spot" alt="22 Black" /> -
+    <img src="{{site.baseurl}}/assets/img/roulette/24_b.svg" class="roulette-spot" alt="24 Black" />
+    Street and <span class="amt-pos">$70</span> for the rest of the covered numbers.    
+</p>
+<p>
     We've saved ourselves some time and we've eliminated the awkward "reach-around"! This is what
     the Distributive Property of Roulette Betting is all about!
 </p>
+
+<h3>But wait, there's more!</h3>
 <p>
-    And it's important to understand this property before we advance to future topics. WIP FINISH THIS CONCLUSION
+    If you're an experienced Roulette player, most of this may seem obvious. However, if you're new
+    to Roulette, this may be a revalation to you.
+</p>
+<p>
+    Even though decomposing a bet may not <i>always</i> be possible because of table limits or chip
+    denominations, just <i>knowing</i> that splitting up a bet would not affect your win/loss results is
+    enough for us to move onto more complicated topics.
+</p>
+<p>
+    In the future we will discuss how we can use the Distributive Property of Roulette Betting to do
+    <i>more</i> than just save time and avoid awkwardness. We will use it to discover ways to reduce
+    your negative expected loss to the house.
 </p>
