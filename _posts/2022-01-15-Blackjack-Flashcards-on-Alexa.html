@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Blackjack Flashcards on Alexa!"
-date: 2022-01-11 00:01:01 -0800
+title: "Learn Basic Strategy with Blackjack Flashcards on Alexa!"
+date: 2022-01-15 00:01:01 -0800
 author: Jack Hayes
 tags: [blackjack,flashcards,basic strategy,alexa,amazon echo]
-excerpt_image: /assets/img/posts/2022-01-13/00-title-800x600.png
+excerpt_image: /assets/img/posts/2022-01-15/00-title-800x600.png
 summary: "Test yourself on Blackjack Basic Strategy using Alexa!"
 comments: true
 published: true
@@ -26,8 +26,10 @@ published: true
     assistant, making information easily available by just asking it questions.
 </p>
 <p>
-    And the Echo has a bunch of third-party "skills" built by companies and independent developers
-    that allow custom responses to certain phrases and questions.
+    In addition to the built-in functionality of handling basic commands (getting the weather,
+    playing songs, or controlling smart appliances), the Echo has access to a bunch of third-party
+    "skills" built by companies and independent developers that provide custom responses to
+    certain phrases and questions.
 </p>
 
 <h2>The JackAce Flashcards Skill</h2>
@@ -45,16 +47,16 @@ published: true
     Alexa, open "JackAce Flashcards"
 </blockquote>
 
-<h2>Skill modes</h2>
-<h3>Review mode</h3>
+<h2>Skill Modes</h2>
+<h3>Review Mode</h3>
 <p>
     You can review all the 281 Blackjack decisions in this mode. Alexa will say the player hand and
     dealer's upcard. After a (very short) pause, she will reveal the correct action.
 </p>
-<h3>Test mode</h3>
+<h3>Test Mode</h3>
 <p>
     This is the mode you most likely want to use. Alexa will say the player hand and dealer upcard
-    and will wait for you to answer. Correct actions are one of the following:
+    and will wait for you to answer. Correct responses are one of the following:
     <ul>
         <li>
             Hit
@@ -73,10 +75,17 @@ published: true
         </li>
     </ul>
 </p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-15/01-alexa-screenshot-800x450.png" alt="The JackAce Flashcard skill in action" />
+    <figcaption>
+        Get quizzed on your knowledge of Blackjack Basic Strategy from your Amazon Echo or Echo Show.
+    </figcaption>
+</figure>
 <h2>What about other Table Conditions?</h2>
 <p>
-    Right now, the skill only supports Multiple Deck (4+) and Dealer Stands on Soft 17. In the future,
-    we may add more rule variations.
+    Right now, the skill only supports
+    <a href="{{site.baseurl}}/gambling/blackjack/systems/basic-strategy/charts/MD_S17/">Multiple Deck (4+) and Dealer Stands on Soft 17</a>.
+    In the future, we may add more rule variations.
 </p>
 <h2>Known Issues</h2>
 <p>
@@ -87,7 +96,7 @@ published: true
     You've created a skill!
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-13/01-amazon-blueprints-800x554.png" alt="Amazon Blueprints for Alexa" />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-15/02-amazon-blueprints-800x554.png" alt="Amazon Blueprints for Alexa" />
     <figcaption>
         There dozens of Alexa skill templates to choose from.
     </figcaption>
@@ -98,7 +107,15 @@ published: true
     lot of weirdness when you get an answer wrong or ask Alexa to repeat herself.
 </p>
 <p>
-    In the future, I may create a fully developed Alexa Skill, which keeps track of incorrect
-    responses and re-quizzes you in problem areas to help commit the correct actions to memory, but
-    for now, please enjoy JackAce Flashcards as is, warts and all!
+    I've also "dumbed down" some of the responses in order to keep the responses simple. For situations
+    where the correct response might be "Double Down if possible, otherwise Hit", I've decided to just
+    accept the response "Double Down". And for the Soft 18 totals, I also just accept "Double Down"
+    instead of looking for "Double Down if possible, otherwise Stand".
+</p>
+<p>
+    In the future, I may create a fully developed Alexa Skill, but until then please enjoy this first
+    version of the <i>JackAce Flashcards</i> skill!
+</p>
+<p>
+    Have some suggestions? Comment below!
 </p>
