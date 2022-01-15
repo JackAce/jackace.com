@@ -1,0 +1,121 @@
+---
+layout: post
+title: "Learn Basic Strategy with Blackjack Flashcards on Alexa!"
+date: 2022-01-15 00:01:01 -0800
+author: Jack Hayes
+tags: [blackjack,flashcards,basic strategy,alexa,amazon echo]
+excerpt_image: /assets/img/posts/2022-01-15/00-title-800x600.png
+summary: "Test yourself on Blackjack Basic Strategy using Alexa!"
+comments: true
+published: true
+---
+
+<img src="{{site.baseurl}}{{page.excerpt_image}}" class="excerpt-image" />
+<br/>
+<p>
+    In addition to quizzing yourself using
+    <a href="{{site.baseurl}}/blog/2021/12/05/Learn-Blackjack-in-your-Sleep/">Soundcloud</a> and
+    <a href="{{site.baseurl}}/blog/2022/01/06/Blackjack-Video-Flashcards/">YouTube</a>, you
+    can now test your Blackjack skills on the Amazon Echo!
+</p>
+
+<p>
+    If you're not familiar with the
+    <a href="https://www.amazon.com/Echo-Show-5-2nd-Gen-2021-release/dp/B08J8FFJ8H/" target="_blank">Amazon Echo</a>
+    (sometimes referred to as "Alexa"), it's a voice-activated speaker that acts a virtual
+    assistant, making information easily available by just asking it questions.
+</p>
+<p>
+    In addition to the built-in functionality of handling basic commands (getting the weather,
+    playing songs, or controlling smart appliances), the Echo has access to a bunch of third-party
+    "skills" built by companies and independent developers that provide custom responses to
+    certain phrases and questions.
+</p>
+
+<h2>The JackAce Flashcards Skill</h2>
+<p>
+    The JackAce Flashcards skill is an extension of my development of
+    <a href="{{site.baseurl}}/blog/2021/12/05/Learn-Blackjack-in-your-Sleep/">audio</a> and
+    <a href="{{site.baseurl}}/blog/2022/01/06/Blackjack-Video-Flashcards/">video</a>
+    flashcards. With this skill however, you will have the added benefit of being able to answer
+    the question and have the Echo correct you when you are wrong.
+</p>
+<p>
+    To open the skill, just say,
+</p>
+<blockquote>
+    Alexa, open "JackAce Flashcards"
+</blockquote>
+
+<h2>Skill Modes</h2>
+<h3>Review Mode</h3>
+<p>
+    You can review all the 281 Blackjack decisions in this mode. Alexa will say the player hand and
+    dealer's upcard. After a (very short) pause, she will reveal the correct action.
+</p>
+<h3>Test Mode</h3>
+<p>
+    This is the mode you most likely want to use. Alexa will say the player hand and dealer upcard
+    and will wait for you to answer. Correct responses are one of the following:
+    <ul>
+        <li>
+            Hit
+        </li>
+        <li>
+            Stand
+        </li>
+        <li>
+            Double Down
+        </li>
+        <li>
+            Split
+        </li>
+        <li>
+            Surrender if possible, otherwise Hit
+        </li>
+    </ul>
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-15/01-alexa-screenshot-800x450.png" alt="The JackAce Flashcard skill in action" />
+    <figcaption>
+        Get quizzed on your knowledge of Blackjack Basic Strategy from your Amazon Echo or Echo Show.
+    </figcaption>
+</figure>
+<h2>What about other Table Conditions?</h2>
+<p>
+    Right now, the skill only supports
+    <a href="{{site.baseurl}}/gambling/blackjack/systems/basic-strategy/charts/MD_S17/">Multiple Deck (4+) and Dealer Stands on Soft 17</a>.
+    In the future, we may add more rule variations.
+</p>
+<h2>Known Issues</h2>
+<p>
+    I slapped this skill together using
+    <a href="https://blueprints.amazon.com/" target="_blank">Amazon's "Blueprints" site</a>. It
+    has a bunch of different Alexa skill templates that you can use off-the-shelf without any
+    programming or deploying of services. Choose a template, fill out a form, and <i>BAM</i> -
+    You've created a skill!
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-15/02-amazon-blueprints-800x554.png" alt="Amazon Blueprints for Alexa" />
+    <figcaption>
+        There dozens of Alexa skill templates to choose from.
+    </figcaption>
+</figure>
+<p>
+    But the downside to this simplicity is that the templates are <b>extremely</b> rigid. You can't
+    supply a list of acceptable answers (e.g. "Double" in addition to "Double Down"), and there is a
+    lot of weirdness when you get an answer wrong or ask Alexa to repeat herself.
+</p>
+<p>
+    I've also "dumbed down" some of the responses in order to keep the responses simple. For situations
+    where the correct response might be "Double Down if possible, otherwise Hit", I've decided to just
+    accept the response "Double Down". And for the Soft 18 totals, I also just accept "Double Down"
+    instead of looking for "Double Down if possible, otherwise Stand".
+</p>
+<p>
+    In the future, I may create a fully developed Alexa Skill, but until then please enjoy this first
+    version of the <i>JackAce Flashcards</i> skill!
+</p>
+<p>
+    Have some suggestions? Comment below!
+</p>
