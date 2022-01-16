@@ -2,16 +2,43 @@
 h1 {
     font-size: 28px;
 }
-li {
-    list-style-type: none;
+h1, h2, h3, h4, h5, h6 {
+    color: #2da5b8;
 }
 th {
+    color: #2da5b8;
     font-size: 12px;
     padding: 0px;
 }
 td {
     font-size: 12px;
     padding: 0px;
+}
+figure {
+    // display: block;
+    // margin-left: auto;
+    // margin-right: auto;
+    width: 90%;
+}
+figcaption {
+    margin-top: 2px;
+    color: #666;
+    font-style: italic;
+    .roulette-spot {
+        width: 28px;
+        height: 18px;
+    }
+}
+b, i {
+    color: #8acdd8;
+}
+.post-content {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Roboto Slab', 'Noto Serif SC', 'Noto Serif TC';
+    }
+}
+.post-title {
+    font-family: 'Roboto Slab', 'Noto Serif SC', 'Noto Serif TC';
 }
 
 .copyright {
@@ -23,13 +50,22 @@ td {
 
 .amt-pos {
     color: #0f0;
-  }
+}
 .amt-neg {
     color: #f00;
 }
 .amt-0 {
     color: #ccc;
     font-style: italic;
+}
+.amt-bad {
+    color: #f00;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.p-center {
+    text-align: center;
 }
 .cell-center {
     text-align: center;
@@ -38,6 +74,7 @@ td {
 .cell-stats {
     background-color: #333;
     font-weight: bold;
+    font-size: 20px !important;
 }
 .blog-list-title {
     font-size: 30px;
@@ -77,6 +114,24 @@ td {
 }
 .betting-system-table {
     width: 70%;
+    th {
+        padding: 4px;
+        font-size: 16px;
+    }
+    td {
+        padding: 4px;
+        font-size: 16px;
+    }
+    img {
+        margin: 0px;
+        min-width: 40px;
+        min-height: 20px;
+    }
+}
+.condensed-table {
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
     th {
         padding: 4px;
         font-size: 16px;
