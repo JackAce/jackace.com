@@ -1,0 +1,1252 @@
+---
+layout: page-no-sidebar
+title: "Roulette Bet Analyzer"
+---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+  var indexes = ['0', '00', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36']
+
+  $(document).ready(function() {
+    addEventHandlers();
+    updateUi();
+  });
+
+  function clearAll() {
+    $('input').each(function() {
+      if (this.type === 'text') {
+        this.value = '';
+      }
+    });
+    
+    updateUi();
+  }
+
+  function addEventHandlers() {
+    $(document).on('change', 'input', updateUi);
+  }
+
+  function updateUi() {
+    var totalBet = 0;
+    var equityTable = [];
+    var winTable = [];
+    var totalNumbersCovered = 0;
+    
+    var showBasketBetWarning = false;
+    var show36NumberBetWarning = false;
+
+    $('#warningBasketBetRow').attr('class', 'hiddenRow');
+    $('#warning36NumbersBetRow').attr('class', 'hiddenRow');
+
+    // Loop through all inputs
+    $('input').each(function() {
+      var currentBet = parseBet(this);
+    
+      if (currentBet.amount > 0) {
+        totalBet += currentBet.amount
+        
+        for (var i = 0; i < currentBet.coveredNumbers.length; i++) {
+          var currentNumber = currentBet.coveredNumbers[i];
+          if (!equityTable[currentNumber]) {
+            equityTable[currentNumber] = 0.0;
+            totalNumbersCovered++;
+          }
+          var currentEquity = parseFloat(equityTable[currentNumber]);
+
+          if (currentBet.numberCount === 5) {
+            // You get short changed on the 5-number bet
+            showBasketBetWarning = true;
+            equityTable[currentNumber] += currentBet.amount * 35.0/180.0;
+          }
+          else {
+            equityTable[currentNumber] += currentBet.amount / currentBet.numberCount;
+          }
+        }
+      }
+    });
+    
+    show36NumberBetWarning = totalNumbersCovered > 35;
+    
+    if (showBasketBetWarning) {
+      $('#warningBasketBetRow').attr('class', '');
+    }
+    if (show36NumberBetWarning) {
+      $('#warning36NumbersBetRow').attr('class', '');
+    }
+
+    for (var i = 0; i < 38; i++) {
+      // Clear out equity divs
+      $('#eq-' + indexes[i]).text('');
+  
+      // Set win divs
+      if (totalBet > 0) {
+        $('#win-' + indexes[i]).text(-totalBet);
+        $('#win-' + indexes[i]).attr('class', 'amt-neg');
+      }
+      else {
+        $('#win-' + indexes[i]).text('');
+        $('#win-' + indexes[i]).attr('class', '');
+      }
+    }
+
+    for (const [key, value] of Object.entries(equityTable)) {
+      var truncatedValue = value.toFixed(2);
+      $('#eq-' + key).text(truncatedValue);
+    }
+
+    for (const [key, value] of Object.entries(equityTable)) {
+      var win = (36 * value) - totalBet;
+      $('#win-' + key).text(win);
+      
+      if (win > 0) {
+        $('#win-' + key).attr('class', 'amt-pos');
+      }
+      else if (win < 0) {
+        console.log('key: ' + key);
+        $('#win-' + key).attr('class', 'amt-neg');
+      }
+      else {
+        $('#win-' + key).attr('class', 'amt-0');
+      }
+    }
+
+    $('#totalAmountBetDiv').text(totalBet);
+  }
+
+  function parseBet(inputElement) {
+    var parts = inputElement.id.split("-");
+    var numberCount = getNumberCount(parts[1]);
+    var payout = getPayout(parts[1]);
+    var coveredNumbers = getCoveredNumbers(parts[1], parts[2]);
+    // TODO: parseFloat on the amount?
+    var amount = parseInt(inputElement.value);
+    
+    return {
+      identifier: parts[2],
+      numberCount: numberCount,
+      payout: payout,
+      coveredNumbers: coveredNumbers,
+      amount: amount
+    }
+  }
+
+  function getNumberCount(xType) {
+    return parseInt(xType.substring(1));
+  }
+
+  function getPayout(xType) {
+    switch (xType) {
+      case 'x1':
+        return 35;
+      case 'x2':
+        return 17;
+      case 'x3':
+        return 11;
+      case 'x4':
+        return 8;
+      case 'x5':
+        return 6;
+      case 'x6':
+        return 5;
+      case 'x12':
+        return 2;
+      case 'x18':
+        return 1;
+    }
+    
+    return 0;
+  }
+
+  function getCoveredNumbers(xType, identifier) {
+    var parsedValue = parseInt(identifier);
+    switch (xType) {
+      case 'x1':
+        return [identifier];
+      case 'x2':
+        return identifier.split('_');
+      case 'x3':
+        return [(parsedValue).toString(), (parsedValue + 1).toString(), (parsedValue + 2).toString()];
+      case 'x4':
+        return [(parsedValue).toString(), (parsedValue + 1).toString(), (parsedValue + 3).toString(), (parsedValue + 4).toString() ];
+      case 'x5':
+        return ['0', '00', '1', '2', '3'];
+      case 'x6':
+        return [(parsedValue).toString(), (parsedValue + 1).toString(), (parsedValue + 2).toString(), (parsedValue + 3).toString(), (parsedValue + 4).toString() , (parsedValue + 5).toString() ];
+      case 'x12':
+        return getCoveredNumbersX12(identifier);
+      case 'x18':
+        return getCoveredNumbersX18(identifier);
+    }
+    
+    return [];
+  }
+
+  function getCoveredNumbersX12(identifier) {
+    switch (identifier) {
+      case 'd1':
+        return ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
+      case 'd2':
+        return ['13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24'];
+      case 'd3':
+        return ['25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36'];
+      case 'c1':
+        return ['1', '4', '7', '10', '13', '16', '19', '22', '25', '28', '31', '34'];
+      case 'c2':
+        return ['2', '5', '8', '11', '14', '17', '20', '23', '26', '29', '32', '35'];
+      case 'c3':
+        return ['3', '6', '9', '12', '15', '18', '21', '24', '27', '30', '33', '36'];
+    }
+    
+    return [];
+  }
+
+  function getCoveredNumbersX18(identifier) {
+    switch (identifier) {
+      case 'h1':
+        return ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18'];
+      case 'h2':
+        return ['19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36'];
+      case 'even':
+        return ['2', '4', '6', '8', '10', '12', '14', '16', '18', '20', '22', '24', '26', '28', '30', '32', '34', '36'];
+      case 'odd':
+        return ['1', '3', '5', '7', '9', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35'];
+      case 'red':
+        return ['1', '3', '5', '7', '9', '12', '14', '16', '18', '19', '21', '23', '25', '27', '30', '32', '34', '36'];
+      case 'black':
+        return ['2', '4', '6', '8', '10', '11', '13', '15', '17', '20', '22', '24', '26', '28', '29', '31', '33', '35'];
+    }
+    
+    return [];
+  }
+//]]>
+</script>
+
+<h1>{{page.title}}</h1>
+
+<p>
+  Click on the betting layout and type in the bet for that area. You can click between numbers for Split and Corner bets.
+  You can click above the Dozens bets for Street and Double Street bets.
+</p>
+
+<div class="roulette">
+
+  <table class="roulette-felt">
+    <tr>
+      <th class="col-margin">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <td class="col-gap">
+  
+      </td>
+      <th class="col-spot">
+      </th>
+      <th class="col-spot">
+        &nbsp;
+      </th>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td colspan="26">
+        <br />
+        <a href="#" id="clearAllLink" onclick="clearAll();" class="clear-all-link">Clear All Bets</a>
+        <br /><br />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" colspan="27">
+        &nbsp;
+      </td>
+    </tr>
+    <tr id="warningBasketBetRow" class="hiddenRow">
+      <td class="cell-blank" />
+      <td colspan="26">
+        <div id="warningBasketBetDiv" class="warningDiv">
+          WARNING: NEVER BET THE 5-NUMBER BASKET BET!
+        </div>
+      </td>
+    </tr>
+    <tr id="warning36NumbersBetRow" class="hiddenRow">
+      <td class="cell-blank" />
+      <td colspan="26">
+        <div id="warning36NumbersBetDiv" class="warningDiv">
+          WARNING: NEVER BET MORE THAN 35 NUMBERS
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td rowspan="2" class="spot-green">
+        <input type="text" id="b-x1-00" placeholder="00" class="x1" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <input type="text" id="b-x1-3" placeholder="3" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-3_6" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-6" placeholder="6" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-6_9" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-9" placeholder="9" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-9_12" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-12" placeholder="12" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-12_15" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-15" placeholder="15" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-15_18" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-18" placeholder="18" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-18_21" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-21" placeholder="21" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-21_24" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-24" placeholder="24" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-24_27" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-27" placeholder="27" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-27_30" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-30" placeholder="30" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-30_33" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-33" placeholder="33" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-33_36" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-36" placeholder="36" class="x1" />
+      </td>
+      <td class="spot-purple">
+        <input type="text" id="b-x12-c3" placeholder="3rd Col" class="x12" />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="spot-split">
+        <input type="text" id="b-x2-2_3" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-2" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-5_6" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-5" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-8_9" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-8" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-11_12" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-11" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-14_15" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-14" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-17_18" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-17" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-20_21" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-20" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-23_24" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-23" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-26_27" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-26" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-29_30" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-29" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-32_33" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-32" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-35_36" class="x2" />
+      </td>
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="spot-split">
+        <input type="text" id="b-x2-0_00" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <input type="text" id="b-x1-2" placeholder="2" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-2_5" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-5" placeholder="5" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-5_8" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-8" placeholder="8" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-8_11" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-11" placeholder="11" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-11_14" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-14" placeholder="14" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-14_17" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-17" placeholder="17" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-17_20" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-20" placeholder="20" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-20_23" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-23" placeholder="23" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-23_26" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-26" placeholder="26" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-26_29" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-29" placeholder="29" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-29_32" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-32" placeholder="32" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-32_35" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-35" placeholder="35" class="x1" />
+      </td>
+      <td class="spot-purple">
+        <input type="text" id="b-x12-c2" placeholder="2nd Col" class="x12" />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td rowspan="2" class="spot-green">
+        <input type="text" id="b-x1-0" placeholder="0" class="x1" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-split">
+        <input type="text" id="b-x2-1_2" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-4_5" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-4" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-7_8" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-7" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-10_11" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-10" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-13_14" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-13" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-16_17" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-16" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-19_20" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-19" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-22_23" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-22" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-25_26" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-25" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-28_29" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-28" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-31_32" class="x2" />
+      </td>
+      <td class="spot-corner">
+        <input type="text" id="b-x4-31" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-34_35" class="x2" />
+      </td>
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <input type="text" id="b-x1-1" placeholder="1" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-1_4" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-4" placeholder="4" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-4_7" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-7" placeholder="7" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-7_10" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-10" placeholder="10" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-10_13" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-13" placeholder="13" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-13_16" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-16" placeholder="16" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-16_19" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-19" placeholder="19" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-19_22" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-22" placeholder="22" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-22_25" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-25" placeholder="25" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-25_28" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-28" placeholder="28" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-28_31" class="x2" />
+      </td>
+      <td class="spot-black">
+        <input type="text" id="b-x1-31" placeholder="31" class="x1" />
+      </td>
+      <td class="spot-split">
+        <input type="text" id="b-x2-31_34" class="x2" />
+      </td>
+      <td class="spot-red">
+        <input type="text" id="b-x1-34" placeholder="34" class="x1" />
+      </td>
+      <td class="spot-purple">
+        <input type="text" id="b-x12-c1" placeholder="1st Col" class="x12" />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="spot-basket">
+        <input type="text" id="b-x5-basket" class="x5" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-1" class="x3" />
+      </td>
+      <td class="spot-double-street">
+        <input type="text" id="b-x6-1" class="x6" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-4" class="x3" />
+      </td>
+      <td class="spot-double-street">
+        <input type="text" id="b-x6-4" class="x6" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-7" class="x3" />
+      </td>
+      <td class="spot-double-street">
+        <input type="text" id="b-x6-7" class="x6" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-10" class="x3" />
+      </td>
+      <td class="spot-double-street">
+        <input type="text" id="b-x6-10" class="x6" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-13" class="x3" />
+      </td>
+      <td class="spot-double-street">
+        <input type="text" id="b-x6-13" class="x6" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-16" class="x3" />
+      </td>
+      <td class="spot-double-street">
+        <input type="text" id="b-x6-16" class="x6" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-19" class="x3" />
+      </td>
+      <td class="spot-double-street">
+        <input type="text" id="b-x6-19" class="x6" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-22" class="x3" />
+      </td>
+      <td class="spot-double-street">
+        <input type="text" id="b-x6-22" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-25" class="x3" />
+      </td>
+      <td class="spot-double-street">
+        <input type="text" id="b-x6-25" class="x6" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-28" class="x3" />
+      </td>
+      <td class="spot-double-street">
+        <input type="text" id="b-x6-28" class="x6" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-31" class="x3" />
+      </td>
+      <td class="spot-double-street">
+        <input type="text" id="b-x6-31" class="x6" />
+      </td>
+      <td class="spot-street">
+        <input type="text" id="b-x3-34" class="x3" />
+      </td>
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td colspan="7" class="spot-purple">
+        <input type="text" id="b-x12-d1" placeholder="1st Doz" class="x12" />
+      </td>
+      <td class="cell-blank" />
+      <td colspan="7" class="spot-purple">
+        <input type="text" id="b-x12-d2" placeholder="2nd Doz" class="x12" />
+      </td>
+      <td class="cell-blank" />
+      <td colspan="7" class="spot-purple">
+        <input type="text" id="b-x12-d3" placeholder="3rd Doz" class="x12" />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td colspan="3" class="spot-orange">
+        <input type="text" id="b-x18-h1" placeholder="1-18" class="x18" />
+      </td>
+      <td class="cell-blank" />
+      <td colspan="3" class="spot-orange">
+        <input type="text" id="b-x18-even" placeholder="EVEN" class="x18" />
+      </td>
+      <td class="cell-blank" />
+      <td colspan="3" class="spot-red">
+        <input type="text" id="b-x18-red" placeholder="RED" class="x18" />
+      </td>
+      <td class="cell-blank" />
+      <td colspan="3" class="spot-black">
+        <input type="text" id="b-x18-black" placeholder="BLACK" class="x18" />
+      </td>
+      <td class="cell-blank" />
+      <td colspan="3" class="spot-orange">
+        <input type="text" id="b-x18-odd" placeholder="ODD" class="x18" />
+      </td>
+      <td class="cell-blank" />
+      <td colspan="3" class="spot-orange">
+        <input type="text" id="b-x18-h2" placeholder="19-36" class="x18" />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" colspan="27">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td colspan="26" class="section-title">
+        Total Amount Bet
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td colspan="26" class="section-title">
+        <div id="totalAmountBetDiv" />&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" colspan="27">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td colspan="26" class="section-title">
+        Win/Loss per Spot
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" colspan="27">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="win-green">
+        <div id="win-00" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-3" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-6" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-9" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-12" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-15" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-18" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-21" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-24" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-27" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-30" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-33" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-36" class="win" />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" colspan="27">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-2" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-5" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-8" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-11" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-14" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-17" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-20" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-23" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-26" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-29" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-32" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-35" class="win" />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" colspan="27">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="win-green">
+        <div id="win-0" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-1" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-4" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-7" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-10" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-13" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-16" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-19" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-22" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-25" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-28" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-black">
+        <div id="win-31" class="win" />
+      </td>
+      <td class="cell-blank" />
+      <td class="win-red">
+        <div id="win-34" class="win" />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" colspan="27">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td colspan="26" class="section-title">
+        Equity per Spot
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" colspan="27">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="spot-green">
+        <div id="eq-00" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-3" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-6" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-9" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-12" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-15" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-18" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-21" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-24" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-27" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-30" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-33" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-36" class="eq" />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" colspan="27">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-2" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-5" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-8" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-11" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-14" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-17" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-20" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-23" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-26" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-29" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-32" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-35" class="eq" />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" colspan="27">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td class="spot-green">
+        <div id="eq-0" class="eq" />
+      </td>
+      <td class="cell-blank" />
+        <td class="spot-red">
+        <div id="eq-1" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-4" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-7" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-10" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-13" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-16" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-19" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-22" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-25" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-28" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-black">
+        <div id="eq-31" class="eq" />
+      </td>
+      <td class="cell-blank" />
+      <td class="spot-red">
+        <div id="eq-34" class="eq" />
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-blank" colspan="27">
+        &nbsp;
+      </td>
+    </tr>
+  </table>
+  
+</div>
+
+<p>
+  The <b>Win/Loss per Spot</b> section shows how much you will win or lose for each result.
+</p>
+<p>
+  The <b>Equity per Spot</b> section shows how much you can bet on each number Straight-up instead of betting
+  on multi-number bets.
+</p>
