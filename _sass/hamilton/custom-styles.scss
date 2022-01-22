@@ -334,28 +334,46 @@ b, i {
         }
         
         .win-green {
+            width: 35px;
+            max-width: 35px;
         background-color: #242;
         height: 35px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         }
         .win-red {
+            width: 35px;
+            max-width: 35px;
         background-color: #622;
         height: 35px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         }
         .win-black {
+            width: 35px;
+            max-width: 35px;
         background-color: #222;
         height: 35px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         }
         
         .col-spot {
-        width: 35px;
-        background-color: #939;
+            width: 35px;
+            max-width: 35px;
+            background-color: #939;
         }
         .col-gap {
-        width: 20px;
-        background-color: #939;
+            width: 20px;
+            max-width: 20px;
+            background-color: #939;
         }
         .col-margin {
             width: 20px;
+            max-width: 20px;
             background-color: #939;
         }
         .cell-blank {

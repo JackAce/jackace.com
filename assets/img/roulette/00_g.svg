@@ -61,8 +61,8 @@
             font-weight: bold;
             text-anchor: middle;
             fill: #fff;
-            stroke: #333;
-            stroke-width: 3px;
+            stroke: #696;
+            stroke-width: 7px;
           }
           .outsideText {
             font-family: Garamond, Times New Roman, Georgia;
