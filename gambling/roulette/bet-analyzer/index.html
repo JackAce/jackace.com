@@ -29,11 +29,12 @@ title: "Roulette Bet Analyzer"
   function updateUi() {
     var totalBet = 0;
     var equityTable = [];
-    var winTable = [];
+    //var winTable = [];
     var totalNumbersCovered = 0;
     
     var showBasketBetWarning = false;
     var show36NumberBetWarning = false;
+    var basketBet = 0;
 
     $('#warningBasketBetRow').attr('class', 'hiddenRow');
     $('#warning36NumbersBetRow').attr('class', 'hiddenRow');
@@ -56,6 +57,7 @@ title: "Roulette Bet Analyzer"
           if (currentBet.numberCount === 5) {
             // You get short changed on the 5-number bet
             showBasketBetWarning = true;
+            basketBet = currentBet.amount;
             equityTable[currentNumber] += currentBet.amount * 35.0/180.0;
           }
           else {
@@ -95,14 +97,21 @@ title: "Roulette Bet Analyzer"
     }
 
     for (const [key, value] of Object.entries(equityTable)) {
-      var win = (36 * value) - totalBet;
-      $('#win-' + key).text(win);
+      var win = ((36 * value) - totalBet).toFixed(2);
+      var winText = win.toString();
+
+      if (winText.indexOf('.00') > -1) {
+        // Truncate anything with zero cents
+        winText = winText.replace('.00', '');
+      }
+
+      $('#win-' + key).text(winText);
       
       if (win > 0) {
         $('#win-' + key).attr('class', 'amt-pos');
       }
       else if (win < 0) {
-        console.log('key: ' + key);
+        //console.log('key: ' + key);
         $('#win-' + key).attr('class', 'amt-neg');
       }
       else {
@@ -111,6 +120,16 @@ title: "Roulette Bet Analyzer"
     }
 
     $('#totalAmountBetDiv').text(totalBet);
+
+    if (!showBasketBetWarning) {
+      // Simple calculation of house advantage
+      $('#totalExpectedValueDiv').text((- totalBet * 0.0526).toFixed(2));
+    } else {
+      // Complicated calculation because of 5-number bet
+      var otherBets = totalBet - basketBet;
+      var totalLoss = 0.0526 * otherBets + 0.0789 * basketBet;
+      $('#totalExpectedValueDiv').text((-totalLoss).toFixed(2));
+    }
   }
 
   function parseBet(inputElement) {
@@ -303,7 +322,7 @@ title: "Roulette Bet Analyzer"
     </tr>
     <tr>
       <td class="cell-blank" />
-      <td colspan="26">
+      <td class="cell-blank" colspan="26">
         <br />
         <a href="#" id="clearAllLink" onclick="clearAll();" class="clear-all-link">Clear All Bets</a>
         <br /><br />
@@ -854,14 +873,20 @@ title: "Roulette Bet Analyzer"
     </tr>
     <tr>
       <td class="cell-blank" />
-      <td colspan="26" class="section-title">
+      <td colspan="13" class="section-title">
         Total Amount Bet
+      </td>
+      <td colspan="13" class="section-title">
+        Expected Result per Spin
       </td>
     </tr>
     <tr>
       <td class="cell-blank" />
-      <td colspan="26" class="section-title">
-        <div id="totalAmountBetDiv" />&nbsp;
+      <td colspan="13" class="section-title">
+        <div id="totalAmountBetDiv" />
+      </td>
+      <td colspan="13" class="section-title">
+        <div id="totalExpectedValueDiv" class="amt-neg" />
       </td>
     </tr>
     <tr>
