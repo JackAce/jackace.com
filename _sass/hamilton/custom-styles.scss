@@ -146,3 +146,228 @@ b, i {
         min-height: 20px;
     }
 }
+
+.site-wide {
+    width: 100%;
+}
+
+.roulette {
+    background-color: #939;
+    td, th {
+        font-family: Arial;
+        font-size: 10px;
+        text-align: center;
+        border: 0px;
+        padding: 0px;
+    }
+
+    table {
+        border-collapse: collapse;
+        border: 0px;
+        padding: 0px;
+    }
+        
+    input {
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+        border: hidden;
+    }
+        
+    ::placeholder {
+        color: #fff;
+        font-size: 20px;
+        opacity: 0.5;
+    }
+        
+        .hiddenRow {
+        display: none;
+        }
+        .warningDiv {
+        color: #f00;
+        font-size: 30px;
+        background-color: #fff;
+        padding: 20px;
+        }
+        
+        .clear-all-link {
+            font-size: 12px;
+            background-color: #ccc;
+            border: solid 1px #2d3339;
+            padding: 6px 10px;
+            text-decoration: none;
+        }
+        
+        .x1 {
+        width: 30px;
+        height: 30px;
+        }
+        .x2 {
+        width: 18px;
+        height: 18px;
+        }
+        .x3 {
+        width: 30px;
+        height: 18px;
+        }
+        .x4 {
+        width: 18px;
+        height: 18px;
+        }
+        .x12 {
+        width: 80px;
+        height: 30px;
+        }
+        .x18 {
+        width: 75px;
+        height: 30px;
+        }
+        
+        .roulette-felt {
+        background-color: #939;
+        }
+        
+        input:focus {
+        outline: none;
+        }
+        .spot-green {
+        background-color: #0c0;
+        color: #fff;
+        }
+        .spot-green input {
+        background-color: #1d1;
+        height: 30px;
+        width: 30px;
+        }
+        .spot-red {
+        background-color: #c00;
+        height: 35px;
+        color: #fff;
+        }
+        .spot-red input {
+        background-color: #e11;
+        color: #fff;
+        }
+        .spot-black {
+        background-color: #000;
+        height: 35px;
+        color: #fff;
+        }
+        .spot-black input {
+        background-color: #222;
+        color: #fff;
+        }
+        
+        .spot-purple {
+        background-color: #c0c;
+        height: 35px;
+        color: #fff;
+        }
+        .spot-purple input {
+        background-color: #f0f;
+        color: #fff;
+        }
+        .spot-orange {
+        background-color: #fa6c16;
+        height: 35px;
+        color: #fff;
+        }
+        .spot-orange input {
+        background-color: #f97730;
+        height: 30px;
+        width: 75px;
+        color: #fff;
+        }
+        .spot-split {
+        /*background-color: #e5dab8;*/
+        background-color: #f8ecc1;
+        height: 20px;
+        }
+        .spot-split input {
+        background-color: #fff5d3;
+        height: 18px;
+        width: 18px;
+        }
+        .spot-corner {
+        /*background-color: #e5c65f;*/
+        background-color: #f8ecc1;
+        height: 20px;
+        }
+        .spot-corner input {
+        /*background-color: #ffdb68;*/
+        background-color: #fff5d3;
+        height: 18px;
+        width: 18px;
+        }
+        
+        .spot-street {
+        /*background-color: #be9005;*/
+        background-color: #f8ecc1;
+        height: 20px;
+        }
+        .spot-street input {
+        /*background-color: #c59c23;*/
+        background-color: #fff5d3;
+        height: 18px;
+        width: 18px;
+        }
+        .spot-double-street {
+        /*background-color: #7f6001;*/
+        background-color: #f8ecc1;
+        height: 20px;
+        }
+        .spot-double-street input {
+        /*background-color: #8b701d;*/
+        background-color: #fff5d3;
+        height: 18px;
+        width: 18px;
+        }
+        .spot-basket {
+        /*background-color: #7f6001;*/
+        background-color: #f8ecc1;
+        }
+        .spot-basket input {
+        /*background-color: #8b701d;*/
+        background-color: #fff5d3;
+        height: 18px;
+        width: 18px;
+        }
+        
+        .win-green {
+        background-color: #242;
+        height: 35px;
+        }
+        .win-red {
+        background-color: #622;
+        height: 35px;
+        }
+        .win-black {
+        background-color: #222;
+        height: 35px;
+        }
+        
+        .col-spot {
+        width: 35px;
+        background-color: #939;
+        }
+        .col-gap {
+        width: 20px;
+        background-color: #939;
+        }
+        .col-margin {
+            width: 20px;
+            background-color: #939;
+        }
+        .cell-blank {
+            background-color: #939;
+        }
+        
+        .section-title {
+        background-color: #000;
+        font-size: 18px;
+        color: #fff;
+        font-weight: bold;
+        }
+}
+  
+  
