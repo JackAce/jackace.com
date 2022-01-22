@@ -61,8 +61,8 @@
             font-weight: bold;
             text-anchor: middle;
             fill: #fff;
-            stroke: #696;
-            stroke-width: 7px;
+            stroke: #333;
+            stroke-width: 3px;
           }
           .outsideText {
             font-family: Garamond, Times New Roman, Georgia;
@@ -74,10 +74,7 @@
           }
       ]]>
   </style>
-  <g class="greenSpot">
-    <ellipse cx="140" cy="90" rx="136" ry="86"/>
-  </g>
-  <g class="numberText">
-    <text x="140" y="135">00</text>
+  <g class="redSpot">
+    <polygon points="0,90 140,0 280,90 140,180" />
   </g>
 </svg>

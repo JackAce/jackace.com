@@ -1,35 +1,39 @@
 ---
 layout: post
 title: "What is 'Bet Nullification' in Roulette?"
-date: 2022-01-21 00:02:00 -0800
+date: 2022-01-22 00:01:00 -0800
 author: Jack Hayes
 tags: [roulette,bet-nullification,CEG Dealer School]
-excerpt_image: "/assets/img/posts/2022-01-24/00-title-800x387.png"
-summary: "Don't ever cover more than 35 numbers in Roulette! Some or even ALL of your bets may end up being worthless!"
+excerpt_image: "/assets/img/posts/2022-01-22/00-title-800x387.png"
+summary: "No, the 5-number Top Line bet is NOT the worst bet you can make in Roulette. There's something you can do that's even worse. MUCH worse."
 comments: true
 math: true
 ---
 
 <img src="{{site.baseurl}}{{page.excerpt_image}}" class="excerpt-image" />
 <p>
-    Don't ever bet on more than 35 numbers at a time in Roulette! If you do, your bets will be working against
-    each other to the point where some or even <i>all</i> of the bets will have <b>NO</b> chance of winning.
+    It is often said that the worst thing you can do in Roulette is play the 5-number Top Line bet, but this is
+    absolutely false. There's something you can do that's even worse. You can make combinations of bets that
+    render all your bets <b>WORTHLESS</b>.
 </p>
 
 <h2>What is "Bet Nullification"?</h2>
 <p>
     Some people <i>really</i> like to spread their bets around the Roulette table. They don't just make one or two
-    bets covering a small section of the table, they go hogwild, taking up a ton of real estate on the felt.
+    bets covering a small section of the table, they go hog wild, taking up tons of real estate on the felt.
     They're hedging their bets to increase their chances of getting paid, even though it results in a smaller
     overall payout.
 </p>
 <p>
     But if you end up spreading yourself <i>too</i> thin, you can put yourself in a situation where it becomes 
-    <b>IMPOSSIBLE</b> to win. This is easy to see if you bet boths sides of an even money bet (When you bet on
-    18 numbers at a time).
+    <b>IMPOSSIBLE</b> to win. This is easy to see if you bet both sides of an even money bet.
 </p>
 <p>
-    For example, you could bet $100 on Red AND $100 on Black and \(36 \over 38\) (94.7%) of the time you'll end
+    For example, you could bet $100 on
+    <img src="{{site.baseurl}}/assets/img/roulette/x18_red.svg" alt="Red" class="roulette-spot"/>
+    AND $100 on
+    <img src="{{site.baseurl}}/assets/img/roulette/x18_black.svg" alt="Black" class="roulette-spot"/>
+    and 94.7% of the time you'll end
     up with no gain and no loss. In this case, when the Roulette ball lands on any number between
     <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" alt="1 Red" class="roulette-spot"/>
     and <img src="{{site.baseurl}}/assets/img/roulette/36_r.svg" alt="36 Red" class="roulette-spot"/>, your $100 winning bet
@@ -43,7 +47,7 @@ math: true
 </p>
 <p>
     <figure>
-        <img src="{{site.baseurl}}/assets/img/posts/2022-01-24/01-surprised-pikachu-500x500.jpg" alt="Surprised Pikachu" />
+        <img src="{{site.baseurl}}/assets/img/posts/2022-01-22/01-surprised-pikachu-500x500.jpg" alt="Surprised Pikachu" />
         <figcaption>If you cover 36 numbers you might not have <b>ANY</b> way to win.</figcaption>
     </figure>
 </p>
@@ -52,18 +56,84 @@ math: true
 </p>
 <p>
     If you've never heard this term before, it's because I made it up. I named it this because you're making bets
-    that render your other bets useless or "nullified".
-    Whenever the win from one bet completely cancels
+    that render your other bets useless or "nullified". Whenever the win from one bet completely cancels
     out the losses of another bet (or set of bets), there is zero upside to making the bets at all.
 </p> 
 <p>
     And creating a Bet Nullification situation is a mathematical <i>certainty</i> once you hit the threshold of
     betting on 36 different numbers.
 </p> 
+
+<h2>How can we Eliminate Bet Nullification?</h2>
 <p>
-    The Red/Black bet example is an <i>EXTREMELY</i> simple example of how you could make bets that nullify each
-    other, but are there bet combinations that are more difficult to identify?
+    The
+    <img src="{{site.baseurl}}/assets/img/roulette/x18_red.svg" alt="Red" class="roulette-spot"/>/<img src="{{site.baseurl}}/assets/img/roulette/x18_black.svg" alt="Black" class="roulette-spot"/>
+    bet example is an <i>EXTREMELY</i> simple example of how you could make bets that nullify each
+    other, but there are often inside and outside bet combinations that are more difficult to identify.
 </p> 
+<p>
+    To figure out how to elimininate the redundant bets, we first want to distribute all multi-number bets into
+    Straight-up bets using the 
+    <a href="{{site.baseurl}}/blog/2022/01/11/Distributative-Bets-in-Roulette/">Distributive Property of Roulette Betting</a>.
+</p>
+<p>
+    This is trivial using the 
+    <a href="{{site.baseurl}}/gambling/roulette/bet-analyzer/">Roulette Bet Analyzer</a> I've created. Just enter the
+    bets into the betting layout and look at the numbers in the <i>Equity per Spot</i> section.
+</p>
+<p>
+    After distributing all your multi-number bets into Straight-up bets, you should do the following:
+</p>
+<table>
+    <tr>
+        <th>
+            If you bet on
+        </th>
+        <th>
+            then you should
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            36<br/>Numbers
+        </td>
+        <td>
+            Identify the lowest amount of equity per spot and subtract it from every Straight-up bet.
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            37<br/>Numbers
+        </td>
+        <td>
+            &bull; Ignore the lowest bet amount.<br/>
+            &bull; Identify the lowest amount of the remaining 36 bets and subtract that from the highest 36
+            Straight-up bets.<br/>
+            &bull; After subtracting that amount, repeat this process if you still have equity on 36 numbers.
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            38<br/>Numbers
+        </td>
+        <td>
+            &bull; Ignore the two lowest bet amounts.<br/>
+            &bull; Identify the lowest amount of the remaining 36 bets and subtract that from the highest 36
+            Straight-up bets.<br/>
+            &bull; After subtracting that amount, repeat this process if you still have equity on 36 or more
+            numbers.
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            39<br/>Numbers
+        </td>
+        <td>
+            Ask yourself, <b>"Why the Hell am I playing Triple-Zero Roulette?"</b> and shut off
+            your computer.
+        </td>
+    </tr>
+</table>
 
 <h2>Analying the "Diamond Heist" Roulette System</h2>
 <p>
@@ -72,7 +142,7 @@ math: true
     following bets:
 </p> 
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-24/02-original-system-800x387.png" alt="Roulette Bets" />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-22/02-original-system-800x387.png" alt="Roulette Bets" />
     <figcaption>
         "💎 HEIST!" Roulette System <a href="https://www.youtube.com/watch?v=eZgHu0fdWTo&t=94s">tested
         and reviewed by CEG Dealer School</a>
@@ -86,39 +156,12 @@ math: true
     $45 of the $95 is cancelling itself out (47.3%!).
 </p> 
 <p>
-    To identify the bet overlaps, we can apply the principals covered in my post on the
-    <a href="{{site.baseurl}}/blog/2022/01/11/Distributative-Bets-in-Roulette/">Distributive Property of Roulette Betting</a>.
-    In that post, we learned:
-</p> 
-<blockquote>
-    Betting $X on an n-number bet is equivalent to Betting \(\$X \over n\) on each of the covered numbers straight-up
-</blockquote> 
-<p>
-    For example, betting $3 on the first Street
-    (<img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" alt="1 Red" class="roulette-spot"/>
-    <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" alt="2 Black" class="roulette-spot"/>
-    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" alt="3 Red" class="roulette-spot"/>) is the same as betting
-    $1 each on the <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" alt="1 Red" class="roulette-spot"/>
-    <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" alt="2 Black" class="roulette-spot"/> and
-    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" alt="3 Red" class="roulette-spot"/>.
-</p> 
-
-<p>
-    Using this technique, we can break up all the multi-number bets into straight-up bets to see
-    how much money is being bet on each number.
-</p> 
-<p>
-    We could do the math and perform the division for each of the bets, or we can just enter the bets into
-    the <a href="{{site.baseurl}}/gambling/roulette/bet-analyzer/">Roulette Bet Analyzer</a> that I
-    created and discuss in my
-    <a href="{{site.baseurl}}/blog/2022/01/21/Roulette-Bet-Analyzer/">recent blog post</a>. This tool
-    will do all the hard work for you.
-</p> 
-<p>
-    Let's take a look at how our bets are distributed:
+    Entering these bets into the
+    <a href="{{site.baseurl}}/gambling/roulette/bet-analyzer/">Roulette Bet Analyzer</a>,
+    we can take a look at how our bets are distributed:
 </p> 
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-24/04-og-equity-800x198.png" alt="There is $1.25 or more on every number" />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-22/04-og-equity-800x198.png" alt="There is $1.25 or more on every number" />
     <figcaption>
         Here we can see we've bet at least $1.25 on every number
     </figcaption>
@@ -127,7 +170,7 @@ math: true
     And let's look at the payouts:
 </p> 
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-24/05-og-win-loss-800x198.png" alt="The Win/Loss results for every number" />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-22/05-og-win-loss-800x198.png" alt="The Win/Loss results for every number" />
     <figcaption>
         These are the win/loss results for every number. Pay close attention to the
         <span class="amt-neg">$95</span> loss on
@@ -145,7 +188,7 @@ math: true
     be $50 and our bets will look like this:
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-24/06-improved-equity-800x198.png" alt="Roulette Bets (Improved system)" />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-22/06-improved-equity-800x198.png" alt="Roulette Bets (Improved system)" />
     <figcaption>
         Here we've subtracted $1.25 from every spot in the original system because the bets were "nullifying" each other.
     </figcaption>
@@ -154,7 +197,7 @@ math: true
     And what do the payouts look like in our modified system?
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-24/07-improved-win-loss-800x198.png" alt="Roulette Bets (Improved system)" />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-22/07-improved-win-loss-800x198.png" alt="Roulette Bets (Improved system)" />
     <figcaption>
         Every payout is exactly the same in the 
         <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" alt="1 Red" class="roulette-spot"/>
@@ -167,8 +210,9 @@ math: true
 <p>
     So with this betting scheme, <i>EVERY SINGLE PAYOUT IS EXACTLY THE SAME AS THE ORIGINAL SYSTEM</i> - with the
     exception of the losses on <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" alt="0 Green" class="roulette-spot"/>
-    and <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" alt="00 Green" class="roulette-spot"/>. When the Zeroes hit,
-    you only lose <span class="amt-neg">$50</span> instead of the original <span class="amt-neg">$95</span>.
+    and <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" alt="00 Green" class="roulette-spot"/>. When the
+    zeroes hit, you only lose <span class="amt-neg">$50</span> instead of the original
+    <span class="amt-neg">$95</span>.
 </p>
 <p>
     So, your expected loss per spin in the improved system is only \(-5.26\% \times $50\) or
@@ -183,7 +227,7 @@ math: true
     a casino <i>will</i> allow.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-24/08-improved-bets-800x387.png" alt="Roulette Bets (OPTIMAL and REARRANGED)" height="300" />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-22/08-improved-bets-800x387.png" alt="Roulette Bets (OPTIMAL and REARRANGED)" height="300" />
     <figcaption>
         The
         <a href="{{site.baseurl}}/blog/2022/01/11/Distributative-Bets-in-Roulette/">Distributive Property of Roulette Betting</a>.
@@ -199,8 +243,8 @@ math: true
     After that, getting rid of the $45 of nullified bets becomes trivial.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-01-24/09-improved-bet-diff-800x387.png" alt="Roulette Bets (OPTIMAL and REARRANGED and diffed)" height="300" />
-    <figcaption>Removed bets are displayed here in yellow</figcaption>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-22/09-improved-bet-diff-800x387.png" alt="Roulette Bets (OPTIMAL and REARRANGED and diffed)" height="300" />
+    <figcaption>The removed bets are displayed here in yellow. The $25 column bet is broken up into $10 and $15</figcaption>
 </figure>
 
 <h2>Always Check your Systems!</h2>
