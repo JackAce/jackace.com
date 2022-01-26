@@ -98,6 +98,18 @@ b, i {
     width: 42px;
     height: 27px;
 }
+
+.roulette-spot-0 {
+    background: url("../../assets/img/roulette/0_g.svg") no-repeat;
+    width: 42px;
+    height: 27px;
+    min-width: 42px;
+    min-height: 27px;
+    max-width: 42px;
+    max-height: 27px;
+    background-size: 42px 27px;
+}
+
 .strategy-table {
     font-size: 16px;
     th {
@@ -180,212 +192,221 @@ b, i {
         opacity: 0.5;
     }
         
-        .hiddenRow {
+    .hiddenRow {
         display: none;
-        }
-        .warningDiv {
+    }
+    .warningDiv {
         color: #f00;
         font-size: 30px;
         background-color: #fff;
         padding: 20px;
-        }
+    }
+
+    .clear-all-link {
+        font-size: 12px;
+        background-color: #ccc;
+        border: solid 1px #2d3339;
+        padding: 6px 10px;
+        text-decoration: none;
+    }
+    .clear-all-link:hover {
+        color: #00f;
+        text-decoration: underline;
+    }
         
-        .clear-all-link {
-            font-size: 12px;
-            background-color: #ccc;
-            border: solid 1px #2d3339;
-            padding: 6px 10px;
-            text-decoration: none;
-        }
-        
-        .x1 {
+    .x1 {
         width: 30px;
         height: 30px;
-        }
-        .x2 {
+    }
+    .x2 {
         width: 18px;
         height: 18px;
-        }
-        .x3 {
+    }
+    .x3 {
         width: 30px;
         height: 18px;
-        }
-        .x4 {
+    }
+    .x4 {
         width: 18px;
         height: 18px;
-        }
-        .x12 {
+    }
+    .x12 {
         width: 80px;
         height: 30px;
-        }
-        .x18 {
+    }
+    .x18 {
         width: 75px;
         height: 30px;
-        }
+    }
         
-        .roulette-felt {
+    .roulette-felt {
         background-color: #939;
-        }
+    }
         
-        input:focus {
+    input:focus {
         outline: none;
-        }
-        .spot-green {
+    }
+    .spot-green {
         background-color: #0c0;
         color: #fff;
-        }
-        .spot-green input {
+    }
+    .spot-green input {
         background-color: #1d1;
         height: 30px;
         width: 30px;
-        }
-        .spot-red {
+    }
+    .spot-red {
         background-color: #c00;
         height: 35px;
         color: #fff;
-        }
-        .spot-red input {
+    }
+    .spot-red input {
         background-color: #e11;
         color: #fff;
-        }
-        .spot-black {
+    }
+    .spot-black {
         background-color: #000;
         height: 35px;
         color: #fff;
-        }
-        .spot-black input {
+    }
+    .spot-black input {
         background-color: #222;
         color: #fff;
-        }
-        
-        .spot-purple {
+    }
+    
+    .spot-purple {
         background-color: #c0c;
         height: 35px;
         color: #fff;
-        }
-        .spot-purple input {
+    }
+    .spot-purple input {
         background-color: #f0f;
         color: #fff;
-        }
-        .spot-orange {
+    }
+    .spot-orange {
         background-color: #fa6c16;
         height: 35px;
         color: #fff;
-        }
-        .spot-orange input {
+    }
+    .spot-orange input {
         background-color: #f97730;
         height: 30px;
         width: 75px;
         color: #fff;
-        }
-        .spot-split {
+    }
+    .spot-split {
         /*background-color: #e5dab8;*/
         background-color: #f8ecc1;
         height: 20px;
-        }
-        .spot-split input {
+    }
+    .spot-split input {
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
-        }
-        .spot-corner {
+    }
+    .spot-corner {
         /*background-color: #e5c65f;*/
         background-color: #f8ecc1;
         height: 20px;
-        }
-        .spot-corner input {
+    }
+    .spot-corner input {
         /*background-color: #ffdb68;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
-        }
-        
-        .spot-street {
+    }
+    .spot-street {
         /*background-color: #be9005;*/
         background-color: #f8ecc1;
         height: 20px;
-        }
-        .spot-street input {
+    }
+    .spot-street input {
         /*background-color: #c59c23;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
-        }
-        .spot-double-street {
+    }
+    .spot-double-street {
         /*background-color: #7f6001;*/
         background-color: #f8ecc1;
         height: 20px;
-        }
-        .spot-double-street input {
+    }
+    .spot-double-street input {
         /*background-color: #8b701d;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
-        }
-        .spot-basket {
+    }
+    .spot-basket {
         /*background-color: #7f6001;*/
         background-color: #f8ecc1;
-        }
-        .spot-basket input {
+    }
+    .spot-basket input {
         /*background-color: #8b701d;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
-        }
-        
-        .win-green {
-            width: 35px;
-            max-width: 35px;
+    }
+    
+    .win-green {
+        width: 35px;
+        max-width: 35px;
         background-color: #242;
         height: 35px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        }
-        .win-red {
-            width: 35px;
-            max-width: 35px;
+    }
+    .win-red {
+        width: 35px;
+        max-width: 35px;
         background-color: #622;
         height: 35px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        }
-        .win-black {
-            width: 35px;
-            max-width: 35px;
+    }
+    .win-black {
+        width: 35px;
+        max-width: 35px;
         background-color: #222;
         height: 35px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        }
-        
-        .col-spot {
-            width: 35px;
-            max-width: 35px;
-            background-color: #939;
-        }
-        .col-gap {
-            width: 20px;
-            max-width: 20px;
-            background-color: #939;
-        }
-        .col-margin {
-            width: 20px;
-            max-width: 20px;
-            background-color: #939;
-        }
-        .cell-blank {
-            background-color: #939;
-        }
-        
-        .section-title {
+    }
+    
+    .col-spot {
+        width: 35px;
+        max-width: 35px;
+        background-color: #939;
+    }
+    .col-gap {
+        width: 20px;
+        max-width: 20px;
+        background-color: #939;
+    }
+    .col-margin {
+        width: 20px;
+        max-width: 20px;
+        background-color: #939;
+    }
+    .cell-blank {
+        background-color: #939;
+    }
+    
+    .section-title {
         background-color: #000;
         font-size: 18px;
         color: #fff;
         font-weight: bold;
-        }
+    }
+    .warningCopy {
+        font-size: 16px;
+    }
+    .divHidden {
+        display: none;
+    }
 }
   
   
