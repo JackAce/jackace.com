@@ -6,5 +6,11 @@
       url: /gambling/blackjack/
     - title: Basic Strategy
       url: /gambling/blackjack/systems/basic-strategy
+    - title: High Low Count
+      url: /gambling/blackjack/systems/high-low
+    - title: Other Systems
+      url: /gambling/blackjack/systems
+- title: Roulette
+  url: /gambling/roulette/
 - title: About
   url: /about/
