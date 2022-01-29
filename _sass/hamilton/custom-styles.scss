@@ -14,6 +14,9 @@ td {
     font-size: 12px;
     padding: 0px;
 }
+b, i {
+    color: #8acdd8;
+}
 figcaption {
     margin-top: 2px;
     color: #666;
@@ -23,9 +26,12 @@ figcaption {
         height: 18px;
     }
 }
-b, i {
-    color: #8acdd8;
+blockquote {
+    footer {
+        text-align: right;
+    }
 }
+
 .post-content {
     h1, h2, h3, h4, h5, h6 {
         font-family: 'Roboto Slab', 'Noto Serif SC', 'Noto Serif TC';
@@ -92,6 +98,21 @@ b, i {
     width: 42px;
     height: 27px;
 }
+.chip-xs {
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+}
+.chip-s {
+    width: 48px;
+    height: 48px;
+    margin: 2px;
+}
+.chip-m {
+    width: 128px;
+    height: 128px;
+    margin: 2px;
+}
 
 .roulette-spot-0 {
     background: url("../../assets/img/roulette/0_g.svg") no-repeat;
@@ -128,6 +149,7 @@ b, i {
         padding: 4px;
         font-size: 16px;
     }
+    // TODO: FIX THIS GARBAGE
     img {
         margin: 0px;
         min-width: 40px;
