@@ -1,0 +1,590 @@
+---
+layout: post
+title: "6-to-5 Blackjack is for Morons"
+date: 2022-01-30 00:01:00 -0800
+author: Jack Hayes
+tags: [blackjack,6-to-5,tipping]
+excerpt_image: "/assets/img/posts/2022-01-30/00-title-800x484.png"
+summary: "If you play 6-to-5 Blackjack, you have no one to blame but yourself. Not just regarding shitty casino conditions, but to other nickel-and-dime BS charges like hotel resort fees."
+comments: true
+math: true
+---
+
+<img src="{{site.baseurl}}{{page.excerpt_image}}" class="excerpt-image" />
+<p>
+    No, <i>"6-to-5 Blackjack"</i> isn't Blackjack that you play at 4:54pm. It is an atrocity and one of the worst
+    things  to happen to Blackjack in the past few <b>decades</b>.
+</p>
+
+<h2>What is 6-to-5 Blackjack?</h2>
+<p>
+    Remember when corporate America took that thing you loved and changed it into some horrible 💩 all in the name 
+    greed? Maybe they took your sports team's iconic stadium and rebranded it with their garbage name. Maybe they
+    replaced your favorite soda's sugar with high fructose corn syrup. Or maybe they rebooted your favorite
+    childhood movie and cast Will Smith as a singing blue genie.
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-30/01-turds-800x244.jpg" alt="Corporate Turds like 'Enron Field', Coke's new formula, and Will Smith as Aladdin's Genie" />
+    <figcaption>
+        After renaming the Astrodome to <i>Enron Field</i>, the Houston Astros later went on to cheat their way to a
+        World Series Championship in 2017.
+    </figcaption>
+</figure>
+<p>
+    Well, corporate America has done it again. They've ruined blackjack.
+</p>
+<p>
+    A few years back, casinos introduced something called <i>"6-to-5 Blackjack"</i> and it's slowly been taking over
+    low-limit tables in Las Vegas.
+</p>
+<p>
+    It looks like Blackjack.<br/>
+    It <i>feels</i> like Blackjack.<br/>
+    It even <i>smells</i> like Blackjack.
+</p>
+<p>
+    But there's a <b>HUGE</b> difference: 6-to-5 Blackjack <i>short-changes your Blackjack bonus by <b>60%</b></i>.
+</p>
+<p>
+    <span class="amt-bad">SIXTY PERCENT!</span>
+</p>
+<p>
+    Let's say you make a $20 bet. When you get a Blackjack, you're supposed win $20 <b>plus an extra $10 bonus</b>
+    for a total of $30. In 6-to-5 Blackjack, you only win $6 for every $5 you bet (hence <i>"6-to-5"</i>), for a
+    total of $24. Subtract your original bet of $20 and your bonus is only $4!
+</p>
+<p>
+    <b>Your $10 bonus has been reduced to $4</b>!
+</p>
+
+<table class="betting-system-table">
+    <tr>
+        <th>
+            Blackjack Type
+        </th>
+        <th>
+            Initial Bet
+        </th>
+        <th>
+            Total Win<br/>
+            for 2 Card<br/>
+            Blackjack
+        </th>
+        <th>
+            Blackjack<br/>
+            Bonus Amount
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            Standard<br/>3-to-2 Blackjack
+        </td>
+        <td class="cell-center">
+            $20
+        </td>
+        <td class="cell-center">
+            $30
+        </td>
+        <td class="cell-center">
+            $10
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            6-to-5 Blackjack
+        </td>
+        <td class="cell-center">
+            $20
+        </td>
+        <td class="cell-center">
+            $24
+        </td>
+        <td class="cell-center">
+            $4
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center cell-stats" colspan="3">
+            Penalty for 6-to-5 Blackjack
+        </td>
+        <td class="cell-center cell-stats amt-neg">
+            $6
+        </td>
+    </tr>
+</table>
+
+
+<figure style="display:none;">
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-30/02-piechart-60-40.png" alt="You're getting screwed" />
+    <figcaption>Just say "NO" to short payouts</figcaption>
+</figure>
+
+<h2>The House Edge of 6-to-5</h2>
+<p>
+    You can calculate the cost of playing 6-to-5 Blackjack pretty easily. To start, you need to know how frequently
+    you can expect a starting hand of 21 and I <i>promise</i> it's easy to remember (You'll be quizzed on this
+    later).
+</p>
+<blockquote>
+    On average, you will receive a Blackjack every <b>21 hands</b>.
+</blockquote>
+<p>
+    So estimating the cost of this rule variant becomes pretty easy. Multiply the probability of having a
+    Blackjack (\(1 \over 21\)) by the probability of the dealer <i>not</i> having a Blackjack
+    (\(1 - {1 \over 21}\) or \(20 \over 21\)) and the change in your payout, which is 60% of your regular
+    half-bet bonus (0.50 of your bet), and you get:
+</p>
+<p>
+    \begin{align}
+    {1 \over 21} \times {20 \over 21} \times -0.60 \times 0.50 & \approx -0.0136054 \\
+    & \approx \color{red}{-1.36054\%}
+    \end{align}
+</p>
+<p>
+    Which is a great approximation for the actual cost of this rule variant! When you look at the actual
+    cost of the rule, it comes <i>very</i> close:
+</p>
+<table class="betting-system-table">
+    <tr>
+        <th>
+            Number of Decks
+        </th>
+        <th>
+            House Edge<br/>REAL Blackjack
+        </th>
+        <th>
+            House Edge<br/>6:5 Blackjack
+        </th>
+        <th>
+            Overall Change for<br/>
+            6-to-5 Rule Variant
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            1
+        </td>
+        <td class="cell-center amt-pos">
+            0.03119%
+        </td>
+        <td class="cell-center amt-neg">
+            -1.36358%
+        </td>
+        <td class="cell-center amt-neg cell-stats">
+            -1.39477%
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            2
+        </td>
+        <td class="cell-center amt-neg">
+            -0.25532%
+        </td>
+        <td class="cell-center amt-neg">
+            -1.62881%
+        </td>
+        <td class="cell-center amt-neg cell-stats">
+            -1.37349%
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            6
+        </td>
+        <td class="cell-center amt-neg">
+            -0.42622%
+        </td>
+        <td class="cell-center amt-neg">
+            -1.78591%
+        </td>
+        <td class="cell-center amt-neg cell-stats">
+            -1.35969%
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            8
+        </td>
+        <td class="cell-center amt-neg">
+            -0.44686%
+        </td>
+        <td class="cell-center amt-neg">
+            -1.80485%
+        </td>
+        <td class="cell-center amt-neg cell-stats">
+            -1.35799%
+        </td>
+    </tr>
+</table>
+<p>
+    The actual change in house advantage depends on the number of decks in play, because with fewer
+    decks, the frequency of receiving blackjacks goes up. This is because receiving an Ace as your
+    first card increases your chances of receiving a Ten as your second card (and vice versa) when
+    you have fewer decks. The more decks you use, the lower this affect.
+</p>
+
+<h2>6-to-5 versus other Table Conditions</h2>
+<p>
+    How does this rule change compare to other table conditions?
+</p>
+<p>
+    The 6-to-5 rule variant has <i>by far</i> the biggest affect on the casino's house advantage amongst
+    all rule variants.
+</p>
+<h3>Increasing the Number of Decks</h3>
+<p>
+    How bad is it? Well, after the 6-to-5 payout change, the next biggest change would be moving from
+    single deck Blackjack to 8 deck Blackjack. Increasing the number of decks from 1 to 8 increases the
+    house edge by 0.48%. That makes the 6-to-5 change almost <i>3 times worse</i>!
+</p>
+<h3>Hitting Soft 17s</h3>
+<p>
+    Besides changing the number of decks in play, casinos can add to their edge by hitting a Soft 17
+    instead of standing. This change will only cost the player 0.2125% in house advantage, making
+    the 6-to-5 rule more than <b>6 TIMES WORSE</b>!
+</p>
+
+<h3>The Rest is even Smaller Potatoes</h3>
+<p>
+    And as we go through other possible rule variants, everything else just gets dwarfed by 6-to-5.
+</p>
+
+
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-30/03-bargraph-rulevariants.png" alt="Nothing comes close" />
+    <figcaption>
+        Before the introduction of the 6-to-5 variant, the house edge of Blackjack was very low for even some
+        of the <i>worst</i> conditions.
+    </figcaption>
+</figure>
+
+<h2>We could all use a little Chaaaaaaaange!</h2>
+<p>
+    One negative aspect of 6-to-5 Blackjack that I almost <i>never</i> hear discussed is that you end
+    up with <i>a lot</i> of odd chips that you wouldn't normally have in front of you.
+</p>
+<p>
+    For pretty much <i>ALL</i> betting units, getting paid 6-to-5 on a Blackjack will
+    leave you with chips you wouldn't normally have to deal with.
+</p>
+
+<table>
+    <tr>
+        <th>
+            Base Betting Unit
+        </th>
+        <th>
+            You have mostly
+        </th>
+        <th>
+            Blackjack Payment 6:5
+        </th>
+        <th>
+            Chips used to pay in 6:5
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            $10
+        </td>
+        <td class="cell-center">
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5.svg" class="chip-s" alt="Red Chip ($5)" />
+        </td>
+        <td class="cell-center">
+            $12
+        </td>
+        <td>
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" alt="Red Chip ($5)" />
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" alt="Red Chip ($5)" />
+            2 Red<br/>
+            <img src="{{site.baseurl}}/assets/img/chips/chip-1-blank.svg" class="chip-xs" alt="White Chip ($1)" />
+            <img src="{{site.baseurl}}/assets/img/chips/chip-1-blank.svg" class="chip-xs" alt="White Chip ($1)" />
+            2 White
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            $20
+        </td>
+        <td class="cell-center">
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5.svg" class="chip-s" alt="Red Chip ($5)" />
+        </td>
+        <td class="cell-center">
+            $24
+        </td>
+        <td>
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" alt="Red Chip ($5)" />
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" alt="Red Chip ($5)" />
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" alt="Red Chip ($5)" />
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" alt="Red Chip ($5)" />
+            4 Red<br/>
+            <img src="{{site.baseurl}}/assets/img/chips/chip-1-blank.svg" class="chip-xs" alt="White Chip ($1)" />
+            <img src="{{site.baseurl}}/assets/img/chips/chip-1-blank.svg" class="chip-xs" alt="White Chip ($1)" />
+            <img src="{{site.baseurl}}/assets/img/chips/chip-1-blank.svg" class="chip-xs" alt="White Chip ($1)" />
+            <img src="{{site.baseurl}}/assets/img/chips/chip-1-blank.svg" class="chip-xs" alt="White Chip ($1)" />
+            4 White
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            $25
+        </td>
+        <td class="cell-center">
+            <img src="{{site.baseurl}}/assets/img/chips/chip-25.svg" class="chip-s" alt="Green Chip ($25)" />
+        </td>
+        <td class="cell-center">
+            $30
+        </td>
+        <td>
+            <img src="{{site.baseurl}}/assets/img/chips/chip-25-blank.svg" class="chip-xs" alt="Green Chip ($25)" />
+            1 Green<br/>
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" alt="Red Chip ($5)" />
+            1 Red
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            $100
+        </td>
+        <td class="cell-center">
+            <img src="{{site.baseurl}}/assets/img/chips/chip-100.svg" class="chip-s" alt="Black Chip ($100)" />
+        </td>
+        <td class="cell-center">
+            $120
+        </td>
+        <td>
+            <img src="{{site.baseurl}}/assets/img/chips/chip-100-blank.svg" class="chip-xs" alt="Black Chip ($100)" />
+            1 Black<br/>
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" alt="Red Chip ($5)" />
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" alt="Red Chip ($5)" />
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" alt="Red Chip ($5)" />
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" alt="Red Chip ($5)" />
+            4 Red
+        </td>
+    </tr>
+</table>
+<p>
+    It's true that some bet sizes will also get mismatched chips with Standard 3-to-2 Blackjack, but this
+    only with specific betting units ($25 bet getting paid $37.50 on a Blackjack is a prime example), but
+    this inconvenience is greatly mitigated because it only takes one <i>extra</i> blackjack to make that
+    half-bet whole.
+</p>
+<p>
+    After receiving that second blackjack in 3-to-2, you can use those two half-bets to make a full bet on
+    the next hand. So on average in standard Blackjack, you will only be sitting with those odd chips for
+    21 hands (<b>Pop-Quiz:</b> Do you remember why?).
+</p>
+<p>
+    But after receiving your first Blackjack in 6-to-5, you'll be sitting there with only 20% of your unit
+    bet in odd chips, and you would expect to sit there for much longer before you can reconstruct a
+    full-sized bet.
+</p>
+<p>
+    On average, you would expect to wait for another <b>4 Blackjacks</b> or <b>84 HANDS</b> (4 x one
+    Blackjack every 21 hands), and the entire time you're waiting, your stack of odd chips will just
+    continue to get awkwardly larger.
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-30/06-all-these-chips-500x666.png" alt="What am I going to do with all these odd chips?" />
+    <figcaption>
+        Not only are odd chip denominations annoying, but they often make their way to the dealer's tip box
+    </figcaption>
+</figure>
+
+<h3>Why Does Having Odd Chips Matter?</h3>
+<p>
+    I'm not bringing this up because I'm some neat freak who obsesses about keeping his chip stacks the same
+    color. I'm bringing this up because you will occasionally get pressured into tipping away those odd
+    chips.
+</p>
+<p>
+    Even though I've found <i>most</i> dealers to be quite professional and courteous while playing Blackjack,
+    I've still run into a fair number of dealers who are more than vocal and sometimes downright <i>rude</i>
+    when you win a few hands and haven't made a bet for them.
+</p>
+<p>
+    So in addition to getting short-changed on your payouts, now you've got a crabby dealer mad-dogging
+    you as your odd-chip Blackjack scoreboard grows larger and larger.
+</p>
+<p>
+    I'm very much in favor of tipping dealers who are pleasant and dealing you good hands. These dealers
+    depend on tips to make a living, and they should be rewarded for doing their job well. But if you're
+    tipping away your Blackjack bonus, there's almost no chance that you're going to walk away a
+    winner in 6-to-5.
+</p>
+
+<h2>Why do People Play 6-to-5 Blackjack?</h2>
+<p>
+    Because most people are <i>Donkeys</i>. I say <i>most</i> because you're reading this post, so at
+    least you're trying to be a smarter about it!
+</p>
+<p>
+    There are four main reasons why people play this horrible game:
+</p>
+<h3>It's often paired with Single Deck</h3>
+<p>
+    The 6-to-5 payout is often combined with Single Deck Blackjack, a table condition that is characterized
+    as being "Player Friendly".
+</p>
+<p>
+    While this is generally true, when paired with 6-to-5, the single deck game becomes the carrot casinos
+    offer before beating you with their stick.
+</p>
+<p>
+    And it's worse than you might initially think.
+</p>
+<p>
+    As we have already discussed, the 6-to-5 payout penalty dwarfs the benefit of switching from 6 deck to
+    single deck. Your initial estimate for the overall affect would be to just add the benefit from single
+    deck blackjack (<span class="amt-pos">+0.457%</span>) and subtract the penalty for 6-to-5 
+    (<span class="amt-neg">-1.365%</span>), but the overall benefit to the house is even worse.
+</p>
+<p>
+    This is because most of the benefit from lowering the number of decks is from the increase in blackjack
+    frequency. With the lower 6-to-5 payout, the benefits of single deck are Nerfed.
+</p>
+<p>
+    \begin{align}
+    EV_{1deck} + EV_{6 to 5} & < EV_{1deck + 6 to 5} \\
+    0.45742 + -1.36504 & < -0.93736 \\
+    -0.90762 & < \color{red}{-0.93736} \\
+    \end{align}
+</p>
+<p>
+    As you can see, the <i>actual</i> change in negative Expected Value (EV) is <i>greater than</i> the sum of
+    the two conditions applied independently.
+</p>
+<h3>It's Your Only Choice at Lower Limit Tables</h3>
+<p>
+    I've heard people say that 6-to-5 is good because it offers a way for casinos to offer Blackjack to players 
+    who can't afford the higher limit <i>Real</i> Blackjack tables.
+</p>
+<p>
+    I strongly disagree. You wouldn't try to make flying more affordable by removing your plane's stabilization
+    system. Sure, more people could afford flying, but the experience would be completely uncomfortable
+    and people flying for the first time would likely <i>never</i> fly again.
+</p>
+<p>
+    Novice players already make tons of mistakes. Combine that with the 6-to-5 tax, and these players will be
+    even <i>more</i> likely to lose. These losing players are unlikely to graduate to higher stakes.
+</p>
+<p>
+    Blackjack has been suffering a decrease in popularity for decades. I believe that making the game nearly
+    impossible for new players to win will ultimately be its death. Here's a quote from a
+    <a href="https://www.forbes.com/sites/davidschwartz/2018/07/16/blackjacks-rise-and-fall-shows-what-drives-customers-away/" target="_blank">Forbes article</a>
+    titled <i>"Blackjack's Rise And Fall Shows What Drives Customers Away"</i> that seems to agree:
+</p>
+<blockquote>
+    The biggest offender, though, was 6:5 blackjack. This variation, which is regrettably common in Las Vegas
+    casinos, cuts the payout on blackjacks from 3:2 to 6:5; that $150 win we celebrated in the third paragraph
+    is now only $120.
+</blockquote>
+<p>
+    New players will be destined to lose and the gap in revenue between people who grew up with 3-to-2 and new
+    players only familiar with 6-to-5 will continue to widen, driving revenue down even further.
+</p>
+
+<h3>People Don't Understand Fractions</h3>
+<p>
+    Some people see the "6" and the "5" and just associate it with a higher payout than the normal 3-to-2 payout.
+    You'd think that people would have better math skills than that, but remember when the A&amp;W Restaurant chain tried
+    marketing their 1/3 pound burger and
+    <a href="https://www.adweek.com/agencies/aws-1-3rd-pound-burger-failed-so-its-trying-a-3-9th-pound-burger-instead/" target="_blank">it failed because people thought it was smaller than McDonald's Quarter Pounder</a>?
+</p>
+<blockquote>
+    "Well of course the Quarter Pounder's bigger! The Quarter Pounder's got a 4 in it and the Third Pounder's only got a measley 3!"
+    <footer>
+        - those people, probably.
+    </footer>
+</blockquote>
+<p>
+    Well A&amp;W's marketing department seems to have learned from their mistakes and they've
+    reintroduced the burger as a <i>3/9th Pounder</i>!
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-30/05-adweek-thirdpounder-1534x1292.png" alt="The A&amp;W 1/3 lb Burger failed" />
+    <figcaption>
+        The A&amp;W 1/3 Burger failed because customers reportedly believed it was smaller than McDonald's 1/4 pounder <i>(weight before cooking)</i>.
+    </figcaption>
+</figure>
+<p>
+    As silly as this might seem, not understanding fractions affects a fair amount of the population and is
+    probably a significant reason why 6-to-5 is tolerated.
+</p>
+
+<h3>Ain't Nobody Got Time Fo' Dat</h3>
+<p>
+    Possibly the biggest reason why people end up playing at these tables is a combination of both ignorance and
+    indifference. Unfortunately, gambling is becoming less and less of an attraction for tourists. Casinos now
+    need to provide ultra-fine dining, and A-List DJs and performers in their night clubs and theaters.
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-01-30/04-articles-800x361.png" alt="Tiesto and Adele booked to headline at Las Vegas casinos" />
+    <figcaption>
+        A-List resident artists are high in demand and cost a pretty penny...
+        <a href="https://www.cnn.com/2022/01/20/entertainment/adele-las-vegas-residency-cancel/index.html" target="_blank">when they actually show up</a>
+    </figcaption>
+</figure>
+<p>
+    For these new-school Vegas tourists, gambling is just background noise. They don't know much about 
+    any of the games casinos offer. They've never even seen a
+    <a href="https://www.amazon.com/Blackjack-Basic-Strategy-Chart-Dealer/dp/0982119151/" target="_blank">Blackjack Basic Strategy card</a>.
+    For the new generation of Las Vegas tourists, even taking a second to calculate whether 6-to-5
+    pays more Standard Blackjack isn't worth the mental effort. They know they're going to play anyway.
+</p>
+<p>
+    So after a night of partying with
+    <a href="https://www.reviewjournal.com/entertainment/entertainment-columns/kats/tiesto-leads-zouks-2022-spin-cycle-at-resorts-world-2520398/" target="_blank">Tiësto at the club</a>
+    or after eating at
+    <a href="https://www.reviewjournal.com/entertainment/food/joel-robuchon-restaurants-at-mgm-grand-set-for-reopening-2380365/" target="_blank">Michelin Star Rated Joel Robuchon</a>,
+    these people will sit down at whatever Blackjack table the casino has and tolerate whatever shitty rules
+    they offer.
+</p>
+
+<h2>Stand up to Corporate Greed!</h2>
+<p>
+    6-to-5 Blackjack isn't real Blackjack. My hope is that by educating the Donkeys of the world we can
+    eventually turn the tide on this rule variant as well as the deluge of similar changes
+    soon to follow.
+</p>
+<p>
+    In the grand scheme of things, 6-to-5 Blackjack is far from the worst game that casinos offer.
+    <a href="{{site.baseurl}}/blog/2021/12/29/The-Basics-of-Roulette-Math/">Double-Zero Roulette is much worse</a>
+    with its house edge of 5.26%. Single deck 6-to-5 only has a house edge of about 1.7%.
+</p>
+<p>
+    So why does 6-to-5 Blackjack piss me off so much? Because Blackjack used to be a game that people
+    could play at <i>any</i> betting level and be almost even with the house <i>if they took the time
+    to study how to play</i>.
+</p>
+<p>
+    Gamblers were rewarded for memorizng the 281 Basic Strategy decisions (<a href="{{site.baseurl}}/blog/2021/12/05/Learn-Blackjack-in-your-Sleep/">which you can now learn in your sleep!</a>).
+    If someone wanted to be lazy and accept poor odds, they could just play Roulette. If
+    someone wanted better odds but had a lot of money, they could play Baccarat. But now low limit
+    players have really nowhere to turn for an option with a low house edge.
+</p>
+<p>
+    But worst of all, casinos are just giving you a shitty experience and not giving you anything in return.
+</p>
+<p>
+    I hate using the term "Slippery Slope", but it's more than appropriate here. This isn't a hypothetical
+    slope that is coming down the road in 5 to 10 years. This is already happening. It's a garbage chute
+    greased with hot butter and we're all being actively shoved down it.
+</p>
+<p>
+    Every time consumers accept crap like this, corporations come back with more ways to screw us. We're
+    already seeing this with ridiculous changes like <b>Triple-Zero Roulette</b> (7.69% house
+    edge), casino parking fees, and don't even get me started on <b>Resort Fees</b>
+    when booking a hotel. 
+</p>
+<p>
+    So don't play 6-to-5 Blackjack.<br/>
+    Don't let your friends play 6-to-5 Blackjack.<br/>
+    Mock people playing 6-to-5 Blackjack.<br/>
+</p>
+<p>
+    If you can help stop this insanity, maybe together we can prevent the birth of
+    <b>"Quadruple Zero Roulette"</b>, <b>"Ties-Count-as-a-Loss Baccarat"</b>, and
+    <b>"11-to-10 Blackjack"</b>.
+</p>
