@@ -15,7 +15,7 @@ td {
     padding: 0px;
 }
 b, i {
-    color: #8acdd8;
+    color: #aaedf8;
 }
 figcaption {
     margin-top: 2px;
@@ -63,7 +63,6 @@ blockquote {
     font-weight: bold;
     font-size: larger;
 }
-
 .p-center {
     text-align: center;
 }
@@ -114,6 +113,7 @@ blockquote {
     margin: 2px;
 }
 
+// work in progress
 .roulette-spot-0 {
     background: url("../../assets/img/roulette/0_g.svg") no-repeat;
     width: 42px;
@@ -175,10 +175,12 @@ blockquote {
     }
 }
 
+// Used for pages with no side navigation bar
 .site-wide {
     width: 100%;
 }
 
+// Used for roulette bet analyzer (TODO: Move to separate CSS file)
 .roulette {
     background-color: #939;
     td, th {
@@ -311,7 +313,6 @@ blockquote {
         color: #fff;
     }
     .spot-split {
-        /*background-color: #e5dab8;*/
         background-color: #f8ecc1;
         height: 20px;
     }
@@ -321,44 +322,36 @@ blockquote {
         width: 18px;
     }
     .spot-corner {
-        /*background-color: #e5c65f;*/
         background-color: #f8ecc1;
         height: 20px;
     }
     .spot-corner input {
-        /*background-color: #ffdb68;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
     }
     .spot-street {
-        /*background-color: #be9005;*/
         background-color: #f8ecc1;
         height: 20px;
     }
     .spot-street input {
-        /*background-color: #c59c23;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
     }
     .spot-double-street {
-        /*background-color: #7f6001;*/
         background-color: #f8ecc1;
         height: 20px;
     }
     .spot-double-street input {
-        /*background-color: #8b701d;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
     }
     .spot-basket {
-        /*background-color: #7f6001;*/
         background-color: #f8ecc1;
     }
     .spot-basket input {
-        /*background-color: #8b701d;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
