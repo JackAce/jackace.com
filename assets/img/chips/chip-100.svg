@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+  <style><![CDATA[
+    text {
+      font: Helvetica, Arial, Verdana, sans-serif;
+      font-weight: bold;
+      text-anchor: middle;
+      font-size: 110px;
+    }
+    .d1 {
+      fill: #5077d3;
+      color: #5077d3;
+    }
+    .d5 {
+      fill: #c00;
+      color: #c00;
+    }
+    .d25 {
+      fill: #0c0;
+      color: #0c0;
+    }
+    .d100 {
+      fill: #000;
+      color: #000;
+    }
+    .d500 {
+      fill: #c0c;
+      color: #c0c;
+    }
+    .d1000 {
+      fill: #ffd800;
+      color: #ffd800;
+      stroke: #000;
+      stroke-opacity: 0.5;
+    }
+    ]]>
+  </style>
+  <defs>
+      <mask id="hole1">
+        <circle cx="200" cy="200" r="200" fill="#fff"/>
+        <circle cx="200" cy="200" r="175" fill="#000"/>
+        <polygon points="200,200 240,0 400,0 400,160" fill="#000"/>
+        <polygon points="200,200 400,240 400,400 240,400" fill="#000"/>
+        <polygon points="200,200 160,400 0,400 0,240" fill="#000"/>
+        <polygon points="200,200 0,160 0,0 160,0" fill="#000"/>
+      </mask>
+  </defs>
+  <defs>
+      <mask id="hole2">
+        <circle cx="200" cy="200" r="200" fill="#fff"/>
+        <circle cx="200" cy="200" r="175" fill="#000"/>
+
+        <polygon points="200,200 350,0 50,0" fill="#000"/>
+        <polygon points="200,200 400,50 400,350" fill="#000"/>
+        <polygon points="200,200 350,400 50,400" fill="#000"/>
+        <polygon points="200,200 0,50 0,350" fill="#000"/>
+      </mask>
+  </defs>
+  <circle cx="200" cy="200" r="200" class="d100" />
+
+  <circle cx="200" cy="200" r="200" color="#fff" fill="#fff" mask="url(#hole1)" />
+  <circle cx="200" cy="200" r="200" color="#fff" fill="#fff" opacity="0.5" mask="url(#hole2)" />
+
+  <circle cx="200" cy="200" r="125" color="#fff" fill="#fff" />
+  <text x="200" y="235" class="d100">$100</text>
+</svg>

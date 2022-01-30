@@ -14,11 +14,8 @@ td {
     font-size: 12px;
     padding: 0px;
 }
-figure {
-    // display: block;
-    // margin-left: auto;
-    // margin-right: auto;
-    width: 90%;
+b, i {
+    color: #aaedf8;
 }
 figcaption {
     margin-top: 2px;
@@ -29,9 +26,12 @@ figcaption {
         height: 18px;
     }
 }
-b, i {
-    color: #8acdd8;
+blockquote {
+    footer {
+        text-align: right;
+    }
 }
+
 .post-content {
     h1, h2, h3, h4, h5, h6 {
         font-family: 'Roboto Slab', 'Noto Serif SC', 'Noto Serif TC';
@@ -63,7 +63,6 @@ b, i {
     font-weight: bold;
     font-size: larger;
 }
-
 .p-center {
     text-align: center;
 }
@@ -98,7 +97,23 @@ b, i {
     width: 42px;
     height: 27px;
 }
+.chip-xs {
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+}
+.chip-s {
+    width: 48px;
+    height: 48px;
+    margin: 2px;
+}
+.chip-m {
+    width: 128px;
+    height: 128px;
+    margin: 2px;
+}
 
+// work in progress
 .roulette-spot-0 {
     background: url("../../assets/img/roulette/0_g.svg") no-repeat;
     width: 42px;
@@ -134,6 +149,7 @@ b, i {
         padding: 4px;
         font-size: 16px;
     }
+    // TODO: FIX THIS GARBAGE
     img {
         margin: 0px;
         min-width: 40px;
@@ -159,10 +175,12 @@ b, i {
     }
 }
 
+// Used for pages with no side navigation bar
 .site-wide {
     width: 100%;
 }
 
+// Used for roulette bet analyzer (TODO: Move to separate CSS file)
 .roulette {
     background-color: #939;
     td, th {
@@ -295,7 +313,6 @@ b, i {
         color: #fff;
     }
     .spot-split {
-        /*background-color: #e5dab8;*/
         background-color: #f8ecc1;
         height: 20px;
     }
@@ -305,44 +322,36 @@ b, i {
         width: 18px;
     }
     .spot-corner {
-        /*background-color: #e5c65f;*/
         background-color: #f8ecc1;
         height: 20px;
     }
     .spot-corner input {
-        /*background-color: #ffdb68;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
     }
     .spot-street {
-        /*background-color: #be9005;*/
         background-color: #f8ecc1;
         height: 20px;
     }
     .spot-street input {
-        /*background-color: #c59c23;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
     }
     .spot-double-street {
-        /*background-color: #7f6001;*/
         background-color: #f8ecc1;
         height: 20px;
     }
     .spot-double-street input {
-        /*background-color: #8b701d;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
     }
     .spot-basket {
-        /*background-color: #7f6001;*/
         background-color: #f8ecc1;
     }
     .spot-basket input {
-        /*background-color: #8b701d;*/
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
