@@ -1,0 +1,190 @@
+---
+layout: page-no-sidebar
+title: Reviews of Roulette System Reviews
+tags: [roulette,ceg dealer school]
+excerpt_image: "/assets/img/posts/2022-01-21/00-title-800x743.png"
+summary: "Are you making bad bets in Roulette? Analyze your system using the Roulette Bet Analyzer!"
+---
+<h1>
+  {{page.title}}
+</h1>
+<p>
+  We're slowly going to backfill the catalog of CEG Dealer School Roulette system reviews. Are we missing
+  your favorite? Let us know!
+</p>
+
+<table class="betting-system-table">
+  <thead>
+    <tr>
+      <th>
+        System
+      </th>
+      <th>
+        Buy&nbsp;In
+      </th>
+      <th>
+        Bet/Spin
+      </th>
+      <th>
+        Wagers for<br/>System
+      </th>
+      <th>
+        Expected<br/>Loss
+      </th>
+      <th>
+        Actual<br/>Results
+      </th>
+      <th>
+        CEG<br/>Rating
+      </th>
+      <th>
+        JackAce<br/>Rating
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- assign totalAmountBet = 0 -%}
+    {%- assign totalLiveResults = 0 -%}
+    {%- assign totalExpectedLoss = 0.00 -%}
+
+    {% for row in site.data.roulette-systems %}
+
+      {%- assign liveResults = row["liveResults"] | times: 1 -%}
+      {%- assign expectedLoss = row["expectedLoss"] | times: 1 -%}
+      {%- assign buyIn = row["buyIn"] | times: 1 -%}
+      {%- assign amountBet = row["amountBet"] | times: 1 -%}
+      {%- assign bets = row["bets"] -%}
+
+      {%- assign totalAmountBet = totalAmountBet | plus: amountBet -%}
+      {%- assign totalLiveResults = totalLiveResults | plus: liveResults -%}
+      {%- assign totalExpectedLoss = totalExpectedLoss | plus: expectedLoss -%}
+      <tr>
+        <td>
+          {% if row["reviewUrl"] %}
+            <a href="{{site.baseurl}}/gambling/roulette/systems/{{row['reviewUrl']}}/" >{{ row["system"] }}</a>
+          {% else %}
+            {{ row["system"] }}
+          {% endif %}
+          &nbsp;
+          <br/>
+          <a href="{{row['youtubeUrl']}}" target="_blank"><img src="{{site.baseurl}}/assets/img/icons/youtube-24x24.png" alt="YouTube" title="YouTube" /></a>
+          <i class="airDate">{{ row["airDate"] | date: site.date_format }}</i>
+        </td>
+        <td>
+          {% if buyIn >= 1000 %}
+            <img src="{{site.baseurl}}/assets/img/chips/chip-1000-blank.svg" class="chip-xs" />
+          {% elsif buyIn >= 500 %}
+            <img src="{{site.baseurl}}/assets/img/chips/chip-500-blank.svg" class="chip-xs" />
+          {% elsif buyIn >= 100 %}
+            <img src="{{site.baseurl}}/assets/img/chips/chip-100-blank.svg" class="chip-xs" />
+          {% elsif buyIn >= 25 %}
+            <img src="{{site.baseurl}}/assets/img/chips/chip-25-blank.svg" class="chip-xs" />
+          {% else %}
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" />
+          {% endif %}
+          ${{ row["buyIn"] }}
+        </td>
+        <td>
+          {% for bet in bets %}
+            {%- assign bet = bet | times: 1 -%}
+            {% if bet > 0%}
+              {% if bet >= 1000 %}
+                <img src="{{site.baseurl}}/assets/img/chips/chip-1000-blank.svg" class="chip-xs" />
+              {% elsif bet >= 500 %}
+                <img src="{{site.baseurl}}/assets/img/chips/chip-500-blank.svg" class="chip-xs" />
+              {% elsif bet >= 100 %}
+                <img src="{{site.baseurl}}/assets/img/chips/chip-100-blank.svg" class="chip-xs" />
+              {% elsif bet >= 25 %}
+                <img src="{{site.baseurl}}/assets/img/chips/chip-25-blank.svg" class="chip-xs" />
+              {% elsif bet >= 5 %}
+                <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" />
+              {% endif %}
+              {{ bet }}<br/>
+            {% endif %}
+          {% endfor %}
+        </td>
+        <td>
+          ${{ amountBet }}
+        </td>
+        <td>
+          {%- assign expectedLoss = expectedLoss | floor -%}
+          <span class="amt-neg">{{ "$" | append: expectedLoss | replace: "$-", "-$" }}</span>
+        </td>
+        <td>
+          {% if liveResults < 0.00 %}
+            <span class="amt-neg">{{ "$" | append: liveResults | replace: "$-", "-$" }}</span>
+          {% else %}
+            <span class="amt-pos">${{ liveResults }}</span>
+          {% endif %}
+        </td>
+        <td>
+          <img src="{{site.baseurl}}/assets/img/systems/ratings/{{ row['rating'] }}-400x400.png" width="40" title="{{ row['rating'] | upcase }}"/>
+        </td>
+        <td>
+          <img src="{{site.baseurl}}/assets/img/systems/ratings/{{ row['jackaceRating'] }}-400x400.png" width="40" title="{{ row['jackaceRating'] | upcase }}"/>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        Total Bets
+      </th>
+      <th>
+        Total Expected<br/>
+        Loss
+      </th>
+      <th>
+        Total<br/>
+        Win/Loss
+      </th>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        &nbsp;
+      </th>
+    </tr>
+    <tr>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        ${{totalAmountBet}}
+      </td>
+      <td>
+        {%- assign totalExpectedLoss = totalExpectedLoss | floor -%}
+        <span class="amt-neg">{{ "$" | append: totalExpectedLoss | replace: "$-", "-$" }}</span>
+      </td>
+      <td>
+        {% if totalLiveResults < 0.00 %}
+          <span class="amt-neg">{{ "$" | append: totalLiveResults | replace: "$-", "-$" }}</span>
+        {% else %}
+          <span class="amt-pos">${{ totalLiveResults }}</span>
+        {% endif %}
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+  </tfoot>
+</table>
