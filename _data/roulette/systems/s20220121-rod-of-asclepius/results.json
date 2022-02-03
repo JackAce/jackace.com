@@ -2,11 +2,11 @@
   "name": "The Rod of Asclepius",
   "airDate": "2022-01-21",
   "youtubeUrl": "https://www.youtube.com/watch?v=tyX4-dp2Rjw",
-  "buyIn": 1,
-  "bets": [1],
+  "buyIn": 1500,
+  "bets": [22],
   "rating": "x",
   "jackaceRating": "d",
-  "notes": "",
+  "notes": "d",
   "spins": [
     {
       "spin": 1,

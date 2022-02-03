@@ -90,19 +90,6 @@
   "jackaceRating": "f"
 },
 {
-  "system": "The Rod of Asclepius",
-  "airDate": "2022-01-21",
-  "youtubeUrl": "https://www.youtube.com/watch?v=tyX4-dp2Rjw",
-  "reviewUrl": "2022-01-21-Rod-of-Asclepius",
-  "buyIn": 1500,
-  "bets": [22],
-  "amountBet": 1,
-  "expectedLoss": -1,
-  "liveResults": -1,
-  "rating": "d",
-  "jackaceRating": "x"
-},
-{
   "system": "Diamond Heist",
   "airDate": "2022-12-10",
   "youtubeUrl": "https://www.youtube.com/watch?v=eZgHu0fdWTo",
