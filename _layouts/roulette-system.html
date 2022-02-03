@@ -1,0 +1,315 @@
+---
+layout: page-no-sidebar
+---
+{%- assign system = site.data.roulette.systems[page.systemName].results -%}
+{%- assign tierCount = system.bets.size -%}
+{%- assign airDate = system.airDate -%}
+{%- assign rating = system.rating -%}
+{%- assign jackaceRating = system.jackaceRating -%}
+{%- assign friendCount = system.friendCount | default: 0 -%}
+{%- assign groupLoops = friendCount | at_least: 1 -%}
+{%- assign spotsGreen = "0,00" | split: "," -%}
+{%- assign spotsRed = "1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36" | split: "," -%}
+
+<!-- Calculate totals BEGIN -->
+{%- assign totalAmountBet = 0.00 -%}
+{%- assign totalEV = 0.00 -%}
+{%- assign totalWinLoss = 0 -%}
+{% for row in system.spins %}
+  {%- assign currentBet = row["amountBet"] | times: 1 -%}
+  {%- assign estimatedEV = currentBet | times: -0.0526 -%}
+  {%- assign currentEV = row["ev"] | default: estimatedEV | times: 1 -%}
+  {%- assign currentResult = row["result"] | times: 1 -%}
+  {%- assign totalAmountBet = totalAmountBet | plus: currentBet -%}
+  {%- assign totalEV = totalEV | plus: currentEV | times: 1 -%}
+  {%- assign totalWinLoss = totalWinLoss | plus: currentResult | times: 1 -%}
+{% endfor %}
+{%- assign totalAmountBet = totalAmountBet | floor -%}
+<!-- Calculate totals COMPLETE -->
+
+<h1>{{system.name}} - Roulette System Analysis</h1>
+
+<a href="{{site.baseurl}}/gambling/roulette/systems/">Back to Roulette Systems</a>
+<br/><br/>
+
+<h2>System Stats</h2>
+
+<table class="key-value-table" width="50%">
+    <tr>
+        <th width="30%">
+            Buy In:
+        </th>
+        <td width="70%">
+
+          {% if system.buyIn >= 1000 %}
+            <img src="{{site.baseurl}}/assets/img/chips/chip-1000-blank.svg" class="chip-xs" />
+          {% elsif system.buyIn >= 500 %}
+            <img src="{{site.baseurl}}/assets/img/chips/chip-500-blank.svg" class="chip-xs" />
+          {% elsif system.buyIn >= 100 %}
+            <img src="{{site.baseurl}}/assets/img/chips/chip-100-blank.svg" class="chip-xs" />
+          {% elsif system.buyIn >= 25 %}
+            <img src="{{site.baseurl}}/assets/img/chips/chip-25-blank.svg" class="chip-xs" />
+          {% else %}
+            <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" />
+          {% endif %}
+          ${{ system.buyIn }}<br/>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Bet per Spin:
+        </th>
+        <td>
+          {% for i in (1..tierCount) %}
+            {%- assign index = i | minus: 1 -%}
+            {%- assign betAmount = system.bets[index] | times: 1 -%}
+
+            {% if betAmount >= 1000 %}
+              <img src="{{site.baseurl}}/assets/img/chips/chip-1000-blank.svg" class="chip-xs" />
+            {% elsif betAmount >= 500 %}
+              <img src="{{site.baseurl}}/assets/img/chips/chip-500-blank.svg" class="chip-xs" />
+            {% elsif betAmount >= 100 %}
+              <img src="{{site.baseurl}}/assets/img/chips/chip-100-blank.svg" class="chip-xs" />
+            {% elsif betAmount >= 25 %}
+              <img src="{{site.baseurl}}/assets/img/chips/chip-25-blank.svg" class="chip-xs" />
+            {% else %}
+              <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" />
+            {% endif %}
+            ${{ betAmount }}<br/>
+          {% endfor %}
+        </td>
+    </tr>
+    <tr>
+      <th>
+          Total Bets:
+      </th>
+      <td>
+          ${{totalAmountBet}}
+      </td>
+  </tr>
+  <tr>
+    <th>
+        Total Win/Loss:
+    </th>
+    <td>
+      {% if totalWinLoss < 0 %}
+        <span class="amt-neg">-${{ totalWinLoss | abs }}</span>
+      {% elsif totalWinLoss > 0 %}
+        <span class="amt-pos">+${{ totalWinLoss }}</span>
+      {% else %}
+        <span class="amt-0">$0</span>
+      {% endif %}
+    </td>
+  </tr>
+  <tr>
+    <th>
+        Total Expected Loss:
+    </th>
+    <td>
+        <span class="amt-neg">{{ totalEV | round: 2 | replace: "-", "-$" }}</span>
+    </td>
+  </tr>
+  <tr>
+    <th>
+        Rating:
+    </th>
+    <td>
+      {% if rating == "a" %}
+        <img src="{{site.baseurl}}/assets/img/systems/ratings/a-400x400.png" width="40" title="A"/> A - Grapefruit
+      {% elsif rating == "b" %}
+        <img src="{{site.baseurl}}/assets/img/systems/ratings/b-400x400.png" width="40" title="B"/> B - Peach
+      {% elsif rating == "c" %}
+        <img src="{{site.baseurl}}/assets/img/systems/ratings/c-400x400.png" width="40" title="C"/> C - Plum
+      {% elsif rating == "d" %}
+        <img src="{{site.baseurl}}/assets/img/systems/ratings/d-400x400.png" width="40" title="D"/> D - Eggplant
+      {% elsif rating == "f" %}
+        <img src="{{site.baseurl}}/assets/img/systems/ratings/f-400x400.png" width="40" title="F"/> F - Durian
+      {% endif %}
+    </td>
+  </tr>
+  <tr>
+    <th>
+        JackAce Rating:
+    </th>
+    <td>
+      {% if jackaceRating == "a" %}
+        <img src="{{site.baseurl}}/assets/img/systems/ratings/a-400x400.png" width="40" title="A"/> A - Grapefruit
+      {% elsif jackaceRating == "b" %}
+        <img src="{{site.baseurl}}/assets/img/systems/ratings/b-400x400.png" width="40" title="B"/> B - Peach
+      {% elsif jackaceRating == "c" %}
+        <img src="{{site.baseurl}}/assets/img/systems/ratings/c-400x400.png" width="40" title="C"/> C - Plum
+      {% elsif jackaceRating == "d" %}
+        <img src="{{site.baseurl}}/assets/img/systems/ratings/d-400x400.png" width="40" title="D"/> D - Eggplant
+      {% elsif jackaceRating == "f" %}
+        <img src="{{site.baseurl}}/assets/img/systems/ratings/f-400x400.png" width="40" title="F"/> F - Durian
+      {% endif %}
+    </td>
+  </tr>
+  {% if system.notes %}
+    <tr>
+      <th>
+          Notes:
+      </th>
+      <td>
+          {{system.notes}}
+      </td>
+    </tr>
+  {% endif %}
+</table>
+
+<h2>Bets</h2>
+
+<figure>
+  <img src="{{site.baseurl}}/assets/img/systems/{{airDate}}/00-rba-0-800x681.png" alt="Roulette Bet Analyzer bets for {{ system.name }}"/>
+  <figcaption>
+    <i>{{ system.name }}</i> base bets
+  </figcaption>
+</figure>
+
+{% for i in (1..groupLoops) %}
+
+  {%- assign loopSpins = system.spins | sort: "spin" -%}
+  {%- assign groupEV = 0 -%}
+  {%- assign groupAmountBet = 0 -%}
+  {%- assign groupWinLoss = 0 -%}
+
+  {% if friendCount > 0 %}
+    {%- assign loopSpins = system.spins | where: "friend", i | sort: "spin" -%}
+    <h3>Friend #{{i}} Results</h3>
+  {% endif %}
+
+  <table class="betting-system-table">
+    <thead>
+      <tr>
+        <th>
+          Spin #
+        </th>
+        <th>
+          Number
+        </th>
+        <th>
+          Result
+        </th>
+        <th>
+          Amount Bet
+        </th>
+        <th> 
+          Running Total
+        </th>
+        <th width="25%"> 
+          Notes
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in loopSpins %}
+
+        {%- assign currentResult = row["result"] | times: 1 -%}
+        {%- assign currentBet = row["amountBet"] | times: 1 -%}
+        {%- assign estimatedEV = currentBet | times: -0.0526 -%}
+        {%- assign currentEV = row["ev"] | default: estimatedEV | times: 1 -%}
+        {%- assign groupEV = groupEV | plus: currentEV | times: 1 -%}
+      
+        {%- assign spinNumber = row["number"] -%}
+        {%- assign isGreenSpot = spotsGreen | where: "", spinNumber -%}
+        {%- assign isRedSpot = spotsRed | where: "", spinNumber -%}
+
+        {%- assign groupAmountBet = groupAmountBet | plus: currentBet | times: 1 -%}
+        {%- assign groupWinLoss = groupWinLoss | plus: currentResult | times: 1 -%}
+      
+        <tr>
+          <td class="cell-center">
+            {{ row["spin"] }}
+          </td>
+          <td class="cell-center">
+            {% if isGreenSpot.size == 1 %}
+              <img src="{{site.baseurl}}/assets/img/roulette/{{ spinNumber }}_g.svg" class="roulette-spot" alt="{{ spinNumber }} Green" title="{{ spinNumber }} Green" />
+            {% elsif isRedSpot.size == 1 %}
+              <img src="{{site.baseurl}}/assets/img/roulette/{{ spinNumber }}_r.svg" class="roulette-spot" alt="{{ spinNumber }} Red" title="{{ spinNumber }} Red" />
+            {% else %}
+              <img src="{{site.baseurl}}/assets/img/roulette/{{ spinNumber }}_b.svg" class="roulette-spot" alt="{{ spinNumber }} Black" title="{{ spinNumber }} Black" />
+            {% endif %}
+          </td>
+          <td class="cell-center">
+            {% if currentResult < 0 %}
+              <span class="amt-neg">{{ currentResult | prepend: "$" | replace: "$-", "-$" }}</span>
+            {% elsif currentResult > 0 %}
+              <span class="amt-pos">${{ currentResult }}</span>
+            {% else %}
+              <span class="amt-0">$0</span>
+            {% endif %}
+
+            <!--
+            {% if row["note"] %}
+              {{ row["note"] }}
+            {% endif %}
+            -->
+            </td>
+          <td class="cell-center">
+            ${{ currentBet }}
+          </td>
+          <td class="cell-center">
+            {% if groupWinLoss < 0 %}
+              <span class="amt-neg">{{ groupWinLoss | prepend: "$" | replace: "$-", "-$" }}</span>
+            {% elsif groupWinLoss > 0 %}
+              <span class="amt-pos">${{ groupWinLoss }}</span>
+            {% else %}
+              <span class="amt-0">$0</span>
+            {% endif %}
+          </td>
+          <td>
+            {{ row["notes"] }}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>
+          &nbsp;
+        </th>
+        <th>
+          Expected<br/>Loss
+        </th>
+        <th>
+          Total<br/>Win/Loss
+        </th>
+        <th>
+          Total Bets
+        </th>
+        <th>
+          &nbsp;
+        </th>
+        <th>
+          &nbsp;
+        </th>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;
+        </td>
+        <td class="cell-center">
+          <span class="amt-neg">{{ groupEV | round: 2 | replace: "-", "-$" }}</span>
+        </td>
+        <td class="cell-center">
+          {% if groupWinLoss < 0 %}
+            <span class="amt-neg">{{ groupWinLoss | replace: "-", "-$" }}</span>
+          {% else %}
+            <span class="amt-pos">${{ groupWinLoss }}</span>
+          {% endif %}
+        </td>
+        <td class="cell-center">
+          ${{ groupAmountBet }}
+        </td>
+        <td>
+          &nbsp;
+        </td>
+        <td>
+          &nbsp;
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+{% endfor %}
+
+<a href="{{site.baseurl}}/gambling/roulette/systems/">Back to Roulette Systems</a>

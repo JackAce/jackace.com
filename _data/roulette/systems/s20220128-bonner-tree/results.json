@@ -1,0 +1,85 @@
+{
+  "name": "Bonner Tree",
+  "airDate": "2022-01-28",
+  "youtubeUrl": "https://www.youtube.com/watch?v=x0Slr8ijAvU",
+  "buyIn": 800,
+  "bets": [170],
+  "friendCount": 0,
+  "rating": "b",
+  "jackaceRating": "d",
+  "notes": "Lucky Lauren and Alex K review this holiday themed system.",
+  "spins": [
+    {
+      "spin": 1,
+      "number": "3",
+      "amountBet": 170,
+      "result": -125
+    },
+    {
+      "spin": 2,
+      "number": "0",
+      "amountBet": 170,
+      "result": 10
+    },
+    {
+      "spin": 3,
+      "number": "25",
+      "amountBet": 170,
+      "result": -125
+    },
+    {
+      "spin": 4,
+      "number": "8",
+      "amountBet": 170,
+      "result": 100
+    },
+    {
+      "spin": 5,
+      "number": "15",
+      "amountBet": 170,
+      "result": -125
+    },
+    {
+      "spin": 6,
+      "number": "19",
+      "amountBet": 170,
+      "result": -125
+    },
+    {
+      "spin": 7,
+      "number": "25",
+      "amountBet": 170,
+      "result": -125
+    },
+    {
+      "spin": 8,
+      "number": "11",
+      "amountBet": 170,
+      "result": 100
+    },
+    {
+      "spin": 9,
+      "number": "14",
+      "amountBet": 0,
+      "result": 100
+    },
+    {
+      "spin": 10,
+      "number": "19",
+      "amountBet": 170,
+      "result": -125
+    },
+    {
+      "spin": 11,
+      "number": "14",
+      "amountBet": 170,
+      "result": 100
+    },
+    {
+      "spin": 12,
+      "number": "13",
+      "amountBet": 170,
+      "result": -125
+    }
+  ]
+}
