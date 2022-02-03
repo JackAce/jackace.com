@@ -193,8 +193,11 @@ layout: page-no-sidebar
         <th>
           Amount Bet
         </th>
-        <th>
+        <th> 
           Running Total
+        </th>
+        <th width="25%"> 
+          Notes
         </th>
       </tr>
     </thead>
@@ -254,6 +257,9 @@ layout: page-no-sidebar
               <span class="amt-0">$0</span>
             {% endif %}
           </td>
+          <td>
+            {{ row["notes"] }}
+          </td>
         </tr>
       {% endfor %}
     </tbody>
@@ -270,6 +276,9 @@ layout: page-no-sidebar
         </th>
         <th>
           Total Bets
+        </th>
+        <th>
+          &nbsp;
         </th>
         <th>
           &nbsp;
@@ -292,7 +301,10 @@ layout: page-no-sidebar
         <td class="cell-center">
           ${{ groupAmountBet }}
         </td>
-        <td class="cell-center">
+        <td>
+          &nbsp;
+        </td>
+        <td>
           &nbsp;
         </td>
       </tr>

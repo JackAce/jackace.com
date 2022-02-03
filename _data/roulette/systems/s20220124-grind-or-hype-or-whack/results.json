@@ -1,0 +1,149 @@
+{
+  "name": "Grind or hype or whack",
+  "airDate": "2022-01-24",
+  "youtubeUrl": "https://www.youtube.com/watch?v=AL0_plXbhCk",
+  "buyIn": 400,
+  "bets": [110],
+  "friendCount": 2,
+  "rating": "b",
+  "jackaceRating": "b",
+  "notes": "$40 each on Two Dozens + $30 on one Double Street. Watch this video to see a \"Roller\", when the ball gets stuck rolling around the wheel!",
+  "spins": [
+    {
+      "friend": 1,
+      "spin": 1,
+      "number": "7",
+      "amountBet": 110,
+      "result": 10
+    },
+    {
+      "friend": 1,
+      "spin": 2,
+      "number": "16",
+      "amountBet": 110,
+      "result": 70
+    },
+    {
+      "friend": 1,
+      "spin": 3,
+      "number": "19",
+      "amountBet": 110,
+      "result": 70
+    },
+    {
+      "friend": 1,
+      "spin": 4,
+      "number": "17",
+      "amountBet": 110,
+      "result": 70
+    },
+    {
+      "friend": 1,
+      "spin": 5,
+      "number": "32",
+      "amountBet": 110,
+      "result": 10
+    },
+    {
+      "friend": 1,
+      "spin": 6,
+      "number": "8",
+      "amountBet": 110,
+      "result": 10
+    },
+    {
+      "friend": 1,
+      "spin": 7,
+      "number": "20",
+      "amountBet": 110,
+      "result": 70
+    },
+    {
+      "friend": 1,
+      "spin": 8,
+      "number": "26",
+      "amountBet": 110,
+      "result": 70,
+      "notes": "They didn't mark this win in the video."
+    },
+    {
+      "friend": 1,
+      "spin": 9,
+      "number": "29",
+      "amountBet": 110,
+      "result": 10
+    },
+    {
+      "friend": 1,
+      "spin": 10,
+      "number": "7",
+      "amountBet": 110,
+      "result": 10
+    },
+    {
+      "friend": 1,
+      "spin": 11,
+      "number": "1",
+      "amountBet": 110,
+      "result": 10
+    },
+    {
+      "friend": 1,
+      "spin": 12,
+      "number": "26",
+      "amountBet": 110,
+      "result": 10
+    },
+    {
+      "friend": 2,
+      "spin": 13,
+      "number": "9",
+      "amountBet": 110,
+      "result": 10
+    },
+    {
+      "friend": 2,
+      "spin": 14,
+      "number": "29",
+      "amountBet": 110,
+      "result": 70,
+      "notes": "Alex started mixing up the bets here."
+    },
+    {
+      "friend": 2,
+      "spin": 15,
+      "number": "27",
+      "amountBet": 110,
+      "result": 70
+    },
+    {
+      "friend": 2,
+      "spin": 16,
+      "number": "21",
+      "amountBet": 110,
+      "result": 10
+    },
+    {
+      "friend": 2,
+      "spin": 17,
+      "number": "32",
+      "amountBet": 110,
+      "result": 10
+    },
+    {
+      "friend": 2,
+      "spin": 18,
+      "number": "5",
+      "amountBet": 110,
+      "result": 70
+    },
+    {
+      "friend": 2,
+      "spin": 19,
+      "number": "17",
+      "amountBet": 110,
+      "result": 10,
+      "notes": "They incorrectly marked this as an '11' in the video."
+    }
+  ]
+}

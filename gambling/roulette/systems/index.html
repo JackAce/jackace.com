@@ -47,7 +47,7 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
     {%- assign totalLiveResults = 0 -%}
     {%- assign totalExpectedLoss = 0.00 -%}
 
-    {% for row in site.data.roulette-sys %}
+    {% for row in site.data.roulette-systems %}
 
       {%- assign liveResults = row["liveResults"] | times: 1 -%}
       {%- assign expectedLoss = row["expectedLoss"] | times: 1 -%}

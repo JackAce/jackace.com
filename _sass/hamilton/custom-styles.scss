@@ -113,18 +113,6 @@ blockquote {
     margin: 2px;
 }
 
-// work in progress
-.roulette-spot-0 {
-    background: url("../../assets/img/roulette/0_g.svg") no-repeat;
-    width: 42px;
-    height: 27px;
-    min-width: 42px;
-    min-height: 27px;
-    max-width: 42px;
-    max-height: 27px;
-    background-size: 42px 27px;
-}
-
 .strategy-table {
     font-size: 16px;
     th {
@@ -247,6 +235,11 @@ blockquote {
 // Used for roulette bet analyzer (TODO: Move to separate CSS file)
 .roulette {
     background-color: #939;
+    table {
+        //border-collapse: collapse;
+        border: 0px;
+        padding: 0px;
+    }
     td, th {
         font-family: Arial;
         font-size: 10px;
@@ -254,28 +247,33 @@ blockquote {
         border: 0px;
         padding: 0px;
     }
-
-    table {
-        border-collapse: collapse;
-        border: 0px;
-        padding: 0px;
-    }
-        
     input {
         font-size: 12px;
         text-align: center;
         font-weight: bold;
         border: hidden;
     }
-        
     ::placeholder {
         color: #fff;
         font-size: 20px;
-        opacity: 0.5;
+        opacity: 0.6;
     }
         
     .hiddenRow {
         display: none;
+    }
+    .borderRow {
+        height: 2px;
+        max-height: 2px;
+    }
+    .amt-neg {
+        color: #fcc;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .amt-pos {
+        font-weight: bold;
+        font-size: 13px;
     }
     .warningDiv {
         color: #f00;
@@ -330,7 +328,9 @@ blockquote {
     }
     .spot-green {
         background-color: #0c0;
+        font-size: 11px;
         color: #fff;
+        border: 1px #999 solid;
     }
     .spot-green input {
         background-color: #1d1;
@@ -339,8 +339,10 @@ blockquote {
     }
     .spot-red {
         background-color: #c00;
+        font-size: 11px;
         height: 35px;
         color: #fff;
+        border: 1px #999 solid;
     }
     .spot-red input {
         background-color: #e11;
@@ -348,8 +350,10 @@ blockquote {
     }
     .spot-black {
         background-color: #000;
+        font-size: 11px;
         height: 35px;
         color: #fff;
+        border: 1px #999 solid;
     }
     .spot-black input {
         background-color: #222;
@@ -429,6 +433,7 @@ blockquote {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        border: 1px #999 solid;
     }
     .win-red {
         width: 35px;
@@ -438,6 +443,7 @@ blockquote {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        border: 1px #999 solid;
     }
     .win-black {
         width: 35px;
@@ -447,6 +453,7 @@ blockquote {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        border: 1px #999 solid;
     }
     
     .col-spot {
