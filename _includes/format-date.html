@@ -1,0 +1,3 @@
+{%- assign date = include.date -%}
+{%- assign dateFormat = isite.date_format | default: "%-d %b %Y" -%}
+{{- date | date: dateFormat -}}

@@ -59,7 +59,7 @@ layout: page-no-sidebar
           Total Bets:
       </th>
       <td>
-          ${{totalAmountBet}}
+        ${%- include format-number.html number=totalAmountBet -%}
       </td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ layout: page-no-sidebar
         Total Expected Loss:
     </th>
     <td>
-      {% include win-loss-amount.html amount=totalEV %}
+      {% include win-loss-amount.html amount=totalEV places=2 %}
     </td>
   </tr>
   <tr>
@@ -119,7 +119,6 @@ layout: page-no-sidebar
 
   <!-- assign loopSpins = system.spins | sort: "spin" -->
   {%- assign loopSpins = system.spins -%}
-  <!-- assign loopSpins = loopSpins | sort: "number" -->
   {%- assign groupEV = 0 -%}
   {%- assign groupAmountBet = 0 -%}
   {%- assign groupWinLoss = 0 -%}
@@ -180,7 +179,7 @@ layout: page-no-sidebar
             {% include win-loss-amount.html amount=currentResult %}
           </td>
           <td class="cell-center">
-            ${{ currentBet }}
+            ${%- include format-number.html number=currentBet -%}
           </td>
           <td class="cell-center">
             {% include win-loss-amount.html amount=groupWinLoss %}
@@ -197,16 +196,16 @@ layout: page-no-sidebar
           &nbsp;
         </th>
         <th>
-          Expected<br/>Loss
+          &nbsp;
         </th>
         <th>
-          Total<br/>Win/Loss
+          Expected<br/>Loss
         </th>
         <th>
           Total Bets
         </th>
         <th>
-          &nbsp;
+          Total<br/>Win/Loss
         </th>
         <th>
           &nbsp;
@@ -216,17 +215,17 @@ layout: page-no-sidebar
         <td>
           &nbsp;
         </td>
+        <td>
+          &nbsp;
+        </td>
         <td class="cell-center">
-          {% include win-loss-amount.html amount=groupEV %}
+          {% include win-loss-amount.html amount=groupEV places=2 %}
+        </td>
+        <td class="cell-center">
+          ${%- include format-number.html number=groupAmountBet -%}
         </td>
         <td class="cell-center">
           {% include win-loss-amount.html amount=groupWinLoss %}
-        </td>
-        <td class="cell-center">
-          ${{ groupAmountBet }}
-        </td>
-        <td>
-          &nbsp;
         </td>
         <td>
           &nbsp;
