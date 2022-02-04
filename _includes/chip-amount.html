@@ -1,0 +1,14 @@
+{% if include.chipAmount > 0 %}
+    {% if include.chipAmount >= 1000 %}
+        <img src="{{site.baseurl}}/assets/img/chips/chip-1000-blank.svg" class="chip-xs" />
+    {% elsif include.chipAmount >= 500 %}
+        <img src="{{site.baseurl}}/assets/img/chips/chip-500-blank.svg" class="chip-xs" />
+    {% elsif include.chipAmount >= 100 %}
+        <img src="{{site.baseurl}}/assets/img/chips/chip-100-blank.svg" class="chip-xs" />
+    {% elsif include.chipAmount >= 25 %}
+        <img src="{{site.baseurl}}/assets/img/chips/chip-25-blank.svg" class="chip-xs" />
+    {% elsif include.chipAmount >= 5 %}
+        <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" />
+    {% endif %}
+    {{ include.chipAmount }}<br/>
+{% endif %}
