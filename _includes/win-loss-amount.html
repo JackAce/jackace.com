@@ -1,7 +1,10 @@
+
+{%- assign places = include.places | default: 0 -%}
+{%- assign absAmount = include.amount | abs -%}
 {% if include.amount < 0 %}
-    <span class="amt-neg">-${{ include.amount | abs }}</span>
+    <span class="amt-neg">-${%- include format-number.html number=absAmount places=places -%}</span>
 {% elsif include.amount > 0 %}
-    <span class="amt-pos">+${{ include.amount }}</span>
+    <span class="amt-pos">+${%- include format-number.html number=include.amount places=places -%}</span>
 {% else %}
     <span class="amt-0">$0</span>
 {% endif %}

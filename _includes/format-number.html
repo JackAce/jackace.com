@@ -1,0 +1,32 @@
+{%- assign number = include.number | times: 1 -%}
+{%- assign places = include.places | default: 0 -%}
+
+{%- assign number = number | plus: 0.0000001 -%}
+{%- assign parts = number | split: "." -%}
+{%- assign integerPart = parts[0] | times: 1 -%}
+{%- assign integerLength = integerPart | append: "" | size -%}
+{%- assign formatOutput = integerPart -%}
+
+{%- if integerLength > 3 -%}
+    {%- assign integerLengthModulo3 = integerLength | modulo: 3 -%}
+    {%- assign nextPart = integerPart | slice: 0, 1 -%}
+    {%- assign formatOutput = nextPart -%}
+
+    {%- for i in (1..integerLength) -%}
+        {%- assign currentMod3 = i | modulo: 3 -%}
+        {%- if currentMod3 == integerLengthModulo3 and i < integerLength -%}
+            {%- assign formatOutput = formatOutput | append: "," -%}
+        {%- endif -%}
+
+        {%- assign nextPart = integerPart | slice: i, 1 -%}
+        {%- assign formatOutput = formatOutput | append: nextPart -%}
+    {%- endfor -%}
+{%- endif -%}
+
+{%- if places > 0 -%}
+    {%- assign decimalPart = parts[1] -%}
+    {%- assign decimalPart = decimalPart | slice: 0, places -%}
+    {%- assign formatOutput = formatOutput | append: "." -%}
+    {%- assign formatOutput = formatOutput | append: decimalPart  -%}
+{%- endif -%}
+{{- formatOutput -}}

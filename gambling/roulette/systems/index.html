@@ -72,33 +72,35 @@ summary: "How does your Roulette system stack up against the competition?"
           &nbsp;
           <br/>
           <a href="{{row['youtubeUrl']}}" target="_blank"><img src="{{site.baseurl}}/assets/img/icons/youtube-24x24.png" alt="YouTube" title="YouTube" /></a>
-          <i class="airDate">{{ row["airDate"] | date: site.date_format }}</i>
+            <i class="airDate">
+              {% assign airDate = row["airDate"] %}
+              {%- include format-date.html date=airDate -%}
+            </i>
         </td>
         <td>
-          {% include chip-amount.html chipAmount=buyIn %}
+          {%- include chip-amount.html chipAmount=buyIn -%}
         </td>
         <td>
-          {% include chip-range.html amounts=bets %}
+          {%- include chip-range.html amounts=bets -%}
         </td>
         <td>
-          ${{ amountBet }}
+          ${%- include format-number.html number=amountBet -%}
         </td>
         <td>
-          {%- assign expectedLoss = expectedLoss | floor -%}
-          {% include win-loss-amount.html amount=expectedLoss %}
+          {%- include win-loss-amount.html amount=expectedLoss places=2 -%}
 
-          {% if evPercent < -5.261 or evPercent > -5.259 %}
-            <br/><i class="small">({{ evPercent | round: 2 }}%)</i>
-          {% endif %}
+          {%- if evPercent < -5.261 or evPercent > -5.259 -%}
+            <br/><i class="small">({{- evPercent | round: 2 -}}%)</i>
+          {%- endif -%}
         </td>
         <td>
-          {% include win-loss-amount.html amount=liveResults %}
+          {%- include win-loss-amount.html amount=liveResults -%}
         </td>
         <td>
-          {% include ceg-system-rating.html rating=rating showRatingLetter=true %}
+          {%- include ceg-system-rating.html rating=rating showRatingLetter=true -%}
         </td>
         <td>
-          {% include ceg-system-rating.html rating=jackaceRating showRatingLetter=true %}
+          {%- include ceg-system-rating.html rating=jackaceRating showRatingLetter=true -%}
         </td>
       </tr>
     {% endfor %}
@@ -143,14 +145,13 @@ summary: "How does your Roulette system stack up against the competition?"
         &nbsp;
       </td>
       <td>
-        ${{totalAmountBet}}
+        ${%- include format-number.html number=totalAmountBet -%}
       </td>
       <td>
-        {%- assign totalExpectedLoss = totalExpectedLoss | floor -%}
-        {% include win-loss-amount.html amount=totalExpectedLoss %}
+        {%- include win-loss-amount.html amount=totalExpectedLoss places=2 -%}
       </td>
       <td>
-        {% include win-loss-amount.html amount=totalLiveResults %}
+        {%- include win-loss-amount.html amount=totalLiveResults -%}
       </td>
       <td>
         &nbsp;
