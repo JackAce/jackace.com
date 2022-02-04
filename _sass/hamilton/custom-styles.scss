@@ -48,6 +48,9 @@ blockquote {
     padding-bottom: 20px;
 }
 
+.small {
+    font-size: 10px;
+}
 .amt-pos {
     color: #0f0;
 }
@@ -145,6 +148,19 @@ blockquote {
     //     min-width: 20px;
     //     min-height: 20px;
     // }
+}
+
+.roulette-system-table {
+    width: 100%;
+    th {
+        padding: 4px;
+        font-size: 16px;
+    }
+    td {
+        padding: 2px;
+        font-size: 16px;
+        text-align: center;
+    }
 }
 
 .key-value-table {
