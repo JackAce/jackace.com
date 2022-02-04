@@ -1,0 +1,14 @@
+
+{%- assign spotsGreen = "0,00" | split: "," -%}
+{%- assign spotsRed = "1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36" | split: "," -%}
+{%- assign isGreenSpot = spotsGreen | where: "", include.number -%}
+{%- assign isRedSpot = spotsRed | where: "", include.number -%}
+{%- assign class = include.class | default: "roulette-spot" -%}
+
+{% if isGreenSpot.size == 1 %}
+    <img src="{{site.baseurl}}/assets/img/roulette/{{ include.number }}_g.svg" class="{{ class }}" alt="{{ include.number }} Green" title="{{ include.number }} Green" />
+{% elsif isRedSpot.size == 1 %}
+    <img src="{{site.baseurl}}/assets/img/roulette/{{ include.number }}_r.svg" class="{{ class }}" alt="{{ include.number }} Red" title="{{ include.number }} Red" />
+{% else %}
+    <img src="{{site.baseurl}}/assets/img/roulette/{{ include.number }}_b.svg" class="{{ class }}" alt="{{ include.number }} Black" title="{{ include.number }} Black" />
+{% endif %}

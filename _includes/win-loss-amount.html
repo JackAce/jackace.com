@@ -1,0 +1,7 @@
+{% if include.amount < 0 %}
+    <span class="amt-neg">-${{ include.amount | abs }}</span>
+{% elsif include.amount > 0 %}
+    <span class="amt-pos">+${{ include.amount }}</span>
+{% else %}
+    <span class="amt-0">$0</span>
+{% endif %}
