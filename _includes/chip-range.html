@@ -1,16 +1,16 @@
-{% if include.amounts.size > 2 %}
+{% if include.showAll or include.amounts.size <= 2 %}
+
+    {% for betAmount in include.amounts %}
+        {%- assign betAmount = betAmount | times: 1 -%}
+        {% include chip-amount.html chipAmount=betAmount %}
+    {% endfor %}
+
+{% else %}
 
     {%- assign betAmount = include.amounts.first | times: 1 -%}
     {% include chip-amount.html chipAmount=betAmount %}
     to<br/>
     {%- assign betAmount = include.amounts.last | times: 1 -%}
     {% include chip-amount.html chipAmount=betAmount %}
-
-{% else %}
-
-    {% for betAmount in include.amounts %}
-        {%- assign betAmount = betAmount | times: 1 -%}
-        {% include chip-amount.html chipAmount=betAmount %}
-    {% endfor %}
 
 {% endif %}
