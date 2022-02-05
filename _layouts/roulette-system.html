@@ -12,6 +12,7 @@ layout: page-no-sidebar
 {%- assign jackaceRating = system.jackaceRating -%}
 {%- assign friendCount = system.friendCount | default: 0 -%}
 {%- assign groupLoops = friendCount | at_least: 1 -%}
+{%- assign rbaImages = system.rbaImageUrls -%}
 
 <!-- Calculate totals BEGIN -->
 {%- assign totalAmountBet = 0.00 -%}
@@ -33,13 +34,22 @@ layout: page-no-sidebar
   &nbsp;{{- system.name -}}
 </h1>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+  function displayRbaImage(imageName) {
+    $("#rbaImg").attr("src", imageName);
+  }
+//]]>
+</script>
+
 <table class="key-value-table" width="50%">
     <tr>
         <th width="30%">
             Air Date:
         </th>
         <td width="70%">
-          {% include format-date.html date=system.airDate %}
+          <a href="{{ system.youtubeUrl }}" target="_blank"><img src="{{- site.baseurl -}}/assets/img/icons/youtube-24x24.png" />&nbsp;{% include format-date.html date=system.airDate %}</a>
         </td>
     </tr>
     <tr>
@@ -110,12 +120,44 @@ layout: page-no-sidebar
   {% endif %}
 </table>
 
-<h2>Bets</h2>
+{%- assign imageLimit = rbaImages.size | minus: 1 -%}
+
+{%- if imageLimit > 0 -%}
+  <h2>Betting Schemes ({{ imageLimit | plus: 1 }} tiers)</h2>
+{%- else -%}
+  <h2>Betting Scheme</h2>
+{%- endif -%}
+
+{%- if imageLimit > 0 -%}
+  {%- for i in (0..imageLimit) -%}
+    {%- assign imageUrl = site.baseurl -%}
+    {%- assign imageUrl = imageUrl | append: "/assets/img/systems/" -%}
+    {%- assign imageUrl = imageUrl | append: airDate -%}
+    {%- assign imageUrl = imageUrl | append: "/" -%}
+    {%- assign imageUrl = imageUrl | append: rbaImages[i] -%}
+    {%- assign tierLevel = i | plus: 1 -%}
+    {%- assign tierName = "Tier " | append: tierLevel -%}
+
+    {%- if system.bets[i] > 0 -%}
+      {%- assign tierName = tierName | append: " ($" -%}
+      {%- assign tierName = tierName | append: system.bets[i] -%}
+      {%- assign tierName = tierName | append: ")" -%}
+    {%- endif -%}
+    <a href="javascript:displayRbaImage('{{- imageUrl -}}');">{{- tierName -}}</a>
+    {%- if i < imageLimit -%}
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
 
 <figure>
-  <img src="{{site.baseurl}}/assets/img/systems/{{airDate}}/00-rba-0-800x681.png" alt="Roulette Bet Analyzer bets for {{ system.name }}"/>
+  <img id="rbaImg" src="{{- site.baseurl -}}/assets/img/systems/{{- airDate -}}/{{- rbaImages[0] -}}" alt="Roulette Bet Analyzer bets for {{- system.name -}}"/>
   <figcaption>
-    <i>{{- system.name -}}</i> base bets
+    {%- if imageLimit > 0 -%}
+      Betting schemes for <i>{{- system.name -}}</i>
+    {%- else -%}
+      Betting scheme for <i>{{- system.name -}}</i>
+    {%- endif -%}
   </figcaption>
 </figure>
 
