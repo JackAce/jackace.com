@@ -27,24 +27,28 @@ layout: page-no-sidebar
   {%- assign totalWinLoss = totalWinLoss | plus: currentResult | times: 1 -%}
 {% endfor %}
 {%- assign totalAmountBet = totalAmountBet | floor -%}
-<!-- Calculate totals COMPLETE -->
 
-<br/><br/>
-<h1>{{system.name}} - Roulette System Analysis</h1>
-
-<a href="{{site.baseurl}}/gambling/roulette/systems/">Back to Roulette Systems</a>
-<br/><br/>
-
-<h2>System Stats</h2>
+<h1>
+  <a href="{{site.baseurl}}/gambling/roulette/systems/">Roulette Systems</a>:
+  &nbsp;{{- system.name -}}
+</h1>
 
 <table class="key-value-table" width="50%">
     <tr>
         <th width="30%">
-            Buy In:
+            Air Date:
         </th>
         <td width="70%">
-          {% include chip-amount.html chipAmount=system.buyIn %}
+          {% include format-date.html date=system.airDate %}
         </td>
+    </tr>
+    <tr>
+      <th width="30%">
+          Buy In:
+      </th>
+      <td width="70%">
+        {% include chip-amount.html chipAmount=system.buyIn %}
+      </td>
     </tr>
     <tr>
         <th>
@@ -100,7 +104,7 @@ layout: page-no-sidebar
           Notes:
       </th>
       <td>
-          {{system.notes}}
+          {{- system.notes -}}
       </td>
     </tr>
   {% endif %}
@@ -111,25 +115,21 @@ layout: page-no-sidebar
 <figure>
   <img src="{{site.baseurl}}/assets/img/systems/{{airDate}}/00-rba-0-800x681.png" alt="Roulette Bet Analyzer bets for {{ system.name }}"/>
   <figcaption>
-    <i>{{ system.name }}</i> base bets
+    <i>{{- system.name -}}</i> base bets
   </figcaption>
 </figure>
 
-{% for i in (1..groupLoops) %}
+{%- for i in (1..groupLoops) -%}
 
-  <!-- assign loopSpins = system.spins | sort: "spin" -->
-  {%- assign loopSpins = system.spins -%}
+  {%- assign loopSpins = system.spins | sort: "spin" -%}
   {%- assign groupEV = 0 -%}
   {%- assign groupAmountBet = 0 -%}
   {%- assign groupWinLoss = 0 -%}
 
-  {% if friendCount > 0 %}
-    <!-- assign loopSpins = system.spins | where: "friend", i | sort: "spin" -->
-    {%- assign loopSpins = system.spins | where: "friend", i -%}
-    <h3>Friend #{{i}} Results</h3>
-  {% endif %}
-
-
+  {%- if friendCount > 0 -%}
+    {%- assign loopSpins = system.spins | where: "friend", i | sort: "spin" -%}
+    <h3>Friend #{{- i -}} Results</h3>
+  {%- endif -%}
 
   <table class="betting-system-table">
     <thead>
@@ -155,7 +155,7 @@ layout: page-no-sidebar
       </tr>
     </thead>
     <tbody>
-      {% for row in loopSpins %}
+      {%- for row in loopSpins -%}
 
         {%- assign currentResult = row["result"] | times: 1 -%}
         {%- assign currentBet = row["amountBet"] | times: 1 -%}
@@ -185,10 +185,10 @@ layout: page-no-sidebar
             {% include win-loss-amount.html amount=groupWinLoss %}
           </td>
           <td>
-            {{ row["notes"] }}
+            {{- row["notes"] -}}
           </td>
         </tr>
-      {% endfor %}
+      {%- endfor -%}
     </tbody>
     <tfoot>
       <tr>
