@@ -1679,5 +1679,92 @@
         "result": 200
       }
     ]
+    },
+    {
+      "name": "Chamba In & Out",
+      "airDate": "2020-07-29",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8Iha0DCkJgw",
+      "reviewUrl": "2020-07-29-Chamba-In-and-Out",
+      "rbaImageUrls": [
+        "00-rba-0-800x440.png",
+        "00-rba-1-800x440.png",
+        "00-rba-2-800x440.png"
+      ],
+      "buyIn": 3500,
+      "bets": [
+        3500
+      ],
+      "amountBet": 31500,
+      "expectedLoss": -1656.90,
+      "liveResults": 2700,
+      "friendCount": 3,
+      "rating": "",
+      "jackaceRating": "f",
+      "notes": "This system is absolutely idiotic, with betting on all 36 numbers as well as individual Straight-up bets that can be consolidated. I couldn't tell what rating they gave it.",
+      "spins": [
+        {
+          "friend": 1,
+          "spin": 1,
+          "number": "23",
+          "amountBet": 3500,
+          "result": 700
+        },
+        {
+          "friend": 1,
+          "spin": 2,
+          "number": "19",
+          "amountBet": 3500,
+          "result": 700
+        },
+        {
+          "friend": 1,
+          "spin": 3,
+          "number": "28",
+          "amountBet": 3500,
+          "result": 700
+        },
+        {
+          "friend": 2,
+          "spin": 4,
+          "number": "29",
+          "amountBet": 3500,
+          "result": 700
+        },
+        {
+          "friend": 2,
+          "spin": 5,
+          "number": "7",
+          "amountBet": 3500,
+          "result": 700
+        },
+        {
+          "friend": 2,
+          "spin": 6,
+          "number": "8",
+          "amountBet": 3500,
+          "result": 700
+        },
+        {
+          "friend": 3,
+          "spin": 7,
+          "number": "5",
+          "amountBet": 3500,
+          "result": 700
+        },
+        {
+          "friend": 3,
+          "spin": 8,
+          "number": "13",
+          "amountBet": 3500,
+          "result": 700
+        },
+        {
+          "friend": 3,
+          "spin": 9,
+          "number": "11",
+          "amountBet": 3500,
+          "result": -2900
+        }
+     ]
   }
 ]
