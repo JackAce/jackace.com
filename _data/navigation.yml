@@ -2,15 +2,21 @@
   url: /
 - title: Blackjack
   sublinks:
-    - title: Blackjack
-      url: /gambling/blackjack/
-    - title: Basic Strategy
-      url: /gambling/blackjack/systems/basic-strategy
-    - title: High Low Count
-      url: /gambling/blackjack/systems/high-low
-    - title: Other Systems
-      url: /gambling/blackjack/systems
+  - title: Blackjack
+    url: /gambling/blackjack/
+  - title: Basic Strategy
+    url: /gambling/blackjack/systems/basic-strategy
+  - title: High Low Count
+    url: /gambling/blackjack/systems/high-low
+  - title: Other Systems
+    url: /gambling/blackjack/systems
 - title: Roulette
-  url: /gambling/roulette/
+  sublinks:
+  - title: Roulette
+    url: /gambling/roulette/
+  - title: Bet Analyzer
+    url: /gambling/roulette/bet-analyzer/
+  - title: Systems
+    url: /gambling/roulette/systems/
 - title: About
   url: /about/

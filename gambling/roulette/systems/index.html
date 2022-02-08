@@ -1,0 +1,171 @@
+---
+layout: page-no-sidebar
+title: Reviews of Roulette System Reviews
+tags: [roulette,ceg dealer school]
+summary: "How does your Roulette system stack up against the competition?"
+---
+<h1>
+  {{page.title}}
+</h1>
+
+<p>
+  We're slowly going to backfill the catalog of CEG Dealer School Roulette system reviews. Are we missing
+  your favorite? Let us know!
+</p>
+
+<table class="roulette-system-table">
+  <thead>
+    <tr>
+      <th>
+        System
+      </th>
+      <th>
+        Buy&nbsp;In
+      </th>
+      <th>
+        Bet Sizes
+      </th>
+      <th>
+        Total amount<br/>Wagered
+      </th>
+      <th>
+        Expected<br/>Loss
+      </th>
+      <th>
+        Actual<br/>Results
+      </th>
+      <th>
+        CEG<br/>Rating
+      </th>
+      <th>
+        JackAce<br/>Rating
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- assign totalAmountBet = 0 -%}
+    {%- assign totalLiveResults = 0 -%}
+    {%- assign totalExpectedLoss = 0.00 -%}
+
+    {% for row in site.data.roulette-systems %}
+
+      {%- assign liveResults = row["liveResults"] | times: 1 -%}
+      {%- assign expectedLoss = row["expectedLoss"] | times: 1 -%}
+      {%- assign buyIn = row["buyIn"] | times: 1 -%}
+      {%- assign amountBet = row["amountBet"] | times: 1 -%}
+      {%- assign bets = row["bets"] -%}
+      {%- assign betSizes = bets.size -%}
+      {%- assign evPercent = expectedLoss | times: 100 | divided_by: amountBet -%}
+      {%- assign rating = row["rating"] -%}
+      {%- assign jackaceRating = row["jackaceRating"] -%}
+
+      {%- assign totalAmountBet = totalAmountBet | plus: amountBet -%}
+      {%- assign totalLiveResults = totalLiveResults | plus: liveResults -%}
+      {%- assign totalExpectedLoss = totalExpectedLoss | plus: expectedLoss -%}
+      <tr>
+        <td>
+          {% if row["reviewUrl"] %}
+            <a href="{{site.baseurl}}/gambling/roulette/systems/{{row['reviewUrl']}}/" >{{ row["name"] }}</a>
+          {% else %}
+            {{ row["name"] }}
+          {% endif %}
+          &nbsp;
+          <br/>
+          <a href="{{row['youtubeUrl']}}" target="_blank"><img src="{{site.baseurl}}/assets/img/icons/youtube-24x24.png" alt="YouTube" title="YouTube" /></a>
+            <i class="airDate">
+              {% assign airDate = row["airDate"] %}
+              {%- include format-date.html date=airDate -%}
+            </i>
+        </td>
+        <td>
+          {%- include chip-amount.html chipAmount=buyIn -%}
+        </td>
+        <td>
+          {%- include chip-range.html amounts=bets -%}
+        </td>
+        <td>
+          ${%- include format-number.html number=amountBet -%}
+        </td>
+        <td>
+          {%- include win-loss-amount.html amount=expectedLoss places=2 -%}
+
+          {%- if evPercent < -5.261 or evPercent > -5.259 -%}
+            <br/><i class="small">({{- evPercent | round: 2 -}}%)</i>
+          {%- endif -%}
+        </td>
+        <td>
+          {%- include win-loss-amount.html amount=liveResults -%}
+        </td>
+        <td>
+          {%- include ceg-system-rating.html rating=rating showRatingLetter=true -%}
+        </td>
+        <td>
+          {%- include ceg-system-rating.html rating=jackaceRating showRatingLetter=true -%}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        Total Bets
+      </th>
+      <th>
+        Total Expected<br/>
+        Loss
+      </th>
+      <th>
+        Total<br/>
+        Win/Loss
+      </th>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        &nbsp;
+      </th>
+    </tr>
+    <tr>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        ${%- include format-number.html number=totalAmountBet -%}
+      </td>
+      <td>
+        {%- include win-loss-amount.html amount=totalExpectedLoss places=2 -%}
+      </td>
+      <td>
+        {%- include win-loss-amount.html amount=totalLiveResults -%}
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+<div style="text-align: center;">
+  <span class="more-link">
+      <a href="{{ site.baseurl }}/gambling/roulette/systems/distribution/">View Number Distribution</a>
+  </span>
+</div>
+

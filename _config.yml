@@ -66,3 +66,4 @@ plugins:
   - jekyll-paginate
   - jekyll-include-cache
   #- jemoji
+  #- jekyll-glossary_tooltip
