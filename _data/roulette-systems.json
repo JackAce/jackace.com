@@ -1440,7 +1440,7 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=eZgHu0fdWTo",
     "reviewUrl": null,
     "rbaImageUrls": [
-      "00-rba-0-800x681.png"
+      "00-rba-0-800x440.png"
     ],
     "buyIn": 500,
     "bets": [
@@ -1458,7 +1458,7 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=g46h_Lv9_UU",
     "reviewUrl": null,
     "rbaImageUrls": [
-      "00-rba-0-800x681.png"
+      "00-rba-0-800x440.png"
     ],
     "buyIn": 875,
     "bets": [
@@ -1469,5 +1469,215 @@
     "liveResults": -285,
     "rating": "c",
     "jackaceRating": "f"
+  },
+  {
+    "name": "Double Street Martingale",
+    "airDate": "2021-09-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-nPAa7x_5Rk",
+    "reviewUrl": "2021-09-03-Double-Street-Martingale",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png"
+    ],
+    "buyIn": 2000,
+    "friendCount": 2,
+    "bets": [
+      125,
+      250,
+      500,
+      1000
+    ],
+    "amountBet": 12125,
+    "expectedLoss": -637.77,
+    "liveResults": 1375,
+    "rating": "a",
+    "jackaceRating": "c",
+    "notes": "Alex gave the modified (postive Martingale) system an A - Grapefruit. Friend 1: Original System; Friend 2: Modified System (positive Martingale)",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "15",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "12",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "7",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "6",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "25",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "friend": 1,
+        "spin": 6,
+        "number": "15",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "friend": 1,
+        "spin": 7,
+        "number": "9",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "friend": 1,
+        "spin": 8,
+        "number": "25",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "friend": 1,
+        "spin": 9,
+        "number": "3",
+        "amountBet": 125,
+        "result": -125
+      },
+      {
+        "friend": 1,
+        "spin": 10,
+        "number": "3",
+        "amountBet": 250,
+        "result": -250
+      },
+      {
+        "friend": 1,
+        "spin": 11,
+        "number": "35",
+        "amountBet": 500,
+        "result": -500
+      },
+      {
+        "friend": 1,
+        "spin": 12,
+        "number": "28",
+        "amountBet": 1000,
+        "result": 200
+      },
+      {
+        "friend": 1,
+        "spin": 13,
+        "number": "8",
+        "amountBet": 1000,
+        "result": 200
+      },
+      {
+        "friend": 1,
+        "spin": 14,
+        "number": "32",
+        "amountBet": 1000,
+        "result": 200
+      },
+      {
+        "friend": 1,
+        "spin": 15,
+        "number": "20",
+        "amountBet": 1000,
+        "result": 200
+      },
+      {
+        "friend": 1,
+        "spin": 16,
+        "number": "5",
+        "amountBet": 1000,
+        "result": 200
+      },
+      {
+        "friend": 2,
+        "spin": 17,
+        "number": "7",
+        "amountBet": 250,
+        "result": 50
+      },
+      {
+        "friend": 2,
+        "spin": 18,
+        "number": "16",
+        "amountBet": 250,
+        "result": 50
+      },
+      {
+        "friend": 2,
+        "spin": 19,
+        "number": "33",
+        "amountBet": 250,
+        "result": 50
+      },
+      {
+        "friend": 2,
+        "spin": 20,
+        "number": "28",
+        "amountBet": 375,
+        "result": 75
+      },
+      {
+        "friend": 2,
+        "spin": 21,
+        "number": "21",
+        "amountBet": 375,
+        "result": 75
+      },
+      {
+        "friend": 2,
+        "spin": 22,
+        "number": "8",
+        "amountBet": 500,
+        "result": 100
+      },
+      {
+        "friend": 2,
+        "spin": 23,
+        "number": "15",
+        "amountBet": 625,
+        "result": 125
+      },
+      {
+        "friend": 2,
+        "spin": 23,
+        "number": "27",
+        "amountBet": 750,
+        "result": 150
+      },
+      {
+        "friend": 2,
+        "spin": 24,
+        "number": "12",
+        "amountBet": 875,
+        "result": 175
+      },
+      {
+        "friend": 2,
+        "spin": 25,
+        "number": "9",
+        "amountBet": 1000,
+        "result": 200
+      }
+    ]
   }
 ]
