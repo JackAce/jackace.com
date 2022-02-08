@@ -1,0 +1,68 @@
+[
+  {
+    "term": "A",
+    "categories": ["general gambling", "blackjack", "poker", "baccarat"],
+    "summary": "Shorthand for the \"Ace\"",
+    "definition": "Shorthand for the \"Ace\", often the most valued and highest ranked card."
+  },
+  {
+    "term": "AP",
+    "categories": ["general gambling", "blackjack", "poker", "baccarat", "sports betting"],
+    "summary": "Shorthand for the \"Advantage Player\"",
+    "definition": "An \"Advantage Player\" or \"Advantaged Player\". Someone who plays casino games with an advantage over the house or other players. Often used to describe card counters or skilled poker players."
+  },
+  {
+    "term": "back counting",
+    "categories": ["blackjack"],
+    "summary": "Card counting in a blackjack game without playing",
+    "definition": "Back counting is keeping track of played cards in blackjack without making bets on any hands, hoping that the player's edge will become positive so the player only makes bets when he has an advantage."
+  },
+  {
+    "term": "Basket Bet",
+    "categories": ["roulette"],
+    "summary": "Sometimes described as the \"5-Number Bet\" or \"Top Line Bet\"",
+    "definition": "Most sources use this name to describe the 5-Number bet in Roulette (covering the 0, 00, 1, 2, and 3), although other sources state this is just a 3-Number Bet covering 0, 00, and 2."
+  },
+  {
+    "term": "distributive property",
+    "categories": ["roulette"],
+    "summary": "distributive property of Roulette betting",
+    "definition": "The principal in Roulette that states that a single multi-number bet can be equally distributed amongst all numbers covered without affecting the win or losses. This is true for all multi-number bets except the 5-number bet."
+  },
+  {
+    "term": "EV",
+    "categories": ["general gambling"],
+    "summary": "expected value",
+    "definition": "A predicted value of a variable, calculated as the sum of all possible values each multiplied by the probability of its occurrence."
+  },
+  {
+    "term": "natural",
+    "categories": ["blackjack", "baccarat"],
+    "summary": "expected value",
+    "definition": "A starting hand of 21 in Blackjack. Also called a \"Natural Blackjack\" or just \"Blackjack\". A natrual hand in Baccarat is a starting hand of 8 or 9 by either the Banker or the Player and no cards are drawn."
+  },
+  {
+    "term": "nullified bets",
+    "categories": ["roulette"],
+    "summary": "bets that cancel out each other in Roulette",
+    "definition": "Bets that cancel out each other in Roulette. For example, betting $100 on Red and $100 on Black at the same time."
+  },
+  {
+    "term": "overlapping bets",
+    "categories": ["roulette"],
+    "summary": "two bets in Roulette that share a common payout number",
+    "definition": "A series of bets in Roulette where hitting a specific number results in multiple bets winning."
+  },
+  {
+    "term": "Third Base",
+    "categories": ["blackjack"],
+    "summary": "The last player to act before the dealer in blackjack",
+    "definition": "The last seat on a blackjack table, usually the left-most seat when facing the dealer."
+  },
+  {
+    "term": "Top Line Bet",
+    "categories": ["roulette"],
+    "summary": "The 5-Number Bet in Roulette covering 0, 00, 1, 2, and 3.",
+    "definition": "The Top Line Bet is the 5-Number bet in Roulette (covering 0, 00, 1, 2, and 3) and is notorious for being the worst single bet in Roulette (-7.89% house advantage on Double Zero, and -10.26% house advantage in Triple Zero)."
+  }
+]

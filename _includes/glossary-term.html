@@ -1,0 +1,7 @@
+{% assign displayName = include.displayName | default: include.term %}
+{%- assign term = site.data.glossary | where: "term", include.term | first -%}
+
+&nbsp;<span class="glossary-term">
+    {{ displayName }}
+    <span class="tooltiptext">{{- term.definition -}}</span>
+</span>&nbsp;
