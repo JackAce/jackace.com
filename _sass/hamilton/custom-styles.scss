@@ -48,6 +48,9 @@ blockquote {
     padding-bottom: 20px;
 }
 
+.small {
+    font-size: 10px;
+}
 .amt-pos {
     color: #0f0;
 }
@@ -93,6 +96,47 @@ blockquote {
     border: solid 1px #2d3339;
     padding: 6px 10px;
 }
+.glossary-term {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #aaedf8;
+    color: #aaedf8;
+}
+.glossary-term .tooltiptext {
+    visibility: hidden;
+    width: 450px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.glossary-term .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.glossary-term:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
 .roulette-spot {
     width: 42px;
     height: 27px;
@@ -113,18 +157,6 @@ blockquote {
     margin: 2px;
 }
 
-// work in progress
-.roulette-spot-0 {
-    background: url("../../assets/img/roulette/0_g.svg") no-repeat;
-    width: 42px;
-    height: 27px;
-    min-width: 42px;
-    min-height: 27px;
-    max-width: 42px;
-    max-height: 27px;
-    background-size: 42px 27px;
-}
-
 .strategy-table {
     font-size: 16px;
     th {
@@ -139,8 +171,9 @@ blockquote {
         min-height: 20px;
     }
 }
+
 .betting-system-table {
-    width: 70%;
+    width: 80%;
     th {
         padding: 4px;
         font-size: 16px;
@@ -148,14 +181,40 @@ blockquote {
     td {
         padding: 4px;
         font-size: 16px;
+        text-align: center;
     }
     // TODO: FIX THIS GARBAGE
-    img {
-        margin: 0px;
-        min-width: 40px;
-        min-height: 20px;
+    // img {
+    //     margin: 0px;
+    //     min-width: 20px;
+    //     min-height: 20px;
+    // }
+}
+
+.roulette-system-table {
+    width: 100%;
+    th {
+        padding: 4px;
+        font-size: 16px;
+    }
+    td {
+        padding: 2px;
+        font-size: 16px;
+        text-align: center;
     }
 }
+
+.key-value-table {
+    width: 70%;
+    th {
+        text-align: left;
+        font-size: 18px;
+    }
+    td {
+        font-size: 17px;
+    }
+}
+
 .condensed-table {
     width: 70%;
     margin-left:auto;
@@ -180,9 +239,64 @@ blockquote {
     width: 100%;
 }
 
+.airDate {
+    font-size: 12px;
+}
+
+// .tooltip {
+//     position: relative;
+//     display: inline-block;
+//     border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+// }
+
+// /* Tooltip text */
+// .tooltip .tooltiptext {
+//     visibility: hidden;
+//     width: 300px;
+//     background-color: #555;
+//     color: #fff;
+//     text-align: center;
+//     padding: 5px 0;
+//     border-radius: 6px;
+  
+//     /* Position the tooltip text */
+//     position: absolute;
+//     z-index: 1;
+//     bottom: 125%;
+//     left: 50%;
+//     margin-left: -60px;
+  
+//     /* Fade in tooltip */
+//     opacity: 0;
+//     transition: opacity 0.3s;
+//   }
+  
+//   /* Tooltip arrow */
+//   .tooltip .tooltiptext::after {
+//     content: "";
+//     position: absolute;
+//     top: 100%;
+//     left: 50%;
+//     margin-left: -5px;
+//     border-width: 5px;
+//     border-style: solid;
+//     border-color: #555 transparent transparent transparent;
+//   }
+  
+//   /* Show the tooltip text when you mouse over the tooltip container */
+//   .tooltip:hover .tooltiptext {
+//     visibility: visible;
+//     opacity: 1;
+//   }
+
 // Used for roulette bet analyzer (TODO: Move to separate CSS file)
 .roulette {
     background-color: #939;
+    table {
+        //border-collapse: collapse;
+        border: 0px;
+        padding: 0px;
+    }
     td, th {
         font-family: Arial;
         font-size: 10px;
@@ -190,28 +304,33 @@ blockquote {
         border: 0px;
         padding: 0px;
     }
-
-    table {
-        border-collapse: collapse;
-        border: 0px;
-        padding: 0px;
-    }
-        
     input {
         font-size: 12px;
         text-align: center;
         font-weight: bold;
         border: hidden;
     }
-        
     ::placeholder {
         color: #fff;
         font-size: 20px;
-        opacity: 0.5;
+        opacity: 0.6;
     }
         
     .hiddenRow {
         display: none;
+    }
+    .borderRow {
+        height: 2px;
+        max-height: 2px;
+    }
+    .amt-neg {
+        color: #fcc;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .amt-pos {
+        font-weight: bold;
+        font-size: 13px;
     }
     .warningDiv {
         color: #f00;
@@ -266,7 +385,9 @@ blockquote {
     }
     .spot-green {
         background-color: #0c0;
+        font-size: 11px;
         color: #fff;
+        border: 1px #999 solid;
     }
     .spot-green input {
         background-color: #1d1;
@@ -275,8 +396,10 @@ blockquote {
     }
     .spot-red {
         background-color: #c00;
+        font-size: 11px;
         height: 35px;
         color: #fff;
+        border: 1px #999 solid;
     }
     .spot-red input {
         background-color: #e11;
@@ -284,8 +407,10 @@ blockquote {
     }
     .spot-black {
         background-color: #000;
+        font-size: 11px;
         height: 35px;
         color: #fff;
+        border: 1px #999 solid;
     }
     .spot-black input {
         background-color: #222;
@@ -365,6 +490,7 @@ blockquote {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        border: 1px #999 solid;
     }
     .win-red {
         width: 35px;
@@ -374,6 +500,7 @@ blockquote {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        border: 1px #999 solid;
     }
     .win-black {
         width: 35px;
@@ -383,6 +510,7 @@ blockquote {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        border: 1px #999 solid;
     }
     
     .col-spot {

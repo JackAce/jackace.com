@@ -49,8 +49,9 @@ math: true
     <span class="amt-bad">SIXTY PERCENT!</span>
 </p>
 <p>
-    Let's say you make a $20 bet. When you start your hand with a two-card 21, it's considered a "Natural
-    Blackjack" (or just a "Blackjack"), and you're supposed win your $20 bet plus an extra <b>$10 bonus</b>
+    Let's say you make a $20 bet. When you start your hand with a two-card 21, it's considered a
+    {%- include glossary-term.html term="natural" displayName="\"Natural Blackjack\"" -%} (or just a
+    "Blackjack"), and you're supposed win $20 <b>plus an extra $10 bonus</b>
     for a total of $30. In 6-to-5 Blackjack, you only win $6 for every $5 you bet for your Blackjack (hence
     <i>"6-to-5"</i>), for a total of $24. Subtract your original bet of $20 and your bonus is only <b>$4</b>!
 </p>
@@ -453,7 +454,11 @@ math: true
     \end{align}
 </p>
 <p>
-    As you can see, the <i>actual</i> change in negative Expected Value (EV) is <i>greater than</i> the sum of
+    As you can see, the <i>actual</i> change in negative
+    <span class="tooltip">Expected Value (EV)
+        <span class="tooltiptext">Expected Value - the amount you would be expected to lose.</span>
+    </span> 
+    is <i>greater than</i> the sum of
     the two conditions applied independently.
 </p>
 <h3>It's Your Only Choice at Lower Limit Tables</h3>

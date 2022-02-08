@@ -1,0 +1,105 @@
+---
+layout: page
+title: Roulette Number Distribution
+---
+<p>
+  How many times has each number hit?
+</p>
+
+{%- assign spots = "0,00,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36" | split: "," -%}
+{%- assign hitCounts = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" | split: "," -%}
+{%- assign totalSpins = 0 -%}
+
+{%- for system in site.data.roulette-systems -%}
+
+  {%- for i in (0..37) -%}
+
+    {%- assign spins = system.spins -%}
+    {%- assign numberHits = spins | where: "number", spots[i] -%}
+
+    {%- if numberHits -%}
+      {%- assign currentCount = numberHits.size | times: 1 -%}
+      {%- if currentCount > 0 -%}
+
+        {%- assign currentHitCount = hitCounts[i] | times: 1 -%}
+        {%- assign currentHitCount = currentHitCount | plus: currentCount -%}
+        {%- assign totalSpins = totalSpins | plus: currentCount -%}
+        {%- assign hitCountSuperString = "" -%}
+
+        {% comment %}
+        <!-- Liquid doesn't support assigning to arrays! WTF -->
+        {% endcomment %}
+
+        {%- for j in (0..37) -%}
+          {%- if i == j -%}
+            {%- assign hitCountSuperString = hitCountSuperString | append: currentHitCount -%}
+          {%- else -%}
+            {%- assign hitCountSuperString = hitCountSuperString | append: hitCounts[j] -%}
+          {%- endif -%}
+
+          {%- if j < 37 -%}
+            {%- assign hitCountSuperString = hitCountSuperString | append: "," -%}
+          {%- endif -%}
+        {%- endfor -%}
+
+        {%- assign hitCounts = hitCountSuperString | split: "," -%}
+
+      {%- endif -%}
+    {%- endif -%}
+
+  {%- endfor -%}
+
+{%- endfor -%}
+
+<table class="betting-system-table">
+  <thead>
+    <tr>
+      <th>
+        Number
+      </th>
+      <th>
+        Number of Hits
+      </th>
+      <th>
+        Percentage
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for i in (0..37) %}
+      {%- assign spot = spots[i] -%}
+      {%- assign percentage = hitCounts[i] | times: 100.0 | divided_by: totalSpins -%}
+      <tr>
+        <td>
+          {%- include roulette-spot.html number=spot -%}
+        </td>
+        <td>
+          {{- hitCounts[i] -}}
+        </td>
+        <td>
+          {%- include format-number.html number=percentage places=1 -%}%
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr>
+      <th></th>
+      <th>Total Spins</th>
+      <th></th>
+    </tr>
+    <tr>
+      <td></td>
+      <td>{{- totalSpins -}}</td>
+      <td></td>
+    </tr>
+  </tfoot>
+</table>
+
+<div style="text-align: center;">
+  <span class="more-link">
+      <a href="{{ site.baseurl }}/gambling/roulette/systems/">View Roulette Systems</a>
+  </span>
+</div>
+
+
