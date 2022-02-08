@@ -1,5 +1,102 @@
 [
   {
+    "name": "EXTENZE",
+    "airDate": "2022-02-07",
+    "youtubeUrl": "https://www.youtube.com/watch?v=c3s20NM1DFg",
+    "reviewUrl": "2022-02-07-EXTENZE",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      125
+    ],
+    "amountBet": 1685,
+    "expectedLoss": -88.63,
+    "liveResults": -455,
+    "rating": "c",
+    "jackaceRating": "c",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "7",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "spin": 2,
+        "number": "35",
+        "amountBet": 125,
+        "result": -125
+      },
+      {
+        "spin": 3,
+        "number": "29",
+        "amountBet": 130,
+        "result": 50
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "spin": 5,
+        "number": "7",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "spin": 6,
+        "number": "4",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "spin": 7,
+        "number": "7",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "spin": 8,
+        "number": "32",
+        "amountBet": 125,
+        "result": -125
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 130,
+        "result": -130
+      },
+      {
+        "spin": 10,
+        "number": "15",
+        "amountBet": 135,
+        "result": 15
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 135,
+        "result": -135
+      },
+      {
+        "spin": 12,
+        "number": "6",
+        "amountBet": 140,
+        "result": 10
+      },
+      {
+        "spin": 13,
+        "number": "20",
+        "amountBet": 140,
+        "result": -140
+      }
+    ]
+  },  {
     "name": "Safe Run Way",
     "airDate": "2022-02-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=M5cccFJEooo",

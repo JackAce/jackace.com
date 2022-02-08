@@ -1,0 +1,13 @@
+---
+layout: page
+title: Glossary
+---
+<div>
+    {% for term in site.data.glossary %}
+        <h3><a href="#{{- term.term | slugify -}}">{{term.term}}</a></h3>
+        <blockquote>
+            {{term.definition}}
+        </blockquote>
+        <br/>
+    {% endfor %}
+</div>
