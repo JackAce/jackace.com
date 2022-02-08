@@ -5,11 +5,17 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=c3s20NM1DFg",
     "reviewUrl": "2022-02-07-EXTENZE",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png"
     ],
     "buyIn": 500,
     "bets": [
-      125
+      125,
+      130,
+      135,
+      140
     ],
     "amountBet": 1685,
     "expectedLoss": -88.63,
