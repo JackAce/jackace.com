@@ -69,6 +69,10 @@ summary: "How does your Roulette system stack up against the competition?"
 
       {%- endfor -%}
 
+      {%- assign totalAmountBet = totalAmountBet | plus: systemBets -%}
+      {%- assign totalLiveResults = totalLiveResults | plus: systemWinLoss -%}
+      {%- assign totalExpectedLoss = totalExpectedLoss | plus: systemExpectedLoss -%}
+  
       {%- assign buyIn = row["buyIn"] | times: 1 -%}
       {%- assign bets = row["bets"] -%}
 
