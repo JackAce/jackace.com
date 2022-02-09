@@ -104,11 +104,12 @@ blockquote {
 }
 .glossary-term .tooltiptext {
     visibility: hidden;
-    width: 450px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
+    width: 200px;
+    background-color: #333;
+    color: #ff0;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
     border-radius: 6px;
   
     /* Position the tooltip text */
@@ -141,18 +142,25 @@ blockquote {
     width: 42px;
     height: 27px;
 }
-.card-medium {
+.card-md {
     width: 35px;
     height: 49px;
     padding-left: 2px;
     padding-right: 2px;
 }
+.card-lg {
+    width: 70px;
+    height: 98px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
 .card {
     padding-left: 2px;
     padding-right: 2px;
+    font-size: 14px;
 }
 .card-suit-s {
-    color: #999;
+    color: #333;
 }
 .card-suit-h {
     color: #f00;
@@ -161,7 +169,30 @@ blockquote {
     color: #00f;
 }
 .card-suit-c {
-    color: #0f0;
+    color: #393;
+}
+
+.poker-felt {
+    color: #fff;
+    background-color: #0c0;
+    min-width: 600px;
+    padding: 10px;
+    margin: 5px;
+}
+.poker-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.poker-hand {
+    background-color: rgba(256, 256, 256, 0.5);
+    padding: 10px;
+    margin: 2px;
+}
+.poker-hand-title {
+    color: #333;
+    width: 100%;
+    text-align: center;
 }
 
 .chip-xs {
@@ -265,52 +296,6 @@ blockquote {
 .airDate {
     font-size: 12px;
 }
-
-// .tooltip {
-//     position: relative;
-//     display: inline-block;
-//     border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-// }
-
-// /* Tooltip text */
-// .tooltip .tooltiptext {
-//     visibility: hidden;
-//     width: 300px;
-//     background-color: #555;
-//     color: #fff;
-//     text-align: center;
-//     padding: 5px 0;
-//     border-radius: 6px;
-  
-//     /* Position the tooltip text */
-//     position: absolute;
-//     z-index: 1;
-//     bottom: 125%;
-//     left: 50%;
-//     margin-left: -60px;
-  
-//     /* Fade in tooltip */
-//     opacity: 0;
-//     transition: opacity 0.3s;
-//   }
-  
-//   /* Tooltip arrow */
-//   .tooltip .tooltiptext::after {
-//     content: "";
-//     position: absolute;
-//     top: 100%;
-//     left: 50%;
-//     margin-left: -5px;
-//     border-width: 5px;
-//     border-style: solid;
-//     border-color: #555 transparent transparent transparent;
-//   }
-  
-//   /* Show the tooltip text when you mouse over the tooltip container */
-//   .tooltip:hover .tooltiptext {
-//     visibility: visible;
-//     opacity: 1;
-//   }
 
 // Used for roulette bet analyzer (TODO: Move to separate CSS file)
 .roulette {

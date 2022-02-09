@@ -14,14 +14,24 @@
   {
     "term": "back counting",
     "categories": ["blackjack"],
+    "seeAlso": ["Wonging"],
     "summary": "Card counting in a blackjack game without playing",
     "definition": "Back counting is keeping track of played cards in blackjack without making bets on any hands, hoping that the player's edge will become positive so the player only makes bets when he has an advantage."
   },
   {
     "term": "Basket Bet",
     "categories": ["roulette"],
+    "seeAlso": ["Top Line Bet"],
     "summary": "Sometimes described as the \"5-Number Bet\" or \"Top Line Bet\"",
     "definition": "Most sources use this name to describe the 5-Number bet in Roulette (covering the 0, 00, 1, 2, and 3), although other sources state this is just a 3-Number Bet covering 0, 00, and 2."
+  },
+  {
+    "term": "case card",
+    "categories": ["poker"],
+    "seeAlso": ["one-outer"],
+    "summary": "The only undealt card that will help you.",
+    "definition": "This usually applies to poker when you're drawing to a one-outer. The case card is the only undealt card that will turn your losing hand into a winning hand.",
+    "example": "Teddy KGB rivered a 6h, which was his case card and took down a monster pot."
   },
   {
     "term": "distributive property",
@@ -62,7 +72,15 @@
   {
     "term": "Top Line Bet",
     "categories": ["roulette"],
+    "seeAlso": ["Basket Bet"],
     "summary": "The 5-Number Bet in Roulette covering 0, 00, 1, 2, and 3.",
     "definition": "The Top Line Bet is the 5-Number bet in Roulette (covering 0, 00, 1, 2, and 3) and is notorious for being the worst single bet in Roulette (-7.89% house advantage on Double Zero, and -10.26% house advantage in Triple Zero)."
+  },
+  {
+    "term": "Wonging",
+    "categories": ["blackjack"],
+    "seeAlso": ["back counting"],
+    "summary": "Card counting in a blackjack game without playing",
+    "definition": "Wonging is back counting in Blackjack without placing bets. Named after author Stanford Wong."
   }
 ]
