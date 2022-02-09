@@ -1645,103 +1645,103 @@
       {
         "spin": 1,
         "number": "34",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": 5
       },
       {
         "spin": 2,
         "number": "14",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": 5
       },
       {
         "spin": 3,
         "number": "34",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": 5
       },
       {
         "spin": 4,
         "number": "30",
-        "amountBet": 270,
+        "amountBet": 240,
         "result": 15,
         "notes": "Alex didn't bet $10 on the 3 here, so he saved $10"
       },
       {
         "spin": 5,
         "number": "2",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": -235
       },
       {
         "spin": 6,
         "number": "4",
-        "amountBet": 270,
+        "amountBet": 240,
         "result": -225,
         "notes": "Alex didn't bet $10 on the 3 here, so he saved $10"
       },
       {
         "spin": 7,
         "number": "23",
-        "amountBet": 270,
+        "amountBet": 240,
         "result": 15,
         "notes": "Alex didn't bet $10 on the 3 here, so he saved $10"
       },
       {
         "spin": 8,
         "number": "24",
-        "amountBet": 270,
+        "amountBet": 240,
         "result": 15,
         "notes": "Alex didn't bet $10 on the 3 here, so he saved $10"
       },
       {
         "spin": 9,
         "number": "3",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": 125,
         "notes": "Alex didn't bet $10 on the 3 here, but Otis let him win the full amount anyway...Need to find a casino that does this. They didn't mark the 3 in the video."
       },
       {
         "spin": 10,
         "number": "8",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": 125
       },
       {
         "spin": 11,
         "number": "3",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": 125,
         "notes": "Alex didn't bet $10 on the 3 here, but Otis let him win the full amount anyway."
       },
       {
         "spin": 12,
         "number": "25",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": 5
       },
       {
         "spin": 13,
         "number": "4",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": -235
       },
       {
         "spin": 14,
         "number": "23",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": 5
       },
       {
         "spin": 15,
         "number": "24",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": 5
       },
       {
         "spin": 16,
         "number": "5",
-        "amountBet": 280,
+        "amountBet": 250,
         "result": 125
       }
     ]
