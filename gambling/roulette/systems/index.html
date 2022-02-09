@@ -47,21 +47,36 @@ summary: "How does your Roulette system stack up against the competition?"
     {%- assign totalLiveResults = 0 -%}
     {%- assign totalExpectedLoss = 0.00 -%}
 
-    {% for row in site.data.roulette-systems %}
+    {%- comment -%}
+    <!-- Loop through systems AND spins to get bet amount, EV, and Win/Loss -->
+    {%- endcomment -%}
 
-      {%- assign liveResults = row["liveResults"] | times: 1 -%}
-      {%- assign expectedLoss = row["expectedLoss"] | times: 1 -%}
+    {% for row in site.data.roulette-systems %}
+      {%- assign systemBets = 0 -%}
+      {%- assign systemExpectedLoss = 0.00 -%}
+      {%- assign systemWinLoss = 0 -%}
+
+      {%- for spin in row.spins -%}
+
+        {%- assign bet = spin["amountBet"] -%}
+        {%- assign spinResult = spin["result"] | times: 1 -%}
+        {%- assign defaultEv = bet | times: -0.0526 -%}
+        {%- assign spinEvAmount = spin["ev"] | default: defaultEv -%}
+
+        {%- assign systemBets = systemBets | plus: bet -%}
+        {%- assign systemExpectedLoss = systemExpectedLoss | plus: spinEvAmount -%}
+        {%- assign systemWinLoss = systemWinLoss | plus: spinResult -%}
+
+      {%- endfor -%}
+
       {%- assign buyIn = row["buyIn"] | times: 1 -%}
-      {%- assign amountBet = row["amountBet"] | times: 1 -%}
       {%- assign bets = row["bets"] -%}
+
       {%- assign betSizes = bets.size -%}
-      {%- assign evPercent = expectedLoss | times: 100 | divided_by: amountBet -%}
+      {%- assign evPercent = systemExpectedLoss | times: 100 | divided_by: systemBets -%}
       {%- assign rating = row["rating"] -%}
       {%- assign jackaceRating = row["jackaceRating"] -%}
 
-      {%- assign totalAmountBet = totalAmountBet | plus: amountBet -%}
-      {%- assign totalLiveResults = totalLiveResults | plus: liveResults -%}
-      {%- assign totalExpectedLoss = totalExpectedLoss | plus: expectedLoss -%}
       <tr>
         <td>
           {% if row["reviewUrl"] %}
@@ -84,17 +99,19 @@ summary: "How does your Roulette system stack up against the competition?"
           {%- include chip-range.html amounts=bets -%}
         </td>
         <td>
-          ${%- include format-number.html number=amountBet -%}
+
+          ${%- include format-number.html number=systemBets -%}
+
         </td>
         <td>
-          {%- include win-loss-amount.html amount=expectedLoss places=2 -%}
+          {%- include win-loss-amount.html amount=systemExpectedLoss places=2 -%}
 
           {%- if evPercent < -5.261 or evPercent > -5.259 -%}
             <br/><i class="small">({{- evPercent | round: 2 -}}%)</i>
           {%- endif -%}
         </td>
         <td>
-          {%- include win-loss-amount.html amount=liveResults -%}
+          {%- include win-loss-amount.html amount=systemWinLoss -%}
         </td>
         <td>
           {%- include ceg-system-rating.html rating=rating showRatingLetter=true -%}
