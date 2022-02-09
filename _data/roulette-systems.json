@@ -1,5 +1,101 @@
 [
   {
+    "name": "Donkey Work",
+    "airDate": "2022-02-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=U_R6gEC-MmQ",
+    "reviewUrl": "2022-02-08-Donkey-Work",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 350,
+    "bets": [
+      48,
+      96
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "26",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 3,
+        "number": "2",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 48,
+        "result": -48
+      },
+      {
+        "spin": 5,
+        "number": "22",
+        "amountBet": 96,
+        "result": 12
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 96,
+        "result": 12
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 96,
+        "result": 12
+      },
+      {
+        "spin": 8,
+        "number": "33",
+        "amountBet": 96,
+        "result": 12
+      },
+      {
+        "spin": 9,
+        "number": "23",
+        "amountBet": 96,
+        "result": 12
+      },
+      {
+        "spin": 10,
+        "number": "9",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 11,
+        "number": "19",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 12,
+        "number": "31",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 13,
+        "number": "0",
+        "amountBet": 48,
+        "result": 6
+      }
+    ]
+  },{
     "name": "EXTENZE",
     "airDate": "2022-02-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=c3s20NM1DFg",
@@ -17,9 +113,6 @@
       135,
       140
     ],
-    "amountBet": 1685,
-    "expectedLoss": -88.63,
-    "liveResults": -455,
     "rating": "c",
     "jackaceRating": "c",
     "notes": "The Straight-up bets in the center column GROW and SHRINK when you lose/win. I only provided screenshots of the GROWING bet values. David bet on different numbers in the center column randomly.",
@@ -121,9 +214,6 @@
       260,
       520
     ],
-    "amountBet": 1430,
-    "expectedLoss": -75.21,
-    "liveResults": -95,
     "rating": "d",
     "jackaceRating": "c",
     "spins": [
@@ -236,9 +326,6 @@
       300,
       500
     ],
-    "amountBet": 2700,
-    "expectedLoss": -142.02,
-    "liveResults": -1300,
     "rating": "c",
     "jackaceRating": "c",
     "notes": "In this system, you need to win 4 in a row before you can 'coast' with 5 Double Street bets. The problem is David is never able to hit that threshold, so the system just drains his bankroll.",
@@ -390,9 +477,6 @@
     "bets": [
       70
     ],
-    "amountBet": 770,
-    "expectedLoss": -40.50,
-    "liveResults": 40,
     "rating": "d",
     "jackaceRating": "b",
     "spins": [
@@ -480,9 +564,6 @@
       325,
       1300
     ],
-    "amountBet": 3575,
-    "expectedLoss": -188.05,
-    "liveResults": -1145,
     "rating": "c",
     "jackaceRating": "f",
     "spins": [
@@ -620,9 +701,6 @@
       400
     ],
     "friendCount": 2,
-    "amountBet": 6400,
-    "expectedLoss": -172.8,
-    "liveResults": 800,
     "rating": "c",
     "jackaceRating": "f",
     "notes": "This system is meant to be played on a Single Zero Roulette wheel. The 00 spin was ignored.",
@@ -778,9 +856,6 @@
     "bets": [
       170
     ],
-    "amountBet": 2040,
-    "expectedLoss": -107.30,
-    "liveResults": -465,
     "rating": "b",
     "jackaceRating": "d",
     "notes": "Lucky Lauren and Alex K review this holiday themed system.",
@@ -871,9 +946,6 @@
     "bets": [
       70
     ],
-    "amountBet": 1470,
-    "expectedLoss": -77.32,
-    "liveResults": -30,
     "rating": "c",
     "jackaceRating": "c",
     "notes": "$30 Dozen + 8 $5 Split bets. Alex mixes up his bets, so the RBA screenshot may not match actual payouts.",
@@ -994,9 +1066,6 @@
     "bets": [
       110
     ],
-    "amountBet": 2090,
-    "expectedLoss": -109.93,
-    "liveResults": 670,
     "rating": "b",
     "jackaceRating": "b",
     "notes": "$40 each on Two Dozens + $30 on one Double Street. Watch this video to see a \"Roller\", when the ball gets stuck rolling around the wheel!",
@@ -1161,9 +1230,6 @@
       50,
       60
     ],
-    "amountBet": 553,
-    "expectedLoss": -29.09,
-    "liveResults": -79,
     "rating": "d",
     "jackaceRating": "f",
     "spins": [
@@ -1305,9 +1371,6 @@
       132,
       154
     ],
-    "amountBet": 1100,
-    "expectedLoss": -57.86,
-    "liveResults": -164,
     "rating": "d",
     "jackaceRating": "d",
     "notes": "The red numbers are supposed to represent the snake wrapped around the rod of the Greek figure of healing and medicine.",
@@ -1435,10 +1498,10 @@
     ]
   },
   {
-    "name": "Diamond Heist",
-    "airDate": "2022-12-10",
+    "name": "Diamond Heist 2.0",
+    "airDate": "2021-12-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=eZgHu0fdWTo",
-    "reviewUrl": null,
+    "reviewUrl": "2021-12-10-Diamond-Heist-2.0",
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
@@ -1446,17 +1509,128 @@
     "bets": [
       95
     ],
-    "amountBet": 1710,
-    "expectedLoss": -89.95,
-    "liveResults": 45,
     "rating": "c",
-    "jackaceRating": "f"
+    "jackaceRating": "f",
+    "notes": "There are a lot of mistakes in the video, including the payouts by Timmy.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "18",
+        "amountBet": 95,
+        "result": 55
+      },
+      {
+        "spin": 2,
+        "number": "34",
+        "amountBet": 95,
+        "result": -50
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 95,
+        "result": 55
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 95,
+        "result": -95,
+        "notes": "They lost $45 more than they should have because they essentially have $15 on each of the three column bets. Also, they didn't mark this loss on the video."
+      },
+      {
+        "spin": 5,
+        "number": "8",
+        "amountBet": 95,
+        "result": 25
+      },
+      {
+        "spin": 6,
+        "number": "22",
+        "amountBet": 95,
+        "result": -50
+      },
+      {
+        "spin": 7,
+        "number": "3",
+        "amountBet": 95,
+        "result": -20
+      },
+      {
+        "spin": 8,
+        "number": "14",
+        "amountBet": 95,
+        "result": 40,
+        "notes": "Alex incorrectly says he won 25 chips."
+      },
+      {
+        "spin": 9,
+        "number": "28",
+        "amountBet": 95,
+        "result": -20
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 95,
+        "result": 55,
+        "notes": "The video incorrectly states this is a $25 win. This is a $55 Jackpot."
+      },
+      {
+        "spin": 11,
+        "number": "10",
+        "amountBet": 95,
+        "result": -50
+      },
+      {
+        "spin": 12,
+        "number": "12",
+        "amountBet": 95,
+        "result": -20
+      },
+      {
+        "spin": 13,
+        "number": "23",
+        "amountBet": 95,
+        "result": 40
+      },
+      {
+        "spin": 14,
+        "number": "14",
+        "amountBet": 95,
+        "result": 40
+      },
+      {
+        "spin": 15,
+        "number": "9",
+        "amountBet": 95,
+        "result": 55
+      },
+      {
+        "spin": 16,
+        "number": "7",
+        "amountBet": 95,
+        "result": -20
+      },
+      {
+        "spin": 17,
+        "number": "18",
+        "amountBet": 95,
+        "result": 55
+      },
+      {
+        "spin": 18,
+        "number": "34",
+        "amountBet": 95,
+        "result": -50
+      }
+    ]
   },
   {
     "name": "For a Good Time Call (Jenny)",
-    "airDate": "2022-10-21",
+    "airDate": "2021-10-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=g46h_Lv9_UU",
-    "reviewUrl": null,
+    "reviewUrl": "2021-10-21-For-a-Good-Time-Call",
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
@@ -1464,11 +1638,113 @@
     "bets": [
       235
     ],
-    "amountBet": 3525,
-    "expectedLoss": -185.42,
-    "liveResults": -285,
     "rating": "c",
-    "jackaceRating": "f"
+    "jackaceRating": "f",
+    "notes": "Why the Hell would you bet $5 on all three columns? That is just idiotic.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "34",
+        "amountBet": 250,
+        "result": 5
+      },
+      {
+        "spin": 2,
+        "number": "14",
+        "amountBet": 250,
+        "result": 5
+      },
+      {
+        "spin": 3,
+        "number": "34",
+        "amountBet": 250,
+        "result": 5
+      },
+      {
+        "spin": 4,
+        "number": "30",
+        "amountBet": 240,
+        "result": 15,
+        "notes": "Alex didn't bet $10 on the 3 here, so he saved $10"
+      },
+      {
+        "spin": 5,
+        "number": "2",
+        "amountBet": 250,
+        "result": -235
+      },
+      {
+        "spin": 6,
+        "number": "4",
+        "amountBet": 240,
+        "result": -225,
+        "notes": "Alex didn't bet $10 on the 3 here, so he saved $10"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 240,
+        "result": 15,
+        "notes": "Alex didn't bet $10 on the 3 here, so he saved $10"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 240,
+        "result": 15,
+        "notes": "Alex didn't bet $10 on the 3 here, so he saved $10"
+      },
+      {
+        "spin": 9,
+        "number": "3",
+        "amountBet": 250,
+        "result": 125,
+        "notes": "Alex didn't bet $10 on the 3 here, but Otis let him win the full amount anyway...Need to find a casino that does this. They didn't mark the 3 in the video."
+      },
+      {
+        "spin": 10,
+        "number": "8",
+        "amountBet": 250,
+        "result": 125
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 250,
+        "result": 125,
+        "notes": "Alex didn't bet $10 on the 3 here, but Otis let him win the full amount anyway."
+      },
+      {
+        "spin": 12,
+        "number": "25",
+        "amountBet": 250,
+        "result": 5
+      },
+      {
+        "spin": 13,
+        "number": "4",
+        "amountBet": 250,
+        "result": -235
+      },
+      {
+        "spin": 14,
+        "number": "23",
+        "amountBet": 250,
+        "result": 5
+      },
+      {
+        "spin": 15,
+        "number": "24",
+        "amountBet": 250,
+        "result": 5
+      },
+      {
+        "spin": 16,
+        "number": "5",
+        "amountBet": 250,
+        "result": 125
+      }
+    ]
   },
   {
     "name": "Double Street Martingale",
@@ -1489,9 +1765,6 @@
       500,
       1000
     ],
-    "amountBet": 12125,
-    "expectedLoss": -637.77,
-    "liveResults": 1375,
     "rating": "a",
     "jackaceRating": "c",
     "notes": "Alex gave the modified (postive Martingale) system an A - Grapefruit. Friend 1: Original System; Friend 2: Modified System (positive Martingale)",
@@ -1694,9 +1967,6 @@
       "bets": [
         3500
       ],
-      "amountBet": 31500,
-      "expectedLoss": -1656.90,
-      "liveResults": 2700,
       "friendCount": 3,
       "rating": "",
       "jackaceRating": "f",

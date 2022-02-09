@@ -151,7 +151,7 @@ layout: page-no-sidebar
 {%- endif -%}
 
 <figure>
-  <img id="rbaImg" src="{{- site.baseurl -}}/assets/img/systems/{{- airDate -}}/{{- rbaImages[0] -}}" alt="Roulette Bet Analyzer bets for {{- system.name -}}"/>
+  <img id="rbaImg" src="{{- site.baseurl -}}/assets/img/systems/{{- airDate -}}/{{- rbaImages[0] -}}" alt="Roulette Bet Analyzer bets for {{system.name}}"/>
   <figcaption>
     {%- if imageLimit > 0 -%}
       Betting schemes for <i>{{- system.name -}}</i>
@@ -163,13 +163,15 @@ layout: page-no-sidebar
 
 {%- for i in (1..groupLoops) -%}
 
-  {%- assign loopSpins = system.spins | sort: "spin" -%}
+  <!-- assign loopSpins = system.spins | sort: "spin" -->
+  {%- assign loopSpins = system.spins -%}
   {%- assign groupEV = 0 -%}
   {%- assign groupAmountBet = 0 -%}
   {%- assign groupWinLoss = 0 -%}
 
   {%- if friendCount > 0 -%}
-    {%- assign loopSpins = system.spins | where: "friend", i | sort: "spin" -%}
+    <!-- assign loopSpins = system.spins | where: "friend", i | sort: "spin" -->
+    {%- assign loopSpins = system.spins | where: "friend", i -%}
     <h3>Friend #{{- i -}}&nbsp;Results</h3>
   {%- endif -%}
 
