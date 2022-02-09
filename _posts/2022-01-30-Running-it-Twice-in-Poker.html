@@ -16,14 +16,18 @@ math: true
     Poker cash games. It became a pretty popular on the show <i>High Stakes Poker</i> on GSN and
     several other cash game shows.
 </p>
+<p>
+    But what affect does running it once, twice, or even 44 times do to your expected result? How does it
+    affect your variance?
+</p>
 
 <h2>What is "Running it Twice"?</h2>
 <p>
-    The decision to "run it twice" is made when there is an all-in situation involving only two
-    players. When the players agree to "run it twice", they are agreeing to complete the hand with two
-    sets of outcomes. If there is one card left to be dealt, then two cards will be dealt, each
-    card acting as a the final community card for two separate outcomes. The winner of each
-    outcome will be entited to a share of the total pot.
+    Two players can agree to "run it twice" when one of the players is all-in and there are
+    still more cards to come. When the players agree to "run it twice", they are agreeing to complete
+    the hand with two sets of outcomes. If there is one card left to be dealt, then two cards will be
+    dealt, each card acting as a the final community card for two separate outcomes. The winner of each
+    outcome will be entited to a half of the total pot.
 </p>
 <p>
     If you win both times, you win the entire pot. If you lose both times, you lose the entire pot.
@@ -31,10 +35,140 @@ math: true
     players. 
 </p>
 
-<h3>What about Running it 3 or 4 or even 44 Times?</h2>
+<h3>What about Running it 3 or 4 or even 44 Times?</h3>
 <p>
-    And you can "run it" multiple times. Each time your "create a different timeline", you split the
-    pot into a 
+    You can "run it" multiple times. Each time you run it, the pot shares become smaller and 
+    smaller, and it becomes more likely that the underdog will get at least <i>some</i> of his money
+    back.
+</p>
+        
+<h2>Why can't you Run it Twice in a Tournament?</h2>
+<p>
+    The option to run it multiple times usually only applies to cash games. You probably won't
+    have this option available in a tournament for two big reasons.
+</p>
+<h3>It's disruptive</h3>
+<p>
+    Deciding how many times to run it takes time.<br/>
+    Dealing extra turns and extra rivers takes time.<br/>
+    Splitting the pot and even figuring out who won each pot takes time<br/>
+</p>
+<p>
+    And time is often your enemy when blind levels increase every couple of minutes.
 </p>
 
+<h3>It opens the door for collusion</h3>
+<p>
+    If two players are soft-playing each other because they are friends or if they both
+    have a financial interest in the other winning (i.e. if they are partially staking
+    each other), then it's in their best interest to keep each other in the tournament
+    by winning a split pot as opposed to being eliminated.
+</p>
+<p>
+    Even though it's possible to collude without running it twice, keeping your friends
+    afloat becomes pretty easy when you give him multiple opportunities to spike his
+    one-outer.
+</p>
+<p>
+    Worst of all, there's no reason why anyone in the tournament would want a player
+    to avoid possible elimination. The only person who benefits from winning part of
+    a split pot would be the player who is all-in.
+</p>
 
+<h2>How does Running it Multiple Times affect Your EV?</h2>
+<p>
+    It doesn't.
+</p>
+<p>
+    Your Expected Value will be exactly the same as if you just ran it once, twice, or
+    even 44 times.
+</p>
+
+<h2>How does Running it Multiple Times affect Your Variance?</h2>
+<p>
+    The only statistical change that results from multiple run-outs is a lowering of
+    variance. The more turns and rivers you see, the more your results will resemble
+    the expected result and the lower the fluctuation to your bankroll.
+</p>
+
+<h2>Calculating the Results of Running it N Times</h2>
+<p>
+    I think most seasoned poker players are already aware that running it multiple times
+    results in <i>zero</i> change to your EV. But I've often heard noobs (incorrectly)
+    say that running it multiple times is bad for the favorite in the situation.
+</p>
+
+<h3>1-outer on the River</h3>
+<p>
+    Let's take a look at an extreme situation.
+</p>
+<p>
+    I think the best way to illustrate that the EV remains the same is to look at the case
+    where the underdog has a one-outer with just the River to come.
+</p>
+<p>
+    Favorite:
+    {%- include card.html card="Ah" -%}
+    {%- include card.html card="Kh" -%}
+</p>
+<p>
+    Underdog:
+    {%- include card.html card="3h" -%}
+    {%- include card.html card="2h" -%}
+</p>
+<p>
+    Board:
+    {%- include card.html card="4h" -%}
+    {%- include card.html card="5h" -%}
+    {%- include card.html card="9c" -%}
+    {%- include card.html card="Js" -%}
+</p>
+<p>
+    Here, the Favorite has the nut-flush and the Underdog is drawing to a 
+    {%- include card.html card="6h" -%}.
+</p>
+<p>
+    There are 44 unknown cards and only 1 card will make the underdog a winner.
+    If the post were $44, then he'd have an EV of $1.
+</p>
+<p>
+    So let's run it 44 times!
+</p>
+<p>
+    To do this, we have to ignore burn cards and deal out all 44 River cards and
+    make forty-four $1 pots.
+</p>
+<p>
+    Since we already know the dog is drawing to a one-outer, we know exactly one
+    of those $1 pots will have his 
+    {%- include card.html card="6h" -%}, netting him $1 and awarding the favorite
+    $43.
+</p>
+
+<h3>What about Multiple Outs?</h3>
+<p>
+    And the same is true for any number of outs with just the River to come. If
+    the dog is drawing to a flush against the favorite's top pair, we'd be looking
+    at 9 outs.
+</p>
+<p>
+    Favorite:
+    {%- include card.html card="As" -%}
+    {%- include card.html card="Kc" -%}
+</p>
+<p>
+    Underdog:
+    {%- include card.html card="Jh" -%}
+    {%- include card.html card="8h" -%}
+</p>
+<p>
+    Board:
+    {%- include card.html card="4h" -%}
+    {%- include card.html card="5h" -%}
+    {%- include card.html card="Ac" -%}
+    {%- include card.html card="Ts" -%}
+</p>
+<p>
+    In our $44 pot situation, his EV would be $9, and if we ran it 44 times,
+    he'd get back exactly that.
+</p>

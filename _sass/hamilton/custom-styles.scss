@@ -141,6 +141,29 @@ blockquote {
     width: 42px;
     height: 27px;
 }
+.card-medium {
+    width: 35px;
+    height: 49px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.card {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.card-suit-s {
+    color: #999;
+}
+.card-suit-h {
+    color: #f00;
+}
+.card-suit-d {
+    color: #00f;
+}
+.card-suit-c {
+    color: #0f0;
+}
+
 .chip-xs {
     width: 24px;
     height: 24px;
