@@ -1,5 +1,104 @@
 [
   {
+    "name": "Donkey Work",
+    "airDate": "2022-02-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=U_R6gEC-MmQ",
+    "reviewUrl": "2022-02-08-Donkey-Work",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 350,
+    "bets": [
+      48,
+      96
+    ],
+    "amountBet": 864,
+    "expectedLoss": -45.44,
+    "liveResults": 54,
+    "rating": "c",
+    "jackaceRating": "d",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "26",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 3,
+        "number": "2",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 48,
+        "result": -48
+      },
+      {
+        "spin": 5,
+        "number": "22",
+        "amountBet": 96,
+        "result": 12
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 96,
+        "result": 12
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 96,
+        "result": 12
+      },
+      {
+        "spin": 8,
+        "number": "33",
+        "amountBet": 96,
+        "result": 12
+      },
+      {
+        "spin": 9,
+        "number": "23",
+        "amountBet": 96,
+        "result": 12
+      },
+      {
+        "spin": 10,
+        "number": "9",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 11,
+        "number": "19",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 12,
+        "number": "31",
+        "amountBet": 48,
+        "result": 6
+      },
+      {
+        "spin": 13,
+        "number": "0",
+        "amountBet": 48,
+        "result": 6
+      }
+    ]
+  },{
     "name": "EXTENZE",
     "airDate": "2022-02-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=c3s20NM1DFg",
