@@ -95,7 +95,8 @@
         "result": 6
       }
     ]
-  },{
+  },
+  {
     "name": "EXTENZE",
     "airDate": "2022-02-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=c3s20NM1DFg",
@@ -196,7 +197,8 @@
         "result": -140
       }
     ]
-  },  {
+  },
+  {
     "name": "Safe Run Way",
     "airDate": "2022-02-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=M5cccFJEooo",
@@ -308,7 +310,8 @@
         "result": 10
       }
     ]
-  },  {
+  },
+  {
     "name": "Discount Tickets to the Streets",
     "airDate": "2022-02-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=bdQ6TC5PM-k",
@@ -1952,89 +1955,213 @@
         "result": 200
       }
     ]
-    },
-    {
-      "name": "Chamba In & Out",
-      "airDate": "2020-07-29",
-      "youtubeUrl": "https://www.youtube.com/watch?v=8Iha0DCkJgw",
-      "reviewUrl": "2020-07-29-Chamba-In-and-Out",
-      "rbaImageUrls": [
-        "00-rba-0-800x440.png",
-        "00-rba-1-800x440.png",
-        "00-rba-2-800x440.png"
-      ],
-      "buyIn": 3500,
-      "bets": [
-        3500
-      ],
-      "friendCount": 3,
-      "rating": "",
-      "jackaceRating": "f",
-      "notes": "This system is absolutely idiotic, with betting on all 36 numbers as well as individual Straight-up bets that can be consolidated. I couldn't tell what rating they gave it.",
-      "spins": [
-        {
-          "friend": 1,
-          "spin": 1,
-          "number": "23",
-          "amountBet": 3500,
-          "result": 700
-        },
-        {
-          "friend": 1,
-          "spin": 2,
-          "number": "19",
-          "amountBet": 3500,
-          "result": 700
-        },
-        {
-          "friend": 1,
-          "spin": 3,
-          "number": "28",
-          "amountBet": 3500,
-          "result": 700
-        },
-        {
-          "friend": 2,
-          "spin": 4,
-          "number": "29",
-          "amountBet": 3500,
-          "result": 700
-        },
-        {
-          "friend": 2,
-          "spin": 5,
-          "number": "7",
-          "amountBet": 3500,
-          "result": 700
-        },
-        {
-          "friend": 2,
-          "spin": 6,
-          "number": "8",
-          "amountBet": 3500,
-          "result": 700
-        },
-        {
-          "friend": 3,
-          "spin": 7,
-          "number": "5",
-          "amountBet": 3500,
-          "result": 700
-        },
-        {
-          "friend": 3,
-          "spin": 8,
-          "number": "13",
-          "amountBet": 3500,
-          "result": 700
-        },
-        {
-          "friend": 3,
-          "spin": 9,
-          "number": "11",
-          "amountBet": 3500,
-          "result": -2900
-        }
-     ]
+  },
+  {
+    "name": "Modified 24 + 8",
+    "airDate": "2020-08-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dZnvKwezDlI",
+    "reviewUrl": "2020-08-06-Modified-24+8",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      150,
+      300,
+      600
+    ],
+    "rating": "",
+    "jackaceRating": "d",
+    "notes": "I'm not a fan of systems where you bet a lot and push most of the time.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "32",
+        "amountBet": 150,
+        "result": 0
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 150,
+        "result": 0
+      },
+      {
+        "spin": 3,
+        "number": "20",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 150,
+        "result": 0
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 150,
+        "result": 0
+      },
+      {
+        "spin": 7,
+        "number": "15",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 8,
+        "number": "2",
+        "amountBet": 150,
+        "result": 0
+      },
+      {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 10,
+        "number": "21",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 11,
+        "number": "33",
+        "amountBet": 300,
+        "result": 0
+      },
+      {
+        "spin": 12,
+        "number": "10",
+        "amountBet": 300,
+        "result": 0
+      },
+      {
+        "spin": 13,
+        "number": "9",
+        "amountBet": 300,
+        "result": 0
+      },
+      {
+        "spin": 14,
+        "number": "9",
+        "amountBet": 300,
+        "result": 0
+      },
+      {
+        "spin": 15,
+        "number": "11",
+        "amountBet": 300,
+        "result": 0
+      },
+      {
+        "spin": 16,
+        "number": "8",
+        "amountBet": 300,
+        "result": 0
+      },
+      {
+        "spin": 17,
+        "number": "13",
+        "amountBet": 600,
+        "result": 120
+      }
+    ]
+  },
+  {
+    "name": "Chamba In & Out",
+    "airDate": "2020-07-29",
+    "youtubeUrl": "https://www.youtube.com/watch?v=8Iha0DCkJgw",
+    "reviewUrl": "2020-07-29-Chamba-In-and-Out",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 3500,
+    "bets": [
+      3500
+    ],
+    "friendCount": 3,
+    "rating": "",
+    "jackaceRating": "f",
+    "notes": "This system is absolutely idiotic, with betting on all 36 numbers as well as individual Straight-up bets that can be consolidated. I couldn't tell what rating they gave it.",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "23",
+        "amountBet": 3500,
+        "result": 700
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "19",
+        "amountBet": 3500,
+        "result": 700
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "28",
+        "amountBet": 3500,
+        "result": 700
+      },
+      {
+        "friend": 2,
+        "spin": 4,
+        "number": "29",
+        "amountBet": 3500,
+        "result": 700
+      },
+      {
+        "friend": 2,
+        "spin": 5,
+        "number": "7",
+        "amountBet": 3500,
+        "result": 700
+      },
+      {
+        "friend": 2,
+        "spin": 6,
+        "number": "8",
+        "amountBet": 3500,
+        "result": 700
+      },
+      {
+        "friend": 3,
+        "spin": 7,
+        "number": "5",
+        "amountBet": 3500,
+        "result": 700
+      },
+      {
+        "friend": 3,
+        "spin": 8,
+        "number": "13",
+        "amountBet": 3500,
+        "result": 700
+      },
+      {
+        "friend": 3,
+        "spin": 9,
+        "number": "11",
+        "amountBet": 3500,
+        "result": -2900
+      }
+    ]
   }
 ]
