@@ -90,6 +90,34 @@ blockquote {
 .blog-list-excerpt {
     font-size: 16px;
 }
+
+div.infobox-info, div.infobox-success, div.infobox-warning, div.infobox-error {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px;
+    border-radius: 10px;
+}
+ 
+div.infobox-info {
+    color: #00529b;
+    background-color: #bde5f8;
+}
+ 
+div.infobox-success {
+    color: #4f8a10;
+    background-color: #dff2bf;
+}
+ 
+div.info-warning {
+    color: #9f6000;
+    background-color: #FEEFB3;
+}
+ 
+div.infobox-error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
 .more-link {
     font-size: 12px;
     background: none;
@@ -155,9 +183,13 @@ blockquote {
     padding-right: 4px;
 }
 .card {
-    padding-left: 2px;
-    padding-right: 2px;
-    font-size: 14px;
+    background-color: #fff;
+    font-size: 12px;
+    letter-spacing: -0.25px;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 4px;
+
 }
 .card-suit-s {
     color: #333;
@@ -176,8 +208,9 @@ blockquote {
     color: #fff;
     background-color: #0c0;
     min-width: 600px;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
+    border-radius: 10px;
 }
 .poker-row {
     display: flex;
@@ -186,8 +219,9 @@ blockquote {
 }
 .poker-hand {
     background-color: rgba(256, 256, 256, 0.5);
-    padding: 10px;
+    padding: 5px;
     margin: 2px;
+    border-radius: 10px;
 }
 .poker-hand-title {
     color: #333;

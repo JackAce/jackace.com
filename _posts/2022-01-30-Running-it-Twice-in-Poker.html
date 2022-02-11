@@ -12,26 +12,26 @@ math: true
 
 <img src="{{site.baseurl}}{{page.excerpt_image}}" class="excerpt-image" />
 <p>
-    Around the year 2006, an option for "Running it Twice" started to become popular on televised
-    Poker cash games. It became a pretty popular on the show <i>High Stakes Poker</i> on GSN and
-    several other cash game shows.
+    Around 2006, an option for "Running it Twice" started to become popular on televised
+    Poker cash games. It was becoming a regular occurrence on the show <i>High Stakes Poker</i> on GSN
+    and several other cash game shows.
 </p>
 <p>
-    But what affect does running it once, twice, or even 44 times do to your expected result? How does it
-    affect your variance?
+    But what affect does running it once, twice, or even <i>44 times</i> do to your expected result? How
+    does it affect your variance?
 </p>
 
 <h2>What is "Running it Twice"?</h2>
 <p>
     Two players can agree to "run it twice" when one of the players is all-in and there are
-    still more cards to come. When the players agree to "run it twice", they are agreeing to complete
-    the hand with two sets of outcomes. If there is one card left to be dealt, then two cards will be
-    dealt, each card acting as a the final community card for two separate outcomes. The winner of each
-    outcome will be entited to a half of the total pot.
+    still more cards to come. When the players agree to run it twice, they are agreeing to complete
+    the hand with two sets of outcomes. If there is one card left to be dealt, then two separate River
+    cards will be dealt, each card acting as a the final community card for two separate outcomes. The
+    winner of each outcome will be entited to a half of the total pot.
 </p>
 <p>
     If you win both times, you win the entire pot. If you lose both times, you lose the entire pot.
-    If you win one and lose the other, then the pot is divided in half and distributed to the two
+    If you win one and lose the other, then the pot is divided in half and distributed amongst the two
     players. 
 </p>
 
@@ -42,46 +42,12 @@ math: true
     back.
 </p>
 
-<!-- <h2>Why can't you Run it Twice in a Tournament?</h2>
-<p>
-    The option to run it multiple times usually only applies to cash games. You probably won't
-    have this option available in a tournament for two big reasons.
-</p>
-<h3>It's disruptive</h3>
-<p>
-    Deciding how many times to run it takes time.<br/>
-    Dealing extra turns and extra rivers takes time.<br/>
-    Splitting the pot and even figuring out who won each pot takes time<br/>
-</p>
-<p>
-    And time is often your enemy when blind levels increase every couple of minutes.
-</p>
-
-<h3>It opens the door for collusion</h3>
-<p>
-    If two players are soft-playing each other because they are friends or if they both
-    have a financial interest in the other winning (i.e. if they are partially staking
-    each other), then it's in their best interest to keep each other in the tournament
-    by winning a split pot as opposed to being eliminated.
-</p>
-<p>
-    Even though it's possible to collude without running it twice, keeping your friends
-    afloat becomes pretty easy when you give him multiple opportunities to spike his
-    one-outer.
-</p>
-<p>
-    Worst of all, there's no reason why anyone in the tournament would want a player
-    to avoid possible elimination. The only person who benefits from winning part of
-    a split pot would be the player who is all-in.
-</p> -->
-
-<h2>How does Running it Multiple Times affect Your EV?</h2>
+<h2>How does Running it Multiple Times affect Your Expected Value (EV)?</h2>
 <p>
     It doesn't.
 </p>
 <p>
-    Your Expected Value is exactly the same whether you run it once, twice, or
-    even 44 times.
+    Your EV is exactly the same whether you run it once, twice, or even 44 times.
 </p>
 
 <h2>How does Running it Multiple Times affect Your Variance?</h2>
@@ -135,7 +101,7 @@ math: true
             {%- include card.html card="4h" class="card-lg" -%}
             {%- include card.html card="5h" class="card-lg" -%}
             {%- include card.html card="9c" class="card-lg" -%}
-            {%- include card.html card="Js" class="card-lg" -%}
+            {%- include card.html card="Jh" class="card-lg" -%}
         </div>
     </div>
 </div>
@@ -148,7 +114,7 @@ math: true
     If the post were $44, then he'd have an EV of $1.
 </p>
 <p>
-    So let's run it 44 times!
+    <i>So let's run it 44 times!</i>
 </p>
 <p>
     To do this, we have to ignore burn cards and deal out all 44 River cards and
@@ -259,7 +225,8 @@ math: true
     It's pretty easy to see that if you run it 44 times, exhausting all undealt cards, then
     your number of outs will be exactly the number of mini-pots that you will win. So 2 outs
     means that you'll get 2/44 of the pot. 3 outs means 3/44. And if your opponent is drawing
-    dead, then you'll win all 44 pots.
+    dead, then you'll win all 44 pots -- But more importantly, why the hell would you waste the
+    dealer's time if he's drawing dead?
 </p>
 <p>
     The more times you "run it", the more your actual results will converge toward the expected
@@ -282,13 +249,13 @@ math: true
 </p>
 <p>
     By running it twice, you're doubling your chances of getting money back, but the amount you
-    get will be halved.
+    receive will be halved.
 </p>
-<p>
+<div class="infobox-info">
     One funny observation about running it twice with a one-outer is that if you end up getting
     what you want and you win one of the two hands, there's a 50% chance you'll be upset
     because you would have taken the whole pot on the first River if you just ran it once.
-</p>
+</div>
 <p>
     The EV for running a 1-outer twice is still pretty easy:
 </p>
@@ -320,15 +287,15 @@ math: true
 </p>
 <p class="p-center">
     \begin{align}
-    EV_{2{\text -}outer} & = { P_{W1} \times P_{W2} } + { { P_{W1} \times P_{L2} } \over 2 } + { { P_{L1} \times P_{W2} } \over 2 } \\
+    EV_{2{\text -}outer} & = { { P_{W1} \times P_{L2} } \over 2 } + { { P_{L1} \times P_{W2} } \over 2 } + { P_{W1} \times P_{W2} }\\
     \\
-    & = { {2 \over 44 } \times {1 \over 43} } + { { {2 \over 44 } \times {42 \over 43} } \over 2 } + { { {42 \over 44} \times {2 \over 43} } \over 2 } \\
+    & = { { {2 \over 44 } \times {42 \over 43} } \over 2 } + { { {42 \over 44} \times {2 \over 43} } \over 2 } + { {2 \over 44 } \times {1 \over 43} }\\
     \\
-    & = {2 \over { 44 \times 43 } } + { { { { 2 \times 41 } \over { 44 \times 43 } } } \over 2 } + { { { { 42 \times 2 } \over { 44 \times 43} } } \over 2 } \\
+    & = { { { { 2 \times 41 } \over { 44 \times 43 } } } \over 2 } + { { { { 42 \times 2 } \over { 44 \times 43} } } \over 2 } + {2 \over { 44 \times 43 } }\\
     \\
-    & = {2 \over { 44 \times 43 } } + { { 2 \times { { 2 \times 42 } \over { 44 \times 43 } } } \over 2 } \\
+    & = { { 2 \times { { 2 \times 42 } \over { 44 \times 43 } } } \over 2 } + {2 \over { 44 \times 43 } } \\
     \\
-    & = {2 \over { 44 \times 43 } } + { {2 \times 42 } \over { 44 \times 43 } } \\
+    & = { {2 \times 42 } \over { 44 \times 43 } } + {2 \over { 44 \times 43 } } \\
     \\
     & = {86 \over { 44 \times 43 } } \\
     \\
@@ -341,7 +308,7 @@ math: true
     And this is exactly the EV we saw when running it 44 times.
 </p>
 
-<h3>Running it Twice with a z-Outer on the River</h3>
+<h3>Running it n-Times with a z-Outer on the River</h3>
 <p>
     Here's the general formula for calculating the EV of a z-outer with one card to come:
 </p>
@@ -411,3 +378,10 @@ math: true
     Where n is the number of times you want to run the river (\(0 < n \le y\)) and z is the number
     of outs (\(0 \le z \le y\)) and y is the number of undealt cards (\(z \le y \le 44\)).
 </p>
+<p>
+    So plugging this into WolframAlpha, you can see that this sum always adds up to \( z \over 44 \)
+    for all values of n.
+</p>
+<pre>
+    Sum[(k/n)*C(n, k)*[ (P(z, k) * P(44-z, n-k))/P(44, n) ],{k,1,n}]
+</pre>
