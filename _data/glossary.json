@@ -36,6 +36,12 @@
     "definition": "A predicted value of a variable, calculated as the sum of all possible values each multiplied by the probability of its occurrence."
   },
   {
+    "term": "Martingale",
+    "categories": ["blackjack", "roulette", "baccarat", "general gambling", "betting", "systems"],
+    "summary": "Doubling your bet after a loss",
+    "definition": "The Martingale betting system calls for doubling your bet after a loss, trying to chase a win."
+  },
+  {
     "term": "natural",
     "categories": ["blackjack", "baccarat"],
     "summary": "expected value",
