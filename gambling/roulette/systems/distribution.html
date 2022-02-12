@@ -63,12 +63,16 @@ title: Roulette Number Distribution
       <th>
         Percentage
       </th>
+      <th>
+        Delta from Average
+      </th>
     </tr>
   </thead>
   <tbody>
     {% for i in (0..37) %}
       {%- assign spot = spots[i] -%}
       {%- assign percentage = hitCounts[i] | times: 100.0 | divided_by: totalSpins -%}
+      {%- assign delta = percentage | minus: 2.632 -%}
       <tr>
         <td>
           {%- include roulette-spot.html number=spot -%}
@@ -77,7 +81,18 @@ title: Roulette Number Distribution
           {{- hitCounts[i] -}}
         </td>
         <td>
-          {%- include format-number.html number=percentage places=1 -%}%
+          {%- include format-number.html number=percentage places=2 -%}%
+        </td>
+        <td>
+          {% if delta < 0 %}
+            <div class="amt-neg">
+              {%- include format-number.html number=delta places=2 -%}%
+            </div>
+          {% else %}
+            <div class="amt-pos">
+              {%- include format-number.html number=delta places=2 -%}%
+            </div>
+        {% endif %}
         </td>
       </tr>
     {% endfor %}
@@ -87,10 +102,12 @@ title: Roulette Number Distribution
       <th></th>
       <th>Total Spins</th>
       <th></th>
+      <th></th>
     </tr>
     <tr>
       <td></td>
       <td>{{- totalSpins -}}</td>
+      <td></td>
       <td></td>
     </tr>
   </tfoot>
