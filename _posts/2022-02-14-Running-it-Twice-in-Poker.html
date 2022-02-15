@@ -1,0 +1,405 @@
+---
+layout: post
+title: "How Does 'Running It Twice' Affect Your Odds in Poker?"
+date: 2022-02-14 00:01:01 -0800
+author: Jack Hayes
+tags: [poker,running it twice]
+excerpt_image: "/assets/img/posts/2022-02-02/00-title-800x399.jpg"
+summary: "How does Running it Twice, Thrice, or even 44 Times affect your EV and Variance in Poker?"
+comments: true
+published: true
+math: true
+---
+
+<img src="{{site.baseurl}}{{page.excerpt_image}}" class="excerpt-image" />
+<p>
+    Around 2006, an option for "Running it Twice" started to become popular on televised
+    Poker cash games. It was becoming a regular occurrence on the show <i>High Stakes Poker</i> on GSN
+    and several other cash game shows.
+</p>
+<p>
+    But what affect does running it once, twice, or even <i>44 times</i> do to your expected result? How
+    does it affect your variance?
+</p>
+
+<h2>What is "Running it Twice"?</h2>
+<p>
+    Two players can agree to "run it twice" when one of the players is all-in and there are
+    still more cards to come. When the players agree to run it twice, they are agreeing to complete
+    the hand with two sets of outcomes. If there is one card left to be dealt, then two separate River
+    cards will be dealt, each card acting as a the final community card for two separate outcomes. The
+    winner of each outcome will be entited to a half of the total pot.
+</p>
+<p>
+    If you win both times, you win the entire pot. If you lose both times, you lose the entire pot.
+    If you win one and lose the other, then the pot is divided in half and distributed amongst the two
+    players. 
+</p>
+
+<figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XCL9_2gRZI0?start=311" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figcaption>
+        Phil Hellmuth
+        ({%- include card.html card="Ks" showImage=false -%}
+        {%- include card.html card="Kc" showImage=false -%})
+        and Ernest Wiggins
+        ({%- include card.html card="Ah" showImage=false -%}
+        {%- include card.html card="9d" showImage=false -%})
+        go all in on the flop
+        ({%- include card.html card="9h" showImage=false -%}
+        {%- include card.html card="Ts" showImage=false -%}
+        {%- include card.html card="9s" showImage=false -%}). Even with an 85/15 lead, Phil
+        loses 3 out of 4 hands when they run it 4 times.
+    </figcaption>
+</figure>
+
+<h3>What about Running it 3 or 4 times or even more?</h3>
+<p>
+    You can "run it" multiple times. Each time you run it, the pot shares become smaller and 
+    smaller, and it becomes more likely that the underdog will get at least <i>some</i> of his money
+    back.
+</p>
+
+<h2>How does Running it Multiple Times affect Your Expected Value (EV)?</h2>
+<p>
+    It doesn't.
+</p>
+<p>
+    Your EV is exactly the same whether you run it once, twice, or even 44 times.
+</p>
+
+<h2>How does Running it Multiple Times affect Your Variance?</h2>
+<p>
+    The only statistical change that results from multiple run-outs is a lowering of
+    variance. The more turns and rivers you see, the more your results will resemble
+    the expected result and the lower the fluctuation to your bankroll.
+</p>
+
+<h2>Calculating the Results of Running it N Times</h2>
+<p>
+    Most seasoned poker players are already aware that running it multiple times
+    results in <i>zero</i> change to your EV. But I've often heard noobs (incorrectly)
+    say that running it multiple times is bad for the favorite in the situation, and that
+    running it twice is good for the underdog's EV.
+</p>
+<p>
+    We'll see why these people are incorrect by looking at a few examples.
+</p>
+
+<h3>1-outer on the River</h3>
+<p>
+    Let's take a look at an extreme situation.
+</p>
+<p>
+    I think the best way to illustrate that the EV remains the same is to look at the case
+    where the underdog has a one-outer with just the River to come.
+</p>
+<div class="poker-felt">
+    <div class="poker-row">
+        <div class="poker-hand">
+            <div class="poker-hand-title">
+                Favorite
+            </div>
+            {%- include card.html card="Ah" class="card-lg" -%}
+            {%- include card.html card="Kh" class="card-lg" -%}
+        </div>
+        <div class="poker-hand">
+            <div class="poker-hand-title">
+                Underdog
+            </div>
+            {%- include card.html card="3h" class="card-lg" -%}
+            {%- include card.html card="2h" class="card-lg" -%}
+        </div>
+    </div>
+    <div class="poker-row">
+        <div class="poker-hand">
+            <div class="poker-hand-title">
+                Board
+            </div>
+            {%- include card.html card="4h" class="card-lg" -%}
+            {%- include card.html card="5h" class="card-lg" -%}
+            {%- include card.html card="9c" class="card-lg" -%}
+            {%- include card.html card="Jh" class="card-lg" -%}
+        </div>
+    </div>
+</div>
+<p>
+    Here, the Favorite has the nut-flush and the Underdog is drawing to a 
+    {% include card.html card="6h" showImage=false %}.
+</p>
+<p>
+    There are 44 unknown cards and only 1 card will make the underdog a winner.
+    If the post were $44, then he'd have an EV of $1.
+</p>
+<p>
+    <i>So let's run it 44 times!</i>
+</p>
+<p>
+    To do this, we have to ignore burn cards and deal out all 44 River cards and
+    make forty-four $1 pots.
+</p>
+<p>
+    Since we already know the dog is drawing to a one-outer, we know exactly one
+    of those $1 pots will have his 
+    {% include card.html card="6h" showImage=false %}, netting him $1 and awarding the favorite
+    $43.
+</p>
+<h3>What about Multiple Outs?</h3>
+<p>
+    And the same is true for any number of outs with just the River to come. If
+    the dog is drawing to a flush against the favorite's top pair, we'd be looking
+    at 9 outs.
+</p>
+<div class="poker-felt">
+    <div class="poker-row">
+        <div class="poker-hand">
+            <div class="poker-hand-title">
+                Favorite
+            </div>
+            {%- include card.html card="As" class="card-lg" -%}
+            {%- include card.html card="Kc" class="card-lg" -%}
+        </div>
+        <div class="poker-hand">
+            <div class="poker-hand-title">
+                Underdog
+            </div>
+            {%- include card.html card="Jh" class="card-lg" -%}
+            {%- include card.html card="8h" class="card-lg" -%}
+        </div>
+    </div>
+    <div class="poker-row">
+        <div class="poker-hand">
+            <div class="poker-hand-title">
+                Board
+            </div>
+            {%- include card.html card="4h" class="card-lg" -%}
+            {%- include card.html card="5h" class="card-lg" -%}
+            {%- include card.html card="Ac" class="card-lg" -%}
+            {%- include card.html card="Ts" class="card-lg" -%}
+        </div>
+    </div>
+    <div class="poker-row">
+        <div class="poker-hand">
+            <div class="poker-hand-title">
+                Win
+            </div>
+            {%- include card.html card="Ah" showImage=false -%}
+            {%- include card.html card="Kh" showImage=false -%}
+            {%- include card.html card="Qh" showImage=false -%}
+            {%- include card.html card="Th" showImage=false -%}
+            {%- include card.html card="9h" showImage=false -%}
+            {%- include card.html card="7h" showImage=false -%}
+            {%- include card.html card="6h" showImage=false -%}
+            {%- include card.html card="3h" showImage=false -%}
+            {%- include card.html card="2h" showImage=false -%}
+        </div>
+        <div class="poker-hand">
+            <div class="poker-hand-title">
+                Lose
+            </div>
+            {%- include card.html card="Ks" showImage=false -%}
+            {%- include card.html card="Qs" showImage=false -%}
+            {%- include card.html card="Js" showImage=false -%}
+            {%- include card.html card="9s" showImage=false -%}
+            {%- include card.html card="8s" showImage=false -%}
+            {%- include card.html card="7s" showImage=false -%}
+            {%- include card.html card="6s" showImage=false -%}
+            {%- include card.html card="5s" showImage=false -%}
+            {%- include card.html card="4s" showImage=false -%}
+            {%- include card.html card="3s" showImage=false -%}
+            {%- include card.html card="2s" showImage=false -%}<br/>
+            {%- include card.html card="Ad" showImage=false -%}
+            {%- include card.html card="Kd" showImage=false -%}
+            {%- include card.html card="Qd" showImage=false -%}
+            {%- include card.html card="Jd" showImage=false -%}
+            {%- include card.html card="Td" showImage=false -%}
+            {%- include card.html card="9d" showImage=false -%}
+            {%- include card.html card="8d" showImage=false -%}
+            {%- include card.html card="7d" showImage=false -%}
+            {%- include card.html card="6d" showImage=false -%}
+            {%- include card.html card="5d" showImage=false -%}
+            {%- include card.html card="4d" showImage=false -%}
+            {%- include card.html card="3d" showImage=false -%}
+            {%- include card.html card="2d" showImage=false -%}<br/>
+            {%- include card.html card="Qc" showImage=false -%}
+            {%- include card.html card="Jc" showImage=false -%}
+            {%- include card.html card="Tc" showImage=false -%}
+            {%- include card.html card="9c" showImage=false -%}
+            {%- include card.html card="8c" showImage=false -%}
+            {%- include card.html card="7c" showImage=false -%}
+            {%- include card.html card="6c" showImage=false -%}
+            {%- include card.html card="5c" showImage=false -%}
+            {%- include card.html card="4c" showImage=false -%}
+            {%- include card.html card="3c" showImage=false -%}
+            {%- include card.html card="2c" showImage=false -%}
+        </div>
+    </div>
+</div>
+<p>
+    In our $44 pot situation, his EV would be $9, and if we ran it 44 times,
+    he'd get back exactly that.
+</p>
+<p>
+    It's pretty easy to see that if you run it 44 times, exhausting all undealt cards, then
+    your number of outs will be exactly the number of mini-pots that you will win. So 2 outs
+    means that you'll get 2/44 of the pot. 3 outs means 3/44. And if your opponent is drawing
+    dead, then you'll win all 44 pots -- But more importantly, why the hell would you waste the
+    dealer's time if he's drawing dead?
+</p>
+<p>
+    The more times you "run it", the more your actual results will converge toward the expected
+    value. In our extreme examples of running it 44 times, the actual result is <i>EXACTLY</i>
+    your expected result and variance has been cut down to <i>ZERO</i>.
+</p>
+
+<h3>Running it 2 or 3 Times</h3>
+<p>
+    What if we live in the real world and we can't practically run it 44 times? Well, I guess
+    it's time to break out some formulas.
+</p>
+<h3>Running it Twice with a 1-Outer on the River</h3>
+<p>
+    It might seem silly for a person with a 1-outer to run it twice, because there's <i>zero</i>
+    chance he'll win both pots. In actuality, there's no net change to his EV and he might just
+    be trying to increase his odds of getting <i>any</i> kind of cash back on his near hopeless
+    situation. Chopping a pot can seem like a very favorable outcome when you need to hit your
+    {%- include glossary-term.html term="case card" -%}.
+</p>
+<p>
+    By running it twice, you're doubling your chances of getting money back, but the amount you
+    receive will be halved.
+</p>
+<div class="infobox-info">
+    One funny observation about running it twice with a one-outer is that if you end up getting
+    what you want and you win one of the two hands, there's a 50% chance you'll be upset
+    because you would have taken the whole pot on the first River if you just ran it once.
+</div>
+<p>
+    The EV for running a 1-outer twice is still pretty easy:
+</p>
+<p class="p-center">
+    \begin{align}
+    EV_{1{\text -}outer} & = { { P_{W1} \times P_{L2} } \over 2 } + { { P_{L1} \times P_{W2} } \over 2 } \\
+    \\
+    & = { { {1 \over 44 } \times {43 \over 43} } \over 2 } + { { {43 \over 44 } \times {1 \over 43} } \over 2 } \\
+    \\
+    & = { 2 \times {43 \over { 44 \times 43 } } \over 2 } \\
+    \\
+    & = {43 \over { 44 \times 43 } } \\
+    \\
+    & = {1 \over 44 } \\
+    \end{align}
+</p>
+<p>
+    Where \(P_{W1}\) is the probability of winning the first pot, \(P_{W2}\) is the probability of winning the
+    second pot, \(P_{L1}\) is the probability of losing the first pot, and \(P_{L2}\) is the probability of
+    losing the second pot.
+</p>
+<p>
+    And this is exactly the EV we saw when running it 44 times.
+</p>
+<h3>Running it Twice with a 2-Outer on the River</h3>
+<p>
+    This example is less trivial, and the formula is a little more complex. Here's how we calculate the
+    EV of running it twice with a 2-outer (assuming runner-runner won't help us):
+</p>
+<p class="p-center">
+    \begin{align}
+    EV_{2{\text -}outer} & = { { P_{W1} \times P_{L2} } \over 2 } + { { P_{L1} \times P_{W2} } \over 2 } + { P_{W1} \times P_{W2} }\\
+    \\
+    & = { { {2 \over 44 } \times {42 \over 43} } \over 2 } + { { {42 \over 44} \times {2 \over 43} } \over 2 } + { {2 \over 44 } \times {1 \over 43} }\\
+    \\
+    & = { { { { 2 \times 41 } \over { 44 \times 43 } } } \over 2 } + { { { { 42 \times 2 } \over { 44 \times 43} } } \over 2 } + {2 \over { 44 \times 43 } }\\
+    \\
+    & = { { 2 \times { { 2 \times 42 } \over { 44 \times 43 } } } \over 2 } + {2 \over { 44 \times 43 } } \\
+    \\
+    & = { {2 \times 42 } \over { 44 \times 43 } } + {2 \over { 44 \times 43 } } \\
+    \\
+    & = {86 \over { 44 \times 43 } } \\
+    \\
+    & = { { 2 \times 43 } \over { 44 \times 43 } } \\
+    \\
+    & = {2 \over 44} \\
+    \end{align}
+</p>
+<p>
+    And this is exactly the EV we saw when running it 44 times.
+</p>
+
+<h3>Running it n-Times with a z-Outer on the River</h3>
+<p>
+    Here's the general formula for calculating the EV of a z-outer with one card to come:
+</p>
+<p class="p-center">
+    \( \displaystyle \sum_{i=1}^n { { i \over n } {n \choose i} } { { {}_z \mathrm{ P }_i \times {}_{(44-z)} \mathrm{ P }_{(n-i)} } \over {}_{44} \mathrm{ P }_n }  \)
+</p>
+<p>
+    Where n is the number of times you want to run the river (\(0 < n \le 44\)) and z is the number
+    of outs (\(0 \le z \le 44\)). Here the "P"s are the operator for calculating Permutations, not
+    determining probabilities.
+</p>
+<p>
+    Breaking down this formula we can see that we are 
+</p>
+
+<table>
+    <tr>
+        <td>
+            \( \displaystyle \sum_{i=1}^n \)
+        </td>
+        <td>
+            Adding up each of the expected values of winning i number of pots from 1 to n.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            \( i \over n \)
+        </td>
+        <td>
+            Multiplied by the share of the pot you would win
+        </td>
+    </tr>
+    <tr>
+        <td>
+            \( {n \choose i} \)
+        </td>
+        <td>
+            Multiplied by combination of ways you could win that many pots
+        </td>
+    </tr>
+    <tr>
+        <td>
+            \( {}_z \mathrm{ P }_i \times {}_{(44-z)} \mathrm{ P }_{(n-i)} \)
+        </td>
+        <td>
+            Multiplied by number of ways you win i pots and lose n-i pots
+        </td>
+    </tr>
+    <tr>
+        <td>
+            \( {}_{44} \mathrm{ P }_n \)
+        </td>
+        <td>
+            Divided by the number of ways the n cards could be dealt
+        </td>
+    </tr>
+</table>
+
+<p>
+    This even works for scenarios where you are able to eliminate dead cards and there are fewer than 44
+    unknown cards.
+</p>
+<p class="p-center">
+    \( \displaystyle \sum_{i=1}^n { { i \over n } {n \choose i} } { { {}_z \mathrm{ P }_i \times {}_{(y-z)} \mathrm{ P }_{(n-i)} } \over {}_y \mathrm{ P }_n }  \)
+</p>
+<p>
+    Where n is the number of times you want to run the river (\(0 < n \le y\)) and z is the number
+    of outs (\(0 \le z \le y\)) and y is the number of undealt cards (\(z \le y \le 44\)).
+</p>
+<p>
+    So plugging this into WolframAlpha, you can see that this sum always adds up to \( z \over 44 \)
+    for all values of n.
+</p>
+<pre>
+    Sum[(k/n)*C(n, k)*[ (P(z, k) * P(44-z, n-k))/P(44, n) ],{k,1,n}]
+</pre>
