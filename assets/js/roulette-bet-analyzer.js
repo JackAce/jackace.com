@@ -16,6 +16,10 @@ function clearAll() {
     updateUi();
 }
 
+function dismissWarning(id) {
+    $(id).attr('class', 'hiddenRow');
+}
+
 function addEventHandlers() {
     $(document).on('change', 'input', updateUi);
 }
