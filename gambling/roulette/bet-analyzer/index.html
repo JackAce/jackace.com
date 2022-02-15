@@ -122,17 +122,20 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
     </tr>
     <tr id="warningBasketBetRow" class="hiddenRow">
       <td class="cell-blank" />
-      <td class="cell-blank" colspan="26">
+      <td colspan="26">
         <div id="warningBasketBetDiv" class="warningDiv">
           WARNING: NEVER BET THE 5-NUMBER BET!
         </div>
-        <br/>
+        <div class="warningCopy">
+          <br/>
+          <a href="javascript:dismissWarning('#warningBasketBetRow');" id="clearWarning5NumberLink" class="clear-all-link">Dismiss</a>
+          <br/><br/>
+        </div>
       </td>
     </tr>
     <tr id="warning36NumbersBetRow" class="hiddenRow">
       <td class="cell-blank" />
-      <td class="testClass" colspan="26">
-
+      <td colspan="26">
         <div id="warning36NumbersBetDiv" class="warningDiv">
           WARNING: NEVER BET ON MORE THAN 35 NUMBERS
         </div>
@@ -164,8 +167,12 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
             <span class="numberToKeep38"></span>.
           </div>
         </div>
-        <br/>
-        <br/>
+        <div>
+          <br/><br/>
+          <a href="javascript:dismissWarning('#warning36NumbersBetRow');" id="clearWarning36Numbers" class="clear-all-link">Dismiss</a>
+          <br/>
+          <br/>
+        </div>
       </td>
     </tr>
     <tr>

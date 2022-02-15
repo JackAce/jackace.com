@@ -1,0 +1,39 @@
+
+{%- assign rank = include.card | slice: 0, 1 -%}
+{%- assign suit = include.card | slice: 1, 1 -%}
+{%- assign class = include.class | default: "card-md" -%}
+{%- assign showImage = include.showImage -%}
+{%- assign showSuitLetter = include.showSuitLetter -%}
+{%- assign ornateAs = "" -%}
+
+{%- if showImage == null -%}
+    {%- assign showImage = true -%}
+{%- endif -%}
+{%- if showSuitLetter == null -%}
+    {%- assign showSuitLetter = false -%}
+{%- endif -%}
+{%- if include.card == "As" -%}
+    {%- assign ornateAs = "-Ornate" -%}
+{%- endif -%}
+
+{%- assign suitSymbol = "♠" -%}
+
+{%- assign color = "black" -%}
+
+{%- if showSuitLetter -%}
+    {%- assign suitSymbol = suit -%}
+{%- else -%}
+    {%- if suit == "h" -%}
+        {%- assign suitSymbol = "♥" -%}
+    {%- elsif suit == "d" -%}
+        {%- assign suitSymbol = "♦" -%}
+    {%- elsif suit == "c" -%}
+        {%- assign suitSymbol = "♣" -%}
+    {%- endif -%}
+{%- endif -%}
+
+{%- if showImage -%}
+    <img src="{{site.baseurl}}/assets/img/cards/{{- rank | upcase -}}{{- suit | downcase -}}{{- ornateAs -}}-250x350.png" class="{{- class -}}" />
+{%- else -%}
+    <span class="card card-suit-{{- suit -}}">{{- rank -}}{{- suitSymbol -}}</span>
+{%- endif -%}
