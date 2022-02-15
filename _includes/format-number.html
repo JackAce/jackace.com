@@ -29,4 +29,14 @@
     {%- assign formatOutput = formatOutput | append: "." -%}
     {%- assign formatOutput = formatOutput | append: decimalPart  -%}
 {%- endif -%}
+
+{%- if number < 0 -%}
+    {%- assign firstChar = formatOutput | slice: 0, 1  -%}
+
+    {%- if firstChar != "-" -%}
+        {%- assign formatOutput = formatOutput | prepend: "-"  -%}
+    {%- endif -%}
+
+{%- endif -%}
+
 {{- formatOutput -}}
