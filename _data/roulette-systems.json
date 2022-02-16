@@ -1,6 +1,5 @@
 [
   {
-<<<<<<< Updated upstream
     "name": "Tie Advanced",
     "airDate": "2022-02-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=yK78b2EE3VI",
@@ -167,8 +166,6 @@
     ]
   },
   {
-=======
->>>>>>> Stashed changes
     "name": "Diamond Cross",
     "airDate": "2022-02-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=yK78b2EE3VI",
@@ -3222,10 +3219,6 @@
        "result": -12,
        "notes": "Timmy just bet his remaining chips on 20 and lost"
       }
-<<<<<<< Updated upstream
     ]
-=======
-  ]
->>>>>>> Stashed changes
   }
 ]
