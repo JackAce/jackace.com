@@ -1,5 +1,90 @@
 [
   {
+    "name": "Lucky Sections",
+    "airDate": "2022-02-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=NkT2TZMgAmY",
+    "reviewUrl": "2022-02-18-Lucky-Sections",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      50
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "notes": "If your system requires you to stop the wheel to study sectors...it's not a good system.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "22",
+        "amountBet": 50,
+        "result": 0
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 50,
+        "result": -50
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 50,
+        "result": 0
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 50,
+        "result": 0
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 50,
+        "result": 0
+      },
+      {
+        "spin": 6,
+        "number": "10",
+        "amountBet": 50,
+        "result": 0
+      },
+      {
+        "spin": 7,
+        "number": "18",
+        "amountBet": 50,
+        "result": -50
+      },
+      {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 50,
+        "result": 22
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 50,
+        "result": 0,
+        "notes": "Lucky Lauren changed her 'sections' and bet on 4, 5, 6, 11, 16, 21, 22, 33, and 34 after hitting the 0."
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 50,
+        "result": 0
+      },
+      {
+        "spin": 11,
+        "number": "35",
+        "amountBet": 50,
+        "result": 0
+      }
+    ]
+  },
+  {
     "name": "Tie Advanced",
     "airDate": "2022-02-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=yK78b2EE3VI",
