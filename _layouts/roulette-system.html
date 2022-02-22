@@ -222,8 +222,10 @@ layout: page-no-sidebar
           </td>
           <td class="cell-center">
             {% include win-loss-amount.html amount=currentResult %}
-            {%- if betPlusResult == 0 -%}
-              <div class="amt-bad">WHACK</div>
+            {%- if currentBet > 0 -%}
+              {%- if betPlusResult == 0 -%}
+                <div class="amt-bad">WHACK</div>
+              {%- endif -%}
             {%- endif -%}
           </td>
           <td class="cell-center">
