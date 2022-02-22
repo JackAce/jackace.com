@@ -1,5 +1,119 @@
 [
   {
+    "name": "EZ MOJO",
+    "airDate": "2022-02-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Jqmh1HEHqko",
+    "reviewUrl": "2022-02-21-EZ-MOJO",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      150
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "Make a 'ghost' spin and pick the opposite color for the middle dozen. They spun black, so they chose red for the middle section and then alternate between red/black on every spin.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "22",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 2,
+        "number": "28",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 3,
+        "number": "28",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 150,
+        "result": -150
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 9,
+        "number": "24",
+        "amountBet": 150,
+        "result": -150
+      },
+      {
+        "spin": 10,
+        "number": "33",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 150,
+        "result": -150
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 13,
+        "number": "13",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 14,
+        "number": "13",
+        "amountBet": 150,
+        "result": -150
+      },
+      {
+        "spin": 15,
+        "number": "5",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 16,
+        "number": "36",
+        "amountBet": 150,
+        "result": 30
+      }
+    ]
+  },
+  {
     "name": "Self Assessment",
     "airDate": "2022-02-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=GpokzbCbfzo",
