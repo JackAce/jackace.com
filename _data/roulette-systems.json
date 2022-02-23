@@ -1,5 +1,162 @@
 [
   {
+    "name": "POOR MAN BIG DREAMS",
+    "airDate": "2022-02-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=PWsiza44ecU",
+    "reviewUrl": "2022-02-22-POOR-MAN-BIG-DREAMS",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 100,
+    "bets": [
+      50
+    ],
+    "friendCount": 2,
+    "rating": "d",
+    "jackaceRating": "c",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "22",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "8",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "29",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "26",
+        "amountBet": 50,
+        "result": 10,
+        "notes": "Alex shifted the double-street bets down to expose 1-6 for this spin."
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "4",
+        "amountBet": 50,
+        "result": -50,
+        "notes": "Alex kept the shift on, so the number 4 was exposed."
+      },
+      {
+        "friend": 1,
+        "spin": 6,
+        "number": "4",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 1,
+        "spin": 7,
+        "number": "8",
+        "amountBet": 50,
+        "result": -50,
+        "notes": "Alex went with betting scheme #2 with the straight-up, split, street, corner, and double-street bets for this spin."
+      },
+      {
+        "friend": 1,
+        "spin": 8,
+        "number": "34",
+        "amountBet": 50,
+        "result": -50
+      },
+      {
+        "friend": 2,
+        "spin": 9,
+        "number": "14",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "26",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "20",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "16",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 2,
+        "spin": 13,
+        "number": "4",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 2,
+        "spin": 14,
+        "number": "35",
+        "amountBet": 50,
+        "result": -50
+      },
+      {
+        "friend": 2,
+        "spin": 15,
+        "number": "26",
+        "amountBet": 50,
+        "result": -50,
+        "notes": "Alex deviates from the system and just starts betting with config #2 here. They also bought in for more a few times."
+      },
+      {
+        "friend": 2,
+        "spin": 16,
+        "number": "12",
+        "amountBet": 50,
+        "result": -50
+      },
+      {
+        "friend": 2,
+        "spin": 17,
+        "number": "30",
+        "amountBet": 50,
+        "result": 10,
+        "notes": "Alex hit a double-street here."
+      },
+      {
+        "friend": 2,
+        "spin": 18,
+        "number": "35",
+        "amountBet": 50,
+        "result": -50
+      },
+      {
+        "friend": 2,
+        "spin": 19,
+        "number": "30",
+        "amountBet": 60,
+        "result": -60
+      }
+    ]
+  },
+  {
     "name": "EZ MOJO",
     "airDate": "2022-02-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=Jqmh1HEHqko",
