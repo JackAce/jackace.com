@@ -1,0 +1,229 @@
+---
+layout: page-no-sidebar
+title: "Wordle Solver"
+tags: [wordle,puzzles,games]
+xexcerpt_image: "/assets/img/posts/2022-01-21/00-title-800x743.png"
+xsummary: "Just another Wordle game solver"
+
+---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/wordle-solver.js"></script>
+
+<h1>{{page.title}}</h1>
+
+<p>
+    <ul>
+        <li>
+            Submit one of the suggested words on WORDLE.
+        </li>
+        <li>
+            Click or fill in the word you used and click the letters until the color matches WORDLE's response.
+        </li>
+        <li>
+            Press ENTER to see the solver's suggestions for the next word.
+        </li>
+    </ul>
+</p>
+
+<div class="wordle">
+
+    <div class="full-layout">
+
+        <div class="layout">
+
+            <div class="layout-row">
+                <div class="letter-input guess-disabled" id="layout-letter-0-0" onclick="toggleLetterState(0);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-0-1" onclick="toggleLetterState(1);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-0-2" onclick="toggleLetterState(2);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-0-3" onclick="toggleLetterState(3);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-0-4" onclick="toggleLetterState(4);">
+                </div>
+            </div>
+            <div class="layout-row">
+                <div class="letter-input guess-disabled" id="layout-letter-1-0" onclick="toggleLetterState(0);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-1-1" onclick="toggleLetterState(1);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-1-2" onclick="toggleLetterState(2);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-1-3" onclick="toggleLetterState(3);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-1-4" onclick="toggleLetterState(4);">
+                </div>
+            </div>
+            <div class="layout-row">
+                <div class="letter-input guess-disabled" id="layout-letter-2-0" onclick="toggleLetterState(0);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-2-1" onclick="toggleLetterState(1);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-2-2" onclick="toggleLetterState(2);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-2-3" onclick="toggleLetterState(3);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-2-4" onclick="toggleLetterState(4);">
+                </div>
+            </div>
+            <div class="layout-row">
+                <div class="letter-input guess-disabled" id="layout-letter-3-0" onclick="toggleLetterState(0);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-3-1" onclick="toggleLetterState(1);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-3-2" onclick="toggleLetterState(2);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-3-3" onclick="toggleLetterState(3);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-3-4" onclick="toggleLetterState(4);">
+                </div>
+            </div>
+            <div class="layout-row">
+                <div class="letter-input guess-disabled" id="layout-letter-4-0" onclick="toggleLetterState(0);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-4-1" onclick="toggleLetterState(1);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-4-2" onclick="toggleLetterState(2);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-4-3" onclick="toggleLetterState(3);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-4-4" onclick="toggleLetterState(4);">
+                </div>
+            </div>
+            <div class="layout-row">
+                <div class="letter-input guess-disabled" id="layout-letter-5-0" onclick="toggleLetterState(0);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-5-1" onclick="toggleLetterState(1);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-5-2" onclick="toggleLetterState(2);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-5-3" onclick="toggleLetterState(3);">
+                </div>
+                <div class="letter-input guess-disabled" id="layout-letter-5-4" onclick="toggleLetterState(4);">
+                </div>
+            </div>
+
+            <div class="spacer">
+            </div>
+        
+            <div class="keyboard">
+                <div class="keyboard-row">
+                    <div class="keyboard-letter" id="keyboard-letter-q" onclick="processLetter('Q')">
+                        Q
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-w" onclick="processLetter('W')">
+                        W
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-e" onclick="processLetter('E')">
+                        E
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-r" onclick="processLetter('R')">
+                        R
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-t" onclick="processLetter('T')">
+                        T
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-y" onclick="processLetter('Y')">
+                        Y
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-u" onclick="processLetter('U')">
+                        U
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-i" onclick="processLetter('I')">
+                        I
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-o" onclick="processLetter('O')">
+                        O
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-p" onclick="processLetter('P')">
+                        P
+                    </div>
+                </div>
+                <div class="keyboard-row">
+                    <div class="keyboard-letter" id="keyboard-letter-a" onclick="processLetter('A')">
+                        A
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-s" onclick="processLetter('S')">
+                        S
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-d" onclick="processLetter('D')">
+                        D
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-f" onclick="processLetter('F')">
+                        F
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-g" onclick="processLetter('G')">
+                        G
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-h" onclick="processLetter('H')">
+                        H
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-j" onclick="processLetter('J')">
+                        J
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-k" onclick="processLetter('K')">
+                        K
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-l" onclick="processLetter('L')">
+                        L
+                    </div>
+                </div>
+                <div class="keyboard-row">
+                    <div class="keyboard-button" onclick="processEnter()">
+                        ENTER
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-z" onclick="processLetter('Z')">
+                        Z
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-x" onclick="processLetter('X')">
+                        X
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-c" onclick="processLetter('C')">
+                        C
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-v" onclick="processLetter('V')">
+                        V
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-b" onclick="processLetter('B')">
+                        B
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-n" onclick="processLetter('N')">
+                        N
+                    </div>
+                    <div class="keyboard-letter" id="keyboard-letter-m" onclick="processLetter('M')">
+                        M
+                    </div>
+                    <div class="keyboard-button" onclick="processDelete()">
+                        <svg class="keyboard-backspace" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" ><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path fill="#fff" d="M576 384C576 419.3 547.3 448 512 448H205.3C188.3 448 172 441.3 160 429.3L9.372 278.6C3.371 272.6 0 264.5 0 256C0 247.5 3.372 239.4 9.372 233.4L160 82.75C172 70.74 188.3 64 205.3 64H512C547.3 64 576 92.65 576 128V384zM271 208.1L318.1 256L271 303C261.7 312.4 261.7 327.6 271 336.1C280.4 346.3 295.6 346.3 304.1 336.1L352 289.9L399 336.1C408.4 346.3 423.6 346.3 432.1 336.1C442.3 327.6 442.3 312.4 432.1 303L385.9 256L432.1 208.1C442.3 199.6 442.3 184.4 432.1 175C423.6 165.7 408.4 165.7 399 175L352 222.1L304.1 175C295.6 165.7 280.4 165.7 271 175C261.7 184.4 261.7 199.6 271 208.1V208.1z"/></svg>
+                    </div>
+                </div>
+                <div class="keyboard-row">
+                    <div class="keyboard-button" id="keyboard-reset" onclick="reset()">
+                        RESET
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="copy">
+            <div id="instructions-div" class="copy">
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3>
+    Tips:
+</h3>
+<p>
+    <ul>
+        <li>
+            Press [Escape] to start a new solver.
+        </li>
+        <li>
+            Use your keyboard or click on the letters below the game board.
+        </li>
+    </ul>
+</p>
