@@ -189,7 +189,6 @@ div.infobox-error {
     margin: 2px;
     padding: 3px;
     border-radius: 4px;
-
 }
 .card-suit-s {
     color: #333;
@@ -329,6 +328,159 @@ div.infobox-error {
 
 .airDate {
     font-size: 12px;
+}
+
+.wordle {
+    background-color: #000;
+    .full-layout {
+        display: flex;
+        justify-content: center;
+    }
+    .copy {
+        width: 300px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    #instructions-div {
+        font-size: 24px;
+    }
+    .layout {
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .layout-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        text-align: center;
+        padding: 2px;
+        margin: 0 auto;
+    }
+    .letter-input {
+        background-color: #333;
+        font-size: 40px;
+        font-weight: bold;
+        color: #fff;
+        width: 60px;
+        height: 60px;
+        margin: 4px;
+    }
+    .guess-letter {
+        float: left;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        min-width: 30px;
+        min-height: 30px;
+        line-height: 30px;
+        margin: 2px;
+        padding: 2px;
+        border-radius: 3px;
+        border: 1px #333 solid;
+        text-align: center;
+        font-weight: bold;
+    }
+    .guess-official {
+        border: 1px #fff solid;
+    }
+    .guess-whiff {
+        background-color: #333;
+    }
+    .guess-hit {
+        background-color: #558c51;
+    }
+    .guess-near-miss {
+        background-color: #b49e43;
+    }
+    .guess-disabled {
+        background-color: #000;
+        border: 2px #333 solid;
+        margin: 2px;
+    }
+    .keyboard {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        width: 400px;
+        justify-content: center;
+        flex-flow: column;
+    }
+    .keyboard-row {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        text-align: center;
+        padding: 1px;
+        margin: 0 auto;
+    }
+    .keyboard-letter {
+        align-items: center;
+        background-color: #818384;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        width: 25px;
+        height: 30px;
+        line-height: 30px;
+        padding: 2px;
+        margin: 2px;
+        border-radius: 3px;
+        font-weight: bold;
+    }
+    .keyboard-button {
+        align-items: center;
+        background-color: #818384;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        width: 50px;
+        min-width: 50px;
+        height: 30px;
+        line-height: 30px;
+        padding: 2px;
+        margin: 2px;
+        border-radius: 3px;
+        font-weight: bold;
+    }
+    .keyboard-backspace {
+        width: 20px;
+        padding-top: 5px;
+    }
+    .keyboard-2 {
+        background-color: #558c51;
+    }
+    .keyboard-1 {
+        background-color: #b49e43;
+    }
+    .keyboard-0 {
+        background-color: #333;
+    }
+    .spacer {
+        height: 40px;
+    }
+    .set-word-link {
+        color: #cc0;
+    }
+    a.set-word-link {
+        color: #cc0;
+        text-decoration: none;
+    }
+    a.set-word-link:hover {
+        text-decoration: underline;
+    }
+    .set-word-link-official {
+        color: #ff0;
+        font-weight: bold;
+    }
+    a.set-word-link-official {
+        color: #ff0;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a.set-word-link-official:hover {
+        text-decoration: underline;
+    }
 }
 
 // Used for roulette bet analyzer (TODO: Move to separate CSS file)
