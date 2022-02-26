@@ -18,5 +18,9 @@
     url: /gambling/roulette/bet-analyzer/
   - title: Systems
     url: /gambling/roulette/systems/
+# - title: Other
+#   sublinks:
+#     - title: Wordle Solver
+#       url: /games/wordle/solver/
 - title: About
   url: /about/

@@ -1,5 +1,106 @@
 [
   {
+    "name": "Champion's Corner",
+    "airDate": "2022-02-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=VWsTVXND7nk",
+    "reviewUrl": "2022-02-25-Champions-Corner",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      450
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 450,
+        "result": 300
+      },
+      {
+        "spin": 3,
+        "number": "4",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 4,
+        "number": "16",
+        "amountBet": 450,
+        "result": -150
+      },
+      {
+        "spin": 5,
+        "number": "5",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 6,
+        "number": "33",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 7,
+        "number": "18",
+        "amountBet": 450,
+        "result": -150
+      },
+      {
+        "spin": 8,
+        "number": "14",
+        "amountBet": 450,
+        "result": -150
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 450,
+        "result": -150
+      },
+      {
+        "spin": 11,
+        "number": "4",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 12,
+        "number": "1",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 13,
+        "number": "33",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 14,
+        "number": "23",
+        "amountBet": 450,
+        "result": 300
+      }
+    ]
+  },
+  {
     "name": "POOR MAN BIG DREAMS",
     "airDate": "2022-02-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=PWsiza44ecU",

@@ -317,3 +317,5 @@ function formatDecimal(value) {
 
     return returnValue;
 }
+
+// ]]>
