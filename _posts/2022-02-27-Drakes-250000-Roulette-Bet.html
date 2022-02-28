@@ -351,7 +351,7 @@ math: true
         What the payouts would be for every number
     </figcaption>
 </figure>
-<h2>Jackpot Hits</h2>
+<h3>Jackpot Hits</h3>
 <p>
     The major jackpot number is 
     {% include roulette-spot.html number="11" -%}, which pays
@@ -362,7 +362,7 @@ math: true
     {% include roulette-spot.html number="23" -%}, which pays
     {% include win-loss-amount.html amount=342600 -%}.
 </p>
-<h2>Whacks</h2>
+<h3>Whacks</h3>
 <p>
     There are 10 major <span class="amt-bad">WHACKS</span>, which are the 
     {% include roulette-spot.html number="0" -%},
@@ -380,12 +380,15 @@ math: true
 <p>
     There's also a mini-whack on 
     {% include roulette-spot.html number="6" -%}, which loses
-    {% include win-loss-amount.html amount=-210000 -%}.
+    {% include win-loss-amount.html amount=-210000 -%}, but that's probably only because
+    we can't see whether he bet $2000 on it (he most likely did). Betting $2k on the 
+    {% include roulette-spot.html number="6" %} would shave $70k off that amount (but would
+    reduce the payoffs of all the other numbers).
 </p>
 
 <h2>Drake Gonna Drake</h2>
 <p>
-    Drake's a grown-ass man. Don't hate him because he is betting more money than you
+    Drake's a grown-ass man. Don't hate him because he's betting more money than you
     make over several years. I have no problem with a wealthy person making bets that
     are more than 5 times the average household income, so long as he's playing well
     within his means.
