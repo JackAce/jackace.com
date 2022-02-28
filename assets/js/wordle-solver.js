@@ -338,13 +338,14 @@
 
     clearCopy();
 
-    // TODO: pick the top 5-10 initial words to use
-    addWordGuess('adieu', true);
-    addWordGuess('aloud', true);
+    // Hard coded list to save an ajax call
+    addWordGuess('aisle', true);
+    addWordGuess('arose', true);
     addWordGuess('bayou', true);
+    addWordGuess('opera', true);
     addWordGuess('raise', true);
-    addWordGuess('storm', true);
     addWordGuess('trace', true);
+    addWordGuess('adieu', false);
   }
   
   // ==================================================
@@ -364,30 +365,12 @@
 
     for (var i = 0; i < wordToAdd.length; i++) {
       var letter = wordToAdd[i].toUpperCase();
-      //var letterCode = wordToAdd.charCodeAt(i);
-      //var status = -1;
-      
-      // if (letterStatuses) {
-      //   status = letterStatuses[letterCode - ASCII_CODE_A];
-      // }
 
       var cssClass = "guess-letter ";
 
       if (isOfficial) {
         cssClass += "guess-official ";
       }
-
-      // // Toggle the tile if the letter is a near miss
-      // let letterIsMiss = letterIsNearMissForPosition(letter, currentLetterIndex);
-      // if (letterIsMiss) {
-      //   setLetterState(currentLetterIndex, LETTER_STATE_NEAR_MISS);
-      // }
-
-      // // Toggle the tile if the letter is a hit
-      // let letterIsHit = letterIsHitForPosition(letter, currentLetterIndex);
-      // if (letterIsHit) {
-      //   setLetterState(currentLetterIndex, LETTER_STATE_HIT);
-      // }
 
       let letterIsMiss = letterIsNearMissForPosition(letter, i, true);
       let letterIsHit = letterIsHitForPosition(letter, i, true);
@@ -399,16 +382,6 @@
       if (letterIsHit) {
           cssClass += CSSCLASS_LETTER_STATE_HIT;
       }
-
-      // if (status === LETTER_STATE_WHIFF) {
-      //   var cssClass = "guess-letter " + CSSCLASS_LETTER_STATE_WHIFF;
-      // }
-      // if (status === LETTER_STATE_NEAR_MISS) {
-      //   var cssClass = "guess-letter " + CSSCLASS_LETTER_STATE_NEAR_MISS;
-      // }
-      // if (status === LETTER_STATE_HIT) {
-      //   var cssClass = "guess-letter " + CSSCLASS_LETTER_STATE_HIT;
-      // }
 
       currentHtml += '<span class="' + cssClass + '">';
       currentHtml += letter;
