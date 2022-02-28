@@ -222,9 +222,9 @@
     var request = buildRequest();
 
     $.ajax({
-      //url: "https://jackace-wordle-solver.herokuapp.com/wordle",
-      url: "http://localhost:3000/wordle",
+      url: "https://jackace-wordle-solver.herokuapp.com/wordle",
       //url: "http://18.212.115.147:3000/wordle",
+      //url: "http://localhost:3000/wordle",
       type: "POST",
       data: JSON.stringify(request),
       dataType: "json",
