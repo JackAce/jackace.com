@@ -43,7 +43,7 @@
     "term": "EV",
     "categories": ["general gambling"],
     "summary": "expected value",
-    "definition": "A predicted value of a variable, calculated as the sum of all possible values each multiplied by the probability of its occurrence."
+    "definition": "The predicted value of a unknown outcome, calculated as the sum of all possible values each multiplied by the probability of its occurrence."
   },
   {
     "term": "Martingale",
