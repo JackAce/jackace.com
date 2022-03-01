@@ -332,6 +332,19 @@ div.infobox-error {
 
 .wordle {
     background-color: #000;
+    .hidden {
+        display: none;
+    }
+    .message {
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #f00;
+    }
+    .message-error {
+        color: #f00;
+    }
     .full-layout {
         display: flex;
         justify-content: center;
