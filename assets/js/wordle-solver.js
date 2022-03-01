@@ -86,6 +86,16 @@
   }
 
   // ==================================================
+  // Reset current word
+
+  function resetCurrentWord() {
+    let timesToBackspace = currentLetterIndex;
+    for (let i = 0; i < timesToBackspace; i++) {
+      processDelete();
+    }
+  }
+
+  // ==================================================
   // Cycles through the 3 letter states
   // WHIFF -> NEAR MISS -> HIT -> WHIFF
 
@@ -141,7 +151,6 @@
 
         var id = getInputId(i, j);
         var letterInPosition = $(id).text();
-        //console.log('letterInPosition [' + letterInPosition + ']');
         if (letterInPosition === letter) {
           const letterState = getInputState(i, j);
 
@@ -211,6 +220,7 @@
   // Validates and submits word(s)
 
   function processEnter() {
+    dismissError();
     if (currentWord === MAX_GUESSES) {
       return;
     }
@@ -222,9 +232,9 @@
     var request = buildRequest();
 
     $.ajax({
-      //url: "https://jackace-wordle-solver.herokuapp.com/wordle",
-      url: "http://localhost:3000/wordle",
+      url: "https://jackace-wordle-solver.herokuapp.com/wordle",
       //url: "http://18.212.115.147:3000/wordle",
+      //url: "http://localhost:3000/wordle",
       type: "POST",
       data: JSON.stringify(request),
       dataType: "json",
@@ -237,11 +247,9 @@
       success: function(dataX) {
         clearCopy();
         for (var i = 0; i < dataX.suggestionsOfficial.length; i++) {
-          //addWordGuess(dataX.suggestionsOfficial[i].word, true, dataX.letterStatuses);
           addWordGuess(dataX.suggestionsOfficial[i].word, true);
         }
         for (var i = 0; i < dataX.suggestionsAllowed.length; i++) {
-          //addWordGuess(dataX.suggestionsAllowed[i].word, false, dataX.letterStatuses);
           addWordGuess(dataX.suggestionsAllowed[i].word, false);
         }
   
@@ -249,6 +257,10 @@
         currentLetterIndex = 0;
         activateWord(currentWord);
         setLetterStatuses(dataX.letterStatuses);
+      },
+      error: function(err) {
+        displayError('There was an error with your request.');
+        console.log(err);
       }
     });
   }
@@ -306,7 +318,7 @@
   // Sets the current word
 
   function setWord(word) {
-    currentLetterIndex = 0;
+    resetCurrentWord();
     for (var i = 0; i < word.length; i++) {
       processLetter(word[i].toUpperCase());
     }
@@ -316,9 +328,26 @@
   }
 
   // ==================================================
+  // Dismiss error
+
+  function displayError(message) {
+    $('#message-div').text(message);
+    $('#message-div').attr('class', 'message message-error');
+  }
+
+  // ==================================================
+  // Dismiss error
+
+  function dismissError() {
+    $('#message-div').text('');
+    $('#message-div').attr('class', 'hidden');
+  }
+
+  // ==================================================
   // Start over
 
   function reset() {
+    dismissError();
     for (var i = 0; i < 26; i++) {
       var id = getLetterId(i);
       $(id).attr('class', 'keyboard-letter');
@@ -338,13 +367,14 @@
 
     clearCopy();
 
-    // TODO: pick the top 5-10 initial words to use
-    addWordGuess('adieu', true);
-    addWordGuess('aloud', true);
+    // Hard coded list to save an ajax call
+    addWordGuess('aisle', true);
+    addWordGuess('arose', true);
     addWordGuess('bayou', true);
+    addWordGuess('opera', true);
     addWordGuess('raise', true);
-    addWordGuess('storm', true);
     addWordGuess('trace', true);
+    addWordGuess('adieu', false);
   }
   
   // ==================================================
@@ -364,30 +394,12 @@
 
     for (var i = 0; i < wordToAdd.length; i++) {
       var letter = wordToAdd[i].toUpperCase();
-      //var letterCode = wordToAdd.charCodeAt(i);
-      //var status = -1;
-      
-      // if (letterStatuses) {
-      //   status = letterStatuses[letterCode - ASCII_CODE_A];
-      // }
 
       var cssClass = "guess-letter ";
 
       if (isOfficial) {
         cssClass += "guess-official ";
       }
-
-      // // Toggle the tile if the letter is a near miss
-      // let letterIsMiss = letterIsNearMissForPosition(letter, currentLetterIndex);
-      // if (letterIsMiss) {
-      //   setLetterState(currentLetterIndex, LETTER_STATE_NEAR_MISS);
-      // }
-
-      // // Toggle the tile if the letter is a hit
-      // let letterIsHit = letterIsHitForPosition(letter, currentLetterIndex);
-      // if (letterIsHit) {
-      //   setLetterState(currentLetterIndex, LETTER_STATE_HIT);
-      // }
 
       let letterIsMiss = letterIsNearMissForPosition(letter, i, true);
       let letterIsHit = letterIsHitForPosition(letter, i, true);
@@ -399,16 +411,6 @@
       if (letterIsHit) {
           cssClass += CSSCLASS_LETTER_STATE_HIT;
       }
-
-      // if (status === LETTER_STATE_WHIFF) {
-      //   var cssClass = "guess-letter " + CSSCLASS_LETTER_STATE_WHIFF;
-      // }
-      // if (status === LETTER_STATE_NEAR_MISS) {
-      //   var cssClass = "guess-letter " + CSSCLASS_LETTER_STATE_NEAR_MISS;
-      // }
-      // if (status === LETTER_STATE_HIT) {
-      //   var cssClass = "guess-letter " + CSSCLASS_LETTER_STATE_HIT;
-      // }
 
       currentHtml += '<span class="' + cssClass + '">';
       currentHtml += letter;
