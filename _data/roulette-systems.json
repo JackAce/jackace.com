@@ -1,5 +1,117 @@
 [
   {
+    "name": "Lever Up",
+    "airDate": "2022-03-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=59yQCogxCMM",
+    "reviewUrl": "2022-03-01-Lever-Up",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      50,
+      100
+    ],
+    "rating": "b",
+    "jackaceRating": "f",
+    "notes": "You're supposed to bet on a 'sector' of the wheel and Martingale (double-up) after 3 losses. They lost count two times and flat bet when they should have doubled down.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "3",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 3,
+        "number": "21",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 4,
+        "number": "7",
+        "amountBet": 50,  
+        "result": 130,
+        "notes": "Lauren was supposed to double up for this spin, but she didn't. They should have won $260 here."
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 6,
+        "number": "00",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 8,
+        "number": "20",
+        "amountBet": 50,  
+        "result": 130,
+        "notes": "Lauren was supposed to double up for this spin, but she didn't. They should have won $260 here."
+      },
+      {
+        "spin": 9,
+        "number": "14",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 10,
+        "number": "20",
+        "amountBet": 50,  
+        "result": 130
+      },
+      {
+        "spin": 11,
+        "number": "13",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 12,
+        "number": "14",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 13,
+        "number": "9",
+        "amountBet": 50,  
+        "result": 130
+      },
+      {
+        "spin": 14,
+        "number": "19",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 15,
+        "number": "9",
+        "amountBet": 50,  
+        "result": 130
+      }
+    ]
+  },
+  {
     "name": "Pendulum",
     "airDate": "2022-02-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=mSieyHMou1Y",
