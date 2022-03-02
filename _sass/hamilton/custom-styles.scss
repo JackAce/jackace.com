@@ -17,13 +17,20 @@ td {
 b, i {
     color: #aaedf8;
 }
-figcaption {
-    margin-top: 2px;
-    color: #666;
-    font-style: italic;
-    .roulette-spot {
-        width: 28px;
-        height: 18px;
+figure {
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    figcaption {
+        margin-top: 2px;
+        color: #666;
+        font-style: italic;
+        text-align: center;
+        .roulette-spot {
+            width: 28px;
+            height: 18px;
+        }
     }
 }
 blockquote {
