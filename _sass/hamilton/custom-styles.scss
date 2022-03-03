@@ -337,6 +337,37 @@ div.infobox-error {
     font-size: 12px;
 }
 
+.blackjack-strategy {
+    .strategy-table {
+        width: 60%;
+    }
+    .hand-total {
+        width: 130px;
+        padding: 3px;
+    }
+    .strategy-table>td {
+        width: 34px;
+        height: 24px;
+        padding: 2px;
+        margin: 0px;
+    }
+    .legend-table {
+        width: 40%;
+        .symbol {
+            width: 34px;
+            height: 24px;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+        }
+        .hand {
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+    }
+}
+
 .wordle {
     background-color: #000;
     .hidden {
