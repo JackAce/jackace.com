@@ -3,11 +3,10 @@ layout: post
 title: "Introducing the JackAce Wordle Solver"
 date: 2022-03-04 00:01:00 -0800
 author: Jack Hayes
-tags: [wordle]
+tags: [wordle,tools]
 excerpt_image: "/assets/img/posts/2022-03-04/00-title-800x678.png"
-summary: "This Wordle solver will usually solve your Wordle in 3 guesses"
+summary: "This Wordle solver will solve your Wordle in 3 guesses GUARANTEED...or we'll promise to try harder next time!"
 comments: true
-published: true
 ---
 
 <figure>
@@ -65,30 +64,35 @@ published: true
 <p>
     Plus, as a software engineer, I firmly believe that <i>"Anything worth doing a few times is worth automating."</i>
 </p>
-<p>
-    So I wrote (<a href="https://www.google.com/search?q=wordle+solvers" target="_blank">yet another</a>)
-    Wordle solver!
-</p>
 
 <h2>Introducing the JackAce Wordle Solver!</h2>
+<blockquote>
+    There are many like it, but this one is mine.
+    <footer>
+        - Private Pyle
+    </footer>
+</blockquote>
 <p>
     The JackAce Wordle Solver can be found here:
 </p>
 <blockquote>
     <a href="{{site.baseurl}}/games/wordle/solver/">https://www.jackace.com/games/wordle/solver/</a>
 </blockquote>
-<p>
-    You can also find the Wordle Solver using the Navigation Bar under "Other".
-</p>
 
 <h2>How to Use the JackAce Wordle Solver</h2>
+<p>
+    Using the JackAce Wordle Solver involves playing Wordle as you would normally would, while you 
+    keep the solver informed of each guess's result. You will usually do this by keeping both
+    sites open on two different browser tabs as you navigate back and forth between the Wordle
+    site and the Solver.
+</p>
 <p>
     There are three parts to the JackAce Wordle Solver:
 </p>
 
 <h3>The Suggestion List</h3>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/02-parts-suggestions-800x785.png" alt="Select one of the suggested words and submit it on the Wordle site." />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/02-parts-suggestions-400x393.png" alt="Select one of the suggested words and submit it on the Wordle site." />
     <figcaption>
         Select one of the suggested words and submit it on the Wordle site.
     </figcaption>
@@ -98,11 +102,17 @@ published: true
     and submit it to Wordle.
 </p>
 <p>
-    The list puts the highest ranked words on top. If the word is part of the Official
-    solution list (if it is a valid solution to the Wordle), then the words' tiles will have a
+    The highest ranked words appear on top. If the suggested word is part of the Official
+    solution list (if it is a valid solution to the Wordle), then the word's tiles will have a
     white border. If it is a valid word submission, but not an "Official" solution word, then the
     tiles' border will be light grey.
 </p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/02b-official-allowed-300x241.png" alt="Official words have a white border. Allowed words have a grey border." />
+    <figcaption>
+        Official solutions have a white border. Allowed words have a grey border.
+    </figcaption>
+</figure>
 <p>
     Keep in mind that most Wordle clone sites don't adhere to the Official word list for possible
     solutions.
@@ -112,28 +122,34 @@ published: true
     letters will be colored in green and 🟨 "Near Miss" letters will be colored yellow.
 </p>
 <p>
-    After you've submitted your suggested word to Wordle, click on the word you chose to
+    After you've submitted your suggested word to Wordle, click on the word you've chosen to
     populate your current submission on the Main Board.
 </p>
 
 <h3>The Main Board</h3>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/03-parts-main-800x785.png" alt="The Main Board of the Wordle Solver." />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/03-parts-main-400x393.png" alt="The Main Board of the Wordle Solver." />
     <figcaption>
         Color code your submissions by clicking on the tile so that it matches what Wordle returned.
     </figcaption>
 </figure>
 <p>
-    After you've submitted your suggested guess (or your own guess), you should fill in the Wordle
-    Solver with your results. If you've used one of our suggestions, you can just click the word
-    to fill in the Main Board. If you've supplied your own guess, you can type it in using your
-    desktop keyboard or the on-screen keyboard.
+    The Main Board is where you input your guesses and report to the solver how it scored. It should
+    mirror the diplay of guesses on the Wordle site.
 </p>
 <p>
-    Before you request the next set of suggestions, make sure you color-code the main board to
-    match the results you got from Wordle. You can click on each tile to cycle between 🟩, 🟨,
-    and ⬜. When your board matches Wordle's board, press Enter. The JackAce Wordle Solver even
-    helps you by pre-populating the state of the letter for you based on previous responses.
+    If you've used one of our suggestions, you can click it in the Suggestion List to populate the
+    Main Board. You can also manually type it in.
+</p>
+<p>
+    If you've used your own guess, you can type it in using your computer's keyboard or the on-screen
+    keyboard.
+</p>
+<p>
+    Click each tile of the current submission to cycle the color between 🟩, 🟨,
+    and ⬜. The tile should match the response you got when submitting the guess to Wordle.
+    The JackAce Wordle Solver even helps you by pre-populating the state of the letter for
+    you based on previous responses.
 </p>
 
 <h3>The Keyboard</h3>
@@ -180,6 +196,13 @@ published: true
     use it if you <i>REALLY</i> got stuck after 5 guesses and you wanted to keep your streak alive,
     but that's probably it.
 </p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/05-malcolm-quote-800x433.jpg" alt="Bare Chested Jeff Goldblum" />
+    <figcaption>
+        "Your scientists were so preoccupied with whether or not they could,<br/>
+        they didn’t stop to think if they should."
+    </figcaption>
+</figure>
 <p>
     This solver only exists because I wanted to see how hard it would be to make it. Plus, in my
     mind, using a solver <i>that I wrote</i> is as valid as solving a Wordle manually.
@@ -192,7 +215,7 @@ published: true
 
 <h3>Back End Source Code Available</h3>
 <p>
-    And if you want to take a look at the back end code, it's currently hosted
+    If you want to take a look at the back end code, it's currently hosted
     <a href="https://github.com/JackAce/wordlesolver" target="_blank">on GitHub</a>.
 </p>
 <p>
@@ -209,16 +232,16 @@ published: true
 
 <h2>Give it a Shot!</h2>
 <p>
-    If you want to give it a spin, go for it! I find it's best to do a few rounds on one of the
+    If you want to give it a spin,
+    <a href="{{site.baseurl}}/games/wordle/solver/">go for it</a>!
+    I find it's best to do a few lightning rounds on one of the
     many Wordle clone sites, like
     <a href="https://wordleunlimited.com/" target="_blank">Wordle Unlimited</a>, which allows you
     to do back-to-back-to-back Wordles without having to wait until midnight to try the next one.
 </p>
 <p>
-    I didn't really try to make it as good as possible, I just tried to apply an algorithm that
-    matched what I was trying to do manually. In the future, I may iterate on it to make it more
-    efficient and add unit and performance tests. If you see something that would improve the
-    solver, please open a
+    In the future, I may iterate on the code to make it more efficient and add unit and performance
+    tests. If you see something that would improve the solver, please open a
     <a href="https://github.com/JackAce/wordlesolver/compare" target="_blank">Pull Request</a>
     in GitHub!
 </p>
