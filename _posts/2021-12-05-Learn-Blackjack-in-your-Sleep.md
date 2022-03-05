@@ -36,3 +36,5 @@ Deviations](https://soundcloud.com/jackacestudios/sets/blackjack-high-low-count)
 This method of learning works best as a complement to the [Blackjack Basic Strategy Charts]({{site.baseurl}}/gambling/blackjack/systems/basic-strategy/).
 Once you learn the basics, you can help quiz yourself in the car, on a plane, or even subliminally in your sleep! Once you believe you've mastered Basic Strategy,
 you'll be able to play blackjack with almost no house advantage!
+
+{% include venn-badge.html isGambling=true -%}

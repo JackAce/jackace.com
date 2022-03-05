@@ -1,5 +1,122 @@
 [
   {
+    "name": "Residents of the Streets",
+    "airDate": "2022-03-04",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Qwb6Hr2DJdg",
+    "reviewUrl": "2022-03-04-Residents-of-the-Streets",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      175
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "notes": "David seems to be in physical pain having to rate/play Roulette.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "3",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 175,  
+        "result": -175
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 175,  
+        "result": -175
+      },
+      {
+        "spin": 5,
+        "number": "35",
+        "amountBet": 175,  
+        "result": -25,
+        "notes": "David switched double-streets for this bet, which is why this isn't a WHACK."
+      },
+      {
+        "spin": 6,
+        "number": "30",
+        "amountBet": 175,  
+        "result": -175,
+        "notes": "David kept his bet on the last double-street, which is why this IS a WHACK."
+      },
+      {
+        "spin": 7,
+        "number": "30",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 175,  
+        "result": 125,
+        "notes": "Finally a Jackpot!"
+      },
+      {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 175,  
+        "result": 125
+      },
+      {
+        "spin": 10,
+        "number": "7",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 12,
+        "number": "15",
+        "amountBet": 175,  
+        "result": 125
+      },
+      {
+        "spin": 13,
+        "number": "0",
+        "amountBet": 175,  
+        "result": -175
+      },
+      {
+        "spin": 14,
+        "number": "24",
+        "amountBet": 175,  
+        "result": 125
+      },
+      {
+        "spin": 15,
+        "number": "29",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 16,
+        "number": "18",
+        "amountBet": 175,  
+        "result": 125
+      }
+    ]
+  },
+  {
     "name": "Lever Up",
     "airDate": "2022-03-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=59yQCogxCMM",

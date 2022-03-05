@@ -1,0 +1,254 @@
+---
+layout: post
+title: "Introducing the JackAce Wordle Solver"
+date: 2022-03-04 00:01:00 -0800
+author: Jack Hayes
+tags: [wordle,tools]
+excerpt_image: "/assets/img/posts/2022-03-04/00-title-800x678.png"
+summary: "This Wordle solver will solve your Wordle in 3 guesses GUARANTEED...or we'll promise to try harder next time!"
+comments: true
+---
+
+<figure>
+    <img src="{{site.baseurl}}{{page.excerpt_image}}" alt="The JackAce Wordle Solver will solve your Wordle in 3 guesses GUARANTEED...or we'll promise to try harder next time!" />
+    <figcaption>
+        The JackAce Wordle Solver will solve your Wordle in 3 guesses GUARANTEED...or we'll promise to try harder next time!
+    </figcaption>
+</figure>
+<p>
+    ⬜ ⬜ ⬜ 🟨 🟩<br/>
+    🟩 ⬜ 🟨 ⬜ 🟩<br/>
+    🟩 🟩 ⬜ ⬜ 🟩<br/>
+    🟩 🟩 🟩 🟩 🟩<br/>
+</p>
+<p>
+    If you've been seeing a bunch of green and yellow squares in your social media feed, then your friends are
+    probably addicted to <a href="https://www.nytimes.com/games/wordle/" target="_blank">Wordle</a>.
+</p>
+
+<p>
+    Wordle, the game that took the internet by storm in late 2021, has been a hit amongst gamers and
+    gamblers alike.
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/01-social-media-800x644.png" alt="Poker Players Tweeting about Wordle" />
+    <figcaption>
+        Poker personalities
+        <a href="https://twitter.com/Kevmath" target="_blank">Kevin Mathers</a>,
+        <a href="https://twitter.com/BJNemeth" target="_blank">BJ Nemeth</a>,
+        <a href="https://twitter.com/evybabee" target="_blank">Evelyn Ng</a>,
+        <a href="https://twitter.com/PhilNoLimits" target="_blank">Phil Gordon</a>,
+        <a href="https://twitter.com/dwpoker" target="_blank">David Williams</a>,
+        <a href="https://twitter.com/Andy_Bloch" target="_blank">Andy Bloch</a>
+        (who <a href="https://wordlv.com" target="_blank">wrote his own solver</a>
+        as well), and
+        <a href="https://twitter.com/VanessaSelbst" target="_blank">Doug Polk</a>
+        have all been taking part in the <b>Wordle</b> phenomenon.
+    </figcaption>
+</figure>
+
+<h3>How to Play Wordle</h3>
+<p>
+    Wordle is a simple game where you try to guess the word of the day. Each guess
+    receives a 🟩 or 🟨 square to indicate whether the letter is a direct hit for that position,
+    or if it is found in a different slot.
+</p>
+
+<h3>The Inception</h3>
+<p>
+    On one of my first attempts, I got stuck and ended up busting out a pen and some paper to iterate through
+    all of the possibilities... While spending about 15 minutes cycling through letter combinations, the
+    inception of this solver was born. I knew a computer could do in just a fraction of a second what took me
+    minutes.
+</p>
+<p>
+    Plus, as a software engineer, I firmly believe that <i>"Anything worth doing a few times is worth automating."</i>
+</p>
+
+<h2>Introducing the JackAce Wordle Solver!</h2>
+<blockquote>
+    There are many like it, but this one is mine.
+    <footer>
+        - Private Pyle
+    </footer>
+</blockquote>
+<p>
+    The JackAce Wordle Solver can be found here:
+</p>
+<blockquote>
+    <a href="{{site.baseurl}}/games/wordle/solver/">https://www.jackace.com/games/wordle/solver/</a>
+</blockquote>
+
+<h2>How to Use the JackAce Wordle Solver</h2>
+<p>
+    Using the JackAce Wordle Solver involves playing Wordle as you would normally would, while you 
+    keep the solver informed of each guess's result. You will usually do this by keeping both
+    sites open on two different browser tabs as you navigate back and forth between the Wordle
+    site and the Solver.
+</p>
+<p>
+    There are three parts to the JackAce Wordle Solver:
+</p>
+
+<h3>The Suggestion List</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/02-parts-suggestions-400x393.png" alt="Select one of the suggested words and submit it on the Wordle site." />
+    <figcaption>
+        Select one of the suggested words and submit it on the Wordle site.
+    </figcaption>
+</figure>
+<p>
+    This is the list of words on the right-hand side of the screen. Select one of these suggested words
+    and submit it to Wordle.
+</p>
+<p>
+    The highest ranked words appear on top. If the suggested word is part of the Official
+    solution list (if it is a valid solution to the Wordle), then the word's tiles will have a
+    white border. If it is a valid word submission, but not an "Official" solution word, then the
+    tiles' border will be light grey. These allowed words may be submitted when probing the state
+    of certain letters.
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/02b-official-allowed-300x241.png" alt="Official words have a white border. Allowed words have a grey border." />
+    <figcaption>
+        Official solutions have a white border. Allowed words have a grey border.
+    </figcaption>
+</figure>
+<p>
+    Keep in mind that most Wordle clone sites don't adhere to the Official word list for possible
+    solutions.
+</p>
+<p>
+    The tiles are also colored according to how they were previously scored. So 🟩 "Direct Hit"
+    letters will be colored in green and 🟨 "Near Miss" letters will be colored yellow.
+</p>
+<p>
+    After you've submitted your suggested word to Wordle, click on the word you've chosen to
+    populate your current submission on the Main Board.
+</p>
+
+<h3>The Main Board</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/03-parts-main-400x393.png" alt="The Main Board of the Wordle Solver." />
+    <figcaption>
+        Color code your submissions by clicking on the tile so that it matches what Wordle returned.
+    </figcaption>
+</figure>
+<p>
+    The Main Board is where you input your guesses and report to the solver how it scored. It should
+    mirror the diplay of guesses on the Wordle site.
+</p>
+<p>
+    If you've used one of our suggestions, you can click it in the Suggestion List to populate the
+    Main Board. You can also manually type it in.
+</p>
+<p>
+    If you've used your own guess, you can type it in using your computer's keyboard or the on-screen
+    keyboard.
+</p>
+<p>
+    Click each tile of the current submission to cycle the color between 🟩, 🟨,
+    and ⬜. The tile should match the response you got when submitting the guess to Wordle.
+    The JackAce Wordle Solver even helps you by pre-populating the state of the letter for
+    you based on previous responses.
+</p>
+
+<h3>The Keyboard</h3>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/04-parts-keyboard-469x162.png" alt="The On-Screen Keyboard" />
+    <figcaption>
+        The letters of the keyboard should match the status your submissions. Whiffs are black,
+        near misses are yellow, direct hits are green, and unknown letters are grey.
+    </figcaption>
+</figure>
+<p>
+    This is an on-screen keyboard that also updates itself based on your hit/miss responses.
+    Letters that are not part of your Wordle's solution are dark grey. Unused
+    letters are light grey. Direct hits are green, and near misses are yellow.
+</p>
+<p>
+    There's also a RESET button if you want to start another Solver session. You can also
+    press Escape to reset the board if you're on a desktop.
+</p>
+
+<h2>Word Scoring and Ranking</h2>
+<p>
+    There are two word lists for the New York Times version of Wordle. They have a list of
+    words that are valid final solutions to the word of the day, and they have a list of
+    words that they accept that can be used to eliminate letters and probe for hints.
+</p>
+<p>
+    As you find matches and misses, the word lists are whittled down. Amongst the remaining
+    words, the JackAce Wordle Solver counts the occurence of each letter and awards each word
+    with the most common letters with the highest score. Letters are also weighted with
+    vowels being worth more.
+</p>
+
+<h2>Why Does This Exist?</h2>
+<blockquote>
+    Jack, you've managed to take a fun little game and you've <i>completely</i> sucked the life
+    out of it!
+    <footer>
+        - you, probably
+    </footer>
+</blockquote>
+<p>
+    I don't really expect you to use this solver instead of playing the game on your own. Maybe you'd
+    use it if you <i>REALLY</i> got stuck after 5 guesses and you wanted to keep your streak alive,
+    but that's probably it.
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-03-04/05-malcolm-quote-800x433.jpg" alt="Bare Chested Jeff Goldblum" />
+    <figcaption>
+        "Your scientists were so preoccupied with whether or not they could,<br/>
+        they didn’t stop to think if they should."
+    </figcaption>
+</figure>
+<p>
+    This solver only exists because I wanted to see how hard it would be to make it. Plus, in my
+    mind, using a solver <i>that I wrote</i> is as valid as solving a Wordle manually.
+</p>
+<p>
+    I still play the game without solver, but I really enjoy seeing whether my solver can find the
+    right solution in 2 or 3 guesses! It's also fun to see if you can guess in fewer tries than the
+    solver.
+</p>
+
+<h3>Back End Source Code Available</h3>
+<p>
+    If you want to take a look at the back end code, it's currently hosted
+    <a href="https://github.com/JackAce/wordlesolver" target="_blank">on GitHub</a>.
+</p>
+<p>
+    It's written in Node.js and hosted on Heroku. And full disclaimer -- I'm not much of a Node.js
+    programmer. I just wanted to have an easy way to deploy this to the cloud and this was the easiest
+    and cheapest way to get it there.
+</p>
+<h3>Front End Source Code Available, too</h3>
+<p>
+    The UI for the solver is just part of this site, which you should already know is
+    <a href="https://github.com/JackAce/jackace.com/blob/main/assets/js/wordle-solver.js" target="_blank" >publicly hosted on GitHub</a>.
+    I may move this to its own single page app with its own host name in the near future.
+</p>
+
+<h2>Give it a Shot!</h2>
+<p>
+    If you want to give it a spin,
+    <a href="{{site.baseurl}}/games/wordle/solver/">go for it</a>!
+    I find it's best to do a few lightning rounds on one of the
+    many Wordle clone sites, like
+    <a href="https://wordleunlimited.com/" target="_blank">Wordle Unlimited</a>, which allows you
+    to do back-to-back-to-back Wordles without having to wait until midnight to try the next one.
+</p>
+<p>
+    In the future, I may iterate on the code to make it more efficient and add unit and performance
+    tests. If you see something that would improve the solver, please open a
+    <a href="https://github.com/JackAce/wordlesolver/compare" target="_blank">Pull Request</a>
+    in GitHub!
+</p>
+<p>
+    Questions? Comments? Suggestions? Bugs?
+    <a href="https://twitter.com/JackAce" target="_blank">Let me know</a>!
+</p>
+
+{%- include venn-badge.html isGambling=true isMath=true -%}
