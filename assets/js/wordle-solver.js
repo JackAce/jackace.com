@@ -24,8 +24,8 @@
   const CSSCLASS_LETTER_STATE_NEAR_MISS = "guess-near-miss";
   const CSSCLASS_LETTER_STATE_HIT = "guess-hit";
   
-  var currentWord = 0;
-  var currentLetterIndex = 0;
+  let currentWord = 0;
+  let currentLetterIndex = 0;
 
   // ==================================================
   // Convenience function for getting the keyboard letter id
@@ -45,10 +45,10 @@
   // Returns the score for a letter
 
   function getInputState(wordIndex, letterIndex) {
-    var id = getInputId(wordIndex, letterIndex);
-    var cssClass = $(id).attr('class');
+    let id = getInputId(wordIndex, letterIndex);
+    let cssClass = $(id).attr('class');
 
-    var returnValue = LETTER_STATE_UNSET;
+    let returnValue = LETTER_STATE_UNSET;
     if (cssClass.indexOf(CSSCLASS_LETTER_STATE_HIT) > -1) {
       returnValue = LETTER_STATE_HIT;
     }
@@ -65,9 +65,9 @@
   // Gets the word for the guess index
 
   function getWord(wordIndex) {
-    var returnValue = "";
-    for (var i = 0; i < MAX_WORD_LENGTH; i++) {
-      var id = getInputId(wordIndex, i);
+    let returnValue = "";
+    for (let i = 0; i < MAX_WORD_LENGTH; i++) {
+      let id = getInputId(wordIndex, i);
       returnValue += $(id).text();
     }
     return returnValue;
@@ -78,11 +78,36 @@
 
   function getMatches(wordIndex) {
     // TODO: Ensure word length is set properly
-    var returnValue = [LETTER_STATE_UNSET, LETTER_STATE_UNSET, LETTER_STATE_UNSET, LETTER_STATE_UNSET, LETTER_STATE_UNSET];
-    for (var i = 0; i < MAX_WORD_LENGTH; i++) {
+    let returnValue = [LETTER_STATE_UNSET, LETTER_STATE_UNSET, LETTER_STATE_UNSET, LETTER_STATE_UNSET, LETTER_STATE_UNSET];
+    for (let i = 0; i < MAX_WORD_LENGTH; i++) {
       returnValue[i] = getInputState(wordIndex, i);
     }
     return returnValue;
+  }
+
+  // ==================================================
+  // Checks to see if the user is submitting a solved wordle
+  // TODO: Make sure it's consistent?
+
+  function wordleIsSolved() {
+    for (let i = 0; i < MAX_WORD_LENGTH; i++) {
+      if (getInputState(currentWord, i) !== LETTER_STATE_HIT) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  // ==================================================
+  // Mark WORDLE as solved
+
+  function setSolvedState() {
+    displayMessage('Congratulations! Solved in ' + (currentWord + 1) + ' guesses!');
+    clearCopy();
+    let word = getWord(currentWord);
+    addWordGuess(word, true);
+    // Disable clicking/entering
+    currentWord = MAX_GUESSES;
   }
 
   // ==================================================
@@ -121,9 +146,9 @@
       wordsToInclude++;
     }
 
-    for (var i = 0; i < wordsToInclude; i++) {
-      var id = getInputId(i, letterIndex);
-      var letterInPosition = $(id).text();
+    for (let i = 0; i < wordsToInclude; i++) {
+      let id = getInputId(i, letterIndex);
+      let letterInPosition = $(id).text();
 
       if (letterInPosition === letter) {
         const letterState = getInputState(i, letterIndex);
@@ -146,11 +171,11 @@
       wordsToInclude++;
     }
 
-    for (var i = 0; i < wordsToInclude; i++) {
-      for (var j = 0; j < MAX_WORD_LENGTH; j++) {
+    for (let i = 0; i < wordsToInclude; i++) {
+      for (let j = 0; j < MAX_WORD_LENGTH; j++) {
 
-        var id = getInputId(i, j);
-        var letterInPosition = $(id).text();
+        let id = getInputId(i, j);
+        let letterInPosition = $(id).text();
         if (letterInPosition === letter) {
           const letterState = getInputState(i, j);
 
@@ -181,7 +206,7 @@
       return;
     }
 
-    var id = getInputId(currentWord, currentLetterIndex);
+    let id = getInputId(currentWord, currentLetterIndex);
     $(id).text(letter);
 
     // Toggle the tile if the letter is a near miss
@@ -211,16 +236,39 @@
     }
 
     currentLetterIndex--;
-    var id = getInputId(currentWord, currentLetterIndex);
+    let id = getInputId(currentWord, currentLetterIndex);
     $(id).text('');
     $(id).attr('class', 'letter-input ' + CSSCLASS_LETTER_STATE_WHIFF);
+  }
+
+  function processAjaxResponse(response) {
+    clearCopy();
+
+    let totalSuggestions = response.suggestionsOfficial.length + response.suggestionsAllowed.length;
+
+    if (totalSuggestions === 0) {
+      displayError('No suggestions found');
+      return;
+    }
+
+    for (let i = 0; i < response.suggestionsOfficial.length; i++) {
+      addWordGuess(response.suggestionsOfficial[i].word, true);
+    }
+    for (let i = 0; i < response.suggestionsAllowed.length; i++) {
+      addWordGuess(response.suggestionsAllowed[i].word, false);
+    }
+
+    currentWord++;
+    currentLetterIndex = 0;
+    activateWord(currentWord);
+    setLetterStatuses(response.letterStatuses);
   }
 
   // ==================================================
   // Validates and submits word(s)
 
   function processEnter() {
-    dismissError();
+    dismissMessage();
     if (currentWord === MAX_GUESSES) {
       return;
     }
@@ -229,7 +277,12 @@
       return;
     }
 
-    var request = buildRequest();
+    if (wordleIsSolved()) {
+      setSolvedState();
+      return;
+    }
+
+    let request = buildRequest();
 
     $.ajax({
       url: "https://jackace-wordle-solver.herokuapp.com/wordle",
@@ -245,18 +298,7 @@
         }
       },
       success: function(dataX) {
-        clearCopy();
-        for (var i = 0; i < dataX.suggestionsOfficial.length; i++) {
-          addWordGuess(dataX.suggestionsOfficial[i].word, true);
-        }
-        for (var i = 0; i < dataX.suggestionsAllowed.length; i++) {
-          addWordGuess(dataX.suggestionsAllowed[i].word, false);
-        }
-  
-        currentWord++;
-        currentLetterIndex = 0;
-        activateWord(currentWord);
-        setLetterStatuses(dataX.letterStatuses);
+        processAjaxResponse(dataX);
       },
       error: function(err) {
         displayError('There was an error with your request.');
@@ -269,8 +311,8 @@
   // Builds the json request object
 
   function buildRequest() {
-    var returnValue = { guesses: [] };
-    for (var i = 0; i <= currentWord; i++) {
+    let returnValue = { guesses: [] };
+    for (let i = 0; i <= currentWord; i++) {
       returnValue.guesses[i] = {
         word: getWord(i),
         matches: getMatches(i)
@@ -283,7 +325,7 @@
   // Set the letter state for the current word
 
   function setLetterState(letterIndex, letterState) {
-    var id = getInputId(currentWord, letterIndex);
+    let id = getInputId(currentWord, letterIndex);
 
     if (letterState === LETTER_STATE_WHIFF) {
       $(id).attr('class', 'letter-input ' + CSSCLASS_LETTER_STATE_WHIFF);
@@ -300,13 +342,19 @@
   // Cycle a letter beween whiff/miss/hit for the current word
 
   function toggleLetterState(letterIndex) {
+    // Out of guesses or wordle solved
+    if (currentWord === MAX_GUESSES) {
+      return;
+    }
+
+    // Current word completed
     if (letterIndex >= currentLetterIndex) {
       return;
     }
 
-    var id = getInputId(currentWord, letterIndex);
-    var inputState = getInputState(currentWord, letterIndex);
-    var nextState = getNextLetterState(inputState);
+    let id = getInputId(currentWord, letterIndex);
+    let inputState = getInputState(currentWord, letterIndex);
+    let nextState = getNextLetterState(inputState);
 
     setLetterState(letterIndex, nextState);
 
@@ -319,7 +367,7 @@
 
   function setWord(word) {
     resetCurrentWord();
-    for (var i = 0; i < word.length; i++) {
+    for (let i = 0; i < word.length; i++) {
       processLetter(word[i].toUpperCase());
     }
 
@@ -328,7 +376,15 @@
   }
 
   // ==================================================
-  // Dismiss error
+  // Display message
+
+  function displayMessage(message) {
+    $('#message-div').text(message);
+    $('#message-div').attr('class', 'message');
+  }
+
+  // ==================================================
+  // Display error
 
   function displayError(message) {
     $('#message-div').text(message);
@@ -338,7 +394,7 @@
   // ==================================================
   // Dismiss error
 
-  function dismissError() {
+  function dismissMessage() {
     $('#message-div').text('');
     $('#message-div').attr('class', 'hidden');
   }
@@ -347,17 +403,17 @@
   // Start over
 
   function reset() {
-    dismissError();
-    for (var i = 0; i < 26; i++) {
-      var id = getLetterId(i);
+    dismissMessage();
+    for (let i = 0; i < 26; i++) {
+      let id = getLetterId(i);
       $(id).attr('class', 'keyboard-letter');
     }
     currentWord = 0;
     currentLetterIndex = 0;
   
-    for (var i = 0; i < MAX_GUESSES; i++) {
-      for (var j = 0; j < MAX_WORD_LENGTH; j++) {
-        var id = getInputId(i, j);
+    for (let i = 0; i < MAX_GUESSES; i++) {
+      for (let j = 0; j < MAX_WORD_LENGTH; j++) {
+        let id = getInputId(i, j);
         $(id).text('');
         $(id).attr('class', 'letter-input ' + CSSCLASS_LETTER_STATE_DISABLED);
       }
@@ -388,14 +444,14 @@
   // Add a suggested word (letterStatuses)
 
   function addWordGuess(wordToAdd, isOfficial) {
-    var currentHtml = $('#instructions-div').html();
+    let currentHtml = $('#instructions-div').html();
 
     currentHtml += '<div style="clear: both;" onclick="setWord(\'' + wordToAdd + '\');">';
 
-    for (var i = 0; i < wordToAdd.length; i++) {
-      var letter = wordToAdd[i].toUpperCase();
+    for (let i = 0; i < wordToAdd.length; i++) {
+      let letter = wordToAdd[i].toUpperCase();
 
-      var cssClass = "guess-letter ";
+      let cssClass = "guess-letter ";
 
       if (isOfficial) {
         cssClass += "guess-official ";
@@ -428,8 +484,8 @@
     currentLetterIndex = 0;
     currentWord = wordIndex;
   
-    for (var i = 0; i < MAX_WORD_LENGTH; i++) {
-      var id = getInputId(wordIndex, i);
+    for (let i = 0; i < MAX_WORD_LENGTH; i++) {
+      let id = getInputId(wordIndex, i);
       $(id).attr('class', 'letter-input guess-whiff');
     }
   }
@@ -439,10 +495,10 @@
   // hit/miss/whiff status from the AJAX response
 
   function setLetterStatuses(letterStatuses) {
-    for (var i = 0; i < letterStatuses.length; i++) {
+    for (let i = 0; i < letterStatuses.length; i++) {
       if (letterStatuses[i] > -1) {
-        var id = getLetterId(i);
-        var cssClass = 'keyboard-letter keyboard-' + letterStatuses[i];
+        let id = getLetterId(i);
+        let cssClass = 'keyboard-letter keyboard-' + letterStatuses[i];
         $(id).attr('class', cssClass);
       }
     }
@@ -452,7 +508,7 @@
   // Event handler for keyPress events
 
   function handleKeyPress(event) {
-    var keyId = event.keyCode;
+    let keyId = event.keyCode;
   
     if (keyId === KEY_CODE_BACKSPACE
       || keyId === KEY_CODE_DELETE
@@ -472,7 +528,7 @@
           reset();
           break;
         default:
-          var letter = String.fromCharCode(keyId);
+          let letter = String.fromCharCode(keyId);
           processLetter(letter);
           break;
       }
