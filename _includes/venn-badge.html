@@ -1,0 +1,44 @@
+{% comment %}
+<!--
+    venn-badge.html
+    Displays a badge (image) on a page that indicates whether a page falls under
+    one of the following categories:
+    * Gambling/Gaming
+    * Crypto
+    * Math/Engineering/Technology
+
+    This include file takes the following parameters:
+    * include.isGambling
+    * include.isCrypto
+    * include.isMath
+
+    TODO: What do you do if none of the flags are true?
+-->
+{% endcomment %}
+
+{%- assign imageUrl = site.baseurl -%}
+{%- assign imageTitle = "" -%}
+{%- assign imageUrl = imageUrl | append: "/assets/img/venn/" -%}
+{%- if include.isGambling | default: false -%}
+    {%- assign imageUrl = imageUrl | append: "g" -%}
+    {%- assign imageTitle = imageTitle | append: "🎰Gambling/Gaming " -%}
+{%- endif -%}
+{%- if include.isCrypto | default: false -%}
+    {%- assign imageUrl = imageUrl | append: "c" -%}
+    {%- if imageTitle != "" -%}
+        {%- assign imageTitle = imageTitle | append: "| ₿ Crypto " -%}
+    {%- else -%}
+        {%- assign imageTitle = imageTitle | append: "₿ Crypto " -%}
+    {%- endif -%}
+{%- endif -%}
+{%- if include.isMath | default: false -%}
+    {%- assign imageUrl = imageUrl | append: "m" -%}
+    {%- if imageTitle != "" -%}
+        {%- assign imageTitle = imageTitle | append: "| 🧮 Math/Programming/Technology " -%}
+    {%- else -%}
+        {%- assign imageTitle = imageTitle | append: "🧮 Math/Programming/Technology " -%}
+    {%- endif -%}
+{%- endif -%}
+
+{%- assign imageUrl = imageUrl | append: "-50x50.png" -%}
+<img src="{{- imageUrl -}}" alt="{{- imageTitle -}}" title="{{- imageTitle -}}" />
