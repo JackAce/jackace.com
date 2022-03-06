@@ -1,5 +1,952 @@
 [
   {
+    "name": "In a Clint Eastwood Accent",
+    "airDate": "2022-03-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Sgl7oOAoNWQ",
+    "reviewUrl": "2022-03-05-In-a-Clint-Eastwood-Accent",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 2600,
+    "bets": [
+      430
+    ],
+    "rating": "f",
+    "jackaceRating": "c",
+    "notes": "Alex gave this a DURIAN. Lauren gave it a plum.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "10",
+        "amountBet": 430,
+        "result": -430
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 430,
+        "result": 170
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 4,
+        "number": "34",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 430,  
+        "result": 170
+      },
+      {
+        "spin": 6,
+        "number": "27",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 430,  
+        "result": 650
+      },
+      {
+        "spin": 8,
+        "number": "4",
+        "amountBet": 430,  
+        "result": 170
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 10,
+        "number": "2",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 11,
+        "number": "36",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 12,
+        "number": "29",
+        "amountBet": 430,  
+        "result": 170
+      },
+      {
+        "spin": 13,
+        "number": "6",
+        "amountBet": 430,  
+        "result": 170
+      },
+      {
+        "spin": 14,
+        "number": "4",
+        "amountBet": 430,  
+        "result": 170
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 430,  
+        "result": 1010
+      }
+    ]
+  },
+  {
+    "name": "Residents of the Streets",
+    "airDate": "2022-03-04",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Qwb6Hr2DJdg",
+    "reviewUrl": "2022-03-04-Residents-of-the-Streets",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      175
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "notes": "David seems to be in physical pain having to rate/play Roulette.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "3",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 175,  
+        "result": -175
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 175,  
+        "result": -175
+      },
+      {
+        "spin": 5,
+        "number": "35",
+        "amountBet": 175,  
+        "result": -25,
+        "notes": "David switched double-streets for this bet, which is why this isn't a WHACK."
+      },
+      {
+        "spin": 6,
+        "number": "30",
+        "amountBet": 175,  
+        "result": -175,
+        "notes": "David kept his bet on the last double-street, which is why this IS a WHACK."
+      },
+      {
+        "spin": 7,
+        "number": "30",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 175,  
+        "result": 125,
+        "notes": "Finally a Jackpot!"
+      },
+      {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 175,  
+        "result": 125
+      },
+      {
+        "spin": 10,
+        "number": "7",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 12,
+        "number": "15",
+        "amountBet": 175,  
+        "result": 125
+      },
+      {
+        "spin": 13,
+        "number": "0",
+        "amountBet": 175,  
+        "result": -175
+      },
+      {
+        "spin": 14,
+        "number": "24",
+        "amountBet": 175,  
+        "result": 125
+      },
+      {
+        "spin": 15,
+        "number": "29",
+        "amountBet": 175,  
+        "result": -25
+      },
+      {
+        "spin": 16,
+        "number": "18",
+        "amountBet": 175,  
+        "result": 125
+      }
+    ]
+  },
+  {
+    "name": "Lever Up",
+    "airDate": "2022-03-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=59yQCogxCMM",
+    "reviewUrl": "2022-03-01-Lever-Up",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      50,
+      100
+    ],
+    "rating": "b",
+    "jackaceRating": "f",
+    "notes": "You're supposed to bet on a 'sector' of the wheel and Martingale (double-up) after 3 losses. They lost count two times and flat bet when they should have doubled down.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "3",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 3,
+        "number": "21",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 4,
+        "number": "7",
+        "amountBet": 50,  
+        "result": 130,
+        "notes": "Lauren was supposed to double up for this spin, but she didn't. They should have won $260 here."
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 6,
+        "number": "00",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 8,
+        "number": "20",
+        "amountBet": 50,  
+        "result": 130,
+        "notes": "Lauren was supposed to double up for this spin, but she didn't. They should have won $260 here."
+      },
+      {
+        "spin": 9,
+        "number": "14",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 10,
+        "number": "20",
+        "amountBet": 50,  
+        "result": 130
+      },
+      {
+        "spin": 11,
+        "number": "13",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 12,
+        "number": "14",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 13,
+        "number": "9",
+        "amountBet": 50,  
+        "result": 130
+      },
+      {
+        "spin": 14,
+        "number": "19",
+        "amountBet": 50,  
+        "result": -50
+      },
+      {
+        "spin": 15,
+        "number": "9",
+        "amountBet": 50,  
+        "result": 130
+      }
+    ]
+  },
+  {
+    "name": "Pendulum",
+    "airDate": "2022-02-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mSieyHMou1Y",
+    "reviewUrl": "2022-02-28-Pendulum",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png"
+    ],
+    "buyIn": 400,
+    "bets": [
+      10,
+      20,
+      40,
+      80
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "This system involves switching dozens/columns but the betting scheme only picks one combination of the two dozens bet on. The payouts should be similar for different dozens. You basically win 1 unit for hitting, lose 2 units when you miss. Alex gave this a Plum. Lauren gave it an Eggplant.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "15",
+        "amountBet": 10,  
+        "result": 5
+      },
+      {
+        "spin": 2,
+        "number": "2",
+        "amountBet": 10,
+        "result": -10
+      },
+      {
+        "spin": 3,
+        "number": "34",
+        "amountBet": 20,
+        "result": 10
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 10,
+        "result": 5
+      },
+      {
+        "spin": 5,
+        "number": "34",
+        "amountBet": 10,
+        "result": 5
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 10,
+        "result": -10
+      },
+      {
+        "spin": 7,
+        "number": "28",
+        "amountBet": 20,
+        "result": -20
+      },
+      {
+        "spin": 8,
+        "number": "6",
+        "amountBet": 40,
+        "result": 20
+      },
+      {
+        "spin": 9,
+        "number": "25",
+        "amountBet": 10,
+        "result": 5
+      },
+      {
+        "spin": 10,
+        "number": "00",
+        "amountBet": 10,
+        "result": -10
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 20,
+        "result": 10
+      },
+      {
+        "spin": 12,
+        "number": "34",
+        "amountBet": 10,
+        "result": 5
+      },
+      {
+        "spin": 13,
+        "number": "3",
+        "amountBet": 10,
+        "result": 5
+      },
+      {
+        "spin": 14,
+        "number": "24",
+        "amountBet": 10,
+        "result": 5
+      },
+      {
+        "spin": 15,
+        "number": "33",
+        "amountBet": 10,
+        "result": -10
+      },
+      {
+        "spin": 16,
+        "number": "33",
+        "amountBet": 20,
+        "result": -20
+      },
+      {
+        "spin": 17,
+        "number": "34",
+        "amountBet": 40,
+        "result": -40
+      },
+      {
+        "spin": 18,
+        "number": "15",
+        "amountBet": 80,
+        "result": 40
+      },
+      {
+        "spin": 19,
+        "number": "20",
+        "amountBet": 10,
+        "result": 5
+      },
+      {
+        "spin": 20,
+        "number": "0",
+        "amountBet": 10,
+        "result": -10
+      }
+    ]
+  },
+  {
+    "name": "Peach Cobbler",
+    "airDate": "2022-02-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Vjhpz1wSgj8",
+    "reviewUrl": "2022-02-26-Peach-Cobbler",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 1500,
+    "bets": [
+      180,
+      360,
+      720
+    ],
+    "rating": "b",
+    "jackaceRating": "a",
+    "notes": "Alex was up $895 at the end, but he should have been up $900. There is no payout that ends with anything but a zero.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "14",
+        "amountBet": 180,
+        "result": 180
+      },
+      {
+        "spin": 2,
+        "number": "10",
+        "amountBet": 180,
+        "result": 0
+      },
+      {
+        "spin": 3,
+        "number": "34",
+        "amountBet": 180,
+        "result": 180
+      },
+      {
+        "spin": 4,
+        "number": "16",
+        "amountBet": 180,
+        "result": 180
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 180,
+        "result": 0
+      },
+      {
+        "spin": 6,
+        "number": "17",
+        "amountBet": 180,
+        "result": 0
+      },
+      {
+        "spin": 7,
+        "number": "22",
+        "amountBet": 180,
+        "result": 0
+      },
+      {
+        "spin": 8,
+        "number": "5",
+        "amountBet": 180,
+        "result": 180
+      },
+      {
+        "spin": 9,
+        "number": "13",
+        "amountBet": 180,
+        "result": 0
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 180,
+        "result": -180
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 360,
+        "result": -360
+      },
+      {
+        "spin": 12,
+        "number": "25",
+        "amountBet": 720,
+        "result": 720
+      }
+    ]
+  },
+  {
+    "name": "Champion's Corner",
+    "airDate": "2022-02-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=VWsTVXND7nk",
+    "reviewUrl": "2022-02-25-Champions-Corner",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      450
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 450,
+        "result": 300
+      },
+      {
+        "spin": 3,
+        "number": "4",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 4,
+        "number": "16",
+        "amountBet": 450,
+        "result": -150
+      },
+      {
+        "spin": 5,
+        "number": "5",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 6,
+        "number": "33",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 7,
+        "number": "18",
+        "amountBet": 450,
+        "result": -150
+      },
+      {
+        "spin": 8,
+        "number": "14",
+        "amountBet": 450,
+        "result": -150
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 450,
+        "result": -150
+      },
+      {
+        "spin": 11,
+        "number": "4",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 12,
+        "number": "1",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 13,
+        "number": "33",
+        "amountBet": 450,
+        "result": 0
+      },
+      {
+        "spin": 14,
+        "number": "23",
+        "amountBet": 450,
+        "result": 300
+      }
+    ]
+  },
+  {
+    "name": "POOR MAN BIG DREAMS",
+    "airDate": "2022-02-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=PWsiza44ecU",
+    "reviewUrl": "2022-02-22-POOR-MAN-BIG-DREAMS",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 100,
+    "bets": [
+      50
+    ],
+    "friendCount": 2,
+    "rating": "d",
+    "jackaceRating": "c",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "22",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "8",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "29",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "26",
+        "amountBet": 50,
+        "result": 10,
+        "notes": "Alex shifted the double-street bets down to expose 1-6 for this spin."
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "4",
+        "amountBet": 50,
+        "result": -50,
+        "notes": "Alex kept the shift on, so the number 4 was exposed."
+      },
+      {
+        "friend": 1,
+        "spin": 6,
+        "number": "4",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 1,
+        "spin": 7,
+        "number": "8",
+        "amountBet": 50,
+        "result": -50,
+        "notes": "Alex went with betting scheme #2 with the straight-up, split, street, corner, and double-street bets for this spin."
+      },
+      {
+        "friend": 1,
+        "spin": 8,
+        "number": "34",
+        "amountBet": 50,
+        "result": -50
+      },
+      {
+        "friend": 2,
+        "spin": 9,
+        "number": "14",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "26",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "20",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "16",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 2,
+        "spin": 13,
+        "number": "4",
+        "amountBet": 50,
+        "result": 10
+      },
+      {
+        "friend": 2,
+        "spin": 14,
+        "number": "35",
+        "amountBet": 50,
+        "result": -50
+      },
+      {
+        "friend": 2,
+        "spin": 15,
+        "number": "26",
+        "amountBet": 50,
+        "result": -50,
+        "notes": "Alex deviates from the system and just starts betting with config #2 here. They also bought in for more a few times."
+      },
+      {
+        "friend": 2,
+        "spin": 16,
+        "number": "12",
+        "amountBet": 50,
+        "result": -50
+      },
+      {
+        "friend": 2,
+        "spin": 17,
+        "number": "30",
+        "amountBet": 50,
+        "result": 10,
+        "notes": "Alex hit a double-street here."
+      },
+      {
+        "friend": 2,
+        "spin": 18,
+        "number": "35",
+        "amountBet": 50,
+        "result": -50
+      },
+      {
+        "friend": 2,
+        "spin": 19,
+        "number": "30",
+        "amountBet": 60,
+        "result": -60
+      }
+    ]
+  },
+  {
+    "name": "EZ MOJO",
+    "airDate": "2022-02-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Jqmh1HEHqko",
+    "reviewUrl": "2022-02-21-EZ-MOJO",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      150
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "Make a 'ghost' spin and pick the opposite color for the middle dozen. They spun black, so they chose red for the middle section and then alternate between red/black on every spin.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "22",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 2,
+        "number": "28",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 3,
+        "number": "28",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 150,
+        "result": -150
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 9,
+        "number": "24",
+        "amountBet": 150,
+        "result": -150
+      },
+      {
+        "spin": 10,
+        "number": "33",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 150,
+        "result": -150
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 13,
+        "number": "13",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 14,
+        "number": "13",
+        "amountBet": 150,
+        "result": -150
+      },
+      {
+        "spin": 15,
+        "number": "5",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 16,
+        "number": "36",
+        "amountBet": 150,
+        "result": 30
+      }
+    ]
+  },
+  {
     "name": "Self Assessment",
     "airDate": "2022-02-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=GpokzbCbfzo",

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Does 'Running It Twice' Affect Your Odds in Poker?"
-date: 2022-02-02 00:01:01 -0800
+date: 2022-03-04 00:01:02 -0800
 author: Jack Hayes
 tags: [poker,running it twice]
 excerpt_image: "/assets/img/posts/2022-02-02/00-title-800x399.jpg"
@@ -13,7 +13,7 @@ math: true
 
 <img src="{{site.baseurl}}{{page.excerpt_image}}" class="excerpt-image" />
 <p>
-    Around 2006, an option for "Running it Twice" started to become popular on televised
+    Around 2006, an option for <i>"Running it Twice"</i> started to become popular on televised
     Poker cash games. It was becoming a regular occurrence on the show <i>High Stakes Poker</i> on GSN
     and several other cash game shows.
 </p>
@@ -36,7 +36,7 @@ math: true
     players. 
 </p>
 
-<h3>What about Running it 3 or 4 or even 44 Times?</h3>
+<h3>What about Running it 3...4...or even 44 Times?</h3>
 <p>
     You can "run it" multiple times. Each time you run it, the pot shares become smaller and 
     smaller, and it becomes more likely that the underdog will get at least <i>some</i> of his money
@@ -77,42 +77,47 @@ math: true
     I think the best way to illustrate that the EV remains the same is to look at the case
     where the underdog has a one-outer with just the River to come.
 </p>
-<div class="poker-felt">
-    <div class="poker-row">
-        <div class="poker-hand">
-            <div class="poker-hand-title">
-                Favorite
+
+<figure>
+    <div class="poker-felt">
+        <div class="poker-row">
+            <div class="poker-hand">
+                <div class="poker-hand-title">
+                    Favorite
+                </div>
+                {%- include card.html card="Ah" class="card-lg" -%}
+                {%- include card.html card="Kh" class="card-lg" -%}
             </div>
-            {%- include card.html card="Ah" class="card-lg" -%}
-            {%- include card.html card="Kh" class="card-lg" -%}
+            <div class="poker-hand">
+                <div class="poker-hand-title">
+                    Underdog
+                </div>
+                {%- include card.html card="3h" class="card-lg" -%}
+                {%- include card.html card="2h" class="card-lg" -%}
+            </div>
         </div>
-        <div class="poker-hand">
-            <div class="poker-hand-title">
-                Underdog
+        <div class="poker-row">
+            <div class="poker-hand">
+                <div class="poker-hand-title">
+                    Board
+                </div>
+                {%- include card.html card="4h" class="card-lg" -%}
+                {%- include card.html card="5h" class="card-lg" -%}
+                {%- include card.html card="9c" class="card-lg" -%}
+                {%- include card.html card="Jh" class="card-lg" -%}
             </div>
-            {%- include card.html card="3h" class="card-lg" -%}
-            {%- include card.html card="2h" class="card-lg" -%}
         </div>
     </div>
-    <div class="poker-row">
-        <div class="poker-hand">
-            <div class="poker-hand-title">
-                Board
-            </div>
-            {%- include card.html card="4h" class="card-lg" -%}
-            {%- include card.html card="5h" class="card-lg" -%}
-            {%- include card.html card="9c" class="card-lg" -%}
-            {%- include card.html card="Jh" class="card-lg" -%}
-        </div>
-    </div>
-</div>
-<p>
-    Here, the Favorite has the nut-flush and the Underdog is drawing to a 
-    {% include card.html card="6h" showImage=false %}.
-</p>
+    <figcaption>
+        In this example, the Favorite has the nut-flush and the Underdog is drawing to
+        the chance 
+        {% include card.html card="6h" showImage=false %}.
+    </figcaption>
+</figure>
+
 <p>
     There are 44 unknown cards and only 1 card will make the underdog a winner.
-    If the post were $44, then he'd have an EV of $1.
+    If the pot were $44, then he'd have an EV of $1.
 </p>
 <p>
     <i>So let's run it 44 times!</i>
@@ -127,106 +132,109 @@ math: true
     {% include card.html card="6h" showImage=false %}, netting him $1 and awarding the favorite
     $43.
 </p>
-<h3>What about Multiple Outs?</h3>
+<h3>Multiple Outs on the River</h3>
 <p>
-    And the same is true for any number of outs with just the River to come. If
+    The same is true for any number of outs with just the River to come. If
     the dog is drawing to a flush against the favorite's top pair, we'd be looking
     at 9 outs.
 </p>
-<div class="poker-felt">
-    <div class="poker-row">
-        <div class="poker-hand">
-            <div class="poker-hand-title">
-                Favorite
+
+<figure>
+    <div class="poker-felt">
+        <div class="poker-row">
+            <div class="poker-hand">
+                <div class="poker-hand-title">
+                    Favorite
+                </div>
+                {%- include card.html card="As" class="card-lg" -%}
+                {%- include card.html card="Kc" class="card-lg" -%}
             </div>
-            {%- include card.html card="As" class="card-lg" -%}
-            {%- include card.html card="Kc" class="card-lg" -%}
+            <div class="poker-hand">
+                <div class="poker-hand-title">
+                    Underdog
+                </div>
+                {%- include card.html card="Jh" class="card-lg" -%}
+                {%- include card.html card="8h" class="card-lg" -%}
+            </div>
         </div>
-        <div class="poker-hand">
-            <div class="poker-hand-title">
-                Underdog
+        <div class="poker-row">
+            <div class="poker-hand">
+                <div class="poker-hand-title">
+                    Board
+                </div>
+                {%- include card.html card="4h" class="card-lg" -%}
+                {%- include card.html card="5h" class="card-lg" -%}
+                {%- include card.html card="Ac" class="card-lg" -%}
+                {%- include card.html card="Ts" class="card-lg" -%}
             </div>
-            {%- include card.html card="Jh" class="card-lg" -%}
-            {%- include card.html card="8h" class="card-lg" -%}
+        </div>
+        <div class="poker-row">
+            <div class="poker-hand">
+                <div class="poker-hand-title">
+                    Win
+                </div>
+                {%- include card.html card="Ah" showImage=false -%}
+                {%- include card.html card="Kh" showImage=false -%}
+                {%- include card.html card="Qh" showImage=false -%}
+                {%- include card.html card="Th" showImage=false -%}
+                {%- include card.html card="9h" showImage=false -%}
+                {%- include card.html card="7h" showImage=false -%}
+                {%- include card.html card="6h" showImage=false -%}
+                {%- include card.html card="3h" showImage=false -%}
+                {%- include card.html card="2h" showImage=false -%}
+            </div>
+            <div class="poker-hand">
+                <div class="poker-hand-title">
+                    Lose
+                </div>
+                {%- include card.html card="Ks" showImage=false -%}
+                {%- include card.html card="Qs" showImage=false -%}
+                {%- include card.html card="Js" showImage=false -%}
+                {%- include card.html card="9s" showImage=false -%}
+                {%- include card.html card="8s" showImage=false -%}
+                {%- include card.html card="7s" showImage=false -%}
+                {%- include card.html card="6s" showImage=false -%}
+                {%- include card.html card="5s" showImage=false -%}
+                {%- include card.html card="4s" showImage=false -%}
+                {%- include card.html card="3s" showImage=false -%}
+                {%- include card.html card="2s" showImage=false -%}<br/>
+                {%- include card.html card="Ad" showImage=false -%}
+                {%- include card.html card="Kd" showImage=false -%}
+                {%- include card.html card="Qd" showImage=false -%}
+                {%- include card.html card="Jd" showImage=false -%}
+                {%- include card.html card="Td" showImage=false -%}
+                {%- include card.html card="9d" showImage=false -%}
+                {%- include card.html card="8d" showImage=false -%}
+                {%- include card.html card="7d" showImage=false -%}
+                {%- include card.html card="6d" showImage=false -%}
+                {%- include card.html card="5d" showImage=false -%}
+                {%- include card.html card="4d" showImage=false -%}
+                {%- include card.html card="3d" showImage=false -%}
+                {%- include card.html card="2d" showImage=false -%}<br/>
+                {%- include card.html card="Qc" showImage=false -%}
+                {%- include card.html card="Jc" showImage=false -%}
+                {%- include card.html card="Tc" showImage=false -%}
+                {%- include card.html card="9c" showImage=false -%}
+                {%- include card.html card="8c" showImage=false -%}
+                {%- include card.html card="7c" showImage=false -%}
+                {%- include card.html card="6c" showImage=false -%}
+                {%- include card.html card="5c" showImage=false -%}
+                {%- include card.html card="4c" showImage=false -%}
+                {%- include card.html card="3c" showImage=false -%}
+                {%- include card.html card="2c" showImage=false -%}
+            </div>
         </div>
     </div>
-    <div class="poker-row">
-        <div class="poker-hand">
-            <div class="poker-hand-title">
-                Board
-            </div>
-            {%- include card.html card="4h" class="card-lg" -%}
-            {%- include card.html card="5h" class="card-lg" -%}
-            {%- include card.html card="Ac" class="card-lg" -%}
-            {%- include card.html card="Ts" class="card-lg" -%}
-        </div>
-    </div>
-    <div class="poker-row">
-        <div class="poker-hand">
-            <div class="poker-hand-title">
-                Win
-            </div>
-            {%- include card.html card="Ah" showImage=false -%}
-            {%- include card.html card="Kh" showImage=false -%}
-            {%- include card.html card="Qh" showImage=false -%}
-            {%- include card.html card="Th" showImage=false -%}
-            {%- include card.html card="9h" showImage=false -%}
-            {%- include card.html card="7h" showImage=false -%}
-            {%- include card.html card="6h" showImage=false -%}
-            {%- include card.html card="3h" showImage=false -%}
-            {%- include card.html card="2h" showImage=false -%}
-        </div>
-        <div class="poker-hand">
-            <div class="poker-hand-title">
-                Lose
-            </div>
-            {%- include card.html card="Ks" showImage=false -%}
-            {%- include card.html card="Qs" showImage=false -%}
-            {%- include card.html card="Js" showImage=false -%}
-            {%- include card.html card="9s" showImage=false -%}
-            {%- include card.html card="8s" showImage=false -%}
-            {%- include card.html card="7s" showImage=false -%}
-            {%- include card.html card="6s" showImage=false -%}
-            {%- include card.html card="5s" showImage=false -%}
-            {%- include card.html card="4s" showImage=false -%}
-            {%- include card.html card="3s" showImage=false -%}
-            {%- include card.html card="2s" showImage=false -%}<br/>
-            {%- include card.html card="Ad" showImage=false -%}
-            {%- include card.html card="Kd" showImage=false -%}
-            {%- include card.html card="Qd" showImage=false -%}
-            {%- include card.html card="Jd" showImage=false -%}
-            {%- include card.html card="Td" showImage=false -%}
-            {%- include card.html card="9d" showImage=false -%}
-            {%- include card.html card="8d" showImage=false -%}
-            {%- include card.html card="7d" showImage=false -%}
-            {%- include card.html card="6d" showImage=false -%}
-            {%- include card.html card="5d" showImage=false -%}
-            {%- include card.html card="4d" showImage=false -%}
-            {%- include card.html card="3d" showImage=false -%}
-            {%- include card.html card="2d" showImage=false -%}<br/>
-            {%- include card.html card="Qc" showImage=false -%}
-            {%- include card.html card="Jc" showImage=false -%}
-            {%- include card.html card="Tc" showImage=false -%}
-            {%- include card.html card="9c" showImage=false -%}
-            {%- include card.html card="8c" showImage=false -%}
-            {%- include card.html card="7c" showImage=false -%}
-            {%- include card.html card="6c" showImage=false -%}
-            {%- include card.html card="5c" showImage=false -%}
-            {%- include card.html card="4c" showImage=false -%}
-            {%- include card.html card="3c" showImage=false -%}
-            {%- include card.html card="2c" showImage=false -%}
-        </div>
-    </div>
-</div>
-<p>
-    In our $44 pot situation, his EV would be $9, and if we ran it 44 times,
-    he'd get back exactly that.
-</p>
+    <figcaption>
+        In our $44 pot situation, the Underdog's EV is $9, and if we ran it 44 times,
+        he'd get back exactly that.
+    </figcaption>
+</figure>
 <p>
     It's pretty easy to see that if you run it 44 times, exhausting all undealt cards, then
     your number of outs will be exactly the number of mini-pots that you will win. So 2 outs
     means that you'll get 2/44 of the pot. 3 outs means 3/44. And if your opponent is drawing
-    dead, then you'll win all 44 pots -- But more importantly, why the hell would you waste the
+    dead, then you'll win all 44 pots -- But more importantly, why the Hell would you waste the
     dealer's time if he's drawing dead?
 </p>
 <p>
@@ -253,7 +261,7 @@ math: true
     receive will be halved.
 </p>
 <div class="infobox-info">
-    One funny observation about running it twice with a one-outer is that if you end up getting
+    One observation about running it twice with a one-outer is that if you end up getting
     what you want and you win one of the two hands, there's a 50% chance you'll be upset
     because you would have taken the whole pot on the first River if you just ran it once.
 </div>
@@ -290,9 +298,9 @@ math: true
     \begin{align}
     EV_{2{\text -}outer} & = { { P_{W1} \times P_{L2} } \over 2 } + { { P_{L1} \times P_{W2} } \over 2 } + { P_{W1} \times P_{W2} }\\
     \\
-    & = { { {2 \over 44 } \times {42 \over 43} } \over 2 } + { { {42 \over 44} \times {2 \over 43} } \over 2 } + { {2 \over 44 } \times {1 \over 43} }\\
+    & = { { {2 \over 44 } \times {42 \over 43} } \over 2 } + { { {42 \over 44} \times {2 \over 43} } \over 2 } + [ { {2 \over 44 } \times {1 \over 43} } ] \\
     \\
-    & = { { { { 2 \times 41 } \over { 44 \times 43 } } } \over 2 } + { { { { 42 \times 2 } \over { 44 \times 43} } } \over 2 } + {2 \over { 44 \times 43 } }\\
+    & = { { { { 2 \times 42 } \over { 44 \times 43 } } } \over 2 } + { { { { 42 \times 2 } \over { 44 \times 43} } } \over 2 } + {2 \over { 44 \times 43 } }\\
     \\
     & = { { 2 \times { { 2 \times 42 } \over { 44 \times 43 } } } \over 2 } + {2 \over { 44 \times 43 } } \\
     \\
@@ -386,3 +394,5 @@ math: true
 <pre>
     Sum[(k/n)*C(n, k)*[ (P(z, k) * P(44-z, n-k))/P(44, n) ],{k,1,n}]
 </pre>
+
+{%- include venn-badge.html isGambling=true isMath=true -%}

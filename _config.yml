@@ -46,6 +46,9 @@ page_group_size: 5 # number of pages to group by in the pagination.
 paginate_path: "/archive/page/:num"
 category_dir: categories
 
+font-awesome:
+  assets: true
+
 # Build settings
 markdown: kramdown
 kramdown:

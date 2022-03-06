@@ -1,7 +1,7 @@
 {%- assign number = include.number | times: 1 -%}
 {%- assign places = include.places | default: 0 -%}
 
-{%- assign number = number | plus: 0.0000001 -%}
+{%- assign number = number | plus: 0.001 -%}
 {%- assign parts = number | split: "." -%}
 {%- assign integerPart = parts[0] | times: 1 -%}
 {%- assign integerLength = integerPart | append: "" | size -%}

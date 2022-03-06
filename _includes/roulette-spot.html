@@ -7,13 +7,13 @@
 {%- assign spotSuffix = "b" -%}
 {%- assign spotColor = "Black" -%}
 
-{% if isGreenSpot.size == 1 %}
+{%- if isGreenSpot.size == 1 -%}
     {%- assign spotSuffix = "g" -%}
     {%- assign spotColor = "Green" -%}
-{% elsif isRedSpot.size == 1 %}
+{%- elsif isRedSpot.size == 1 -%}
     {%- assign spotSuffix = "r" -%}
     {%- assign spotColor = "Red" -%}
-{% endif %}
+{%- endif -%}
 
 {%- assign imageUrl = site.baseurl -%}
 {%- assign imageUrl = imageUrl | append: "/assets/img/roulette/" -%}
@@ -22,5 +22,4 @@
 {%- assign imageUrl = imageUrl | append: spotSuffix -%}
 {%- assign imageUrl = imageUrl | append: ".svg" -%}
 {%- assign imageTitle = include.number | append: " " | append: spotColor -%}
-
 <img src="{{- imageUrl -}}" class="{{- cssClass -}}" alt="{{- imageTitle -}}" title="{{- imageTitle -}}" />

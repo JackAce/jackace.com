@@ -206,6 +206,7 @@ layout: page-no-sidebar
         {%- assign estimatedEV = currentBet | times: -0.0526 -%}
         {%- assign currentEV = row["ev"] | default: estimatedEV | times: 1 -%}
         {%- assign groupEV = groupEV | plus: currentEV | times: 1 -%}
+        {%- assign betPlusResult = currentBet | plus: currentResult  -%}
       
         {%- assign spinNumber = row["number"] -%}
 
@@ -221,6 +222,11 @@ layout: page-no-sidebar
           </td>
           <td class="cell-center">
             {% include win-loss-amount.html amount=currentResult %}
+            {%- if currentBet > 0 -%}
+              {%- if betPlusResult == 0 -%}
+                <div class="amt-bad">WHACK</div>
+              {%- endif -%}
+            {%- endif -%}
           </td>
           <td class="cell-center">
             ${%- include format-number.html number=currentBet -%}
