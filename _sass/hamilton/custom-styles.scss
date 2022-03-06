@@ -18,26 +18,25 @@ b, i {
     color: #aaedf8;
 }
 figure {
-    img {
-        margin-left: auto;
-        margin-right: auto;
-    }
     figcaption {
         margin-top: 2px;
         color: #666;
         font-style: italic;
-        text-align: center;
         .roulette-spot {
             width: 28px;
             height: 18px;
         }
     }
 }
+
 blockquote {
     footer {
         text-align: right;
     }
 }
+
+// --------------------------------------------------
+// Hamilton theme overrides
 
 .post-content {
     h1, h2, h3, h4, h5, h6 {
@@ -47,13 +46,15 @@ blockquote {
 .post-title {
     font-family: 'Roboto Slab', 'Noto Serif SC', 'Noto Serif TC';
 }
-
 .copyright {
     font-size: 10px;
 }
 .excerpt-image {
     padding-bottom: 20px;
 }
+
+// --------------------------------------------------
+// Generic site-wide classes
 
 .small {
     font-size: 10px;
@@ -98,6 +99,26 @@ blockquote {
     font-size: 16px;
 }
 
+figure.figure-condensed {
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    figcaption {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        .roulette-spot {
+            width: 28px;
+            height: 18px;
+        }
+    }
+}
+
+// --------------------------------------------------
+// Infobox classes (WIP)
+
 div.infobox-info, div.infobox-success, div.infobox-warning, div.infobox-error {
     border: 1px solid;
     margin: 10px 0px;
@@ -125,12 +146,18 @@ div.infobox-error {
     background-color: #FFBABA;
 }
 
+// --------------------------------------------------
+
 .more-link {
     font-size: 12px;
     background: none;
     border: solid 1px #2d3339;
     padding: 6px 10px;
 }
+
+// --------------------------------------------------
+// Glossary tool tip classes
+
 .glossary-term {
     position: relative;
     display: inline-block;
@@ -140,8 +167,8 @@ div.infobox-error {
 .glossary-term .tooltiptext {
     visibility: hidden;
     width: 200px;
-    background-color: #333;
-    color: #ff0;
+    background-color: rgb(17, 91, 104);
+    color: rgb(255, 255, 255);
     font-size: 14px;
     text-align: left;
     padding: 10px;
@@ -172,6 +199,9 @@ div.infobox-error {
     visibility: visible;
     opacity: 1;
 }
+
+// --------------------------------------------------
+// JackAce gambling classes
 
 .roulette-spot {
     width: 42px;
@@ -250,6 +280,9 @@ div.infobox-error {
     height: 128px;
     margin: 2px;
 }
+
+// --------------------------------------------------
+// Table classes
 
 .strategy-table {
     font-size: 16px;
