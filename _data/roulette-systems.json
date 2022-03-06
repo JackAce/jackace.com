@@ -1,5 +1,113 @@
 [
   {
+    "name": "In a Clint Eastwood Accent",
+    "airDate": "2022-03-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Sgl7oOAoNWQ",
+    "reviewUrl": "2022-03-05-In-a-Clint-Eastwood-Accent",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 2600,
+    "bets": [
+      430
+    ],
+    "rating": "f",
+    "jackaceRating": "c",
+    "notes": "Alex gave this a DURIAN. Lauren gave it a plum.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "10",
+        "amountBet": 430,
+        "result": -430
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 430,
+        "result": 170
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 4,
+        "number": "34",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 430,  
+        "result": 170
+      },
+      {
+        "spin": 6,
+        "number": "27",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 430,  
+        "result": 650
+      },
+      {
+        "spin": 8,
+        "number": "4",
+        "amountBet": 430,  
+        "result": 170
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 10,
+        "number": "2",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 11,
+        "number": "36",
+        "amountBet": 430,  
+        "result": -430
+      },
+      {
+        "spin": 12,
+        "number": "29",
+        "amountBet": 430,  
+        "result": 170
+      },
+      {
+        "spin": 13,
+        "number": "6",
+        "amountBet": 430,  
+        "result": 170
+      },
+      {
+        "spin": 14,
+        "number": "4",
+        "amountBet": 430,  
+        "result": 170
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 430,  
+        "result": 1010
+      }
+    ]
+  },
+  {
     "name": "Residents of the Streets",
     "airDate": "2022-03-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=Qwb6Hr2DJdg",
