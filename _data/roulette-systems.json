@@ -1,5 +1,100 @@
 [
   {
+    "name": "Rack 'em & Stack 'em",
+    "airDate": "2022-03-07",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Rbmp0rzgKBA",
+    "reviewUrl": "2022-03-07-Rack-em-and-Stack-em",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1350,
+    "bets": [
+      350
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "notes": "Their total win was $110 (based on their final total), so I don't know how the math is so far off. There's a difference in $90 to their benefit. Even if you add the numbers of their displayed wins/losses, there's a delta of $10.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "10",
+        "amountBet": 350,
+        "result": -350,
+        "notes": "Marked as -$340"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 350,
+        "result": 100,
+        "notes": "Marked as +$110"
+      },
+      {
+        "spin": 3,
+        "number": "2",
+        "amountBet": 350,
+        "result": 10,
+        "notes": "Marked as +$20"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 350,
+        "result": 100,
+        "notes": "Marked as +$110"
+      },
+      {
+        "spin": 5,
+        "number": "10",
+        "amountBet": 350,
+        "result": -350,
+        "notes": "Marked as -$340"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 350,
+        "result": 10,
+        "notes": "Marked as +$20"
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 350,
+        "result": 100,
+        "notes": "Marked as +$110"
+      },
+      {
+        "spin": 8,
+        "number": "17",
+        "amountBet": 350,
+        "result": 550,
+        "notes": "Marked as +$560"
+      },
+      {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 350,
+        "result": 100,
+        "notes": "Marked as +$105"
+      },
+      {
+        "spin": 10,
+        "number": "22",
+        "amountBet": 350,
+        "result": -350,
+        "notes": "Marked as -$340"
+      },
+      {
+        "spin": 11,
+        "number": "21",
+        "amountBet": 350,
+        "result": 100,
+        "notes": "Marked as +$105"
+      }
+    ]
+  },
+  {
     "name": "In a Clint Eastwood Accent",
     "airDate": "2022-03-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=Sgl7oOAoNWQ",
