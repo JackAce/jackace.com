@@ -1,5 +1,173 @@
 [
   {
+    "name": "Go Big Green",
+    "airDate": "2022-03-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=aOcIHlLmb1E",
+    "reviewUrl": "2022-03-08-Go-Big-Green",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      85
+    ],
+    "rating": "f",
+    "jackaceRating": "c",
+    "notes": "I don't know why people think 0 and 00 are magical numbers. This system would perform the same as betting on 31 and 32 over time.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "1",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 85,
+        "result": -85
+      },
+      {
+        "spin": 3,
+        "number": "17",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 4,
+        "number": "17",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 5,
+        "number": "5",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 6,
+        "number": "6",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 7,
+        "number": "4",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 8,
+        "number": "26",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 7,
+        "number": "27",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 8,
+        "number": "21",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 9,
+        "number": "31",
+        "amountBet": 85,
+        "result": -85
+      },
+      {
+        "spin": 10,
+        "number": "21",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 11,
+        "number": "34",
+        "amountBet": 85,
+        "result": -85
+      },
+      {
+        "spin": 12,
+        "number": "22",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 13,
+        "number": "12",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 14,
+        "number": "5",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 16,
+        "number": "9",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 17,
+        "number": "8",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 18,
+        "number": "22",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 19,
+        "number": "27",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 20,
+        "number": "18",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 21,
+        "number": "1",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 22,
+        "number": "20",
+        "amountBet": 85,
+        "result": 5
+      },
+      {
+        "spin": 23,
+        "number": "12",
+        "amountBet": 85,
+        "result": 5
+      }
+    ]
+  },
+  {
     "name": "Rack 'em & Stack 'em",
     "airDate": "2022-03-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=Rbmp0rzgKBA",
