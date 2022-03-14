@@ -1,5 +1,114 @@
 [
   {
+    "name": "Hold the Line",
+    "airDate": "2022-03-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=VnLsCVl4mAA",
+    "reviewUrl": "2022-03-12-Hold-the-Line",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 5000,
+    "bets": [
+      30
+    ],
+    "rating": "",
+    "jackaceRating": "f",
+    "notes": "BETTING BOTH SIDES OF AN EVEN MONEY BET??? FUCK THAT SHIT. DURIAN. Many bets could not be decyphered because Alex was holding the printed email in front of the camera.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "21",
+        "amountBet": 30,
+        "result": 0
+      },
+      {
+        "spin": 2,
+        "number": "12",
+        "amountBet": 30,
+        "result": 10
+      },
+      {
+        "spin": 3,
+        "number": "6",
+        "amountBet": 30,
+        "result": 20
+      },
+      {
+        "spin": 4,
+        "number": "28",
+        "amountBet": 30,
+        "result": 0
+      },
+      {
+        "spin": 5,
+        "number": "10",
+        "amountBet": 30,
+        "result": -10
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 30,
+        "result": -30
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 30,
+        "result": 40
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 30,
+        "result": 0
+      },
+      {
+        "spin": 9,
+        "number": "26",
+        "amountBet": 30,
+        "result": -30
+      },
+      {
+        "spin": 10,
+        "number": "00",
+        "amountBet": 0,
+        "result": 0,
+        "notes": "No Spin (Single-Zero wheel assumed)"
+      },
+      {
+        "spin": 11,
+        "number": "32",
+        "amountBet": 30,
+        "result": -20
+      },
+      {
+        "spin": 12,
+        "number": "35",
+        "amountBet": 30,
+        "result": 0 
+      },
+      {
+        "spin": 13,
+        "number": "21",
+        "amountBet": 80,
+        "result": -80
+      },
+      {
+        "spin": 14,
+        "number": "34",
+        "amountBet": 160,
+        "result": -160
+      },
+      {
+        "spin": 15,
+        "number": "18",
+        "amountBet": 120,
+        "result": 120
+      }
+    ]
+  },
+  {
     "name": "Even Up (or Odds to Win)",
     "airDate": "2022-03-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=Us2XqddtmCs",
@@ -299,8 +408,8 @@
     "bets": [
       350
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "c",
+    "jackaceRating": "d",
     "notes": "Their total win was $110 (based on their final total), so I don't know how the math is so far off. There's a difference in $90 to their benefit. Even if you add the numbers of their displayed wins/losses, there's a delta of $10.",
     "spins": [
       {
