@@ -1,5 +1,168 @@
 [
   {
+    "name": "Italian Grinder",
+    "airDate": "2022-03-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=nFwEb-yULcg",
+    "reviewUrl": "2022-03-14-Italian-Grinder",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png",
+      "00-rba-4-800x440.png",
+      "00-rba-5-800x440.png",
+      "00-rba-6-800x440.png"
+    ],
+    "buyIn": 420,
+    "bets": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66,
+      99
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "notes": "Pick 10 numbers and increase your bet on a loss: 1, 2, 3, 4, 5, 6, 9, 12, 18 units. After the first spin, Lauren ",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "21",
+        "amountBet": 10,
+        "result": 26,
+        "notes": "Video marked this as +24 for some reason."
+      },
+      {
+        "spin": 2,
+        "number": "12",
+        "amountBet": 11,
+        "result": -11,
+        "notes": "Lauren bet $11 here on accident and the video said -$10."
+      },
+      {
+        "spin": 3,
+        "number": "00",
+        "amountBet": 22,
+        "result": 50,
+        "notes": "Lauren bet $22 here on accident and the video said +$52. She also mixed up the bets from the first spin."
+      },
+      {
+        "spin": 4,
+        "number": "25",
+        "amountBet": 11,
+        "result": -11,
+        "notes": "Lauren bet $11 here and the video said -$10."
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 22,
+        "result": 50,
+        "notes": "Lauren bet $22 here and the video said +$52."
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 11,
+        "result": -11,
+        "notes": "Lauren bet $11 here and the video said -$10."
+      },
+      {
+        "spin": 7,
+        "number": "13",
+        "amountBet": 22,
+        "result": -22,
+        "notes": "Lauren bet $22 here and the video said -$20."
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 33,
+        "result": -33,
+        "notes": "Lauren bet $33 here and the video said -$30."
+      },
+      {
+        "spin": 9,
+        "number": "21",
+        "amountBet": 44,
+        "result": 100,
+        "notes": "Lauren bet $44 here and the video said +$104."
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 11,
+        "result": -11,
+        "notes": "Lauren bet $11 here and the video said -$10."
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 22,
+        "result": -22,
+        "notes": "Lauren bet $22 here and the video said -$20."
+      },
+      {
+        "spin": 12,
+        "number": "14",
+        "amountBet": 33,
+        "result": 75,
+        "notes": "Lauren bet $33 here and the video said +$78."
+      },
+      {
+        "spin": 13,
+        "number": "12",
+        "amountBet": 11,
+        "result": -11,
+        "notes": "Lauren bet $11 here and the video said -$10."
+      },
+      {
+        "spin": 14,
+        "number": "9",
+        "amountBet": 22,
+        "result": -22,
+        "notes": "Lauren bet $22 here and the video said -$20."
+      },
+      {
+        "spin": 15,
+        "number": "29",
+        "amountBet": 33,
+        "result": -33,
+        "notes": "Lauren bet $33 here and the video said -$30."
+      },
+      {
+        "spin": 16,
+        "number": "33",
+        "amountBet": 44,
+        "result": -44,
+        "notes": "Lauren bet $44 here and the video said -$40."
+      },
+      {
+        "spin": 17,
+        "number": "33",
+        "amountBet": 55,
+        "result": -55,
+        "notes": "Lauren bet $55 here and the video said -$50."
+      },
+      {
+        "spin": 18,
+        "number": "7",
+        "amountBet": 66,
+        "result": -66,
+        "notes": "Lauren bet $66 here and the video said -$60."
+      },
+      {
+        "spin": 19,
+        "number": "2",
+        "amountBet": 99,
+        "result": 225,
+        "notes": "Lauren bet $99 here and the video said +$234."
+      }
+    ]
+  },
+  {
     "name": "Hold the Line",
     "airDate": "2022-03-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=VnLsCVl4mAA",
