@@ -1,5 +1,93 @@
 [
   {
+    "name": "Mid Night Tickler",
+    "airDate": "2022-03-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LObVWmPrvaM",
+    "reviewUrl": "2022-03-15-Mid-Night-Tickler",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      60,
+      120,
+      240
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "notes": "You could just bet $20 on each of the Double-Streets instead. Or just pick any even money bet.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "21",
+        "amountBet": 60,
+        "result": 60
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 60,
+        "result": -60
+      },
+      {
+        "spin": 3,
+        "number": "34",
+        "amountBet": 120,
+        "result": -120
+      },
+      {
+        "spin": 4,
+        "number": "11",
+        "amountBet": 240,
+        "result": 240
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 60,
+        "result": 60
+      },
+      {
+        "spin": 6,
+        "number": "8",
+        "amountBet": 60,
+        "result": 60
+      },
+      {
+        "spin": 7,
+        "number": "30",
+        "amountBet": 60,
+        "result": 60
+      },
+      {
+        "spin": 8,
+        "number": "33",
+        "amountBet": 60,
+        "result": -60
+      },
+      {
+        "spin": 9,
+        "number": "17",
+        "amountBet": 120,
+        "result": 120
+      },
+      {
+        "spin": 10,
+        "number": "00",
+        "amountBet": 60,
+        "result": -60
+      },
+      {
+        "spin": 11,
+        "number": "16",
+        "amountBet": 120,
+        "result": 120
+      }
+    ]
+  },
+  {
     "name": "Italian Grinder",
     "airDate": "2022-03-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=nFwEb-yULcg",
@@ -23,7 +111,7 @@
       66,
       99
     ],
-    "rating": "d",
+    "rating": "c",
     "jackaceRating": "d",
     "notes": "Pick 10 numbers and increase your bet on a loss: 1, 2, 3, 4, 5, 6, 9, 12, 18 units. After the first spin, Lauren ",
     "spins": [
