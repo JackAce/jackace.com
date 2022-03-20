@@ -1,5 +1,247 @@
 [
   {
+    "name": "No Lose Comp Collector",
+    "airDate": "2022-03-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=lZ9hef5rEuY",
+    "reviewUrl": "2022-03-19-No-Lose-Comp-Collector",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      350,
+      800
+    ],
+    "rating": "b",
+    "jackaceRating": "f",
+    "notes": "They should be down $800 at the end of the video, but somehow Alex only has $100 left (down $900).",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "15",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 2,
+        "number": "17",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 3,
+        "number": "23",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 4,
+        "number": "6",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 5,
+        "number": "31",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 7,
+        "number": "25",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 8,
+        "number": "7",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 9,
+        "number": "16",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 10,
+        "number": "6",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 12,
+        "number": "27",
+        "amountBet": 350,
+        "result": -170
+      },
+      {
+        "spin": 13,
+        "number": "16",
+        "amountBet": 800,
+        "result": 100
+      },
+      {
+        "spin": 14,
+        "number": "13",
+        "amountBet": 800,
+        "result": 100
+      },
+      {
+        "spin": 15,
+        "number": "8",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 16,
+        "number": "6",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 17,
+        "number": "13",
+        "amountBet": 350,
+        "result": 10
+      },
+      {
+        "spin": 18,
+        "number": "00",
+        "amountBet": 350,
+        "result": -170
+      },
+      {
+        "spin": 19,
+        "number": "30",
+        "amountBet": 800,
+        "result": -800
+      }
+    ]
+  },
+  {
+    "name": "Martin GB",
+    "airDate": "2022-03-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=x1o-yCqDrxI",
+    "reviewUrl": "2022-03-18-Martin-GB",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 4000,
+    "bets": [
+      120
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "notes": "Quit betting both sides of even money bets. WTF?",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "23",
+        "amountBet": 120,
+        "result": 0
+      },
+      {
+        "spin": 2,
+        "number": "6",
+        "amountBet": 155,
+        "result": 115
+      },
+      {
+        "spin": 3,
+        "number": "24",
+        "amountBet": 80,
+        "result": -80
+      },
+      {
+        "spin": 4,
+        "number": "18",
+        "amountBet": 160,
+        "result": -160
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 320,
+        "result": -320
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 640,
+        "result": -640
+      },
+      {
+        "spin": 7,
+        "number": "1",
+        "amountBet": 1280,
+        "result": 640
+      },
+      {
+        "spin": 8,
+        "number": "29",
+        "amountBet": 1280,
+        "result": 2560
+      },
+      {
+        "spin": 10,
+        "number": "15",
+        "amountBet": 120,
+        "result": 0
+      },
+      {
+        "spin": 11,
+        "number": "14",
+        "amountBet": 115,
+        "result": 5
+      },
+      {
+        "spin": 12,
+        "number": "30",
+        "amountBet": 180,
+        "result": 60
+      },
+      {
+        "spin": 13,
+        "number": "9",
+        "amountBet": 160,
+        "result": 80
+      },
+      {
+        "spin": 14,
+        "number": "29",
+        "amountBet": 160,
+        "result": -160
+      },
+      {
+        "spin": 15,
+        "number": "21",
+        "amountBet": 320,
+        "result": -320
+      },
+      {
+        "spin": 16,
+        "number": "4",
+        "amountBet": 640,
+        "result": 1280
+      }
+    ]
+  },
+  {
     "name": "Mid Night Tickler",
     "airDate": "2022-03-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=LObVWmPrvaM",
