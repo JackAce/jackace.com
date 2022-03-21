@@ -1,5 +1,117 @@
 [
   {
+    "name": "Up and Down the Street",
+    "airDate": "2022-03-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=aaX-JYz0iDA",
+    "reviewUrl": "2022-03-21-Up-and-Down-the-Street",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png",
+      "00-rba-4-800x440.png",
+      "00-rba-5-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      125,
+      150,
+      175,
+      200,
+      225,
+      250
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "notes": "Lauren gave this a Plum.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "6",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "spin": 2,
+        "number": "29",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 3,
+        "number": "29",
+        "amountBet": 175,
+        "result": -175
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "spin": 5,
+        "number": "1",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 6,
+        "number": "30",
+        "amountBet": 175,
+        "result": 35
+      },
+      {
+        "spin": 7,
+        "number": "35",
+        "amountBet": 200,
+        "result": 40
+      },
+      {
+        "spin": 8,
+        "number": "23",
+        "amountBet": 225,
+        "result": 45
+      },
+      {
+        "spin": 9,
+        "number": "6",
+        "amountBet": 225,
+        "result": 50
+      },
+      {
+        "spin": 10,
+        "number": "9",
+        "amountBet": 125,
+        "result": 25
+      },
+      {
+        "spin": 11,
+        "number": "16",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 12,
+        "number": "0",
+        "amountBet": 175,
+        "result": -175
+      },
+      {
+        "spin": 13,
+        "number": "2",
+        "amountBet": 125,
+        "result": -125
+      },
+      {
+        "spin": 14,
+        "number": "4",
+        "amountBet": 125,
+        "result": -125
+      }
+    ]
+  },
+  {
     "name": "No Lose Comp Collector",
     "airDate": "2022-03-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=lZ9hef5rEuY",
