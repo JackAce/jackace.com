@@ -1,5 +1,99 @@
 [
   {
+    "name": "Shapes and Parolee",
+    "airDate": "2022-03-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=YXka8zAlRL4",
+    "reviewUrl": "2022-03-22-Shapes-and-Parolee",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 2500,
+    "bets": [
+      135,
+      270,
+      540
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "In the first dozens, bet all the red except the 12. In the 2nd dozen, bet all the black. In the 3rd dozen, bet all the red.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "4",
+        "amountBet": 135,
+        "result": -135
+      },
+      {
+        "spin": 2,
+        "number": "22",
+        "amountBet": 135,
+        "result": 45
+      },
+      {
+        "spin": 3,
+        "number": "19",
+        "amountBet": 270,
+        "result": -270
+      },
+      {
+        "spin": 4,
+        "number": "3",
+        "amountBet": 270,
+        "result": 90,
+        "notes": "Video said +120 but it should have been +90."
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 540,
+        "result": 180,
+        "notes": "Video said +275, but it should have been +180."
+      },
+      {
+        "spin": 6,
+        "number": "18",
+        "amountBet": 540,
+        "result": -540,
+        "notes": "Video said -625, but it should have been -540."
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 540,
+        "result": 780,
+        "notes": "Video said +675, but it should have been +780."
+      },
+      {
+        "spin": 8,
+        "number": "5",
+        "amountBet": 135,
+        "result": 195,
+        "notes": "Video said +215, but it should have been +195."
+      },
+      {
+        "spin": 9,
+        "number": "21",
+        "amountBet": 270,
+        "result": -270
+      },
+      {
+        "spin": 10,
+        "number": "35",
+        "amountBet": 270,
+        "result": 30
+      },
+      {
+        "spin": 11,
+        "number": "34",
+        "amountBet": 270,
+        "result": 90,
+        "notes": "Video said +275, but it should have been +90"
+      }
+    ]
+  },
+  {
     "name": "Up and Down the Street",
     "airDate": "2022-03-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=aaX-JYz0iDA",
