@@ -27,6 +27,17 @@ function doubleUp() {
     updateUi();
 }
 
+function increment(value) {
+    $('input').each(function() {
+        if (this.type === 'text' && this.value) {
+            let currentValue = parseFloat(this.value);
+            this.value = currentValue + value;
+        }
+    });
+    
+    updateUi();
+}
+
 function distribute() {
     let straightUpAmounts = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     for (let i = 0; i < indexes.length; i++) {
