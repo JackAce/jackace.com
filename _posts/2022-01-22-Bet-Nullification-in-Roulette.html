@@ -219,13 +219,17 @@ math: true
     and
     {% include roulette-spot.html number="00" %}.
     When the
-    zeroes hit, you only lose <span class="amt-neg">$50</span> instead of the original
-    <span class="amt-neg">$95</span>.
+    zeroes hit, you only lose
+    {% include win-loss-amount.html amount=-50 %}
+    instead of the original
+    {% include win-loss-amount.html amount=-95 -%}.
 </p>
 <p>
     So, your expected loss per spin in the improved system is only \(-5.26\% \times $50\) or
-    <span class="amt-neg">-$2.63</span>, instead of \(-5.26\% \times $95\) or
-    <span class="amt-neg">-$5.00</span> with the original system.
+    {% include win-loss-amount.html amount=-2.63 places=2 -%},
+    instead of \(-5.26\% \times $95\) or
+    {% include win-loss-amount.html amount=-5 places=2 %}
+    with the original system.
 </p>
 <p>
     If you look at these bets and you're thinking that a casino won't let you bet these fractional amounts
