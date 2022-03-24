@@ -33,12 +33,12 @@ math: true
 <p>
     The trick is knowing that there is <i>NO</i> house advantage (a.k.a "house edge") in Roulette if we
     remove the zeroes
-    ({% include roulette-spot.html number="0" -%}
+    ({%- include roulette-spot.html number="0" %}
     and
     {% include roulette-spot.html number="00" -%}).
     That means that if you were to make the same bet multiple times until you've bet on all the numbers that
     aren't
-    {% include roulette-spot.html number="0" -%}
+    {% include roulette-spot.html number="0" %}
     or
     {% include roulette-spot.html number="00" -%},
     then your winning bet would be paid off by all of your losing bets, leaving you with no gain and no
@@ -81,7 +81,7 @@ math: true
     <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/roulette-02a-split-overlap-601x291.png" alt="Two Split bets that overlap and win when the 1 hits" />
     <figcaption>
         Two Split bets that overlap and both win when the
-        {% include roulette-spot.html number="1" -%}
+        {% include roulette-spot.html number="1" %}
         hits
     </figcaption>
 </figure>

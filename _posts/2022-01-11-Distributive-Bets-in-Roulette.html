@@ -60,10 +60,10 @@ published: true
 <p>
     If we look at the two sets of wagers above, we can easily see that hitting any number outside of
     {% include roulette-spot.html number="1" -%} -
-    {% include roulette-spot.html number="6" -%}
+    {% include roulette-spot.html number="6" %}
     will
     result in a <span class="amt-neg">$6</span> loss. But what happens when we hit a number between
-    {% include roulette-spot.html number="1" -%} and
+    {% include roulette-spot.html number="1" %} and
     {% include roulette-spot.html number="6" -%}?
 </p>
 <p>
@@ -157,16 +157,16 @@ published: true
     In order for two betting scenarios to be equivalent, their betting density must be equal for the covered
     area. For example, you can bet $6 on the
     {% include roulette-spot.html number="1" -%} -
-    {% include roulette-spot.html number="6" -%}
+    {% include roulette-spot.html number="6" %}
     Double Street, but that would have a different density
     compared to betting $3 on the 
     {% include roulette-spot.html number="1" -%},
     {% include roulette-spot.html number="2" -%},
     {% include roulette-spot.html number="4" -%},
-    {% include roulette-spot.html number="5" -%}
+    {% include roulette-spot.html number="5" %}
     Corner Bet in conjunction with a $3
     {% include roulette-spot.html number="3" -%},
-    {% include roulette-spot.html number="6" -%}
+    {% include roulette-spot.html number="6" %}
     Split Bet. This implies that the two betting schemes are not equivalent and will pay out
     differently when the numbers hit.
 </p>
