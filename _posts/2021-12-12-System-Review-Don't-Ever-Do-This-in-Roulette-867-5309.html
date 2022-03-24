@@ -44,7 +44,7 @@ math: true
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/8_b.svg" alt="8 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="8" -%}
         </td>
         <td class="cell-center">
             $10
@@ -55,7 +55,7 @@ math: true
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" alt="6 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="6" -%}
         </td>
         <td class="cell-center">
             $10
@@ -66,7 +66,7 @@ math: true
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/7_r.svg" alt="7 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="7" -%}
         </td>
         <td class="cell-center">
             $10
@@ -77,7 +77,7 @@ math: true
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/5_r.svg" alt="5 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="5" -%}
         </td>
         <td class="cell-center">
             $10
@@ -88,7 +88,7 @@ math: true
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" alt="3 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="3" -%}
         </td>
         <td class="cell-center">
             $10
@@ -99,7 +99,7 @@ math: true
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" alt="0 Green" class="roulette-spot" />
+            {% include roulette-spot.html number="0" -%}
         </td>
         <td class="cell-center">
             $10
@@ -110,7 +110,7 @@ math: true
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/9_r.svg" alt="9 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="9" -%}
         </td>
         <td class="cell-center">
             $15
@@ -195,214 +195,214 @@ math: true
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" alt="0 Green" class="roulette-spot" />
+            {% include roulette-spot.html number="0" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$110
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=110 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$15
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=15 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" alt="00 Green" class="roulette-spot" />
+            {% include roulette-spot.html number="00" -%}
         </td>
-        <td class="cell-center amt-neg">
-            -$250
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-250 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$15
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=15 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" alt="1 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="1" -%}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" alt="2 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="2" -%}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" alt="3 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="3" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" alt="4 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="4" -%}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/5_r.svg" alt="5 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="5" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" alt="6 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="6" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/7_r.svg" alt="7 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="7" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/8_b.svg" alt="8 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="8" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/9_r.svg" alt="9 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="9" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$305
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=305 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$305
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=305 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/10_b.svg" alt="10 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="10" -%}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/11_b.svg" alt="11 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="11" -%}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/12_r.svg" alt="12 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="12" -%}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/13_b.svg" alt="13 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="13" -%}
             through
-            <img src="{{site.baseurl}}/assets/img/roulette/36_r.svg" alt="36 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="36" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
 </table>
@@ -426,11 +426,16 @@ math: true
 </p>
 <p>
     This nullification is extremely easy to see. Just look at these three column bets and ignore the rest. Whenever you
-    hit <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" alt="1 Red" class="roulette-spot" />
-    through <img src="{{site.baseurl}}/assets/img/roulette/36_r.svg" alt="36 Red" class="roulette-spot" />, you will
+    hit
+    {% include roulette-spot.html number="1" -%}
+    through
+    {% include roulette-spot.html number="36" -%}, you will
     lose two of the column bets, but the winning column bet wins two units, resulting in a net gain of $0. But if
-    you spin a <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" alt="0 Green" class="roulette-spot" /> or
-    <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" alt="00 Green" class="roulette-spot" />, you will lose 
+    you spin a
+    {% include roulette-spot.html number="0" -%}
+    or
+    {% include roulette-spot.html number="00" -%},
+    you will lose 
     all three bets! This means that taken together, there is a \(36 \over 38\) chance that you win <i>nothing</i>, and a
     \(2 \over 38\) chance that you <b>LOSE ALL THREE BETS</b>!
 </p>
@@ -442,8 +447,11 @@ math: true
 </p>
 <p>
     I have eliminated these three bets in my modified system, and as you can see below, all payouts are the same with the
-    exception of <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" alt="0 Green" class="roulette-spot" /> and
-    <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" alt="00 Green" class="roulette-spot" />, which save you $15 when they hit.
+    exception of
+    {% include roulette-spot.html number="0" -%}
+    and
+    {% include roulette-spot.html number="00" -%},
+    which save you $15 when they hit.
 </p>
 
 <table class="betting-system-table">
@@ -477,14 +485,14 @@ math: true
         <td class="cell-center">
             1/38 (2.6%)
         </td>
-        <td class="cell-center amt-pos">
-            +$305
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=305 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$305
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=305 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
@@ -497,19 +505,20 @@ math: true
         <td class="cell-center">
             5/38 (13.2%)
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center amt-pos">
-            Mini-Jackpot (<img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" alt="0 Green" class="roulette-spot" />)
+            Mini-Jackpot
+            ({% include roulette-spot.html number="0" -%})
         </td>
         <td class="cell-center">
             1
@@ -517,14 +526,14 @@ math: true
         <td class="cell-center">
             1/38 (2.6%)
         </td>
-        <td class="cell-center amt-pos">
-            +$110
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=110 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$15
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=15 %}
         </td>
     </tr>
     <tr>
@@ -537,14 +546,14 @@ math: true
         <td class="cell-center">
             24/38 (63.1%)
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
@@ -557,19 +566,20 @@ math: true
         <td class="cell-center">
             6/38 (15.8%)
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-0">
-            -
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=0 %}
         </td>
     </tr>
     <tr>
         <td class="cell-center amt-neg">
-            WHACK (<img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" alt="00 Green" class="roulette-spot" />)
+            WHACK
+            ({% include roulette-spot.html number="00" -%})
         </td>
         <td class="cell-center">
             1
@@ -577,14 +587,14 @@ math: true
         <td class="cell-center">
             1/38 (2.6%)
         </td>
-        <td class="cell-center amt-neg">
-            -$250
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-250 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$15
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=15 %}
         </td>
     </tr>
     <tr>
@@ -613,14 +623,14 @@ math: true
         </td>
         <td class="cell-stats">
         </td>
-        <td class="cell-center cell-stats amt-neg">
-            -$13.15
+        <td class="cell-center cell-stats">
+            {% include win-loss-amount.html amount=-13.15 places=2 %}
         </td>
-        <td class="cell-center cell-stats amt-neg">
-            -$12.36
+        <td class="cell-center cell-stats">
+            {% include win-loss-amount.html amount=-12.36 places=2 %}
         </td>
-        <td class="cell-center cell-stats amt-pos">
-            +$0.79
+        <td class="cell-center cell-stats">
+            {% include win-loss-amount.html amount=0.79 places=2 %}
         </td>
     </tr>
 </table>
@@ -664,13 +674,13 @@ math: true
             1
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/34_r.svg" alt="34 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="34" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
         <td>
         </td>
@@ -680,17 +690,13 @@ math: true
             2
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/14_r.svg" alt="14 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="14" -%}
         </td>
         <td class="cell-center">
-            <div class="amt-pos">
-                +$5
-            </div>
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-pos">
-            <div class="amt-pos">
-                +$5
-            </div>
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
         <td>
         </td>
@@ -700,13 +706,13 @@ math: true
             3
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/34_r.svg" alt="34 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="34" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
         <td>
         </td>
@@ -716,13 +722,13 @@ math: true
             4
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/30_r.svg" alt="30 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="30" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
         <td>
         </td>
@@ -732,13 +738,13 @@ math: true
             5
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" alt="2 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="2" -%}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
         <td class="cell-center amt-neg">
             WHACK
@@ -749,13 +755,13 @@ math: true
             6
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" alt="4 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="4" -%}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
         <td class="cell-center amt-neg">
             WHACK
@@ -766,13 +772,13 @@ math: true
             7
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/23_r.svg" alt="23 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="23" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
         <td>
         </td>
@@ -782,13 +788,13 @@ math: true
             8
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/24_b.svg" alt="24 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="24" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
         <td>
         </td>
@@ -798,13 +804,13 @@ math: true
             9
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/8_b.svg" alt="8 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="8" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
         <td class="cell-center amt-pos">
             Mini Jackpot
@@ -815,13 +821,13 @@ math: true
             10
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" alt="3 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="3" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
         <td class="cell-center amt-pos">
             Mini Jackpot
@@ -832,13 +838,13 @@ math: true
             11
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/25_r.svg" alt="25 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="25" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
         <td>
         </td>
@@ -848,13 +854,13 @@ math: true
             12
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" alt="4 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="4" -%}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
-        <td class="cell-center amt-neg">
-            -$235
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-235 %}
         </td>
         <td class="cell-center amt-neg">
             WHACK
@@ -865,13 +871,13 @@ math: true
             13
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/23_r.svg" alt="23 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="23" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
         <td>
         </td>
@@ -881,13 +887,13 @@ math: true
             14
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/24_b.svg" alt="24 Black" class="roulette-spot" />
+            {% include roulette-spot.html number="24" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$5
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=5 %}
         </td>
         <td>
         </td>
@@ -897,13 +903,13 @@ math: true
             15
         </td>
         <td class="cell-center">
-            <img src="{{site.baseurl}}/assets/img/roulette/5_r.svg" alt="5 Red" class="roulette-spot" />
+            {% include roulette-spot.html number="5" -%}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
-        <td class="cell-center amt-pos">
-            +$125
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=125 %}
         </td>
         <td class="cell-center amt-pos">
             Mini Jackpot
@@ -915,11 +921,11 @@ math: true
         </td>
         <td class="cell-center cell-stats">
         </td>
-        <td class="cell-center cell-stats amt-neg">
-            -$285
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-285 %}
         </td>
-        <td class="cell-center cell-stats amt-neg">
-            -$285
+        <td class="cell-center">
+            {% include win-loss-amount.html amount=-285 %}
         </td>
         <td class="cell-stats">
         </td>
@@ -930,14 +936,14 @@ math: true
         </td>
         <td class="cell-center cell-stats">
         </td>
-        <td class="cell-center cell-stats amt-neg">
-            -$197.25
+        <td class="cell-center cell-stats">
+            {% include win-loss-amount.html amount=-197.25 places=2 %}
         </td>
-        <td class="cell-center cell-stats amt-neg">
-            -$185.42
+        <td class="cell-center cell-stats">
+            {% include win-loss-amount.html amount=-185.42 places=2 %}
         </td>
-        <td class="cell-center cell-stats amt-pos">
-            +$11.83
+        <td class="cell-center cell-stats">
+            {% include win-loss-amount.html amount=-11.83 places=2 %}
         </td>
     </tr>
 </table>

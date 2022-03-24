@@ -97,20 +97,20 @@ comments: true
     If you want to make Split, Corner, Street, Double-Street, or even the 5-number
     <i>Top Line</i> bet, you have to click in the area between the numbers. So if you want to bet on
     the
-    <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" class="roulette-spot" alt="4 Black" />
+    {% include roulette-spot.html number="4" %}
     to
-    <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />
+    {% include roulette-spot.html number="6" %}
     Street bet, you'd enter your bet between the 
-    <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" class="roulette-spot" alt="4 Black" />
+    {% include roulette-spot.html number="4" %}
     and the <i>1st Dozen</i> betting areas.
 </p>
 <figure>
     <img src="{{site.baseurl}}/assets/img/posts/2022-01-21/02-30-street-800x252.png" alt="$30 Street bet" />
     <figcaption>
         $30 bet on the 
-        <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" class="roulette-spot" alt="4 Black" />
+        {% include roulette-spot.html number="4" %}
         to
-        <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />
+        {% include roulette-spot.html number="6" %}
         Street
     </figcaption>
 </figure>
@@ -135,7 +135,10 @@ comments: true
     <img src="{{site.baseurl}}/assets/img/posts/2022-01-21/04-winloss-800x188.png" alt="Win/Loss per spot for the $180 bet on Red" />
     <figcaption>
         Win/Loss per spot for the $180 Red bet. Hitting Red results in a
-        <span class="amt-pos">$180</span> win. Black/Green results in a <span class="amt-neg">$180</span> loss.
+        {% include win-loss-amount.html amount=180 %}
+        win. Black/Green results in a
+        {% include win-loss-amount.html amount=180 %}
+        loss.
     </figcaption>
 </figure>
 <p>
@@ -145,12 +148,12 @@ comments: true
 </p>
 <p>
     If your original system tells you to bet $10 Straight-up on the numbers
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" />, 
-    <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />, and
-    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />,
+    {% include roulette-spot.html number="1" -%},
+    {% include roulette-spot.html number="2" -%}, and
+    {% include roulette-spot.html number="3" -%},
     you might consider betting $30 on the 
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> to 
-    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />
+    {% include roulette-spot.html number="1" %} to
+    {% include roulette-spot.html number="3" %},
     Street bet using the
     <a href="{{site.baseurl}}/blog/2022/01/11/Distributative-Bets-in-Roulette/">Distributive Property of Roulette Betting</a>.
     Checking the Win/Loss per spot with this tool will give you some reassurance that
@@ -211,8 +214,11 @@ comments: true
     If you <i>really</i> want to bet on these 5 numbers, you're better off betting on each of the
     numbers individually. For example, if you wanted to bet $36 on the 5-number bet, you could bet
     $7 on each of the numbers Straight-up instead. When you hit, you win
-    <span class="amt-pos">$217</span> instead of the $216 that you'd win for the 5-number bet. When
-    you miss, you lose <span class="amt-neg">$35</span> instead of $36. You'd be $1 ahead on every
+    {% include win-loss-amount.html amount=217 %}
+    instead of the $216 that you'd win for the 5-number bet. When
+    you miss, you lose
+    {% include win-loss-amount.html amount=35 %}
+    instead of $36. You'd be $1 ahead on every
     spin, win or lose. Want to check the math? Use this tool!
 </p>
 

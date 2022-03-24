@@ -35,14 +35,18 @@ math: true
     <img src="{{site.baseurl}}/assets/img/roulette/x18_black.svg" alt="Black" class="roulette-spot"/>
     and 94.7% of the time you'll end
     up with no gain and no loss. In this case, when the Roulette ball lands on any number between
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" alt="1 Red" class="roulette-spot"/>
-    and <img src="{{site.baseurl}}/assets/img/roulette/36_r.svg" alt="36 Red" class="roulette-spot"/>, your $100 winning bet
+    {% include roulette-spot.html number="1" %}
+    and
+    {% include roulette-spot.html number="36" -%},
+    your $100 winning bet
     will cancel out your $100 losing bet.
 </p>
 <p>
     But when you hit the
-    <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" alt="0 Green" class="roulette-spot"/>
-    or the <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" alt="00 Green" class="roulette-spot"/>, you'll
+    {% include roulette-spot.html number="0" %}
+    or the
+    {% include roulette-spot.html number="00" -%},
+    you'll
     lose <b>ALL $200</b>!
 </p>
 <figure class="figure-condensed">
@@ -172,8 +176,9 @@ math: true
     <figcaption>
         These are the win/loss results for every number. Pay close attention to the
         <span class="amt-neg">$95</span> loss on
-        <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" alt="0 Green" class="roulette-spot"/>
-        and <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" alt="00 Green" class="roulette-spot"/>.        
+        {% include roulette-spot.html number="0" %}
+        and
+        {% include roulette-spot.html number="00" -%}.
     </figcaption>
 </figure>
 <p>
@@ -198,17 +203,22 @@ math: true
     <img src="{{site.baseurl}}/assets/img/posts/2022-01-22/07-improved-win-loss-800x198.png" alt="Roulette Bets (Improved system)" />
     <figcaption>
         Every payout is exactly the same in the 
-        <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" alt="1 Red" class="roulette-spot"/>
-        to <img src="{{site.baseurl}}/assets/img/roulette/36_r.svg" alt="36 Red" class="roulette-spot"/>
+        {% include roulette-spot.html number="1" %}
+        to
+        {% include roulette-spot.html number="36" %}
         section of the layout, but you lose $45 less when you hit
-        <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" alt="0 Green" class="roulette-spot"/>
-        and <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" alt="00 Green" class="roulette-spot"/>.
+        {% include roulette-spot.html number="0" %}
+        and
+        {% include roulette-spot.html number="00" -%}.
     </figcaption>
 </figure>
 <p>
     So with this betting scheme, <i>EVERY SINGLE PAYOUT IS EXACTLY THE SAME AS THE ORIGINAL SYSTEM</i> - with the
-    exception of the losses on <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" alt="0 Green" class="roulette-spot"/>
-    and <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" alt="00 Green" class="roulette-spot"/>. When the
+    exception of the losses on
+    {% include roulette-spot.html number="0" %}
+    and
+    {% include roulette-spot.html number="00" %}.
+    When the
     zeroes hit, you only lose <span class="amt-neg">$50</span> instead of the original
     <span class="amt-neg">$95</span>.
 </p>
@@ -220,7 +230,7 @@ math: true
 <p>
     If you look at these bets and you're thinking that a casino won't let you bet these fractional amounts
     (like $2.08 on
-    <img src="{{site.baseurl}}/assets/img/roulette/5_r.svg" alt="5 Red" class="roulette-spot"/>), 
+    {% include roulette-spot.html number="5" -%},
     that's true. But it just so happens that we can rearrage all these bets and come up with the following bets that 
     a casino <i>will</i> allow (this is not always the case when removing nullified bets).
 </p>
