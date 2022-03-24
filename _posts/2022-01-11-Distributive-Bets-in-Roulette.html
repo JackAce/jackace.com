@@ -59,24 +59,26 @@ published: true
 <h3>Does this really work?</h3>
 <p>
     If we look at the two sets of wagers above, we can easily see that hitting any number outside of
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> -
-    <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />
+    {% include roulette-spot.html number="1" -%} -
+    {% include roulette-spot.html number="6" %}
     will
     result in a <span class="amt-neg">$6</span> loss. But what happens when we hit a number between
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> and
-    <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />?
+    {% include roulette-spot.html number="1" %} and
+    {% include roulette-spot.html number="6" -%}?
 </p>
 <p>
     With the single $6 Double Street bet, we win 5-to-1, for a net win of
-    <span class="amt-pos">$30</span>.
+    {% include win-loss-amount.html amount=30 -%}.
 </p>
 <p>
     With the six $1 Straight-up bets, we will lose five of the $1 bets, but one will win $35,
-    for a net win of <span class="amt-pos">$30</span>.
+    for a net win of
+    {% include win-loss-amount.html amount=30 -%}.
 </p>
 <p>
     So in <i>both</i> scenarios, we lose <span class="amt-neg">$6</span> when we miss and win
-    <span class="amt-pos">$30</span> when we hit.
+    {% include win-loss-amount.html amount=30 %}
+    when we hit.
 </p>
 <p>
     This property works with any combination of bets where the bets are all uniform.
@@ -93,11 +95,11 @@ published: true
 <p>
     The only bet where this property does not apply is the 5-number "Basket" bet, which is a bet on
     the numbers
-    <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" class="roulette-spot" alt="0 Green" />, 
-    <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" class="roulette-spot" alt="00 Green" />, 
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" />, 
-    <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />, and
-    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />.
+    {% include roulette-spot.html number="0" -%},
+    {% include roulette-spot.html number="00" -%},
+    {% include roulette-spot.html number="1" -%},
+    {% include roulette-spot.html number="2" -%}, and
+    {% include roulette-spot.html number="3" -%}.
 </p>
 
 <h2>Terminology</h2>
@@ -154,17 +156,17 @@ published: true
 <p>
     In order for two betting scenarios to be equivalent, their betting density must be equal for the covered
     area. For example, you can bet $6 on the
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> -
-    <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />
+    {% include roulette-spot.html number="1" -%} -
+    {% include roulette-spot.html number="6" %}
     Double Street, but that would have a different density
     compared to betting $3 on the 
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" />, 
-    <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />,
-    <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" class="roulette-spot" alt="4 Black" />,
-    <img src="{{site.baseurl}}/assets/img/roulette/5_r.svg" class="roulette-spot" alt="5 Red" />
+    {% include roulette-spot.html number="1" -%},
+    {% include roulette-spot.html number="2" -%},
+    {% include roulette-spot.html number="4" -%},
+    {% include roulette-spot.html number="5" %}
     Corner Bet in conjunction with a $3
-    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />, 
-    <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />
+    {% include roulette-spot.html number="3" -%},
+    {% include roulette-spot.html number="6" %}
     Split Bet. This implies that the two betting schemes are not equivalent and will pay out
     differently when the numbers hit.
 </p>
@@ -174,15 +176,18 @@ published: true
         For two betting schemes to be equivalent, their densities must be consistent. In this example,
         the $3 + $3 bets are unevenly spread out even though the total amout bet is the same. The
         overall payout will be higher if you hit the 
-        <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> or
-        <img src="{{site.baseurl}}/assets/img/roulette/4_b.svg" class="roulette-spot" alt="4 Black" />
-        (<span class="amt-pos">$48</span>) over hitting the 
-        <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />,
-        <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />, 
-        <img src="{{site.baseurl}}/assets/img/roulette/5_r.svg" class="roulette-spot" alt="5 Red" />, or
-        <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />,
-        (<span class="amt-pos">$21</span>).
-        With the $2 + $4 bets, the payout is consistently <span class="amt-pos">$30</span>, which is
+        {% include roulette-spot.html number="1" -%} or
+        {% include roulette-spot.html number="4" -%}
+        ({%- include win-loss-amount.html amount=48 -%})
+        over hitting the 
+        {% include roulette-spot.html number="2" -%},
+        {% include roulette-spot.html number="3" -%},
+        {% include roulette-spot.html number="5" -%}, or
+        {% include roulette-spot.html number="6" -%},
+        ({%- include win-loss-amount.html amount=21 -%}).
+        With the $2 + $4 bets, the payout is consistently
+        {%- include win-loss-amount.html amount=30 -%},
+        which is
         identical to the payout for the $6 Double Street bet.
     </figcaption>
 </figure>
@@ -271,10 +276,12 @@ published: true
             Even Money
         </td>
         <td class="cell-center">
-            1:1 = <span class="amt-pos">$18</span>
+            1:1 =
+            {% include win-loss-amount.html amount=18 %}
         </td>
         <td class="cell-center">
-            $35 - 17 = <span class="amt-pos">$18</span>
+            $35 - 17 =
+            {% include win-loss-amount.html amount=18 %}
         </td>
     </tr>
     <tr>
@@ -288,10 +295,12 @@ published: true
             Dozens/Columns
         </td>
         <td class="cell-center">
-            2:1 = <span class="amt-pos">$24</span>
+            2:1 =
+            {% include win-loss-amount.html amount=24 %}
         </td>
         <td class="cell-center">
-            $35 - 11 = <span class="amt-pos">$24</span>
+            $35 - 11 =
+            {% include win-loss-amount.html amount=24 %}
         </td>
     </tr>
     <tr>
@@ -305,10 +314,12 @@ published: true
             Double Streets
         </td>
         <td class="cell-center">
-            5:1 = <span class="amt-pos">$30</span>
+            5:1 =
+            {% include win-loss-amount.html amount=30 %}
         </td>
         <td class="cell-center">
-            $35 - 5 = <span class="amt-pos">$30</span>
+            $35 - 5 =
+            {% include win-loss-amount.html amount=30 %}
         </td>
     </tr>
     <tr>
@@ -322,10 +333,12 @@ published: true
             Corners
         </td>
         <td class="cell-center">
-            8:1 = <span class="amt-pos">$32</span>
+            8:1 =
+            {% include win-loss-amount.html amount=32 %}
         </td>
         <td class="cell-center">
-            $35 - 3 = <span class="amt-pos">$32</span>
+            $35 - 3 =
+            {% include win-loss-amount.html amount=32 %}
         </td>
     </tr>
     <tr>
@@ -339,10 +352,12 @@ published: true
             Streets
         </td>
         <td class="cell-center">
-            11:1 = <span class="amt-pos">$33</span>
+            11:1 =
+            {% include win-loss-amount.html amount=33 %}
         </td>
         <td class="cell-center">
-            $35 - 2 = <span class="amt-pos">$33</span>
+            $35 - 2 =
+            {% include win-loss-amount.html amount=33 %}
         </td>
     </tr>
     <tr>
@@ -356,10 +371,12 @@ published: true
             Splits
         </td>
         <td class="cell-center">
-            17:1 = <span class="amt-pos">$34</span>
+            17:1 =
+            {% include win-loss-amount.html amount=34 %}
         </td>
         <td class="cell-center">
-            $35 - 1 = <span class="amt-pos">$34</span>
+            $35 - 1 =
+            {% include win-loss-amount.html amount=34 %}
         </td>
     </tr>
     <tr>
@@ -373,10 +390,12 @@ published: true
             Straight-Up
         </td>
         <td class="cell-center">
-            35:1 = <span class="amt-pos">$35</span>
+            35:1 =
+            {% include win-loss-amount.html amount=35 %}
         </td>
         <td class="cell-center">
-            $35 - 0 = <span class="amt-pos">$35</span>
+            $35 - 0 =
+            {% include win-loss-amount.html amount=35 %}
         </td>
     </tr>
 </table>
@@ -437,11 +456,13 @@ published: true
 </figure>
 <p>
     Hitting one of the Corner bets in the original system pays $40, but you lose $25 in the other Corner
-    bets, for a net gain of <span class="amt-pos">$15</span>.
+    bets, for a net gain of
+    {% include win-loss-amount.html amount=15 -%}.
 </p>
 <p>
     Hitting one of the Column bets in the modified system pays $30, but you lose $15 on the other column
-    bet, for a net gain of <span class="amt-pos">$15</span>.
+    bet, for a net gain of
+    {% include win-loss-amount.html amount=15 -%}.
 </p>
 <p>
     With the two column bets, you've concentrated your bets to one small section of the field, instead of
@@ -473,14 +494,14 @@ published: true
 </p>
 <p>
     The $30
-    <img src="{{site.baseurl}}/assets/img/roulette/16_r.svg" class="roulette-spot" alt="16 Red" /> -
-    <img src="{{site.baseurl}}/assets/img/roulette/21_r.svg" class="roulette-spot" alt="21 Red" />
+    {% include roulette-spot.html number="16" -%} -
+    {% include roulette-spot.html number="21" %}
     Double Street bet can then be redistributed into
     two $15 Street bets. Then the four Street Bets in the middle ($10, $15, $15, and $10) can be
     consolidated by taking $10 of each bet and rolling it up into a single $40 bet on the 2nd Dozen,
     leaving two $5 Street Bets in the middle two Streets. These are finally rolled up into a $10
-    <img src="{{site.baseurl}}/assets/img/roulette/16_r.svg" class="roulette-spot" alt="16 Red" /> -
-    <img src="{{site.baseurl}}/assets/img/roulette/21_r.svg" class="roulette-spot" alt="21 Red" />
+    {% include roulette-spot.html number="16" -%} -
+    {% include roulette-spot.html number="21" %}
     Double Street bet, and we have reached our
     final form.
 </p>
@@ -493,13 +514,16 @@ published: true
 </figure>
 <p>
     If you check the payouts, you'll find that they are identical to the original system. You get paid
-    <span class="amt-pos">$10</span> for the
-    <img src="{{site.baseurl}}/assets/img/roulette/13_b.svg" class="roulette-spot" alt="13 Black" /> -
-    <img src="{{site.baseurl}}/assets/img/roulette/15_b.svg" class="roulette-spot" alt="15 Black" />
+    {% include win-loss-amount.html amount=10 %}
+    for the
+    {% include roulette-spot.html number="13" -%} -
+    {% include roulette-spot.html number="15" %}
     Street and the 
-    <img src="{{site.baseurl}}/assets/img/roulette/22_b.svg" class="roulette-spot" alt="22 Black" /> -
-    <img src="{{site.baseurl}}/assets/img/roulette/24_b.svg" class="roulette-spot" alt="24 Black" />
-    Street and <span class="amt-pos">$70</span> for the rest of the covered numbers.    
+    {% include roulette-spot.html number="22" -%} -
+    {% include roulette-spot.html number="24" %}
+    Street and
+    {% include win-loss-amount.html amount=70 %}
+    for the rest of the covered numbers.    
 </p>
 <p>
     We've saved ourselves some time and we've eliminated the awkward "reach-around"! This is what

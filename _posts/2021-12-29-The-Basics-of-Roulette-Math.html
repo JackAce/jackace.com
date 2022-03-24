@@ -33,11 +33,14 @@ math: true
 <p>
     The trick is knowing that there is <i>NO</i> house advantage (a.k.a "house edge") in Roulette if we
     remove the zeroes
-    (<img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" class="roulette-spot" alt="0 Green" /> 
-    and <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" class="roulette-spot" alt="00 Green" />).
+    ({%- include roulette-spot.html number="0" %}
+    and
+    {% include roulette-spot.html number="00" -%}).
     That means that if you were to make the same bet multiple times until you've bet on all the numbers that
-    aren't <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" class="roulette-spot" alt="0 Green" /> 
-    or <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" class="roulette-spot" alt="00 Green" />,
+    aren't
+    {% include roulette-spot.html number="0" %}
+    or
+    {% include roulette-spot.html number="00" -%},
     then your winning bet would be paid off by all of your losing bets, leaving you with no gain and no
     loss.
 </p>
@@ -76,7 +79,11 @@ math: true
 </p>
 <figure class="figure-condensed">
     <img src="{{site.baseurl}}/assets/img/posts/2021-12-29/roulette-02a-split-overlap-601x291.png" alt="Two Split bets that overlap and win when the 1 hits" />
-    <figcaption>Two Split bets that overlap and both win when the <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" /> hits</figcaption>
+    <figcaption>
+        Two Split bets that overlap and both win when the
+        {% include roulette-spot.html number="1" %}
+        hits
+    </figcaption>
 </figure>
 <p>
     The 17 losing bets will pay off the winning bet, so the 2-number bet pays 17 to 1.
@@ -103,10 +110,10 @@ math: true
 <p>
     There wouldn't be an issue with a casino allowing some type of "a-la-carte" 4-number bet where all four
     numbers were in a straight line (for example, if you could make a 4-number bet on the
-    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />,
-    <img src="{{site.baseurl}}/assets/img/roulette/6_b.svg" class="roulette-spot" alt="6 Black" />,
-    <img src="{{site.baseurl}}/assets/img/roulette/9_r.svg" class="roulette-spot" alt="9 Red" />, &amp;
-    <img src="{{site.baseurl}}/assets/img/roulette/12_r.svg" class="roulette-spot" alt="12 Red" />),
+    {% include roulette-spot.html number="3" -%},
+    {% include roulette-spot.html number="6" -%},
+    {% include roulette-spot.html number="9" -%}, &amp;
+    {% include roulette-spot.html number="12" -%},
     the problem is with the game's layout. There's no area on the felt where you could place a chip
     and it would unambiguously identify which 4 spots you wanted to bet on. It would most
     likely just look like you were trying to make a 2-number split bet.
@@ -122,12 +129,12 @@ math: true
 </figure>
 <p>
     We're going to skip this bet for now. The five-number "Basket" bet is only possible by betting on
-    <img src="{{site.baseurl}}/assets/img/roulette/0_g.svg" class="roulette-spot" alt="0 Green" /> ,
-    <img src="{{site.baseurl}}/assets/img/roulette/00_g.svg" class="roulette-spot" alt="00 Green" />,
-    <img src="{{site.baseurl}}/assets/img/roulette/1_r.svg" class="roulette-spot" alt="1 Red" />,
-    <img src="{{site.baseurl}}/assets/img/roulette/2_b.svg" class="roulette-spot" alt="2 Black" />, and
-    <img src="{{site.baseurl}}/assets/img/roulette/3_r.svg" class="roulette-spot" alt="3 Red" />, which
-    won't allow us to ignore the zeroes as we have been doing so far.
+    {% include roulette-spot.html number="0" -%},
+    {% include roulette-spot.html number="00" -%},
+    {% include roulette-spot.html number="1" -%},
+    {% include roulette-spot.html number="2" -%}, and
+    {% include roulette-spot.html number="3" -%},
+    which won't allow us to ignore the zeroes as we have been doing so far.
 </p>
 <p>
     It's also the only bet that <i>can't</i> evenly split the 36 number field (since 36 is not evenly divisible
