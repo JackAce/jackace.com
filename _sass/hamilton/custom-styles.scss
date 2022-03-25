@@ -18,6 +18,11 @@ b, i {
     color: #aaedf8;
 }
 figure {
+    img {
+        -webkit-filter: drop-shadow(3px 3px 6px #69c);
+        filter: drop-shadow(3px 3px 6px #69c);
+        padding: 5px;
+    }
     figcaption {
         margin-top: 2px;
         color: #666;
