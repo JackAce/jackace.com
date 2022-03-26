@@ -35,6 +35,9 @@ summary: "How does your Roulette system stack up against the competition?"
         Expected<br/>Loss
       </th>
       <th>
+        Comp<br>Value
+      </th>
+      <th>
         Actual<br/>Results
       </th>
       <th>
@@ -57,6 +60,7 @@ summary: "How does your Roulette system stack up against the competition?"
     {% for row in site.data.roulette-systems %}
       {%- assign systemBets = 0 -%}
       {%- assign systemExpectedLoss = 0.00 -%}
+      {%- assign systemCompValue = 0.00 -%}
       {%- assign systemWinLoss = 0 -%}
 
       {%- for spin in row.spins -%}
@@ -68,6 +72,7 @@ summary: "How does your Roulette system stack up against the competition?"
 
         {%- assign systemBets = systemBets | plus: bet -%}
         {%- assign systemExpectedLoss = systemExpectedLoss | plus: spinEvAmount -%}
+        {%- assign systemCompValue = systemExpectedLoss | times: -0.2 -%}
         {%- assign systemWinLoss = systemWinLoss | plus: spinResult -%}
 
       {%- endfor -%}
@@ -106,9 +111,7 @@ summary: "How does your Roulette system stack up against the competition?"
           {%- include chip-range.html amounts=bets -%}
         </td>
         <td>
-
           ${%- include format-number.html number=systemBets -%}
-
         </td>
         <td>
           {%- include win-loss-amount.html amount=systemExpectedLoss places=2 -%}
@@ -116,6 +119,9 @@ summary: "How does your Roulette system stack up against the competition?"
           {%- if evPercent < -5.261 or evPercent > -5.259 -%}
             <br/><i class="small">({{- evPercent | round: 2 -}}%)</i>
           {%- endif -%}
+        </td>
+        <td>
+          ${%- include format-number.html number=systemCompValue places=2 -%}
         </td>
         <td>
           {%- include win-loss-amount.html amount=systemWinLoss -%}
@@ -148,6 +154,9 @@ summary: "How does your Roulette system stack up against the competition?"
         Loss
       </th>
       <th>
+        &nbsp;
+      </th>
+      <th>
         Total<br/>
         Win/Loss
       </th>
@@ -173,6 +182,9 @@ summary: "How does your Roulette system stack up against the competition?"
       </td>
       <td>
         {%- include win-loss-amount.html amount=totalExpectedLoss places=2 -%}
+      </td>
+      <td>
+        &nbsp;
       </td>
       <td>
         {%- include win-loss-amount.html amount=totalLiveResults -%}

@@ -17,6 +17,7 @@ layout: page-no-sidebar
 <!-- Calculate totals BEGIN -->
 {%- assign totalAmountBet = 0.00 -%}
 {%- assign totalEV = 0.00 -%}
+{%- assign totalCompValue = 0.00 -%}
 {%- assign totalWinLoss = 0 -%}
 {% for row in system.spins %}
   {%- assign currentBet = row["amountBet"] | times: 1 -%}
@@ -28,6 +29,7 @@ layout: page-no-sidebar
   {%- assign totalWinLoss = totalWinLoss | plus: currentResult | times: 1 -%}
 {% endfor %}
 {%- assign totalAmountBet = totalAmountBet | floor -%}
+{%- assign totalCompValue = totalEV | times: -0.20 -%}
 
 <h1>
   <a href="{{site.baseurl}}/gambling/roulette/systems/">Roulette Systems</a>:
@@ -90,6 +92,14 @@ layout: page-no-sidebar
     </th>
     <td>
       {% include win-loss-amount.html amount=totalEV places=2 %}
+    </td>
+  </tr>
+  <tr>
+    <th>
+        Total Comp Value:
+    </th>
+    <td>
+      ${% include format-number.html number=totalCompValue places=2 %}
     </td>
   </tr>
   <tr>

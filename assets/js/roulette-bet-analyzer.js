@@ -228,16 +228,15 @@ function updateUi() {
     if (!showBasketBetWarning) {
         // Simple calculation of house advantage
         $('#totalExpectedValueDiv').text((- totalBet * 0.0526).toFixed(2));
+        $('#compValueDiv').text((totalBet * 0.0526 * 0.20).toFixed(2));
     } else {
         // Complicated calculation because of 5-number bet
+        // TODO: THIS SHOULD NOT UPDATE WHEN YOU DISMISS THE BASKET BET WARNING
         let otherBets = totalBet - basketBet;
         let totalLoss = 0.0526 * otherBets + 0.0789 * basketBet;
         $('#totalExpectedValueDiv').text((-totalLoss).toFixed(2));
+        $('#compValueDiv').text((totalLoss * 0.20).toFixed(2));
     }
-}
-
-function fixBets() {
-    
 }
 
 function parseBet(inputElement) {
