@@ -286,6 +286,10 @@ function getPayout(xType) {
 }
 
 function getCoveredNumbers(xType, identifier) {
+    if (xType === 'x3' && identifier === '0') {
+        // The 0-00-2 bet
+        return ['0', '00', '2']
+    }
     let parsedValue = parseInt(identifier);
     switch (xType) {
     case 'x1':
