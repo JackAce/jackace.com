@@ -1,5 +1,135 @@
 [
   {
+    "name": "Mid Night Sauce",
+    "airDate": "2022-03-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=CY2N6oyla-w",
+    "reviewUrl": "2022-03-26-Mid-Night-Sauce",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      150
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "Several mispayments on this one.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "12",
+        "amountBet": 150,
+        "result": 0
+      },
+      {
+        "spin": 2,
+        "number": "31",
+        "amountBet": 150,
+        "result": 0
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 150,
+        "result": 0
+      },
+      {
+        "spin": 4,
+        "number": "28",
+        "amountBet": 150,
+        "result": 0,
+        "notes": "They didn't mark this spin in the video."
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 6,
+        "number": "28",
+        "amountBet": 150,
+        "result": 0
+      },
+      {
+        "spin": 7,
+        "number": "36",
+        "amountBet": 150,
+        "result": 0,
+        "notes": "They didn't mark this spin in the video."
+      },
+      {
+        "spin": 8,
+        "number": "36",
+        "amountBet": 150,
+        "result": 0,
+        "notes": "They didn't mark this spin in the video."
+      },
+      {
+        "spin": 9,
+        "number": "15",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 10,
+        "number": "36",
+        "amountBet": 145,
+        "result": 5,
+        "notes": "They didn't mark this spin in the video. David didn't have $5 on the 29 for this spin, so they should have won $5."
+      },
+      {
+        "spin": 11,
+        "number": "16",
+        "amountBet": 145,
+        "result": -145,
+        "notes": "David didn't have $5 on the 29 for this spin."
+      },
+      {
+        "spin": 12,
+        "number": "30",
+        "amountBet": 150,
+        "result": 0,
+        "notes": "They didn't mark this spin in the video."
+      },
+      {
+        "spin": 13,
+        "number": "13",
+        "amountBet": 150,
+        "result": 30
+      },
+      {
+        "spin": 14,
+        "number": "34",
+        "amountBet": 150,
+        "result": 0,
+        "notes": "They didn't mark this spin in the video."
+      },
+      {
+        "spin": 15,
+        "number": "3",
+        "amountBet": 150,
+        "result": 0,
+        "notes": "They didn't mark this spin in the video."
+      },
+      {
+        "spin": 16,
+        "number": "26",
+        "amountBet": 150,
+        "result": 180,
+        "notes": "Alex took the $50 bet on the 3rd Dozen. It should have won $100."
+      },
+      {
+        "spin": 17,
+        "number": "25",
+        "amountBet": 150,
+        "result": 0,
+        "notes": "They didn't mark this spin in the video."
+      }
+    ]
+  },
+  {
     "name": "All Disco, No Panic",
     "airDate": "2022-03-25",
     "youtubeUrl": "https://www.youtube.com/watch?v=2kTaAl9MRZ0",
