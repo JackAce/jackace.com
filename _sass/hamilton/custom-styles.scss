@@ -204,6 +204,7 @@ div.infobox-error {
 }
 .glossary-term:hover .tooltiptext {
     visibility: visible;
+    z-index: 999;
     opacity: 1;
 }
 

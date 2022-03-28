@@ -46,6 +46,12 @@
     "definition": "The predicted value of a unknown outcome, calculated as the sum of all possible values each multiplied by the probability of its occurrence."
   },
   {
+    "term": "fiat",
+    "categories": ["cryptocurrencies"],
+    "summary": "Traditional cash",
+    "definition": "Fiat is traditional cash in a well established currency such as the US Dollar. This is opposed to cryptocurrencies, which are digital currencies, supported by a blockchain."
+  },
+  {
     "term": "Martingale",
     "categories": ["blackjack", "roulette", "baccarat", "general gambling", "betting", "systems"],
     "summary": "Doubling your bet after a loss",
