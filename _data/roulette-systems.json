@@ -1,5 +1,124 @@
 [
   {
+    "name": "MultiLevel Martingale",
+    "airDate": "2022-03-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=wWEMUoLiqFQ",
+    "reviewUrl": "2022-03-28-MultiLevel-Martingale",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 840,
+    "bets": [
+      60,
+      180
+    ],
+    "rating": "a",
+    "jackaceRating": "c",
+    "notes": "They should have been up $200 at the end, but they were only up $175, according to David. I'm not sure how they could be up that amount, since all of the payouts end in 0.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "21",
+        "amountBet": 60,
+        "result": 20,
+        "time": "2:08"
+      },
+      {
+        "spin": 2,
+        "number": "31",
+        "amountBet": 60,
+        "result": 20,
+        "time": "2:55"
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 60,
+        "result": 20,
+        "time": "3:41"
+      },
+      {
+        "spin": 4,
+        "number": "25",
+        "amountBet": 60,
+        "result": 20,
+        "time": "4:27"
+      },
+      {
+        "spin": 5,
+        "number": "26",
+        "amountBet": 60,
+        "result": 20,
+        "time": "5:17"
+      },
+      {
+        "spin": 6,
+        "number": "6",
+        "amountBet": 60,
+        "result": -60,
+        "time": "5:56"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 180,
+        "result": 60,
+        "time": "6:43"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 60,
+        "result": 20,
+        "time": "7:35"
+      },
+      {
+        "spin": 9,
+        "number": "29",
+        "amountBet": 60,
+        "result": 20,
+        "time": "8:30"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 60,
+        "result": 20,
+        "time": "9:45"
+      },
+      {
+        "spin": 11,
+        "number": "9",
+        "amountBet": 60,
+        "result": 0,
+        "time": "10:51"
+      },
+      {
+        "spin": 12,
+        "number": "36",
+        "amountBet": 60,
+        "result": 20,
+        "time": "11:23"
+      },
+      {
+        "spin": 13,
+        "number": "6",
+        "amountBet": 60,
+        "result": 0,
+        "notes": "David bet the 1-6 Double Street here, so this pushed",
+        "time": "12:13"
+      },
+      {
+        "spin": 14,
+        "number": "26",
+        "amountBet": 60,
+        "result": 20,
+        "time": "12:45"
+       }
+    ]
+  },
+  {
     "name": "Mid Night Sauce",
     "airDate": "2022-03-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=CY2N6oyla-w",
