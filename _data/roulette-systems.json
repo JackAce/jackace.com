@@ -1,5 +1,131 @@
 [
   {
+    "name": "Cashing In",
+    "airDate": "2022-03-29",
+    "youtubeUrl": "https://www.youtube.com/watch?v=2GbDp5_TIKI",
+    "reviewUrl": "2022-03-29-Cashing-In",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      47
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "35",
+        "amountBet": 47,
+        "result": -2,
+        "time": "1:49"
+      },
+      {
+        "spin": 2,
+        "number": "0",
+        "amountBet": 52,
+        "result": -40,
+        "time": "2:41",
+        "notes": "Alex put $5 on the 28-29-31-32 corner on the 2nd spin. The video incorrectly showed -$23."
+      },
+      {
+        "spin": 3,
+        "number": "15",
+        "amountBet": 47,
+        "result": -17,
+        "time": "3:46"
+      },
+      {
+        "spin": 4,
+        "number": "22",
+        "amountBet": 47,
+        "result": -17,
+        "time": "4:47",
+        "notes": "Lauren didn't pick up $10 in two of the double street bets here. Alex gave it to her."
+      },
+      {
+        "spin": 5,
+        "number": "6",
+        "amountBet": 47,
+        "result": -2,
+        "time": "5:40"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 47,
+        "result": -47,
+        "time": "6:33"
+      },
+      {
+        "spin": 7,
+        "number": "30",
+        "amountBet": 47,
+        "result": -2,
+        "time": "7:24"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 47,
+        "result": -17,
+        "time": "8:18"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 47,
+        "result": -2,
+        "time": "9:07"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 47,
+        "result": -2,
+        "time": "9:57"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 47,
+        "result": 43,
+        "time": "10:45",
+        "notes": "The video incorrectly says +$53"
+      },
+      {
+        "spin": 12,
+        "number": "33",
+        "amountBet": 47,
+        "result": -2,
+        "time": "11:35"
+      },
+      {
+        "spin": 13,
+        "number": "5",
+        "amountBet": 47,
+        "result": 43,
+        "time": "12:26",
+        "notes": "The video incorrectly says +$53"
+      },
+      {
+        "spin": 14,
+        "number": "4",
+        "amountBet": 47,
+        "result": -2,
+        "time": "13:11"
+      },
+      {
+        "spin": 15,
+        "number": "10",
+        "amountBet": 47,
+        "result": -47,
+        "time": "13:58" 
+      }
+    ]
+  },
+  {
     "name": "MultiLevel Martingale",
     "airDate": "2022-03-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=wWEMUoLiqFQ",
