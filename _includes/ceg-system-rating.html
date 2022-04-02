@@ -1,33 +1,33 @@
 
-{%- assign rating = include.rating | downcase -%}
+{%- assign rating = include.rating | upcase -%}
 {%- assign imageSrc = {{site.baseurl}} -%}
 {%- assign imageSrc = imageSrc | append: "/assets/img/systems/ratings/" -%}
 {%- assign imageSrc = imageSrc | append: rating -%}
 {%- assign imageSrc = imageSrc | append: "-400x400.png" -%}
 {%- assign ratingName = "[unknown]" -%}
 
-{%- if include.rating == "a" -%}
+{%- if include.rating == "A" -%}
     {% assign ratingName = "Grapefruit" -%}
-{%- elsif include.rating == "b" -%}
+{%- elsif include.rating == "B" -%}
     {% assign ratingName = "Peach" -%}
-{%- elsif include.rating == "c" -%}
+{%- elsif include.rating == "C" -%}
     {% assign ratingName = "Plum" -%}
-{%- elsif include.rating == "d" -%}
+{%- elsif include.rating == "D" -%}
     {% assign ratingName = "Eggplant" -%}
-{%- elsif include.rating == "f" -%}
+{%- elsif include.rating == "F" -%}
     {% assign ratingName = "Durian" -%}
 {%- endif -%}
 
-{%- if include.rating.size > 0 %}
-    <img src="{{imageSrc}}" width="40" title="{{ rating | upcase }}- {{ ratingName }}" title="{{ rating | upcase }}- {{ ratingName }}"/>
+{% if include.rating.size > 0 %}
+    <img src="{{imageSrc}}" width="40" title="{{ rating }} - {{ ratingName }}" title="{{ rating }} - {{ ratingName }}"/>
 
-    {% if include.showRatingLetter -%}
-        {{ rating | upcase -}}
-    {% endif -%}
+    {% if include.showRatingLetter %}
+        {{ rating }}
+    {% endif %}
 
-    {% if include.showRatingName -%}
-        - {{ ratingName -}}
-    {% endif -%}
-{%- else %}
+    {% if include.showRatingName %}
+        - {{ ratingName }}
+    {% endif %}
+{% else %}
     --
-{%- endif %}
+{% endif %}
