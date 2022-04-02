@@ -1,5 +1,117 @@
 [
   {
+    "name": "Double KJ",
+    "airDate": "2022-04-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Wmbmt_6INWE",
+    "reviewUrl": "2022-04-01-Double-KJ",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 100,
+    "bets": [
+      25
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "notes": "Not sure why the numbers are so off.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "33",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:06"
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 25,
+        "result": 11,
+        "time": "4:36",
+        "notes": "The win here is $11. The video shows +$10."
+      },
+      {
+        "spin": 3,
+        "number": "23",
+        "amountBet": 24,
+        "result": 12,
+        "time": "5:30",
+        "notes": "They didn't bet the 10, so they made an extra $1"
+      },
+      {
+        "spin": 4,
+        "number": "11",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:49"
+      },
+      {
+        "spin": 5,
+        "number": "23",
+        "amountBet": 25,
+        "result": 11,
+        "time": "8:10"
+      },
+      {
+        "spin": 6,
+        "number": "35",
+        "amountBet": 25,
+        "result": 11,
+        "time": "9:25"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 25,
+        "result": -25,
+        "time": "10:33"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 25,
+        "result": -25,
+        "time": "11:25"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 25,
+        "result": 11,
+        "time": "12:17"
+      },
+      {
+        "spin": 10  ,
+        "number": "29",
+        "amountBet": 25,
+        "result": -25,
+        "time": "13:13"
+      },
+      {
+        "spin": 11,
+        "number": "9",
+        "amountBet": 24,
+        "result": 12,
+        "time": "14:08",
+        "notes": "David didn't bet the 7, so they made an extra $1 here."
+      },
+      {
+        "spin": 12,
+        "number": "24",
+        "amountBet": 25,
+        "result": 11,
+        "time": "15:06"
+      },
+      {
+        "spin": 13,
+        "number": "9",
+        "amountBet": 25,
+        "result": 11,
+        "time": "16:23"
+      }
+    ]
+  },
+  {
     "name": "Cashing In",
     "airDate": "2022-03-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=2GbDp5_TIKI",
