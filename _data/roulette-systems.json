@@ -1,5 +1,107 @@
 [
   {
+    "name": "Comp You Long Time",
+    "airDate": "2022-04-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=i9LiZDGW1is",
+    "reviewUrl": "2022-04-02-Comp-You-Long-Time",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      85
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "notes": "$50 off of their total. They were down $60 at the end, but according to my total, they should have been down $110.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 85,
+        "result": -55,
+        "time": "1:37"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 85,
+        "result": -55,
+        "time": "2:45"
+      },
+      {
+        "spin": 3,
+        "number": "20",
+        "amountBet": 85,
+        "result": -55,
+        "time": "3:53"
+      },
+      {
+        "spin": 4,
+        "number": "36",
+        "amountBet": 85,
+        "result": 5,
+        "time": "4:57"
+      },
+      {
+        "spin": 5,
+        "number": "16",
+        "amountBet": 85,
+        "result": 65,
+        "time": "5:55"
+      },
+      {
+        "spin": 6,
+        "number": "7",
+        "amountBet": 85,
+        "result": -25,
+        "time": "6:58"
+      },
+      {
+        "spin": 7,
+        "number": "17",
+        "amountBet": 85,
+        "result": -55,
+        "time": "7:44"
+      },
+      {
+        "spin": 8,
+        "number": "20",
+        "amountBet": 85,
+        "result": -55,
+        "time": "8:36"
+      },
+      {
+        "spin": 9,
+        "number": "30",
+        "amountBet": 85,
+        "result": 95,
+        "time": "9:39"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 85,
+        "result": 15,
+        "time": "10:39"
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 85,
+        "result": 5,
+        "time": "11:45"
+      },
+      {
+        "spin": 12,
+        "number": "23",
+        "amountBet": 85,
+        "result": 5,
+        "time": "12:34"
+      }
+    ]
+  },
+  {
     "name": "Double KJ",
     "airDate": "2022-04-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=Wmbmt_6INWE",
