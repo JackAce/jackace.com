@@ -2,7 +2,7 @@
 {%- assign rating = include.rating | upcase -%}
 {%- assign imageSrc = {{site.baseurl}} -%}
 {%- assign imageSrc = imageSrc | append: "/assets/img/systems/ratings/" -%}
-{%- assign imageSrc = imageSrc | append: rating -%}
+{%- assign imageSrc = imageSrc | append: rating | downcase -%}
 {%- assign imageSrc = imageSrc | append: "-400x400.png" -%}
 {%- assign ratingName = "[unknown]" -%}
 
