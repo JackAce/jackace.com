@@ -6,15 +6,15 @@
 {%- assign imageSrc = imageSrc | append: "-400x400.png" -%}
 {%- assign ratingName = "[unknown]" -%}
 
-{%- if include.rating == "A" -%}
+{%- if rating == "A" -%}
     {% assign ratingName = "Grapefruit" -%}
-{%- elsif include.rating == "B" -%}
+{%- elsif rating == "B" -%}
     {% assign ratingName = "Peach" -%}
-{%- elsif include.rating == "C" -%}
+{%- elsif rating == "C" -%}
     {% assign ratingName = "Plum" -%}
-{%- elsif include.rating == "D" -%}
+{%- elsif rating == "D" -%}
     {% assign ratingName = "Eggplant" -%}
-{%- elsif include.rating == "F" -%}
+{%- elsif rating == "F" -%}
     {% assign ratingName = "Durian" -%}
 {%- endif -%}
 
