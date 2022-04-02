@@ -11,8 +11,9 @@
     "bets": [
       25
     ],
-    "rating": "",
+    "rating": "c",
     "jackaceRating": "f",
+    "notes": "Not sure why the numbers are so off.",
     "spins": [
       {
         "spin": 1,
