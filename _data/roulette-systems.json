@@ -48,7 +48,7 @@
         "friend": 2,
         "spin": 4,
         "number": "4",
-        "amountBet": 160,
+        "amountBet": 150,
         "result": -150,
         "time": "5:21",
         "notes": "Alex stopped betting the 0/00 on this spin"
@@ -105,7 +105,7 @@
         "friend": 2,
         "spin": 11,
         "number": "9",
-        "amountBet": 320,
+        "amountBet": 300,
         "result": 60,
         "time": "12:25"
       },
@@ -113,7 +113,7 @@
         "friend": 2,
         "spin": 12,
         "number": "16",
-        "amountBet": 160,
+        "amountBet": 150,
         "result": 165,
         "time": "13:33"
       }
