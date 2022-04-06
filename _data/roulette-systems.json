@@ -1,5 +1,125 @@
 [
   {
+    "name": "Cheat Code",
+    "airDate": "2022-04-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=5_3qh7SmKUo",
+    "reviewUrl": "2022-04-05-Cheat-Code",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      160,
+      320,
+      640
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "friendCount": 2,
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "33",
+        "amountBet": 160,
+        "result": -160,
+        "time": "1:20",
+        "notes": "Alex didn't bet the 0/00 on this spin, but he gave Lauren $10 when he realized he forgot after the spin."
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "36",
+        "amountBet": 320,
+        "result": -320,
+        "time": "2:08"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "35",
+        "amountBet": 640,
+        "result": -640,
+        "time": "3:37"
+      },
+      {
+        "friend": 2,
+        "spin": 4,
+        "number": "4",
+        "amountBet": 160,
+        "result": -150,
+        "time": "5:21",
+        "notes": "Alex stopped betting the 0/00 on this spin"
+      },
+      {
+        "friend": 2,
+        "spin": 5,
+        "number": "32",
+        "amountBet": 300,
+        "result": -300,
+        "time": "6:25"
+      },
+      {
+        "friend": 2,
+        "spin": 6,
+        "number": "21",
+        "amountBet": 600,
+        "result": 630,
+        "time": "7:27"
+      },
+      {
+        "friend": 2,
+        "spin": 7,
+        "number": "17",
+        "amountBet": 150,
+        "result": 165,
+        "time": "8:35"
+      },
+      {
+        "friend": 2,
+        "spin": 8,
+        "number": "32",
+        "amountBet": 150,
+        "result": -150,
+        "time": "9:35"
+      },
+      {
+        "friend": 2,
+        "spin": 9,
+        "number": "16",
+        "amountBet": 150,
+        "result": 165,
+        "time": "10:35"
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "33",
+        "amountBet": 150,
+        "result": -150,
+        "time": "11:40"
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "9",
+        "amountBet": 320,
+        "result": 60,
+        "time": "12:25"
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "16",
+        "amountBet": 160,
+        "result": 165,
+        "time": "13:33"
+      }
+    ]
+  },
+  {
     "name": "Street Walk in the Corners",
     "airDate": "2022-04-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=EY5Yig5KIsI",
