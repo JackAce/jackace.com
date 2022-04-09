@@ -1,5 +1,125 @@
 [
   {
+    "name": "Black Widow",
+    "airDate": "2022-04-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-y_sbXunYWo",
+    "reviewUrl": "2022-04-08-Black-Widow",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 600,
+    "bets": [
+      80,
+      125,
+      170
+    ],
+    "rating": "",
+    "jackaceRating": "d",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "21",
+        "amountBet": 80,
+        "result": -80,
+        "time": "1:31"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 80,
+        "result": -35,
+        "time": "2:18"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 80,
+        "result": -35,
+        "time": "3:20"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 80,
+        "result": 5,
+        "time": "4:17"
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 125,
+        "result": -125,
+        "time": "5:25"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 80,
+        "result": -35,
+        "time": "6:15"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 80,
+        "result": 25,
+        "time": "7:18"
+      },
+      {
+        "spin": 8,
+        "number": "32",
+        "amountBet": 125,
+        "result": 55,
+        "time": "8:12"
+      },
+      {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 170,
+        "result": -170,
+        "time": "9:33"
+      },
+      {
+        "spin": 10,
+        "number": "9",
+        "amountBet": 80,
+        "result": -80,
+        "time": "10:26"
+      },
+      {
+        "spin": 11,
+        "number": "25",
+        "amountBet": 80,
+        "result": -35,
+        "time": "11:17"
+      },
+      {
+        "spin": 12,
+        "number": "15",
+        "amountBet": 125,
+        "result": 20,
+        "time": "12:09",
+        "notes": "Lauren didn't have enough to cover the bet, so Alex floated her $15. After this spin, Lauren paid him back the $15."
+      },
+      {
+        "spin": 13,
+        "number": "29",
+        "amountBet": 125,
+        "result": -15,
+        "time": "13:10"
+      },
+      {
+        "spin": 14,
+        "number": "10",
+        "amountBet": 80,
+        "result": 5,
+        "time": "14:09"
+      }
+    ]
+  },
+  {
     "name": "Cheat Code",
     "airDate": "2022-04-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=5_3qh7SmKUo",
