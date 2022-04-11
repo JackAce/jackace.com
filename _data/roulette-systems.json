@@ -1,5 +1,118 @@
 [
   {
+    "name": "The First Date",
+    "airDate": "2022-04-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=nlDowVPBzV0",
+    "reviewUrl": "2022-04-09-The-First-Date",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png",
+      "00-rba-4-800x440.png"
+    ],
+    "buyIn": 750,
+    "bets": [
+      750,
+      150,
+      175,
+      200,
+      225
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "notes": "They were up $45 at the end, but I clocked them as being up $50. I think they bet an extra $5 in the 5th spin.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "23",
+        "amountBet": 750,
+        "result": 150,
+        "time": "2:45"
+      },
+      {
+        "spin": 2,
+        "number": "8",
+        "amountBet": 150,
+        "result": 30,
+        "time": "3:54"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 175,
+        "result": 35,
+        "time": "4:42"
+      },
+      {
+        "spin": 4,
+        "number": "32",
+        "amountBet": 200,
+        "result": -200,
+        "time": "5:37",
+        "notes": "Alex was changing the Double Streets that he was betting on from bet to bet. He left 31-36 open for this spin."
+      },
+      {
+        "spin": 5,
+        "number": "25",
+        "amountBet": 750,
+        "result": 150,
+        "time": "6:37",
+        "notes": "Alex had $10 left after making this bet, but he should have had $15. I suspect he bet an extra $5 on one of the stacks here."
+      },
+      {
+        "spin": 6,
+        "number": "18",
+        "amountBet": 150,
+        "result": 30,
+        "time": "7:46"
+      },
+      {
+        "spin": 7,
+        "number": "28",
+        "amountBet": 175,
+        "result": 35,
+        "time": "8:33"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 200,
+        "result": 40,
+        "time": "9:32"
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 225,
+        "result": -225,
+        "time": "10:21"
+      },
+      {
+        "spin": 10,
+        "number": "13",
+        "amountBet": 750,
+        "result": 150,
+        "time": "11:22"
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 150,
+        "result": 30,
+        "time": "12:28"
+      },
+      {
+        "spin": 12,
+        "number": "00",
+        "amountBet": 175,
+        "result": -175,
+        "time": "13:20",
+        "notes": "The video marked this as 0, but it was 00."
+      }
+    ]
+  },
+  {
     "name": "Black Widow",
     "airDate": "2022-04-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=-y_sbXunYWo",
@@ -15,7 +128,7 @@
       125,
       170
     ],
-    "rating": "",
+    "rating": "c",
     "jackaceRating": "d",
     "spins": [
       {
