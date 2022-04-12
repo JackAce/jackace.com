@@ -1,5 +1,137 @@
 [
   {
+    "name": "Stockholm Syndrome",
+    "airDate": "2022-04-11",
+    "youtubeUrl": "https://www.youtube.com/watch?v=vzVnvSux69U",
+    "reviewUrl": "2022-04-11-Stockholm-Syndrome",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png",
+      "00-rba-4-800x440.png"
+    ],
+    "buyIn": 350,
+    "bets": [
+      350,
+      450,
+      600,
+      1350,
+      1900
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "notes": "This is a pretty ridiculous system, because you're just YOLO'ing your money on every spin. The EV is the same as every other system, but you're just making monstrous bets and hoping to avoid 14 numbers, which is a giant gaping hole. And why not reduce your bets to two columns? The alternating streets thing is just a waste of time.",
+    "friendCount": 6,
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "16",
+        "amountBet": 350,
+        "result": 100,
+        "time": "1:35"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "00",
+        "amountBet": 450,
+        "result": -450,
+        "time": "2:20"
+      },
+      {
+        "friend": 2,
+        "spin": 3,
+        "number": "3",
+        "amountBet": 350,
+        "result": -350,
+        "time": "3:15"
+      },
+      {
+        "friend": 3,
+        "spin": 4,
+        "number": "35",
+        "amountBet": 350,
+        "result": 250,
+        "time": "0:00"
+      },
+      {
+        "friend": 3,
+        "spin": 5,
+        "number": "5",
+        "amountBet": 600,
+        "result": 750,
+        "time": "5:25"
+      },
+      {
+        "friend": 3,
+        "spin": 6,
+        "number": "20",
+        "amountBet": 1350,
+        "result": 900,
+        "time": "6:25"
+      },
+      {
+        "friend": 3,
+        "spin": 7,
+        "number": "17",
+        "amountBet": 1950,
+        "result": 1950,
+        "time": "7:32",
+        "notes": "Alex just YOLO'ed the bankroll on Black here."
+      },
+      {
+        "friend": 4,
+        "spin": 8,
+        "number": "9",
+        "amountBet": 350,
+        "result": 100,
+        "time": "8:55"
+      },
+      {
+        "friend": 4,
+        "spin": 9,
+        "number": "7",
+        "amountBet": 450,
+        "result": -450,
+        "time": "9:40"
+      },
+      {
+        "friend": 5,
+        "spin": 10,
+        "number": "13",
+        "amountBet": 350,
+        "result": -350,
+        "time": "10:34"
+      },
+      {
+        "friend": 6,
+        "spin": 11,
+        "number": "14",
+        "amountBet": 350,
+        "result": 250,
+        "time": "11:25"
+      },
+      {
+        "friend": 6,
+        "spin": 12,
+        "number": "4",
+        "amountBet": 450,
+        "result": -150,
+        "time": "12:06"
+      },
+      {
+        "friend": 6,
+        "spin": 13,
+        "number": "18",
+        "amountBet": 450,
+        "result": -450,
+        "time": "13:26"
+      }
+    ]
+  },
+  {
     "name": "The First Date",
     "airDate": "2022-04-09",
     "youtubeUrl": "https://www.youtube.com/watch?v=nlDowVPBzV0",
