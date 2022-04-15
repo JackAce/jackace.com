@@ -5949,7 +5949,7 @@
       350
     ],
     "rating": "b",
-    "jackaceRating": "c",
+    "jackaceRating": "d",
     "friendCount": 2,
     "notes": "Bet any 12 horizontal Splits that touch the center column (1 per street)",
     "spins": [
@@ -6022,7 +6022,7 @@
         "spin": 9,
         "number": "16",
         "amountBet": 350,
-        "result": -1,
+        "result": 100,
         "time": "8:36"
       },
       {
