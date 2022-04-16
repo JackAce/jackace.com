@@ -1,5 +1,145 @@
 [
   {
+    "name": "Zoidberg Cruise Missile",
+    "airDate": "2022-04-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-a8mLrhMCgk",
+    "reviewUrl": "2022-04-15-Zoidberg-Cruise-Missile",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 625,
+    "bets": [
+      600
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "friendCount": 2,
+    "notes": "Never bet on more than 35 numbers at a time. You're betting on 36 numbers here.",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "27",
+        "amountBet": 625,
+        "result": -25,
+        "time": "1:30"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "17",
+        "amountBet": 625,
+        "result": -275,
+        "time": "2:23"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "25",
+        "amountBet": 625,
+        "result": 275,
+        "time": "3:20"
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "8",
+        "amountBet": 625,
+        "result": -275,
+        "time": "4:15"
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "35",
+        "amountBet": 625,
+        "result": -275,
+        "time": "5:10",
+        "notes": "Friend #1 dipped into their savings to pay off this last bet."
+      },
+      {
+        "friend": 2,
+        "spin": 6,
+        "number": "11",
+        "amountBet": 625,
+        "result": -275,
+        "time": "6:13"
+      },
+      {
+        "friend": 2,
+        "spin": 7,
+        "number": "23",
+        "amountBet": 625,
+        "result": 275,
+        "time": "7:10"
+      },
+      {
+        "friend": 2,
+        "spin": 8,
+        "number": "29",
+        "amountBet": 625,
+        "result": -275,
+        "time": "8:17"
+      },
+      {
+        "friend": 2,
+        "spin": 9,
+        "number": "24",
+        "amountBet": 625,
+        "result": 325,
+        "time": "9:02"
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "20",
+        "amountBet": 625,
+        "result": -275,
+        "time": "9:55"
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "1",
+        "amountBet": 625,
+        "result": 275,
+        "time": "10:47"
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "21",
+        "amountBet": 625,
+        "result": -25,
+        "time": "11:52"
+      },
+      {
+        "friend": 2,
+        "spin": 13,
+        "number": "25",
+        "amountBet": 625,
+        "result": 275,
+        "time": "12:40"
+      },
+      {
+        "friend": 2,
+        "spin": 14,
+        "number": "7",
+        "amountBet": 625,
+        "result": 275,
+        "time": "13:42"
+      },
+      {
+        "friend": 2,
+        "spin": 15,
+        "number": "3",
+        "amountBet": 625,
+        "result": -25,
+        "time": "14:38"
+      }
+    ]
+  },
+  {
     "name": "Xs and Os",
     "airDate": "2022-04-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=KZ5uLl0oZjU",
