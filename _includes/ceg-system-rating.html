@@ -18,16 +18,16 @@
     {% assign ratingName = "Durian" -%}
 {%- endif -%}
 
-{% if include.rating.size > 0 %}
+{%- if include.rating.size > 0 -%}
     <img src="{{imageSrc}}" width="40" title="{{ rating }} - {{ ratingName }}" title="{{ rating }} - {{ ratingName }}"/>
 
-    {% if include.showRatingLetter %}
+    {%- if include.showRatingLetter %}
         {{ rating }}
-    {% endif %}
+    {%- endif %}
 
-    {% if include.showRatingName %}
+    {% if include.showRatingName -%}
         - {{ ratingName }}
-    {% endif %}
-{% else %}
+    {% endif -%}
+{%- else -%}
     --
-{% endif %}
+{%- endif -%}

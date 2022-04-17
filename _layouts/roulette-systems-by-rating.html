@@ -1,0 +1,222 @@
+---
+layout: page-no-sidebar
+---
+
+<h1>
+  {{page.title}}
+</h1>
+
+<p>
+  Find your favorite Roulette system reviewed and tested by the CEG Dealer School on 
+  their YouTube channel!
+<p>
+</p>
+  We're updating this list daily and backfilling the rest!
+</p>
+<p>
+  Show systems by CEG rating
+  <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/a/">{%- include ceg-system-rating.html rating="a" showRatingLetter=false -%}</a>
+  <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/b/">{%- include ceg-system-rating.html rating="b" showRatingLetter=false -%}</a>
+  <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/c/">{%- include ceg-system-rating.html rating="c" showRatingLetter=false -%}</a>
+  <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/d/">{%- include ceg-system-rating.html rating="d" showRatingLetter=false -%}</a>
+  <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/f/">{%- include ceg-system-rating.html rating="f" showRatingLetter=false -%}</a>
+</p>
+
+<table class="roulette-system-table">
+  <thead>
+    <tr>
+      <th>
+        System
+      </th>
+      <th>
+        Buy&nbsp;In
+      </th>
+      <th>
+        Bet Sizes
+      </th>
+      <th>
+        Total amount<br/>Wagered
+      </th>
+      <th>
+        Expected<br/>Loss
+      </th>
+      <th>
+        Comp<br>Value
+      </th>
+      <th>
+        Actual<br/>Results
+      </th>
+      <th>
+        CEG<br/>Rating
+      </th>
+      <th>
+        JackAce<br/>Rating
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- assign totalAmountBet = 0 -%}
+    {%- assign totalLiveResults = 0 -%}
+    {%- assign totalExpectedLoss = 0.00 -%}
+
+    {%- comment -%}
+    <!-- Loop through systems AND spins to get bet amount, EV, and Win/Loss -->
+    {%- endcomment -%}
+
+    {%- if page.rating -%}
+      {%- assign filteredSystems = site.data.roulette-systems | where: "rating", page.rating -%}
+    {%- else -%}
+      {%- assign filteredSystems = site.data.roulette-systems -%}
+    {%- endif -%}
+
+    {% for row in filteredSystems %}
+      {%- assign systemBets = 0 -%}
+      {%- assign systemExpectedLoss = 0.00 -%}
+      {%- assign systemCompValue = 0.00 -%}
+      {%- assign systemWinLoss = 0 -%}
+
+      {%- for spin in row.spins -%}
+
+        {%- assign bet = spin["amountBet"] -%}
+        {%- assign spinResult = spin["result"] | times: 1 -%}
+        {%- assign defaultEv = bet | times: -0.0526 -%}
+        {%- assign spinEvAmount = spin["ev"] | default: defaultEv -%}
+
+        {%- assign systemBets = systemBets | plus: bet -%}
+        {%- assign systemExpectedLoss = systemExpectedLoss | plus: spinEvAmount -%}
+        {%- assign systemCompValue = systemExpectedLoss | times: -0.2 -%}
+        {%- assign systemWinLoss = systemWinLoss | plus: spinResult -%}
+
+      {%- endfor -%}
+
+      {%- assign totalAmountBet = totalAmountBet | plus: systemBets -%}
+      {%- assign totalLiveResults = totalLiveResults | plus: systemWinLoss -%}
+      {%- assign totalExpectedLoss = totalExpectedLoss | plus: systemExpectedLoss -%}
+  
+      {%- assign buyIn = row["buyIn"] | times: 1 -%}
+      {%- assign bets = row["bets"] -%}
+
+      {%- assign betSizes = bets.size -%}
+      {%- assign evPercent = systemExpectedLoss | times: 100 | divided_by: systemBets -%}
+      {%- assign rating = row["rating"] -%}
+      {%- assign jackaceRating = row["jackaceRating"] -%}
+
+      <tr>
+        <td>
+          {% if row["reviewUrl"] %}
+            <a href="{{site.baseurl}}/gambling/roulette/systems/{{row['reviewUrl']}}/" >{{ row["name"] }}</a>
+          {% else %}
+            {{ row["name"] }}
+          {% endif %}
+          &nbsp;
+          <br/>
+          <a href="{{row['youtubeUrl']}}" target="_blank"><img src="{{site.baseurl}}/assets/img/icons/youtube-24x24.png" alt="YouTube" title="YouTube" /></a>
+            <i class="airDate">
+              {% assign airDate = row["airDate"] %}
+              {%- include format-date.html date=airDate -%}
+            </i>
+        </td>
+        <td>
+          {%- include chip-amount.html chipAmount=buyIn -%}
+        </td>
+        <td>
+          {%- include chip-range.html amounts=bets -%}
+        </td>
+        <td>
+          ${%- include format-number.html number=systemBets -%}
+        </td>
+        <td>
+          {%- include win-loss-amount.html amount=systemExpectedLoss places=2 -%}
+
+          {%- if evPercent < -5.261 or evPercent > -5.259 -%}
+            <br/><i class="small">({{- evPercent | round: 2 -}}%)</i>
+          {%- endif -%}
+        </td>
+        <td>
+          ${%- include format-number.html number=systemCompValue places=2 -%}
+        </td>
+        <td>
+          {%- include win-loss-amount.html amount=systemWinLoss -%}
+        </td>
+        <td>
+          {%- include ceg-system-rating.html rating=rating showRatingLetter=true -%}
+        </td>
+        <td>
+          {%- include ceg-system-rating.html rating=jackaceRating showRatingLetter=true -%}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        Total Bets
+      </th>
+      <th>
+        Total Expected<br/>
+        Loss
+      </th>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        Total<br/>
+        Win/Loss
+      </th>
+      <th>
+        &nbsp;
+      </th>
+      <th>
+        &nbsp;
+      </th>
+    </tr>
+    <tr>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        ${%- include format-number.html number=totalAmountBet -%}
+      </td>
+      <td>
+        {%- include win-loss-amount.html amount=totalExpectedLoss places=2 -%}
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        {%- include win-loss-amount.html amount=totalLiveResults -%}
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+</p>
+  Are we missing your favorite system? Let us know!
+</p>
+
+<div style="text-align: center;">
+  <span class="more-link">
+      <a href="{{ site.baseurl }}/gambling/roulette/systems/distribution/">View Number Distribution</a>
+  </span>
+</div>
