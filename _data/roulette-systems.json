@@ -121,7 +121,8 @@
         "number": "21",
         "amountBet": 850,
         "result": 1550, 
-        "time": "8:45"
+        "time": "8:45",
+        "notes": "They won $1550 here, but the video said the win was $750."
       },
       {
         "friend": 2,
@@ -129,7 +130,8 @@
         "number": "29",
         "amountBet": 500,
         "result": -200,
-        "time": "9:36"
+        "time": "9:36",
+        "notes": "They lost $200 here, but the video said -$300."
       },
       {
         "friend": 2,
@@ -137,7 +139,8 @@
         "number": "35",
         "amountBet": 825,
         "result": -750,
-        "time": "10:16"
+        "time": "10:16",
+        "notes": "They lost $750 here, but the video said -$700."
       },
       {
         "friend": 2,
