@@ -1,5 +1,205 @@
 [
   {
+    "name": "Lucky Lauren Bump and Grind",
+    "airDate": "2022-04-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=iyVBKHdY3dI",
+    "reviewUrl": "2022-04-17-Lucky-Lauren-Bump-and-Grind",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1500,
+    "bets": [
+      50,
+      75,
+      150,
+      300,
+      400,
+      450,
+      600,
+      825,
+      850,
+      1000,
+      1475
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "friendCount": 3,
+    "notes": "I'm not going to make images for all the betting patterns. You just double up on either of the losing bets.",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "13",
+        "amountBet": 50,
+        "result": 25,
+        "time": "0:57"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "4",
+        "amountBet": 75,
+        "result": -75,
+        "time": "1:40"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "0",
+        "amountBet": 150,
+        "result": -150,
+        "time": "2:22"
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "35",
+        "amountBet": 300,
+        "result": 300,
+        "time": "3:00"
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "3",
+        "amountBet": 300,
+        "result": -300,
+        "time": "3:44",
+        "notes": "They didn't mark this spin in the video."
+      },
+      {
+        "friend": 1,
+        "spin": 6,
+        "number": "7",
+        "amountBet": 600,
+        "result": -600,
+        "time": "4:30"
+      },
+      {
+        "friend": 2,
+        "spin": 7,
+        "number": "5",
+        "amountBet": 50,
+        "result": 25,
+        "time": "5:24"
+      },
+      {
+        "friend": 2,
+        "spin": 8,
+        "number": "2",
+        "amountBet": 75,
+        "result": 0,
+        "time": "6:00"
+      },
+      {
+        "friend": 2,
+        "spin": 9,
+        "number": "12",
+        "amountBet": 125,
+        "result": -125,
+        "time": "6:44"
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "5",
+        "amountBet": 250,
+        "result": -100,
+        "time": "7:23"
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "33",
+        "amountBet": 425,
+        "result": -425,
+        "time": "8:07"
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "21",
+        "amountBet": 850,
+        "result": 1550, 
+        "time": "8:45"
+      },
+      {
+        "friend": 2,
+        "spin": 13,
+        "number": "29",
+        "amountBet": 500,
+        "result": -200,
+        "time": "9:36"
+      },
+      {
+        "friend": 2,
+        "spin": 14,
+        "number": "35",
+        "amountBet": 825,
+        "result": -750,
+        "time": "10:16"
+      },
+      {
+        "friend": 2,
+        "spin": 15,
+        "number": "3",
+        "amountBet": 1475,
+        "result": -1475,
+        "time": "11:06",
+        "notes": "They just yolo'ed all their money on the 2nd dozen here."
+      },
+      {
+        "friend": 3,
+        "spin": 16,
+        "number": "0",
+        "amountBet": 50,
+        "result": -50,
+        "time": "11:52"
+      },
+      {
+        "friend": 3,
+        "spin": 17,
+        "number": "33",
+        "amountBet": 100,
+        "result": -100,
+        "time": "12:23"
+      },
+      {
+        "friend": 3,
+        "spin": 18,
+        "number": "10",
+        "amountBet": 200,
+        "result": -200,
+        "time": "13:01"
+      },
+      {
+        "friend": 3,
+        "spin": 19,
+        "number": "7",
+        "amountBet": 400,
+        "result": -400,
+        "time": "13:37"
+      },
+      {
+        "friend": 3,
+        "spin": 20,
+        "number": "32",
+        "amountBet": 750,
+        "result": 450,
+        "time": "14:17",
+        "notes": "They didn't have enough to bet the full $800. So they only bet $350 on the 2nd Dozen here."
+      },
+      {
+        "friend": 3,
+        "spin": 21,
+        "number": "9",
+        "amountBet": 1000,
+        "result": -1000,
+        "time": "14:59"
+      }
+    ]
+  },
+  {
     "name": "Zoidberg Cruise Missile",
     "airDate": "2022-04-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=-a8mLrhMCgk",
