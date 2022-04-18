@@ -223,7 +223,8 @@ function updateUi() {
         }
     }
 
-    $('#totalAmountBetDiv').text(totalBet);
+    let totalBetFormatted = formatDecimal(totalBet)
+    $('#totalAmountBetDiv').text(totalBetFormatted);
 
     if (!showBasketBetWarning) {
         // Simple calculation of house advantage
