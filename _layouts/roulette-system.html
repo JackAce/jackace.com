@@ -13,12 +13,14 @@ layout: page-no-sidebar
 {%- assign friendCount = system.friendCount | default: 0 -%}
 {%- assign groupLoops = friendCount | at_least: 1 -%}
 {%- assign rbaImages = system.rbaImageUrls -%}
+{%- assign containsTimeStamps = false -%}
 
 <!-- Calculate totals BEGIN -->
 {%- assign totalAmountBet = 0.00 -%}
 {%- assign totalEV = 0.00 -%}
 {%- assign totalCompValue = 0.00 -%}
 {%- assign totalWinLoss = 0 -%}
+
 {% for row in system.spins %}
   {%- assign currentBet = row["amountBet"] | times: 1 -%}
   {%- assign estimatedEV = currentBet | times: -0.0526 -%}
@@ -27,6 +29,11 @@ layout: page-no-sidebar
   {%- assign totalAmountBet = totalAmountBet | plus: currentBet -%}
   {%- assign totalEV = totalEV | plus: currentEV | times: 1 -%}
   {%- assign totalWinLoss = totalWinLoss | plus: currentResult | times: 1 -%}
+
+  {%- if row["time"] contains ":" -%}
+    {%- assign containsTimeStamps = true -%}
+  {%- endif -%}
+
 {% endfor %}
 {%- assign totalAmountBet = totalAmountBet | floor -%}
 {%- assign totalCompValue = totalEV | times: -0.20 -%}
@@ -203,6 +210,11 @@ layout: page-no-sidebar
         <th> 
           Running Total
         </th>
+        {% if containsTimeStamps %}
+          <th> 
+            Time
+          </th>
+        {% endif %}
         <th width="25%"> 
           Notes
         </th>
@@ -217,7 +229,17 @@ layout: page-no-sidebar
         {%- assign currentEV = row["ev"] | default: estimatedEV | times: 1 -%}
         {%- assign groupEV = groupEV | plus: currentEV | times: 1 -%}
         {%- assign betPlusResult = currentBet | plus: currentResult  -%}
-      
+        {%- assign time = row["time"]  -%}
+        {%- if containsTimeStamps -%}
+          {%- if time contains ":" -%}
+            {%- assign timeArray = time | split: ":" -%}
+            {%- assign minutes = timeArray[0] -%}
+            {%- assign seconds = timeArray[1] -%}
+            {%- assign timeMarkerInSeconds = minutes | times: 60 -%}
+            {%- assign timeMarkerInSeconds = timeMarkerInSeconds | plus: seconds -%}            
+          {%- endif -%}
+        {%- endif -%}
+
         {%- assign spinNumber = row["number"] -%}
 
         {%- assign groupAmountBet = groupAmountBet | plus: currentBet | times: 1 -%}
@@ -244,6 +266,11 @@ layout: page-no-sidebar
           <td class="cell-center">
             {% include win-loss-amount.html amount=groupWinLoss %}
           </td>
+          {% if containsTimeStamps %}
+            <td> 
+              <a href="{{system.youtubeUrl}}&t={{- timeMarkerInSeconds -}}" target="_blank">{{- row["time"] -}}</a>
+            </td>
+          {% endif %}
           <td>
             {{- row["notes"] -}}
           </td>
@@ -267,6 +294,11 @@ layout: page-no-sidebar
         <th>
           Total<br/>Win/Loss
         </th>
+        {% if containsTimeStamps %}
+          <th>
+            &nbsp;
+          </th>
+        {% endif %}
         <th>
           &nbsp;
         </th>
@@ -287,6 +319,11 @@ layout: page-no-sidebar
         <td class="cell-center">
           {% include win-loss-amount.html amount=groupWinLoss %}
         </td>
+        {% if containsTimeStamps %}
+          <td>
+            &nbsp;
+          </td>
+        {% endif %}
         <td>
           &nbsp;
         </td>
