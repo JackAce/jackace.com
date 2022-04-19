@@ -307,6 +307,20 @@ div.infobox-error {
     }
 }
 
+.bare-bones-table {
+    width: 100%;
+    th {
+        padding: 0px;
+        font-size: 12px;
+    }
+    td {
+        padding: 0px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+}
+
 .betting-system-table {
     width: 80%;
     th {
