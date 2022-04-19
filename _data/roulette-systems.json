@@ -1,5 +1,104 @@
 [
   {
+    "name": "Monopoly",
+    "airDate": "2022-04-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0UFtfJCCXeQ",
+    "reviewUrl": "2022-04-19-Monopoly",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png",
+      "00-rba-4-800x440.png",
+      "00-rba-5-800x440.png"
+    ],
+    "buyIn": 850,
+    "bets": [
+      15,
+      45,
+      90,
+      150,
+      225,
+      450
+    ],
+    "rating": "f",
+    "jackaceRating": "d",
+    "notes": "This system involves betting the street of the previous spin and continally expanding the street bets until you win. Martingale after betting 5 streets and losing.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "33",
+        "amountBet": 15,
+        "result": -15,
+        "time": "3:03"
+      },
+      {
+        "spin": 2,
+        "number": "11",
+        "amountBet": 45,
+        "result": -45,
+        "time": "3:52"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 90,
+        "result": 270,
+        "time": "4:47"
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 0,
+        "result": 0,
+        "time": "5:45",
+        "notes": "They didn't bet on this spin. It was made to determine the next bet."
+      },
+      {
+        "spin": 5,
+        "number": "25",
+        "amountBet": 15,
+        "result": -15,
+        "time": "6:12"
+      },
+      {
+        "spin": 6,
+        "number": "11",
+        "amountBet": 15,
+        "result": -45,
+        "time": "7:01"
+      },
+      {
+        "spin": 7,
+        "number": "33",
+        "amountBet": 90,
+        "result": -90,
+        "time": "7:49"
+      },
+      {
+        "spin": 8,
+        "number": "00",
+        "amountBet": 150,
+        "result": -150,
+        "time": "8:50"
+      },
+      {
+        "spin": 9,
+        "number": "24",
+        "amountBet": 225,
+        "result": -225,
+        "time": "9:57"
+      },
+      {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 450,
+        "result": -450,
+        "time": "11:27"
+      }
+    ]
+  },
+  {
     "name": "Six Pack Jackpot",
     "airDate": "2022-04-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=DBtV4LQpHMY",
