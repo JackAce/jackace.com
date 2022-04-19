@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Does 'Running It Twice' Affect Your Odds in Poker?"
-date: 2022-03-04 00:01:02 -0800
+date: 2022-12-31 00:01:00 -0800
 author: Jack Hayes
 tags: [poker,running it twice]
 excerpt_image: "/assets/img/posts/2022-02-02/00-title-800x399.jpg"
@@ -254,7 +254,7 @@ math: true
     chance he'll win both pots. In actuality, there's no net change to his EV and he might just
     be trying to increase his odds of getting <i>any</i> kind of cash back on his near hopeless
     situation. Chopping a pot can seem like a very favorable outcome when you need to hit your
-    {%- include glossary-term.html term="case card" -%}.
+    {% include glossary-term.html term="case card" -%}.
 </p>
 <p>
     By running it twice, you're doubling your chances of getting money back, but the amount you
@@ -266,7 +266,7 @@ math: true
     because you would have taken the whole pot on the first River if you just ran it once.
 </div>
 <p>
-    The EV for running a 1-outer twice is still pretty easy:
+    The EV for running a 1-outer twice is pretty simple:
 </p>
 <p class="p-center">
     \begin{align}
@@ -376,6 +376,7 @@ math: true
     </tr>
 </table>
 
+<!--
 <p>
     This even works for scenarios where you are able to eliminate dead cards and there are fewer than 44
     unknown cards.
@@ -387,6 +388,7 @@ math: true
     Where n is the number of times you want to run the river (\(0 < n \le y\)) and z is the number
     of outs (\(0 \le z \le y\)) and y is the number of undealt cards (\(z \le y \le 44\)).
 </p>
+-->
 <p>
     So plugging this into WolframAlpha, you can see that this sum always adds up to \( z \over 44 \)
     for all values of n.
@@ -394,5 +396,30 @@ math: true
 <pre>
     Sum[(k/n)*C(n, k)*[ (P(z, k) * P(44-z, n-k))/P(44, n) ],{k,1,n}]
 </pre>
+
+<table class="bare-bones-table">
+    <tr>
+        <th>
+            n&nbsp;\&nbsp;z
+        </th>
+        {% for z in (1..44) %}
+            <th>
+                {{z}}
+            </th>
+        {% endfor %}
+    </tr>
+    {% for n in (1..44) %}
+        <tr>
+            <th>
+                {{n}}
+            </th>
+            {% for z in (1..44) %}
+                <td>
+                    <a href="https://www.wolframalpha.com/input?i2d=true&i=Sum%5B%5C%2840%29+Divide%5Bi%2Cn%5D+C%5C%2840%29n%5C%2844%29+i%5C%2841%29%5C%2840%29Divide%5BP%5C%2840%29z%5C%2844%29+i%5C%2841%29P%5C%2840%2944-z%5C%2844%29+n-i%5C%2841%29%2CP%5C%2840%2944%5C%2844%29+n%5C%2841%29%5D%5C%2841%29%5C%2841%29%2C%7Bi%2C1%2Cn%7D%5D+where+n+%3D+{{-n-}}+and+z+%3D+{{-z-}}" target="_blank">\( {{z}} \over 44 \)</a>
+                </td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+</table>
 
 {%- include venn-badge.html isGambling=true isMath=true -%}

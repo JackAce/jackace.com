@@ -1,5 +1,146 @@
 [
   {
+    "name": "Six Pack Jackpot",
+    "airDate": "2022-04-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=DBtV4LQpHMY",
+    "reviewUrl": "2022-04-18-Six-Pack-Jackpot",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      75,
+      225
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "friendCount": 2,
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "32",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:22"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "4",
+        "amountBet": 75,
+        "result": 5,
+        "time": "4:11",
+        "notes": "David didn't square up his $40 bet on 1-18."
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "15",
+        "amountBet": 75,
+        "result": 5,
+        "time": "4:57"
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "17",
+        "amountBet": 75,
+        "result": 5,
+        "time": "5:38"
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "00",
+        "amountBet": 75,
+        "result": 15,
+        "time": "6:10"
+      },
+      {
+        "friend": 1,
+        "spin": 6,
+        "number": "30",
+        "amountBet": 75,
+        "result": -75,
+        "time": "6:55"
+      },
+      {
+        "friend": 1,
+        "spin": 7,
+        "number": "23",
+        "amountBet": 75,
+        "result": 105,
+        "time": "7:54"
+      },
+      {
+        "friend": 1,
+        "spin": 8,
+        "number": "9",
+        "amountBet": 225,
+        "result": 15,
+        "time": "8:51"
+      },
+      {
+        "friend": 1,
+        "spin": 9,
+        "number": "21",
+        "amountBet": 225,
+        "result": 315,
+        "time": "9:38"
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "34",
+        "amountBet": 75,
+        "result": -75,
+        "time": "10:55"
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "9",
+        "amountBet": 75,
+        "result": 5,
+        "time": "11:29"
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "26",
+        "amountBet": 75,
+        "result": -75,
+        "time": "11:59"
+      },
+      {
+        "friend": 2,
+        "spin": 13,
+        "number": "31",
+        "amountBet": 75,
+        "result": -75,
+        "time": "12:47"
+      },
+      {
+        "friend": 2,
+        "spin": 14,
+        "number": "16",
+        "amountBet": 75,
+        "result": 5,
+        "time": "13:25"
+      },
+      {
+        "friend": 2,
+        "spin": 15,
+        "number": "26",
+        "amountBet": 75,
+        "result": -75,
+        "time": "13:56"
+      }
+    ]
+  },
+  {
     "name": "Lucky Lauren Bump and Grind",
     "airDate": "2022-04-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=iyVBKHdY3dI",
@@ -6280,6 +6421,151 @@
     ]
   },
   {
+    "name": "Samsara",
+    "airDate": "2021-09-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=hdEPmkexhm8",
+    "reviewUrl": "2021-09-22-Samsara",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      120
+    ],
+    "rating": "",
+    "jackaceRating": "c",
+    "notes": "You could consolidate four of the $10 street bets into two $20 Double Street bets. Also, I might up the buy in to $360 so you can get up to 3 whacks.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "30",
+        "amountBet": 120,
+        "result": -120,
+        "time": "1:45"
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 120,
+        "result": 15,
+        "time": "2:30"
+      },
+      {
+        "spin": 3,
+        "number": "20",
+        "amountBet": 120,
+        "result": 60,
+        "time": "3:31"
+      },
+      {
+        "spin": 4,
+        "number": "8",
+        "amountBet": 120,
+        "result": 15,
+        "time": "4:30"
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 120,
+        "result": 15,
+        "time": "5:25"
+      },
+      {
+        "spin": 6,
+        "number": "29",
+        "amountBet": 120,
+        "result": 15,
+        "time": "6:03"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 120,
+        "result": 60,
+        "time": "6:52"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 120,
+        "result": 0,
+        "time": "7:50",
+        "notes": "They didn't mark this spin on the video."
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 120,
+        "result": 0,
+        "time": "8:25"
+      },
+      {
+        "spin": 10,
+        "number": "19",
+        "amountBet": 120,
+        "result": 60,
+        "time": "9:01"
+      },
+      {
+        "spin": 11,
+        "number": "35",
+        "amountBet": 120,
+        "result": 0,
+        "time": "10:02"
+      },
+      {
+        "spin": 12,
+        "number": "20",
+        "amountBet": 120,
+        "result": 60,
+        "time": "10:35"
+      },
+      {
+        "spin": 13,
+        "number": "4",
+        "amountBet": 120,
+        "result": 15,
+        "time": "11:35"
+      },
+      {
+        "spin": 14,
+        "number": "2",
+        "amountBet": 120,
+        "result": 0,
+        "time": "12:26"
+      },
+      {
+        "spin": 15,
+        "number": "26",
+        "amountBet": 120,
+        "result": 0,
+        "time": "12:57"
+      },
+      {
+        "spin": 16,
+        "number": "3",
+        "amountBet": 120,
+        "result": 0,
+        "time": "13:28"
+      },
+      {
+        "spin": 17,
+        "number": "10",
+        "amountBet": 120,
+        "result": 0,
+        "time": "13:58"
+      },
+      {
+        "spin": 18,
+        "number": "16",
+        "amountBet": 120,
+        "result": 60,
+        "time": "14:32"
+      }
+    ]
+  },
+  {
     "name": "Holy Splits",
     "airDate": "2021-09-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=KuGhy_7ZzmI",
@@ -6582,6 +6868,101 @@
         "number": "9",
         "amountBet": 1000,
         "result": 200
+      }
+    ]
+  },
+  {
+    "name": "Bunny Ranch",
+    "airDate": "2021-04-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=quy4BA8vcOs",
+    "reviewUrl": "2021-04-03-Bunny-Ranch",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1500,
+    "bets": [
+      300
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "notes": "Not a great DTF system. 17 different numbers with different bet sizes. The 7 $10 bets can be picked at the player's discretion.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "20",
+        "amountBet": 300,
+        "result": 780,
+        "time": "2:28"
+      },
+      {
+        "spin": 2,
+        "number": "1",
+        "amountBet": 300,
+        "result": -300,
+        "time": "3:53"
+      },
+      {
+        "spin": 3,
+        "number": "27",
+        "amountBet": 300,
+        "result": 60,
+        "time": "4:42"
+      },
+      {
+        "spin": 4,
+        "number": "11",
+        "amountBet": 300,
+        "result": 780,
+        "time": "5:59"
+      },
+      {
+        "spin": 5,
+        "number": "2",
+        "amountBet": 300,
+        "result": 60,
+        "time": "7:18"
+      },
+      {
+        "spin": 6,
+        "number": "29",
+        "amountBet": 300,
+        "result": -300,
+        "time": "8:34"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 300,
+        "result": 60,
+        "time": "9:26"
+      },
+      {
+        "spin": 8,
+        "number": "28",
+        "amountBet": 300,
+        "result": 240,
+        "time": "10:32"
+      },
+      {
+        "spin": 9,
+        "number": "31",
+        "amountBet": 300,
+        "result": -300,
+        "time": "11:40"
+      },
+      {
+        "spin": 10,
+        "number": "28",
+        "amountBet": 300,
+        "result": 240,
+        "time": "12:34"
+      },
+      {
+        "spin": 11,
+        "number": "9",
+        "amountBet": 300,
+        "result": 420,
+        "time": "14:06"
       }
     ]
   },
