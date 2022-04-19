@@ -1,5 +1,146 @@
 [
   {
+    "name": "Six Pack Jackpot",
+    "airDate": "2022-04-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=DBtV4LQpHMY",
+    "reviewUrl": "2022-04-18-Six-Pack-Jackpot",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      75,
+      225
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "friendCount": 2,
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "32",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:22"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "4",
+        "amountBet": 75,
+        "result": 5,
+        "time": "4:11",
+        "notes": "David didn't square up his $40 bet on 1-18."
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "15",
+        "amountBet": 75,
+        "result": 5,
+        "time": "4:57"
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "17",
+        "amountBet": 75,
+        "result": 5,
+        "time": "5:38"
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "00",
+        "amountBet": 75,
+        "result": 15,
+        "time": "6:10"
+      },
+      {
+        "friend": 1,
+        "spin": 6,
+        "number": "30",
+        "amountBet": 75,
+        "result": -75,
+        "time": "6:55"
+      },
+      {
+        "friend": 1,
+        "spin": 7,
+        "number": "23",
+        "amountBet": 75,
+        "result": 105,
+        "time": "7:54"
+      },
+      {
+        "friend": 1,
+        "spin": 8,
+        "number": "9",
+        "amountBet": 225,
+        "result": 15,
+        "time": "8:51"
+      },
+      {
+        "friend": 1,
+        "spin": 9,
+        "number": "21",
+        "amountBet": 225,
+        "result": 315,
+        "time": "9:38"
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "34",
+        "amountBet": 75,
+        "result": -75,
+        "time": "10:55"
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "9",
+        "amountBet": 75,
+        "result": 5,
+        "time": "11:29"
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "26",
+        "amountBet": 75,
+        "result": -75,
+        "time": "11:59"
+      },
+      {
+        "friend": 2,
+        "spin": 13,
+        "number": "31",
+        "amountBet": 75,
+        "result": -75,
+        "time": "12:47"
+      },
+      {
+        "friend": 2,
+        "spin": 14,
+        "number": "16",
+        "amountBet": 75,
+        "result": 5,
+        "time": "13:25"
+      },
+      {
+        "friend": 2,
+        "spin": 15,
+        "number": "26",
+        "amountBet": 75,
+        "result": -75,
+        "time": "13:56"
+      }
+    ]
+  },
+  {
     "name": "Lucky Lauren Bump and Grind",
     "airDate": "2022-04-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=iyVBKHdY3dI",
