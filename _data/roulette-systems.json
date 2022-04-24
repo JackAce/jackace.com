@@ -1,5 +1,167 @@
 [
   {
+    "name": "Two Pockets of Four On The Wheel",
+    "airDate": "2022-04-23",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-PV73ym_zzY",
+    "reviewUrl": "2022-04-23-Two-Pockets-of-Four-on-the-Wheel",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 525,
+    "bets": [
+      35,
+      45,
+      40
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "Press your bet when it hits.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "28",
+        "amountBet": 35,
+        "result": -35,
+        "time": "2:09"
+      },
+      {
+        "spin": 2,
+        "number": "28",
+        "amountBet": 35,
+        "result": -35,
+        "time": "2:48"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 35,
+        "result": -35,
+        "time": "3:28"
+      },
+      {
+        "spin": 4,
+        "number": "00",
+        "amountBet": 35,
+        "result": -35,
+        "time": "4:21"
+      },
+      {
+        "spin": 5,
+        "number": "31",
+        "amountBet": 35,
+        "result": -35,
+        "time": "4:59"
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 35,
+        "result": -35,
+        "time": "5:45"
+      },
+      {
+        "spin": 7,
+        "number": "17",
+        "amountBet": 35,
+        "result": 325,
+        "time": "6:32"
+      },
+      {
+        "spin": 8,
+        "number": "21",
+        "amountBet": 45,
+        "result": -45,
+        "time": "7:32",
+        "notes": "David pressed $10 on the 17."
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 35,
+        "result": -35,
+        "time": "8:22"
+      },
+      {
+        "spin": 10,
+        "number": "8",
+        "amountBet": 35,
+        "result": 55,
+        "time": "9:06"
+      },
+      {
+        "spin": 11,
+        "number": "00",
+        "amountBet": 40,
+        "result": -40,
+        "time": "9:55",
+        "notes": "David pressed $5 on the 5/8 split."
+      },
+      {
+        "spin": 12,
+        "number": "14",
+        "amountBet": 35,
+        "result": -35,
+        "time": "10:44"
+      },
+      {
+        "spin": 13,
+        "number": "29",
+        "amountBet": 35,
+        "result": 55,
+        "time": "11:23"
+      },
+      {
+        "spin": 14,
+        "number": "15",
+        "amountBet": 40,
+        "result": -40,
+        "time": "12:08",
+        "notes": "Alex says 'Thirty-five, sir' even though he should be taking $40. This is why you should always follow standard dealing procedure."
+      },
+      {
+        "spin": 15,
+        "number": "9",
+        "amountBet": 35,
+        "result": -35,
+        "time": "13:09",
+        "notes": "Alex asks for $35."
+      },
+      {
+        "spin": 16,
+        "number": "34",
+        "amountBet": 35,
+        "result": -35,
+        "time": "14:00",
+        "notes": "Alex asks for $35."
+      },
+      {
+        "spin": 17,
+        "number": "6",
+        "amountBet": 35,
+        "result": -35,
+        "time": "14:41",
+        "notes": "Alex asks for $35."
+      },
+      {
+        "spin": 18,
+        "number": "16",
+        "amountBet": 35,
+        "result": -35,
+        "time": "15:24",
+        "notes": "Alex asks for $35."
+      },
+      {
+        "spin": 19,
+        "number": "5",
+        "amountBet": 35,
+        "result": 55,
+        "time": "16:06"
+      }
+    ]
+  },
+  {
     "name": "Tower Preasure",
     "airDate": "2022-04-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=zOvqmodTdyc",
