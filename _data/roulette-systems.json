@@ -1,5 +1,117 @@
 [
   {
+    "name": "Alex's BD Energy",
+    "airDate": "2022-04-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=poDx-GomVyM",
+    "reviewUrl": "2022-04-25-Alexs-BD-Energy",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png",
+      "00-rba-4-800x440.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      75,
+      150,
+      300,
+      600,
+      900
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "notes": "Martingale on Loss. Alex and Lauren were wavering between Peach and Plum on the rating.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "19",
+        "amountBet": 75,
+        "result": -75,
+        "time": "1:31"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 150,
+        "result": 210,
+        "time": "2:19"
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 75,
+        "result": 105,
+        "time": "4:44"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 75,
+        "result": 105,
+        "time": "5:43",
+        "notes": "Alex mixed up his numbers here."
+      },
+      {
+        "spin": 5,
+        "number": "35",
+        "amountBet": 75,
+        "result": -75,
+        "time": "6:44"
+      },
+      {
+        "spin": 6,
+        "number": "21",
+        "amountBet": 150,
+        "result": 210,
+        "time": "7:28"
+      },
+      {
+        "spin": 7,
+        "number": "12",
+        "amountBet": 75,
+        "result": 105,
+        "time": "8:35"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 75,
+        "result": -75,
+        "time": "9:30"
+      },
+      {
+        "spin": 9,
+        "number": "22",
+        "amountBet": 150,
+        "result": -150,
+        "time": "10:10"
+      },
+      {
+        "spin": 10,
+        "number": "3",
+        "amountBet": 300,
+        "result": -300,
+        "time": "11:06"
+      },
+      {
+        "spin": 11,
+        "number": "25",
+        "amountBet": 600,
+        "result": -600,
+        "time": "12:09"
+      },
+      {
+        "spin": 12,
+        "number": "00",
+        "amountBet": 900,
+        "result": 1260,
+        "time": "13:26",
+        "notes": "Alex had to 'borrow' another $300 to cover this 1/2 Martingale bet."
+      }
+    ]
+  },
+  {
     "name": "Two Pockets of Four On The Wheel",
     "airDate": "2022-04-23",
     "youtubeUrl": "https://www.youtube.com/watch?v=-PV73ym_zzY",
