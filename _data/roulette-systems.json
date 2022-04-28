@@ -1,4 +1,162 @@
 [
+    {
+    "name": "Spokes on the Wheel",
+    "airDate": "2022-04-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=XBZVRTBAv7Y",
+    "reviewUrl": "2022-04-26-Spokes-on-the-Wheel",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      130,
+      135
+    ],
+    "rating": "",
+    "jackaceRating": "c",
+    "friendCount": 2,
+    "notes": "The numbers being bet are spokes on the Roulette wheel. They didn't triple Martingale when they were supposed to, according to the system description.",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "21",
+        "amountBet": 130,
+        "result": 20,
+        "time": "1:21"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "17",
+        "amountBet": 135,
+        "result": 15,
+        "time": "2:14"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "13",
+        "amountBet": 135,
+        "result": 15,
+        "time": "2:53"
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "5",
+        "amountBet": 135,
+        "result": -135,
+        "time": "4:57"
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "6",
+        "amountBet": 135,
+        "result": -135,
+        "time": "5:57"
+      },
+      {
+        "friend": 2,
+        "spin": 6,
+        "number": "27",
+        "amountBet": 135,
+        "result": 15,
+        "time": "7:05"
+      },
+      {
+        "friend": 2,
+        "spin": 7,
+        "number": "20",
+        "amountBet": 135,
+        "result": 15,
+        "time": "7:50"
+      },
+      {
+        "friend": 2,
+        "spin": 8,
+        "number": "33",
+        "amountBet": 135,
+        "result": 15,
+        "time": "8:31"
+      },
+      {
+        "friend": 2,
+        "spin": 9,
+        "number": "10",
+        "amountBet": 135,
+        "result": 45,
+        "time": "9:09"
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "10",
+        "amountBet": 135,
+        "result": 45,
+        "time": "10:01"
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "29",
+        "amountBet": 135,
+        "result": 15,
+        "time": "11:01"
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "14",
+        "amountBet": 135,
+        "result": 15,
+        "time": "11:41"
+      },
+      {
+        "friend": 2,
+        "spin": 13,
+        "number": "26",
+        "amountBet": 135,
+        "result": 15,
+        "time": "12:23"
+      },
+      {
+        "friend": 2,
+        "spin": 14,
+        "number": "6",
+        "amountBet": 135,
+        "result": -135,
+        "time": "13:02"
+      },
+      {
+        "friend": 2,
+        "spin": 15,
+        "number": "30",
+        "amountBet": 135,
+        "result": 15,
+        "time": "13:50"
+      },
+      {
+        "friend": 2,
+        "spin": 16,
+        "number": "24",
+        "amountBet": 135,
+        "result": 15,
+        "time": "14:35"
+      },
+      {
+        "friend": 2,
+        "spin": 17,
+        "number": "26",
+        "amountBet": 135,
+        "result": 15,
+        "time": "15:10",
+        "notes": "In the end, I am off $5 from their total win of $85. Not sure what the discrepancy is."
+      }
+    ]
+  },
   {
     "name": "Alex's BD Energy",
     "airDate": "2022-04-25",
