@@ -4,10 +4,10 @@ title: "How Does 'Running It Twice' Affect Your Odds in Poker?"
 date: 2022-04-27 00:01:00 -0800
 author: Jack Hayes
 tags: [poker,running it twice]
-excerpt_image: "/assets/img/posts/2022-02-02/00-title-800x505.png"
+excerpt_image: "/assets/img/posts/2022-04-27/00-title-800x505.png"
 summary: "How does Running it Twice, Thrice, or even 44 Times affect your EV and Variance in Poker?"
 comments: true
-published: false
+published: true
 math: true
 ---
 
@@ -124,8 +124,8 @@ math: true
     <i>So let's run it 44 times!</i>
 </p>
 <p>
-    To do this, we have to ignore burn cards and deal out all 44 River cards and
-    make forty-four $1 pots.
+    To do this, we have to ignore burn cards and deal out all 44 River cards to
+    make a total of forty-four $1 pots.
 </p>
 <p>
     Since we already know the dog is drawing to a one-outer, we know exactly one
@@ -1053,11 +1053,11 @@ math: true
     then your number of outs will be exactly the number of mini-pots that you will win. So 2
     outs means that you'll get \(\frac{2}{44}\) of the pot. 3 outs means \(\frac{3}{44}\). And
     if your opponent is drawing dead, then you'll win all 44 pots -- But more importantly, why
-    the Hell would you waste the dealer's time if he's drawing dead?
+    the Hell would you waste the dealer's time if your opponent is drawing dead?
 </p>
 <p>
     The more times you "run it", the more your actual results will converge toward the expected
-    value. In our extreme examples of running it 44 times, the actual result is <i>EXACTLY</i>
+    value. In our extreme example of running it 44 times, the actual result is <i>EXACTLY</i>
     your expected result and variance has been cut down to <i>ZERO</i>.
 </p>
 
@@ -1227,7 +1227,7 @@ math: true
     \( \displaystyle { \binom{x + y}{r} } = { \sum_{i=0}^r { \binom{x}{i} \binom{y}{r - i} } } \)
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-02-02/01-voldemorts-id-600x398.png" alt="Voldemort's ID Card" title="Voldemort's ID Card" />
+    <img src="{{site.baseurl}}/assets/img/posts/2022-04-27/01-voldemorts-id-600x398.png" alt="Voldemort's ID Card" title="Voldemort's ID Card" />
     <figcaption>
         This is what Voldemort uses to buy beer.
     </figcaption>
@@ -1239,6 +1239,9 @@ math: true
     So if we know 2 folded hands (4 additional cards), the number of unknown cards would be 40 (4 on the
     board, 4 in the live hands, and 4 mucked = 12 cards subtracted from 52 cards would be 40 unknown cards)
     and you could run it up to 40 times.
+</p>
+<p>
+    Here's the same formula as above except we've substituted the 44 unknown cards with \(y\).
 </p>
 <p class="p-center">
     \begin{align}
@@ -1280,12 +1283,22 @@ math: true
     Your actual result will converge to the EV the more times you "run it"<br/>
     Your variance will lower the more times you "run it"<br/>
 </blockquote>
+
+<h3>On the next episode of JackAce...</h3>
 <p>
     In the future, we'll look at running it multiple times on the turn, where the math gets more
-    complicated because it's less deterministic. If you have two outs, sometimes you'll win two pots,
-    and sometimes you'll only win one even if you run the deck to exhaustion (~21 times). This is because
-    sometimes your two-outers will show up on both the turn <i>and</i> the river and sometimes it's
-    impossible to deal to the last card (if there is an odd number of cards undealt).
+    complicated. When there are two or more cards to come, your results won't be deterministic,
+    especially when dealing all unknown cards may not be possible (if there is an uneven number of
+    undealt cards, for example).
+</p>
+<p>
+    If you have two outs, sometimes you'll win two pots,
+    and sometimes you'll only win one even if you run the deck to exhaustion (~22 times). This is because
+    sometimes your outs will show up on both the turn <i>and</i> the river and sometimes one of your outs
+    will remain undealt.
+</p>
+<p>
+
 </p>
 
 {%- include venn-badge.html isGambling=true isMath=true -%}
