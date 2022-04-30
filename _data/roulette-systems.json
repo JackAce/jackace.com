@@ -1,5 +1,94 @@
 [
   {
+    "name": "2-4-6-8 Who Do We Appreciate?",
+    "airDate": "2022-04-30",
+    "youtubeUrl": "https://www.youtube.com/watch?v=MMPmtua7t3Q",
+    "reviewUrl": "2022-04-30-Who-Do-We-Appreciate",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      140
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "notes": "The straight up bet can be 2, 4, 6, 8, or 10",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "00",
+        "amountBet": 140,
+        "result": 40,
+        "time": "1:50"
+      },
+      {
+        "spin": 2,
+        "number": "22",
+        "amountBet": 140,
+        "result": 70,
+        "time": "3:15"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 140,
+        "result": 70,
+        "time": "4:15"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 140,
+        "result": -50,
+        "time": "5:02"
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 140,
+        "result": 70,
+        "time": "6:25"
+      },
+      {
+        "spin": 6,
+        "number": "26",
+        "amountBet": 140,
+        "result": -20,
+        "time": "7:13"
+      },
+      {
+        "spin": 7,
+        "number": "33",
+        "amountBet": 140,
+        "result": -80,
+        "time": "8:15",
+        "notes": "The video incorrectly says -20"
+      },
+      {
+        "spin": 8,
+        "number": "19",
+        "amountBet": 140,
+        "result": -50,
+        "time": "9:08"
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 140,
+        "result": -80,
+        "time": "9:52"
+      },
+      {
+        "spin": 10,
+        "number": "8",
+        "amountBet": 140,
+        "result": 430,
+        "time": "10:39"
+      }
+    ]
+  },
+  {
     "name": "Planet 66",
     "airDate": "2022-04-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=KOBMQ3LOGvw",
