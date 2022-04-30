@@ -38,7 +38,7 @@ function increment(value) {
     updateUi();
 }
 
-function distribute() {
+function distribute(amountToSubtract) {
     let straightUpAmounts = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     for (let i = 0; i < indexes.length; i++) {
         let bet = $('#eq-' + indexes[i]).text();
@@ -49,12 +49,20 @@ function distribute() {
 
     clearAll();
 
-    for (let i = 0; i < indexes.length; i++) {
-        if (straightUpAmounts[i] > 0) {
-            $('#b-x1-' + indexes[i]).val(straightUpAmounts[i]);
+    if (amountToSubtract) {
+        for (let i = 0; i < indexes.length; i++) {
+            if (straightUpAmounts[i] > 0) {
+                straightUpAmounts[i] = formatDecimal(straightUpAmounts[i] - amountToSubtract);
+            }
         }
     }
     
+    for (let i = 0; i < indexes.length; i++) {
+        if (straightUpAmounts[i] > 0) {
+            $('#b-x1-' + indexes[i]).val(formatDecimal(straightUpAmounts[i]));
+        }
+    }
+
     updateUi();
 }
 
@@ -151,6 +159,8 @@ function updateUi() {
             // TODO: Check to see whether we can remove ALL bets!
             if (allEquity[0].amount < allEquity[35].amount) {
                 $('#equityToRemoveFor36Div').attr('class', null);
+                // Set javascript link for removing equity
+                $('#equityToRemoveFor36Link').attr("href", "javascript:distribute(" + formatDecimal(allEquity[0].amount) + ");");
                 $('.totalEquityToRemove').text(formatDecimal(allEquity[0].amount));
             } else {
                 $('#removeEverythingDiv').attr('class', null);
