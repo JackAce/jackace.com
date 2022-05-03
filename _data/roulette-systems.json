@@ -1,5 +1,127 @@
 [
   {
+    "name": "Diet Jackpot 5/17",
+    "airDate": "2022-05-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9TSQh8r1dLg",
+    "reviewUrl": "2022-05-02-Diet-Jackpot-5-17",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 900,
+    "bets": [
+      150
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "16",
+        "amountBet": 150,
+        "result": -150,
+        "time": "1:17"
+      },
+      {
+        "spin": 2,
+        "number": "29",
+        "amountBet": 150,
+        "result": 90,
+        "time": "2:07"
+      },
+      {
+        "spin": 3,
+        "number": "16",
+        "amountBet": 150,
+        "result": -150,
+        "time": "2:57"
+      },
+      {
+        "spin": 4,
+        "number": "7",
+        "amountBet": 150,
+        "result": 90,
+        "time": "5:05"
+      },
+      {
+        "spin": 5,
+        "number": "7",
+        "amountBet": 150,
+        "result": 90,
+        "time": "5:48"
+      },
+      {
+        "spin": 6,
+        "number": "27",
+        "amountBet": 150,
+        "result": 90,
+        "time": "6:32"
+      },
+      {
+        "spin": 7,
+        "number": "36",
+        "amountBet": 150,
+        "result": -150,
+        "time": "7:14"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 150,
+        "result": -150,
+        "time": "7:51"
+      },
+      {
+        "spin": 9,
+        "number": "6",
+        "amountBet": 150,
+        "result": -150,
+        "time": "8:38"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 150,
+        "result": 90,
+        "time": "9:17"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 150,
+        "result": -150,
+        "time": "9:57"
+      },
+      {
+        "spin": 12,
+        "number": "2",
+        "amountBet": 150,
+        "result": -150,
+        "time": "10:41"
+      },
+      {
+        "spin": 13,
+        "number": "3",
+        "amountBet": 150,
+        "result": 90,
+        "time": "11:16"
+      },
+      {
+        "spin": 14,
+        "number": "0",
+        "amountBet": 150,
+        "result": -150,
+        "time": "12:03"
+      },
+      {
+        "spin": 15,
+        "number": "10",
+        "amountBet": 150,
+        "result": -150,
+        "time": "12:55"
+      }
+    ]
+  },
+  {
     "name": "2-4-6-8 Who Do We Appreciate?",
     "airDate": "2022-04-30",
     "youtubeUrl": "https://www.youtube.com/watch?v=MMPmtua7t3Q",
