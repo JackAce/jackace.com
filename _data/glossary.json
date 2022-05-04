@@ -89,6 +89,12 @@
     "definition": "The Top Line Bet is the 5-Number bet in Roulette (covering 0, 00, 1, 2, and 3) and is notorious for being the worst single bet in Roulette (-7.89% house advantage on Double Zero, and -10.26% house advantage in Triple Zero)."
   },
   {
+    "term": "whale",
+    "categories": ["general gambling"],
+    "summary": "A large betting player",
+    "definition": "A whale is a gambler who likes to bet large sums of money. They are generally welcomed by casino staff."
+  },
+  {
     "term": "Wonging",
     "categories": ["blackjack"],
     "seeAlso": ["back counting"],
