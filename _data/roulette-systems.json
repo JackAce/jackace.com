@@ -1,5 +1,130 @@
 [
   {
+    "name": "Triple Romanowski",
+    "airDate": "2022-05-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9TSQh8r1dLg",
+    "reviewUrl": "2022-05-03-Triple-Romanowski",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 1125,
+    "bets": [
+      75,
+      375
+    ],
+    "rating": "f",
+    "jackaceRating": "c",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "21",
+        "amountBet": 75,
+        "result": 50,
+        "time": "0:57"
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 75,
+        "result": -25,
+        "time": "1:45"
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 75,
+        "result": 0,
+        "time": "2:25"
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 75,
+        "result": -75,
+        "time": "4:22",
+        "notes": "They marked this result as -25 for some reason."
+      },
+      {
+        "spin": 5,
+        "number": "19",
+        "amountBet": 75,
+        "result": -25,
+        "time": "5:05"
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 75,
+        "result": -75,
+        "time": "5:48"
+      },
+      {
+        "spin": 7,
+        "number": "30",
+        "amountBet": 75,
+        "result": 0,
+        "time": "6:24"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 75,
+        "result": 25,
+        "time": "7:00"
+      },
+      {
+        "spin": 9,
+        "number": "25",
+        "amountBet": 75,
+        "result": -25,
+        "time": "7:35"
+      },
+      {
+        "spin": 10,
+        "number": "36",
+        "amountBet": 75,
+        "result": 0,
+        "time": "8:18"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 75,
+        "result": -25,
+        "time": "8:53"
+      },
+      {
+        "spin": 12,
+        "number": "25",
+        "amountBet": 375,
+        "result": -125,
+        "time": "9:33"
+      },
+      {
+        "spin": 13,
+        "number": "20",
+        "amountBet": 375,
+        "result": -125,
+        "time": "10:16"
+      },
+      {
+        "spin": 14,
+        "number": "20",
+        "amountBet": 375,
+        "result": -125,
+        "time": "10:50"
+      },
+      {
+        "spin": 15,
+        "number": "16",
+        "amountBet": 375,
+        "result": -375,
+        "time": "11:27"
+      }
+    ]
+  },
+  {
     "name": "Diet Jackpot 5/17",
     "airDate": "2022-05-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=9TSQh8r1dLg",
