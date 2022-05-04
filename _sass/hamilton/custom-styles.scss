@@ -183,7 +183,7 @@ div.infobox-error {
   
     /* Position the tooltip text */
     position: absolute;
-    z-index: 1;
+    z-index: 999;
     bottom: 125%;
     left: 50%;
     margin-left: -60px;
@@ -194,13 +194,14 @@ div.infobox-error {
 }
 .glossary-term .tooltiptext::after {
     content: "";
+    z-index: 999;
     position: absolute;
     top: 100%;
     left: 10%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #555 transparent transparent transparent;
+    border-color: rgb(17, 91, 104) transparent transparent transparent;
 }
 .glossary-term:hover .tooltiptext {
     visibility: visible;
