@@ -1,5 +1,127 @@
 [
   {
+    "name": "Diamond in the Rough",
+    "airDate": "2022-05-07",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dtwfkmIB6FA",
+    "reviewUrl": "2022-05-07-Diamond-in-the-Rough",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 600,
+    "bets": [
+      140
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "22",
+        "amountBet": 140,
+        "result": -140,
+        "time": "1:28"
+      },
+      {
+        "spin": 2,
+        "number": "11",
+        "amountBet": 140,
+        "result": 10,
+        "time": "2:11"
+      },
+      {
+        "spin": 3,
+        "number": "6",
+        "amountBet": 140,
+        "result": 10,
+        "time": "3:00"
+      },
+      {
+        "spin": 4,
+        "number": "23",
+        "amountBet": 140,
+        "result": -140,
+        "time": "3:58"
+      },
+      {
+        "spin": 5,
+        "number": "20",
+        "amountBet": 140,
+        "result": 310,
+        "time": "4:58"
+      },
+      {
+        "spin": 6,
+        "number": "14",
+        "amountBet": 140,
+        "result": -140,
+        "time": "6:36"
+      },
+      {
+        "spin": 7,
+        "number": "3",
+        "amountBet": 140,
+        "result": 10,
+        "time": "7:26"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 140,
+        "result": 10,
+        "time": "8:05"
+      },
+      {
+        "spin": 9,
+        "number": "19",
+        "amountBet": 140,
+        "result": -5,
+        "time": "8:41"
+      },
+      {
+        "spin": 10,
+        "number": "6",
+        "amountBet": 140,
+        "result": 10,
+        "time": "9:31"
+      },
+      {
+        "spin": 11,
+        "number": "17",
+        "amountBet": 140,
+        "result": 310,
+        "time": "10:03"
+      },
+      {
+        "spin": 12,
+        "number": "21",
+        "amountBet": 140,
+        "result": -5,
+        "time": "11:08"
+      },
+      {
+        "spin": 13,
+        "number": "16",
+        "amountBet": 140,
+        "result": -5,
+        "time": "12:00"
+      },
+      {
+        "spin": 14,
+        "number": "0",
+        "amountBet": 140,
+        "result": -140,
+        "time": "12;37"
+      },
+      {
+        "spin": 15,
+        "number": "12",
+        "amountBet": 140,
+        "result": 10,
+        "time": "13:25"
+      }
+    ]
+  },
+  {
     "name": "The 9 Spot",
     "airDate": "2022-05-06",
     "youtubeUrl": "https://www.youtube.com/watch?v=Wuyw-O_4jo4",
