@@ -1,5 +1,133 @@
 [
   {
+    "name": "Six to Midnight",
+    "airDate": "2022-05-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=BnakQmxSbBE",
+    "reviewUrl": "2022-05-09-Six-to-Midnight",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png",
+      "00-rba-4-800x440.png",
+      "00-rba-5-800x440.png",
+      "00-rba-6-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      100,
+      100,
+      150,
+      225,
+      270,
+      300,
+      450
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 100,
+        "result": 50,
+        "time": "5:49"
+      },
+      {
+        "spin": 2,
+        "number": "17",
+        "amountBet": 100,
+        "result": 100,
+        "time": "6:37"
+      },
+      {
+        "spin": 3,
+        "number": "24",
+        "amountBet": 150,
+        "result": -150,
+        "time": "7:13"
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 100,
+        "result": -100,
+        "time": "7:46",
+        "notes": "Alex bet the 1st and 3rd dozen here, but it didn't really matter because 0"
+      },
+      {
+        "spin": 5,
+        "number": "32",
+        "amountBet": 100,
+        "result": 50,
+        "time": "8:17"
+      },
+      {
+        "spin": 6,
+        "number": "6",
+        "amountBet": 100,
+        "result": 100,
+        "time": "8:52"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 150,
+        "result": -150,
+        "time": "9:28"
+      },
+      {
+        "spin": 8,
+        "number": "18",
+        "amountBet": 100,
+        "result": 50,
+        "time": "10:19"
+      },
+      {
+        "spin": 9,
+        "number": "00",
+        "amountBet": 100,
+        "result": -100,
+        "time": "10:54"
+      },
+      {
+        "spin": 10,
+        "number": "7",
+        "amountBet": 100,
+        "result": -100,
+        "time": "11:24"
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 100,
+        "result": -100,
+        "time": "11:51"
+      },
+      {
+        "spin": 12,
+        "number": "13",
+        "amountBet": 100,
+        "result": 50,
+        "time": "12:21"
+      },
+      {
+        "spin": 13,
+        "number": "13",
+        "amountBet": 100,
+        "result": 100,
+        "time": "12:58"
+      },
+      {
+        "spin": 14,
+        "number": "23",
+        "amountBet": 150,
+        "result": -150,
+        "time": "13:37"
+      }
+    ]
+  },
+  {
     "name": "Diamond in the Rough",
     "airDate": "2022-05-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=dtwfkmIB6FA",
