@@ -1,12 +1,12 @@
 [
   {
-    "term": "A",
+    "term": "a",
     "categories": ["general gambling", "blackjack", "poker", "baccarat"],
     "summary": "Shorthand for the \"Ace\"",
     "definition": "Shorthand for the \"Ace\", often the most valued and highest ranked card."
   },
   {
-    "term": "AP",
+    "term": "ap",
     "categories": ["general gambling", "blackjack", "poker", "baccarat", "sports betting"],
     "summary": "Shorthand for the \"Advantage Player\"",
     "definition": "An \"Advantage Player\" or \"Advantaged Player\". Someone who plays casino games with an advantage over the house or other players. Often used to describe card counters or skilled poker players."
@@ -19,7 +19,7 @@
     "definition": "Back counting is keeping track of played cards in blackjack without making bets on any hands, hoping that the player's edge will become positive so the player only makes bets when he has an advantage."
   },
   {
-    "term": "Basket Bet",
+    "term": "basket bet",
     "categories": ["roulette"],
     "seeAlso": ["Top Line Bet"],
     "summary": "Sometimes described as the \"5-Number Bet\" or \"Top Line Bet\"",
@@ -40,7 +40,7 @@
     "definition": "The principal in Roulette that states that a single multi-number bet can be equally distributed amongst all numbers covered without affecting the win or losses. This is true for all multi-number bets except the 5-number bet."
   },
   {
-    "term": "EV",
+    "term": "ev",
     "categories": ["general gambling"],
     "summary": "expected value",
     "definition": "The predicted value of a unknown outcome, calculated as the sum of all possible values each multiplied by the probability of its occurrence."
@@ -52,7 +52,13 @@
     "definition": "Fiat is traditional cash in a well established currency such as the US Dollar. This is opposed to cryptocurrencies, which are digital currencies, supported by a blockchain."
   },
   {
-    "term": "Martingale",
+    "term": "insurance",
+    "categories": ["blackjack"],
+    "summary": "A side bet in Blackjack when the dealer has an Ace showing.",
+    "definition": "In Blackjack, you can make an Insurance side-bet when the dealer has an Ace showing. You get paid 2:1 if they have a 10 as their hole card (completing their Natural Blackjack). You can bet up to half of your initial bet."
+  },
+  {
+    "term": "martingale",
     "categories": ["blackjack", "roulette", "baccarat", "general gambling", "betting", "systems"],
     "summary": "Doubling your bet after a loss",
     "definition": "The Martingale betting system calls for doubling your bet after a loss, trying to chase a win."
@@ -76,13 +82,13 @@
     "definition": "A series of bets in Roulette where hitting a specific number results in multiple bets winning."
   },
   {
-    "term": "Third Base",
+    "term": "third base",
     "categories": ["blackjack"],
     "summary": "The last player to act before the dealer in blackjack",
     "definition": "The last seat on a blackjack table, usually the left-most seat when facing the dealer."
   },
   {
-    "term": "Top Line Bet",
+    "term": "top line bet",
     "categories": ["roulette"],
     "seeAlso": ["Basket Bet"],
     "summary": "The 5-Number Bet in Roulette covering 0, 00, 1, 2, and 3.",
@@ -95,7 +101,7 @@
     "definition": "A whale is a gambler who likes to bet large sums of money. They are generally welcomed by casino staff."
   },
   {
-    "term": "Wonging",
+    "term": "wonging",
     "categories": ["blackjack"],
     "seeAlso": ["back counting"],
     "summary": "Card counting in a blackjack game without playing",

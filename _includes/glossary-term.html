@@ -1,5 +1,7 @@
 {% assign displayName = include.displayName | default: include.term %}
-{%- assign term = site.data.glossary | where: "term", include.term | first -%}
+{% assign searchTerm = include.term | downcase %}
+
+{%- assign term = site.data.glossary | where: "term", searchTerm | first -%}
 
 <span class="glossary-term">
     {{- displayName -}}
