@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tips and Tricks for Securing Your Cryptocurrency Hardware Wallet"
+title: "Tips for Securing Your Cryptocurrency Hardware Wallet"
 date: 2022-05-09 00:01:00 -0800
 author: Jack Hayes
 tags: [crypto,cryptocurrencies,bitcoin,ethereum,dogecoin,hardware wallet,ledger,trezor]
@@ -8,7 +8,7 @@ excerpt_image: "/assets/img/posts/2022-05-15/00-title-800x800.png"
 summary: "There are three main steps in keeping your cryptocurrency hardware wallet secure."
 published: true
 comments: true
-math: false
+math: true
 ---
 
 <figure>
@@ -56,6 +56,53 @@ math: false
     </figcaption>
 </figure>
 
+<table>
+    <tr>
+        <th>
+            Word Count
+        </th>
+        <th>
+            Combinations
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            12
+        </td>
+        <td>
+            <div style="font-size: 75%;">
+                \( 2048^{12} = 5,444,517,870,735,015,415,413,993,718,908,291,383,296 \)
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            18
+        </td>
+        <td>
+            <div style="font-size: 75%;">
+                \( 2048^{18} = 401,734,511,064,747,568,885,490,523,085,290,650,630,550,748,445,698,208,825,344 \)
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="cell-center">
+            24
+        </td>
+        <td>
+            <div style="font-size: 75%;">
+                \( 2048^{24} = 29,642,774,844,752,946,028,434,172,162,224,104,410,437,116,074,403,984,394,101,141,506,025,761,187,823,616 \)
+            </div>
+        </td>
+    </tr>
+</table>
+
+<p>
+    If you want to get a sense of how large the number of combinations for the 24-Word seed
+    phrase is... If you imagine each combination represented by an atom, all of the combinations
+    would account for <i>30% of the entire universe</i>!
+</p>
+
 <h3>How to Secure your Seed Phrase</h3>
 <p>
     <b>NEVER</b> store your Seed Phrase electronically in <b>ANY FORM</b>. This means you need to
@@ -63,7 +110,7 @@ math: false
     Phrase should be stored in a home safe or a safety deposit box.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-15/01-seed-phrase.png" alt="24-word Seed Phrase"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-15/02-stamped-phrase-800x533.jpg" alt="24-word Seed Phrase"/>
     <figcaption>
         There are several <i>must do</i> steps in securing your cryptocurrency wallet. Make sure
         you're doing them.
@@ -121,8 +168,7 @@ math: false
         it. In criminal cases investigators can force the box open and seize its contents.
         They don't even need to seize the contents - they might just snap a photo of your
         Seed Phrase in the box and restore your wallet when they got off work.
-    </p>
-    <p>
+        <br/><br/>
         The 25th word protects you in situations like this.
     </p>
 </div>
@@ -213,4 +259,4 @@ math: false
 </p>
 
 
-{%- include venn-badge.html isCrypto=true -%}
+{%- include venn-badge.html isCrypto=true isMath=true -%}
