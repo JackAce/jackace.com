@@ -1,5 +1,340 @@
 [
   {
+    "name": "What's Your Vice",
+    "airDate": "2022-05-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xX7ulSc45FM",
+    "reviewUrl": "2022-05-14-Whats-Your-Vice",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 600,
+    "bets": [
+      135,
+      270,
+      540
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 135,
+        "result": -135,
+        "time": "1:33"
+      },
+      {
+        "spin": 2,
+        "number": "17",
+        "amountBet": 135,
+        "result": 45,
+        "time": "2:08"
+      },
+      {
+        "spin": 3,
+        "number": "3",
+        "amountBet": 135,
+        "result": -135,
+        "time": "2:41"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 135,
+        "result": 45,
+        "time": "3:54"
+      },
+      {
+        "spin": 5,
+        "number": "27",
+        "amountBet": 135,
+        "result": -135,
+        "time": "4:26"
+      },
+      {
+        "spin": 6,
+        "number": "22",
+        "amountBet": 135,
+        "result": 45,
+        "time": "5:21"
+      },
+      {
+        "spin": 7,
+        "number": "22",
+        "amountBet": 135,
+        "result": 45,
+        "time": "5:57"
+      },
+      {
+        "spin": 8,
+        "number": "10",
+        "amountBet": 135,
+        "result": 45,
+        "time": "6:26"
+      },
+      {
+        "spin": 9,
+        "number": "15",
+        "amountBet": 270,
+        "result": -270,
+        "time": "7:14"
+      },
+      {
+        "spin": 10,
+        "number": "36",
+        "amountBet": 135,
+        "result": 45,
+        "time": "8:28"
+      },
+      {
+        "spin": 11,
+        "number": "19",
+        "amountBet": 135,
+        "result": 45,
+        "time": "8:59"
+      },
+      {
+        "spin": 12,
+        "number": "30",
+        "amountBet": 135,
+        "result": -135,
+        "time": "9:27"
+      },
+      {
+        "spin": 13,
+        "number": "31",
+        "amountBet": 135,
+        "result": -135,
+        "time": "10:21"
+      }
+    ]
+  },
+  {
+    "name": "Board Walk",
+    "airDate": "2022-05-13",
+    "youtubeUrl": "https://www.youtube.com/watch?v=K4nJkp9aRBU",
+    "reviewUrl": "2022-05-13-Board-Walk",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png",
+      "00-rba-4-800x440.png",
+      "00-rba-5-800x440.png",
+      "00-rba-6-800x440.png",
+      "00-rba-7-800x440.png"
+    ],
+    "buyIn": 100,
+    "bets": [
+      5,
+      10,
+      20,
+      40,
+      80,
+      160,
+      320,
+      380
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "notes": "I hate these systems that have 7 or more betting schemes and it never gets past the 4th tier. Just too complicated. Just Martingale and keep it simple. Moving the Even Money bets is just a waste of time.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "23",
+        "amountBet": 5,
+        "result": -5,
+        "time": "3:30"
+      },
+      {
+        "spin": 2,
+        "number": "6",
+        "amountBet": 5,
+        "result": 5,
+        "time": "3:57"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:38"
+      },
+      {
+        "spin": 4,
+        "number": "23",
+        "amountBet": 5,
+        "result": -5,
+        "time": "4:56"
+      },
+      {
+        "spin": 5,
+        "number": "32",
+        "amountBet": 5,
+        "result": -5,
+        "time": "5:21"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 5,
+        "result": -5,
+        "time": "5:46"
+      },
+      {
+        "spin": 7,
+        "number": "17",
+        "amountBet": 5,
+        "result": 5,
+        "time": "6:00"
+      },
+      {
+        "spin": 8,
+        "number": "27",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:30"
+      },
+      {
+        "spin": 9,
+        "number": "10",
+        "amountBet": 5,
+        "result": 5,
+        "time": "7:01"
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 10,
+        "result": 10,
+        "time": "7:36"
+      },
+      {
+        "spin": 11,
+        "number": "36",
+        "amountBet": 20,
+        "result": 20,
+        "time": "8:01"
+      },
+      {
+        "spin": 12,
+        "number": "12",
+        "amountBet": 40,
+        "result": -40,
+        "time": "8:30"
+      },
+      {
+        "spin": 13,
+        "number": "22",
+        "amountBet": 5,
+        "result": -5,
+        "time": "9:00"
+      },
+      {
+        "spin": 14,
+        "number": "31",
+        "amountBet": 5,
+        "result": -5,
+        "time": "9:30"
+      },
+      {
+        "spin": 15,
+        "number": "24",
+        "amountBet": 5,
+        "result": -5,
+        "time": "9:46"
+      },
+      {
+        "spin": 16,
+        "number": "35",
+        "amountBet": 5,
+        "result": -5,
+        "time": "10:08"
+      },
+      {
+        "spin": 17,
+        "number": "24",
+        "amountBet": 5,
+        "result": -5,
+        "time": "10:41"
+      },
+      {
+        "spin": 18,
+        "number": "14",
+        "amountBet": 5,
+        "result": 5,
+        "time": "11:16"
+      },
+      {
+        "spin": 19,
+        "number": "21",
+        "amountBet": 10,
+        "result": -10,
+        "time": "11:40"
+      },
+      {
+        "spin": 20,
+        "number": "6",
+        "amountBet": 5,
+        "result": 5,
+        "time": "12:10"
+      },
+      {
+        "spin": 21,
+        "number": "00",
+        "amountBet": 10,
+        "result": -10,
+        "time": "12:43"
+      },
+      {
+        "spin": 22,
+        "number": "21",
+        "amountBet": 5,
+        "result": -5,
+        "time": "13:01"
+      },
+      {
+        "spin": 23,
+        "number": "21",
+        "amountBet": 5,
+        "result": 5,
+        "time": "13:31",
+        "notes": "They didn't mark this spin in the video."
+      },
+      {
+        "spin": 24,
+        "number": "26",
+        "amountBet": 10,
+        "result": 10,
+        "time": "13:58"
+      },
+      {
+        "spin": 25,
+        "number": "27",
+        "amountBet": 20,
+        "result": 20,
+        "time": "14:26"
+      },
+      {
+        "spin": 26,
+        "number": "2",
+        "amountBet": 40,
+        "result": 40,
+        "time": "14:51"
+      },
+      {
+        "spin": 27,
+        "number": "18",
+        "amountBet": 80,
+        "result": -80,
+        "time": "15:26"
+      }
+    ]
+  },
+  {
     "name": "DTF",
     "airDate": "2022-05-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=BXz7Yof_9XE",
