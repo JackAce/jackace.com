@@ -1,5 +1,128 @@
 [
   {
+    "name": "Other People's Ploppy",
+    "airDate": "2022-05-16",
+    "youtubeUrl": "https://www.youtube.com/watch?v=kzMKUT9Z9WU",
+    "reviewUrl": "2022-05-16-Other-Peoples-Ploppy",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      125
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "friendCount": 2,
+    "notes": "Alex gave this a plum, Freddie gave it a peach.",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "35",
+        "amountBet": 150,
+        "result": 0,
+        "time": "3:45"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "26",
+        "amountBet": 150,
+        "result": 90,
+        "time": "4:26"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "35",
+        "amountBet": 150,
+        "result": 0,
+        "time": "5:34"
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "10",
+        "amountBet": 150,
+        "result": 90,
+        "time": "6:07"
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "36",
+        "amountBet": 150,
+        "result": 0,
+        "time": "7:06"
+      },
+      {
+        "friend": 1,
+        "spin": 6,
+        "number": "23",
+        "amountBet": 150,
+        "result": -150,
+        "time": "7:39"
+      },
+      {
+        "friend": 1,
+        "spin": 7,
+        "number": "15",
+        "amountBet": 150,
+        "result": 150,
+        "time": "8:16"
+      },
+      {
+        "friend": 1,
+        "spin": 8,
+        "number": "17",
+        "amountBet": 150,
+        "result": 90,
+        "time": "9:08"
+      },
+      {
+        "friend": 2,
+        "spin": 9,
+        "number": "3",
+        "amountBet": 150,
+        "result": 0,
+        "time": "10:15"
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "24",
+        "amountBet": 150,
+        "result": 150,
+        "time": "10:47"
+      },
+      {
+        "friend": 2,
+        "spin": 11  ,
+        "number": "26",
+        "amountBet": 150,
+        "result": 90,
+        "time": "11:34"
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "21",
+        "amountBet": 150,
+        "result": 0,
+        "time": "12:26"
+      },
+      {
+        "friend": 2,
+        "spin": 13,
+        "number": "31",
+        "amountBet": 150,
+        "result": 90,
+        "time": "12:57"
+      }
+    ]
+  },
+  {
     "name": "What's Your Vice",
     "airDate": "2022-05-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=xX7ulSc45FM",
