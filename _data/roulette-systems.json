@@ -1,5 +1,132 @@
 [
   {
+    "name": "9 Split",
+    "airDate": "2022-05-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_VvESwHwBZ8",
+    "reviewUrl": "2022-05-17-9-Split",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 400,
+    "bets": [
+      9,
+      18,
+      36,
+      72
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "notes": "Alex gave this a peach, Freddie gave it a plum.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "20",
+        "amountBet": 9,
+        "result": 9,
+        "time": "1:06"
+      },
+      {
+        "spin": 2,
+        "number": "11",
+        "amountBet": 9,
+        "result": -9,
+        "time": "3:13"
+      },
+      {
+        "spin": 3,
+        "number": "35",
+        "amountBet": 18,
+        "result": 18,
+        "time": "3:49"
+      },
+      {
+        "spin": 4,
+        "number": "21",
+        "amountBet": 9,
+        "result": -9,
+        "time": "4:46",
+        "notes": "They marked this as +9 instead of -9 in the video."
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 18,
+        "result": -18,
+        "time": "5:37"
+      },
+      {
+        "spin": 6,
+        "number": "30",
+        "amountBet": 36,
+        "result": -36,
+        "time": "6:22"
+      },
+      {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 72,
+        "result": 72,
+        "time": "7:01"
+      },
+      {
+        "spin": 8,
+        "number": "21",
+        "amountBet": 9,
+        "result": -9,
+        "time": "8:11"
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 18,
+        "result": 18,
+        "time": "8:53"
+      },
+      {
+        "spin": 10,
+        "number": "12",
+        "amountBet": 9,
+        "result": 9,
+        "time": "10:12"
+      },
+      {
+        "spin": 11,
+        "number": "32",
+        "amountBet": 9,
+        "result": 9,
+        "time": "11:03"
+      },
+      {
+        "spin": 12,
+        "number": "9",
+        "amountBet": 9,
+        "result": -9,
+        "time": "11:46"
+      },
+      {
+        "spin": 13,
+        "number": "31",
+        "amountBet": 18,
+        "result": -18,
+        "time": "12:20"
+      },
+      {
+        "spin": 14,
+        "number": "1",
+        "amountBet": 36,
+        "result": -36,
+        "time": "13:02"
+      },
+      {
+        "spin": 15,
+        "number": "35",
+        "amountBet": 72,
+        "result": 72,
+        "time": "13:49"
+      }
+    ]
+  },
+  {
     "name": "Other People's Ploppy",
     "airDate": "2022-05-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=kzMKUT9Z9WU",
