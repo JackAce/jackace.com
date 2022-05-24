@@ -1,5 +1,274 @@
 [
   {
+    "name": "No F's Given",
+    "airDate": "2022-05-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=oVMArjFjjeM",
+    "reviewUrl": "2022-05-21-No-Fs-Given",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 800,
+    "bets": [
+      200
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "notes": "All of the straight-up payouts were incorrect in the video. The system author didn't take into account getting their money back.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "24",
+        "amountBet": 200,
+        "result": 0,
+        "time": "3:46"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 200,
+        "result": 0,
+        "time": "4:08"
+      },
+      {
+        "spin": 3,
+        "number": "3",
+        "amountBet": 200,
+        "result": -200,
+        "time": "4:31"
+      },
+      {
+        "spin": 4,
+        "number": "29",
+        "amountBet": 200,
+        "result": 0,
+        "time": "5:05"
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 200,
+        "result": 52,
+        "time": "5:33",
+        "notes": "Should be +52, not +45"
+      },
+      {
+        "spin": 6,
+        "number": "14",
+        "amountBet": 200,
+        "result": 52,
+        "time": "6:54"
+      },
+      {
+        "spin": 7,
+        "number": "17",
+        "amountBet": 200,
+        "result": 520,
+        "time": "8:25",
+        "notes": "Win here is +520, not +500"
+      },
+      {
+        "spin": 8,
+        "number": "10",
+        "amountBet": 186,
+        "result": -186,
+        "time": "9:56",
+        "notes": "Didn't bet the 14 or 16 here."
+      },
+      {
+        "spin": 9,
+        "number": "27",
+        "amountBet": 200,
+        "result": 0,
+        "time": "10:32",
+        "notes": "Didn't bet the 14 or 16 here, but they counted this as a push."
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 200,
+        "result": 0,
+        "time": "11:00",
+        "notes": "Didn't bet the 14 or 16 here, but they counted this as a push."
+      },
+      {
+        "spin": 11,
+        "number": "30",
+        "amountBet": 200,
+        "result": 0,
+        "time": "11:28",
+        "notes": "Didn't bet the 14 or 16 here, but they counted this as a push."
+      },
+      {
+        "spin": 12,
+        "number": "13",
+        "amountBet": 200,
+        "result": -200,
+        "time": "12:01",
+        "notes": "Didn't bet the 14 or 16 here, but Alex paid $200 directly to Freddie."
+      },
+      {
+        "spin": 13,
+        "number": "20",
+        "amountBet": 200,
+        "result": 0,
+        "time": "12:30",
+        "notes": "Didn't bet the 14 or 16 here, but they counted this as a push."
+      },
+      {
+        "spin": 14,
+        "number": "6",
+        "amountBet": 200,
+        "result": 124,
+        "time": "13:00",
+        "notes": "Alex should have won $124, not $115 here (assuming a 200 bet)."
+      },
+      {
+        "spin": 15,
+        "number": "27",
+        "amountBet": 200,
+        "result": 0,
+        "time": "13:39",
+        "notes": "Didn't bet the 14 or 16 here, but they counted this as a push."
+      },
+      {
+        "spin": 16,
+        "number": "8",
+        "amountBet": 200,
+        "result": 52,
+        "time": "14:10",
+        "notes": "Alex should have won $52, not $45 here."
+      },
+      {
+        "spin": 17,
+        "number": "5",
+        "amountBet": 200,
+        "result": -200,
+        "time": "14:50",
+        "notes": "Didn't bet the 14 or 16 here, but Alex paid $200 directly to Freddie."
+      },
+      {
+        "spin": 18,
+        "number": "32",
+        "amountBet": 200,
+        "result": 0,
+        "time": "15:23",
+        "notes": "Didn't bet the 14 or 16 here, but they counted this as a push."
+      },
+      {
+        "spin": 19,
+        "number": "13",
+        "amountBet": 186,
+        "result": -186,
+        "time": "15:57",
+        "notes": "Didn't bet the 14 or 16 here, but this time Freddie scooped the layout properly."
+      }
+    ]
+  },
+  {
+    "name": "2 Systems, 1 Ball",
+    "airDate": "2022-05-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=76sueLYW6Bk",
+    "reviewUrl": "2022-05-20-2-Systems-1-Ball",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      94
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "notes": "This is the intersection of two systems: DTF (2 Dozens and one Double Street) and 9 Split (9 Split bets). You just Martingale each system independently if it misses. Alex gave this an eggplant. Freddie gave it a Plum.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "28",
+        "amountBet": 94,
+        "result": -4,
+        "time": "2:14"
+      },
+      {
+        "spin": 2,
+        "number": "27",
+        "amountBet": 103,
+        "result": 23,
+        "time": "3:21"
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 94,
+        "result": -4,
+        "time": "4:33"
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 103,
+        "result": -13,
+        "time": "5:20"
+      },
+      {
+        "spin": 5,
+        "number": "25",
+        "amountBet": 121,
+        "result": 41,
+        "time": "6:17"
+      },
+      {
+        "spin": 6,
+        "number": "00",
+        "amountBet": 94,
+        "result": -76,
+        "time": "8:05"
+      },
+      {
+        "spin": 7,
+        "number": "35",
+        "amountBet": 179,
+        "result": 19,
+        "time": "8:57"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 94,
+        "result": 1,
+        "time": "10:00"
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 188,
+        "result": -28,
+        "time": "10:56",
+        "notes":  "Video said +37, but I believe it's +21"
+      },
+      {
+        "spin": 10,
+        "number": "13",
+        "amountBet": 188,
+        "result": -152,
+        "time": "12:16",
+        "notes": "Video said -161, but I believe it's -152"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 349,
+        "result": 11,
+        "time": "13:19"
+      },
+      {
+        "spin": 12,
+        "number": "9",
+        "amountBet": 358,
+        "result": 2,
+        "time": "14:17"
+      }
+    ]
+  },
+  {
     "name": "9 Split",
     "airDate": "2022-05-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=_VvESwHwBZ8",
