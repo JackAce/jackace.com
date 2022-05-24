@@ -11,7 +11,7 @@
     "bets": [
       360
     ],
-    "rating": "",
+    "rating": "b",
     "jackaceRating": "b",
     "spins": [
       {
@@ -86,80 +86,31 @@
       },
       {
         "spin": 11,
-        "number": "00",
+        "number": "7",
         "amountBet": 360,
-        "result": -1,
-        "time": ""
+        "result": 0,
+        "time": "12:27"
       },
       {
-        "spin": 999,
+        "spin": 12,
         "number": "00",
         "amountBet": 360,
-        "result": -1,
-        "time": ""
+        "result": -360,
+        "time": "13:13"
       },
       {
-        "spin": 999,
-        "number": "00",
+        "spin": 13,
+        "number": "19",
         "amountBet": 360,
-        "result": -1,
-        "time": ""
+        "result": 90,
+        "time": "14:10"
       },
       {
-        "spin": 999,
-        "number": "00",
+        "spin": 14,
+        "number": "10",
         "amountBet": 360,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 999,
-        "number": "00",
-        "amountBet": 360,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 999,
-        "number": "00",
-        "amountBet": 360,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 999,
-        "number": "00",
-        "amountBet": 360,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 999,
-        "number": "00",
-        "amountBet": 360,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 999,
-        "number": "00",
-        "amountBet": 360,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 999,
-        "number": "00",
-        "amountBet": 360,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 999,
-        "number": "00",
-        "amountBet": 360,
-        "result": -1,
-        "time": ""
+        "result": -360,
+        "time": "14:48"
       }
     ]
   },
