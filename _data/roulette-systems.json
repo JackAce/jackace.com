@@ -1,5 +1,128 @@
 [
   {
+    "name": "Play Until Jackpot",
+    "airDate": "2022-05-24",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Ng-PN1GWGok",
+    "reviewUrl": "2022-05-24-Play-Until-Jackpot",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 255,
+    "bets": [
+      255
+    ],
+    "friendCount": 4,
+    "rating": "b",
+    "jackaceRating": "b",
+    "notes": "I'm not a fan of using a bankroll that can only survive one whack. Also, there are too many bets.",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "31",
+        "amountBet": 255,
+        "result": 15,
+        "time": "3:45"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "1",
+        "amountBet": 255,
+        "result": 15,
+        "time": "4:28"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "30",
+        "amountBet": 255,
+        "result": -255,
+        "time": "5:19"
+      },
+      {
+        "friend": 2,
+        "spin": 4,
+        "number": "29",
+        "amountBet": 255,
+        "result": 15,
+        "time": "6:00"
+      },
+      {
+        "friend": 2,
+        "spin": 5,
+        "number": "19",
+        "amountBet": 255,
+        "result": 15,
+        "time": "6:44"
+      },
+      {
+        "friend": 2,
+        "spin": 6,
+        "number": "16",
+        "amountBet": 255,
+        "result": 15,
+        "time": "7:33"
+      },
+      {
+        "friend": 2,
+        "spin": 7,
+        "number": "6",
+        "amountBet": 255,
+        "result": 15,
+        "time": "8:30"
+      },
+      {
+        "friend": 2,
+        "spin": 8,
+        "number": "18",
+        "amountBet": 255,
+        "result": 15,
+        "time": "9:19"
+      },
+      {
+        "friend": 2,
+        "spin": 9,
+        "number": "22",
+        "amountBet": 255,
+        "result": 15,
+        "time": "10:10"
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "13",
+        "amountBet": 255,
+        "result": 15,
+        "time": "10:46"
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "27",
+        "amountBet": 255,
+        "result": 105,
+        "time": "11:39"
+      },
+      {
+        "friend": 3,
+        "spin": 12,
+        "number": "21",
+        "amountBet": 255,
+        "result": 105,
+        "time": "13:05"
+      },
+      {
+        "friend": 4,
+        "spin": 13,
+        "number": "33",
+        "amountBet": 255,
+        "result": 105,
+        "time": "13:57"
+      }
+    ]
+  },
+  {
     "name": "Alex ATM Machine",
     "airDate": "2022-05-23",
     "youtubeUrl": "https://www.youtube.com/watch?v=Mr-SToq-QTY",
