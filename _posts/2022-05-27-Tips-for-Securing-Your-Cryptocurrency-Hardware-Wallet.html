@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Tips for Securing Your Cryptocurrency Hardware Wallet"
-date: 2022-05-09 00:01:00 -0800
+date: 2022-05-26 00:01:00 -0800
 author: Jack Hayes
-tags: [crypto,cryptocurrencies,bitcoin,ethereum,dogecoin,hardware wallet,ledger,trezor]
-excerpt_image: "/assets/img/posts/2022-05-15/00-title-800x800.png"
-summary: "There are three main steps in keeping your cryptocurrency hardware wallet secure."
+tags: [crypto,cryptocurrencies,bitcoin,ethereum,dogecoin,hardware wallet,ledger,trezor,seed phrase,bip39,bip32,pin]
+excerpt_image: "/assets/img/posts/2022-05-27/00-title-800x560.png"
+summary: "There are three essential steps to keep your cryptocurrency hardware wallet secure. We'll go over these steps and more on this hardware wallet security post."
 published: true
 comments: true
 math: true
@@ -18,10 +18,9 @@ math: true
         you're doing them.
     </figcaption>
 </figure>
-
 <p>
-    What's the best way of keeping your cryptocurrency wallet secure? There are <i>three major steps</i>
-    that you should be taking in keeping your crypto safe.
+    What's the best way to keep your cryptocurrency wallet secure? There are three <i>essential</i> steps
+    that you should take to keep your crypto safe.
 </p>
 
 <p>
@@ -30,7 +29,7 @@ math: true
             Create and Secure a 24-Word Seed Phrase
         </li>
         <li>
-            Add and Secure a "25th" Word to your Seed Phrase
+            Add and Secure an extra Passphrase to create a hidden wallet
         </li>
         <li>
             Use and Secure your PIN
@@ -40,16 +39,22 @@ math: true
 
 <h2>Create and SECURE a 24-Word Seed Phrase</h2>
 <p>
-    The first step in securing your hardware wallet is to create a secure seed phrase. Even though
-    shorter phrases are available, use the 24 word option, which is (obviously) the most
-    secure.
+    The first step in securing your hardware wallet is creating a secure 24-word Seed Phrase. This
+    a randomly generated phrase that is used to help create a set of keys needed to store your crypto.
 </p>
 <p>
-    Seed phrases used with hardware wallets are based on the BIP-39 specificiation, so they are
-    meant to be interchangable amongst compatible hardware wallets.
+    Even though shorter phrases (12 or 18 words) are an option, you should use the 24 word option, which
+    is the most secure.
+</p>
+<p>
+    Seed phrases used with <i>most</i> hardware wallets are based on the
+    <a href="https://en.bitcoinwiki.org/wiki/Mnemonic_phrase" target="_blank">BIP39 specificiation</a>
+    (Bitcoin Improvement Proposal). This means that if your wallet breaks and the manufacturer has gone
+    out of business, it is possible to restore your wallet on another BIP39 compliant hardware wallet and
+    still access your coins.
 </p>
 <figure class="figure-condensed">
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-15/01-bip39-word-list-500x368.png" alt="BIP-39 Word List"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/01-bip39-word-list-500x368.png" alt="BIP39 Word List"/>
     <figcaption>
         You should use a 24-Word Seed Phrase. This is preferable over the shorter and less-secure
         12 and 18 word phrases.
@@ -63,9 +68,10 @@ math: true
 </p>
 <p>
     This 2048 word list is indexed, so when you are given a word, you've really just given an ordinal
-    position on this list. So, if you speak Spanish, the corresponding word will be a different word
-    with a different meaning, but will have the same numeric position in the Spanish list. This is done
-    in an effort to support users of every language.
+    position on this list. So, if you prefer to see your phrase in Spanish, your phrase will be chosen
+    from a different set of Spanish words. The same generated Seed Phrase will have different words with
+    different meanings, but each word will have the same numeric position in the language-specific list.
+    This is done in an effort to support Hodlers of every language.
 </p>
 
 <table>
@@ -119,10 +125,10 @@ math: true
 <p>
     <b>NEVER</b> store your Seed Phrase electronically in <b>ANY FORM</b>. This means you need to
     write it down on paper, or better yet, you should scribe it or stamp it on metal. This copy of your
-    Seed Phrase should be stored in a home safe or a safety deposit box.
+    Seed Phrase should be stored in a home safe or a safe deposit box.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-15/02-stamped-phrase-800x533.jpg" alt="24-word Seed Phrase"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/02-stamped-phrase-800x533.jpg" alt="24-word Seed Phrase"/>
     <figcaption>
         There are several <i>must do</i> steps in securing your cryptocurrency wallet. Make sure
         you're doing them.
@@ -157,7 +163,7 @@ math: true
     Any person who has access to your Seed Phrase can recreate your wallet
     <i>without requiring physical access to your hardware wallet AND without knowing your PIN</i>.
     They can access all the crypto in your (main) wallet. This is why protecting your
-    Seed Phrase is the most important step in securing your hardware wallet.
+    Seed Phrase <b>IS THE MOST IMPORTANT STEP</b> in securing your hardware wallet.
 </p>
 <p>
     Phishing scams that get crypto holders to volunteer their seed phrase are amongst the
@@ -170,36 +176,43 @@ math: true
     safe deposit box.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-15/03-nyt-safe-deposit-boxes-600x336.png" alt="NYT Article: Safe Deposit Boxes Aren't Safe"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/03-nyt-safe-deposit-boxes-600x336.png" alt="NYT Article: Safe Deposit Boxes Aren't Safe"/>
     <figcaption>
-        Philip Poniz had $10 Million in watches taken from him when Wells Fargo seized the wrong
-        safe deposit box from a non-paying customer.
+        <a href="https://www.nytimes.com/2019/07/19/business/safe-deposit-box-theft.html" target="_blank">Philip Poniz had $10 Million in watches taken from him</a>
+        when Wells Fargo seized the contents of the wrong safe deposit box.
     </figcaption>
 </figure>
 <p>
-    Not only is the seed phrase seceptible to "legal" seizure by law enforcement, it is also
+    Not only is the safe deposit box seceptible to "legal" seizure by law enforcement, it is also
     seceptible to theft from a bank employee with a drill or even just a careless employee who
     <a href="https://www.nytimes.com/2019/07/19/business/safe-deposit-box-theft.html" target="_blank">seizes the contents of the wrong box</a>.
 </p>
 <p>
     A seed phrase stored with a third party isn't safe unless you combine
-    the next security measure (the 25th word).
+    the next security measure (the passphrase).
 </p>
 
-<h2>Add a "25th" Word to your Seed Phrase</h2>
+<h2>Add an Extra "Passphrase" to your Seed Phrase</h2>
 <p>
-    The major hardware wallets all support a "25th" word. This can be used to create a "hidden"
-    wallet (or multiple hidden wallets, if you desire). This is a passphrase of your own choosing,
-    and isn't limited to the 2048 word list in the above seed phrase.
+    The major hardware wallets all support an additional passphrase, sometimes referred to as a "25th Word".
+    This can be used to create a "hidden" wallet (or multiple hidden wallets, if you desire). This is a
+    passphrase of your own choosing, and isn't limited to the 2048 word list in the above seed phrase. It
+    is suggested that your passphrase be a randomly generated string of characters, similar to a password
+    genertated by a password manager.
 </p>
+<p>
+    The implementation of the passphrase defined by
+    <a href="https://wiki.trezor.io/Address_path_(BIP32)" target="_blank">BIP32</a>.
+</p>
+
 <figure class="figure-condensed">
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-15/04-passphrase-800x287.jpg" alt="Enter a Passphrase"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/04-passphrase-800x287.jpg" alt="Enter a Passphrase"/>
     <figcaption>
-        Use a 25th word or "passphrase" to unlock a hidden wallet or wallets.
+        Use a <i>passphrase</i> to unlock a hidden wallet or wallets.
     </figcaption>
 </figure>
 <p>
-    The 25th word protects your crypto from falling into the wrong hands if someone gets a hold
+    The passphrase protects your crypto from falling into the wrong hands if someone gets a hold
     of your Seed Phrase. If you were to keep that list in a safe deposit box, any banker
     with the authority to force open boxes (which can happen when you lose the key or if law
     enforcement tells them to).
@@ -212,18 +225,18 @@ math: true
     They don't even need to seize the contents - they might just snap a photo of your
     Seed Phrase and restore your wallet when they got off work.
     <br/><br/>
-    The 25th word protects you in situations like this.
+    The passphrase protects you in situations like this.
 </div>
 
-<h3>How to Secure your 25th Word</h3>
+<h3>How to Secure your Passphrase</h3>
 <p>
-    Your 25th word may be stored <i>digitally</i> using a password manager like LastPass or
-    1Password. <b>NEVER STORE YOUR 25TH WORD WITH YOUR SEED PHRASE!</b>
+    Your Passphrase may be stored <i>digitally</i> using a password manager like LastPass or
+    1Password. <b>NEVER STORE YOUR PASSPHRASE WITH YOUR SEED PHRASE!</b>
 </p>
 <h3>Exposure</h3>
 <p>
-    If someone is able to obtain your 25th word, it's pretty worthless unless they also know the
-    entire seed phrase. This is why you should never store your seed phrase and your 25th word
+    If someone is able to obtain your Passphrase, it's pretty worthless unless they also know the
+    entire seed phrase. This is why you should never store your Seed Phrase and your Passphrase
     together.
 </p>
 
@@ -237,11 +250,11 @@ math: true
 </p>
 <h3>How to Secure your PIN</h3>
 <p>
-    Your 25th word may also be stored <i>digitally</i> using a password manager like LastPass or
+    Your PIN may also be stored <i>digitally</i> using a password manager like LastPass or
     1Password. You should <b>NOT</b> write down your PIN.
 </p>
 <figure class="figure-condensed">
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-15/05-pin-398x599.jpg" alt="Protect your hardware wallet with a PIN"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/05-pin-398x599.jpg" alt="Protect your hardware wallet with a PIN"/>
     <figcaption>
         A PIN will protect your initialized hardware device.
     </figcaption>
@@ -256,19 +269,36 @@ math: true
 </p>
 <p>
     It's crucial to understand that a PIN <i>ONLY</i> protects you if your physical hardware
-    wallet falls into the wrong hands. If a bad actor knows your seed phrase and your 25th word
+    wallet falls into the wrong hands. If a bad actor knows your seed phrase and your Passphrase
     (assuming that you've set this), then they can re-create your wallet without ever knowing your
     PIN.
 </p>
 
 <h2>Advanced Tips for Securing Your Hardware Wallet</h2>
+<p>
+    Along with the three above security measures, there are additional tactics you can use to
+    keep your crypto safe.
+</p>
+
+<h3>Use a Metal Seed Phrase Storage Kit</h3>
+<p>
+    Instead of storing your 24-Word Seed Phrase on paper. You can etch or stamp it on metal plates.
+    Metal plates are more reliably resistant to becoming unreadable. Paper is a lot more easily
+    torn, burned, and smeared due to water damage. Scribed words on a metal plate will hold up better
+    to the elements than ink on paper.
+</p>
+<figure class="figure-condensed">
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/06-metal-plates-600x383.png" alt="Stamp your Seed Phrase on a Metal Plate"/>
+    <figcaption>
+        An etched metal plate is more resiliant than ink on paper.
+    </figcaption>
+</figure>
 
 <h3>Use a Decoy (Non-Hidden) Wallet</h3>
 <p>
-    If you use a 25th word, then if someone found your full 24-Word Seed Phrase, then if a
+    If you use a Passphrase, then if someone found your full 24-Word Seed Phrase, then if a
     thief were to recover your wallet, they would see it would be empty. If they knew about
-    25th word security, they might go through the efforts of trying to find out the 25th
-    word.
+    Passphrase security, they might go through the efforts of trying to find out your Passphrase.
 </p>
 <p>
     Imagine a scenario where home invaders (who know you have crypto) tie you up and break
@@ -276,7 +306,7 @@ math: true
     knowledgable about crypto, they restore the phrase and find a wallet with no crypto.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-15/06-decoy-1024x683.jpg" alt="Decoys work with Crypto Wallets, too!"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/07-decoy-1024x683.jpg" alt="Decoys work with Crypto Wallets, too!"/>
     <figcaption>
         If you have a fake/decoy wallet with a small fraction of your fortune in it, it could
         save you from financial ruin as well as physical harm.
@@ -284,13 +314,13 @@ math: true
 </figure>
 <p>
     Since they know your Seed Phrase is valid, they might use physical force to get you to
-    surrender the 25th word, which would allow them to access all your crypto.
+    surrender the Passphrase, which would allow them to access all your crypto.
 </p>
 <p>
     But if you put a fraction of your crypto (perhaps 1% to 5%) in the main wallet associated with
     your 24-Word Seed Phrase, then when they recover the wallet, they may believe they found
-    your main stash. They may not go through the extra effort of trying to find your 25th
-    word if they think they already hit the jackpot.
+    your main stash. They may not go through the extra effort of trying to find your Passphrase
+    if they think they already hit the jackpot.
 </p>
 
 <h3>Don't Write Your 24-Word Phrase in the Correct Order</h3>
@@ -320,7 +350,7 @@ math: true
     with bank security policy.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-15/07-decoy-pin-800x449.jpg" alt="Crypto wallets will reset after a certain number of failed attempts."/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/08-decoy-pin-800x449.jpg" alt="Crypto wallets will reset after a certain number of failed attempts."/>
     <figcaption>
         A decoy PIN can increase the liklihood that a thief can't access your hardware wallet. 
     </figcaption>
@@ -339,5 +369,30 @@ math: true
     mechanism.
 </p>
 
+<h3>Completely Wipe your Hardware Wallet</h3>
+<p>
+    If you don't plan on moving any crypto out of your wallet for a long time, you can completely
+    reset the hardware wallet and wipe the Seed Phrase and Passphrase from it.
+</p>
+<p>
+    Your crypto will still exist, preserved by the blockchain. You can even move <i>more</i> crypto
+    into your existing addresses without needing to restore your wallet on the device. So long as
+    you know your destination addresses, you can continue stacking coins in your wallets.
+</p>
+<p>
+    You just need to make sure you have your Seed Phrase and Passphrase safely and securely
+    recorded. There is no need to remember your PIN, because when you set up a new hardware wallet,
+    it will ask you for a new one.
+</p>
+
+<h2>Coming Up</h2>
+<p>
+    There are dozens, if not <i>hundreds</i> of other measures you can follow to help improve the
+    security if your hardware wallet and its contents.
+</p>
+<p>
+    We're even going to show you a cheap and easy and super secure way of storing your Seed Phrase!
+    No need to buy an expensive metal wallet!
+</p>
 
 {%- include venn-badge.html isCrypto=true isMath=true -%}
