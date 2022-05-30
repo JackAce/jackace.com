@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Tips for Securing Your Cryptocurrency Hardware Wallet"
-date: 2022-05-26 00:01:00 -0800
+date: 2022-05-30 00:01:00 -0800
 author: Jack Hayes
 tags: [crypto,cryptocurrencies,bitcoin,ethereum,dogecoin,hardware wallet,ledger,trezor,seed phrase,bip39,bip32,pin]
-excerpt_image: "/assets/img/posts/2022-05-27/00-title-800x560.png"
+excerpt_image: "/assets/img/posts/2022-05-30/00-title-800x560.png"
 summary: "There are three essential steps to keep your cryptocurrency hardware wallet secure. We'll go over these steps and more on this hardware wallet security post."
 published: true
 comments: true
@@ -29,32 +29,33 @@ math: true
             Create and Secure a 24-Word Seed Phrase
         </li>
         <li>
-            Add and Secure an extra Passphrase to create a hidden wallet
+            Create and Secure an extra Passphrase to create a hidden wallet
         </li>
         <li>
-            Use and Secure your PIN
+            Create and Secure your PIN
         </li>
     </ol>
 </p>
 
-<h2>Create and SECURE a 24-Word Seed Phrase</h2>
+<h2>Create and Secure a 24-Word Seed Phrase</h2>
 <p>
     The first step in securing your hardware wallet is creating a secure 24-word Seed Phrase. This
     a randomly generated phrase that is used to help create a set of keys needed to store your crypto.
 </p>
 <p>
-    Even though shorter phrases (12 or 18 words) are an option, you should use the 24 word option, which
-    is the most secure.
+    Even though shorter phrases (12 or 18 words) are usually an option, you should use the 24 word
+    option, which is the most secure.
 </p>
 <p>
-    Seed phrases used with <i>most</i> hardware wallets are based on the
-    <a href="https://en.bitcoinwiki.org/wiki/Mnemonic_phrase" target="_blank">BIP39 specificiation</a>
-    (Bitcoin Improvement Proposal). This means that if your wallet breaks and the manufacturer has gone
-    out of business, it is possible to restore your wallet on another BIP39 compliant hardware wallet and
-    still access your coins.
+    Seed phrases used with <i>most</i> hardware wallets are based on the Bitcoin Improvement Proposal
+    #39 specifications
+    (<a href="https://en.bitcoinwiki.org/wiki/Mnemonic_phrase" target="_blank">BIP39</a>).
+    This means that if your wallet breaks and the manufacturer has gone out of business, it is
+    possible to restore your wallet on another BIP39 compliant hardware wallet and still access
+    your coins.
 </p>
 <figure class="figure-condensed">
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/01-bip39-word-list-500x368.png" alt="BIP39 Word List"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-30/01-bip39-word-list-500x368.png" alt="BIP39 Word List"/>
     <figcaption>
         You should use a 24-Word Seed Phrase. This is preferable over the shorter and less-secure
         12 and 18 word phrases.
@@ -119,10 +120,11 @@ math: true
 <p>
     <b>NEVER</b> store your Seed Phrase electronically in <b>ANY FORM</b>. This means you need to
     write it down on paper, or better yet, you should scribe it or stamp it on metal. This copy of your
-    Seed Phrase should be stored in a home safe or a safe deposit box.
+    Seed Phrase should be stored in a home safe or a safe deposit box (and <i>additional</i> precautions should
+    be taken when using a safe deposit box).
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/02-stamped-phrase-800x533.jpg" alt="24-word Seed Phrase"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-30/02-stamped-phrase-800x533.jpg" alt="24-word Seed Phrase"/>
     <figcaption>
         There are several <i>must do</i> steps in securing your cryptocurrency wallet. Make sure
         you're doing them.
@@ -170,7 +172,7 @@ math: true
     safe deposit box.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/03-nyt-safe-deposit-boxes-600x336.png" alt="NYT Article: Safe Deposit Boxes Aren't Safe"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-30/03-nyt-safe-deposit-boxes-600x336.png" alt="NYT Article: Safe Deposit Boxes Aren't Safe"/>
     <figcaption>
         <a href="https://www.nytimes.com/2019/07/19/business/safe-deposit-box-theft.html" target="_blank">Philip Poniz had $10 Million in watches taken from him</a>
         when Wells Fargo seized the contents of the wrong safe deposit box.
@@ -186,13 +188,22 @@ math: true
     the next security measure (the passphrase).
 </p>
 
-<h2>Add an Extra "Passphrase" to your Seed Phrase</h2>
+<h2>Create and Secure a "Passphrase" for your Seed Phrase</h2>
 <p>
     The major hardware wallets all support an additional passphrase, sometimes referred to as a "25th Word".
-    This can be used to create a "hidden" wallet (or multiple hidden wallets, if you desire). This is a
-    passphrase of your own choosing, and isn't limited to the 2048 word list in the above seed phrase. It
-    is suggested that your passphrase be a randomly generated string of characters, similar to a password
-    genertated by a password manager.
+</p>
+<p>
+    Of the three precautions that I've listed as "essential", this is the only one that is not
+    strictly required by hardware wallet manufacturers.
+</p>
+<p>
+    This passphrase can be used to create a "hidden" wallet (or multiple hidden wallets, if you
+    desire). This is a passphrase of your own choosing, and isn't limited to the 2048 word list
+    in the above seed phrase. It is suggested that your passphrase be a randomly generated string
+    of characters, similar to a password genertated by a password manager.
+</p>
+<p>
+    You can also use a string of words separated by spaces if so desired.
 </p>
 <p>
     The implementation of the passphrase defined by
@@ -200,7 +211,7 @@ math: true
 </p>
 
 <figure class="figure-condensed">
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/04-passphrase-800x287.jpg" alt="Enter a Passphrase"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-30/04-passphrase-800x287.jpg" alt="Enter a Passphrase"/>
     <figcaption>
         Use a <i>passphrase</i> to unlock a hidden wallet or wallets.
     </figcaption>
@@ -234,7 +245,7 @@ math: true
     together.
 </p>
 
-<h2>Add a PIN to your Hardware Wallet</h2>
+<h2>Create and Secure a PIN for your Hardware Wallet</h2>
 <p>
     Every hardware wallet requires a PIN. You should choose a 6-digit PIN (or longer if possible) that you must enter
     to access coins in your crypto hardware wallet.
@@ -248,7 +259,7 @@ math: true
     1Password. You should <b>NOT</b> write down your PIN.
 </p>
 <figure class="figure-condensed">
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/05-pin-398x599.jpg" alt="Protect your hardware wallet with a PIN"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-30/05-pin-398x599.jpg" alt="Protect your hardware wallet with a PIN"/>
     <figcaption>
         A PIN will protect your initialized hardware device.
     </figcaption>
@@ -268,34 +279,116 @@ math: true
     PIN.
 </p>
 
-<h2>Additional Tips for Securing Your Hardware Wallet</h2>
+<h2>Summary of the Most Critical Security Measures</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                &nbsp;
+            </th>
+            <th>
+                Seed Phrase
+            </th>
+            <th>
+                Passphrase
+            </th>
+            <th>
+                PIN
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+                Thief Requires Physical Access
+            </th>
+            <td class="cell-center amt-neg">
+                NO
+            </td>
+            <td class="cell-center amt-neg">
+                NO
+            </td>
+            <td class="cell-center amt-pos">
+                YES
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Exposure
+            </th>
+            <td>
+                Still need Passphrase
+            </td>
+            <td>
+                Still need Seed Phrase
+            </td>
+            <td>
+                Need physical hardware wallet
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Storage
+            </th>
+            <td>
+                Paper or Metal
+            </td>
+            <td>
+                Password Manager
+            </td>
+            <td>
+                Password Manager
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Notes
+            </th>
+            <td>
+                Never record this digitally.
+            </td>
+            <td>
+                Never store this with the seed phrase.
+            </td>
+            <td>
+                Never write this near the physical device.
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Additional Tips for Securing and Protecting Your Hardware Wallet</h2>
 <p>
-    Along with the three above <i>mandatory</i> security measures, there are additional tactics you
+    Along with the three above <i>critical</i> security measures, there are additional tactics you
     can use to keep your crypto safe.
 </p>
 
 <h3>Use a Decoy (Non-Hidden) Wallet</h3>
+<h4>Protects from $5 Wrench Attack</h4>
 <p>
-    If you use a Passphrase, then if someone found your full 24-Word Seed Phrase, then if a
-    thief were to recover your wallet, they would see it would be empty. If they knew about
+    If you use a Passphrase, if someone found your full 24-Word Seed Phrase and attempted
+    to recover your wallet, they would see it would be empty. If they knew about
     Passphrase security, they might go through the efforts of trying to find out your Passphrase.
+    A common low-tech tactic for getting someone to give up a password or passphrase is through
+    what's called a "$5 Wrench Attack".
 </p>
 <p>
     Imagine a scenario where home invaders (who know you have crypto) tie you up and break
     open your safe. In your safe, they find a sheet of paper with your 24-Word phrase. Being
     knowledgable about crypto, they restore the phrase and find a wallet with no crypto.
 </p>
+<p>
+    Since they know your Seed Phrase is valid, they might use physical force (e.g. a $5 wrench)
+    to get you to surrender the Passphrase, which would allow them to access all your crypto.
+</p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/06-decoy-1024x683.jpg" alt="Decoys work with Crypto Wallets, too!"/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-30/06-decoy-1024x683.jpg" alt="Decoys work with Crypto Wallets, too!"/>
     <figcaption>
         If you have a fake/decoy wallet with a small fraction of your fortune in it, it could
         save you from financial ruin as well as physical harm.
     </figcaption>
 </figure>
-<p>
-    Since they know your Seed Phrase is valid, they might use physical force to get you to
-    surrender the Passphrase, which would allow them to access all your crypto.
-</p>
 <p>
     But if you put a fraction of your crypto (perhaps 1% to 5%) in the main wallet associated with
     your 24-Word Seed Phrase, then when they recover the wallet, they may believe they found
@@ -304,24 +397,26 @@ math: true
 </p>
 
 <h3>Don't Write Your Seed Phrase in the Correct Order</h3>
+<h4>Protects Seed Phrase</h4>
 <p>
-    In <i>Raiders of the Lost Ark</i>, Nazis were able to copy the
-    instructions for creating the <b>Staff of Ra</b>, which was used in the map room
-    in Tannis to find the Ark of the Covenant. But the Nazis only copied part of the
-    instructions and didn't have an important piece of the puzzle (the back side of
-    Ravenwood's medallion) which said to cut part of the staff.
+    In the classic 1981 film <i>Raiders of the Lost Ark</i>, Nazis were able to copy the
+    instructions for creating the <b>Staff of Ra</b>, a device used in a special map
+    room to help pin point the location of the prized Ark of the Covenant. But the Nazis only
+    copied part of the instructions and didn't have an important piece of the puzzle (the back
+    side of Ravenwood's medallion) which said to cut part of the staff.
 </p>
 <p>
     You can do something similar with your 24-Word Seed Phrase. Write it down in order
     with one or two words reversed in order or replaced. Then in a password manager, include
-    instructions on what changes to make when restoring the wallet. If a bad actor finds
-    your physical copy of your seed phrase, if they try to restore your wallet, they'll
+    instructions on what changes to make when restoring the wallet. If a thief finds
+    the physical copy of your seed phrase, when they try to restore your wallet, they'll
     be "digging in the wrong place!" Bonus points if you spinkle some cyrpto-dust into
     the decoy wallet.
 </p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pk-B0s0jOwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h3>Use a Decoy PIN</h3>
+<h4>Accelerates "Self-Destruct" Mechanism for Hardware Wallet</h4>
 <p>
     It's a pretty common tactic to write a fake PIN on your bank's ATM card. If your card
     is lost or stolen, a thief might try to use your card and withdraw funds. But if you
@@ -330,7 +425,7 @@ math: true
     with bank security policy.
 </p>
 <figure>
-    <img src="{{site.baseurl}}/assets/img/posts/2022-05-27/07-decoy-pin-800x449.jpg" alt="Crypto wallets will reset after a certain number of failed attempts."/>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-05-30/07-decoy-pin-800x449.jpg" alt="Crypto wallets will reset after a certain number of failed attempts."/>
     <figcaption>
         A decoy PIN can increase the liklihood that a thief can't access your hardware wallet. 
     </figcaption>
@@ -339,7 +434,8 @@ math: true
     You might write down a fake or invalid PIN somewhere near your physical hardware wallet.
     If you do this, write down the longest number that is still valid as a PIN length for your
     device. And make sure you make a few of the numbers ambiguous (Is that a '1' or a '7'? Is
-    that a '6' or a '0'?).
+    that a '6' or a '0'?). You can also write several different fake PINs to add to the
+    confusion.
 </p>
 <p>
     Most hardware wallets make you wait a while between PIN entries, with your wait time
@@ -350,6 +446,7 @@ math: true
 </p>
 
 <h3>Completely Wipe your Hardware Wallet</h3>
+<h4>Eliminates need for PIN</h4>
 <p>
     If you don't plan on moving any crypto out of your wallet for a long time, you can completely
     reset the hardware wallet and wipe the Seed Phrase and Passphrase from it.
@@ -363,6 +460,43 @@ math: true
     You just need to make sure you have your Seed Phrase and Passphrase safely and securely
     recorded. There is no need to remember your PIN, because when you set up a new hardware wallet,
     it will ask you for a new one.
+</p>
+
+<h3>Use Two Hardware Wallets</h3>
+<h4>Reduces Likelihood of Bricked Hardware Wallet</h4>
+<p>
+    I've never bought a hardware wallet without buying a duplicate of the same model. Having two
+    identical models allows you to practice doing several things without fear of losing all your
+    coins.
+</p>
+
+<h4>Practice Restoring your Wallet to a Backup Wallet</h4>
+<p>
+    If you want to be confident that you can recover your wallet, you can restore your Seed Phrase
+    to a second device to verify that:
+</p>
+<ul>
+    <li>
+        You know how to restore your seed phrase.
+    </li>
+    <li>
+        You've recorded your seed phrase correctly.
+    </li>
+</ul>
+
+<h4>Perform a "Dry Run" Firmware Upgrade</h4>
+<p>
+    When the manufacturer of your hardware wallet publishes a new version of it's firmware (the
+    software that runs on your hardware), you can install it to your backup hardware wallet first.
+</p>
+<p>
+    This can help ensure that the firmware update won't accidentally wipe your device and take
+    all your coins along with it.
+</p>
+<p>
+    This is just a slight inconvenience if you're storing your Seed Phrase and Passphrase
+    securely, but if you've made any mistakes recording them, your coins could be unrecoverable
+    from a firmware update.
 </p>
 
 <h2>Coming Up</h2>
