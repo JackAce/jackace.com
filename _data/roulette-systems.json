@@ -1,5 +1,129 @@
 [
   {
+    "name": "Super G 💦💦💦",
+    "airDate": "2022-05-30",
+    "youtubeUrl": "https://www.youtube.com/watch?v=A5g-crp9dCc",
+    "reviewUrl": "2022-05-30-Super-G",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1900,
+    "bets": [
+      425
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "notes": "The original system had a $1500 buy-in, but Alex bought in for another $400.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "7",
+        "amountBet": 425,
+        "result": 25,
+        "time": "2:58"
+      },
+      {
+        "spin": 2,
+        "number": "10",
+        "amountBet": 425,
+        "result": 25,
+        "time": "4:02"
+      },
+      {
+        "spin": 3,
+        "number": "2",
+        "amountBet": 425,
+        "result": -425,
+        "time": "4:59"
+      },
+      {
+        "spin": 4,
+        "number": "3",
+        "amountBet": 425,
+        "result": -425,
+        "time": "5:39"
+      },
+      {
+        "spin": 5,
+        "number": "10",
+        "amountBet": 425,
+        "result": 25,
+        "time": "6:16"
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 425,
+        "result": -425,
+        "time": "6:51",
+        "notes": "After this loss, Alex bought in for another $400."
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 425,
+        "result": 25,
+        "time": "7:34"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 425,
+        "result": 250,
+        "time": "8:01"
+      },
+      {
+        "spin": 9,
+        "number": "11",
+        "amountBet": 425,
+        "result": 25,
+        "time": "8:47"
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 425,
+        "result": 25,
+        "time": "9:28"
+      },
+      {
+        "spin": 11,
+        "number": "28",
+        "amountBet": 425,
+        "result": 25,
+        "time": "10:11"
+      },
+      {
+        "spin": 12,
+        "number": "25",
+        "amountBet": 425,
+        "result": 25,
+        "time": "10:41"
+      },
+      {
+        "spin": 13,
+        "number": "18",
+        "amountBet": 425,
+        "result": 250,
+        "time": "11:17"
+      },
+      {
+        "spin": 14,
+        "number": "17",
+        "amountBet": 425,
+        "result": 250,
+        "time": "12:01"
+      },
+      {
+        "spin": 15,
+        "number": "20",
+        "amountBet": 425,
+        "result": 250,
+        "time": "12:54"
+      }
+    ]
+  },
+  {
     "name": "Clackers at the Root",
     "airDate": "2022-05-25",
     "youtubeUrl": "https://www.youtube.com/watch?v=pZHd-CGwCUs",
