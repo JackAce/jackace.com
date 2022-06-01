@@ -1,5 +1,168 @@
 [
   {
+    "name": "The Chef's Kiss",
+    "airDate": "2022-05-31",
+    "youtubeUrl": "https://www.youtube.com/watch?v=l8nFk16QoCg",
+    "reviewUrl": "2022-05-31-The-Chefs-Kiss",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png"
+    ],
+    "buyIn": 800,
+    "bets": [
+      10,
+      40,
+      120,
+      240
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "The 1st bet was a 'blank spin' with no money bet. The Betting Scheme images do not necessarily reflect the locations of the Double Street bets.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "33",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:43",
+        "notes": "This was a 'blank spin' with no bet to mark the next double street to bet. After this, they bet the 31-34 Double Street."
+      },
+      {
+        "spin": 2,
+        "number": "4",
+        "amountBet": 10,
+        "result": -10,
+        "time": "2:37"
+      },
+      {
+        "spin": 3,
+        "number": "28",
+        "amountBet": 10,
+        "result": 80,
+        "time": "3:01"
+      },
+      {
+        "spin": 4,
+        "number": "1",
+        "amountBet": 0,
+        "result": 0,
+        "time": "3:34",
+        "notes": "blank spin"
+      },
+      {
+        "spin": 5,
+        "number": "3",
+        "amountBet": 10,
+        "result": 50,
+        "time": "4:06"
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 0,
+        "result": 0,
+        "time": "4:31",
+        "notes": "blank spin"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:56"
+      },
+      {
+        "spin": 8,
+        "number": "3",
+        "amountBet": 40,
+        "result": -40,
+        "time": "5:18"
+      },
+      {
+        "spin": 9,
+        "number": "27",
+        "amountBet": 120,
+        "result": 120,
+        "time": "5:51"
+      },
+      {
+        "spin": 10,
+        "number": "6",
+        "amountBet": 0,
+        "result": 0,
+        "time": "6:25",
+        "notes": "blank spin"
+      },
+      {
+        "spin": 11,
+        "number": "25",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:52"
+      },
+      {
+        "spin": 12,
+        "number": "9",
+        "amountBet": 40,
+        "result": 80,
+        "time": "7:18"
+      },
+      {
+        "spin": 13,
+        "number": "9",
+        "amountBet": 0,
+        "result": 0,
+        "time": "7:44",
+        "notes": "blank spin"
+      },
+      {
+        "spin": 14,
+        "number": "36",
+        "amountBet": 10,
+        "result": -10,
+        "time": "8:11"
+      },
+      {
+        "spin": 15,
+        "number": "00",
+        "amountBet": 40,
+        "result": -40,
+        "time": "8:38"
+      },
+      {
+        "spin": 16,
+        "number": "00",
+        "amountBet": 120,
+        "result": -120,
+        "time": "9:15"
+      },
+      {
+        "spin": 17,
+        "number": "25",
+        "amountBet": 240,
+        "result": -240,
+        "time": "9:50"
+      },
+      {
+        "spin": 18,
+        "number": "30",
+        "amountBet": 480,
+        "result": -480,
+        "time": "10:25"
+      },
+      {
+        "spin": 19,
+        "number": "6",
+        "amountBet": 170,
+        "result": -170,
+        "time": "11:08",
+        "notes": "Alex just YOLO'ed the rest of his money here on 18-36"
+      }
+    ]
+  },
+  {
     "name": "Super G 💦💦💦",
     "airDate": "2022-05-30",
     "youtubeUrl": "https://www.youtube.com/watch?v=A5g-crp9dCc",
