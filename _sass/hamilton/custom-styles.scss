@@ -81,6 +81,11 @@ blockquote {
     font-weight: bold;
     font-size: larger;
 }
+.amt-good {
+    color: #0f0;
+    font-weight: bold;
+    font-size: larger;
+}
 .p-center {
     text-align: center;
 }
@@ -136,6 +141,9 @@ div.infobox-info, div.infobox-success, div.infobox-warning, div.infobox-error {
 div.infobox-info {
     color: #00529b;
     background-color: #bde5f8;
+    i {
+        color: #0099ff;
+    }
 }
  
 div.infobox-success {
