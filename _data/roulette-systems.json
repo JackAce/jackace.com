@@ -11,9 +11,9 @@
     "bets": [
       10
     ],
-    "rating": "",
+    "rating": "f",
     "jackaceRating": "c",
-    "notes": "Alex and Freddie were down $1010 at the end, which is $50 from where my total is. Not sure what the discrepancy was.",
+    "notes": "Alex and Freddie were down $1010 at the end, which is $50 from where my total is. $40 of it was from Alex only getting $20 when he should have received $60.",
     "spins": [
       {
         "spin": 1,
@@ -111,7 +111,8 @@
         "number": "16",
         "amountBet": 300,
         "result": 60,
-        "time": "10:49"
+        "time": "10:49",
+        "notes": "Alex should have won $60, but he asks Freddy for $20."
       },
       {
         "spin": 15,
