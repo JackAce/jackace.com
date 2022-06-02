@@ -13,7 +13,7 @@
     ],
     "rating": "f",
     "jackaceRating": "c",
-    "notes": "Alex and Freddie were down $1010 at the end, which is $50 from where my total is. $40 of it was from Alex only getting $20 when he should have received $60.",
+    "notes": "Alex and Freddy were down $1010 at the end, which is $50 from where my total is. $40 of it was from Alex only getting $20 when he should have received $60.",
     "spins": [
       {
         "spin": 1,
@@ -899,7 +899,7 @@
         "amountBet": 200,
         "result": -200,
         "time": "12:01",
-        "notes": "Didn't bet the 14 or 16 here, but Alex paid $200 directly to Freddie."
+        "notes": "Didn't bet the 14 or 16 here, but Alex paid $200 directly to Freddy."
       },
       {
         "spin": 13,
@@ -939,7 +939,7 @@
         "amountBet": 200,
         "result": -200,
         "time": "14:50",
-        "notes": "Didn't bet the 14 or 16 here, but Alex paid $200 directly to Freddie."
+        "notes": "Didn't bet the 14 or 16 here, but Alex paid $200 directly to Freddy."
       },
       {
         "spin": 18,
@@ -955,7 +955,7 @@
         "amountBet": 186,
         "result": -186,
         "time": "15:57",
-        "notes": "Didn't bet the 14 or 16 here, but this time Freddie scooped the layout properly."
+        "notes": "Didn't bet the 14 or 16 here, but this time Freddy scooped the layout properly."
       }
     ]
   },
@@ -973,7 +973,7 @@
     ],
     "rating": "d",
     "jackaceRating": "d",
-    "notes": "This is the intersection of two systems: DTF (2 Dozens and one Double Street) and 9 Split (9 Split bets). You just Martingale each system independently if it misses. Alex gave this an eggplant. Freddie gave it a Plum.",
+    "notes": "This is the intersection of two systems: DTF (2 Dozens and one Double Street) and 9 Split (9 Split bets). You just Martingale each system independently if it misses. Alex gave this an eggplant. Freddy gave it a Plum.",
     "spins": [
       {
         "spin": 1,
@@ -1080,7 +1080,7 @@
     ],
     "rating": "b",
     "jackaceRating": "c",
-    "notes": "Alex gave this a peach, Freddie gave it a plum.",
+    "notes": "Alex gave this a peach, Freddy gave it a plum.",
     "spins": [
       {
         "spin": 1,
@@ -1205,7 +1205,7 @@
     "rating": "c",
     "jackaceRating": "b",
     "friendCount": 2,
-    "notes": "Alex gave this a plum, Freddie gave it a peach.",
+    "notes": "Alex gave this a plum, Freddy gave it a peach.",
     "spins": [
       {
         "friend": 1,
