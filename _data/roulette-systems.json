@@ -1,5 +1,231 @@
 [
   {
+    "name": "One for the Ages",
+    "airDate": "2022-06-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=4R6GbpB1Mp4",
+    "reviewUrl": "2022-06-06-One-for-the-Ages",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 600,
+    "bets": [
+      300
+    ],
+    "rating": "f",
+    "jackaceRating": "f",
+    "notes": "Alex rated this a Peach, but I'm not going to honor it because they based their rating on an INCORRECT payout scheme. I'm changing their rating to an F (Durian) because the system author wasted everyone's time. They ended up $85, but they should have been down $150.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "4",
+        "amountBet": 300,
+        "result": 0,
+        "time": "2:46",
+        "notes": "They incorrectly paid out $50 instead of a push."
+      },
+      {
+        "spin": 2,
+        "number": "16",
+        "amountBet": 300,
+        "result": 0,
+        "time": "3:27",
+        "notes": "They incorrectly paid out $50 instead of a push."
+      },
+      {
+        "spin": 3,
+        "number": "27",
+        "amountBet": 300,
+        "result": 0,
+        "time": "4:08",
+        "notes": "Alex realizes that he's not supposed to win $50 on the second half, but still doesn't check the first dozen."
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 300,
+        "result": -300,
+        "time": "4:42"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 300,
+        "result": 150,
+        "time": "5:30",
+        "notes": "They should have been paid $150, but Alex only asks for $135."
+      },
+      {
+        "spin": 6,
+        "number": "28",
+        "amountBet": 300,
+        "result": 0,
+        "time": "6:16"
+      },
+      {
+        "spin": 7,
+        "number": "27",
+        "amountBet": 300,
+        "result": 0,
+        "time": "6:43"
+      },
+      {
+        "spin": 8,
+        "number": "31",
+        "amountBet": 300,
+        "result": 0,
+        "time": "7:03"
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 300,
+        "result": 0,
+        "time": "7:30",
+        "notes": "They incorrectly paid out $50 instead of a push."
+      },
+      {
+        "spin": 10,
+        "number": "11",
+        "amountBet": 300,
+        "result": 0,
+        "time": "8:05",
+        "notes": "They incorrectly paid out $50 instead of a push."
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 300,
+        "result": 0,
+        "time": "8:48",
+        "notes": "They incorrectly paid out $50 instead of a push."
+      }
+    ]
+  },
+  {
+    "name": "The Square Dance",
+    "airDate": "2022-06-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1YoYU_XitKE",
+    "reviewUrl": "2022-06-01-The-Square-Dance",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      10
+    ],
+    "rating": "f",
+    "jackaceRating": "c",
+    "notes": "Alex and Freddy were down $1010 at the end, which is $50 from where my total is. $40 of it was from Alex only getting $20 when he should have received $60.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "24",
+        "amountBet": 300,
+        "result": -300,
+        "time": "1:52"
+      },
+      {
+        "spin": 2,
+        "number": "28",
+        "amountBet": 300,
+        "result": 60,
+        "time": "2:30"
+      },
+      {
+        "spin": 3,
+        "number": "21",
+        "amountBet": 300,
+        "result": -120,
+        "time": "3:11"
+      },
+      {
+        "spin": 4,
+        "number": "25",
+        "amountBet": 300,
+        "result": 0,
+        "time": "4:12"
+      },
+      {
+        "spin": 5,
+        "number": "20",
+        "amountBet": 300,
+        "result": 60,
+        "time": "5:05"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 300,
+        "result": -120,
+        "time": "5:53"
+      },
+      {
+        "spin": 7,
+        "number": "31",
+        "amountBet": 300,
+        "result": 60,
+        "time": "6:55"
+      },
+      {
+        "spin": 8,
+        "number": "34",
+        "amountBet": 300,
+        "result": 0,
+        "time": "7:35"
+      },
+      {
+        "spin": 9,
+        "number": "8",
+        "amountBet": 300,
+        "result": 60,
+        "time": "8:09"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 300,
+        "result": -300,
+        "time": "8:40"
+      },
+      {
+        "spin": 11,
+        "number": "27",
+        "amountBet": 300,
+        "result": 0,
+        "time": "9:07"
+      },
+      {
+        "spin": 12,
+        "number": "10",
+        "amountBet": 300,
+        "result": 0,
+        "time": "9:38"
+      },
+      {
+        "spin": 13,
+        "number": "13",
+        "amountBet": 300,
+        "result": -120,
+        "time": "10:00"
+      },
+      {
+        "spin": 14,
+        "number": "16",
+        "amountBet": 300,
+        "result": 60,
+        "time": "10:49",
+        "notes": "Alex should have won $60, but he only asked Freddy for $20."
+      },
+      {
+        "spin": 15,
+        "number": "23",
+        "amountBet": 300,
+        "result": -300,
+        "time": "11:30"
+      }
+    ]
+  },
+  {
     "name": "The Chef's Kiss",
     "airDate": "2022-05-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=l8nFk16QoCg",
@@ -775,7 +1001,7 @@
         "amountBet": 200,
         "result": -200,
         "time": "12:01",
-        "notes": "Didn't bet the 14 or 16 here, but Alex paid $200 directly to Freddie."
+        "notes": "Didn't bet the 14 or 16 here, but Alex paid $200 directly to Freddy."
       },
       {
         "spin": 13,
@@ -815,7 +1041,7 @@
         "amountBet": 200,
         "result": -200,
         "time": "14:50",
-        "notes": "Didn't bet the 14 or 16 here, but Alex paid $200 directly to Freddie."
+        "notes": "Didn't bet the 14 or 16 here, but Alex paid $200 directly to Freddy."
       },
       {
         "spin": 18,
@@ -831,7 +1057,7 @@
         "amountBet": 186,
         "result": -186,
         "time": "15:57",
-        "notes": "Didn't bet the 14 or 16 here, but this time Freddie scooped the layout properly."
+        "notes": "Didn't bet the 14 or 16 here, but this time Freddy scooped the layout properly."
       }
     ]
   },
@@ -849,7 +1075,7 @@
     ],
     "rating": "d",
     "jackaceRating": "d",
-    "notes": "This is the intersection of two systems: DTF (2 Dozens and one Double Street) and 9 Split (9 Split bets). You just Martingale each system independently if it misses. Alex gave this an eggplant. Freddie gave it a Plum.",
+    "notes": "This is the intersection of two systems: DTF (2 Dozens and one Double Street) and 9 Split (9 Split bets). You just Martingale each system independently if it misses. Alex gave this an eggplant. Freddy gave it a Plum.",
     "spins": [
       {
         "spin": 1,
@@ -956,7 +1182,7 @@
     ],
     "rating": "b",
     "jackaceRating": "c",
-    "notes": "Alex gave this a peach, Freddie gave it a plum.",
+    "notes": "Alex gave this a peach, Freddy gave it a plum.",
     "spins": [
       {
         "spin": 1,
@@ -1081,7 +1307,7 @@
     "rating": "c",
     "jackaceRating": "b",
     "friendCount": 2,
-    "notes": "Alex gave this a plum, Freddie gave it a peach.",
+    "notes": "Alex gave this a plum, Freddy gave it a peach.",
     "spins": [
       {
         "friend": 1,
