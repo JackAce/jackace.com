@@ -1,5 +1,107 @@
 [
   {
+    "name": "One for the Ages",
+    "airDate": "2022-06-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=4R6GbpB1Mp4",
+    "reviewUrl": "2022-06-06-One-for-the-Ages",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 600,
+    "bets": [
+      300
+    ],
+    "rating": "f",
+    "jackaceRating": "f",
+    "notes": "Alex rated this a Peach, but I'm not going to honor it because they based their rating on an INCORRECT payout scheme. I'm changing their rating to an F (Durian) for wasting everyone's time. They ended up $85, but they should have been down $150.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "4",
+        "amountBet": 300,
+        "result": 0,
+        "time": "2:46",
+        "notes": "They incorrectly paid out $50 instead of a push."
+      },
+      {
+        "spin": 2,
+        "number": "16",
+        "amountBet": 300,
+        "result": 0,
+        "time": "3:27",
+        "notes": "They incorrectly paid out $50 instead of a push."
+      },
+      {
+        "spin": 3,
+        "number": "27",
+        "amountBet": 300,
+        "result": 0,
+        "time": "4:08",
+        "notes": "Alex realizes that he's not supposed to win $50 on the second half, but still doesn't check the first dozen."
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 300,
+        "result": -300,
+        "time": "4:42"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 300,
+        "result": 150,
+        "time": "5:30",
+        "notes": "They should have been paid $150, but Alex only asks for $135."
+      },
+      {
+        "spin": 6,
+        "number": "28",
+        "amountBet": 300,
+        "result": 0,
+        "time": "6:16"
+      },
+      {
+        "spin": 7,
+        "number": "27",
+        "amountBet": 300,
+        "result": 0,
+        "time": "6:43"
+      },
+      {
+        "spin": 8,
+        "number": "31",
+        "amountBet": 300,
+        "result": 0,
+        "time": "7:03"
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 300,
+        "result": 0,
+        "time": "7:30",
+        "notes": "They incorrectly paid out $50 instead of a push."
+      },
+      {
+        "spin": 10,
+        "number": "11",
+        "amountBet": 300,
+        "result": 0,
+        "time": "8:05",
+        "notes": "They incorrectly paid out $50 instead of a push."
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 300,
+        "result": 0,
+        "time": "8:48",
+        "notes": "They incorrectly paid out $50 instead of a push."
+      }
+    ]
+  },
+  {
     "name": "The Square Dance",
     "airDate": "2022-06-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=1YoYU_XitKE",
