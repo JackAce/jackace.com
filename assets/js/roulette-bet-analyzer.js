@@ -160,7 +160,7 @@ function updateUi() {
             if (allEquity[0].amount < allEquity[35].amount) {
                 $('#equityToRemoveFor36Div').attr('class', null);
                 // Set javascript link for removing equity
-                $('#equityToRemoveFor36Link').attr("href", "javascript:distribute(" + formatDecimal(allEquity[0].amount) + ");");
+                $('#equityToRemoveFor36Button').attr("onclick", "distribute(" + formatDecimal(allEquity[0].amount) + ");");
                 $('.totalEquityToRemove').text(formatDecimal(allEquity[0].amount));
             } else {
                 $('#removeEverythingDiv').attr('class', null);
