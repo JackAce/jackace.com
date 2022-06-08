@@ -5,8 +5,11 @@ description: > # this means to ignore newlines until next section
   Gambling. Crypto. Math.
 repository: JackAce/jackace.com
 
-# Google Analytics (G-8SNDE2TPYQ is prod)
-# google_analytics: G-8SNDE2TPYQ
+# Google Analytics
+# google_analytics: G-0HYRRBTEVY
+
+# temp?   G-8SNDE2TPYQ
+# old? G-0HYRRBTEVY
 
 contact:
   url: https://github.com/JackAce
