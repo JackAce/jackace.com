@@ -79,11 +79,11 @@ function updateUi() {
     let equityTable = [];
     let totalNumbersCovered = 0;
     
-    let showBasketBetWarning = false;
+    let showTopLineBetWarning = false;
     let show36NumberBetWarning = false;
-    let basketBet = 0;
+    let topLineBet = 0;
 
-    $('#warningBasketBetRow').attr('class', 'hiddenRow');
+    $('#warningTopLineBetRow').attr('class', 'hiddenRow');
     $('#warning36NumbersBetRow').attr('class', 'hiddenRow');
 
     // Loop through all inputs
@@ -103,8 +103,8 @@ function updateUi() {
 
             if (currentBet.numberCount === 5) {
                 // You get short changed on the 5-number bet
-                showBasketBetWarning = true;
-                basketBet = currentBet.amount;
+                showTopLineBetWarning = true;
+                topLineBet = currentBet.amount;
                 equityTable[currentNumber] += currentBet.amount * 35.0/180.0;
             }
             else {
@@ -116,8 +116,8 @@ function updateUi() {
     
     show36NumberBetWarning = totalNumbersCovered > 35;
     
-    if (showBasketBetWarning) {
-        $('#warningBasketBetRow').attr('class', '');
+    if (showTopLineBetWarning) {
+        $('#warningTopLineBetRow').attr('class', '');
     }
     if (show36NumberBetWarning) {
         let allEquity = [];
@@ -236,15 +236,15 @@ function updateUi() {
     let totalBetFormatted = formatDecimal(totalBet)
     $('#totalAmountBetDiv').text(totalBetFormatted);
 
-    if (!showBasketBetWarning) {
+    if (!showTopLineBetWarning) {
         // Simple calculation of house advantage
         $('#totalExpectedValueDiv').text((- totalBet * 0.0526).toFixed(2));
         $('#compValueDiv').text((totalBet * 0.0526 * 0.20).toFixed(2));
     } else {
         // Complicated calculation because of 5-number bet
         // TODO: THIS SHOULD NOT UPDATE WHEN YOU DISMISS THE BASKET BET WARNING
-        let otherBets = totalBet - basketBet;
-        let totalLoss = 0.0526 * otherBets + 0.0789 * basketBet;
+        let otherBets = totalBet - topLineBet;
+        let totalLoss = 0.0526 * otherBets + 0.0789 * topLineBet;
         $('#totalExpectedValueDiv').text((-totalLoss).toFixed(2));
         $('#compValueDiv').text((totalLoss * 0.20).toFixed(2));
     }
