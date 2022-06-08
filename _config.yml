@@ -6,7 +6,9 @@ description: > # this means to ignore newlines until next section
 repository: JackAce/jackace.com
 
 # Google Analytics
-google_analytics: G-0HYRRBTEVY
+google_analytics: G-8SNDE2TPYQ
+
+# old? G-0HYRRBTEVY
 
 contact:
   url: https://github.com/JackAce
