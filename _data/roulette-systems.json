@@ -1,5 +1,175 @@
 [
   {
+    "name": "Nice",
+    "airDate": "2022-06-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=b7JbDCqObVI",
+    "reviewUrl": "2022-06-08-Nice",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 1400,
+    "bets": [
+      40,
+      80,
+      160
+    ],
+    "rating": "",
+    "jackaceRating": "c",
+    "notes": "This was supposed to air on 6/9... Get it?",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "35",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:19"
+      },
+      {
+        "spin": 2,
+        "number": "10",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:45"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 40,
+        "result": -40,
+        "time": "2:12"
+      },
+      {
+        "spin": 4,
+        "number": "00",
+        "amountBet": 80,
+        "result": -80,
+        "time": "3:15"
+      },
+      {
+        "spin": 5,
+        "number": "6",
+        "amountBet": 80,
+        "result": 280,
+        "time": "3:54"
+      },
+      {
+        "spin": 6,
+        "number": "00",
+        "amountBet": 40,
+        "result": -40,
+        "time": "4:36"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 40,
+        "result": -40,
+        "time": "5:08"
+      },
+      {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 40,
+        "result": -40,
+        "time": "5:37"
+      },
+      {
+        "spin": 7,
+        "number": "21",
+        "amountBet": 80,
+        "result": -80,
+        "time": "6:22"
+      },
+      {
+        "spin": 8,
+        "number": "33",
+        "amountBet": 80,
+        "result": 280,
+        "time": "6:55"
+      },
+      {
+        "spin": 9,
+        "number": "28",
+        "amountBet": 40,
+        "result": -40,
+        "time": "7:35"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 40,
+        "result": -40,
+        "time": "8:21"
+      },
+      {
+        "spin": 11,
+        "number": "0",
+        "amountBet": 40,
+        "result": -40,
+        "time": "9:00"
+      },
+      {
+        "spin": 12,
+        "number": "19",
+        "amountBet": 80,
+        "result": 280,
+        "time": "9:47"
+      },
+      {
+        "spin": 13,
+        "number": "5",
+        "amountBet": 40,
+        "result": -40,
+        "time": "10:30"
+      },
+      {
+        "spin": 14,
+        "number": "20",
+        "amountBet": 40,
+        "result": -40,
+        "time": "10:59"
+      },
+      {
+        "spin": 15,
+        "number": "19",
+        "amountBet": 40,
+        "result": 140,
+        "time": "11:29"
+      },
+      {
+        "spin": 16,
+        "number": "4",
+        "amountBet": 40,
+        "result": -40,
+        "time": "12:13"
+      },
+      {
+        "spin": 17,
+        "number": "24",
+        "amountBet": 40,
+        "result": -40,
+        "time": "12:48"
+      },
+      {
+        "spin": 18,
+        "number": "1",
+        "amountBet": 40,
+        "result": -40,
+        "time": "13:23"
+      },
+      {
+        "spin": 19,
+        "number": "00",
+        "amountBet": 40,
+        "result": -40,
+        "time": "14:00",
+        "notes": "They should have bet $80 here, but they only bet $40"
+      }
+    ]
+  },
+  {
     "name": "Lucky 13",
     "airDate": "2022-06-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=7ypbMIn4wZM",
