@@ -40,6 +40,7 @@ function increment(value) {
 
 function distribute(amountToSubtract) {
     let straightUpAmounts = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    const currentWheelType = getCurrentWheelType();
     for (let i = 0; i < indexes.length; i++) {
         let bet = $('#eq-' + indexes[i]).text();
         if (bet) {
@@ -59,11 +60,90 @@ function distribute(amountToSubtract) {
     
     for (let i = 0; i < indexes.length; i++) {
         if (straightUpAmounts[i] > 0) {
-            $('#b-x1-' + indexes[i]).val(formatDecimal(straightUpAmounts[i]));
+            if (currentWheelType === '0' && indexes[i] === '0') {
+                $('#b-x1-0-single').val(formatDecimal(straightUpAmounts[i]));
+            } else {
+                $('#b-x1-' + indexes[i]).val(formatDecimal(straightUpAmounts[i]));
+            }
         }
     }
 
     updateUi();
+}
+
+function setWheelType(wheelType) {
+    let nextWheelType = '00';
+
+    // singleZeroInputCell
+    // doubleZero00InputCell
+    // doubleZero0InputCell
+    // doubleZero000SplitInputCell
+    // xxxxx
+
+    if (wheelType === '0') {
+        $('#singleZero0InputCell').attr('class', 'spot-green');
+        $('#doubleZero0InputCell').attr('class', 'spot-green double-zero-removed');
+        $('#doubleZero00InputCell').attr('class', 'spot-green double-zero-removed');
+        $('#doubleZero000SplitInputCell').attr('class', 'spot-split double-zero-removed');
+        $('#win-00-cell').attr('class', 'win-disabled');
+        $('#eq-00-cell').attr('class', 'spot-disabled');
+        $('#b-x3-00_2_3').prop('disabled', true);
+        $('#b-x3-0_00_2').prop('disabled', true);
+        $('#b-x2-00_3').prop('disabled', true);
+        $('#b-x5-top-line').prop('disabled', true);
+
+        $('#b-x5-top-line').val('');
+        $('#b-x3-00_2_3').val('');
+        $('#b-x3-0_00_2').val('');
+        $('#b-x2-00_3').val('');
+        $('#b-x2-0_00').val('');
+        $('#b-x1-00').val('');
+        $('#win-00').text('');
+        
+
+        // Swap the 0 values
+        $('#b-x1-0-single').val($('#b-x1-0').val());
+        $('#b-x1-0').val('');
+    } else if (wheelType === '00') {
+        nextWheelType = '0';
+
+        $('#singleZero0InputCell').attr('class', 'spot-green single-zero-removed');
+        $('#doubleZero0InputCell').attr('class', 'spot-green');
+        $('#doubleZero00InputCell').attr('class', 'spot-green');
+        $('#doubleZero000SplitInputCell').attr('class', 'spot-split');
+        $('#win-00-cell').attr('class', 'win-green');
+        $('#eq-00-cell').attr('class', 'spot-green');
+        $('#b-x3-00_2_3').prop('disabled', false);
+        $('#b-x3-0_00_2').prop('disabled', false);
+        $('#b-x2-00_3').prop('disabled', false);
+        $('#b-x5-top-line').prop('disabled', false);
+
+        // Swap the 0 values
+        $('#b-x1-0').val($('#b-x1-0-single').val());
+        $('#b-x1-0-single').val('');
+    }
+
+    $('#wheelTypeNextSpan').text(nextWheelType);
+    updateUi();
+}
+
+function getNextWheelType() {
+    return $('#wheelTypeNextSpan').text();
+}
+
+function getCurrentWheelType() {
+    let nextWheelType = getNextWheelType();
+
+    if (nextWheelType === '00') {
+        return '0';
+    }
+
+    return '00';
+}
+
+function toggleWheelType() {
+    let nextWheelType = getNextWheelType();
+    setWheelType(nextWheelType);
 }
 
 function dismissWarning(id) {
@@ -82,6 +162,7 @@ function updateUi() {
     let showTopLineBetWarning = false;
     let show36NumberBetWarning = false;
     let topLineBet = 0;
+    const currentWheelType = getCurrentWheelType();
 
     $('#warningTopLineBetRow').attr('class', 'hiddenRow');
     $('#warning36NumbersBetRow').attr('class', 'hiddenRow');
@@ -189,30 +270,29 @@ function updateUi() {
             }
         }
 
-        //console.log(allEquity);
-
         $('#totalNumbersBetSpan').text(totalNumbersCovered);
         $('#warning36NumbersBetRow').attr('class', '');
     }
 
     for (let i = 0; i < 38; i++) {
-    // Clear out equity divs
-    $('#eq-' + indexes[i]).text('');
+        // Clear out equity divs
+        $('#eq-' + indexes[i]).text('');
 
-    // Set win divs
-    if (totalBet > 0) {
-        $('#win-' + indexes[i]).text(-totalBet);
-        $('#win-' + indexes[i]).attr('class', 'amt-neg');
-    }
-    else {
-        $('#win-' + indexes[i]).text('');
-        $('#win-' + indexes[i]).attr('class', '');
-    }
+        // Set win divs
+        if (totalBet > 0) {
+            if (currentWheelType !== '0' || indexes[i] !== '00') {
+                $('#win-' + indexes[i]).text(-totalBet);
+                $('#win-' + indexes[i]).attr('class', 'amt-neg');
+            }
+        } else {
+            $('#win-' + indexes[i]).text('');
+            $('#win-' + indexes[i]).attr('class', '');
+        }
     }
 
     for (const [key, value] of Object.entries(equityTable)) {
-    let truncatedValue = value.toFixed(2);
-    $('#eq-' + key).text(truncatedValue);
+        let truncatedValue = value.toFixed(2);
+        $('#eq-' + key).text(truncatedValue);
     }
 
     for (const [key, value] of Object.entries(equityTable)) {
@@ -220,12 +300,11 @@ function updateUi() {
         let winText = formatDecimal(win);
 
         $('#win-' + key).text(winText);
-        
+
         if (win > 0) {
             $('#win-' + key).attr('class', 'amt-pos');
         }
         else if (win < 0) {
-            //console.log('key: ' + key);
             $('#win-' + key).attr('class', 'amt-neg');
         }
         else {
@@ -237,9 +316,14 @@ function updateUi() {
     $('#totalAmountBetDiv').text(totalBetFormatted);
 
     if (!showTopLineBetWarning) {
-        // Simple calculation of house advantage
-        $('#totalExpectedValueDiv').text((- totalBet * 0.0526).toFixed(2));
-        $('#compValueDiv').text((totalBet * 0.0526 * 0.20).toFixed(2));
+        if (currentWheelType === '0') {
+            $('#totalExpectedValueDiv').text((- totalBet * 0.027).toFixed(2));
+            $('#compValueDiv').text((totalBet * 0.027 * 0.20).toFixed(2));
+        } else {
+            // Simple calculation of house advantage
+            $('#totalExpectedValueDiv').text((- totalBet * 0.0526).toFixed(2));
+            $('#compValueDiv').text((totalBet * 0.0526 * 0.20).toFixed(2));
+        }
     } else {
         // Complicated calculation because of 5-number bet
         // TODO: THIS SHOULD NOT UPDATE WHEN YOU DISMISS THE BASKET BET WARNING
