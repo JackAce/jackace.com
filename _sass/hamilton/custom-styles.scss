@@ -625,12 +625,18 @@ div.infobox-error {
         font-weight: bold;
         border: hidden;
     }
+    button {
+        height: 30px;
+        font-size: 12px;
+    }
     ::placeholder {
         color: #fff;
         font-size: 20px;
         opacity: 0.6;
     }
-        
+    #wheelTypeToggleButton {
+        width: 35px;
+    }
     .hiddenRow {
         display: none;
     }
@@ -657,6 +663,18 @@ div.infobox-error {
         font-size: 30px;
         background-color: #fff;
         padding: 20px;
+    }
+
+    .single-zero-hidden {
+        visibility: hidden;
+    }
+
+    .single-zero-removed {
+        display: none;
+    }
+
+    .double-zero-removed {
+        display: none;
     }
 
     .action-link {
@@ -702,6 +720,9 @@ div.infobox-error {
         
     input:focus {
         outline: none;
+    }
+    .spot-disabled {
+        background-color: #939;
     }
     .spot-green {
         background-color: #0c0;
@@ -793,15 +814,18 @@ div.infobox-error {
         height: 18px;
         width: 18px;
     }
-    .spot-basket {
+    .spot-top-line {
         background-color: #f8ecc1;
     }
-    .spot-basket input {
+    .spot-top-line input {
         background-color: #fff5d3;
         height: 18px;
         width: 18px;
     }
     
+    .win-disabled {
+        background-color: #939;
+    }
     .win-green {
         width: 35px;
         max-width: 35px;

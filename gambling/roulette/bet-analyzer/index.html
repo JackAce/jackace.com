@@ -113,7 +113,7 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
         Comp Value/Spin
       </td>
       <td class="section-title" rowspan="2">
-        <a href="javascript:clearAll();" id="clearAllLink" class="action-link">Clear</a>
+        <button title="Clear" onclick="clearAll();" >Clear</button>
       </td>
     </tr>
     <tr>
@@ -142,15 +142,15 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
         &nbsp;
       </td>
     </tr>
-    <tr id="warningBasketBetRow" class="hiddenRow">
+    <tr id="warningTopLineBetRow" class="hiddenRow">
       <td class="cell-blank" />
       <td colspan="26" class="warningCopy">
-        <div id="warningBasketBetDiv" class="warningDiv">
+        <div id="warningTopLineBetDiv" class="warningDiv">
           WARNING: NEVER BET THE 5-NUMBER BET!
         </div>
         <div class="warningCopy">
           <br/>
-          <a href="javascript:dismissWarning('#warningBasketBetRow');" id="clearWarning5NumberLink" class="action-link">Dismiss</a>
+          <button title="Dismiss" onclick="dismissWarning('#warningTopLineBetRow');" >Dismiss</button>
           <br/><br/>
         </div>
       </td>
@@ -174,7 +174,7 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
             All your bets cancel themselves out. <a href="#" onclick="clearAll();">Just remove everything</a>.
           </div>
           <div id="equityToRemoveFor36Div" class="divHidden">
-            You can remove <a id="equityToRemoveFor36Link"><span class="totalEquityToRemove"></span></a> per spot in the <i>Equity per Spot</i>
+            You can remove <button id="equityToRemoveFor36Button"><span class="totalEquityToRemove"></span></button> per spot in the <i>Equity per Spot</i>
             section.
           </div>
           <div id="equityToRemoveFor37Div" class="divHidden">
@@ -191,7 +191,7 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
         </div>
         <div>
           <br/><br/>
-          <a href="javascript:dismissWarning('#warning36NumbersBetRow');" id="clearWarning36Numbers" class="action-link">Dismiss</a>
+          <button title="Dismiss" onclick="dismissWarning('#warning36NumbersBetRow');" >Dismiss</button>
           <br/>
           <br/>
         </div>
@@ -199,7 +199,10 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
     </tr>
     <tr>
       <td class="cell-blank" />
-      <td rowspan="2" class="spot-green">
+      <td id="singleZero0InputCell" rowspan="5" class="spot-green single-zero-removed">
+        <input type="text" id="b-x1-0-single" placeholder="0" class="x1" />
+      </td>
+      <td id="doubleZero00InputCell" rowspan="2" class="spot-green">
         <input type="text" id="b-x1-00" placeholder="00" class="x1" />
       </td>
       <td class="spot-split">
@@ -359,7 +362,7 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
     </tr>
     <tr>
       <td class="cell-blank" />
-      <td class="spot-split">
+      <td id="doubleZero000SplitInputCell" class="spot-split">
         <input type="text" id="b-x2-0_00" />
       </td>
       <td class="spot-street">
@@ -440,7 +443,7 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
     </tr>
     <tr>
       <td class="cell-blank" />
-      <td rowspan="2" class="spot-green">
+      <td id="doubleZero0InputCell" rowspan="2" class="spot-green">
         <input type="text" id="b-x1-0" placeholder="0" class="x1" />
       </td>
       <td class="spot-split">
@@ -601,8 +604,8 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
     <tr>
       <td class="cell-blank" />
       <td class="cell-blank" />
-      <td class="spot-basket">
-        <input type="text" id="b-x5-basket" class="x5" />
+      <td class="spot-top-line">
+        <input type="text" id="b-x5-top-line" class="x5" />
       </td>
       <td class="spot-street">
         <input type="text" id="b-x3-1" class="x3" />
@@ -694,12 +697,16 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
         <input type="text" id="b-x12-d3" placeholder="3rd Doz" class="x12" />
       </td>
       <td class="cell-blank">
-        <a href="javascript:increment(1);" id="incrementLink" class="action-link">Add $1</a>
+        <button title="Add $1" onclick="increment(1);" >Add $1</button>
       </td>
     </tr>
     <tr>
       <td class="cell-blank" />
-      <td class="cell-blank" />
+      <td class="cell-blank">
+        <button id="wheelTypeToggleButton" onclick="toggleWheelType();">
+          <span id="wheelTypeNextSpan" >0</span>
+        </button>
+      </td>
       <td class="cell-blank" />
       <td colspan="3" class="spot-orange">
         <input type="text" id="b-x18-h1" placeholder="1-18" class="x18" />
@@ -725,7 +732,7 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
         <input type="text" id="b-x18-h2" placeholder="19-36" class="x18" />
       </td>
       <td class="cell-blank">
-        <a href="javascript:doubleUp();" id="martingaleLink" class="action-link">Martingale!</a>
+        <button title="Martingale!" onclick="doubleUp();" >Martingale!</button>
       </td>
     </tr>
     <tr>
@@ -749,7 +756,7 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
     </tr>
     <tr>
       <td class="cell-blank" />
-      <td class="win-green">
+      <td id="win-00-cell" class="win-green">
         <div id="win-00" class="win" />
       </td>
       <td class="cell-blank" />
@@ -947,7 +954,7 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
     </tr>
     <tr>
       <td class="cell-blank" />
-      <td class="spot-green">
+      <td id="eq-00-cell" class="spot-green">
         <div id="eq-00" class="eq" />
       </td>
       <td class="cell-blank" />
@@ -1059,7 +1066,7 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
         <div id="eq-35" class="eq" />
       </td>
       <td class="cell-blank">
-        <a href="javascript:distribute();" id="distributeLink" class="action-link">Distribute</a>
+        <button title="Distribute" onclick="distribute();" >Distribute</button>
       </td>
     </tr>
     <tr class="borderRow hiddenRow" style="height: 2px;">
