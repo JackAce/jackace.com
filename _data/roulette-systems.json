@@ -1,5 +1,123 @@
 [
   {
+    "name": "Lucky 13",
+    "airDate": "2022-06-07",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7ypbMIn4wZM",
+    "reviewUrl": "2022-06-07-Lucky-13",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 325,
+    "bets": [
+      65
+    ],
+    "rating": "",
+    "jackaceRating": "f",
+    "friendCount": 2,
+    "notes": "The payouts are all jacked up for this system. The straight up bets and the 17-20 Split should all pay $115, not $110 and $275! I am redacting Alex's Plum rating.",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "34",
+        "amountBet": 65,
+        "result": 25,
+        "time": "2:58"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "22",
+        "amountBet": 65,
+        "result": 115,
+        "time": "3:42",
+        "notes": "They paid $110, but it should pay $115."
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "0",
+        "amountBet": 65,
+        "result": 25,
+        "time": "4:07"
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "20",
+        "amountBet": 65,
+        "result": 115,
+        "time": "4:33",
+        "notes": "They should have paid $115, but paid $275!"
+      },
+      {
+        "friend": 2,
+        "spin": 5,
+        "number": "14",
+        "amountBet": 65,
+        "result": -65,
+        "time": "5:45"
+      },
+      {
+        "friend": 2,
+        "spin": 6,
+        "number": "5",
+        "amountBet": 65,
+        "result": 25,
+        "time": "6:21"
+      },
+      {
+        "friend": 2,
+        "spin": 7,
+        "number": "10",
+        "amountBet": 65,
+        "result": -65,
+        "time": "6:49"
+      },
+      {
+        "friend": 2,
+        "spin": 8,
+        "number": "9",
+        "amountBet": 65,
+        "result": -65,
+        "time": "7:21"
+      },
+      {
+        "friend": 2,
+        "spin": 9,
+        "number": "10",
+        "amountBet": 65,
+        "result": -65,
+        "time": "7:51"
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "13",
+        "amountBet": 65,
+        "result": 115,
+        "time": "8:19",
+        "notes": "They paid $110, but they should have paid $115."
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "23",
+        "amountBet": 65,
+        "result": -65,
+        "time": "9:06"
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "26",
+        "amountBet": 65,
+        "result": -65,
+        "time": "10:17"
+      }
+    ]
+  },
+  {
     "name": "One for the Ages",
     "airDate": "2022-06-06",
     "youtubeUrl": "https://www.youtube.com/watch?v=4R6GbpB1Mp4",
@@ -11,7 +129,7 @@
     "bets": [
       300
     ],
-    "rating": "f",
+    "rating": "",
     "jackaceRating": "f",
     "notes": "Alex rated this a Peach, but I'm not going to honor it because they based their rating on an INCORRECT payout scheme. I'm changing their rating to an F (Durian) because the system author wasted everyone's time. They ended up $85, but they should have been down $150.",
     "spins": [
