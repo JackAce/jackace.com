@@ -1,5 +1,117 @@
 [
   {
+    "name": "DTF Magic Stick",
+    "airDate": "2022-06-13",
+    "youtubeUrl": "https://www.youtube.com/watch?v=L_TAmwpeaIo",
+    "reviewUrl": "2022-06-13-DTF-Magic-Stick",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 600,
+    "bets": [
+      165
+    ],
+    "rating": "",
+    "jackaceRating": "f",
+    "notes": "3 incorrectly recorded payouts. I am not recording Alex's rating of an Eggplant.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "2",
+        "amountBet": 165,
+        "result": -45,
+        "time": "1:30"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 165,
+        "result": -15,
+        "time": "2:14"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 165,
+        "result": -75,
+        "time": "4:25",
+        "notes": "Video incorrectly said +20, when it should be -75."
+      },
+      {
+        "spin": 4,
+        "number": "33",
+        "amountBet": 165,
+        "result": -15,
+        "time": "5:13"
+      },
+      {
+        "spin": 5,
+        "number": "7",
+        "amountBet": 165,
+        "result": -65,
+        "time": "5:44"
+      },
+      {
+        "spin": 6,
+        "number": "6",
+        "amountBet": 165,
+        "result": -15,
+        "time": "6:22"
+      },
+      {
+        "spin": 7,
+        "number": "34",
+        "amountBet": 165,
+        "result": -65,
+        "time": "7:15"
+      },
+      {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 165,
+        "result": -75,
+        "time": "8:04",
+        "notes": "Video incorrectly said +20, when it should be -75."
+      },
+      {
+        "spin": 9,
+        "number": "21",
+        "amountBet": 165,
+        "result": 85,
+        "time": "8:48"
+      },
+      {
+        "spin": 10,
+        "number": "18",
+        "amountBet": 165,
+        "result": 85,
+        "time": "9:43"
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 165,
+        "result": -15,
+        "time": "10:06"
+      },
+      {
+        "spin": 12,
+        "number": "33",
+        "amountBet": 165,
+        "result": -15,
+        "time": "10:57"
+      },
+      {
+        "spin": 13,
+        "number": "29",
+        "amountBet": 165,
+        "result": 105,
+        "time": "11:33",
+        "notes": "Video incorrectly says +250, but they only won $105."
+      }
+    ]
+  },
+  {
     "name": "Nice",
     "airDate": "2022-06-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=b7JbDCqObVI",
