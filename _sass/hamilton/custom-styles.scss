@@ -347,12 +347,6 @@ div.infobox-error {
         font-size: 16px;
         text-align: center;
     }
-    // TODO: FIX THIS GARBAGE
-    // img {
-    //     margin: 0px;
-    //     min-width: 20px;
-    //     min-height: 20px;
-    // }
 }
 
 .roulette-system-table {
@@ -396,6 +390,16 @@ div.infobox-error {
         min-width: 40px;
         min-height: 20px;
     }
+}
+
+.pull-right-image {
+    float: right;
+    margin-left: 10px;
+}
+
+.pull-left-image {
+    float: left;
+    margin-right: 10px;
 }
 
 // Used for pages with no side navigation bar
