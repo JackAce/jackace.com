@@ -1,5 +1,190 @@
 [
   {
+    "name": "Trips on the Outside",
+    "airDate": "2022-06-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-oXP7fM6xyE",
+    "reviewUrl": "2022-06-15-Trips-on-the-Outside",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      20,
+      65,
+      215
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "friendCount": 3,
+    "notes": "Official rating was 'plum towards an eggplant' by Alex.",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "26",
+        "amountBet": 20,
+        "result": -20,
+        "time": "1:15"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "29",
+        "amountBet": 65,
+        "result": -65,
+        "time": "1:44"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "34",
+        "amountBet": 215,
+        "result": -2150,
+        "time": "2:10"
+      },
+      {
+        "friend": 2,
+        "spin": 4,
+        "number": "11",
+        "amountBet": 20,
+        "result": 10,
+        "time": "2:57"
+      },
+      {
+        "friend": 2,
+        "spin": 5,
+        "number": "26",
+        "amountBet": 20,
+        "result": 10,
+        "time": "3:27"
+      },
+      {
+        "friend": 2,
+        "spin": 6,
+        "number": "33",
+        "amountBet": 20,
+        "result": -20,
+        "time": "3:46"
+      },
+      {
+        "friend": 2,
+        "spin": 7,
+        "number": "17",
+        "amountBet": 65,
+        "result": 25,
+        "time": "4:10"
+      },
+      {
+        "friend": 2,
+        "spin": 8,
+        "number": "2",
+        "amountBet": 20,
+        "result": 10,
+        "time": "4:44"
+      },
+      {
+        "friend": 2,
+        "spin": 9,
+        "number": "29",
+        "amountBet": 20,
+        "result": 10,
+        "time": "5:29"
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "24",
+        "amountBet": 20,
+        "result": 10,
+        "time": "5:52"
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "8",
+        "amountBet": 20,
+        "result": 10,
+        "time": "6:11"
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "1",
+        "amountBet": 20,
+        "result": -20,
+        "time": "6:36"
+      },
+      {
+        "friend": 2,
+        "spin": 13,
+        "number": "3",
+        "amountBet": 65,
+        "result": -65,
+        "time": "7:03"
+      },
+      {
+        "friend": 2,
+        "spin": 14,
+        "number": "1",
+        "amountBet": 215,
+        "result": -215,
+        "time": "7:36"
+      },
+      {
+        "friend": 3,
+        "spin": 15,
+        "number": "29",
+        "amountBet": 20,
+        "result": 10,
+        "time": "8:29"
+      },
+      {
+        "friend": 3,
+        "spin": 16,
+        "number": "31",
+        "amountBet": 20,
+        "result": -20,
+        "time": "8:52"
+      },
+      {
+        "friend": 3,
+        "spin": 17,
+        "number": "31",
+        "amountBet": 65,
+        "result": 25,
+        "time": "9:12",
+        "notes": "This spin didn't show up on the spin history in the video."
+      },
+      {
+        "friend": 3,
+        "spin": 18,
+        "number": "30",
+        "amountBet": 20,
+        "result": 10,
+        "time": "9:43"
+      },
+      {
+        "friend": 3,
+        "spin": 19,
+        "number": "7",
+        "amountBet": 20,
+        "result": 10,
+        "time": "10:04",
+        "notes": "They later changed this number to a '2' after the next spin."
+      },
+      {
+        "friend": 3,
+        "spin": 20,
+        "number": "34",
+        "amountBet": 20,
+        "result": 10,
+        "time": "10:40"
+      }
+    ]
+  },
+  {
     "name": "Hopscotch",
     "airDate": "2022-06-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=uvlc4Ppvonc",

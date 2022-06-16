@@ -14,6 +14,8 @@ layout: page-no-sidebar
 {%- assign groupLoops = friendCount | at_least: 1 -%}
 {%- assign rbaImages = system.rbaImageUrls -%}
 {%- assign containsTimeStamps = false -%}
+{%- assign renderErrorsFound = false -%}
+{%- assign renderErrorMessage = "" -%}
 
 <!-- Calculate totals BEGIN -->
 {%- assign totalAmountBet = 0.00 -%}
@@ -224,6 +226,7 @@ layout: page-no-sidebar
       {%- for row in loopSpins -%}
 
         {%- assign currentResult = row["result"] | times: 1 -%}
+        {%- assign currentLoss = currentResult | times: -1 -%}
         {%- assign currentBet = row["amountBet"] | times: 1 -%}
         {%- assign estimatedEV = currentBet | times: -0.0526 -%}
         {%- assign currentEV = row["ev"] | default: estimatedEV | times: 1 -%}
@@ -239,6 +242,12 @@ layout: page-no-sidebar
             {%- assign timeMarkerInSeconds = timeMarkerInSeconds | plus: seconds -%}            
           {%- endif -%}
         {%- endif -%}
+
+        [[
+        {%- if currentLoss > currentBet -%}
+          [ERROR ERROR ERROR]
+        {%- endif -%}
+        ]]
 
         {%- assign spinNumber = row["number"] -%}
 
