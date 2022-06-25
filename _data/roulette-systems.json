@@ -1,5 +1,360 @@
 [
   {
+    "name": "3 Comp Systems",
+    "airDate": "2022-06-23",
+    "youtubeUrl": "https://www.youtube.com/watch?v=JXKn0kNWzqY",
+    "reviewUrl": "2022-06-23-3-Comp-Systems",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      175,
+      150,
+      250
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "friendCount": 3,
+    "notes": "System 1: Comp Killer, System 2: 24 + 10, System 3: Chamba 2.0",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "36",
+        "amountBet": 175,
+        "result": 80,
+        "time": "0:45"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "12",
+        "amountBet": 175,
+        "result": -175,
+        "time": "1:16"
+      },
+      {
+        "friend": 1,
+        "spin": 999,
+        "number": "00",
+        "amountBet": 175,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "2",
+        "amountBet": 175,
+        "result": 50,
+        "time": "1:47"
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "25",
+        "amountBet": 175,
+        "result": -175,
+        "time": "2:10"
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "28",
+        "amountBet": 175,
+        "result": 50,
+        "time": "2:50",
+        "notes": "Alex is mixing up the bets."
+      },
+      {
+        "friend": 1,
+        "spin": 6,
+        "number": "28",
+        "amountBet": 175,
+        "result": 5,
+        "time": "2:54",
+        "notes": "Alex is mixing up the bets."
+      },
+      {
+        "friend": 1,
+        "spin": 7,
+        "number": "0",
+        "amountBet": 175,
+        "result": 5,
+        "time": "2:58"
+      },
+      {
+        "friend": 1,
+        "spin": 8,
+        "number": "7",
+        "amountBet": 175,
+        "result": -175,
+        "time": "3:08"
+      },
+      {
+        "friend": 1,
+        "spin": 9,
+        "number": "17",
+        "amountBet": 175,
+        "result": 50,
+        "time": "3:47"
+      },
+      {
+        "friend": 1,
+        "spin": 10,
+        "number": "30",
+        "amountBet": 175,
+        "result": 50,
+        "time": "3:52"
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "28",
+        "amountBet": 150,
+        "result": 0,
+        "time": "4:39",
+        "notes": "They're moving the bets around with this system, too."
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "34",
+        "amountBet": 150,
+        "result": 25,
+        "time": "5:02"
+      },
+      {
+        "friend": 2,
+        "spin": 13,
+        "number": "13",
+        "amountBet": 150,
+        "result": 0,
+        "time": "5:35"
+      },
+      {
+        "friend": 2,
+        "spin": 14,
+        "number": "0",
+        "amountBet": 150,
+        "result": -150,
+        "time": "6:03"
+      },
+      {
+        "friend": 2,
+        "spin": 15,
+        "number": "27",
+        "amountBet": 150,
+        "result": -150,
+        "time": "6:18"
+      },
+      {
+        "friend": 2,
+        "spin": 16,
+        "number": "23",
+        "amountBet": 150,
+        "result": 0,
+        "time": "6:28"
+      },
+      {
+        "friend": 2,
+        "spin": 17,
+        "number": "12",
+        "amountBet": 150,
+        "result": 0,
+        "time": "6:45"
+      },
+      {
+        "friend": 2,
+        "spin": 18,
+        "number": "16",
+        "amountBet": 150,
+        "result": 0,
+        "time": "6:49"
+      },
+      {
+        "friend": 2,
+        "spin": 19,
+        "number": "7",
+        "amountBet": 150,
+        "result": 0,
+        "time": "6:57"
+      },
+      {
+        "friend": 2,
+        "spin": 20,
+        "number": "24",
+        "amountBet": 150,
+        "result": 0,
+        "time": "7:10"
+      },
+      {
+        "friend": 2,
+        "spin": 21,
+        "number": "3",
+        "amountBet": 150,
+        "result": 0,
+        "time": "7:13"
+      },
+      {
+        "friend": 2,
+        "spin": 22,
+        "number": "8",
+        "amountBet": 150,
+        "result": 0,
+        "time": "7:20"
+      },
+      {
+        "friend": 2,
+        "spin": 23,
+        "number": "34",
+        "amountBet": 150,
+        "result": 25,
+        "time": "7:26"
+      },
+      {
+        "friend": 2,
+        "spin": 24,
+        "number": "19",
+        "amountBet": 150,
+        "result": 0,
+        "time": "7:37"
+      },
+      {
+        "friend": 2,
+        "spin": 25,
+        "number": "7",
+        "amountBet": 150,
+        "result": 0,
+        "time": "7:41"
+      },
+      {
+        "friend": 3,
+        "spin": 26,
+        "number": "27",
+        "amountBet": 250,
+        "result": 50,
+        "time": "8:35"
+      },
+      {
+        "friend": 3,
+        "spin": 27,
+        "number": "30",
+        "amountBet": 250,
+        "result": -250,
+        "time": "8:46"
+      },
+      {
+        "friend": 3,
+        "spin": 28,
+        "number": "12",
+        "amountBet": 250,
+        "result": 50,
+        "time": "9:13"
+      },
+      {
+        "friend": 3,
+        "spin": 29,
+        "number": "8",
+        "amountBet": 250,
+        "result": -250,
+        "time": "9:28"
+      },
+      {
+        "friend": 3,
+        "spin": 30,
+        "number": "13",
+        "amountBet": 250,
+        "result": 50,
+        "time": "9:45"
+      },
+      {
+        "friend": 3,
+        "spin": 31,
+        "number": "29",
+        "amountBet": 250,
+        "result": 50,
+        "time": "9:54"
+      },
+      {
+        "friend": 3,
+        "spin": 32,
+        "number": "19",
+        "amountBet": 250,
+        "result": 50,
+        "time": "10:15"
+      },
+      {
+        "friend": 3,
+        "spin": 33,
+        "number": "12",
+        "amountBet": 250,
+        "result": 50,
+        "time": "10:34"
+      },
+      {
+        "friend": 3,
+        "spin": 34,
+        "number": "14",
+        "amountBet": 250,
+        "result": 50,
+        "time": "10:53"
+      },
+      {
+        "friend": 3,
+        "spin": 35,
+        "number": "34",
+        "amountBet": 250,
+        "result": 50,
+        "time": "11:03"
+      },
+      {
+        "friend": 3,
+        "spin": 36,
+        "number": "20",
+        "amountBet": 250,
+        "result": 50,
+        "time": "11:08"
+      },
+      {
+        "friend": 3,
+        "spin": 37,
+        "number": "6",
+        "amountBet": 250,
+        "result": 50,
+        "time": "11:17"
+      },
+      {
+        "friend": 3,
+        "spin": 38,
+        "number": "3",
+        "amountBet": 250,
+        "result": -250,
+        "time": "11:25"
+      },
+      {
+        "friend": 3,
+        "spin": 39,
+        "number": "6",
+        "amountBet": 250,
+        "result": -250,
+        "time": "11:37"
+      },
+      {
+        "friend": 3,
+        "spin": 40,
+        "number": "34",
+        "amountBet": 500,
+        "result": -500,
+        "time": "11:58",
+        "notes": "Alex just YOLOed here and bet all $500"
+      }
+    ]
+  },
+  {
     "name": "Reach Around",
     "airDate": "2022-06-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=8UZWDZjd-bU",
