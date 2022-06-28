@@ -1,5 +1,85 @@
 [
   {
+    "name": "Money Shot",
+    "airDate": "2022-06-27",
+    "youtubeUrl": "https://www.youtube.com/watch?v=XHjWUcn8efA",
+    "reviewUrl": "2022-06-27-Money-Shot",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      90,
+      180,
+      360,
+      720
+    ],
+    "rating": "",
+    "jackaceRating": "f",
+    "notes": "Just bet an even money bet. Betting sectors doesn't make any sense.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "20",
+        "amountBet": 90,
+        "result": -90,
+        "time": "0:39"
+      },
+      {
+        "spin": 2,
+        "number": "35",
+        "amountBet": 90,
+        "result": 90,
+        "time": "1:03"
+      },
+      {
+        "spin": 3,
+        "number": "00",
+        "amountBet": 90,
+        "result": 90,
+        "time": "1:30"
+      },
+      {
+        "spin": 4,
+        "number": "14",
+        "amountBet": 90,
+        "result": 90,
+        "time": "1:50"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 90,
+        "result": 90,
+        "time": "2:20"
+      },
+      {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 180,
+        "result": 180,
+        "time": "3:08"
+      },
+      {
+        "spin": 7,
+        "number": "1",
+        "amountBet": 360,
+        "result": 360,
+        "time": "4:44"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 720,
+        "result": 720,
+        "time": "5:54"
+      }
+    ]
+  },
+  {
     "name": "3 Comp Systems",
     "airDate": "2022-06-23",
     "youtubeUrl": "https://www.youtube.com/watch?v=JXKn0kNWzqY",
@@ -18,7 +98,7 @@
     "rating": "",
     "jackaceRating": "",
     "friendCount": 3,
-    "notes": "System 1: Comp Killer, System 2: 24 + 10, System 3: Chamba 2.0",
+    "notes": "Friend 1: Comp Killer, Friend 2: 24 + 10, Friend 3: Chamba 2.0. They didn't give these systems any ratings.",
     "spins": [
       {
         "friend": 1,
