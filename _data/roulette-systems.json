@@ -11,7 +11,7 @@
     "bets": [
       90
     ],
-    "rating": "",
+    "rating": "c",
     "jackaceRating": "b",
     "spins": [
       {
@@ -153,7 +153,7 @@
       360,
       720
     ],
-    "rating": "",
+    "rating": "b",
     "jackaceRating": "f",
     "notes": "Just bet an even money bet. Betting sectors doesn't make any sense.",
     "spins": [
