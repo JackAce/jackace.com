@@ -1,5 +1,141 @@
 [
   {
+    "name": "Super G-Spot",
+    "airDate": "2022-06-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9OLJ80J5FyM",
+    "reviewUrl": "2022-06-28-Super-G-Spot",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1500,
+    "bets": [
+      90
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "30",
+        "amountBet": 425,
+        "result": 25,
+        "time": "0:46"
+      },
+      {
+        "spin": 2,
+        "number": "21",
+        "amountBet": 425,
+        "result": 250,
+        "time": "1:28"
+      },
+      {
+        "spin": 3,
+        "number": "18",
+        "amountBet": 425,
+        "result": 250,
+        "time": "2:03"
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 425,
+        "result": -425,
+        "time": "2:52"
+      },
+      {
+        "spin": 5,
+        "number": "26",
+        "amountBet": 425,
+        "result": 25,
+        "time": "3:22"
+      },
+      {
+        "spin": 6,
+        "number": "18",
+        "amountBet": 425,
+        "result": 250,
+        "time": "3:50"
+      },
+      {
+        "spin": 7,
+        "number": "22",
+        "amountBet": 425,
+        "result": 250,
+        "time": "4:15"
+      },
+      {
+        "spin": 8,
+        "number": "17",
+        "amountBet": 425,
+        "result": 250,
+        "time": "4:36"
+      },
+      {
+        "spin": 9,
+        "number": "6",
+        "amountBet": 425,
+        "result": -425,
+        "time": "5:09"
+      },
+      {
+        "spin": 10,
+        "number": "19",
+        "amountBet": 425,
+        "result": 250,
+        "time": "5:36"
+      },
+      {
+        "spin": 11,
+        "number": "14",
+        "amountBet": 425,
+        "result": 250,
+        "time": "6:12"
+      },
+      {
+        "spin": 12,
+        "number": "36",
+        "amountBet": 425,
+        "result": -425,
+        "time": "6:41"
+      },
+      {
+        "spin": 13,
+        "number": "12",
+        "amountBet": 425,
+        "result": 25,
+        "time": "7:12"
+      },
+      {
+        "spin": 14,
+        "number": "00",
+        "amountBet": 425,
+        "result": -425,
+        "time": "7:44"
+      },
+      {
+        "spin": 15,
+        "number": "28",
+        "amountBet": 425,
+        "result": 25,
+        "time": "8:21"
+      },
+      {
+        "spin": 16,
+        "number": "7",
+        "amountBet": 425,
+        "result": 25,
+        "time": "8:36"
+      },
+      {
+        "spin": 17,
+        "number": "6",
+        "amountBet": 425,
+        "result": -425,
+        "time": "9:00"
+      }
+    ]
+  },
+  {
     "name": "Money Shot",
     "airDate": "2022-06-27",
     "youtubeUrl": "https://www.youtube.com/watch?v=XHjWUcn8efA",
@@ -17,7 +153,7 @@
       360,
       720
     ],
-    "rating": "",
+    "rating": "b",
     "jackaceRating": "f",
     "notes": "Just bet an even money bet. Betting sectors doesn't make any sense.",
     "spins": [
