@@ -1,5 +1,245 @@
 [
   {
+    "name": "Degen Jackpot",
+    "airDate": "2022-07-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=AYm7I0Hu2HY",
+    "reviewUrl": "2022-07-05-Degen-Jackpot",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1100,
+    "bets": [
+      220
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "notes": "Alex said he was up $250 at the end, but he should have been up $255, I believe.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "30",
+        "amountBet": 220,
+        "result": -220,
+        "time": "1:23"
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 220,
+        "result": 35,
+        "time": "2:06"
+      },
+      {
+        "spin": 3 ,
+        "number": "5",
+        "amountBet": 220,
+        "result": 5,
+        "time": "3:07"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 220,
+        "result": 605,
+        "time": "3:59",
+        "notes": "Video said +$455, but the win should be +$605."
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 220,
+        "result": -190,
+        "time": "5:06"
+      },
+      {
+        "spin": 6,
+        "number": "3",
+        "amountBet": 220,
+        "result": 5,
+        "time": "5:20"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 220,
+        "result": 160,
+        "time": "6:10"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 220,
+        "result": 35,
+        "time": "6:46"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 220,
+        "result": 35,
+        "time": "7:56"
+      },
+      {
+        "spin": 10,
+        "number": "32",
+        "amountBet": 220,
+        "result": 5,
+        "time": "8:40"
+      },
+      {
+        "spin": 11,
+        "number": "00",
+        "amountBet": 220,
+        "result": -220,
+        "time": "9:19"
+      }
+    ]
+  },
+  {
+    "name": "Triple Lux",
+    "airDate": "2022-07-04",
+    "youtubeUrl": "https://www.youtube.com/watch?v=IilkVahcTAg",
+    "reviewUrl": "2022-07-04-Triple-Lux",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      25,
+      50,
+      75
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "notes": "Strategy below - I'm only recording Alex's results.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "30",
+        "amountBet": 25,
+        "result": 25,
+        "time": "1:55"
+      },
+      {
+        "spin": 2,
+        "number": "28",
+        "amountBet": 50,
+        "result": 25,
+        "time": "2:20"
+      },
+      {
+        "spin": 3,
+        "number": "6",
+        "amountBet": 75,
+        "result": -75,
+        "time": "2:50"
+      },
+      {
+        "spin": 4,
+        "number": "8",
+        "amountBet": 25,
+        "result": 25,
+        "time": "3:17"
+      },
+      {
+        "spin": 5,
+        "number": "28",
+        "amountBet": 50,
+        "result": 25,
+        "time": "3:51"
+      },
+      {
+        "spin": 6,
+        "number": "26",
+        "amountBet": 75,
+        "result": -75,
+        "time": "4:25"
+      },
+      {
+        "spin": 7 ,
+        "number": "27",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:54"
+      },
+      {
+        "spin": 8,
+        "number": "9",
+        "amountBet": 25,
+        "result": -25,
+        "time": "5:19"
+      },
+      {
+        "spin": 9,
+        "number": "30",
+        "amountBet": 25,
+        "result": -25,
+        "time": "5:54"
+      },
+      {
+        "spin": 10,
+        "number": "10",
+        "amountBet": 25,
+        "result": 25,
+        "time": "7:33"
+      },
+      {
+        "spin": 11,
+        "number": "17",
+        "amountBet": 50,
+        "result": 25,
+        "time": "7:59"
+      },
+      {
+        "spin": 12,
+        "number": "4",
+        "amountBet": 75,
+        "result": -75,
+        "time": "8:39"
+      },
+      {
+        "spin": 13,
+        "number": "0",
+        "amountBet": 50,
+        "result": -50,
+        "time": "9:57",
+        "notes": "Alex stopped betting according to the system here."
+      },
+      {
+        "spin": 14,
+        "number": "4",
+        "amountBet": 50,
+        "result": -50,
+        "time": "10:18",
+        "notes": "Alex is not betting according to the system here."
+      },
+      {
+        "spin": 15,
+        "number": "0",
+        "amountBet": 50,
+        "result": -50,
+        "time": "10:44",
+        "notes": "Alex is not betting according to the system here."
+      },
+      {
+        "spin": 16,
+        "number": "11",
+        "amountBet": 0,
+        "result": 0,
+        "time": "11:06",
+        "notes": "Alex didn't bet here."
+      },
+      {
+        "spin": 17,
+        "number": "3",
+        "amountBet": 0,
+        "result": 0,
+        "time": "11:46",
+        "notes": "Alex didn't bet here."
+      }
+    ]
+  },
+  {
     "name": "Super G-Spot",
     "airDate": "2022-06-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=9OLJ80J5FyM",
