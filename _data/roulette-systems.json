@@ -1,5 +1,107 @@
 [
   {
+    "name": "Cash and Comps",
+    "airDate": "2022-07-11",
+    "youtubeUrl": "https://www.youtube.com/watch?v=W_c4bDvBzV4",
+    "reviewUrl": "2022-07-11-Cash-and-Comps",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      125
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "Alex said he was up $150 at the end. I'm not sure how he got there. Adding the numbers they displayed, he should be up $120.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "17",
+        "amountBet": 125,
+        "result": 55,
+        "time": "1:13"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 125,
+        "result": 10,
+        "time": "2:01"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 125,
+        "result": -35,
+        "time": "3:00"
+      },
+      {
+        "spin": 4,
+        "number": "21",
+        "amountBet": 125,
+        "result": 55,
+        "time": "3:37"
+      },
+      {
+        "spin": 5,
+        "number": "16",
+        "amountBet": 125,
+        "result": -35,
+        "time": "4:36"
+      },
+      {
+        "spin": 6,
+        "number": "11",
+        "amountBet": 125,
+        "result": -35,
+        "time": "5:19"
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 125,
+        "result": 100,
+        "time": "6:14"
+      },
+      {
+        "spin": 8,
+        "number": "25",
+        "amountBet": 125,
+        "result": 10,
+        "time": "7:12"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 125,
+        "result": -35,
+        "time": "8:05"
+      },
+      {
+        "spin": 10,
+        "number": "32",
+        "amountBet": 125,
+        "result": 55,
+        "time": "8:51"
+      },
+      {
+        "spin": 11,
+        "number": "22",
+        "amountBet": 125,
+        "result": 10,
+        "time": "9:43"
+      },
+      {
+        "spin": 12,
+        "number": "34",
+        "amountBet": 125,
+        "result": -35,
+        "time": "10:31"
+      }
+    ]
+  },
+  {
     "name": "Degen Jackpot",
     "airDate": "2022-07-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=AYm7I0Hu2HY",
