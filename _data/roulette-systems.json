@@ -1,5 +1,153 @@
 [
   {
+    "name": "DTF 2.0",
+    "airDate": "2022-07-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9JZBVA98z6w",
+    "reviewUrl": "2022-07-18-DTF-2-0",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      170,
+      340,
+      680
+    ],
+    "rating": "a",
+    "jackaceRating": "c",
+    "notes": "It looked like Alex had $495 at the end... Not sure how that would be possible, since all payouts are multiples of $10. I had them at a $680 loss.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "25",
+        "amountBet": 170,
+        "result": 10,
+        "time": "1:15"
+      },
+      {
+        "spin": 2,
+        "number": "26",
+        "amountBet": 170,
+        "result": 10,
+        "time": "2:04"
+      },
+      {
+        "spin": 3,
+        "number": "23",
+        "amountBet": 170,
+        "result": -170,
+        "time": "2:45"
+      },
+      {
+        "spin": 4,
+        "number": "36",
+        "amountBet": 340,
+        "result": 20,
+        "time": "3:32"
+      },
+      {
+        "spin": 5,
+        "number": "11",
+        "amountBet": 340,
+        "result": 20,
+        "time": "4:09"
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 340,
+        "result": 20,
+        "time": "5:01"
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 340,
+        "result": 20,
+        "time": "5:43"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 340,
+        "result": 20,
+        "time": "6:20"
+      },
+      {
+        "spin": 9,
+        "number": "25",
+        "amountBet": 170,
+        "result": 20,
+        "time": "6:39"
+      },
+      {
+        "spin": 10,
+        "number": "18",
+        "amountBet": 340,
+        "result": 380,
+        "time": "7:35"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 170,
+        "result": -170,
+        "time": "8:29"
+      },
+      {
+        "spin": 12,
+        "number": "32",
+        "amountBet": 340,
+        "result": 20,
+        "time": "9:11"
+      },
+      {
+        "spin": 13,
+        "number": "10",
+        "amountBet": 340,
+        "result": 20,
+        "time": "9:48"
+      },
+      {
+        "spin": 14,
+        "number": "22",
+        "amountBet": 340,
+        "result": -340,
+        "time": "10:15"
+      },
+      {
+        "spin": 15,
+        "number": "3",
+        "amountBet": 680,
+        "result": 40,
+        "time": "11:10"
+      },
+      {
+        "spin": 16,
+        "number": "32",
+        "amountBet": 680,
+        "result": 40,
+        "time": "12:03"
+      },
+      {
+        "spin": 17,
+        "number": "10",
+        "amountBet": 680,
+        "result": 40,
+        "time": "13:01"
+      },
+      {
+        "spin": 18,
+        "number": "00",
+        "amountBet": 680,
+        "result": -680,
+        "time": "13:22"
+      }
+    ]
+  },
+  {
     "name": "Cash and Comps",
     "airDate": "2022-07-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=W_c4bDvBzV4",
