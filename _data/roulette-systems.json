@@ -1,4 +1,120 @@
-[
+  [
+  {
+    "name": "Do It for the Views",
+    "airDate": "2022-07-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=vjEVD53nopw",
+    "reviewUrl": "2022-07-20-Do-It-for-the-Views",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      100
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "They were somehow up $45... How? All of the payouts pay or lose in multiples of $10. According to my tally, they should have been up $70.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "22",
+        "amountBet": 100,
+        "result": -100,
+        "time": "0:53"
+      },
+      {
+        "spin": 2,
+        "number": "17",
+        "amountBet": 100,
+        "result": 50,
+        "time": "1:20"
+      },
+      {
+        "spin": 3,
+        "number": "4",
+        "amountBet": 100,
+        "result": 80,
+        "time": "1:52"
+      },
+      {
+        "spin": 4,
+        "number": "00",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:40"
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 100,
+        "result": -100,
+        "time": "3:35"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 100,
+        "result": 80,
+        "time": "4:27"
+      },
+      {
+        "spin": 7,
+        "number": "11",
+        "amountBet": 100,
+        "result": 50,
+        "time": "5:18"
+      },
+      {
+        "spin": 8,
+        "number": "23",
+        "amountBet": 100,
+        "result": 50,
+        "time": "5:48"
+      },
+      {
+        "spin": 9,
+        "number": "6",
+        "amountBet": 100,
+        "result": -100,
+        "time": "6:13"
+      },
+      {
+        "spin": 10,
+        "number": "5",
+        "amountBet": 100,
+        "result": 50,
+        "time": "6:35"
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 100,
+        "result": -100,
+        "time": "7:11"
+      },
+      {
+        "spin": 12,
+        "number": "12",
+        "amountBet": 100,
+        "result": 80,
+        "time": "7:48"
+      },
+      {
+        "spin": 13,
+        "number": "7",
+        "amountBet": 100,
+        "result": 80,
+        "time": "8:36"
+      },
+      {
+        "spin": 14,
+        "number": "11",
+        "amountBet": 100,
+        "result": 50,
+        "time": "9:00"
+      }
+    ]
+  },
   {
     "name": "DTF 2.0",
     "airDate": "2022-07-18",
