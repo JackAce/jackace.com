@@ -1,4 +1,169 @@
-  [
+[
+  {
+    "name": "Cloning Process",
+    "airDate": "2022-07-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=74IDJVtRVgk",
+    "reviewUrl": "2022-07-21-Cloning-Process",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 420,
+    "bets": [
+      1
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "notes": "Bet on the 0-1 Split, then the 4-7 Split, and snake your way throughout the felt until you win. Then reset. Alex was down 70 at the end, but according to my tally, he should have been down $71?",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "35",
+        "amountBet": 1,
+        "result": -1,
+        "time": "0:35"
+      },
+      {
+        "spin": 2,
+        "number": "13",
+        "amountBet": 2,
+        "result": -2,
+        "time": "0:50"
+      },
+      {
+        "spin": 3,
+        "number": "27",
+        "amountBet": 3,
+        "result": -3,
+        "time": "1:15"
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 4,
+        "result": -4,
+        "time": "1:39"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 5,
+        "result": -5,
+        "time": "1:54"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 6,
+        "result": -6,
+        "time": "2:13"
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 7,
+        "result": -7,
+        "time": "2:31"
+      },
+      {
+        "spin": 8,
+        "number": "9",
+        "amountBet": 8,
+        "result": -8,
+        "time": "2:55"
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 9,
+        "result": -9,
+        "time": "3:11"
+      },
+      {
+        "spin": 10,
+        "number": "21",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:36"
+      },
+      {
+        "spin": 11,
+        "number": "13",
+        "amountBet": 10,
+        "result": 8,
+        "time": "4:03"
+      },
+      {
+        "spin": 12,
+        "number": "23",
+        "amountBet": 11,
+        "result": -11,
+        "time": ""
+      },
+      {
+        "spin": 13,
+        "number": "16",
+        "amountBet": 12,
+        "result": 6,
+        "time": "4:47",
+        "notes": "Video said +5, but it should have been +6."
+      },
+      {
+        "spin": 13,
+        "number": "29",
+        "amountBet": 13,
+        "result": -13,
+        "time": "5:06",
+        "notes": "Video said -11, but it should have been -13."
+      },
+      {
+        "spin": 14,
+        "number": "23",
+        "amountBet": 14,
+        "result": -14,
+        "time": "5:35",
+        "notes": "Video said -12, but it should have been -14."
+      },
+      {
+        "spin": 15,
+        "number": "11",
+        "amountBet": 14,
+        "result": -14,
+        "time": "5:54",
+        "notes": "Video said -12, but it should have been -14."
+      },
+      {
+        "spin": 16,
+        "number": "31",
+        "amountBet": 14,
+        "result": 4,
+        "time": "6:29",
+        "notes": "Video said +3, but it should have been +4."
+      },
+      {
+        "spin": 17,
+        "number": "18",
+        "amountBet": 14,
+        "result": 4,
+        "time": "6:57",
+        "notes": "Video said +3, but it should have been +4."
+      },
+      {
+        "spin": 18,
+        "number": "22",
+        "amountBet": 12,
+        "result": 6,
+        "time": "7:21",
+        "notes": "Video said +5, but it should have been +6."
+      },
+      {
+        "spin": 19,
+        "number": "12",
+        "amountBet": 10,
+        "result": 8,
+        "time": "7:39"
+      }
+    ]
+  },
   {
     "name": "Do It for the Views",
     "airDate": "2022-07-20",
@@ -260,6 +425,120 @@
         "amountBet": 680,
         "result": -680,
         "time": "13:22"
+      }
+    ]
+  },
+  {
+    "name": "Simp and Gale",
+    "airDate": "2022-07-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=BuAUSYzFUPs",
+    "reviewUrl": "2022-07-15-Simp-and-Gale",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      60
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "notes": "This betting system is pretty complicated, where each bet dictates its own Martingale. So each bet doubles up on a loss. Because of how complicated this can get, I'm only shwing the first tier. They were up $175 at the end, but I have them at +$180.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "27",
+        "amountBet": 60,
+        "result": 0,
+        "time": "1:00"
+      },
+      {
+        "spin": 2,
+        "number": "26",
+        "amountBet": 110,
+        "result": 45,
+        "time": "1:31",
+        "notes": "Video said +40, but it should be +45"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 60,
+        "result": -15,
+        "time": "2:17"
+      },
+      {
+        "spin": 4,
+        "number": "2",
+        "amountBet": 90,
+        "result": -45,
+        "time": "2:58"
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 150,
+        "result": 90,
+        "time": "3:32",
+        "notes": "Bet 40 each on the streets, 15 on the columns."
+      },
+      {
+        "spin": 6,
+        "number": "22",
+        "amountBet": 60,
+        "result": 0,
+        "time": "4:11",
+        "notes": "Bet 10 each on the streets, 30 on the columns."
+      },
+      {
+        "spin": 7,
+        "number": "34",
+        "amountBet": 90,
+        "result": -45,
+        "time": "4:35",
+        "notes": "Bet 20 each on the streets, 15 on the columns."
+      },
+      {
+        "spin": 8,
+        "number": "10",
+        "amountBet": 90,
+        "result": 75,
+        "time": "4:58",
+        "notes": "Bet 20 each on the streets, 15 on the columns."
+      },
+      {
+        "spin": 9,
+        "number": "20",
+        "amountBet": 60,
+        "result": 45,
+        "time": "5:34"
+      },
+      {
+        "spin": 10,
+        "number": "19",
+        "amountBet": 60,
+        "result": 45,
+        "time": "6:17"
+      },
+      {
+        "spin": 11,
+        "number": "21",
+        "amountBet": 60,
+        "result": 0,
+        "time": "6:49"
+      },
+      {
+        "spin": 12,
+        "number": "2",
+        "amountBet": 90,
+        "result": 0,
+        "time": "7:21"
+      },
+      {
+        "spin": 13,
+        "number": "35",
+        "amountBet": 60,
+        "result": -15,
+        "time": "7:47"
       }
     ]
   },
