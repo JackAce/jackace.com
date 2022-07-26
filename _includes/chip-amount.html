@@ -9,6 +9,8 @@
         <img src="{{site.baseurl}}/assets/img/chips/chip-25-blank.svg" class="chip-xs" />
     {% elsif include.chipAmount >= 5 %}
         <img src="{{site.baseurl}}/assets/img/chips/chip-5-blank.svg" class="chip-xs" />
+    {% else %}
+        <img src="{{site.baseurl}}/assets/img/chips/chip-1-blank.svg" class="chip-xs" />
     {% endif %}
     ${%- include format-number.html number=include.chipAmount -%}<br/>
 {% endif %}
