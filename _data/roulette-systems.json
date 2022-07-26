@@ -1,5 +1,111 @@
 [
   {
+    "name": "Big D Energy",
+    "airDate": "2022-07-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=hupK5MkWHno",
+    "reviewUrl": "2022-07-25-Big-D-Energy",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      25
+    ],
+    "rating": "f",
+    "jackaceRating": "d",
+    "notes": "This system just bets equal amounts on 5 or fewer streets. If you hit, then remove that street. When you miss, then increase that bet by 1 $5 chip.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "33",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:09",
+        "notes": "$5 on the first 5 streets."
+      },
+      {
+        "spin": 2,
+        "number": "26",
+        "amountBet": 50,
+        "result": -50,
+        "time": "1:35",
+        "notes": "$10 on the first 5 streets."
+      },
+      {
+        "spin": 3,
+        "number": "27",
+        "amountBet": 75,
+        "result": -75,
+        "time": "2:06",
+        "notes": "$15 on the first 5 streets."
+      },
+      {
+        "spin": 4,
+        "number": "17",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:54",
+        "notes": "$20 on the first 5 streets."
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 125,
+        "result": 175,
+        "time": "3:30",
+        "notes": "$25 on the first 5 streets."
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 120,
+        "result": -120,
+        "time": "4:19",
+        "notes": "$30 on 4 streets."
+      },
+      {
+        "spin": 7,
+        "number": "20",
+        "amountBet": 140,
+        "result": -140,
+        "time": "5:02",
+        "notes": "$35 on 4 streets."
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 160,
+        "result": -160,
+        "time": "5:45",
+        "notes": "$40 on 4 streets."
+      },
+      {
+        "spin": 9,
+        "number": "25",
+        "amountBet": 180,
+        "result": -180,
+        "time": "6:25",
+        "notes": "$45 on 4 streets."
+      },
+      {
+        "spin": 10,
+        "number": "6",
+        "amountBet": 200,
+        "result": -200,
+        "time": "7:16",
+        "notes": "$50 on 4 streets."
+      },
+      {
+        "spin": 11,
+        "number": "18",
+        "amountBet": 125,
+        "result": -125,
+        "time": "7:57",
+        "notes": "They just YOLO'ed the rest of their money on the 0-00 Split because they didn't have enough money for a full bet."
+      }
+    ]
+  },
+  {
     "name": "Cloning Process",
     "airDate": "2022-07-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=74IDJVtRVgk",
