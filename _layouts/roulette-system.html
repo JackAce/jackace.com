@@ -22,6 +22,8 @@ layout: page-no-sidebar
 {%- assign totalEV = 0.00 -%}
 {%- assign totalCompValue = 0.00 -%}
 {%- assign totalWinLoss = 0 -%}
+{%- assign lastTimeInteger = 0 -%}
+{%- assign lastSpin = 0 -%}
 
 {% for row in system.spins %}
   {%- assign currentBet = row["amountBet"] | times: 1 -%}
@@ -31,12 +33,45 @@ layout: page-no-sidebar
   {%- assign totalAmountBet = totalAmountBet | plus: currentBet -%}
   {%- assign totalEV = totalEV | plus: currentEV | times: 1 -%}
   {%- assign totalWinLoss = totalWinLoss | plus: currentResult | times: 1 -%}
+  {%- assign currentTime = row["time"] -%}
+  {%- assign currentSpin = row["spin"] | times: 1 -%}
+  {%- assign expectedSpin = lastSpin | plus: 1 -%}
 
-  {%- if row["time"] contains ":" -%}
+  {%- if currentTime contains ":" -%}
     {%- assign containsTimeStamps = true -%}
+    {%- assign currentTimeInteger = currentTime | replace: ":", "" | times: 1 -%}
+
+    {%- if currentTimeInteger <= lastTimeInteger -%}
+      {%- assign renderErrorsFound = true -%}
+      {%- assign renderErrorMessage = renderErrorMessage | append: "[TIMESTAMPS OUT OF ORDER]" -%}
+    {%- endif -%}
+
+    {%- assign lastTimeInteger = currentTimeInteger -%}
   {%- endif -%}
 
+  {%- if currentSpin != expectedSpin -%}
+    {%- assign renderErrorsFound = true -%}
+    {%- assign renderErrorMessage = renderErrorMessage | append: "[SPINS OUT OF ORDER]" -%}
+  {%- endif -%}
+
+  {%- if currentResult < 0 -%}
+    {%- assign currentLoss = currentResult | times: -1 -%}
+    {%- if currentLoss > currentBet -%}
+      {%- assign renderErrorsFound = true -%}
+      {%- assign renderErrorMessage = renderErrorMessage | append: "[LOSS TOO LARGE]" -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- assign maxPossibleWin = currentBet | times: 35 -%}
+  {%- if currentResult > maxPossibleWin -%}
+    {%- assign renderErrorsFound = true -%}
+    {%- assign renderErrorMessage = renderErrorMessage | append: "[WIN TOO LARGE]" -%}
+  {%- endif -%}
+
+  {%- assign lastSpin = currentSpin -%}
+
 {% endfor %}
+
 {%- assign totalAmountBet = totalAmountBet | floor -%}
 {%- assign totalCompValue = totalEV | times: -0.20 -%}
 
@@ -53,6 +88,17 @@ layout: page-no-sidebar
   }
 //]]>
 </script>
+
+{%- if renderErrorsFound -%}
+
+  <div class="amt-bad">
+    ERRORS FOUND!!!
+  </div>
+  <div class="amt-bad">
+    {{renderErrorMessage}}
+  </div>
+
+{%- endif -%}
 
 <table class="key-value-table" width="50%">
     <tr>
@@ -241,10 +287,6 @@ layout: page-no-sidebar
             {%- assign timeMarkerInSeconds = minutes | times: 60 -%}
             {%- assign timeMarkerInSeconds = timeMarkerInSeconds | plus: seconds -%}            
           {%- endif -%}
-        {%- endif -%}
-
-        {%- if currentLoss > currentBet -%}
-          [ERROR ERROR ERROR]
         {%- endif -%}
 
         {%- assign spinNumber = row["number"] -%}
