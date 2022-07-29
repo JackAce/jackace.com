@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until next section
 repository: JackAce/jackace.com
 
 # Google Analytics
-# google_analytics: G-0HYRRBTEVY
+google_analytics: G-0HYRRBTEVY
 
 # temp?   G-8SNDE2TPYQ
 # old? G-0HYRRBTEVY
@@ -33,7 +33,7 @@ show_excerpts: true  # set to true to show excerpts on the homepage, otherwise f
 
 # Comments
 # To enable comments, set the `enabled` field to true and supply either a Disqus short name or a Jekyll comments receiver
-disqus: jackace-beta
+disqus: jackace
 comments:
   enabled: true
   #disqus: jackace
