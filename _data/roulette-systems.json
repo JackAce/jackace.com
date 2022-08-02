@@ -1,5 +1,125 @@
 [
   {
+    "name": "Modified Italian Grinder",
+    "airDate": "2022-08-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=6KDMX1CgPto",
+    "reviewUrl": "2022-08-01-Modified-Italian-Grinder",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      45,
+      60,
+      90
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "notes": "I'm not a fan of systems where you have progressive bets when you only bet a small percentage of the field.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "24",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:38",
+        "notes": "This was a 'blank spin' used to establish which dozen to bet on. There was no bet."
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 5,
+        "result": -5,
+        "time": "1:45"
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 10,
+        "result": 26,
+        "time": "2:43",
+        "notes": "The video said +30, but the win is only $26."
+      },
+      {
+        "spin": 4,
+        "number": "13",
+        "amountBet": 5,
+        "result": -5,
+        "time": "3:51"
+      },
+      {
+        "spin": 5,
+        "number": "28",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:52"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 15,
+        "result": -15,
+        "time": "6:03"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 20,
+        "result": -20,
+        "time": "6:33"
+      },
+      {
+        "spin": 8,
+        "number": "2",
+        "amountBet": 25,
+        "result": 65,
+        "time": "7:46"
+      },
+      {
+        "spin": 9,
+        "number": "27",
+        "amountBet": 5,
+        "result": -5,
+        "time": "9:15"
+      },
+      {
+        "spin": 10,
+        "number": "26",
+        "amountBet": 10,
+        "result": 26,
+        "time": "10:12",
+        "notes": "The video said +30, but the win is only $26."
+      },
+      {
+        "spin": 11,
+        "number": "21",
+        "amountBet": 5,
+        "result": 13,
+        "time": "11:17"
+      },
+      {
+        "spin": 12,
+        "number": "3",
+        "amountBet": 5,
+        "result": -5,
+        "time": "12:23"
+      },
+      {
+        "spin": 13,
+        "number": "14",
+        "amountBet": 10,
+        "result": -10,
+        "time": "13:19"
+      }
+    ]
+  },
+  {
     "name": "Midnight Martingale",
     "airDate": "2022-07-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=NagAKN2nCqY",
@@ -19,7 +139,7 @@
     ],
     "rating": "f",
     "jackaceRating": "d",
-    "notes": "",
+    "notes": "I don't really understand the use of Martingale in a system where you only get a tiny fraction of your bet when you win.",
     "spins": [
       {
         "spin": 1,
