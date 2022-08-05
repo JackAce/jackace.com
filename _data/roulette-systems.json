@@ -1,5 +1,192 @@
 [
   {
+    "name": "Checkers",
+    "airDate": "2022-08-04",
+    "youtubeUrl": "https://www.youtube.com/watch?v=lFsaSPlcjso",
+    "reviewUrl": "2022-08-04-Checkers",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 600,
+    "bets": [
+      150
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "They gave this a plum plus, peach minus",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 150,
+        "result": -30,
+        "time": "1:42"
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 150,
+        "result": 30,
+        "time": "2:48"
+      },
+      {
+        "spin": 3,
+        "number": "1",
+        "amountBet": 150,
+        "result": 30,
+        "time": "3:29"
+      },
+      {
+        "spin": 4,
+        "number": "3",
+        "amountBet": 150,
+        "result": 30,
+        "time": "4:29"
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 150,
+        "result": 30,
+        "time": "5:33"
+      },
+      {
+        "spin": 6,
+        "number": "33",
+        "amountBet": 150,
+        "result": 30,
+        "time": "6:55",
+        "notes": "The video said +$150, but it should have been +$30"
+      },
+      {
+        "spin": 7,
+        "number": "35",
+        "amountBet": 150,
+        "result": 150,
+        "time": "8:06"
+      },
+      {
+        "spin": 8,
+        "number": "8",
+        "amountBet": 150,
+        "result": -150,
+        "time": "8:52"
+      },
+      {
+        "spin": 9,
+        "number": "23",
+        "amountBet": 150,
+        "result": 150,
+        "time": "9:35"
+      }
+    ]
+  },
+  {
+    "name": "TB 12 4 4",
+    "airDate": "2022-08-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=B-tmeCE77fs",
+    "reviewUrl": "2022-08-03-TB-12-4-4",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 750,
+    "bets": [
+      70,
+      140
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "Some bet consolidations exist.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "21",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:39",
+        "notes": "This was a 'blank spin' used to establish which 2 dozens to bet on. There was no bet."
+      },
+      {
+        "spin": 2,
+        "number": "5",
+        "amountBet": 70,
+        "result": 20,
+        "time": "1:36"
+      },
+      {
+        "spin": 3,
+        "number": "25",
+        "amountBet": 70,
+        "result": 110,
+        "time": "2:41"
+      },
+      {
+        "spin": 4,
+        "number": "30",
+        "amountBet": 70,
+        "result": -70,
+        "time": "3:55"
+      },
+      {
+        "spin": 5,
+        "number": "24",
+        "amountBet": 70,
+        "result": 20,
+        "time": "4:17"
+      },
+      {
+        "spin": 6,
+        "number": "15",
+        "amountBet": 70,
+        "result": -70,
+        "time": "5:03"
+      },
+      {
+        "spin": 7,
+        "number": "14",
+        "amountBet": 70,
+        "result": -70,
+        "time": "6:00"
+      },
+      {
+        "spin": 8,
+        "number": "3",
+        "amountBet": 140,
+        "result": 40,
+        "time": "6:44"
+      },
+      {
+        "spin": 9,
+        "number": "28",
+        "amountBet": 70,
+        "result": 110,
+        "time": "7:40"
+      },
+      {
+        "spin": 10,
+        "number": "5",
+        "amountBet": 70,
+        "result": 20,
+        "time": "8:41"
+      },
+      {
+        "spin": 11,
+        "number": "21",
+        "amountBet": 70,
+        "result": 20,
+        "time": "9:26"
+      },
+      {
+        "spin": 12,
+        "number": "4",
+        "amountBet": 70,
+        "result": 20,
+        "time": "10:05"
+      }
+    ]
+  },
+  {
     "name": "Modified Italian Grinder",
     "airDate": "2022-08-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=6KDMX1CgPto",
