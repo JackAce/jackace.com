@@ -1,5 +1,116 @@
 [
   {
+    "name": "Gold Digger",
+    "airDate": "2022-08-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=oIwxmU8DghI",
+    "reviewUrl": "2022-08-08-Gold-Digger",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      160,
+      320,
+      640
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "10",
+        "amountBet": 160,
+        "result": 20,
+        "time": "1:27"
+      },
+      {
+        "spin": 2,
+        "number": "34",
+        "amountBet": 160,
+        "result": 20,
+        "time": "2:08"
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 160,
+        "result": 20,
+        "time": "2:49"
+      },
+      {
+        "spin": 4,
+        "number": "31",
+        "amountBet": 160,
+        "result": 20,
+        "time": "3:31"
+      },
+      {
+        "spin": 5,
+        "number": "31",
+        "amountBet": 160,
+        "result": 20,
+        "time": "4:02"
+      },
+      {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 160,
+        "result": -160,
+        "time": "4:25"
+      },
+      {
+        "spin": 7,
+        "number": "7",
+        "amountBet": 320,
+        "result": 40,
+        "time": "5:05"
+      },
+      {
+        "spin": 8,
+        "number": "28",
+        "amountBet": 320,
+        "result": 40,
+        "time": "5:23"
+      },
+      {
+        "spin": 9,
+        "number": "25",
+        "amountBet": 320,
+        "result": 40,
+        "time": "5:53"
+      },
+      {
+        "spin": 10,
+        "number": "27",
+        "amountBet": 320,
+        "result": 40,
+        "time": "6:31"
+      },
+      {
+        "spin": 11,
+        "number": "0",
+        "amountBet": 320,
+        "result": -320,
+        "time": "7:12"
+      },
+      {
+        "spin": 12,
+        "number": "8",
+        "amountBet": 640,
+        "result": 80,
+        "time": "8:03"
+      },
+      {
+        "spin": 13,
+        "number": "6",
+        "amountBet": 640,
+        "result": 80,
+        "time": "8:55"
+      }
+    ]
+  },
+  {
     "name": "Checkers",
     "airDate": "2022-08-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=lFsaSPlcjso",
