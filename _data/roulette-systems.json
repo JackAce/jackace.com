@@ -1,5 +1,86 @@
 [
   {
+    "name": "Basic Bitch",
+    "airDate": "2022-08-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=BXqTNWBP7u8",
+    "reviewUrl": "2022-08-10-Basic-Bitch",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      90
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 90,
+        "result": 30,
+        "time": "1:28"
+      },
+      {
+        "spin": 2,
+        "number": "28",
+        "amountBet": 90,
+        "result": 60,
+        "time": "2:25"
+      },
+      {
+        "spin": 3,
+        "number": "29",
+        "amountBet": 90,
+        "result": 30,
+        "time": "3:12"
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 90,
+        "result": 0,
+        "time": "4:10"
+      },
+      {
+        "spin": 5,
+        "number": "34",
+        "amountBet": 90,
+        "result": 30,
+        "time": "5:14"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 90,
+        "result": -60,
+        "time": "6:06"
+      },
+      {
+        "spin": 7,
+        "number": "2",
+        "amountBet": 90,
+        "result": 60,
+        "time": "6:53"
+      },
+      {
+        "spin": 8,
+        "number": "6",
+        "amountBet": 90,
+        "result": -30,
+        "time": "7:58"
+      },
+      {
+        "spin": 9,
+        "number": "26",
+        "amountBet": 90,
+        "result": 60,
+        "time": "8:41"
+      }
+    ]
+  },
+  {
     "name": "Gold Digger",
     "airDate": "2022-08-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=oIwxmU8DghI",
