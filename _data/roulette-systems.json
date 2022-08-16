@@ -1,5 +1,213 @@
 [
   {
+    "name": "The Column Sandwich",
+    "airDate": "2022-08-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=UB8XJcieAHU",
+    "reviewUrl": "2022-08-15-The-Column-Sandwich",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      110
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "Payouts are incorrect for the Straight-up bets in the video. You should win $70, not $65.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "9",
+        "amountBet": 110,
+        "result": 70,
+        "time": "1:27",
+        "notes": "Video incorrectly said +65, but they won $70."
+      },
+      {
+        "spin": 2,
+        "number": "13",
+        "amountBet": 110,
+        "result": 70,
+        "time": "2:50",
+        "notes": "Video incorrectly said +65, but they won $70."
+      },
+      {
+        "spin": 3,
+        "number": "18",
+        "amountBet": 110,
+        "result": 70,
+        "time": "4:07",
+        "notes": "Video incorrectly said +65, but they won $70."
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 110,
+        "result": -110,
+        "time": "5:18"
+      },
+      {
+        "spin": 5,
+        "number": "3",
+        "amountBet": 110,
+        "result": -110,
+        "time": "6:21"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 110,
+        "result": -110,
+        "time": "7:19"
+      },
+      {
+        "spin": 7,
+        "number": "25",
+        "amountBet": 110,
+        "result": 70,
+        "time": "8:41"
+      },
+      {
+        "spin": 8,
+        "number": "29",
+        "amountBet": 110,
+        "result": 40,
+        "time": "9:59"
+      }
+    ]
+  },
+  {
+    "name": "Space Invader 2022",
+    "airDate": "2022-08-11",
+    "youtubeUrl": "https://www.youtube.com/watch?v=uDEhSL6BV4g",
+    "reviewUrl": "2022-08-11-Space-Invader-2022",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      175
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "notes": "Alex spent like 2 minutes trying to explain how this system works (what numbers you're supposed to bet on...). For that reason, I give this system a D.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "15",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:54",
+        "notes": "This was a blank spin used to determine which corners to bet."
+      },
+      {
+        "spin": 2,
+        "number": "6",
+        "amountBet": 175,
+        "result": -175,
+        "time": "2:05"
+      },
+      {
+        "spin": 3,
+        "number": "18",
+        "amountBet": 175,
+        "result": 50,
+        "time": "2:50"
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 175,
+        "result": 50,
+        "time": "4:28"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 175,
+        "result": 50,
+        "time": "5:04"
+      },
+      {
+        "spin": 6,
+        "number": "29",
+        "amountBet": 175,
+        "result": -175,
+        "time": "5:32"
+      },
+      {
+        "spin": 7,
+        "number": "20",
+        "amountBet": 175,
+        "result": 275,
+        "time": "6:00"
+      },
+      {
+        "spin": 8,
+        "number": "12",
+        "amountBet": 175,
+        "result": -175,
+        "time": "6:53"
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 175,
+        "result": -175,
+        "time": "7:21"
+      },
+      {
+        "spin": 10,
+        "number": "19",
+        "amountBet": 175,
+        "result": 50,
+        "time": "8:21"
+      },
+      {
+        "spin": 11,
+        "number": "27",
+        "amountBet": 175,
+        "result": 50,
+        "time": "8:58"
+      },
+      {
+        "spin": 12,
+        "number": "29",
+        "amountBet": 175,
+        "result": 275,
+        "time": "9:38"
+      },
+      {
+        "spin": 13,
+        "number": "36",
+        "amountBet": 175,
+        "result": 50,
+        "time": "10:14"
+      },
+      {
+        "spin": 14,
+        "number": "3",
+        "amountBet": 175,
+        "result": -175,
+        "time": "10:43"
+      },
+      {
+        "spin": 15,
+        "number": "1",
+        "amountBet": 175,
+        "result": 50,
+        "time": "11:27"
+      },
+      {
+        "spin": 16,
+        "number": "11",
+        "amountBet": 175,
+        "result": 275,
+        "time": "11:43"
+      }
+    ]
+  },
+  {
     "name": "Basic Bitch",
     "airDate": "2022-08-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=BXqTNWBP7u8",
