@@ -1,5 +1,106 @@
 [
   {
+    "name": "All the way Up",
+    "airDate": "2022-08-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LA4EIBBUgys",
+    "reviewUrl": "2022-08-17-All-the-way-Up",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      45,
+      90,
+      180
+    ],
+    "rating": "",
+    "jackaceRating": "d",
+    "notes": "Just bet $30 on the second dozen instead of the 6 split bets.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "18",
+        "amountBet": 45,
+        "result": 0,
+        "time": "1:06"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 45,
+        "result": 0,
+        "time": "1:42"
+      },
+      {
+        "spin": 3,
+        "number": "35",
+        "amountBet": 45,
+        "result": 45,
+        "time": "2:07"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 90,
+        "result": 90,
+        "time": "3:00"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 180,
+        "result": 0,
+        "time": "4:09"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 180,
+        "result": 180,
+        "time": "4:37",
+        "notes": "Dennis didn't take down 5 of the losing $20 split bets when he paid Alex. It also looks like they pay him $440 instead of $340 for the split win."
+      },
+      {
+        "spin": 7,
+        "number": "28",
+        "amountBet": 45,
+        "result": 0,
+        "time": "5:49",
+        "notes": "After hitting the $180 jackpot, they reversed the dozens bets, so the jackpot became the 2nd dozen and push on the 3rd dozen."
+      },
+      {
+        "spin": 8,
+        "number": "25",
+        "amountBet": 45,
+        "result": 0,
+        "time": "6:34"
+      },
+      {
+        "spin": 9,
+        "number": "33",
+        "amountBet": 45,
+        "result": 0,
+        "time": "7:14"
+      },
+      {
+        "spin": 10,
+        "number": "32",
+        "amountBet": 45,
+        "result": 0,
+        "time": "8:24"
+      },
+      {
+        "spin": 11,
+        "number": "0",
+        "amountBet": 45,
+        "result": -45,
+        "time": "9:01"
+      }
+    ]
+  },
+  {
     "name": "The Column Sandwich",
     "airDate": "2022-08-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=UB8XJcieAHU",
