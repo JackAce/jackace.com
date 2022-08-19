@@ -1,5 +1,160 @@
 [
   {
+    "name": "Daddy Donk",
+    "airDate": "2022-08-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LA4EIBBUgys",
+    "reviewUrl": "2022-08-18-Daddy-Donk",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 3000,
+    "bets": [
+      10,
+      20,
+      30,
+      40,
+      60,
+      90,
+      130,
+      200,
+      300,
+      450,
+      670,
+      1000
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "notes": "I'm not providing graphics for every betting level. They're betting the 2nd dozen. It pays 2 to 1 for every level.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "32",
+        "amountBet": 10,
+        "result": -10,
+        "time": "0:59"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 20,
+        "result": -20,
+        "time": "1:28"
+      },
+      {
+        "spin": 3,
+        "number": "34",
+        "amountBet": 30,
+        "result": -30,
+        "time": "1:53"
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 40,
+        "result": 80,
+        "time": "2:22"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:05"
+      },
+      {
+        "spin": 6,
+        "number": "9",
+        "amountBet": 20,
+        "result": -20,
+        "time": "4:45"
+      },
+      {
+        "spin": 7,
+        "number": "11",
+        "amountBet": 30,
+        "result": -30,
+        "time": "5:34"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 40,
+        "result": -40,
+        "time": "6:06"
+      },
+      {
+        "spin": 9,
+        "number": "28",
+        "amountBet": 60,
+        "result": -60,
+        "time": "6:37"
+      },
+      {
+        "spin": 10,
+        "number": "34",
+        "amountBet": 90,
+        "result": -90,
+        "time": "7:04"
+      },
+      {
+        "spin": 11,
+        "number": "19",
+        "amountBet": 130,
+        "result": 260,
+        "time": "7:28"
+      },
+      {
+        "spin": 12,
+        "number": "1",
+        "amountBet": 10,
+        "result": -10,
+        "time": "8:20"
+      },
+      {
+        "spin": 13,
+        "number": "12",
+        "amountBet": 20,
+        "result": -20,
+        "time": "8:50"
+      },
+      {
+        "spin": 14,
+        "number": "12",
+        "amountBet": 30,
+        "result": -30,
+        "time": "9:20"
+      },
+      {
+        "spin": 15,
+        "number": "12",
+        "amountBet": 40,
+        "result": -40,
+        "time": "9:48"
+      },
+      {
+        "spin": 16,
+        "number": "6",
+        "amountBet": 60,
+        "result": -60 ,
+        "time": "10:19"
+      },
+      {
+        "spin": 17,
+        "number": "31",
+        "amountBet": 90,
+        "result": -90,
+        "time": "10:44"
+      },
+      {
+        "spin": 18,
+        "number": "20",
+        "amountBet": 130,
+        "result": 260,
+        "time": "11:11"
+      }
+    ]
+  },
+  {
     "name": "All the way Up",
     "airDate": "2022-08-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=LA4EIBBUgys",
