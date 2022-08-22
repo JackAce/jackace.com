@@ -1,5 +1,91 @@
 [
   {
+    "name": "One Number Jackpot",
+    "airDate": "2022-08-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZNhm1Fj3s_w",
+    "reviewUrl": "2022-08-22-One-Number-Jackpot",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 600,
+    "bets": [
+      120,
+      120,
+      135
+    ],
+    "rating": "f",
+    "jackaceRating": "d",
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "27",
+        "amountBet": 120,
+        "result": -15,
+        "time": "1:26",
+        "notes": "Alex bet around the number 28 for this spin."
+      },
+      {
+        "spin": 2,
+        "number": "5",
+        "amountBet": 135,
+        "result": -60,
+        "time": "3:12",
+        "notes": "Alex bet around the number 29 for this spin."
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 135,
+        "result": -75,
+        "time": "4:19",
+        "notes": "Alex bet around the number 20 for this spin."
+      },
+      {
+        "spin": 4,
+        "number": "36",
+        "amountBet": 120,
+        "result": -60,
+        "time": "5:03",
+        "notes": "Alex bet around the number 16 for this spin."
+      },
+      {
+        "spin": 5,
+        "number": "23",
+        "amountBet": 120,
+        "result": 45,
+        "time": "6:13",
+        "notes": "Alex bet around the number 25 for this spin. Video said +40, but it should be +45."
+      },
+      {
+        "spin": 6,
+        "number": "13",
+        "amountBet": 120,
+        "result": -120,
+        "time": "7:13",
+        "notes": "Alex bet around the number 30 for this spin."
+      },
+      {
+        "spin": 7,
+        "number": "35",
+        "amountBet": 120,
+        "result": 90,
+        "time": "7:46",
+        "notes": "Alex bet around the number 31 for this spin."
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 135,
+        "result": -75,
+        "time": "9:01",
+        "notes": "Alex bet around the number 29 for this spin."
+      }
+    ]
+  },
+  {
     "name": "Daddy Donk",
     "airDate": "2022-08-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=LA4EIBBUgys",
