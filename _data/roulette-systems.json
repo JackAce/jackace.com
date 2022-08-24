@@ -1,5 +1,80 @@
 [
   {
+    "name": "Probability Fool",
+    "airDate": "2022-08-24",
+    "youtubeUrl": "https://www.youtube.com/watch?v=RTpRNPLgUZU",
+    "reviewUrl": "2022-08-24-Probability-Fool",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 650,
+    "bets": [
+      20,
+      40,
+      80,
+      160,
+      320
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "33",
+        "amountBet": 20,
+        "result": 25,
+        "time": "1:36"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 20,
+        "result": 25,
+        "time": "3:25"
+      },
+      {
+        "spin": 3,
+        "number": "4",
+        "amountBet": 20,
+        "result": 22,
+        "time": "4:42",
+        "notes": "Video said +20, but it should be +22."
+      },
+      {
+        "spin": 4,
+        "number": "16",
+        "amountBet": 20,
+        "result": 22,
+        "time": "5:19",
+        "notes": "Video said +20, but it should be +22."
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 20,
+        "result": 22,
+        "time": "6:11",
+        "notes": "Video said +20, but it should be +22."
+      },
+      {
+        "spin": 6,
+        "number": "16",
+        "amountBet": 20,
+        "result": 22,
+        "time": "7:14",
+        "notes": "Video said +20, but it should be +22."
+      },
+      {
+        "spin": 7,
+        "number": "18",
+        "amountBet": 20,
+        "result": 22,
+        "time": "8:19",
+        "notes": "Video said +20, but it should be +22."
+      }
+    ]
+  },
+  {
     "name": "One Number Jackpot",
     "airDate": "2022-08-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=ZNhm1Fj3s_w",
