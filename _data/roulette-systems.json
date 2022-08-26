@@ -1,5 +1,70 @@
 [
   {
+    "name": "Peach Gobbler",
+    "airDate": "2022-08-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=n-d1tuQ7sNs",
+    "reviewUrl": "2022-08-26-Peach-Gobbler",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 420,
+    "bets": [
+      36,
+      72,
+      144
+    ],
+    "rating": "",
+    "jackaceRating": "d",
+    "notes": "Alex didn't give this system a rating",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "4",
+        "amountBet": 36,
+        "result": 0,
+        "time": "1:53"
+      },
+      { 
+        "spin": 2,
+        "number": "24",
+        "amountBet": 36,
+        "result": -36,
+        "time": "3:10"
+      },
+      { 
+        "spin": 3,
+        "number": "24",
+        "amountBet": 72,
+        "result": 72,
+        "time": "4:07",
+        "notes": "Video said +107, but it should have been +72"
+      },
+      { 
+        "spin": 4,
+        "number": "20",
+        "amountBet": 36,
+        "result": 36,
+        "time": "5:27"
+      },
+      { 
+        "spin": 5,
+        "number": "17",
+        "amountBet": 36,
+        "result": 0,
+        "time": "6:58"
+      },
+      { 
+        "spin": 6,
+        "number": "9",
+        "amountBet": 36,
+        "result": -36,
+        "time": "7:57",
+        "notes": "Alex bet the wrong diagonal here, but it didn't matter (he bet 22, 20, 18 instead of 25, 23, 21)."
+      }
+    ]
+  },
+  {
     "name": "Goooal!",
     "airDate": "2022-08-25",
     "youtubeUrl": "https://www.youtube.com/watch?v=S3iybTzcGjA",
