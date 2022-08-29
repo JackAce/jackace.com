@@ -1,5 +1,86 @@
 [
   {
+    "name": "Martingale Jackpot",
+    "airDate": "2022-08-29",
+    "youtubeUrl": "https://www.youtube.com/watch?v=n-iooCEhUw-lM",
+    "reviewUrl": "2022-08-29-Martingale-Jackpot",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 800,
+    "bets": [
+      12,
+      24,
+      48,
+      96,
+      192,
+      384
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "notes": "Alex gave this system a 'Confused Boner Peach'.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "4",
+        "amountBet": 12,
+        "result": -12,
+        "time": "1:49"
+      },
+      { 
+        "spin": 2,
+        "number": "29",
+        "amountBet": 24,
+        "result": 0,
+        "time": "2:55"
+      },
+      { 
+        "spin": 3,
+        "number": "25",
+        "amountBet": 24,
+        "result": 0,
+        "time": "3:49"
+      },
+      { 
+        "spin": 4,
+        "number": "34",
+        "amountBet": 24,
+        "result": 0,
+        "time": "5:34"
+      },
+      { 
+        "spin": 5,
+        "number": "6",
+        "amountBet": 24,
+        "result": -24,
+        "time": "6:18"
+      },
+      { 
+        "spin": 6,
+        "number": "32",
+        "amountBet": 48,
+        "result": 0,
+        "time": "7:24"
+      },
+      { 
+        "spin": 7,
+        "number": "21",
+        "amountBet": 48,
+        "result": 0,
+        "time": "8:29"
+      },
+      { 
+        "spin": 8,
+        "number": "0",
+        "amountBet": 48,
+        "result": 96,
+        "time": "9:28"
+      }
+    ]
+  },
+  {
     "name": "Peach Gobbler",
     "airDate": "2022-08-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=n-d1tuQ7sNs",
