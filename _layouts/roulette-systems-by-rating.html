@@ -66,6 +66,9 @@ layout: page-no-sidebar
     {%- assign totalAmountBet = 0 -%}
     {%- assign totalLiveResults = 0 -%}
     {%- assign totalExpectedLoss = 0.00 -%}
+    {%- assign renderErrorsFound = false -%}
+    {%- assign renderErrorMessage = "" -%}
+    {%- assign urls = "" -%}
 
     {%- comment -%}
     <!-- Loop through systems AND spins to get bet amount, EV, and Win/Loss -->
@@ -77,6 +80,31 @@ layout: page-no-sidebar
       {%- assign filteredSystems = site.data.roulette-systems -%}
     {%- endif -%}
 
+    <!-- Check for duplicate URLs BEGIN -->
+    {% for row in filteredSystems %}   
+      {%- if urls contains row["youtubeUrl"] -%}
+        {%- assign renderErrorsFound = true -%}
+        {%- assign renderErrorMessage = renderErrorMessage | append: "[DUPE URL FOUND" | append: row["youtubeUrl"] | append: "]" -%}
+      {%- else -%}
+        {%- assign urls = urls | append: "|" | append: row["youtubeUrl"] -%}
+      {%- endif -%}
+
+    {% endfor %}
+
+    {%- if renderErrorsFound -%}
+      <tr>
+        <td>
+            <div class="amt-bad">
+              ERRORS FOUND!!!
+            </div>
+            <div class="amt-bad">
+              {{renderErrorMessage}}
+            </div>
+        </td>
+      </tr>
+    {%- endif -%}
+    <!-- Check for duplicate URLs COMPLETE -->
+  
     {% for row in filteredSystems %}
       {%- assign systemBets = 0 -%}
       {%- assign systemExpectedLoss = 0.00 -%}
