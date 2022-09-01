@@ -1,5 +1,74 @@
 [
   {
+    "name": "Only Balls",
+    "airDate": "2022-09-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=crf10PkA9ks",
+    "reviewUrl": "2022-09-01-Only-Balls",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 800,
+    "bets": [
+      18,
+      36,
+      72,
+      144,
+      288,
+      576
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "notes": "Martingale each street bet when it misses. Remove a winning street bet.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "33",
+        "amountBet": 18,
+        "result": -18,
+        "time": "1:02"
+      },
+      { 
+        "spin": 2,
+        "number": "16",
+        "amountBet": 36,
+        "result": -36,
+        "time": "2:02"
+      },
+      { 
+        "spin": 3,
+        "number": "23",
+        "amountBet": 72,
+        "result": 72,
+        "time": "2:41",
+        "notes": "They only won $72. The video said +132."
+      },
+      { 
+        "spin": 4,
+        "number": "36",
+        "amountBet": 120,
+        "result": -120,
+        "time": "3:37",
+        "notes": "They bet 5 streets of $24 each. They got whacked, so they lost $120, but the video said -144."
+      },
+      { 
+        "spin": 5,
+        "number": "1",
+        "amountBet": 240,
+        "result": -240,
+        "time": "5:02",
+        "notes": "They bet 5 streets of $48 each. They lost $240, but the video said -288."
+      },
+      { 
+        "spin": 6,
+        "number": "16",
+        "amountBet": 450,
+        "result": -450,
+        "time": "6:07",
+        "notes": "They bet 5 streets of $90 each. They didn't have enough for the full $96 bet."
+      }
+    ]
+  },
+  {
     "name": "Half the Wheel",
     "airDate": "2022-08-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=osglBHlDwgQ",
@@ -455,7 +524,7 @@
   {
     "name": "Daddy Donk",
     "airDate": "2022-08-18",
-    "youtubeUrl": "https://www.youtube.com/watch?v=LA4EIBBUgys",
+    "youtubeUrl": "https://www.youtube.com/watch?v=S5ByGf7TeWE",
     "reviewUrl": "2022-08-18-Daddy-Donk",
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
@@ -6305,7 +6374,7 @@
   {
     "name": "Triple Romanowski",
     "airDate": "2022-05-03",
-    "youtubeUrl": "https://www.youtube.com/watch?v=9TSQh8r1dLg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=WxY4esekgrI",
     "reviewUrl": "2022-05-03-Triple-Romanowski",
     "rbaImageUrls": [
       "00-rba-0-800x440.png",
@@ -12461,7 +12530,7 @@
   {
     "name": "Discount Tickets to the Streets",
     "airDate": "2022-02-04",
-    "youtubeUrl": "https://www.youtube.com/watch?v=bdQ6TC5PM-k",
+    "youtubeUrl": "https://www.youtube.com/watch?v=vp60E_m9Fqg",
     "reviewUrl": "2022-02-04-Discount-Tickets-to-the-Streets",
     "rbaImageUrls": [
       "00-rba-0-800x440.png",
