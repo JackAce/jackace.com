@@ -1,5 +1,98 @@
 [
   {
+    "name": "Half the Wheel",
+    "airDate": "2022-08-31",
+    "youtubeUrl": "https://www.youtube.com/watch?v=osglBHlDwgQ",
+    "reviewUrl": "2022-08-31-Half-the-Wheel",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 400,
+    "bets": [
+      100
+    ],
+    "rating": "f",
+    "jackaceRating": "f",
+    "notes": "Alex was down $300, but he should have been down $280. He was getting underpaid on the wins.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "27",
+        "amountBet": 100,
+        "result": -100,
+        "time": "1:52"
+      },
+      { 
+        "spin": 2,
+        "number": "33",
+        "amountBet": 100,
+        "result": 80,
+        "time": "3:27",
+        "notes": "They should have won $80, not $75."
+      },
+      { 
+        "spin": 3,
+        "number": "31",
+        "amountBet": 100,
+        "result": -100,
+        "time": "4:49"
+      },
+      { 
+        "spin": 4,
+        "number": "8",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:25"
+      },
+      { 
+        "spin": 5,
+        "number": "19",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:57"
+      },
+      { 
+        "spin": 6,
+        "number": "22",
+        "amountBet": 100,
+        "result": -100,
+        "time": "6:31",
+        "notes": "Alex had to 'borrow' money to make this bet and eventually get wacked."
+      },
+      { 
+        "spin": 7,
+        "number": "21",
+        "amountBet": 100,
+        "result": 80,
+        "time": "6:59",
+        "notes": "They should have won $80, not $75."
+      },
+      { 
+        "spin": 8,
+        "number": "6",
+        "amountBet": 100,
+        "result": 80,
+        "time": "7:51",
+        "notes": "They should have won $80, not $75."
+      },
+      { 
+        "spin": 9,
+        "number": "34",
+        "amountBet": 100,
+        "result": -100,
+        "time": "8:29"
+      },
+      { 
+        "spin": 10,
+        "number": "21",
+        "amountBet": 100,
+        "result": 80,
+        "time": "9:07",
+        "notes": "They should have won $80, not $75."
+      }
+    ]
+  },
+  {
     "name": "Martingale Jackpot",
     "airDate": "2022-08-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=n-iooCEhUw-lM",
