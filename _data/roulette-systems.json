@@ -1,5 +1,81 @@
 [
   {
+    "name": "KTS Big Brain",
+    "airDate": "2022-09-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=RVJ1-wQbjmM",
+    "reviewUrl": "2022-09-05-KTS-Big-Brain",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 190,
+    "bets": [
+      38
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "notes": "Alex was up $54, but I believe he should have been up $70 if he bet according to the system. He bet too much on the 7th spin.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "1",
+        "amountBet": 18,
+        "result": 6,
+        "time": "1:32"
+      },
+      { 
+        "spin": 2,
+        "number": "36",
+        "amountBet": 38,
+        "result": -2,
+        "time": "2:25"
+      },
+      { 
+        "spin": 3,
+        "number": "9",
+        "amountBet": 38,
+        "result": 6,
+        "time": "3:30"
+      },
+      { 
+        "spin": 4,
+        "number": "34",
+        "amountBet": 38,
+        "result": -2,
+        "time": "4:41"
+      },
+      { 
+        "spin": 5 ,
+        "number": "35",
+        "amountBet": 38,
+        "result": 28,
+        "time": "5:38"
+      },
+      { 
+        "spin": 6,
+        "number": "8",
+        "amountBet": 38,
+        "result": 0,
+        "time": "6:51"
+      },
+      { 
+        "spin": 7,
+        "number": "14",
+        "amountBet": 54,
+        "result": -16,
+        "time": "7:49",
+        "notes": "Alex bet $10 on the 1st and 3rd columns instead of $2 here. He actually lost $16 instead of pushing."
+      },
+      { 
+        "spin": 8,
+        "number": "27",
+        "amountBet": 38,
+        "result": 34,
+        "time": "8:47",
+        "notes": "Alex bet the 27 for this spin."
+      }
+    ]
+  },
+  {
     "name": "Only Balls",
     "airDate": "2022-09-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=crf10PkA9ks",
