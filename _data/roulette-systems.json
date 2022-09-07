@@ -15046,6 +15046,97 @@
     ]
   },
   {
+    "name": "Martingale Lover",
+    "airDate": "2020-11-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=pbD1O88BgrQ",
+    "reviewUrl": "2020-11-12-Martingale-Lover",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1600,
+    "bets": [
+      50,
+      100,
+      200
+    ],
+    "rating": "b",
+    "jackaceRating": "f",
+    "notes": "A.K.A. All the Martingale or Martingale Gangbang. Pick 3 overlapping Even Money bets and 1 Dozen and 1 Column and Martingale each individually.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 50,
+        "result": -10,
+        "time": "1:59"
+      },
+      {
+        "spin": 2,
+        "number": "0",
+        "amountBet": 80,
+        "result": -80,
+        "time": "2:47"
+      },
+      {
+        "spin": 3,
+        "number": "2",
+        "amountBet": 160,
+        "result": -80,
+        "time": "3:38"
+      },
+      {
+        "spin": 4,
+        "number": "32",
+        "amountBet": 340,
+        "result": 160,
+        "time": "4:49",
+        "notes": "Timmy switched to the middle column here. They forgot to reset their winning bets to 1 unit."
+      },
+      {
+        "spin": 5,
+        "number": "32",
+        "amountBet": 270,
+        "result": -200,
+        "time": "6:16"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 510,
+        "result": 470,
+        "time": "7:41"
+      },
+      {
+        "spin": 7,
+        "number": "21",
+        "amountBet": 380,
+        "result": -360,
+        "time": "8:52"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 740,
+        "result": 660,
+        "time": "9:55"
+      },
+      {
+        "spin": 9,
+        "number": "27",
+        "amountBet": 140,
+        "result": -100,
+        "time": "11:10"
+      },
+      {
+        "spin": 10,
+        "number": "22",
+        "amountBet": 180,
+        "result": 260,
+        "time": "12:14"
+      }
+    ]
+  },
+  {
     "name": "Chamba 2.0",
     "airDate": "2020-10-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=00DhRhdDbbU",
