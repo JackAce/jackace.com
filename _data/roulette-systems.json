@@ -13,7 +13,7 @@
     ],
     "rating": "b",
     "jackaceRating": "d",
-    "notes": "Alex was up $54, but I believe he should have been up $70 if he bet according to the system. He bet too much on the 7th spin.",
+    "notes": "Alex was up $54, but I believe he would have been up $70 if he bet according to the system. He bet too much on the 7th spin.",
     "spins": [
       {
         "spin": 1,
@@ -1937,7 +1937,7 @@
         "number": "23",
         "amountBet": 11,
         "result": -11,
-        "time": ""
+        "time": "4:33"
       },
       {
         "spin": 13,
@@ -14493,6 +14493,178 @@
     ]
   },
   {
+    "name": "Tie Fighter",
+    "airDate": "2021-06-29",
+    "youtubeUrl": "https://www.youtube.com/watch?v=vSfedPXALTM",
+    "reviewUrl": "2021-06-29-Tie-Fighter",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      310
+    ],
+    "rating": "d",
+    "jackaceRating": "a",
+    "notes": "This was played on a single-zero wheel.",
+    "friendCount": 2,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "25",
+        "amountBet": 310,
+        "result": 50,
+        "ev": -8.37,
+        "friend": 1,
+        "time": "1:10"
+      },
+      {
+        "spin": 2,
+        "number": "5",
+        "amountBet": 310,
+        "result": 50,
+        "ev": -8.37,
+        "friend": 1,
+        "time": "2:16"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 310,
+        "result": 50,
+        "ev": -8.37,
+        "friend": 1,
+        "time": "3:24"
+      },
+      {
+        "spin": 4,
+        "number": "27",
+        "amountBet": 310,
+        "result": -310,
+        "ev": -8.37,
+        "friend": 1,
+        "time": "4:32"
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 310,
+        "result": -310,
+        "ev": -8.37,
+        "friend": 1,
+        "time": "5:14"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 310,
+        "result": -310,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "6:21"
+      },
+      {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 310,
+        "result": 50,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "7:06"
+      },
+      {
+        "spin": 8,
+        "number": "19",
+        "amountBet": 310,
+        "result": 20,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "8:00"
+      },
+      {
+        "spin": 9,
+        "number": "36",
+        "amountBet": 310,
+        "result": 50,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "8:53"
+      },
+      {
+        "spin": 10,
+        "number": "23",
+        "amountBet": 310,
+        "result": 20,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "9:40"
+      },
+      {
+        "spin": 11,
+        "number": "32",
+        "amountBet": 310,
+        "result": 50,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "10:28"
+      },
+      {
+        "spin": 12,
+        "number": "11",
+        "amountBet": 310,
+        "result": 50,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "11:30"
+      },
+      {
+        "spin": 13,
+        "number": "28",
+        "amountBet": 310,
+        "result": 50,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "12:18"
+      },
+      {
+        "spin": 14,
+        "number": "31",
+        "amountBet": 310,
+        "result": 50,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "13:21"
+      },
+      {
+        "spin": 15,
+        "number": "10",
+        "amountBet": 310,
+        "result": 50,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "14:02"
+      },
+      {
+        "spin": 16,
+        "number": "18",
+        "amountBet": 310,
+        "result": 20,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "15:00"
+      },
+      {
+        "spin": 17,
+        "number": "19",
+        "amountBet": 310,
+        "result": 20,
+        "ev": -8.37,
+        "friend": 2,
+        "time": "15:51"
+      }
+    ]
+  },
+  {
     "name": "Bunny Ranch",
     "airDate": "2021-04-03",
     "youtubeUrl": "https://www.youtube.com/watch?v=quy4BA8vcOs",
@@ -14870,6 +15042,154 @@
         "number": "19",
         "amountBet": 440,
         "result": 280
+      }
+    ]
+  },
+  {
+    "name": "Chamba 2.0",
+    "airDate": "2020-10-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=00DhRhdDbbU",
+    "reviewUrl": "2020-10-08-Chamba-2.0",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      500
+    ],
+    "rating": "d",
+    "jackaceRating": "a",
+    "notes": "",
+    "friendCount": 4,
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "8",
+        "amountBet": 500,
+        "result": 100,
+        "time": "1:42"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "26",
+        "amountBet": 500,
+        "result": 100,
+        "time": "2:16"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "21",
+        "amountBet": 500,
+        "result": 100,
+        "time": "2:58"
+      },
+      {
+        "friend": 2,
+        "spin": 4,
+        "number": "18",
+        "amountBet": 500,
+        "result": 100,
+        "time": "3:45"
+      },
+      {
+        "friend": 2,
+        "spin": 5,
+        "number": "3",
+        "amountBet": 500,
+        "result": -500,
+        "time": "4:21"
+      },
+      {
+        "friend": 2,
+        "spin": 6,
+        "number": "28",
+        "amountBet": 500,
+        "result": 100,
+        "time": "4:59"
+      },
+      {
+        "friend": 2,
+        "spin": 7 ,
+        "number": "23",
+        "amountBet": 500,
+        "result": 100,
+        "time": "5:32"
+      },
+      {
+        "friend": 2,
+        "spin": 8,
+        "number": "00",
+        "amountBet": 500,
+        "result": -500,
+        "time": "6:03"
+      },
+      {
+        "friend": 3,
+        "spin": 9,
+        "number": "16",
+        "amountBet": 500,
+        "result": 100,
+        "time": "6:41"
+      },
+      {
+        "friend": 3,
+        "spin": 10,
+        "number": "21",
+        "amountBet": 500,
+        "result": 100,
+        "time": "7:23",
+        "notes": "Almost got a roller on this spin."
+      },
+      {
+        "friend": 3,
+        "spin": 11,
+        "number": "32",
+        "amountBet": 500,
+        "result": 100,
+        "time": "7:54"
+      },
+      {
+        "friend": 4,
+        "spin": 12,
+        "number": "4",
+        "amountBet": 500,
+        "result": -500,
+        "time": "8:41"
+      },
+      {
+        "friend": 4,
+        "spin": 13,
+        "number": "19",
+        "amountBet": 500,
+        "result": 100,
+        "time": "9:10"
+      },
+      {
+        "friend": 4,
+        "spin": 14,
+        "number": "12",
+        "amountBet": 500,
+        "result": 100,
+        "time": "9:39"
+      },
+      {
+        "friend": 4,
+        "spin": 15,
+        "number": "29",
+        "amountBet": 500,
+        "result": 100,
+        "time": "10:07"
+      },
+      {
+        "friend": 4,
+        "spin": 16,
+        "number": "2",
+        "amountBet": 500,
+        "result": -500,
+        "time": "10:43"
       }
     ]
   },
