@@ -1,5 +1,271 @@
 [
   {
+    "name": "Timmy's Pinwheel",
+    "airDate": "2022-09-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=2CFi_Det0Jw",
+    "reviewUrl": "2022-09-08-Timmys-Pinwheel",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 650,
+    "bets": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      180,
+      540
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "notes": "The bets grow 'like a pinwheel' around a central number. Once a dozen is filled then 3x Martingale until you win.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "6",
+        "amountBet": 5,
+        "result": -5,
+        "time": "1:29",
+        "notes": "Alex bet the 20"
+      },
+      { 
+        "spin": 2,
+        "number": "10",
+        "amountBet": 10,
+        "result": -10,
+        "time": "2:04",
+        "notes": "Alex bet the 17 and 20"
+      },
+      { 
+        "spin": 3,
+        "number": "30",
+        "amountBet": 15,
+        "result": -15,
+        "time": "2:28",
+        "notes": "Alex bet the 16, 17, and 20"
+      },
+      { 
+        "spin": 4,
+        "number": "1",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:50",
+        "notes": "Alex bet the 16, 17, 19, and 20"
+      },
+      { 
+        "spin": 5,
+        "number": "29",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:19",
+        "notes": "Alex bet the 16, 17, 19, 20, and 22"
+      },
+      { 
+        "spin": 6,
+        "number": "30",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:47",
+        "notes": "Alex bet the 16, 17, 19, 20, 22, and 23"
+      },
+      { 
+        "spin": 7,
+        "number": "35",
+        "amountBet": 35,
+        "result": -35,
+        "time": "4:23",
+        "notes": "Alex bet the 16, 17, 19, 20, 22, 23, and 24"
+      },
+      { 
+        "spin": 8,
+        "number": "00",
+        "amountBet": 40,
+        "result": 140,
+        "time": "4:50",
+        "notes": "Alex bet the 16, 17, 19, 20, 21, 22, 23, and 24"
+      },
+      { 
+        "spin": 9,
+        "number": "4",
+        "amountBet": 5,
+        "result": -5,
+        "time": "6:36",
+        "notes": "Alex bet the 20"
+      },
+      { 
+        "spin": 10,
+        "number": "36",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:01",
+        "notes": "Alex bet the 17 and 20"
+      },
+      { 
+        "spin": 11,
+        "number": "21",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:30",
+        "notes": "Alex bet the 16, 17, and 20"
+      },
+      { 
+        "spin": 12,
+        "number": "30",
+        "amountBet": 20,
+        "result": -20,
+        "time": "8:02",
+        "notes": "Alex bet the 16, 17, 19, and 20"
+      },
+      { 
+        "spin": 13,
+        "number": "9",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:30",
+        "notes": "Alex bet the 16, 17, 19, 20, and 22"
+      },
+      { 
+        "spin": 14,
+        "number": "15",
+        "amountBet": 30,
+        "result": -30,
+        "time": "8:58",
+        "notes": "Alex bet the 16, 17, 19, 20, 22, and 23"
+      },
+      { 
+        "spin": 15,
+        "number": "4",
+        "amountBet": 35,
+        "result": -35,
+        "time": "9:40",
+        "notes": "Alex bet the 16, 17, 19, 20, 22, 23, and 24"
+      },
+      { 
+        "spin": 16,
+        "number": "30",
+        "amountBet": 40,
+        "result": -40,
+        "time": "10:14",
+        "notes": "Alex bet the 16, 17, 19, 20, 21, 22, 23, and 24"
+      },
+      { 
+        "spin": 17,
+        "number": "23",
+        "amountBet": 45,
+        "result": 135,
+        "time": "10:50",
+        "notes": "Alex bet the 16, 17, 18, 19, 20, 21, 22, 23, and 24"
+      },
+      { 
+        "spin": 18,
+        "number": "2",
+        "amountBet": 5,
+        "result": -5,
+        "time": "11:00",
+        "notes": "Alex bet the 20"
+      },
+      { 
+        "spin": 19,
+        "number": "5",
+        "amountBet": 10,
+        "result": -10,
+        "time": "11:20",
+        "notes": "Alex bet the 17 and 20"
+      },
+      { 
+        "spin": 20,
+        "number": "20",
+        "amountBet": 15,
+        "result": 165,
+        "time": "11:41",
+        "notes": "Alex bet the 16, 17, and 20"
+      }
+    ]
+  },
+  {
+    "name": "Hedge",
+    "airDate": "2022-09-07",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Eg8ynkgHCgc",
+    "reviewUrl": "2022-09-07-Hedge",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 650,
+    "bets": [
+      215
+    ],
+    "rating": "",
+    "jackaceRating": "c",
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "16",
+        "amountBet": 215,
+        "result": 35,
+        "time": "1:23"
+      },
+      { 
+        "spin": 2,
+        "number": "36",
+        "amountBet": 215,
+        "result": 35,
+        "time": "2:41"
+      },
+      { 
+        "spin": 3,
+        "number": "25",
+        "amountBet": 215,
+        "result": 35,
+        "time": "3:52"
+      },
+      { 
+        "spin": 4,
+        "number": "27",
+        "amountBet": 215,
+        "result": 35,
+        "time": "5:34"
+      },
+      { 
+        "spin": 5,
+        "number": "25",
+        "amountBet": 215,
+        "result": 35,
+        "time": "6:57"
+      },
+      { 
+        "spin": 6,
+        "number": "17",
+        "amountBet": 200,
+        "result": 70,
+        "time": "8:03",
+        "notes": "Alex didn't bet the 0-00 Split for this spin, so he made an extra $15"
+      },
+      { 
+        "spin": 7,
+        "number": "33",
+        "amountBet": 215,
+        "result": -215,
+        "time": "9:09"
+      },
+      { 
+        "spin": 8,
+        "number": "0",
+        "amountBet": 215,
+        "result": 55,
+        "time": "10:06"
+      }
+    ]
+  },
+  {
     "name": "KTS Big Brain",
     "airDate": "2022-09-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=RVJ1-wQbjmM",
