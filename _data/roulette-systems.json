@@ -1,5 +1,212 @@
 [
   {
+    "name": "Ride or Die",
+    "airDate": "2022-09-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=D98ilhDYbkQ",
+    "reviewUrl": "2022-09-12-Ride-or-Die",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png"
+    ],
+    "buyIn": 250,
+    "bets": [
+      5,
+      15,
+      45,
+      35
+    ],
+    "rating": "a",
+    "jackaceRating": "a",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 5,
+        "result": 10,
+        "time": "0:52"
+      },
+      { 
+        "spin": 2,
+        "number": "24",
+        "amountBet": 15,
+        "result": 30,
+        "time": "1:22"
+      },
+      { 
+        "spin": 3,
+        "number": "11",
+        "amountBet": 45,
+        "result": -45,
+        "time": "1:41"
+      },
+      { 
+        "spin": 4,
+        "number": "5",
+        "amountBet": 5,
+        "result": 10,
+        "time": "2:06"
+      },
+      { 
+        "spin": 5,
+        "number": "34",
+        "amountBet": 15,
+        "result": -15,
+        "time": "2:27"
+      },
+      { 
+        "spin": 6,
+        "number": "5",
+        "amountBet": 5,
+        "result": 10,
+        "time": "2:52"
+      },
+      { 
+        "spin": 7,
+        "number": "15",
+        "amountBet": 15,
+        "result": 30,
+        "time": "3:10"
+      },
+      { 
+        "spin": 8,
+        "number": "7",
+        "amountBet": 35,
+        "result": 90,
+        "time": "4:20"
+      },
+      { 
+        "spin": 9,
+        "number": "34",
+        "amountBet": 5,
+        "result": -5,
+        "time": "4:41"
+      },
+      { 
+        "spin": 10,
+        "number": "19",
+        "amountBet": 5,
+        "result": -5,
+        "time": "4:49"
+      },
+      { 
+        "spin": 11,
+        "number": "5",
+        "amountBet": 5,
+        "result": 10,
+        "time": "5:21"
+      },
+      { 
+        "spin": 12,
+        "number": "24",
+        "amountBet": 15,
+        "result": 30,
+        "time": "5:38"
+      },
+      { 
+        "spin": 13,
+        "number": "27",
+        "amountBet": 45,
+        "result": 90,
+        "time": "5:51"
+      },
+      { 
+        "spin": 14,
+        "number": "20",
+        "amountBet": 35,
+        "result": -35,
+        "time": "6:15",
+        "notes": "Alex put the $35 bet on the 13"
+      },
+      { 
+        "spin": 15,
+        "number": "9",
+        "amountBet": 5,
+        "result": 10,
+        "time": "6:25"
+      },
+      { 
+        "spin": 16,
+        "number": "1",
+        "amountBet": 15,
+        "result": -15,
+        "time": "6:54"
+      },
+      { 
+        "spin": 17,
+        "number": "32",
+        "amountBet": 5,
+        "result": -5,
+        "time": "7:13"
+      },
+      { 
+        "spin": 18,
+        "number": "18",
+        "amountBet": 5,
+        "result": -5,
+        "time": "7:21"
+      },
+      { 
+        "spin": 19,
+        "number": "29",
+        "amountBet": 5,
+        "result": -5,
+        "time": "7:35"
+      },
+      { 
+        "spin": 20,
+        "number": "29",
+        "amountBet": 5,
+        "result": -5,
+        "time": "8:01"
+      },
+      { 
+        "spin": 21,
+        "number": "15",
+        "amountBet": 5,
+        "result": -5,
+        "time": "8:25"
+      },
+      { 
+        "spin": 22,
+        "number": "16",
+        "amountBet": 5,
+        "result": -5,
+        "time": "8:43"
+      },
+      { 
+        "spin": 23,
+        "number": "10",
+        "amountBet": 5,
+        "result": 10,
+        "time": "9:02"
+      },
+      { 
+        "spin": 23,
+        "number": "19",
+        "amountBet": 15,
+        "result": 30,
+        "time": "9:19"
+      },
+      { 
+        "spin": 24,
+        "number": "28",
+        "amountBet": 45,
+        "result": 90,
+        "time": "9:51"
+      },
+      { 
+        "spin": 25,
+        "number": "3",
+        "amountBet": 35,
+        "result": -35,
+        "time": "10:30",
+        "notes": "Alex bet $35 on the 00 here."
+      }
+    ]
+  },
+  {
     "name": "Timmy's Pinwheel",
     "airDate": "2022-09-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=2CFi_Det0Jw",
