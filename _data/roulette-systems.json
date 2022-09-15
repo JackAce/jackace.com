@@ -1,5 +1,100 @@
 [
   {
+    "name": "Rusty Trombone",
+    "airDate": "2022-09-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=wrqs8nPvlMU",
+    "reviewUrl": "2022-09-15-Rusty-Trombone",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      100
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "notes": "Bet around the rim of the 17 and 20. But don't forget the shaft.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 100,
+        "result": 20,
+        "time": "1:22"
+      },
+      { 
+        "spin": 2 ,
+        "number": "27",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:05"
+      },
+      { 
+        "spin": 3,
+        "number": "6",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:44"
+      },
+      { 
+        "spin": 4,
+        "number": "0",
+        "amountBet": 100,
+        "result": -100,
+        "time": "3:25"
+      },
+      { 
+        "spin": 5,
+        "number": "8",
+        "amountBet": 100,
+        "result": 20,
+        "time": "3:57"
+      },
+      { 
+        "spin": 6,
+        "number": "17",
+        "amountBet": 100,
+        "result": 380,
+        "time": "4:42"
+      },
+      { 
+        "spin": 7,
+        "number": "8",
+        "amountBet": 100,
+        "result": 20,
+        "time": "5:43"
+      },
+      { 
+        "spin": 8,
+        "number": "1",
+        "amountBet": 100,
+        "result": -100,
+        "time": "6:19"
+      },
+      { 
+        "spin": 9,
+        "number": "8",
+        "amountBet": 100,
+        "result": 20,
+        "time": "6:59"
+      },
+      { 
+        "spin": 10,
+        "number": "19",
+        "amountBet": 100,
+        "result": 80,
+        "time": "7:29"
+      },
+      { 
+        "spin": 11,
+        "number": "17",
+        "amountBet": 100,
+        "result": 380,
+        "time": "9:35"
+      }
+    ]
+  },
+  {
     "name": "Rail Grinder",
     "airDate": "2022-09-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=f4wqHytSHL0",
