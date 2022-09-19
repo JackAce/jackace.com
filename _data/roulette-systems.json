@@ -1,5 +1,153 @@
 [
   {
+    "name": "Comp Street",
+    "airDate": "2022-09-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Gb9A_LGjRew",
+    "reviewUrl": "2022-09-19-Comp-Street",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 630,
+    "bets": [
+      210
+    ],
+    "rating": "f",
+    "jackaceRating": "d",
+    "notes": "A believe Alex should be down $420, but he's down $470 at the end.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "0",
+        "amountBet": 210,
+        "result": -210,
+        "time": "1:53"
+      },
+      { 
+        "spin": 2,
+        "number": "22",
+        "amountBet": 210,
+        "result": 60,
+        "time": "2:40"
+      },
+      { 
+        "spin": 3,
+        "number": "3",
+        "amountBet": 210,
+        "result": 0,
+        "time": "3:51"
+      },
+      { 
+        "spin": 4,
+        "number": "19",
+        "amountBet": 210,
+        "result": 0,
+        "time": "4:38"
+      },
+      { 
+        "spin": 5,
+        "number": "12",
+        "amountBet": 210,
+        "result": -120,
+        "time": "5:16"
+      },
+      { 
+        "spin": 6,
+        "number": "13",
+        "amountBet": 210,
+        "result": 60,
+        "time": "6:13"
+      },
+      { 
+        "spin": 7,
+        "number": "27",
+        "amountBet": 210,
+        "result": 0,
+        "time": "7:00"
+      },
+      { 
+        "spin": 8,
+        "number": "0",
+        "amountBet": 210,
+        "result": -210,
+        "time": "8:03"
+      }
+    ]
+  },
+  {
+    "name": "You Complete Me",
+    "airDate": "2022-09-16",
+    "youtubeUrl": "https://www.youtube.com/watch?v=8gF5ITIGWzU",
+    "reviewUrl": "2022-09-16-You-Complete-Me",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 360,
+    "bets": [
+      36
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "notes": "Bet all the inside bets around two non-overlapping numbers and bet the uncovered dozen. Alex is down 5 units at the end, but he should be down 9 units.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "23",
+        "amountBet": 36,
+        "result": 0,
+        "time": "2:32",
+        "notes": "Alex bet around the 5 and the 32 for this spin"
+      },
+      { 
+        "spin": 2,
+        "number": "21",
+        "amountBet": 36,
+        "result": 0,
+        "time": "3:44",
+        "notes": "Alex bet around the 8 and the 29 for this spin"
+      },
+      { 
+        "spin": 3 ,
+        "number": "0",
+        "amountBet": 36,
+        "result": 24,
+        "time": "4:22",
+        "notes": "Alex bet around the 11 and the 23 for this spin"
+      },
+      { 
+        "spin": 4,
+        "number": "3",
+        "amountBet": 36,
+        "result": 24,
+        "time": "5:29",
+        "notes": "Alex bet around the 2 and the 29 for this spin"
+      },
+      { 
+        "spin": 5,
+        "number": "23",
+        "amountBet": 36,
+        "result": -36,
+        "time": "6:21",
+        "notes": "Alex bet around the 17 and the 32 for this spin"
+      },
+      { 
+        "spin": 6,
+        "number": "8",
+        "amountBet": 36,
+        "result": 0,
+        "time": "7:19",
+        "notes": "Alex bet around the 20 and the 29 for this spin"
+      },
+      { 
+        "spin": 7,
+        "number": "24",
+        "amountBet": 36,
+        "result": -21,
+        "time": "7:51",
+        "notes": "Alex bet around the 20 and the 32 for this spin"
+      }
+    ]
+  },
+  {
     "name": "Rusty Trombone",
     "airDate": "2022-09-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=wrqs8nPvlMU",
