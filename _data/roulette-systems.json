@@ -1,5 +1,105 @@
 [
   {
+    "name": "Quit Gambling if you Lose",
+    "airDate": "2022-09-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mmu6Fjv9EZs",
+    "reviewUrl": "2022-09-21-Quit-Gambling-if-you-Lose",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 3000,
+    "bets": [
+      500,
+      2500
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "notes": "High risk system.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "35",
+        "amountBet": 500,
+        "result": 100,
+        "time": "2:28",
+        "notes": "Alex left the 1-6 Double Street open"
+      },
+      { 
+        "spin": 2,
+        "number": "11",
+        "amountBet": 500,
+        "result": 100,
+        "time": "3:20",
+        "notes": "Alex left the 25-27 and 34-36 Streets open"
+      },
+      { 
+        "spin": 3,
+        "number": "12",
+        "amountBet": 500,
+        "result": 100,
+        "time": "4:20",
+        "notes": "Alex left the 13-15 and 22-24 Streets open"
+      },
+      { 
+        "spin": 4,
+        "number": "23",
+        "amountBet": 500,
+        "result": 100,
+        "time": "5:03",
+        "notes": "Alex left the 25-30 Double Street open"
+      },
+      { 
+        "spin": 5,
+        "number": "7",
+        "amountBet": 500,
+        "result": 100,
+        "time": "5:45",
+        "notes": "Alex left the 1-6 Double Street open"
+      },
+      { 
+        "spin": 6,
+        "number": "1",
+        "amountBet": 500,
+        "result": 100,
+        "time": "6:27",
+        "notes": "Alex left the 7-12 Double Street open"
+      },
+      { 
+        "spin": 7,
+        "number": "10",
+        "amountBet": 500,
+        "result": 100,
+        "time": "7:04",
+        "notes": "Alex left the 31-36 Double Street open"
+      },
+      { 
+        "spin": 8,
+        "number": "9",
+        "amountBet": 500,
+        "result": 100,
+        "time": "7:50",
+        "notes": "Alex left the 1-3 and 10-12 Streets open"
+      },
+      { 
+        "spin": 9,
+        "number": "34",
+        "amountBet": 500,
+        "result": 100,
+        "time": "8:34",
+        "notes": "Alex left the 25-30 Double Street open"
+      },
+      { 
+        "spin": 10,
+        "number": "8",
+        "amountBet": 500,
+        "result": 100,
+        "time": "9:21",
+        "notes": "Alex left the 13-15 and 22-24 Streets open"
+      }
+    ]
+  },
+  {
     "name": "Comp Street",
     "airDate": "2022-09-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=Gb9A_LGjRew",
