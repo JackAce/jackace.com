@@ -1,5 +1,111 @@
 [
   {
+    "name": "Roulette 'n Chill",
+    "airDate": "2022-09-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=USLIX7UBSxI",
+    "reviewUrl": "2022-09-22-Roulette-n-Chill",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png"
+    ],
+    "buyIn": 1500,
+    "bets": [
+      150,
+      300,
+      150
+    ],
+    "rating": "",
+    "jackaceRating": "f",
+    "notes": "Not sure why they said you can turn $150 into $700 in 3 spins. According to the betting pattern, you can only win $450, which would be a total of $600.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "15",
+        "amountBet": 150,
+        "result": 150,
+        "time": "1:17"
+      },
+      { 
+        "spin": 2,
+        "number": "26",
+        "amountBet": 300,
+        "result": 150,
+        "time": "1:54"
+      },
+      { 
+        "spin": 3,
+        "number": "31",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:10"
+      },
+      { 
+        "spin": 4,
+        "number": "24",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:46"
+      },
+      { 
+        "spin": 5,
+        "number": "33",
+        "amountBet": 150,
+        "result": -150,
+        "time": "4:17"
+      },
+      { 
+        "spin": 6,
+        "number": "1",
+        "amountBet": 150,
+        "result": -150,
+        "time": "4:53"
+      },
+      { 
+        "spin": 7,
+        "number": "7",
+        "amountBet": 150,
+        "result": -150,
+        "time": "5:13"
+      },
+      { 
+        "spin": 8,
+        "number": "4",
+        "amountBet": 150,
+        "result": -150,
+        "time": "5:46"
+      },
+      { 
+        "spin": 9,
+        "number": "32",
+        "amountBet": 150,
+        "result": -150,
+        "time": "6:46"
+      },
+      { 
+        "spin": 10,
+        "number": "30",
+        "amountBet": 150,
+        "result": -150,
+        "time": "7:48"
+      },
+      { 
+        "spin": 11,
+        "number": "29",
+        "amountBet": 150,
+        "result": -150,
+        "time": "8:28"
+      },
+      { 
+        "spin": 12,
+        "number": "11",
+        "amountBet": 150,
+        "result": -150,
+        "time": "9:13"
+      }
+    ]
+  },
+  {
     "name": "Quit Gambling if you Lose",
     "airDate": "2022-09-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=mmu6Fjv9EZs",
