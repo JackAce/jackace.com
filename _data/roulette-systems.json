@@ -1,5 +1,168 @@
 [
   {
+    "name": "Holy Splits ETG (low buy-in)",
+    "airDate": "2022-09-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Ta-QceKkXUg",
+    "reviewUrl": "2022-09-28-Holy-Splits-ETG",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 100,
+    "bets": [
+      15
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "notes": "I have Alex up $11, but he was up $7 at the end. Not sure what the discrepancy is.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "28",
+        "amountBet": 15,
+        "result": 3,
+        "time": "3:00"
+      },
+      { 
+        "spin": 2,
+        "number": "22",
+        "amountBet": 15,
+        "result": 3,
+        "time": "3:56"
+      },
+      { 
+        "spin": 3,
+        "number": "19",
+        "amountBet": 13,
+        "result": -13,
+        "time": "5:10",
+        "notes": "Alex didn't bet the 2nd column on this bet."
+      },
+      { 
+        "spin": 4,
+        "number": "17",
+        "amountBet": 15,
+        "result": 9,
+        "time": "6:42"
+      },
+      { 
+        "spin": 5,
+        "number": "0",
+        "amountBet": 15,
+        "result": 21,
+        "time": "7:17"
+      },
+      { 
+        "spin": 6,
+        "number": "31",
+        "amountBet": 15,
+        "result": 3,
+        "time": "7:41"
+      },
+      { 
+        "spin": 7,
+        "number": "30",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:59"
+      }
+    ]
+  },
+  {
+    "name": "Boomer Proof",
+    "airDate": "2022-09-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xTrq4EZpD9s",
+    "reviewUrl": "2022-09-26-Boomer-Proof",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      175
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "25",
+        "amountBet": 175,
+        "result": 25,
+        "time": "2:01"
+      },
+      { 
+        "spin": 2,
+        "number": "17",
+        "amountBet": 175,
+        "result": 125,
+        "time": "2:46"
+      },
+      { 
+        "spin": 3,
+        "number": "34",
+        "amountBet": 175,
+        "result": 25,
+        "time": "3:27"
+      },
+      { 
+        "spin": 4,
+        "number": "22",
+        "amountBet": 175,
+        "result": 325,
+        "time": "4:11"
+      },
+      { 
+        "spin": 5,
+        "number": "29",
+        "amountBet": 175,
+        "result": 25,
+        "time": "4:57"
+      },
+      { 
+        "spin": 6,
+        "number": "35",
+        "amountBet": 175,
+        "result": 25,
+        "time": "5:49"
+      },
+      { 
+        "spin": 7,
+        "number": "34",
+        "amountBet": 175,
+        "result": 25,
+        "time": "6:30"
+      },
+      { 
+        "spin": 8,
+        "number": "34",
+        "amountBet": 175,
+        "result": 25,
+        "time": "6:57"
+      },
+      { 
+        "spin": 9,
+        "number": "19",
+        "amountBet": 175,
+        "result": 325,
+        "time": "7:30"
+      },
+      { 
+        "spin": 10,
+        "number": "16",
+        "amountBet": 175,
+        "result": 125,
+        "time": "8:05"
+      },
+      { 
+        "spin": 11,
+        "number": "32",
+        "amountBet": 175,
+        "result": 25,
+        "time": "8:49"
+      }
+    ]
+  },
+  {
     "name": "Roulette 'n Chill",
     "airDate": "2022-09-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=USLIX7UBSxI",
@@ -15706,6 +15869,118 @@
         "ev": -8.37,
         "friend": 2,
         "time": "15:51"
+      }
+    ]
+  },
+  {
+    "name": "TB12 + 10",
+    "airDate": "2021-04-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=5d0DBsIm1gw",
+    "reviewUrl": "2021-04-20-TB12-+-10",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      50,
+      100
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "notes": "After the first bet, put $25 on a missed dozen, and sprinkle 5x$5 split bets (not-overlapping) on the other missed dozen. Martingale ONE TIME you miss.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "12",
+        "amountBet": 0,
+        "result": 0,
+        "time": "1:18",
+        "notes": "This was a 'blank spin' used to establish .... There was no bet."
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 50,
+        "result": 40,
+        "time": "2:07"
+      },
+      {
+        "spin": 3,
+        "number": "9",
+        "amountBet": 50,
+        "result": 25,
+        "time": "2:54"
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:29"
+      },
+      {
+        "spin": 5,
+        "number": "28",
+        "amountBet": 100,
+        "result": 80,
+        "time": "4:11"
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:57"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:36"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 50,
+        "result": 40,
+        "time": "6:14"
+      },
+      {
+        "spin": 9,
+        "number": "29",
+        "amountBet": 50,
+        "result": 25,
+        "time": "6:57"
+      },
+      {
+        "spin": 10,
+        "number": "16",
+        "amountBet": 50,
+        "result": 25,
+        "time": "7:31"
+      },
+      {
+        "spin": 11,
+        "number": "13",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:07"
+      },
+      {
+        "spin": 12,
+        "number": "33",
+        "amountBet": 100,
+        "result": 80,
+        "time": "8:47"
+      },
+      {
+        "spin": 13,
+        "number": "4",
+        "amountBet": 50,
+        "result": 40,
+        "time": "9:31"
       }
     ]
   },
