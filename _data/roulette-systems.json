@@ -1,5 +1,89 @@
 [
   {
+    "name": "Modified Double Street Martingale",
+    "airDate": "2022-09-29",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LLsknaOfxG0",
+    "reviewUrl": "2022-09-29-Modified-Double-Street-Martingale",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png"
+    ],
+    "buyIn": 200,
+    "bets": [
+      25,
+      75
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "notes": "Bet 5 non-overlapping Double-Streets. When you miss, 3x Martingale until you win 2x, then drop back down to 1 unit.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "13",
+        "amountBet": 25,
+        "result": 5,
+        "time": "1:13",
+        "notes": "Alex is moving around which Double-Streets he bets on."
+      },
+      { 
+        "spin": 2,
+        "number": "2",
+        "amountBet": 25,
+        "result": 5,
+        "time": "1:51"
+      },
+      { 
+        "spin": 3,
+        "number": "20",
+        "amountBet": 25,
+        "result": 5,
+        "time": "2:37"
+      },
+      { 
+        "spin": 4,
+        "number": "34",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:23"
+      },
+      { 
+        "spin": 5,
+        "number": "14",
+        "amountBet": 75,
+        "result": 15,
+        "time": "4:06"
+      },
+      { 
+        "spin": 6,
+        "number": "31",
+        "amountBet": 75,
+        "result": 15,
+        "time": "4:58"
+      },
+      { 
+        "spin": 7,
+        "number": "16",
+        "amountBet": 25,
+        "result": 5,
+        "time": "5:44"
+      },
+      { 
+        "spin": 8,
+        "number": "16",
+        "amountBet": 25,
+        "result": 5,
+        "time": "6:31"
+      },
+      { 
+        "spin": 9,
+        "number": "18",
+        "amountBet": 25,
+        "result": 5,
+        "time": "7:10"
+      }
+    ]
+  },
+  {
     "name": "Holy Splits ETG (low buy-in)",
     "airDate": "2022-09-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=Ta-QceKkXUg",
