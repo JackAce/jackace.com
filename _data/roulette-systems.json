@@ -1,5 +1,120 @@
 [
   {
+    "name": "Grower not a Shower 2.0",
+    "airDate": "2022-10-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=aNW7rZf6pYI",
+    "reviewUrl": "2022-10-05-Grower-not-a-Shower-2",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png",
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x440.png"
+    ],
+    "buyIn": 150,
+    "bets": [
+      15,
+      30,
+      40,
+      65
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "notes": "This is a different system than the 2022-01-22 system 'Grower not a Shower'",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "31",
+        "amountBet": 15,
+        "result": 15,
+        "time": "3:07"
+      },
+      { 
+        "spin": 2,
+        "number": "2",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:49"
+      },
+      { 
+        "spin": 3,
+        "number": "25",
+        "amountBet": 15,
+        "result": 15,
+        "time": "4:29"
+      },
+      { 
+        "spin": 4,
+        "number": "22",
+        "amountBet": 30,
+        "result": 15,
+        "time": "5:14"
+      },
+      { 
+        "spin": 5,
+        "number": "28",
+        "amountBet": 40,
+        "result": -40,
+        "time": "5:55"
+      },
+      { 
+        "spin": 6,
+        "number": "34",
+        "amountBet": 15,
+        "result": -15,
+        "time": "6:31"
+      },
+      { 
+        "spin": 7,
+        "number": "19",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:09"
+      },
+      { 
+        "spin": 8,
+        "number": "34",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:53"
+      },
+      { 
+        "spin": 9,
+        "number": "1",
+        "amountBet": 15,
+        "result": -15,
+        "time": "8:51"
+      },
+      { 
+        "spin": 10,
+        "number": "21",
+        "amountBet": 15,
+        "result": 15,
+        "time": "9:36"
+      },
+      { 
+        "spin": 11,
+        "number": "36",
+        "amountBet": 30,
+        "result": 15,
+        "time": "10:14"
+      },
+      { 
+        "spin": 12,
+        "number": "10",
+        "amountBet": 40,
+        "result": 20,
+        "time": "11:07"
+      },
+      { 
+        "spin": 13,
+        "number": "16",
+        "amountBet": 65,
+        "result": 120,
+        "time": "12:13"
+      }
+    ]
+  },
+  {
     "name": "Meet me in the Middle",
     "airDate": "2022-10-03",
     "youtubeUrl": "https://www.youtube.com/watch?v=0HsE8Rrwzek",
@@ -13,7 +128,7 @@
     ],
     "rating": "c",
     "jackaceRating": "f",
-    "notes": "",
+    "notes": "I think they should have been up $85, but Alex was only up $80 at the end.",
     "spins": [
       {
         "spin": 1,
