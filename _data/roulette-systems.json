@@ -1,5 +1,129 @@
 [
   {
+    "name": "Fibonacci Combo",
+    "airDate": "2022-10-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=tD2fry3zEAw",
+    "reviewUrl": "2022-10-06-Fibonacci-Combo",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 660,
+    "bets": [
+      20,
+      20,
+      40,
+      60,
+      100,
+      160,
+      260
+    ],
+    "rating": "f",
+    "jackaceRating": "d",
+    "notes": "The original buy-in was $660, but Alex bought in for a total of $1520.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "25",
+        "amountBet": 20,
+        "result": -20,
+        "time": "0:49"
+      },
+      { 
+        "spin": 2,
+        "number": "12",
+        "amountBet": 20,
+        "result": -20,
+        "time": "1:18"
+      },
+      { 
+        "spin": 3,
+        "number": "28",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:56"
+      },
+      { 
+        "spin": 4,
+        "number": "27",
+        "amountBet": 60,
+        "result": -60,
+        "time": "2:29"
+      },
+      { 
+        "spin": 5,
+        "number": "9",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:56"
+      },
+      { 
+        "spin": 6,
+        "number": "11",
+        "amountBet": 160,
+        "result": -160,
+        "time": "3:24"
+      },
+      { 
+        "spin": 7,
+        "number": "4",
+        "amountBet": 260,
+        "result": -260,
+        "time": "3:58"
+      },
+      { 
+        "spin": 8,
+        "number": "2",
+        "amountBet": 360,
+        "result": -360,
+        "time": "4:57",
+        "notes": "Alex just bought in for another $360 to cover this spin. If he wanted to continue the Fibonacci sequence, he should have bet $420 though ($260 + $160)."
+      },
+      { 
+        "spin": 9,
+        "number": "15",
+        "amountBet": 500,
+        "result": 1000,
+        "time": "5:34",
+        "notes": "Alex just bought in for another $500 and bet it. The bet should have been $680 if he stuck with the Fibonacci sequence."
+      },
+      { 
+        "spin": 10,
+        "number": "36",
+        "amountBet": 20,
+        "result": -20,
+        "time": "6:11"
+      },
+      { 
+        "spin": 11,
+        "number": "6",
+        "amountBet": 20,
+        "result": -20,
+        "time": "6:28"
+      },
+      { 
+        "spin": 12,
+        "number": "9",
+        "amountBet": 40,
+        "result": -40,
+        "time": "6:59"
+      },
+      { 
+        "spin": 13,
+        "number": "9",
+        "amountBet": 60,
+        "result": -60,
+        "time": "7:24"
+      },
+      { 
+        "spin": 14,
+        "number": "20",
+        "amountBet": 100,
+        "result": 200,
+        "time": "7:53"
+      }
+    ]
+  },
+  {
     "name": "Grower not a Shower 2.0",
     "airDate": "2022-10-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=aNW7rZf6pYI",
