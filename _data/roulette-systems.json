@@ -1,4 +1,185 @@
-[
+ [
+  {
+    "name": "Beat It",
+    "airDate": "2022-10-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=lTG5LrcNYOc",
+    "reviewUrl": "2022-10-10-Beat-It",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 200,
+    "bets": [
+      50
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "34",
+        "amountBet": 50,
+        "result": -10,
+        "time": "2:53"
+      },
+      { 
+        "spin": 2,
+        "number": "31",
+        "amountBet": 50,
+        "result": 40,
+        "time": "3:55"
+      },
+      { 
+        "spin": 3,
+        "number": "4",
+        "amountBet": 50,
+        "result": -20,
+        "time": "4:27"
+      },
+      { 
+        "spin": 4,
+        "number": "13",
+        "amountBet": 50,
+        "result": 40,
+        "time": "5:23"
+      },
+      { 
+        "spin": 5,
+        "number": "11",
+        "amountBet": 50,
+        "result": 40,
+        "time": "6:18"
+      },
+      { 
+        "spin": 6,
+        "number": "36",
+        "amountBet": 50,
+        "result": -40,
+        "time": "7:17"
+      },
+      { 
+        "spin": 7,
+        "number": "00",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:38"
+      },
+      { 
+        "spin": 8,
+        "number": "28",
+        "amountBet": 50,
+        "result": 40,
+        "time": "9:51"
+      }
+    ]
+  },
+  {
+    "name": "Comps Galore",
+    "airDate": "2022-10-07",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZNX-U_4NPOw",
+    "reviewUrl": "2022-10-07-Comps-Galore",
+    "rbaImageUrls": [
+      "00-rba-0-800x440.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      450
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "notes": "Bet $50 on 6 Streets, and $25 on 6 uncovered Splits. Dennis mispaid Alex $100 on the wins when he should have paid him $150. This is an issue with the system author's assessment of the payouts.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "15",
+        "amountBet": 450,
+        "result": 150,
+        "time": "1:26",
+        "notes": "Alex should have won $150, but Dennis only paid him $100."
+      },
+      { 
+        "spin": 2,
+        "number": "18",
+        "amountBet": 450,
+        "result": 0,
+        "time": "1:51"
+      },
+      { 
+        "spin": 3,
+        "number": "21",
+        "amountBet": 450,
+        "result": 150,
+        "time": "2:23",
+        "notes": "Alex should have won $150, but Dennis only paid him $100."
+      },
+      { 
+        "spin": 4,
+        "number": "34",
+        "amountBet": 450,
+        "result": -450,
+        "time": "2:59"
+      },
+      { 
+        "spin": 5,
+        "number": "30",
+        "amountBet": 450,
+        "result": 0,
+        "time": "3:53"
+      },
+      { 
+        "spin": 6,
+        "number": "5",
+        "amountBet": 450,
+        "result": 0,
+        "time": "4:14"
+      },
+      { 
+        "spin": 7,
+        "number": "23",
+        "amountBet": 450,
+        "result": 0,
+        "time": "4:43"
+      },
+      { 
+        "spin": 8,
+        "number": "27",
+        "amountBet": 450,
+        "result": 150,
+        "time": "5:05",
+        "notes": "Alex should have won $150, but Dennis only paid him $100."
+      },
+      { 
+        "spin": 9,
+        "number": "33",
+        "amountBet": 450,
+        "result": 150,
+        "time": "5:30",
+        "notes": "Alex should have won $150, but Dennis only paid him $100."
+      },
+      { 
+        "spin": 10,
+        "number": "0",
+        "amountBet": 450,
+        "result": -450,
+        "time": "6:06"
+      },
+      { 
+        "spin": 11,
+        "number": "16",
+        "amountBet": 450,
+        "result": -450,
+        "time": "6:39"
+      },
+      { 
+        "spin": 12,
+        "number": "00",
+        "amountBet": 50,
+        "result": -50,
+        "time": "7:51",
+        "notes": "Alex just put $25 each on the 31 and 36 straight-up"
+      }
+    ]
+  },
   {
     "name": "Fibonacci Combo",
     "airDate": "2022-10-06",
