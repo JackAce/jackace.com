@@ -7,6 +7,7 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
 
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/roulette-bet-analyzer.js"></script>
 
 <h1>{{page.title}}</h1>
@@ -1168,8 +1169,32 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
           height="2"
           style="height: 2px;padding: 0px;margin: 0px;" /></td>
     </tr>
+    <tr>
+      <td class="cell-blank" />
+      <td colspan="26" class="section-title">
+        Outcome Graph
+      </td>
+    </tr>
+    <tr class="borderRow" style="height: 200px;min-height: 200px;">
+      <td class="borderRow">
+      </td>
+      <td class="" colspan="25">
+        <div id="chartContainer" style="width: 800px;max-width: 800px;height: 200px;max-height: 200px;min-height: 200px;background-color: #222;">
+        </div>
+      </td>
+      <td class="borderRow">
+      </td>
+    </tr>
+    <tr class="cell-blank" style="height: 2px;">
+      <td class="cell-blank" colspan="27" style="height: 2px;"
+        ><img
+          src="{{site.baseurl}}/assets/img/1x1.png"
+          class="cell-blank"
+          height="2"
+          style="height: 2px;padding: 0px;margin: 0px;" /></td>
+    </tr>
   </table>
-  
+
 </div>
 
 <p>
@@ -1187,4 +1212,12 @@ summary: "Are you making bad bets in Roulette? Analyze your system using the Rou
 <p>
   The <b>Equity per Spot</b> section shows how much you can bet on each number Straight-up
   instead of betting on any of the multi-number bets.
+</p>
+<p>
+  The <b>Outcome Graph</b> shows you a graph of every outcome, from worst result to best result over
+  all possible results. After exhausting all possible results, you should be down 2 full bets in
+  double zero, and 1 full bet in single zero.
+</p>
+<p>
+  The <b>Outcome Graph</b> can be used to identify congruent and similar betting patterns.
 </p>

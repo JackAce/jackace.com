@@ -74,12 +74,6 @@ function distribute(amountToSubtract) {
 function setWheelType(wheelType) {
     let nextWheelType = '00';
 
-    // singleZeroInputCell
-    // doubleZero00InputCell
-    // doubleZero0InputCell
-    // doubleZero000SplitInputCell
-    // xxxxx
-
     if (wheelType === '0') {
         $('#singleZero0InputCell').attr('class', 'spot-green');
         $('#doubleZero0InputCell').attr('class', 'spot-green double-zero-removed');
@@ -100,7 +94,6 @@ function setWheelType(wheelType) {
         $('#b-x1-00').val('');
         $('#win-00').text('');
         
-
         // Swap the 0 values
         $('#b-x1-0-single').val($('#b-x1-0').val());
         $('#b-x1-0').val('');
@@ -154,6 +147,114 @@ function addEventHandlers() {
     $(document).on('change', 'input', updateUi);
 }
 
+function compareFn(a, b) {
+    if (a < b) {
+      return -1;
+    }
+    if (a > b) {
+      return 1;
+    }
+    // a must be equal to b
+    return 0;
+}
+
+function updateChart() {
+    // xxxxx
+    let outcomeGraph = document.getElementById("outcomeGraph");
+    if (outcomeGraph) {
+        outcomeGraph.remove();
+    }
+    let canvas = document.createElement('canvas');
+    canvas.setAttribute('id', 'outcomeGraph');
+    canvas.setAttribute('width', '800');
+    canvas.setAttribute('min-width', '800');
+    canvas.setAttribute('max-width', '800');
+    canvas.setAttribute('height', '200');
+    canvas.setAttribute('min-height', '200');
+    canvas.setAttribute('max-height', '200');
+    document.querySelector('#chartContainer').appendChild(canvas);
+
+    const wheelType = getCurrentWheelType();
+
+    let lossesAndWins = [];
+
+    for (let i = 0; i < 38; i++) {
+        if (wheelType === "0" && i === 1) {
+            continue;
+        }
+        let value = $('#win-' + indexes[i]).text();
+        if (value) {
+            lossesAndWins.push(parseInt(value));
+        } else {
+            lossesAndWins.push(0);
+        }
+    }
+
+    lossesAndWins.sort(compareFn);
+
+    let graphData = [0];
+    let counter = 0;
+    for (let i = 0; i < lossesAndWins.length; i++) {
+        counter += lossesAndWins[i];
+        graphData.push(counter);
+    }
+
+    let labels = ["Start"];
+    for (let i = 1; i < lossesAndWins.length + 1; i++) {
+        labels.push(i);
+    }
+
+    let evData = [0];
+    let delta = counter / 38.0;
+    counter = 0;
+    for (let i = 1; i < lossesAndWins.length + 1; i++) {
+        counter += delta;
+        evData.push(counter);
+    }
+
+    const ctx = $('#outcomeGraph');
+    const myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Possible Outcomes',
+                    data: graphData,
+                    backgroundColor: [
+                        'rgba(0, 0, 255, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 255, 255, 1)'
+                    ],
+                    pointRadius: 2,
+                    borderWidth: 1
+                },
+                {
+                    label: 'Expected Loss',
+                    data: evData,
+                    backgroundColor: [
+                        'rgba(255, 0, 0, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 255, 255, 1)'
+                    ],
+                    borderDash: [2],
+                    pointRadius: 1,
+                    borderWidth: 1
+                }
+            ]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+}
+
 function updateUi() {
     let totalBet = 0;
     let equityTable = [];
@@ -180,7 +281,6 @@ function updateUi() {
                 equityTable[currentNumber] = 0.0;
                 totalNumbersCovered++;
             }
-            //let currentEquity = parseFloat(equityTable[currentNumber]);
 
             if (currentBet.numberCount === 5) {
                 // You get short changed on the 5-number bet
@@ -332,6 +432,8 @@ function updateUi() {
         $('#totalExpectedValueDiv').text((-totalLoss).toFixed(2));
         $('#compValueDiv').text((totalLoss * 0.20).toFixed(2));
     }
+
+    updateChart();
 }
 
 function parseBet(inputElement) {
