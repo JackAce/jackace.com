@@ -166,9 +166,9 @@ function updateChart() {
     }
     let canvas = document.createElement('canvas');
     canvas.setAttribute('id', 'outcomeGraph');
-    canvas.setAttribute('width', '800');
-    canvas.setAttribute('min-width', '800');
-    canvas.setAttribute('max-width', '800');
+    canvas.setAttribute('width', '725');
+    canvas.setAttribute('min-width', '725');
+    canvas.setAttribute('max-width', '725');
     canvas.setAttribute('height', '200');
     canvas.setAttribute('min-height', '200');
     canvas.setAttribute('max-height', '200');
