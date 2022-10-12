@@ -1,5 +1,103 @@
  [
   {
+    "name": "Chamba 2.0 Squeeze Play",
+    "airDate": "2022-10-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=vfXj0wOnJww",
+    "reviewUrl": "2022-10-12-Chamba-20-Squeeze-Play",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      250,
+      500
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "notes": "Alex improved the system by consolidating some of the street bets into Dozens. Also Alex lost his wad on the first spin, so he upped the buy-in to $1000. This is a progression system that starts on the second tier, but drops down to the first tier when you hit 2 $100 wins.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "3",
+        "amountBet": 500,
+        "result": -500,
+        "time": "1:23"
+      },
+      { 
+        "spin": 2,
+        "number": "36",
+        "amountBet": 500,
+        "result": 100,
+        "time": "2:13"
+      },
+      { 
+        "spin": 3,
+        "number": "16",
+        "amountBet": 500,
+        "result": 100,
+        "time": "2:44"
+      },
+      { 
+        "spin": 4,
+        "number": "21",
+        "amountBet": 500,
+        "result": 100,
+        "time": "3:23"
+      },
+      { 
+        "spin": 5,
+        "number": "24",
+        "amountBet": 500,
+        "result": 100,
+        "time": "3:59"
+      },
+      { 
+        "spin": 6,
+        "number": "7",
+        "amountBet": 250,
+        "result": 50,
+        "time": "4:40",
+        "notes": "They dropped down to $250 for this bet"
+      },
+      { 
+        "spin": 7,
+        "number": "14",
+        "amountBet": 250,
+        "result": 50,
+        "time": "5:19"
+      },
+      { 
+        "spin": 8,
+        "number": "16",
+        "amountBet": 250,
+        "result": 50,
+        "time": "6:02"
+      },
+      { 
+        "spin": 9,
+        "number": "24",
+        "amountBet": 250,
+        "result": 50,
+        "time": "6:44"
+      },
+      { 
+        "spin": 10,
+        "number": "13",
+        "amountBet": 250,
+        "result": 50,
+        "time": "7:24"
+      },
+      { 
+        "spin": 11,
+        "number": "0",
+        "amountBet": 250,
+        "result": -250,
+        "time": "8:10"
+      }
+    ]
+  },
+  {
     "name": "Beat It",
     "airDate": "2022-10-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=lTG5LrcNYOc",
