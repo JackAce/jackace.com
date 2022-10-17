@@ -14,7 +14,7 @@ layout: page-no-sidebar
   
 <p>
   Find your favorite Roulette system reviewed and tested by the
-  <a href="https://www.youtube.com/c/CEGDealerSchool" target="cegreview">CEG Dealer School</a>
+  <a href="https://www.youtube.com/c/CEGDealerSchool" target="_blank">CEG Dealer School</a>
   on their YouTube channel!
 </p>
 
@@ -140,13 +140,13 @@ layout: page-no-sidebar
       <tr>
         <td>
           {% if row["reviewUrl"] %}
-            <a href="{{site.baseurl}}/gambling/roulette/systems/{{row['reviewUrl']}}/" target="cegreview" >{{ row["name"] }}</a>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/{{row['reviewUrl']}}/">{{ row["name"] }}</a>
           {% else %}
             {{ row["name"] }}
           {% endif %}
           &nbsp;
           <br/>
-          <a href="{{row['youtubeUrl']}}" target="cegreview"><img src="{{site.baseurl}}/assets/img/icons/youtube-24x24.png" alt="YouTube" title="YouTube" /></a>
+          <a href="{{row['youtubeUrl']}}"><img src="{{site.baseurl}}/assets/img/icons/youtube-24x24.png" alt="YouTube" title="YouTube" /></a>
             <i class="airDate">
               {% assign airDate = row["airDate"] %}
               {%- include format-date.html date=airDate -%}
