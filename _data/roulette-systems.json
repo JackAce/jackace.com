@@ -1,5 +1,107 @@
  [
   {
+    "name": "Texas 3 Step",
+    "airDate": "2022-10-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=3_XmFFyuutk",
+    "reviewUrl": "2022-10-19-Texas-3-Step",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      40,
+      100,
+      150
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "6",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:08",
+        "notes": "4 Corner bets were 13+, 20+, 26+, 31+"
+      },
+      { 
+        "spin": 2,
+        "number": "33",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:39"
+      },
+      { 
+        "spin": 3,
+        "number": "9",
+        "amountBet": 40,
+        "result": -40,
+        "time": "2:10"
+      },
+      { 
+        "spin": 4,
+        "number": "17",
+        "amountBet": 40,
+        "result": 50,
+        "time": "2:32"
+      },
+      { 
+        "spin": 5,
+        "number": "22",
+        "amountBet": 100,
+        "result": 50,
+        "time": "3:12",
+        "notes": "Alex bet the $50 each on the 2nd and 3rd Dozens."
+      },
+      { 
+        "spin": 6,
+        "number": "28",
+        "amountBet": 150,
+        "result": -150,
+        "time": "4:05",
+        "notes": "Alex bet $10 on every Red straight-up minus the 1, 3, and 9."
+      },
+      { 
+        "spin": 7,
+        "number": "11",
+        "amountBet": 40,
+        "result": -40,
+        "time": "4:50"
+      },
+      { 
+        "spin": 8,
+        "number": "21",
+        "amountBet": 40,
+        "result": 50,
+        "time": "5:29"
+      },
+      { 
+        "spin": 9,
+        "number": "28",
+        "amountBet": 100,
+        "result": 50,
+        "time": "6:18"
+      },
+      { 
+        "spin": 10,
+        "number": "00",
+        "amountBet": 150,
+        "result": -150,
+        "time": "6:57"
+      },
+      { 
+        "spin": 11,
+        "number": "1",
+        "amountBet": 40,
+        "result": -40,
+        "time": "7:56"
+      }
+    ]
+  },
+  {
     "name": "Little Red Riding Hood",
     "airDate": "2022-10-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=dEtcPqzTMcE",
