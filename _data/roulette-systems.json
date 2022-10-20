@@ -1,5 +1,65 @@
  [
   {
+    "name": "🌈 Rainbow Kiss",
+    "airDate": "2022-10-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=f8nZQphr-QE",
+    "reviewUrl": "2022-10-20-Rainbow-Kiss",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      135
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "notes": "Simple system, but I'm not a fan of betting the 'Snake'. I'd much rather bet a Column.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 135,
+        "result": -135,
+        "time": "1:16"
+      },
+      { 
+        "spin": 2,
+        "number": "27",
+        "amountBet": 135,
+        "result": 195,
+        "time": "2:24"
+      },
+      { 
+        "spin": 3,
+        "number": "36",
+        "amountBet": 135,
+        "result": -135,
+        "time": "3:46"
+      },
+      { 
+        "spin": 4,
+        "number": "27",
+        "amountBet": 135,
+        "result": 195,
+        "time": "4:52"
+      },
+      { 
+        "spin": 5,
+        "number": "9",
+        "amountBet": 135,
+        "result": 195,
+        "time": "6:00"
+      },
+      { 
+        "spin": 6,
+        "number": "36",
+        "amountBet": 135,
+        "result": -135,
+        "time": "6:58"
+      }
+    ]
+  },
+  {
     "name": "Texas 3 Step",
     "airDate": "2022-10-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=3_XmFFyuutk",
