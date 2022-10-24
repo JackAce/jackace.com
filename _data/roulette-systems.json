@@ -1,5 +1,113 @@
  [
   {
+    "name": "Test Your Mic",
+    "airDate": "2022-10-24",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ceNLTQl7120",
+    "reviewUrl": "2022-10-24-Test-Your-Mic",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 1400,
+    "bets": [
+      350
+    ],
+    "rating": "",
+    "jackaceRating": "f",
+    "notes": "Way too confusing. What is the point of all these bets? I didn't record Alex's rating because he was rating this system based on incorrect payouts.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 135,
+        "result": 190,
+        "time": "1:35",
+        "notes": "Alex was paid $175 instead of $190"
+      },
+      { 
+        "spin": 2,
+        "number": "0",
+        "amountBet": 350,
+        "result": -350,
+        "time": "2:06"
+      },
+      { 
+        "spin": 3,
+        "number": "16",
+        "amountBet": 350,
+        "result": 190,
+        "time": "2:39",
+        "notes": "Alex was paid $175 instead of $190"
+      },
+      { 
+        "spin": 4,
+        "number": "12",
+        "amountBet": 350,
+        "result": 10,
+        "time": "3:05"
+      },
+      { 
+        "spin": 5,
+        "number": "30",
+        "amountBet": 350,
+        "result": 130,
+        "time": "3:47",
+        "notes": "Alex was paid $90 instead of $130"
+      },
+      { 
+        "spin": 6,
+        "number": "1",
+        "amountBet": 350,
+        "result": -350,
+        "time": "4:29"
+      },
+      { 
+        "spin": 7,
+        "number": "14",
+        "amountBet": 350,
+        "result": 190,
+        "time": "4:58",
+        "notes": "Alex was paid $175 instead of $190"
+      },
+      { 
+        "spin": 8,
+        "number": "26",
+        "amountBet": 350,
+        "result": 130,
+        "time": "5:27",
+        "notes": "Alex was paid $90 instead of $130"
+      },
+      { 
+        "spin": 9,
+        "number": "34",
+        "amountBet": 350,
+        "result": -350,
+        "time": "6:07"
+      },
+      { 
+        "spin": 10,
+        "number": "14",
+        "amountBet": 350,
+        "result": 190,
+        "time": "6:43",
+        "notes": "Alex was paid $175 instead of $190"
+      },
+      { 
+        "spin": 11,
+        "number": "13",
+        "amountBet": 350,
+        "result": -350,
+        "time": "7:28"
+      },
+      { 
+        "spin": 12,
+        "number": "35",
+        "amountBet": 350,
+        "result": -350,
+        "time": "8:05"
+      }
+    ]
+  },
+  {
     "name": "🌈 Rainbow Kiss",
     "airDate": "2022-10-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=f8nZQphr-QE",
