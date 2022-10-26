@@ -1,5 +1,87 @@
  [
   {
+    "name": "The King's Castle 🤴🏰",
+    "airDate": "2022-10-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1fMJKA4MO0I",
+    "reviewUrl": "2022-10-26-The-Kings-Castle",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 700,
+    "bets": [
+      124
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "16",
+        "amountBet": 124,
+        "result": 236,
+        "time": "1:38"
+      },
+      { 
+        "spin": 2,
+        "number": "28",
+        "amountBet": 124,
+        "result": -124,
+        "time": "2:46"
+      },
+      { 
+        "spin": 3,
+        "number": "27",
+        "amountBet": 124,
+        "result": -124,
+        "time": "3:26"
+      },
+      { 
+        "spin": 4,
+        "number": "5",
+        "amountBet": 124,
+        "result": -124,
+        "time": "4:14"
+      },
+      { 
+        "spin": 5,
+        "number": "6",
+        "amountBet": 124,
+        "result": -124,
+        "time": "5:10"
+      },
+      { 
+        "spin": 6,
+        "number": "27",
+        "amountBet": 124,
+        "result": -124,
+        "time": "6:07"
+      },
+      { 
+        "spin": 7,
+        "number": "9",
+        "amountBet": 124,
+        "result": -124,
+        "time": "6:49"
+      },
+      { 
+        "spin": 8,
+        "number": "28",
+        "amountBet": 124,
+        "result": -124,
+        "time": "7:59"
+      },
+      { 
+        "spin": 9,
+        "number": "29",
+        "amountBet": 124,
+        "result": -124,
+        "time": "8:49",
+        "notes": "Alex changed his bets here and bet around the 5 and 8 instead of the 17 and 20."
+      }
+    ]
+  },
+  {
     "name": "Test Your Mic",
     "airDate": "2022-10-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=ceNLTQl7120",
