@@ -1,5 +1,93 @@
  [
   {
+    "name": "All the Bases",
+    "airDate": "2022-10-27",
+    "youtubeUrl": "https://www.youtube.com/watch?v=pfHNv0csPaY",
+    "reviewUrl": "2022-10-27-All-the-Bases",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 700,
+    "bets": [
+      60
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "10",
+        "amountBet": 60,
+        "result": -30,
+        "time": "1:34"
+      },
+      { 
+        "spin": 2,
+        "number": "9",
+        "amountBet": 60,
+        "result": 0,
+        "time": "2:30"
+      },
+      { 
+        "spin": 3,
+        "number": "14",
+        "amountBet": 60,
+        "result": 60,
+        "time": "3:00"
+      },
+      { 
+        "spin": 4,
+        "number": "14",
+        "amountBet": 60,
+        "result": 60,
+        "time": "3:41"
+      },
+      { 
+        "spin": 5,
+        "number": "8",
+        "amountBet": 60,
+        "result": 0,
+        "time": "4:38"
+      },
+      { 
+        "spin": 6,
+        "number": "29",
+        "amountBet": 60,
+        "result": 0,
+        "time": "5:10"
+      },
+      { 
+        "spin": 7,
+        "number": "1",
+        "amountBet": 60,
+        "result": -30,
+        "time": "5:46"
+      },
+      { 
+        "spin": 8,
+        "number": "7",
+        "amountBet": 60,
+        "result": -30,
+        "time": "6:32"
+      },
+      { 
+        "spin": 9,
+        "number": "36",
+        "amountBet": 60,
+        "result": 0,
+        "time": "7:24"
+      },
+      { 
+        "spin": 10,
+        "number": "31",
+        "amountBet": 60,
+        "result": -30,
+        "time": "8:20"
+      }
+    ]
+  },
+  {
     "name": "The King's Castle 🤴🏰",
     "airDate": "2022-10-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=1fMJKA4MO0I",
@@ -82,7 +170,7 @@
     ]
   },
   {
-    "name": "Test Your Mic",
+    "name": "Test Your Mic 🎤",
     "airDate": "2022-10-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=ceNLTQl7120",
     "reviewUrl": "2022-10-24-Test-Your-Mic",
@@ -1218,7 +1306,7 @@
     ]
   },
   {
-    "name": "Holy Splits ETG (low buy-in)",
+    "name": "Holy Splits ETG ✝️ (low buy-in)",
     "airDate": "2022-09-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=Ta-QceKkXUg",
     "reviewUrl": "2022-09-28-Holy-Splits-ETG",
@@ -2426,7 +2514,7 @@
     ]
   },
   {
-    "name": "KTS Big Brain",
+    "name": "KTS Big Brain 🧠",
     "airDate": "2022-09-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=RVJ1-wQbjmM",
     "reviewUrl": "2022-09-05-KTS-Big-Brain",
@@ -2745,7 +2833,7 @@
     ]
   },
   {
-    "name": "Peach Gobbler",
+    "name": "Peach Gobbler 🍑",
     "airDate": "2022-08-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=n-d1tuQ7sNs",
     "reviewUrl": "2022-08-26-Peach-Gobbler",
@@ -3280,7 +3368,7 @@
     ]
   },
   {
-    "name": "The Column Sandwich",
+    "name": "The Column Sandwich 🥪",
     "airDate": "2022-08-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=UB8XJcieAHU",
     "reviewUrl": "2022-08-15-The-Column-Sandwich",
@@ -4266,7 +4354,7 @@
     ]
   },
   {
-    "name": "Cloning Process",
+    "name": "Cloning Process 🐑🐑",
     "airDate": "2022-07-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=74IDJVtRVgk",
     "reviewUrl": "2022-07-21-Cloning-Process",
