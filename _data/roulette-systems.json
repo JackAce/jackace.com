@@ -1,5 +1,78 @@
  [
   {
+    "name": "Donkey Kong",
+    "airDate": "2022-10-31",
+    "youtubeUrl": "https://www.youtube.com/watch?v=w90kll18LVs",
+    "reviewUrl": "2022-10-31-Donkey-Kong",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 3200,
+    "bets": [
+      165,
+      660,
+      2640
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "notes": "Bet $60 on 2 columns and $5 on 9 uncovered numbers Straight-up. If you lose, 4x Martingale until you get even. If you lose again, then 4x Martingale AGAIN.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "1",
+        "amountBet": 165,
+        "result": -165,
+        "time": "1:24"
+      },
+      { 
+        "spin": 2,
+        "number": "31",
+        "amountBet": 660,
+        "result": 60,
+        "time": "2:25"
+      },
+      { 
+        "spin": 3,
+        "number": "1",
+        "amountBet": 660,
+        "result": -660,
+        "time": "3:25",
+        "notes": "After this second whack, Alex bought in for another $2k."
+      },
+      { 
+        "spin": 4,
+        "number": "14",
+        "amountBet": 2640,
+        "result": 240,
+        "time": "4:32",
+        "notes": "Alex bet the first 2 columns"
+      },
+      { 
+        "spin": 5,
+        "number": "9",
+        "amountBet": 2640,
+        "result": 240,
+        "time": "5:30",
+        "notes": "Alex bet the 1st and 3rd columns"
+      },
+      { 
+        "spin": 6,
+        "number": "23",
+        "amountBet": 2640,
+        "result": 240,
+        "time": "7:07",
+        "notes": "Alex bet the 2nd and 3rd columns"
+      },
+      { 
+        "spin": 7,
+        "number": "19",
+        "amountBet": 165,
+        "result": 15,
+        "time": "8:19"
+      }
+    ]
+  },
+  {
     "name": "All the Bases",
     "airDate": "2022-10-27",
     "youtubeUrl": "https://www.youtube.com/watch?v=pfHNv0csPaY",
