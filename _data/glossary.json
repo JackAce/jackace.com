@@ -58,6 +58,12 @@
     "definition": "In Blackjack, you can make an Insurance side-bet when the dealer has an Ace showing. You get paid 2:1 if they have a 10 as their hole card (completing their Natural Blackjack). You can bet up to half of your initial bet."
   },
   {
+    "term": "large field system",
+    "categories": ["roulette", "craps", "betting", "systems"],
+    "summary": "Betting on many different outcomes (especially in Roulette)",
+    "definition": "A betting scheme where you bet on many outcomes where you win more often, but a smaller amount of money."
+  },
+  {
     "term": "martingale",
     "categories": ["blackjack", "roulette", "baccarat", "general gambling", "betting", "systems"],
     "summary": "Doubling your bet after a loss",
@@ -80,6 +86,12 @@
     "categories": ["roulette"],
     "summary": "two bets in Roulette that share a common payout number",
     "definition": "A series of bets in Roulette where hitting a specific number results in multiple bets winning."
+  },
+  {
+    "term": "small field system",
+    "categories": ["roulette", "craps", "betting", "systems"],
+    "summary": "Betting on just a few different outcomes (especially in Roulette)",
+    "definition": "A betting scheme where you bet on many outcomes where you lose more often, but when you win, you win more money."
   },
   {
     "term": "third base",
