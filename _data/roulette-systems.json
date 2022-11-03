@@ -1,5 +1,362 @@
  [
   {
+    "name": "DTF All Day",
+    "airDate": "2022-11-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-0hqDnz_BOI",
+    "reviewUrl": "2022-11-03-DTF-All-Day",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png"
+    ],
+    "buyIn": 720,
+    "bets": [
+      90,
+      180,
+      360
+    ],
+    "rating": "",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "The payouts for the Street bets were displayed incorrectly. The $20 wins should have been $30 wins and the $40 wins should have been $60 wins. Alex rated this system a plum, but I'm not sure if that is based on the inaccurate payouts that the system author provided.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "20",
+        "amountBet": 90,
+        "result": 30,
+        "time": "1:23",
+        "notes": "The displayed win was $20, but they actually won $30."
+      },
+      { 
+        "spin": 2,
+        "number": "00",
+        "amountBet": 90,
+        "result": -90,
+        "time": "2:07"
+      },
+      { 
+        "spin": 3,
+        "number": "1",
+        "amountBet": 180,
+        "result": 60,
+        "time": "3:11",
+        "notes": "The displayed win was $40, but they actually won $60."
+      },
+      { 
+        "spin": 4,
+        "number": "12",
+        "amountBet": 90,
+        "result": -90,
+        "time": "3:56"
+      },
+      { 
+        "spin": 5,
+        "number": "13",
+        "amountBet": 180,
+        "result": 60,
+        "time": "4:40",
+        "notes": "The displayed win was $40, but they actually won $60."
+      },
+      { 
+        "spin": 6,
+        "number": "21",
+        "amountBet": 90,
+        "result": 30,
+        "time": "5:41",
+        "notes": "The displayed win was $20, but they actually won $30."
+      },
+      { 
+        "spin": 7,
+        "number": "12",
+        "amountBet": 90,
+        "result": -90,
+        "time": "6:35"
+      },
+      { 
+        "spin": 8,
+        "number": "9",
+        "amountBet": 90,
+        "result": 60,
+        "time": "7:35",
+        "notes": "The displayed win was $40, but they actually won $60."
+      },
+      { 
+        "spin": 9,
+        "number": "35",
+        "amountBet": 90,
+        "result": 0,
+        "time": "8:17"
+      }
+    ]
+  },
+  {
+    "name": "Rocket Man",
+    "airDate": "2022-11-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=J052gG6vXXQ",
+    "reviewUrl": "2022-11-02-Rocket-Man",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 700,
+    "bets": [
+      140
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "21",
+        "amountBet": 140,
+        "result": 10,
+        "time": "1:16"
+      },
+      { 
+        "spin": 2,
+        "number": "35",
+        "amountBet": 140,
+        "result": 40,
+        "time": "1:55"
+      },
+      { 
+        "spin": 3,
+        "number": "8",
+        "amountBet": 140,
+        "result": -140,
+        "time": "2:52"
+      },
+      { 
+        "spin": 4,
+        "number": "0",
+        "amountBet": 140,
+        "result": -140,
+        "time": "3:29"
+      },
+      { 
+        "spin": 5,
+        "number": "6",
+        "amountBet": 140,
+        "result": 10,
+        "time": "4:17"
+      },
+      { 
+        "spin": 6,
+        "number": "31",
+        "amountBet": 140,
+        "result": 100,
+        "time": "5:10"
+      },
+      { 
+        "spin": 7,
+        "number": "17",
+        "amountBet": 140,
+        "result": -140,
+        "time": "5:58"
+      },
+      { 
+        "spin": 8,
+        "number": "30",
+        "amountBet": 140,
+        "result": 100,
+        "time": "6:32"
+      },
+      { 
+        "spin": 9,
+        "number": "33",
+        "amountBet": 140,
+        "result": 100,
+        "time": "7:29"
+      },
+      { 
+        "spin": 10,
+        "number": "8",
+        "amountBet": 140,
+        "result": -140,
+        "time": "8:03"
+      }
+    ]
+  },
+  {
+    "name": "Rail Grinder",
+    "airDate": "2022-11-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xxxxx",
+    "reviewUrl": "ja-2022-11-01-Rail-Grinder",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 5000,
+    "bets": [
+      136
+    ],
+    "jackaceRating": "d",
+    "notes": "",
+    "isJackAceReview": true,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "35",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 2,
+        "number": "36",
+        "amountBet": 136,
+        "result": 8,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 3,
+        "number": "7",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 4,
+        "number": "3",
+        "amountBet": 136,
+        "result": -136,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 5,
+        "number": "13",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 6,
+        "number": "31",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 7,
+        "number": "1",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 8,
+        "number": "23",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 9,
+        "number": "25",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 10,
+        "number": "34",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 11,
+        "number": "16",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 12,
+        "number": "27",
+        "amountBet": 136,
+        "result": 8,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 13,
+        "number": "0",
+        "amountBet": 136,
+        "result": -136,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 14,
+        "number": "23",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 15,
+        "number": "17",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 16,
+        "number": "14",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 17,
+        "number": "0",
+        "amountBet": 136,
+        "result": -136,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 18,
+        "number": "25",
+        "amountBet": 136,
+        "result": 14,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 19,
+        "number": "15",
+        "amountBet": 136,
+        "result": 8,
+        "ev": -3.672,
+        "time": ""
+      },
+      { 
+        "spin": 20,
+        "number": "21",
+        "amountBet": 136,
+        "result": 8,
+        "ev": -3.672,
+        "time": ""
+      }
+    ]
+  },
+  {
     "name": "Donkey Kong",
     "airDate": "2022-10-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=w90kll18LVs",
@@ -16,6 +373,7 @@
     "rating": "d",
     "jackaceRating": "f",
     "notes": "Bet $60 on 2 columns and $5 on 9 uncovered numbers Straight-up. If you lose, 4x Martingale until you get even. If you lose again, then 4x Martingale AGAIN.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -87,6 +445,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -175,6 +534,7 @@
     "rating": "d",
     "jackaceRating": "d",
     "notes": "I'm not sure how Alex still has chips at the end. He should be out of money.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -257,6 +617,7 @@
     "rating": "",
     "jackaceRating": "f",
     "notes": "Way too confusing. What is the point of all these bets? I didn't record Alex's rating because he was rating this system based on incorrect payouts.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -365,6 +726,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "Simple system, but I'm not a fan of betting the 'Snake'. I'd much rather bet a Column.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -429,6 +791,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -529,6 +892,7 @@
     "rating": "a",
     "jackaceRating": "d",
     "notes": "You could make this easier to bet by bettin $18 on Red and $4 each on the Reds in the 3rd column. Alex was up $6 at the end, but he should have been up $18.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -642,6 +1006,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "I'm not going to make images for all the betting patterns. There are too many combinations to cover. Alex said he was up $34, but I believe he should have been up $33.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -726,6 +1091,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "Alex improved the system by consolidating some of the street bets into Dozens. Also Alex lost his wad on the first spin, so he upped the buy-in to $1000. This is a progression system that starts on the second tier, but drops down to the first tier when you hit 2 $100 wins.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -822,6 +1188,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -896,6 +1263,7 @@
     "rating": "d",
     "jackaceRating": "d",
     "notes": "Bet $50 on 6 Streets, and $25 on 6 uncovered Splits. Dennis mispaid Alex $100 on the wins when he should have paid him $150. This is an issue with the system author's assessment of the payouts.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -1009,6 +1377,7 @@
     "rating": "f",
     "jackaceRating": "d",
     "notes": "The original buy-in was $660, but Alex bought in for a total of $1520.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -1133,6 +1502,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "This is a different system than the 2022-01-22 system 'Grower not a Shower'",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -1242,6 +1612,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "I think they should have been up $85, but Alex was only up $80 at the end.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -1311,6 +1682,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "Bet 5 non-overlapping Double-Streets. When you miss, 3x Martingale until you win 2x, then drop back down to 1 unit.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -1393,6 +1765,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "I have Alex up $11, but he was up $7 at the end. Not sure what the discrepancy is.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -1461,6 +1834,7 @@
     "rating": "b",
     "jackaceRating": "b",
     "notes": "",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -1560,6 +1934,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "Not sure why they said you can turn $150 into $700 in 3 spins. According to the betting pattern, you can only win $450, which would be a total of $600.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -1664,6 +2039,7 @@
     "rating": "d",
     "jackaceRating": "c",
     "notes": "High risk system.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -1762,6 +2138,7 @@
     "rating": "f",
     "jackaceRating": "d",
     "notes": "I believe Alex should be down $420, but he's down $470 at the end.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -1836,6 +2213,7 @@
     "rating": "b",
     "jackaceRating": "c",
     "notes": "Bet all the inside bets around two non-overlapping numbers and bet the uncovered dozen. Alex is down 5 units at the end, but he should be down 9 units.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -1910,6 +2288,7 @@
     "rating": "c",
     "jackaceRating": "b",
     "notes": "Bet around the rim of the 17 and 20. But don't forget the shaft.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -2005,6 +2384,7 @@
     "rating": "a",
     "jackaceRating": "d",
     "notes": "Bet $50 on the first two columns, Bet $4 on any 9 numbers straight-up on the 3rd column.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -2133,6 +2513,7 @@
     ],
     "rating": "a",
     "jackaceRating": "a",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -2348,6 +2729,7 @@
     "rating": "d",
     "jackaceRating": "f",
     "notes": "The bets grow 'like a pinwheel' around a central number. Once a dozen is filled then 3x Martingale until you win.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -2526,6 +2908,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -2601,6 +2984,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "Alex was up $54, but I believe he would have been up $70 if he bet according to the system. He bet too much on the 7th spin.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -2682,6 +3066,7 @@
     "rating": "d",
     "jackaceRating": "d",
     "notes": "Martingale each street bet when it misses. Remove a winning street bet.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -2746,6 +3131,7 @@
     "rating": "f",
     "jackaceRating": "f",
     "notes": "Alex was down $300, but he should have been down $280. He was getting underpaid on the wins.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -2846,6 +3232,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "Alex gave this system a 'Confused Boner Peach'.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -2923,6 +3310,7 @@
     "rating": "",
     "jackaceRating": "d",
     "notes": "Alex didn't give this system a rating",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -2984,6 +3372,7 @@
     ],
     "rating": "f",
     "jackaceRating": "d",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -3041,6 +3430,7 @@
     ],
     "rating": "c",
     "jackaceRating": "d",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -3117,6 +3507,7 @@
     "rating": "f",
     "jackaceRating": "d",
     "notes": "",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -3210,6 +3601,7 @@
     "rating": "d",
     "jackaceRating": "f",
     "notes": "I'm not providing graphics for every betting level. They're betting the 2nd dozen. It pays 2 to 1 for every level.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -3358,6 +3750,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "They were up $470 at the end, but they should have only been up $270. They rated this a C - Plum, but that's probably based on the $470 win.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -3455,6 +3848,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "Payouts are incorrect for the Straight-up bets in the video. You should win $70, not $65.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -3533,6 +3927,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "Alex spent like 2 minutes trying to explain how this system works (what numbers you're supposed to bet on...). For that reason, I give this system a D.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -3664,6 +4059,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -3747,6 +4143,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -3856,6 +4253,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "They gave this a plum plus, peach minus",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -3940,6 +4338,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "Some bet consolidations exist.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -4051,6 +4450,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "I'm not a fan of systems where you have progressive bets when you only bet a small percentage of the field.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -4169,6 +4569,7 @@
     "rating": "f",
     "jackaceRating": "d",
     "notes": "I don't really understand the use of Martingale in a system where you only get a tiny fraction of your bet when you win.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -4239,6 +4640,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "You can just bet $30 on the 2nd column and remove all the $5 bets.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -4335,6 +4737,7 @@
     "rating": "f",
     "jackaceRating": "d",
     "notes": "This system just bets equal amounts on 5 or fewer streets. If you hit, then remove that street. When you miss, then increase that bet by 1 $5 chip.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -4441,6 +4844,7 @@
     "rating": "d",
     "jackaceRating": "d",
     "notes": "Bet on the 0-1 Split, then the 4-7 Split, and snake your way throughout the felt until you win. Then reset. Alex was down 70 at the end, but according to my tally, he should have been down $71?",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -4606,6 +5010,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "They were somehow up $45... How? All of the payouts pay or lose in multiples of $10. According to my tally, they should have been up $70.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -4726,6 +5131,7 @@
     "rating": "a",
     "jackaceRating": "c",
     "notes": "It looked like Alex had $495 at the end... Not sure how that would be possible, since all payouts are multiples of $10. I had them at a $680 loss.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -4870,6 +5276,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "This betting system is pretty complicated, where each bet dictates its own Martingale. So each bet doubles up on a loss. Because of how complicated this can get, I'm only shwing the first tier. They were up $175 at the end, but I have them at +$180.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -4984,6 +5391,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "Alex said he was up $150 at the end. I'm not sure how he got there. Adding the numbers they displayed, he should be up $120.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -5086,6 +5494,7 @@
     "rating": "d",
     "jackaceRating": "c",
     "notes": "Alex said he was up $250 at the end, but he should have been up $255, I believe.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -5184,6 +5593,7 @@
     "rating": "c",
     "jackaceRating": "b",
     "notes": "Strategy below - I'm only recording Alex's results.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -5325,6 +5735,7 @@
     ],
     "rating": "c",
     "jackaceRating": "b",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -5468,6 +5879,7 @@
     "rating": "b",
     "jackaceRating": "f",
     "notes": "Just bet an even money bet. Betting sectors doesn't make any sense.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -5547,6 +5959,7 @@
     "jackaceRating": "",
     "friendCount": 3,
     "notes": "Friend 1: Comp Killer, Friend 2: 24 + 10, Friend 3: Chamba 2.0. They didn't give these systems any ratings.",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -5889,6 +6302,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "They're betting on all 38 numbers",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -5968,6 +6382,7 @@
     "jackaceRating": "c",
     "friendCount": 3,
     "notes": "Official rating was 'plum towards an eggplant' by Alex.",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -6154,6 +6569,7 @@
     "rating": "b",
     "jackaceRating": "a",
     "notes": "I'm only tracking Alex's bets",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -6361,6 +6777,7 @@
     "rating": "",
     "jackaceRating": "f",
     "notes": "3 incorrectly recorded payouts. I am not recording Alex's rating of an Eggplant.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -6477,6 +6894,7 @@
     "rating": "",
     "jackaceRating": "c",
     "notes": "This was supposed to air on 6/9... Get it?",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -6644,6 +7062,7 @@
     "jackaceRating": "f",
     "friendCount": 2,
     "notes": "The payouts are all jacked up for this system. The straight up bets and the 17-20 Split should all pay $115, not $110 and $275! I am redacting Alex's Plum rating.",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -6761,6 +7180,7 @@
     "rating": "",
     "jackaceRating": "f",
     "notes": "Alex rated this a Peach, but I'm not going to honor it because they based their rating on an INCORRECT payout scheme. I'm changing their rating to an F (Durian) because the system author wasted everyone's time. They ended up $85, but they should have been down $150.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -6863,6 +7283,7 @@
     "rating": "f",
     "jackaceRating": "c",
     "notes": "Alex and Freddy were down $1010 at the end, which is $50 from where my total is. $40 of it was from Alex only getting $20 when he should have received $60.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -6993,6 +7414,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "The 1st bet was a 'blank spin' with no money bet. The Betting Scheme images do not necessarily reflect the locations of the Double Street bets.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -7150,6 +7572,7 @@
     "rating": "d",
     "jackaceRating": "c",
     "notes": "The original system had a $1500 buy-in, but Alex bought in for another $400.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -7274,6 +7697,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "friendCount": 2,
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -7421,6 +7845,7 @@
     "rating": "b",
     "jackaceRating": "b",
     "notes": "I'm not a fan of using a bankroll that can only survive one whack. Also, there are too many bets.",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -7542,6 +7967,7 @@
     ],
     "rating": "b",
     "jackaceRating": "b",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -7658,6 +8084,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "All of the straight-up payouts were incorrect in the video. The system author didn't take into account getting their money back.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -7823,6 +8250,7 @@
     "rating": "d",
     "jackaceRating": "d",
     "notes": "This is the intersection of two systems: DTF (2 Dozens and one Double Street) and 9 Split (9 Split bets). You just Martingale each system independently if it misses. Alex gave this an eggplant. Freddy gave it a Plum.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -7930,6 +8358,7 @@
     "rating": "b",
     "jackaceRating": "c",
     "notes": "Alex gave this a peach, Freddy gave it a plum.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -8055,6 +8484,7 @@
     "jackaceRating": "b",
     "friendCount": 2,
     "notes": "Alex gave this a plum, Freddy gave it a peach.",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -8181,6 +8611,7 @@
     "rating": "d",
     "jackaceRating": "d",
     "notes": "",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -8304,6 +8735,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "I hate these systems that have 7 or more betting schemes and it never gets past the 4th tier. Just too complicated. Just Martingale and keep it simple. Moving the Even Money bets is just a waste of time.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -8515,6 +8947,7 @@
     ],
     "rating": "a",
     "jackaceRating": "b",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -8642,6 +9075,7 @@
     ],
     "rating": "c",
     "jackaceRating": "d",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -8758,6 +9192,7 @@
     ],
     "rating": "b",
     "jackaceRating": "d",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -8885,6 +9320,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "friendCount": 2,
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -9050,6 +9486,7 @@
     ],
     "rating": "f",
     "jackaceRating": "c",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -9173,6 +9610,7 @@
     ],
     "rating": "d",
     "jackaceRating": "c",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -9296,6 +9734,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "The straight up bet can be 2, 4, 6, 8, or 10",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -9385,6 +9824,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "Easy, simple system. David had to get a $10 marker from Alex, which was never paid back and which is why their total loss is $10 off at the end of the video.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -9512,6 +9952,7 @@
     "jackaceRating": "c",
     "friendCount": 2,
     "notes": "The numbers being bet are spokes on the Roulette wheel. They didn't triple Martingale when they were supposed to, according to the system description.",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -9675,6 +10116,7 @@
     "rating": "b",
     "jackaceRating": "c",
     "notes": "Martingale on Loss. Alex and Lauren were wavering between Peach and Plum on the rating.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -9783,6 +10225,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "Press your bet when it hits.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -9943,6 +10386,7 @@
     "rating": "c",
     "jackaceRating": "b",
     "notes": "Not sure why this system is spelled 'Preasure' - like 'pre-assure' or something? They never got to the third tier of this sytem.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -10133,6 +10577,7 @@
     "rating": "f",
     "jackaceRating": "d",
     "notes": "This system involves betting the street of the previous spin and continally expanding the street bets until you win. Martingale after betting 5 streets and losing.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -10224,6 +10669,7 @@
     "rating": "d",
     "jackaceRating": "c",
     "friendCount": 2,
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -10374,6 +10820,7 @@
     "jackaceRating": "d",
     "friendCount": 3,
     "notes": "I'm not going to make images for all the betting patterns. You just double up on either of the losing bets.",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -10567,6 +11014,7 @@
     "jackaceRating": "f",
     "friendCount": 2,
     "notes": "Never bet on more than 35 numbers at a time. You're betting on 36 numbers here.",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -10706,6 +11154,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "Never bet on more than 35 numbers at a time. You're betting on 37 numbers here. Plum from Lauren, Eggplant from Alex.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -10805,6 +11254,7 @@
     "jackaceRating": "d",
     "notes": "This is a pretty ridiculous system, because you're just YOLO'ing your money on every spin. The EV is the same as every other system, but you're just making monstrous bets and hoping to avoid 14 numbers, which is a giant gaping hole. And why not reduce your bets to two columns? The alternating streets thing is just a waste of time.",
     "friendCount": 6,
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -10936,6 +11386,7 @@
     "rating": "d",
     "jackaceRating": "c",
     "notes": "They were up $45 at the end, but I clocked them as being up $50. I think they bet an extra $5 in the 5th spin.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -11044,6 +11495,7 @@
     ],
     "rating": "c",
     "jackaceRating": "d",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -11165,6 +11617,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "friendCount": 2,
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -11287,6 +11740,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "friendCount": 2,
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -11441,6 +11895,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "$50 off of their total. They were down $60 at the end, but according to my total, they should have been down $110.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -11543,6 +11998,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "Not sure why the numbers are so off.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -11654,6 +12110,7 @@
     ],
     "rating": "d",
     "jackaceRating": "c",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -11783,6 +12240,7 @@
     "rating": "a",
     "jackaceRating": "c",
     "notes": "They should have been up $200 at the end, but they were only up $175, according to David. I'm not sure how they could be up that amount, since all of the payouts end in 0.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -11900,6 +12358,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "Several mispayments on this one. They should have been up $120, but Alex took a $50 bet that should have won and there were two bets where they bet $145 instead of $150.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -12030,6 +12489,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "The Roulette Bet Analyzer didn't support the 0-2 split, so I had to make changes to it :)",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -12108,6 +12568,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "In the first dozens, bet all the red except the 12. In the 2nd dozen, bet all the black. In the 3rd dozen, bet all the red.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -12208,6 +12669,7 @@
     "rating": "d",
     "jackaceRating": "c",
     "notes": "Lauren gave this a Plum.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -12312,6 +12774,7 @@
     "rating": "b",
     "jackaceRating": "f",
     "notes": "They should be down $800 at the end of the video, but somehow Alex only has $100 left (down $900).",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -12444,6 +12907,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "Quit betting both sides of even money bets. WTF?",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -12556,6 +13020,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "You could just bet $20 on each of the Double-Streets instead. Or just pick any even money bet.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -12652,6 +13117,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "Pick 10 numbers and increase your bet on a loss: 1, 2, 3, 4, 5, 6, 9, 12, 18 units. After the first spin, Lauren ",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -12803,6 +13269,7 @@
     "rating": "",
     "jackaceRating": "f",
     "notes": "BETTING BOTH SIDES OF AN EVEN MONEY BET??? FUCK THAT SHIT. DURIAN. Many bets could not be decyphered because Alex was holding the printed email in front of the camera.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -12927,6 +13394,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "Peach Minus from David and Lauren. Somehow they were down $110, but they should have been down $120.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -13047,6 +13515,7 @@
     "rating": "f",
     "jackaceRating": "c",
     "notes": "I don't know why people think 0 and 00 are magical numbers. This system would perform the same as betting on 31 and 32 over time.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -13215,6 +13684,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "Their total win was $110 (based on their final total), so I don't know how the math is so far off. There's a difference in $90 to their benefit. Even if you add the numbers of their displayed wins/losses, there's a delta of $10.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -13310,6 +13780,7 @@
     "rating": "f",
     "jackaceRating": "c",
     "notes": "Alex gave this a DURIAN. Lauren gave it a plum.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -13418,6 +13889,7 @@
     "rating": "d",
     "jackaceRating": "c",
     "notes": "David seems to be in physical pain having to rate/play Roulette.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -13537,6 +14009,7 @@
     "rating": "b",
     "jackaceRating": "f",
     "notes": "You're supposed to bet on a 'sector' of the wheel and Martingale (double-up) after 3 losses. They lost count two times and flat bet when they should have doubled down.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -13653,6 +14126,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "This system involves switching dozens/columns but the betting scheme only picks one combination of the two dozens bet on. The payouts should be similar for different dozens. You basically win 1 unit for hitting, lose 2 units when you miss. Alex gave this a Plum. Lauren gave it an Eggplant.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -13795,6 +14269,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "Alex was up $895 at the end, but he should have been up $900. There is no payout that ends with anything but a zero.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -13884,6 +14359,7 @@
     ],
     "rating": "c",
     "jackaceRating": "f",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -13987,6 +14463,7 @@
     "friendCount": 2,
     "rating": "d",
     "jackaceRating": "c",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -14143,6 +14620,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "Make a 'ghost' spin and pick the opposite color for the middle dozen. They spun black, so they chose red for the middle section and then alternate between red/black on every spin.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -14257,6 +14735,7 @@
     "rating": "f",
     "jackaceRating": "c",
     "notes": "4 Whacks, win $5 on everything else.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -14366,6 +14845,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "notes": "If your system requires you to stop the wheel to study sectors...it's not a good system.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -14452,6 +14932,7 @@
     "rating": "c",
     "jackaceRating": "a",
     "notes": "'Advanced Tie Fighter' system",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -14617,6 +15098,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "Alex gave it a 'Plum+'. I give it an F because you're betting on 36 numbers, which is a huge no-no. Of your $260 bet, over $150 of the money cancels itself out.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -14719,6 +15201,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "Lucky Lauren at the helm, Alex dealing. They had to add $1000 to the buy-in to cover the bet on Spin 6. It's absolutely idiotic that this betting progression can't even stand to make the max bet off the bat without buying in for more money. I'm really not a fan of Lauren just 'getting a loan from the casino' when she needed to cover the bet. System ratings should be based on how the system would perform in the real world.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -14801,6 +15284,7 @@
     "rating": "a",
     "jackaceRating": "c",
     "notes": "David rated this as a Grapefruit. Lauren rated it as a Peach.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -14894,6 +15378,7 @@
     ],
     "rating": "c",
     "jackaceRating": "d",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -14996,6 +15481,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "The Straight-up bets in the center column GROW and SHRINK when you lose/win. I only provided screenshots of the GROWING bet values. David bet on different numbers in the center column randomly.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -15097,6 +15583,7 @@
     ],
     "rating": "d",
     "jackaceRating": "c",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -15211,6 +15698,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "In this system, you need to win 4 in a row before you can 'coast' with 5 Double Street bets. The problem is David is never able to hit that threshold, so the system just drains his bankroll.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -15361,6 +15849,7 @@
     ],
     "rating": "d",
     "jackaceRating": "b",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -15448,6 +15937,7 @@
     ],
     "rating": "c",
     "jackaceRating": "f",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -15586,6 +16076,7 @@
     "rating": "c",
     "jackaceRating": "b",
     "notes": "This system is meant to be played on a Single Zero Roulette wheel. The 00 spin was ignored.",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -15741,6 +16232,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "Lucky Lauren and Alex K review this holiday themed system.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -15831,6 +16323,7 @@
     "rating": "c",
     "jackaceRating": "c",
     "notes": "$30 Dozen + 8 $5 Split bets. Alex mixes up his bets, so the RBA screenshot may not match actual payouts.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -15951,6 +16444,7 @@
     "rating": "b",
     "jackaceRating": "b",
     "notes": "$40 each on Two Dozens + $30 on one Double Street. Watch this video to see a \"Roller\", when the ball gets stuck rolling around the wheel!",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -16114,6 +16608,7 @@
     ],
     "rating": "d",
     "jackaceRating": "f",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -16256,6 +16751,7 @@
     "rating": "d",
     "jackaceRating": "d",
     "notes": "The red numbers are supposed to represent the snake wrapped around the rod of the Greek figure of healing and medicine.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -16394,6 +16890,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "There are a lot of mistakes in the video, including the payouts by Timmy.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -16523,6 +17020,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "notes": "Why the Hell would you bet $5 on all three columns? That is just idiotic.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -16643,6 +17141,7 @@
     "rating": "",
     "jackaceRating": "c",
     "notes": "You could consolidate four of the $10 street bets into two $20 Double Street bets. Also, I might up the buy in to $360 so you can get up to 3 whacks.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -16789,6 +17288,7 @@
     "jackaceRating": "d",
     "friendCount": 2,
     "notes": "Bet any 12 horizontal Splits that touch the center column (1 per street)",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -16894,6 +17394,7 @@
     "rating": "a",
     "jackaceRating": "c",
     "notes": "Alex gave the modified (postive Martingale) system an A - Grapefruit. Friend 1: Original System; Friend 2: Modified System (positive Martingale)",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -17095,6 +17596,7 @@
     "jackaceRating": "a",
     "notes": "This was played on a single-zero wheel.",
     "friendCount": 2,
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -17268,6 +17770,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "After the first bet, put $25 on a missed dozen, and sprinkle 5x$5 split bets (not-overlapping) on the other missed dozen. Martingale ONE TIME you miss.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -17378,6 +17881,7 @@
     "rating": "b",
     "jackaceRating": "c",
     "notes": "Not a great DTF system. 17 different numbers with different bet sizes. The 7 $10 bets can be picked at the player's discretion.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -17473,6 +17977,7 @@
     "rating": "a",
     "jackaceRating": "d",
     "notes": "Alex gave it a Grapefruit. Lauren gave it a Peach.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -17615,6 +18120,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "notes": "Alex and Lauren both gave this a Peach. I gave it an eggplant because of the $40 in Street bets that can be consoidated to a single $40 bet on the 2nd Dozen. I'm not sure why my recorded win is $50 higher than their $200 win.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -17761,6 +18267,7 @@
     "rating": "b",
     "jackaceRating": "f",
     "notes": "A.K.A. All the Martingale or Martingale Gangbang. Pick 3 overlapping Even Money bets and 1 Dozen and 1 Column and Martingale each individually.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -17851,6 +18358,7 @@
     "jackaceRating": "a",
     "notes": "",
     "friendCount": 4,
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -18002,6 +18510,7 @@
     "rating": "",
     "jackaceRating": "d",
     "notes": "I'm not a fan of systems where you bet a lot and push most of the time.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
@@ -18125,6 +18634,7 @@
     "rating": "",
     "jackaceRating": "f",
     "notes": "This system is absolutely idiotic, with betting on all 36 numbers as well as individual Straight-up bets that can be consolidated. I couldn't tell what rating they gave it.",
+    "isJackAceReview": false,
     "spins": [
       {
         "friend": 1,
@@ -18216,6 +18726,7 @@
     "rating": "",
     "jackaceRating": "f",
     "notes": "Why waste your time betting $1 on each red number? There's literally a betting spot named 'RED' that you can put your money on for your convennience.",
+    "isJackAceReview": false,
     "spins": [
       {
         "spin": 1,
