@@ -1,5 +1,87 @@
  [
   {
+    "name": "The Andrew Jackson",
+    "airDate": "2022-11-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=d2nGIihBoak",
+    "reviewUrl": "2022-11-09-The-Andrew-Jackson",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 540,
+    "bets": [
+      160
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "2",
+        "amountBet": 160,
+        "result": 20,
+        "time": "1:24"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 160,
+        "result": 20,
+        "time": "2:18"
+      },
+      {
+        "spin": 3,
+        "number": "13",
+        "amountBet": 160,
+        "result": 20,
+        "time": "3:30"
+      },
+      {
+        "spin": 4,
+        "number": "31",
+        "amountBet": 160,
+        "result": 20,
+        "time": "4:13"
+      },
+      {
+        "spin": 5,
+        "number": "8",
+        "amountBet": 160,
+        "result": 20,
+        "time": "5:12"
+      },
+      {
+        "spin": 6,
+        "number": "16",
+        "amountBet": 160,
+        "result": 20,
+        "time": "6:02"
+      },
+      {
+        "spin": 7,
+        "number": "18",
+        "amountBet": 160,
+        "result": 20,
+        "time": "7:00"
+      },
+      {
+        "spin": 8,
+        "number": "8",
+        "amountBet": 160,
+        "result": 20,
+        "time": "8:27"
+      },
+      {
+        "spin": 9,
+        "number": "3",
+        "amountBet": 160,
+        "result": -160,
+        "time": "9:23"
+      }
+    ]
+  },
+  {
     "name": "Hannah Mitis",
     "airDate": "2022-11-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=2V2M7wl2Xlw",
