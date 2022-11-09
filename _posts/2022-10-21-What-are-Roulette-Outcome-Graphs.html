@@ -1,0 +1,137 @@
+---
+layout: post
+title: "What are Outcome Graphs?"
+date: 2022-10-20 00:00:01 -0800
+author: Jack Hayes
+tags: [roulette,outcome graphs,rouette bet analyzer]
+excerpt_image: "/assets/img/posts/2022-10-21/00-thumbnail-1920x1080.png"
+summary: "What is an Outcome Graph and how does it show you what to expect from a Roulette betting pattern?"
+comments: true
+math: true
+---
+
+<img src="{{site.baseurl}}{{page.excerpt_image}}" class="excerpt-image" />
+<p>
+    What is an <i>Outcome Graph</i> and how does it show you what to expect from a Roulette betting
+    pattern?
+</p>
+
+<h2>Let's see the Graph!</h2>
+<p>
+    There's a new feature to the <a href="{{site.baseurl}}/gambling/roulette/bet-analyzer/">Roulette Bet Analyzer</a>.
+    I've added something that I call <i>Outcome Graphs</i>.
+</p>
+<p>
+    When you enter the details for your Roulette system, a graph will show up at the bottom
+    of the tool.
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-10-21/01-full-rba.png" alt="The Roulette Bet Analyzer with Outcome Graph" />
+    <figcaption>
+        The new Outcome Graph feature of the
+        <a href="{{site.baseurl}}/gambling/roulette/bet-analyzer/">Roulette Bet Analyzer</a>.
+    </figcaption>
+</figure>
+
+
+<h1>Betting Pattern 1: $350 Straight-up Bet</h1>
+<p>
+    Here's what the Outcome Graph looks like for a single $350 bet on the number
+    {% include roulette-spot.html number="21" -%}.
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-10-21/01-outcome-graph-350-straight-up.png" alt="Outcome Graph for a $350 bet on 21" />
+    <figcaption>
+        Outcome Graph for a $350 bet on 
+        {% include roulette-spot.html number="21" -%}.
+    </figcaption>
+</figure>
+<p>
+    The graph is a running sum of all the possible outcomes sorted by the worst loss to the highest
+    win.
+</p>
+<p>
+    Here, we can see we will lose 37 times, and win back $350x35 = 
+    {% include win-loss-amount.html amount=12250 %} on the 38th result.
+</p>
+<p>
+    And after 38 trials and $13,300 in wagers, we'd be down
+    {% include win-loss-amount.html amount=-700 %} as expected. And this makes sense, because
+    $700/$13,300 is 5.26%, which is the house edge in Double-Zero Roulette.
+</p>
+
+<h1>Betting Pattern 2: $10 on 35 Straight-up Bets</h1>
+<p>
+    On the other side of the spectrum, here's a different betting pattern, where we bet $10 on the
+    numbers
+    {% include roulette-spot.html number="1" %} through {% include roulette-spot.html number="35" -%}. 
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-10-21/02-35x10.png" alt="Alternate betting pattern: 35 x $10 bets" />
+    <figcaption>
+        Betting Pattern 2: 35 x $10 Straight-up bets
+    </figcaption>
+</figure>
+<p>
+    And here's the Outcome Graph for this system:
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-10-21/03-outcome-graph-35x10.png" alt="Outcome Graph for pattern 2" />
+    <figcaption>
+        Outcome Graph for Betting Pattern 2
+    </figcaption>
+</figure>
+<p>
+    Here, you can see 3 sharp
+    {% include win-loss-amount.html amount=-350 %}
+    drops followed by 35 small upward {% include win-loss-amount.html amount=10 %}
+    bumps.
+</p>
+<p>
+    So, here you can see how these very different systems generate very different graphs.
+</p>
+<p>
+    The first system looks like a reverse checkmark, where there's a steep climb on the right. This corresponds
+    to a system with lots of (relatively small) losses and one giant jackpot at the end.
+</p>
+<p>
+    The second system looks like a checkmark, with a sharp drop on the left. This corresponds to a few whacks,
+    with many, many small wins that inch you back to the expected loss.
+</p>
+
+<h1>Betting Pattern 3: $350 on an Even Money Bet</h1>
+<p>
+    Finally, let's look at a single $350 Even Money bet on 
+    <img src="{{site.baseurl}}/assets/img/roulette/x18_black.svg" alt="Black" class="roulette-spot"/>.
+</p>
+<p>
+    And here's the Outcome Graph for this bet:
+</p>
+<figure>
+    <img src="{{site.baseurl}}/assets/img/posts/2022-10-21/04-outcome-graph-350-on-black.png" alt="Outcome Graph for pattern 3" />
+    <figcaption>
+        Outcome Graph for Betting Pattern 3
+    </figcaption>
+</figure>
+<p>
+    So this is a betting pattern that is in the middle of the two extremes. Here we losses
+    {% include win-loss-amount.html amount=-350 %}
+    20 times, and win
+    {% include win-loss-amount.html amount=350 %} 18 times.
+</p>
+<p>
+    This pattern is more balanced than the first 2 systems and the graph reflects this.
+</p>
+
+<h3>What else can we do with this Graph?</h3>
+<p>
+    And besides just predicting how the system will perform, there are a number of other statistical facets
+    of the betting pattern that the graph will help detail.
+</p>
+<p>
+    For a full length overview of this feature and how to use it, check out this video!
+</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8YOLcGW_5u4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/><br/>
+
+{%- include venn-badge.html isGambling=true isMath=true -%}
