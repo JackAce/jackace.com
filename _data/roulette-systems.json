@@ -1,5 +1,147 @@
  [
   {
+    "name": "Look at you, Buddy!",
+    "airDate": "2022-11-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dDVpHp3u1Mo",
+    "reviewUrl": "2022-11-10-Look-at-you-Buddy",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      100
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "2",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:47",
+        "notes": "Blank spin."
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 0,
+        "result": 0,
+        "time": "1:07",
+        "notes": "Blank spin."
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 100,
+        "result": 50,
+        "time": "1:48"
+      },
+      {
+        "spin": 4,
+        "number": "1",
+        "amountBet": 100,
+        "result": 0,
+        "time": "2:17"
+      },
+      {
+        "spin": 5,
+        "number": "35",
+        "amountBet": 100,
+        "result": 50,
+        "time": "2:45"
+      },
+      {
+        "spin": 6,
+        "number": "27",
+        "amountBet": 100,
+        "result": 50,
+        "time": "3:17"
+      },
+      {
+        "spin": 7,
+        "number": "11",
+        "amountBet": 100,
+        "result": 0,
+        "time": "3:50"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 100,
+        "result": -100,
+        "time": "4:17"
+      },
+      {
+        "spin": 9,
+        "number": "22",
+        "amountBet": 0,
+        "result": 0,
+        "time": "4:53",
+        "notes": "Blank spin."
+      },
+      {
+        "spin": 10,
+        "number": "4",
+        "amountBet": 100,
+        "result": 50,
+        "time": "5:11",
+        "notes": "Alex bet the 2nd half and the 1st Dozen because of the blank spin."
+      },
+      {
+        "spin": 11,
+        "number": "7",
+        "amountBet": 100,
+        "result": 50,
+        "time": "5:41"
+      },
+      {
+        "spin": 12,
+        "number": "8",
+        "amountBet": 100,
+        "result": 50,
+        "time": "6:05"
+      },
+      {
+        "spin": 13,
+        "number": "26",
+        "amountBet": 100,
+        "result": 0,
+        "time": "6:40"
+      },
+      {
+        "spin": 14,
+        "number": "20",
+        "amountBet": 100,
+        "result": -100,
+        "time": "7:17"
+      },
+      {
+        "spin": 15,
+        "number": "3",
+        "amountBet": 0,
+        "result": 0,
+        "time": "7:46",
+        "notes": "Blank spin."
+      },
+      {
+        "spin": 16,
+        "number": "5",
+        "amountBet": 100,
+        "result": 50,
+        "time": "8:20"
+      },
+      {
+        "spin": 17,
+        "number": "5",
+        "amountBet": 100,
+        "result": 50,
+        "time": "8:58"
+      }
+    ]
+  },
+  {
     "name": "The Andrew Jackson",
     "airDate": "2022-11-09",
     "youtubeUrl": "https://www.youtube.com/watch?v=d2nGIihBoak",
