@@ -1,5 +1,70 @@
  [
   {
+    "name": "4 Bullets and Run",
+    "airDate": "2022-11-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Lh4pK2SPrMQ",
+    "reviewUrl": "2022-11-14-4-Bullets-and-Run",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      75,
+      100,
+      150
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Buy in is officially $300, but Alex bought in for another $150.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "00",
+        "amountBet": 75,
+        "result": -75,
+        "time": "2:28"
+      },
+      {
+        "spin": 2,
+        "number": "36",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:11"
+      },
+      {
+        "spin": 3,
+        "number": "32",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:48"
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 75,
+        "result": -75,
+        "time": "4:48"
+      },
+      {
+        "spin": 5,
+        "number": "30",
+        "amountBet": 75,
+        "result": -75,
+        "time": "6:20"
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 75,
+        "result": -75,
+        "time": "7:22"
+      }
+    ]
+  },
+  {
     "name": "Look at you, Buddy!",
     "airDate": "2022-11-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=dDVpHp3u1Mo",
