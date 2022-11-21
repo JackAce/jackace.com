@@ -1,5 +1,97 @@
  [
   {
+    "name": "The Balls Cover All",
+    "airDate": "2022-11-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZHYVSzZ3C_w",
+    "reviewUrl": "2022-11-21-The-Balls-Cover-All",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      30,
+      50,
+      65
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "28",
+        "amountBet": 30,
+        "result": 15,
+        "time": "2:28"
+      },
+      {
+        "spin": 2,
+        "number": "27",
+        "amountBet": 50,
+        "result": 10,
+        "time": "3:05"
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 65,
+        "result": 25,
+        "time": "3:52"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 80,
+        "result": 40,
+        "time": "4:40"
+      },
+      {
+        "spin": 5,
+        "number": "7",
+        "amountBet": 95,
+        "result": 10,
+        "time": "5:29"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 110,
+        "result": 10,
+        "time": "6:41"
+      },
+      {
+        "spin": 7,
+        "number": "34",
+        "amountBet": 125,
+        "result": -125,
+        "time": "7:19"
+      },
+      {
+        "spin": 8,
+        "number": "3",
+        "amountBet": 30,
+        "result": 15,
+        "time": "7:54"
+      },
+      {
+        "spin": 9,
+        "number": "4",
+        "amountBet": 50,
+        "result": 10,
+        "time": "8:37"
+      },
+      {
+        "spin": 10,
+        "number": "33",
+        "amountBet": 65,
+        "result": -65,
+        "time": "9:10"
+      }
+    ]
+  },
+  {
     "name": "I'm Broke, Bitch!",
     "airDate": "2022-11-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=WpnFJ8T5ZgM",
@@ -305,7 +397,6 @@
     "rating": "c",
     "jackaceRating": "c",
     "isJackAceReview": false,
-    "notes": "",
     "spins": [
       {
         "spin": 1,
@@ -752,7 +843,6 @@
       136
     ],
     "jackaceRating": "d",
-    "notes": "",
     "isJackAceReview": true,
     "spins": [
       {
@@ -1005,7 +1095,6 @@
     ],
     "rating": "c",
     "jackaceRating": "f",
-    "notes": "",
     "isJackAceReview": false,
     "spins": [
       {
@@ -1351,7 +1440,6 @@
     ],
     "rating": "b",
     "jackaceRating": "d",
-    "notes": "",
     "isJackAceReview": false,
     "spins": [
       {
@@ -1748,7 +1836,6 @@
     ],
     "rating": "b",
     "jackaceRating": "d",
-    "notes": "",
     "isJackAceReview": false,
     "spins": [
       {
@@ -2394,7 +2481,6 @@
     ],
     "rating": "b",
     "jackaceRating": "b",
-    "notes": "",
     "isJackAceReview": false,
     "spins": [
       {
@@ -3468,7 +3554,6 @@
     ],
     "rating": "c",
     "jackaceRating": "c",
-    "notes": "",
     "isJackAceReview": false,
     "spins": [
       {
@@ -4067,7 +4152,6 @@
     ],
     "rating": "f",
     "jackaceRating": "d",
-    "notes": "",
     "isJackAceReview": false,
     "spins": [
       {
@@ -4619,7 +4703,6 @@
     ],
     "rating": "c",
     "jackaceRating": "d",
-    "notes": "",
     "isJackAceReview": false,
     "spins": [
       {
@@ -4703,7 +4786,6 @@
     ],
     "rating": "c",
     "jackaceRating": "c",
-    "notes": "",
     "isJackAceReview": false,
     "spins": [
       {
@@ -9171,7 +9253,6 @@
     ],
     "rating": "d",
     "jackaceRating": "d",
-    "notes": "",
     "isJackAceReview": false,
     "spins": [
       {
@@ -18917,7 +18998,6 @@
     ],
     "rating": "d",
     "jackaceRating": "a",
-    "notes": "",
     "friendCount": 4,
     "isJackAceReview": false,
     "spins": [
