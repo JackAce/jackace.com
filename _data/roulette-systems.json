@@ -1,5 +1,100 @@
  [
   {
+    "name": "Stargate",
+    "airDate": "2022-11-23",
+    "youtubeUrl": "https://www.youtube.com/watch?v=kGBgb3pITaA",
+    "reviewUrl": "2022-11-23-Stargate",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 900,
+    "bets": [
+      450
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "25",
+        "amountBet": 450,
+        "result": 0,
+        "time": "2:15"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 450,
+        "result": 0,
+        "time": "3:28"
+      },
+      {
+        "spin": 3,
+        "number": "11",
+        "amountBet": 450,
+        "result": 0,
+        "time": "4:08"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 450,
+        "result": 0,
+        "time": "4:50"
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 450,
+        "result": 0,
+        "time": "5:23"
+      },
+      {
+        "spin": 6,
+        "number": "33",
+        "amountBet": 450,
+        "result": 0,
+        "time": "6:02"
+      },
+      {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 450,
+        "result": 0,
+        "time": "6:38"
+      },
+      {
+        "spin": 8,
+        "number": "18",
+        "amountBet": 450,
+        "result": 0,
+        "time": "7:13"
+      },
+      {
+        "spin": 9,
+        "number": "10",
+        "amountBet": 450,
+        "result": 0,
+        "time": "7:52"
+      },
+      {
+        "spin": 10,
+        "number": "31",
+        "amountBet": 450,
+        "result": 0,
+        "time": "8:20"
+      },
+      {
+        "spin": 11,
+        "number": "16",
+        "amountBet": 450,
+        "result": 0,
+        "time": "8:59"
+      }
+    ]
+  },
+  {
     "name": "The Balls Cover All",
     "airDate": "2022-11-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=ZHYVSzZ3C_w",
