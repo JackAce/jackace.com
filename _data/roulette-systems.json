@@ -1,8 +1,75 @@
  [
   {
+    "name": "Odds to Win",
+    "airDate": "2022-11-29",
+    "youtubeUrl": "https://www.youtube.com/watch?v=YmWuF_O79k4",
+    "reviewUrl": "2022-11-29-Odds-to-Win",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      125
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "1",
+        "amountBet": 115,
+        "result": 55,
+        "time": "1:44"
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 115,
+        "result": -115,
+        "time": "3:07"
+      },
+      {
+        "spin": 3,
+        "number": "27",
+        "amountBet": 115,
+        "result": 55,
+        "time": "4:41"
+      },
+      {
+        "spin": 4,
+        "number": "3",
+        "amountBet": 115,
+        "result": 55,
+        "time": "6:08"
+      },
+      {
+        "spin": 5,
+        "number": "34",
+        "amountBet": 115,
+        "result": -115,
+        "time": "7:27"
+      },
+      {
+        "spin": 6,
+        "number": "00",
+        "amountBet": 115,
+        "result": -115,
+        "time": "8:50"
+      },
+      {
+        "spin": 7,
+        "number": "33",
+        "amountBet": 115,
+        "result": 55,
+        "time": "10:16"
+      }
+    ]
+  },
+  {
     "name": "Double Street Martingale",
     "airDate": "2022-11-26",
-    "youtubeUrl": "https://www.youtube.com/watch?v=xxxxx1126",
+    "youtubeUrl": "https://www.youtube.com/watch?v=JCyMg6fKScU",
     "reviewUrl": "ja-2022-11-26-Double-Street-Martingale",
     "rbaImageUrls": [
       "00-rba-0-800x662.png",
