@@ -1,9 +1,78 @@
  [
   {
+    "name": "Itchy Monkey",
+    "airDate": "2022-11-30",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0ATFQB13q0M",
+    "reviewUrl": "2022-11-30-Itchy-Monkey",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 240,
+    "bets": [
+      80
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Alex asked for $50 on the 6th spin, but I think Dennis gave him $60. Alex also said he was in for $300 at the end of the video, which would make sense if he received $60.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "31",
+        "amountBet": 80,
+        "result": 10,
+        "time": "2:41"
+      },
+      {
+        "spin": 2,
+        "number": "2",
+        "amountBet": 80,
+        "result": -80,
+        "time": "3:46"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 80,
+        "result": 10,
+        "time": "4:42"
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 80,
+        "result": -80,
+        "time": "5:42"
+      },
+      {
+        "spin": 5,
+        "number": "5",
+        "amountBet": 80,
+        "result": -80,
+        "time": "6:39"
+      },
+      {
+        "spin": 6,
+        "number": "28",
+        "amountBet": 80,
+        "result": 40,
+        "time": "8:05",
+        "notes": "Alex asked for another $50 after the last spin. I believe Dennis gave him $60."
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 80,
+        "result": 10,
+        "time": "9:31"
+      }
+    ]
+  },
+  {
     "name": "Odds to Win",
-    "airDate": "2022-11-29",
+    "airDate": "2022-11-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=YmWuF_O79k4",
-    "reviewUrl": "2022-11-29-Odds-to-Win",
+    "reviewUrl": "2022-11-28-Odds-to-Win",
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
