@@ -1,5 +1,64 @@
  [
   {
+    "name": "Dream Maker",
+    "airDate": "2022-12-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=j-Kx4xQKuBc",
+    "reviewUrl": "2022-12-01-Dream-Maker",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png"
+    ],
+    "buyIn": 2000,
+    "bets": [
+      55,
+      110,
+      220,
+      440,
+      880
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "Giving this system an 'F' only because the system author says he's going to quit his job and retire to play this lame system.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "7",
+        "amountBet": 55,
+        "result": -55,
+        "time": "3:05"
+      },
+      {
+        "spin": 2,
+        "number": "3",
+        "amountBet": 110,
+        "result": -110,
+        "time": "4:12"
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 220,
+        "result": -220,
+        "time": "5:08"
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 440,
+        "result": -440,
+        "time": "6:53"
+      },
+      {
+        "spin": 5,
+        "number": "26",
+        "amountBet": 880,
+        "result": 2000,
+        "time": "8:17"
+      }
+    ]
+  },
+  {
     "name": "Itchy Monkey",
     "airDate": "2022-11-30",
     "youtubeUrl": "https://www.youtube.com/watch?v=0ATFQB13q0M",
