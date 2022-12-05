@@ -1,5 +1,80 @@
  [
   {
+    "name": "23 or Bust",
+    "airDate": "2022-12-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=gowAZ7NfRFU",
+    "reviewUrl": "2022-12-05-23-or-Bust",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      125
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "20",
+        "amountBet": 125,
+        "result": 55,
+        "time": "2:29"
+      },
+      {
+        "spin": 2,
+        "number": "0",
+        "amountBet": 125,
+        "result": -125,
+        "time": "3:28"
+      },
+      {
+        "spin": 3,
+        "number": "00",
+        "amountBet": 125,
+        "result": -125,
+        "time": "4:33"
+      },
+      {
+        "spin": 4,
+        "number": "32",
+        "amountBet": 125,
+        "result": 25,
+        "time": "5:30"
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 125,
+        "result": -125,
+        "time": "6:35"
+      },
+      {
+        "spin": 6,
+        "number": "11",
+        "amountBet": 125,
+        "result": -125,
+        "time": "7:44"
+      },
+      {
+        "spin": 7,
+        "number": "27",
+        "amountBet": 125,
+        "result": -80,
+        "time": "9:06"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 125,
+        "result": 25,
+        "time": "10:41"
+      }
+    ]
+  },
+  {
     "name": "Dream Maker",
     "airDate": "2022-12-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=j-Kx4xQKuBc",
