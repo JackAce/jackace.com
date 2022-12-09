@@ -200,6 +200,11 @@ layout: page-no-sidebar
   {%- for i in (0..imageLimit) -%}
     {%- assign imageUrl = site.baseurl -%}
     {%- assign imageUrl = imageUrl | append: "/assets/img/systems/" -%}
+
+    {%- if isJackAceReview -%}
+      {%- assign imageUrl = imageUrl | append: "ja-" -%}
+    {%- endif -%}
+
     {%- assign imageUrl = imageUrl | append: airDate -%}
     {%- assign imageUrl = imageUrl | append: "/" -%}
     {%- assign imageUrl = imageUrl | append: rbaImages[i] -%}
