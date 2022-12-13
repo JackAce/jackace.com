@@ -1,5 +1,74 @@
  [
   {
+    "name": "Crappy $400 System",
+    "airDate": "2022-12-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mKvCoNVNlG8",
+    "reviewUrl": "2022-12-12-Crappy-400-System",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      400
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "As far as I can tell, this system was not named.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "23",
+        "amountBet": 400,
+        "result": 50,
+        "time": "2:35"
+      },
+      {
+        "spin": 2,
+        "number": "21",
+        "amountBet": 400,
+        "result": 50,
+        "time": "3:51"
+      },
+      {
+        "spin": 3,
+        "number": "6",
+        "amountBet": 400,
+        "result": -280,
+        "time": "4:54"
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 400,
+        "result": 80,
+        "time": "6:16"
+      },
+      {
+        "spin": 5,
+        "number": "6",
+        "amountBet": 400,
+        "result": -280,
+        "time": "7:55"
+      },
+      {
+        "spin": 6,
+        "number": "14",
+        "amountBet": 400,
+        "result": 50,
+        "time": "9:30"
+      },
+      {
+        "spin": 7,
+        "number": "00",
+        "amountBet": 400,
+        "result": -400,
+        "time": "10:37",
+        "notes": "You would have saved $120 if you used the improved system here."
+      }
+    ]
+  },
+  {
     "name": "25s",
     "airDate": "2022-12-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=ul6cjB2XH8Y",
