@@ -101,6 +101,8 @@ layout: page-no-sidebar
 
 {%- endif -%}
 
+{% assign systemNotesSize = system.notes | size %}
+
 <table class="key-value-table" width="50%">
     <tr>
         <th width="30%">
@@ -176,7 +178,7 @@ layout: page-no-sidebar
       {% include ceg-system-rating.html rating=jackaceRating showRatingLetter=true showRatingName=true %}
     </td>
   </tr>
-  {% if system.notes %}
+  {% if systemNotesSize > 0 %}
     <tr>
       <th>
           Notes:
@@ -278,7 +280,7 @@ layout: page-no-sidebar
         <th width="25%"> 
           Notes
         </th>
-      </tr>
+    </tr>
     </thead>
     <tbody>
       {%- for row in loopSpins -%}
@@ -335,7 +337,7 @@ layout: page-no-sidebar
           <td>
             {{- row["notes"] -}}
           </td>
-        </tr>
+      </tr>
       {%- endfor -%}
     </tbody>
     <tfoot>
