@@ -1,9 +1,84 @@
- [
+[
   {
-    "name": "Crappy $400 System",
+    "name": "Ballad of the Broke Dicks",
+    "airDate": "2022-12-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=vPo4yd9W6Cg",
+    "reviewUrl": "2022-12-14-Ballad-of-the-Broke-Dicks",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      60
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "13",
+        "amountBet": 60,
+        "result": 20,
+        "time": "1:42"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 60,
+        "result": 20,
+        "time": "2:09"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 60,
+        "result": 20,
+        "time": "2:57"
+      },
+      {
+        "spin": 4,
+        "number": "21",
+        "amountBet": 60,
+        "result": 20,
+        "time": "3:58"
+      },
+      {
+        "spin": 5,
+        "number": "30",
+        "amountBet": 60,
+        "result": 12,
+        "time": "5:23"
+      },
+      {
+        "spin": 6,
+        "number": "22",
+        "amountBet": 60,
+        "result": 12,
+        "time": "6:41"
+      },
+      {
+        "spin": 7,
+        "number": "13",
+        "amountBet": 60,
+        "result": 20,
+        "time": "7:49"
+      },
+      {
+        "spin": 8,
+        "number": "2",
+        "amountBet": 60,
+        "result": -60,
+        "time": "8:49"
+      }
+    ]
+  },
+  {
+    "name": "Avoid the Zeroes",
     "airDate": "2022-12-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=mKvCoNVNlG8",
-    "reviewUrl": "2022-12-12-Crappy-400-System",
+    "reviewUrl": "2022-12-12-Avoid-the-Zeroes",
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
@@ -14,7 +89,7 @@
     "rating": "c",
     "jackaceRating": "f",
     "isJackAceReview": false,
-    "notes": "As far as I can tell, this system was not named.",
+    "notes": "I was told this was called 'Avoid the Zeroes' when they reviewed this system on Patreon.",
     "spins": [
       {
         "spin": 1,
