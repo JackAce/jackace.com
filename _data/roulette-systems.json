@@ -20806,6 +20806,130 @@
     ]
   },
   {
+    "name": "Rumple Still Skin",
+    "airDate": "2020-09-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=aMeWMWPX5-E",
+    "reviewUrl": "2020-09-12-Rumple-Still-Skin",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 2500,
+    "bets": [
+      150
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "notes": "This is just a 24 number bet. You can bet two Dozens or two Columns instead.",
+    "isJackAceReview": false,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "2",
+        "amountBet": 150,
+        "result": 75,
+        "time": "1:38"
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 150,
+        "result": 75,
+        "time": "2:19"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 150,
+        "result": 75,
+        "time": "3:02"
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:47"
+      },
+      {
+        "spin": 5,
+        "number": "18",
+        "amountBet": 150,
+        "result": 75,
+        "time": "4:19"
+      },
+      {
+        "spin": 6,
+        "number": "17",
+        "amountBet": 150,
+        "result": 75,
+        "time": "5:13"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 150,
+        "result": 75,
+        "time": "5:57"
+      },
+      {
+        "spin": 8,
+        "number": "00",
+        "amountBet": 150,
+        "result": -150,
+        "time": "6:37"
+      },
+      {
+        "spin": 9,
+        "number": "5",
+        "amountBet": 150,
+        "result": 75,
+        "time": ""
+      },
+      {
+        "spin": 10,
+        "number": "15",
+        "amountBet": 150,
+        "result": 75,
+        "time": "7:56"
+      },
+      {
+        "spin": 11,
+        "number": "32",
+        "amountBet": 150,
+        "result": 75,
+        "time": "8:42"
+      },
+      {
+        "spin": 12,
+        "number": "36",
+        "amountBet": 150,
+        "result": -150,
+        "time": "9:31"
+      },
+      {
+        "spin": 13,
+        "number": "17",
+        "amountBet": 150,
+        "result": 75,
+        "time": "10:15"
+      },
+      {
+        "spin": 14,
+        "number": "31",
+        "amountBet": 150,
+        "result": 75,
+        "time": "10:55"
+      },
+      {
+        "spin": 15,
+        "number": "12",
+        "amountBet": 150,
+        "result": -150,
+        "time": "11:29"
+      }
+    ]
+  },
+  {
     "name": "Modified 24 + 8",
     "airDate": "2020-08-06",
     "youtubeUrl": "https://www.youtube.com/watch?v=dZnvKwezDlI",
