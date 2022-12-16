@@ -1,5 +1,108 @@
 [
   {
+    "name": "The Platform",
+    "airDate": "2022-12-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=AA_PB3ejTCs",
+    "reviewUrl": "2022-12-15-The-Platform",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png"
+    ],
+    "buyIn": 2000,
+    "bets": [
+      70,
+      140,
+      280
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "After a loss, Martingale. After winning 2 times at a higher tier, drop down one level. Walk away when you're up $750.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "18",
+        "amountBet": 70,
+        "result": -70,
+        "time": "2:25"
+      },
+      {
+        "spin": 2,
+        "number": "00",
+        "amountBet": 140,
+        "result": -140,
+        "time": "3:48"
+      },
+      {
+        "spin": 3,
+        "number": "13",
+        "amountBet": 280,
+        "result": 80,
+        "time": "4:29"
+      },
+      {
+        "spin": 4,
+        "number": "32",
+        "amountBet": 280,
+        "result": 80,
+        "time": "5:44"
+      },
+      {
+        "spin": 5,
+        "number": "11",
+        "amountBet": 140,
+        "result": 40,
+        "time": "7:26"
+      },
+      {
+        "spin": 6,
+        "number": "5",
+        "amountBet": 140,
+        "result": 40,
+        "time": "8:02",
+        "notes": "Video said +80, but it was +40"
+      },
+      {
+        "spin": 7,
+        "number": "35",
+        "amountBet": 70,
+        "result": 20,
+        "time": "8:24",
+        "notes": "Video said +10, but it was +20"
+      },
+      {
+        "spin": 8,
+        "number": "23",
+        "amountBet": 70,
+        "result": 20,
+        "time": "9:40",
+        "notes": "Video said +10, but it was +20"
+      },
+      {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 70,
+        "result": -70,
+        "time": "10:38"
+      },
+      {
+        "spin": 10,
+        "number": "11",
+        "amountBet": 140,
+        "result": 40,
+        "time": "11:37"
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 140,
+        "result": 40,
+        "time": "12:06"
+      }
+    ]
+  },
+  {
     "name": "Ballad of the Broke Dicks",
     "airDate": "2022-12-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=vPo4yd9W6Cg",
