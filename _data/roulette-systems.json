@@ -1,5 +1,113 @@
 [
   {
+    "name": "8 Hits for $200",
+    "airDate": "2022-12-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ANzADUOgFVc",
+    "reviewUrl": "2022-12-19-8-Hits-for-200",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 425,
+    "bets": [
+      425
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "friendCount": 4,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "friend": 1,
+        "number": "00",
+        "amountBet": 425,
+        "result": -425,
+        "time": "2:13"
+      },
+      {
+        "spin": 2,
+        "friend": 2,
+        "number": "00",
+        "amountBet": 425,
+        "result": -425,
+        "time": "3:09"
+      },
+      {
+        "spin": 3,
+        "friend": 3,
+        "number": "36",
+        "amountBet": 425,
+        "result": 25,
+        "time": "3:58"
+      },
+      {
+        "spin": 4,
+        "friend": 3,
+        "number": "8",
+        "amountBet": 425,
+        "result": 25,
+        "time": "4:54"
+      },
+      {
+        "spin": 5,
+        "friend": 3,
+        "number": "33",
+        "amountBet": 425,
+        "result": 25,
+        "time": "5:33"
+      },
+      {
+        "spin": 6,
+        "friend": 3,
+        "number": "18",
+        "amountBet": 425,
+        "result": 25,
+        "time": "6:13"
+      },
+      {
+        "spin": 7,
+        "friend": 3,
+        "number": "21",
+        "amountBet": 425,
+        "result": -425,
+        "time": "6:58"
+      },
+      {
+        "spin": 8,
+        "friend": 4,
+        "number": "1",
+        "amountBet": 425,
+        "result": 25,
+        "time": "8:18"
+      },
+      {
+        "spin": 9,
+        "friend": 4,
+        "number": "26",
+        "amountBet": 425,
+        "result": 25,
+        "time": "8:54"
+      },
+      {
+        "spin": 10,
+        "friend": 4,
+        "number": "5",
+        "amountBet": 425,
+        "result": 25,
+        "time": "9:32"
+      },
+      {
+        "spin": 11,
+        "friend": 4,
+        "number": "14",
+        "amountBet": 425,
+        "result": 25,
+        "time": "10:14"
+      }
+    ]
+  },
+  {
     "name": "The Platform",
     "airDate": "2022-12-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=AA_PB3ejTCs",
