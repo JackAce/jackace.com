@@ -1,5 +1,226 @@
 [
   {
+    "name": "Piss off the Dealer",
+    "airDate": "2022-12-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=wcZ3Js6OXjk",
+    "reviewUrl": "2022-12-22-Piss-off-the-Dealer",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png"
+    ],
+    "buyIn": 200,
+    "bets": [
+      20,
+      25,
+      54
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "$10 on 2 Dozens. When you win, $25 on an Even Money bet. When you win, cover the middle Dozen ($54 in singles). If that wins (or loses?) drop back down to the $20 bet.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:55"
+      },
+      {
+        "spin": 2,
+        "number": "11",
+        "amountBet": 20,
+        "result": -20,
+        "time": "3:42"
+      },
+      {
+        "spin": 3,
+        "number": "34",
+        "amountBet": 20,
+        "result": 10,
+        "time": "4:23"
+      },
+      {
+        "spin": 4,
+        "number": "18",
+        "amountBet": 25,
+        "result": -25,
+        "time": "5:00",
+        "notes": "Alex bet $25 on Black"
+      },
+      {
+        "spin": 5,
+        "number": "5",
+        "amountBet": 20,
+        "result": -20,
+        "time": "5:55"
+      },
+      {
+        "spin": 6,
+        "number": "34",
+        "amountBet": 20,
+        "result": 10,
+        "time": "6:39"
+      },
+      {
+        "spin": 7,
+        "number": "35",
+        "amountBet": 25,
+        "result": 25,
+        "time": "7:16",
+        "notes": "Alex bet $25 on Black"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 54,
+        "result": 78,
+        "time": "8:24"
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 20,
+        "result": 10,
+        "time": "10:19"
+      },
+      {
+        "spin": 10,
+        "number": "31",
+        "amountBet": 25,
+        "result": 25,
+        "time": "11:05"
+      },
+      {
+        "spin": 11,
+        "number": "17",
+        "amountBet": 54,
+        "result": 114,
+        "time": "12:00"
+      }
+    ]
+  },
+  {
+    "name": "True Loss Martingale Dozens",
+    "airDate": "2022-12-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=67y3LIIT0Hg",
+    "reviewUrl": "2022-12-21-True-Loss-Martingale-Dozens",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 10000,
+    "bets": [
+      25,
+      50,
+      150,
+      450,
+      1350
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "You make 2 dozens bets (or 2 columns) and Martingale every bet that loses. Bet values shown are PER DOZEN.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 50,
+        "result": 25,
+        "time": "2:13",
+        "notes": "2 x $25"
+      },
+      {
+        "spin": 2,
+        "number": "28",
+        "amountBet": 75,
+        "result": 0,
+        "time": "2:54",
+        "notes": "$50 + $25"
+      },
+      {
+        "spin": 3,
+        "number": "12",
+        "amountBet": 175,
+        "result": -175,
+        "time": "3:30",
+        "notes": "$150 + $25"
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 500,
+        "result": 850,
+        "time": "4:18",
+        "notes": "$450 + $50"
+      },
+      {
+        "spin": 5,
+        "number": "19",
+        "amountBet": 175,
+        "result": -100,
+        "time": "5:09",
+        "notes": "$25 + 150. Video said -200, but it should be -100"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 475,
+        "result": 875,
+        "time": "5:56",
+        "notes": "$25 + 450."
+      },
+      {
+        "spin": 7,
+        "number": "13",
+        "amountBet": 75,
+        "result": 100,
+        "time": "6:54",
+        "notes": "$50 + $25"
+      },
+      {
+        "spin": 8,
+        "number": "26",
+        "amountBet": 75,
+        "result": 75,
+        "time": "7:32",
+        "notes": "$25 + $50"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 75,
+        "result": -75,
+        "time": "8:23",
+        "notes": "$50 + $25"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 200,
+        "result": -50,
+        "time": "9:16",
+        "notes": "$150 + $50"
+      },
+      {
+        "spin": 11,
+        "number": "0",
+        "amountBet": 475,
+        "result": -475,
+        "time": "10:10",
+        "notes": "$450 + $25"
+      },
+      {
+        "spin": 12,
+        "number": "15",
+        "amountBet": 1400,
+        "result": 2650,
+        "time": "11:24",
+        "notes": "$1350 + $50"
+      }
+    ]
+  },
+  {
     "name": "8 Hits for $200",
     "airDate": "2022-12-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=ANzADUOgFVc",
