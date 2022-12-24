@@ -890,10 +890,10 @@
     ]
   },
   {
-    "name": "Risk vs. Reward DYLM",
+    "name": "Double Your Loss Martingale",
     "airDate": "2022-12-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=w5bwRTGvmzg",
-    "reviewUrl": "2022-12-07-Risk-vs-Reward",
+    "reviewUrl": "2022-12-07-Double-Your-Loss-Martingale",
     "rbaImageUrls": [
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
@@ -908,7 +908,7 @@
       1300,
       3000
     ],
-    "rating": "c",
+    "rating": "b",
     "jackaceRating": "f",
     "isJackAceReview": false,
     "notes": "Trying to get clarification on the betting progression here. It SHOULD be just triple your bet after a loss.",
