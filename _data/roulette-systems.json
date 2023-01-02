@@ -18,7 +18,7 @@
     "rating": "d",
     "jackaceRating": "c",
     "isJackAceReview": false,
-    "notes": "When you lose, double your bet until you win 3x, then drop down to the previous level.",
+    "notes": "When you lose, double your bet until you win 3x, then drop down to the first tier.",
     "spins": [
       {
         "spin": 1,
