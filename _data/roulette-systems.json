@@ -1,5 +1,145 @@
 [
   {
+    "name": "Double Grapefruit Guaranteed",
+    "airDate": "2023-01-04",
+    "youtubeUrl": "https://www.youtube.com/watch?v=jiVz0e2Yxrk",
+    "reviewUrl": "2023-01-04-Double-Grapefruit-Guaranteed",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 6400,
+    "bets": [
+      100,
+      200,
+      400
+    ],
+    "rating": "b",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "You're supposed to keep track of all 6 even money bets. When one hits 3x, then start Martingaling the opposite side with a $100 bet.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "21",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:53",
+        "notes": "Blank Spin"
+      },
+      {
+        "spin": 2,
+        "number": "16",
+        "amountBet": 0,
+        "result": 0,
+        "time": "1:13",
+        "notes": "Blank Spin"
+      },
+      {
+        "spin": 3,
+        "number": "14",
+        "amountBet": 0,
+        "result": 0,
+        "time": "",
+        "notes": "Blank Spin"
+      },
+      {
+        "spin": 4,
+        "number": "12",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:19",
+        "notes": "$100 on Black (because Red missed 3x in a row)"
+      },
+      {
+        "spin": 5,
+        "number": "29",
+        "amountBet": 200,
+        "result": 200,
+        "time": "2:47"
+      },
+      {
+        "spin": 6,
+        "number": "14",
+        "amountBet": 0,
+        "result": 0,
+        "time": "3:24",
+        "notes": "Blank Spin"
+      },
+      {
+        "spin": 7,
+        "number": "17",
+        "amountBet": 0,
+        "result": 0,
+        "time": "3:46",
+        "notes": "Blank Spin"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 0,
+        "result": 0,
+        "time": "4:09",
+        "notes": "Blank Spin"
+      },
+      {
+        "spin": 9,
+        "number": "13",
+        "amountBet": 100,
+        "result": -100,
+        "time": "4:50",
+        "notes": "$100 on 2nd Half"
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 400,
+        "result": 400,
+        "time": "5:35",
+        "notes": "$200 on 2nd Half, $100 on Red, $100 on Even"
+      },
+      {
+        "spin": 11,
+        "number": "11",
+        "amountBet": 0,
+        "result": 0,
+        "time": "6:23",
+        "notes": "Blank Spin"
+      },
+      {
+        "spin": 12,
+        "number": "15",
+        "amountBet": 0,
+        "result": 0,
+        "time": "6:42",
+        "notes": "Blank Spin"
+      },
+      {
+        "spin": 13,
+        "number": "4",
+        "amountBet": 0,
+        "result": 0,
+        "time": "7:11",
+        "notes": "Blank Spin"
+      },
+      {
+        "spin": 14,
+        "number": "3",
+        "amountBet": 200,
+        "result": 0,
+        "time": "7:40",
+        "notes": "$100 on Red and 2nd Half"
+      },
+      {
+        "spin": 15,
+        "number": "33",
+        "amountBet": 200,
+        "result": 200,
+        "time": "8:07",
+        "notes": "$200 on 2nd Half"
+      }
+    ]
+  },
+  {
     "name": "Millionaire Mindset",
     "airDate": "2023-01-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=jV2abMfzYYg",
