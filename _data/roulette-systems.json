@@ -1,5 +1,235 @@
 [
   {
+    "name": "Degen Like Alex",
+    "airDate": "2023-01-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=hLUdtfULVHI",
+    "reviewUrl": "2023-01-09-Degen-Like-Alex",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png",
+      "00-rba-3-800x662.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      10,
+      15,
+      40,
+      50
+    ],
+    "rating": "d",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "24",
+        "amountBet": 10,
+        "result": 10,
+        "time": "2:18"
+      },
+      {
+        "spin": 2,
+        "number": "34",
+        "amountBet": 15,
+        "result": 30,
+        "time": "2:47"
+      },
+      {
+        "spin": 3,
+        "number": "28",
+        "amountBet": 40,
+        "result": 20,
+        "time": "3:27"
+      },
+      {
+        "spin": 4,
+        "number": "30",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:11",
+        "notes": "Alex made the 'Degen' bet of putting $50 on the 6-9 Split. You can also bet 10 $5 splits."
+      },
+      {
+        "spin": 5,
+        "number": "34",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:38"
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:03"
+      },
+      {
+        "spin": 7,
+        "number": "25",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:31"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 10,
+        "result": 10,
+        "time": "6:00"
+      },
+      {
+        "spin": 9,
+        "number": "11",
+        "amountBet": 15,
+        "result": -15,
+        "time": "6:35"
+      },
+      {
+        "spin": 10,
+        "number": "00",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:03"
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 10,
+        "result": 10,
+        "time": "7:31"
+      },
+      {
+        "spin": 12,
+        "number": "6",
+        "amountBet": 15,
+        "result": -15,
+        "time": "8:01"
+      },
+      {
+        "spin": 13,
+        "number": "19",
+        "amountBet": 10,
+        "result": -10,
+        "time": "8:33"
+      },
+      {
+        "spin": 14,
+        "number": "8",
+        "amountBet": 10,
+        "result": 10,
+        "time": "9:04"
+      },
+      {
+        "spin": 15,
+        "number": "12",
+        "amountBet": 15,
+        "result": -15,
+        "time": "9:37"
+      },
+      {
+        "spin": 16,
+        "number": "30",
+        "amountBet": 10,
+        "result": -10,
+        "time": "10:11"
+      }
+    ]
+  },
+  {
+    "name": "The Quick Dirty",
+    "airDate": "2023-01-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9iYKfsEhd9s",
+    "reviewUrl": "2023-01-05-The-Quick-Dirty",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 530,
+    "bets": [
+      265
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "friendCount": 2,
+    "notes": "Walk with 4 hits. 1 Whack(?)",
+    "spins": [
+      {
+        "spin": 1,
+        "friend": 1,
+        "number": "18",
+        "amountBet": 265,
+        "result": 35,
+        "time": "2:07"
+      },
+      {
+        "spin": 2,
+        "friend": 1,
+        "number": "26",
+        "amountBet": 265,
+        "result": 35,
+        "time": "2:52"
+      },
+      {
+        "spin": 3,
+        "friend": 1,
+        "number": "4",
+        "amountBet": 265,
+        "result": 5,
+        "time": "3:39"
+      },
+      {
+        "spin": 4,
+        "friend": 1,
+        "number": "35",
+        "amountBet": 265,
+        "result": 35,
+        "time": "4:24"
+      },
+      {
+        "spin": 5,
+        "friend": 2,
+        "number": "0",
+        "amountBet": 265,
+        "result": -175,
+        "time": "5:21"
+      },
+      {
+        "spin": 6,
+        "friend": 2,
+        "number": "32",
+        "amountBet": 265,
+        "result": 35,
+        "time": "6:24"
+      },
+      {
+        "spin": 7,
+        "friend": 2,
+        "number": "27",
+        "amountBet": 265,
+        "result": 35,
+        "time": "6:56"
+      },
+      {
+        "spin": 8,
+        "friend": 2,
+        "number": "12",
+        "amountBet": 265,
+        "result": 5,
+        "time": "7:40"
+      },
+      {
+        "spin": 9,
+        "friend": 2,
+        "number": "10",
+        "amountBet": 265,
+        "result": -265,
+        "time": "8:22"
+      }
+    ]
+  },
+  {
     "name": "Double Grapefruit Guaranteed",
     "airDate": "2023-01-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=jiVz0e2Yxrk",
