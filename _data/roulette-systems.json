@@ -1,5 +1,144 @@
 [
   {
+    "name": "Keno",
+    "airDate": "2023-01-11",
+    "youtubeUrl": "https://www.youtube.com/watch?v=AY74wE7tlL0",
+    "reviewUrl": "2023-01-11-Keno",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png",
+      "00-rba-3-800x662.png",
+      "00-rba-4-800x662.png",
+      "00-rba-5-800x662.png",
+      "00-rba-6-800x662.png",
+      "00-rba-7-800x662.png"
+    ],
+    "buyIn": 1100,
+    "bets": [
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "You basically try to target a $10 win, and when you lose, chase your losses using the next step type of bet. So even money -> dozens -> double street...etc.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "15",
+        "amountBet": 10,
+        "result": 10,
+        "time": "1:08"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 20,
+        "result": 10,
+        "time": "1:46"
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 20,
+        "result": 10,
+        "time": "2:33"
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 20,
+        "result": 10,
+        "time": "3:10"
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 20,
+        "result": 10,
+        "time": "3:52"
+      },
+      {
+        "spin": 6,
+        "number": "00",
+        "amountBet": 20,
+        "result": -20,
+        "time": "4:18"
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 30,
+        "result": 30,
+        "time": "4:54"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 20,
+        "result": 10,
+        "time": "5:35"
+      },
+      {
+        "spin": 9,
+        "number": "36",
+        "amountBet": 20,
+        "result": 10,
+        "time": "6:28"
+      },
+      {
+        "spin": 10,
+        "number": "21",
+        "amountBet": 20,
+        "result": -20,
+        "time": "6:59"
+      },
+      {
+        "spin": 11 ,
+        "number": "20",
+        "amountBet": 30,
+        "result": 30,
+        "time": "7:36"
+      },
+      {
+        "spin": 12,
+        "number": "3",
+        "amountBet": 20,
+        "result": -20,
+        "time": "8:08"
+      },
+      {
+        "spin": 13,
+        "number": "30",
+        "amountBet": 30,
+        "result": 30,
+        "time": "8:39"
+      },
+      {
+        "spin": 14,
+        "number": "19",
+        "amountBet": 20,
+        "result": 10,
+        "time": "9:08"
+      },
+      {
+        "spin": 15,
+        "number": "19",
+        "amountBet": 0,
+        "result": 0,
+        "time": "9:38",
+        "notes": "Alex didn't bet on this spin."
+      }
+    ]
+  },
+  {
     "name": "Degen Like Alex",
     "airDate": "2023-01-09",
     "youtubeUrl": "https://www.youtube.com/watch?v=hLUdtfULVHI",
