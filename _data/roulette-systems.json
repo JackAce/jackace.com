@@ -1,5 +1,98 @@
 [
   {
+    "name": "The 11 Spin Experiment",
+    "airDate": "2023-01-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sOYLO4STcZM",
+    "reviewUrl": "2023-01-12-The-11-Spin-Experiment",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png"
+    ],
+    "buyIn": 400,
+    "bets": [
+      150,
+      150
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "The second step (the 11th spin) is not necessarily $150. It should be your profits after 10 spins.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "4",
+        "amountBet": 150,
+        "result": 10,
+        "time": "2:00"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 150,
+        "result": 70,
+        "time": "2:55"
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 150,
+        "result": 0,
+        "time": "3:48"
+      },
+      {
+        "spin": 4,
+        "number": "6",
+        "amountBet": 150,
+        "result": 10,
+        "time": "4:03"
+      },
+      {
+        "spin": 5,
+        "number": "00",
+        "amountBet": 150,
+        "result": -150,
+        "time": "4:41"
+      },
+      {
+        "spin": 6,
+        "number": "33",
+        "amountBet": 150,
+        "result": -150,
+        "time": "5:28"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 150,
+        "result": 10,
+        "time": "6:25"
+      },
+      {
+        "spin": 8,
+        "number": "00",
+        "amountBet": 150,
+        "result": -150,
+        "time": "7:12"
+      },
+      {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 50,
+        "result": 130,
+        "time": "8:17",
+        "notes": "Alex made a random bet here outside of the system."
+      },
+      {
+        "spin": 10,
+        "number": "00",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:07",
+        "notes": "Alex didn't bet this spin."
+      }
+    ]
+  },
+  {
     "name": "Keno",
     "airDate": "2023-01-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=AY74wE7tlL0",
