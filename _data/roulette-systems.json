@@ -1,5 +1,142 @@
 [
   {
+    "name": "Sweet 18",
+    "airDate": "2023-01-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=cWJZKfdoaoI",
+    "reviewUrl": "2023-01-18-Sweet-18",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 3000,
+    "bets": [
+      1000
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "$1000 per spin is insane. Walk away when up 50% of buy-in.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "16",
+        "amountBet": 1000,
+        "result": 440,
+        "time": "1:36"
+      },
+      {
+        "spin": 2,
+        "number": "13",
+        "amountBet": 1000,
+        "result": -1000,
+        "time": "2:33"
+      },
+      {
+        "spin": 3,
+        "number": "15",
+        "amountBet": 1000,
+        "result": -1000,
+        "time": "3:33"
+      },
+      {
+        "spin": 4,
+        "number": "6",
+        "amountBet": 1000,
+        "result": 50,
+        "time": "4:47"
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 1000,
+        "result": 50,
+        "time": "5:51"
+      },
+      {
+        "spin": 6,
+        "number": "13",
+        "amountBet": 1000,
+        "result": -1000,
+        "time": "6:55"
+      },
+      {
+        "spin": 99,
+        "number": "16",
+        "amountBet": 1000,
+        "result": 3100,
+        "time": "8:26",
+        "notes": "Alex bet $200 on the 1st Dozen and $100 Straight-up (each) on 16, 17, and 18."
+      }
+    ]
+  },
+  {
+    "name": "Double Dutch Jackpot",
+    "airDate": "2023-01-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=6GDobuibOzU",
+    "reviewUrl": "2023-01-17-Double-Dutch-Jackpot",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 650,
+    "bets": [
+      130
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Limit to 5 spins or $500 (?) according to the system author.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "34",
+        "amountBet": 130,
+        "result": -130,
+        "time": "1:51"
+      },
+      {
+        "spin": 2,
+        "number": "11",
+        "amountBet": 130,
+        "result": 50,
+        "time": "3:02"
+      },
+      {
+        "spin": 3,
+        "number": "9",
+        "amountBet": 130,
+        "result": 110,
+        "time": "4:00"
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 130,
+        "result": 110,
+        "time": "5:12"
+      },
+      {
+        "spin": 5,
+        "number": "15", 
+        "amountBet": 130,
+        "result": -70,
+        "time": "6:07"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 130,
+        "result": 50,
+        "time": "7:00"
+      },
+      {
+        "spin": 7,
+        "number": "21",
+        "amountBet": 130,
+        "result": 50,
+        "time": "8:13"
+      }
+    ]
+  },
+  {
     "name": "The 11 Spin Experiment",
     "airDate": "2023-01-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=sOYLO4STcZM",
