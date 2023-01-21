@@ -1,5 +1,94 @@
 [
   {
+    "name": "Peter Piper System",
+    "airDate": "2023-01-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ijvSnybwZOI",
+    "reviewUrl": "2023-01-19-Peter-Piper-System",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      250
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "$1000 per spin is insane. Walk away when up 50% of buy-in.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "19",
+        "amountBet": 250,
+        "result": 20,
+        "time": "1:36"
+      },
+      {
+        "spin": 2,
+        "number": "13",
+        "amountBet": 250,
+        "result": 20,
+        "time": "2:00"
+      },
+      {
+        "spin": 3,
+        "number": "17",
+        "amountBet": 250,
+        "result": 20,
+        "time": "2:41"
+      },
+      {
+        "spin": 4,
+        "number": "1",
+        "amountBet": 250,
+        "result": 20,
+        "time": "3:26"
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 250,
+        "result": -250,
+        "time": "3:58"
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 250,
+        "result": 20,
+        "time": "4:39"
+      },
+      {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 250,
+        "result": 20,
+        "time": "5:22"
+      },
+      {
+        "spin": 8,
+        "number": "4",
+        "amountBet": 250,
+        "result": 20,
+        "time": "6:03"
+      },
+      {
+        "spin": 9,
+        "number": "34",
+        "amountBet": 250,
+        "result": 50,
+        "time": "6:46"
+      },
+      {
+        "spin": 10,
+        "number": "26",
+        "amountBet": 250,
+        "result": -250,
+        "time": "7:39"
+      }
+    ]
+  },
+  {
     "name": "Sweet 18",
     "airDate": "2023-01-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=cWJZKfdoaoI",
