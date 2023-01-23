@@ -1,5 +1,76 @@
 [
   {
+    "name": "SSSS",
+    "airDate": "2023-01-23",
+    "youtubeUrl": "https://www.youtube.com/watch?v=FBSdVKhcCU0",
+    "reviewUrl": "2023-01-23-SSSS",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png",
+      "00-rba-3-800x662.png",
+      "00-rba-4-800x662.png",
+      "00-rba-5-800x662.png"
+    ],
+    "buyIn": 320,
+    "bets": [
+      320,
+      360,
+      400,
+      440,
+      480,
+      560
+    ],
+    "rating": "a",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "A mild positive progressive betting system. You basically increase your potential win by $5 on each win, except for the 6th step, where you increase it by 10.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 320,
+        "result": 40,
+        "time": "1:28"
+      },
+      {
+        "spin": 2,
+        "number": "11",
+        "amountBet": 360,
+        "result": 45,
+        "time": "2:26"
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 400,
+        "result": 50,
+        "time": "3:46"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 440,
+        "result": 55,
+        "time": "4:55"
+      },
+      {
+        "spin": 5,
+        "number": "3",
+        "amountBet": 480,
+        "result": 60,
+        "time": "6:11"
+      },
+      {
+        "spin": 6,
+        "number": "11",
+        "amountBet": 560,
+        "result": 70,
+        "time": "7:22"
+      }
+    ]
+  },
+  {
     "name": "Peter Piper System",
     "airDate": "2023-01-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=ijvSnybwZOI",
