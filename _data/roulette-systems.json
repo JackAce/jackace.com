@@ -1,5 +1,173 @@
 [
   {
+    "name": "King of the Streets",
+    "airDate": "2023-01-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=6H2wgD-tYdQ",
+    "reviewUrl": "2023-01-26-King-of-the-Streets",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 2100,
+    "bets": [
+      50,
+      300,
+      1800
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "This is just Double Street Martingale with 6x Martingaling",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 50,
+        "result": 10,
+        "time": "1:43"
+      },
+      {
+        "spin": 2,
+        "number": "18",
+        "amountBet": 50,
+        "result": 10,
+        "time": "2:26"
+      },
+      {
+        "spin": 3,
+        "number": "29",
+        "amountBet": 50,
+        "result": 10,
+        "time": "3:05"
+      },
+      {
+        "spin": 4,
+        "number": "16",
+        "amountBet": 50,
+        "result": 10,
+        "time": "3:53"
+      },
+      {
+        "spin": 5,
+        "number": "00",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:41"
+      },
+      {
+        "spin": 6,
+        "number": "11",
+        "amountBet": 300,
+        "result": 60,
+        "time": "5:50"
+      },
+      {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 50,
+        "result": 10,
+        "time": "6:41"
+      },
+      {
+        "spin": 8,
+        "number": "34",
+        "amountBet": 50,
+        "result": 10,
+        "time": "7:27"
+      },
+      {
+        "spin": 9,
+        "number": "28",
+        "amountBet": 50,
+        "result": 10,
+        "time": "8:07"
+      },
+      {
+        "spin": 10,
+        "number": "17",
+        "amountBet": 50,
+        "result": 10,
+        "time": "8:58"
+      },
+      {
+        "spin": 11,
+        "number": "15",
+        "amountBet": 50,
+        "result": 10,
+        "time": "9:36"
+      },
+      {
+        "spin": 12,
+        "number": "28",
+        "amountBet": 50,
+        "result": 10,
+        "time": "10:04"
+      }
+    ]
+  },
+  {
+    "name": "This Shouldn't Work",
+    "airDate": "2023-01-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=G2BfdgJBgP0",
+    "reviewUrl": "2023-01-25-This-Shouldnt-Work",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 750,
+    "bets": [
+      750
+    ],
+    "rating": "f",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "I realize this system was modified by Alex to be just a $750 buy-in, but only having 1 bullet is pretty reckless.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "33",
+        "amountBet": 750,
+        "result": 150,
+        "time": "1:29"
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 750,
+        "result": -390,
+        "time": "2:58",
+        "notes": "Alex 'borrowed' another $750 after this hit."
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 750,
+        "result": -750,
+        "time": "4:24",
+        "notes": "Alex 'borrowed' another $750 after this hit."
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 750,
+        "result": 510,
+        "time": "5:55"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 750,
+        "result": -390,
+        "time": "7:08"
+      },
+      {
+        "spin": 6,
+        "number": "18",
+        "amountBet": 750,
+        "result": 510,
+        "time": "8:35"
+      }
+    ]
+  },
+  {
     "name": "SSSS",
     "airDate": "2023-01-23",
     "youtubeUrl": "https://www.youtube.com/watch?v=FBSdVKhcCU0",
