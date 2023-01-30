@@ -1,5 +1,126 @@
 [
   {
+    "name": "6 Shots",
+    "airDate": "2023-01-30",
+    "youtubeUrl": "https://www.youtube.com/watch?v=eBbnbamXUQw",
+    "reviewUrl": "2023-01-30-6-Shots",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png",
+      "00-rba-3-800x662.png",
+      "00-rba-4-800x662.png",
+      "00-rba-5-800x662.png"
+    ],
+    "buyIn": 2100,
+    "bets": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600
+    ],
+    "rating": "f",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "33",
+        "amountBet": 100,
+        "result": -100,
+        "time": "1:15"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 200,
+        "result": 250,
+        "time": "1:46"
+      },
+      {
+        "spin": 3,
+        "number": "35",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:33"
+      },
+      {
+        "spin": 4,
+        "number": "31",
+        "amountBet": 200,
+        "result": -200,
+        "time": "3:13"
+      },
+      {
+        "spin": 5,
+        "number": "3",
+        "amountBet": 300,
+        "result": -300,
+        "time": "3:51"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 400,
+        "result": -400,
+        "time": "4:28"
+      },
+      {
+        "spin": 7,
+        "number": "22",
+        "amountBet": 500,
+        "result": 625,
+        "time": "5:02"
+      },
+      {
+        "spin": 8,
+        "number": "32",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:53"
+      },
+      {
+        "spin": 9,
+        "number": "12",
+        "amountBet": 200,
+        "result": -200,
+        "time": "6:23"
+      },
+      {
+        "spin": 10,
+        "number": "0",
+        "amountBet": 300,
+        "result": -300,
+        "time": "7:05"
+      },
+      {
+        "spin": 11,
+        "number": "00",
+        "amountBet": 400,
+        "result": -400,
+        "time": "7:51"
+      },
+      {
+        "spin": 12,
+        "number": "26",
+        "amountBet": 500,
+        "result": -500,
+        "time": "8:36"
+      },
+      {
+        "spin": 13,
+        "number": "21",
+        "amountBet": 375,
+        "result": 750,
+        "time": "9:22",
+        "notes": "Alex just YOLO'ed the rest of his money here. Not exactly sure how the bet broke down."
+      }
+    ]
+  },
+  {
     "name": "King of the Streets",
     "airDate": "2023-01-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=6H2wgD-tYdQ",
