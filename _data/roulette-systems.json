@@ -1,5 +1,100 @@
 [
   {
+    "name": "Donkey Comp",
+    "airDate": "2023-02-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=GPG25CAw05c",
+    "reviewUrl": "2023-02-01-Donkey-Comp",
+    "rbaImageUrls": [
+      "00-rba-0-800x664.png"
+    ],
+    "buyIn": 800,
+    "bets": [
+      260
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "10",
+        "amountBet": 260,
+        "result": 100,
+        "time": "1:46"
+      },
+      {
+        "spin": 2,
+        "number": "8",
+        "amountBet": 260,
+        "result": -260,
+        "time": "2:27"
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 260,
+        "result": 100,
+        "time": "3:20"
+      },
+      {
+        "spin": 4,
+        "number": "34",
+        "amountBet": 260,
+        "result": 100,
+        "time": "3:55"
+      },
+      {
+        "spin": 5,
+        "number": "11",
+        "amountBet": 260,
+        "result": -260,
+        "time": "4:24"
+      },
+      {
+        "spin": 6,
+        "number": "5",
+        "amountBet": 260,
+        "result": -260,
+        "time": "4:59"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 260,
+        "result": 100,
+        "time": "6:01"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 260,
+        "result": 100,
+        "time": "6:41"
+      },
+      {
+        "spin": 9,
+        "number": "24",
+        "amountBet": 260,
+        "result": 100,
+        "time": "7:15"
+      },
+      {
+        "spin": 10,
+        "number": "3",
+        "amountBet": 260,
+        "result": 100,
+        "time": "8:04"
+      },
+      {
+        "spin": 11,
+        "number": "11",
+        "amountBet": 260,
+        "result": -260,
+        "time": "8:37"
+      }
+    ]
+  },
+  {
     "name": "6 Shots",
     "airDate": "2023-01-30",
     "youtubeUrl": "https://www.youtube.com/watch?v=eBbnbamXUQw",
