@@ -1,5 +1,322 @@
 [
   {
+    "name": "Baseball",
+    "airDate": "2023-02-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=6CoYXbT-jaI",
+    "reviewUrl": "2023-02-08-Baseball",
+    "rbaImageUrls": [
+      "00-rba-0-800x664.png",
+      "00-rba-1-800x664.png",
+      "00-rba-2-800x664.png",
+      "00-rba-3-800x664.png"
+    ],
+    "buyIn": 400,
+    "bets": [
+      50,
+      100,
+      150,
+      225
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "When you win, go to the next tier.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 50,
+        "result": 50,
+        "time": "1:57"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 100,
+        "result": 50,
+        "time": "2:24"
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 150,
+        "result": 75,
+        "time": "3:00"
+      },
+      {
+        "spin": 4,
+        "number": "30",
+        "amountBet": 225,
+        "result": -225,
+        "time": "3:45"
+      },
+      {
+        "spin": 5,
+        "number": "1",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:24"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 50,
+        "result": -50,
+        "time": "5:06"
+      },
+      {
+        "spin": 7,
+        "number": "11",
+        "amountBet": 50,
+        "result": 50,
+        "time": "5:55"
+      },
+      {
+        "spin": 8,
+        "number": "28",
+        "amountBet": 100,
+        "result": 50,
+        "time": "6:26"
+      },
+      {
+        "spin": 9,
+        "number": "29",
+        "amountBet": 200,
+        "result": 75,
+        "time": "6:53"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 225,
+        "result": -225,
+        "time": "7:32"
+      },
+      {
+        "spin": 11,
+        "number": "9",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:02"
+      },
+      {
+        "spin": 12,
+        "number": "10",
+        "amountBet": 50,
+        "result": 50,
+        "time": "8:32"
+      },
+      {
+        "spin": 13,
+        "number": "22",
+        "amountBet": 100,
+        "result": 50,
+        "time": "9:08"
+      },
+      {
+        "spin": 14,
+        "number": "30",
+        "amountBet": 150,
+        "result": -150,
+        "time": "9:40"
+      }
+    ]
+  },
+  {
+    "name": "Mega Chamba",
+    "airDate": "2023-02-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7Fk-kTmtfJk",
+    "reviewUrl": "2023-02-06-Mega-Chamba",
+    "rbaImageUrls": [
+      "00-rba-0-800x664.png",
+      "00-rba-1-800x664.png",
+      "00-rba-2-800x664.png"
+    ],
+    "buyIn": 1050,
+    "bets": [
+      50,
+      200,
+      800
+    ],
+    "rating": "a",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "4x Martingale on loss. Alex stayed at the higher level for 4 wins...Not sure if this was neccessary.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "3",
+        "amountBet": 50,
+        "result": 10,
+        "time": "1:29"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 50,
+        "result": 10,
+        "time": "2:20"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 50,
+        "result": 10,
+        "time": "2:52"
+      },
+      {
+        "spin": 4,
+        "number": "31",
+        "amountBet": 50,
+        "result": 10,
+        "time": "3:30"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:14"
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 200,
+        "result": 40,
+        "time": "5:17"
+      },
+      {
+        "spin": 7,
+        "number": "36",
+        "amountBet": 200,
+        "result": 40,
+        "time": "6:03",
+        "notes": "Alex stayed at the higher tier for this spin."
+      },
+      {
+        "spin": 8,
+        "number": "2",
+        "amountBet": 200,
+        "result": 40,
+        "time": "7:00"
+      },
+      {
+        "spin": 9,
+        "number": "29",
+        "amountBet": 200,
+        "result": 40,
+        "time": "7:39"
+      },
+      {
+        "spin": 10,
+        "number": "6",
+        "amountBet": 50,
+        "result": 10,
+        "time": "8:25"
+      }
+    ]
+  },
+  {
+    "name": "Broke Dick 24+8",
+    "airDate": "2023-02-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ldhBqdE1wAM",
+    "reviewUrl": "2023-02-02-Broke-Dick-24+8",
+    "rbaImageUrls": [
+      "00-rba-0-800x664.png",
+      "00-rba-1-800x664.png",
+      "00-rba-2-800x664.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      26,
+      28,
+      28
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "There's too much flexibility in this system. I won't create images of all the possible permutations. After winning two $1 bets, you can either add another $2 Split, or pad your Dozen bets with $1 each.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "34",
+        "amountBet": 26,
+        "result": 1,
+        "time": "1:20"
+      },
+      {
+        "spin": 2,
+        "number": "21",
+        "amountBet": 26,
+        "result": 1,
+        "time": "1:59"
+      },
+      {
+        "spin": 3,
+        "number": "8",
+        "amountBet": 28,
+        "result": -28,
+        "time": "2:36"
+      },
+      {
+        "spin": 4,
+        "number": "35",
+        "amountBet": 26,
+        "result": 1,
+        "time": "3:27"
+      },
+      {
+        "spin": 5,
+        "number": "25",
+        "amountBet": 26,
+        "result": 1,
+        "time": "4:14"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 28,
+        "result": -1,
+        "time": "4:54"
+      },
+      {
+        "spin": 7,
+        "number": "25",
+        "amountBet": 28,
+        "result": 2,
+        "time": "5:34"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 30,
+        "result": 3,
+        "time": "6:33"
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 32,
+        "result": 4,
+        "time": "7:20"
+      },
+      {
+        "spin": 10,
+        "number": "28",
+        "amountBet": 36,
+        "result": 6,
+        "time": "8:05"
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 38,
+        "result": -38,
+        "time": "8:45"
+      }
+    ]
+  },
+  {
     "name": "Donkey Comp",
     "airDate": "2023-02-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=GPG25CAw05c",
