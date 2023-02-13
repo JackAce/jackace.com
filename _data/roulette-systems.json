@@ -1,5 +1,224 @@
 [
   {
+    "name": "Triple Lux Modified",
+    "airDate": "2023-02-13",
+    "youtubeUrl": "https://www.youtube.com/watch?v=RYO_3VDo4pA",
+    "reviewUrl": "2023-02-13-Triple-Lux-Modified",
+    "rbaImageUrls": [
+      "00-rba-0-800x664.png",
+      "00-rba-1-800x664.png",
+      "00-rba-2-800x664.png"
+    ],
+    "buyIn": 250,
+    "bets": [
+      25,
+      60,
+      85
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "Positive progression system. Go to the next tier when you win. Walk after you win on step 3 for the third time.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "24",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:44"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 25,
+        "result": -25,
+        "time": "2:13"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 25,
+        "result": -25,
+        "time": "2:47"
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:13"
+      },
+      {
+        "spin": 5,
+        "number": "16",
+        "amountBet": 25,
+        "result": 65,
+        "time": "3:50"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 60,
+        "result": 75,
+        "time": "4:41"
+      },
+      {
+        "spin": 7,
+        "number": "24",
+        "amountBet": 85,
+        "result": -85,
+        "time": "5:45"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:28"
+      },
+      {
+        "spin": 9,
+        "number": "12",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:55",
+        "notes": "Alex moved his tier 1 bets to the 3rd dozen."
+      },
+      {
+        "spin": 10,
+        "number": "4",
+        "amountBet": 25,
+        "result": -25,
+        "time": "7:28"
+      },
+      {
+        "spin": 11,
+        "number": "36",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:09"
+      },
+      {
+        "spin": 12,
+        "number": "32",
+        "amountBet": 25,
+        "result": 65,
+        "time": "9:14"
+      },
+      {
+        "spin": 13,
+        "number": "13",
+        "amountBet": 60,
+        "result": -60,
+        "time": "9:59"
+      }
+    ]
+  },
+  {
+    "name": "Profit Hand",
+    "airDate": "2023-02-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=pKWZMDPSHz8",
+    "reviewUrl": "2023-02-09-Profit-Hand",
+    "rbaImageUrls": [
+      "00-rba-0-800x664.png"
+    ],
+    "buyIn": 200,
+    "bets": [
+      40
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "No progression. Bet $20 on Top or Bottom Half and $5 on 4 uncovered Streets. Walk when you're up $100 or you run out of bullets.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "24",
+        "amountBet": 40,
+        "result": 0,
+        "time": "1:52"
+      },
+      {
+        "spin": 2,
+        "number": "00",
+        "amountBet": 40,
+        "result": -40,
+        "time": "2:45"
+      },
+      {
+        "spin": 3,
+        "number": "23",
+        "amountBet": 40,
+        "result": 0,
+        "time": "3:33"
+      },
+      {
+        "spin": 4,
+        "number": "25",
+        "amountBet": 40,
+        "result": 0,
+        "time": "4:04"
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 40,
+        "result": -40,
+        "time": "4:41"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 40,
+        "result": 0,
+        "time": "5:27"
+      },
+      {
+        "spin": 7,
+        "number": "31",
+        "amountBet": 40,
+        "result": 0,
+        "time": "6:00"
+      },
+      {
+        "spin": 8,
+        "number": "29",
+        "amountBet": 40,
+        "result": 0,
+        "time": "6:42"
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 40,
+        "result": 0,
+        "time": "7:35"
+      },
+      {
+        "spin": 10,
+        "number": "7",
+        "amountBet": 40,
+        "result": 20,
+        "time": "8:18",
+        "notes": "Alex won $20 here, not $25 as displayed on the video."
+      },
+      {
+        "spin": 11,
+        "number": "29",
+        "amountBet": 40,
+        "result": 0,
+        "time": "9:03"
+      },
+      {
+        "spin": 12,
+        "number": "4",
+        "amountBet": 40,
+        "result": -40,
+        "time": "9:48"
+      }
+    ]
+  },
+  {
     "name": "Baseball",
     "airDate": "2023-02-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=6CoYXbT-jaI",
