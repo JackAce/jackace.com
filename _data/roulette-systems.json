@@ -1,5 +1,194 @@
 [
   {
+    "name": "Infinite Money Glitch",
+    "airDate": "2023-02-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=AjOwQoNSvzw",
+    "reviewUrl": "2023-02-15-Infinite-Money-Glitch",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 2500,
+    "bets": [
+      5,
+      9,
+      15,
+      26,
+      44,
+      75,
+      125,
+      210,
+      350,
+      600,
+      1000
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "11 tiers? Fuck that. This is just a negative progression system betting on the dozens. Wait until a dozen MISSES 5 times (WTF???) and bet from there.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "29",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:53",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 0,
+        "result": 0,
+        "time": "1:27",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 3,
+        "number": "14",
+        "amountBet": 0,
+        "result": 0,
+        "time": "1:50",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 4,
+        "number": "6",
+        "amountBet": 0,
+        "result": 0,
+        "time": "2:12",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 5,
+        "number": "20",
+        "amountBet": 0,
+        "result": 0,
+        "time": "2:30",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 0,
+        "result": 0,
+        "time": "2:56",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 0,
+        "result": 0,
+        "time": "3:22",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 0,
+        "result": 0,
+        "time": "3:49",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 9,
+        "number": "0",
+        "amountBet": 0,
+        "result": 0,
+        "time": "4:15",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 0,
+        "result": 0,
+        "time": "4:33",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 11,
+        "number": "19",
+        "amountBet": 0,
+        "result": 0,
+        "time": "5:08",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 12,
+        "number": "8",
+        "amountBet": 5,
+        "result": 10,
+        "time": "5:37"
+      },
+      {
+        "spin": 13,
+        "number": "2",
+        "amountBet": 5,
+        "result": -5,
+        "time": "6:06"
+      },
+      {
+        "spin": 14,
+        "number": "4",
+        "amountBet": 9,
+        "result": -9,
+        "time": "6:37"
+      },
+      {
+        "spin": 15,
+        "number": "3",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:04"
+      },
+      {
+        "spin": 16,
+        "number": "34",
+        "amountBet": 26,
+        "result": 52,
+        "time": "7:34"
+      },
+      {
+        "spin": 17,
+        "number": "34",
+        "amountBet": 5,
+        "result": -5,
+        "time": "8:11"
+      },
+      {
+        "spin": 18,
+        "number": "25",
+        "amountBet": 9,
+        "result": -9,
+        "time": "8:37"
+      },
+      {
+        "spin": 19,
+        "number": "24",
+        "amountBet": 15,
+        "result": 30,
+        "time": "9:03"
+      },
+      {
+        "spin": 20,
+        "number": "4",
+        "amountBet": 0,
+        "result": 0,
+        "time": "9:38",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 21,
+        "number": "25",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:06",
+        "notes": "Blank spin"
+      }
+    ]
+  },
+  {
     "name": "Triple Lux Modified",
     "airDate": "2023-02-13",
     "youtubeUrl": "https://www.youtube.com/watch?v=RYO_3VDo4pA",
