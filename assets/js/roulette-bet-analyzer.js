@@ -159,7 +159,6 @@ function compareFn(a, b) {
 }
 
 function updateChart() {
-    // xxxxx
     let outcomeGraph = document.getElementById("outcomeGraph");
     if (outcomeGraph) {
         outcomeGraph.remove();
@@ -196,7 +195,7 @@ function updateChart() {
     let counter = 0;
     for (let i = 0; i < lossesAndWins.length; i++) {
         counter += lossesAndWins[i];
-        graphData.push(counter);
+        graphData.push(lossesAndWins[i]);
     }
 
     let labels = ["Start"];
@@ -204,22 +203,14 @@ function updateChart() {
         labels.push(i);
     }
 
-    let evData = [0];
-    let delta = counter / 38.0;
-    counter = 0;
-    for (let i = 1; i < lossesAndWins.length + 1; i++) {
-        counter += delta;
-        evData.push(counter);
-    }
-
     const ctx = $('#outcomeGraph');
     const myChart = new Chart(ctx, {
-        type: 'line',
+        type: 'bar',
         data: {
             labels: labels,
             datasets: [
                 {
-                    label: 'Possible Outcomes',
+                    label: 'Outcome',
                     data: graphData,
                     backgroundColor: [
                         'rgba(0, 0, 255, 1)'
@@ -227,20 +218,6 @@ function updateChart() {
                     borderColor: [
                         'rgba(255, 255, 255, 1)'
                     ],
-                    pointRadius: 2,
-                    borderWidth: 1
-                },
-                {
-                    label: 'Expected Loss',
-                    data: evData,
-                    backgroundColor: [
-                        'rgba(255, 0, 0, 1)'
-                    ],
-                    borderColor: [
-                        'rgba(255, 255, 255, 1)'
-                    ],
-                    borderDash: [2],
-                    pointRadius: 1,
                     borderWidth: 1
                 }
             ]
