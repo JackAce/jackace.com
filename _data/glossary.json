@@ -88,6 +88,12 @@
     "definition": "A series of bets in Roulette where hitting a specific number results in multiple bets winning."
   },
   {
+    "term": "RNG",
+    "categories": ["general gambling, probability, math"],
+    "summary": "The Random Number Generator used by computers to select a random number (duh)",
+    "definition": "A computer algorithm used to pluck a random number out of thin air."
+  },
+  {
     "term": "small field system",
     "categories": ["roulette", "craps", "betting", "systems"],
     "summary": "Betting on just a few different outcomes (especially in Roulette)",
