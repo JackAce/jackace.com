@@ -1,5 +1,101 @@
 [
   {
+    "name": "Cakes and Pies 🎂 🥧",
+    "airDate": "2023-02-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=QcapGx8LI4c",
+    "reviewUrl": "2023-02-22-Cakes-and-Pies",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 400,
+    "bets": [
+      130
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "No progression. Walk when you're up $100.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 130,
+        "result": -70,
+        "time": "1:28"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 130,
+        "result": 20,
+        "time": "2:09"
+      },
+      {
+        "spin": 3,
+        "number": "22",
+        "amountBet": 130,
+        "result": 20,
+        "time": "2:44"
+      },
+      {
+        "spin": 4,
+        "number": "20",
+        "amountBet": 130,
+        "result": 20,
+        "time": "3:10"
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 130,
+        "result": -70,
+        "time": "3:49"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 130,
+        "result": 20,
+        "time": "4:34"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 130,
+        "result": -130,
+        "time": "5:17"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 130,
+        "result": 80,
+        "time": "6:00"
+      },
+      {
+        "spin": 9,
+        "number": "22",
+        "amountBet": 130,
+        "result": 20,
+        "time": "6:51"
+      },
+      {
+        "spin": 10,
+        "number": "36",
+        "amountBet": 130,
+        "result": 20,
+        "time": "7:39"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 130,
+        "result": -70,
+        "time": "8:22"
+      }
+    ]
+  },
+  {
     "name": "777 Broke Dick",
     "airDate": "2023-02-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=eEd4PiXHLF4",
