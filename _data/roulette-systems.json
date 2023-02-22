@@ -1,6 +1,102 @@
 [
   {
-    "name": "777 Broke Dick",
+    "name": "Cakes and Pies 🎂 🥧",
+    "airDate": "2023-02-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=QcapGx8LI4c",
+    "reviewUrl": "2023-02-22-Cakes-and-Pies",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 400,
+    "bets": [
+      130
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "No progression. Walk when you're up $100.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 130,
+        "result": -70,
+        "time": "1:28"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 130,
+        "result": 20,
+        "time": "2:09"
+      },
+      {
+        "spin": 3,
+        "number": "22",
+        "amountBet": 130,
+        "result": 20,
+        "time": "2:44"
+      },
+      {
+        "spin": 4,
+        "number": "20",
+        "amountBet": 130,
+        "result": 20,
+        "time": "3:10"
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 130,
+        "result": -70,
+        "time": "3:49"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 130,
+        "result": 20,
+        "time": "4:34"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 130,
+        "result": -130,
+        "time": "5:17"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 130,
+        "result": 80,
+        "time": "6:00"
+      },
+      {
+        "spin": 9,
+        "number": "22",
+        "amountBet": 130,
+        "result": 20,
+        "time": "6:51"
+      },
+      {
+        "spin": 10,
+        "number": "36",
+        "amountBet": 130,
+        "result": 20,
+        "time": "7:39"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 130,
+        "result": -70,
+        "time": "8:22"
+      }
+    ]
+  },
+  {
+    "name": "777 Broke Dick 🍆",
     "airDate": "2023-02-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=eEd4PiXHLF4",
     "reviewUrl": "2023-02-20-777-Broke-Dick",
@@ -220,7 +316,7 @@
     ]
   },
   {
-    "name": "Infinite Money Glitch",
+    "name": "Infinite Money Glitch 💸",
     "airDate": "2023-02-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=AjOwQoNSvzw",
     "reviewUrl": "2023-02-15-Infinite-Money-Glitch",
@@ -628,7 +724,7 @@
     ]
   },
   {
-    "name": "Baseball",
+    "name": "Baseball ⚾",
     "airDate": "2023-02-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=6CoYXbT-jaI",
     "reviewUrl": "2023-02-08-Baseball",
@@ -845,7 +941,7 @@
     ]
   },
   {
-    "name": "Broke Dick 24+8",
+    "name": "Broke Dick 24+8 🍆",
     "airDate": "2023-02-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=ldhBqdE1wAM",
     "reviewUrl": "2023-02-02-Broke-Dick-24+8",
@@ -1040,7 +1136,7 @@
     ]
   },
   {
-    "name": "6 Shots",
+    "name": "6 Shots 🥃",
     "airDate": "2023-01-30",
     "youtubeUrl": "https://www.youtube.com/watch?v=eBbnbamXUQw",
     "reviewUrl": "2023-01-30-6-Shots",
@@ -1161,7 +1257,7 @@
     ]
   },
   {
-    "name": "King of the Streets",
+    "name": "King of the Streets 👑",
     "airDate": "2023-01-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=6H2wgD-tYdQ",
     "reviewUrl": "2023-01-26-King-of-the-Streets",
@@ -2228,7 +2324,7 @@
     ]
   },
   {
-    "name": "Millionaire Mindset",
+    "name": "Millionaire Mindset 💰",
     "airDate": "2023-01-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=jV2abMfzYYg",
     "reviewUrl": "2023-01-02-Millionaire-Mindset",
@@ -2349,7 +2445,7 @@
     ]
   },
   {
-    "name": "Holy Squid Splits",
+    "name": "Holy Squid Splits 🦑",
     "airDate": "2022-12-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=nEenelojj5c",
     "reviewUrl": "2022-12-29-Holy-Squid-Splits",
@@ -2659,7 +2755,7 @@
     ]
   },
   {
-    "name": "Piss off the Dealer",
+    "name": "Piss off the Dealer 💦",
     "airDate": "2022-12-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=wcZ3Js6OXjk",
     "reviewUrl": "2022-12-22-Piss-off-the-Dealer",
@@ -3091,7 +3187,7 @@
     ]
   },
   {
-    "name": "Ballad of the Broke Dicks",
+    "name": "Ballad of the Broke Dicks 🍆",
     "airDate": "2022-12-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=vPo4yd9W6Cg",
     "reviewUrl": "2022-12-14-Ballad-of-the-Broke-Dicks",
@@ -3714,7 +3810,7 @@
     ]
   },
   {
-    "name": "Dream Maker",
+    "name": "Dream Maker 💤",
     "airDate": "2022-12-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=j-Kx4xQKuBc",
     "reviewUrl": "2022-12-01-Dream-Maker",
@@ -3773,7 +3869,7 @@
     ]
   },
   {
-    "name": "Itchy Monkey",
+    "name": "Itchy Monkey 🐵",
     "airDate": "2022-11-30",
     "youtubeUrl": "https://www.youtube.com/watch?v=0ATFQB13q0M",
     "reviewUrl": "2022-11-30-Itchy-Monkey",
@@ -4669,7 +4765,7 @@
     ]
   },
   {
-    "name": "Stargate",
+    "name": "Stargate 🌟",
     "airDate": "2022-11-23",
     "youtubeUrl": "https://www.youtube.com/watch?v=kGBgb3pITaA",
     "reviewUrl": "2022-11-23-Stargate",
@@ -4764,7 +4860,7 @@
     ]
   },
   {
-    "name": "The Balls Cover All",
+    "name": "The Balls Cover All ⚽⚾🎾",
     "airDate": "2022-11-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=ZHYVSzZ3C_w",
     "reviewUrl": "2022-11-21-The-Balls-Cover-All",
@@ -5507,7 +5603,7 @@
     ]
   },
   {
-    "name": "Rocket Man",
+    "name": "Rocket Man 🚀🧑‍🚀",
     "airDate": "2022-11-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=J052gG6vXXQ",
     "reviewUrl": "2022-11-02-Rocket-Man",
@@ -6894,7 +6990,7 @@
     ]
   },
   {
-    "name": "Grower not a Shower 2.0",
+    "name": "Grower not a Shower 2.0 🍆",
     "airDate": "2022-10-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=aNW7rZf6pYI",
     "reviewUrl": "2022-10-05-Grower-not-a-Shower-2",
@@ -7685,7 +7781,7 @@
     ]
   },
   {
-    "name": "Rusty Trombone",
+    "name": "Rusty Trombone 🎺",
     "airDate": "2022-09-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=wrqs8nPvlMU",
     "reviewUrl": "2022-09-15-Rusty-Trombone",
@@ -8457,7 +8553,7 @@
     ]
   },
   {
-    "name": "Only Balls",
+    "name": "Only Balls ⚽⚾🎾",
     "airDate": "2022-09-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=crf10PkA9ks",
     "reviewUrl": "2022-09-01-Only-Balls",
@@ -8769,7 +8865,7 @@
     ]
   },
   {
-    "name": "Goooal!",
+    "name": "Goooal! ⚽",
     "airDate": "2022-08-25",
     "youtubeUrl": "https://www.youtube.com/watch?v=S3iybTzcGjA",
     "reviewUrl": "2022-08-25-Goooal",
@@ -9322,7 +9418,7 @@
     ]
   },
   {
-    "name": "Space Invader 2022",
+    "name": "Space Invader 2022 👾",
     "airDate": "2022-08-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=uDEhSL6BV4g",
     "reviewUrl": "2022-08-11-Space-Invader-2022",
@@ -21991,7 +22087,7 @@
     ]
   },
   {
-    "name": "Grower not a Shower",
+    "name": "Grower not a Shower 🍆",
     "airDate": "2022-01-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=CdaM17LVKi0",
     "reviewUrl": "2022-01-22-Grower-not-a-Shower",
