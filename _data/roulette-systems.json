@@ -1,5 +1,96 @@
 [
   {
+    "name": "Falcon's Revenge",
+    "airDate": "2023-02-23",
+    "youtubeUrl": "https://www.youtube.com/watch?v=eoCJ6vuA8PU",
+    "reviewUrl": "2023-02-23-Falcons-Revenge",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 16000,
+    "bets": [
+      8000,
+      32000
+    ],
+    "rating": "f",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "Extremely ridiculous system...especially when Alex started to 4x Martingale...32k bet per spin???",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "19",
+        "amountBet": 8000,
+        "result": -5000,
+        "time": "2:29"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 8000,
+        "result": 1000,
+        "time": "3:10"
+      },
+      {
+        "spin": 3,
+        "number": "13",
+        "amountBet": 8000,
+        "result": 4000,
+        "time": "3:49"
+      },
+      {
+        "spin": 4,
+        "number": "25",
+        "amountBet": 8000,
+        "result": 1000,
+        "time": "4:35"
+      },
+      {
+        "spin": 5,
+        "number": "28",
+        "amountBet": 8000,
+        "result": 1000,
+        "time": "5:16"
+      },
+      {
+        "spin": 6,
+        "number": "15",
+        "amountBet": 8000,
+        "result": -5000,
+        "time": "6:06"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 8000,
+        "result": -8000,
+        "time": "6:52",
+        "notes": "Alex asked for another 64k after losing this bet. lol"
+      },
+      {
+        "spin": 8,
+        "number": "19",
+        "amountBet": 32000,
+        "result": -20000,
+        "time": "8:03"
+      },
+      {
+        "spin": 9,
+        "number": "34",
+        "amountBet": 32000,
+        "result": 4000,
+        "time": "8:50"
+      },
+      {
+        "spin": 10,
+        "number": "21",
+        "amountBet": 32000,
+        "result": 16000,
+        "time": "10:02"
+      }
+    ]
+  },
+  {
     "name": "Cakes and Pies 🎂 🥧",
     "airDate": "2023-02-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=QcapGx8LI4c",
