@@ -1,5 +1,114 @@
 [
   {
+    "name": "Grapefruit Step System",
+    "airDate": "2023-02-27",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Lbv28GN1Vus",
+    "reviewUrl": "2023-02-27-Grapefruit-Step-System",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png",
+      "00-rba-3-800x662.png",
+      "00-rba-4-800x662.png",
+      "00-rba-5-800x662.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      50,
+      80,
+      120,
+      200,
+      250,
+      500
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "This is a progressive system. Go to the next step when you hit. When you miss, drop back down to tier 1. At tier 5, you're supposed to win 5x before progressing. At tier 6, you're supposed to hit $100 3 times before you walk.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "28",
+        "amountBet": 50,
+        "result": 30,
+        "time": "2:12"
+      },
+      {
+        "spin": 2,
+        "number": "10",
+        "amountBet": 80,
+        "result": -80,
+        "time": "3:02"
+      },
+      {
+        "spin": 3,
+        "number": "13",
+        "amountBet": 50,
+        "result": 30,
+        "time": "3:32"
+      },
+      {
+        "spin": 4,
+        "number": "33",
+        "amountBet": 80,
+        "result": 40,
+        "time": "4:08"
+      },
+      {
+        "spin": 5,
+        "number": "25",
+        "amountBet": 120,
+        "result": 96,
+        "time": "5:12"
+      },
+      {
+        "spin": 6,
+        "number": "10", 
+        "amountBet": 200,
+        "result": -200,
+        "time": "5:46"
+      },
+      {
+        "spin": 7,
+        "number": "11",
+        "amountBet": 250,
+        "result": 50,
+        "time": "6:50",
+        "notes": "Alex proceeded with the progression here even though he lost (\"for the purposes of YouTube\")."
+      },
+      {
+        "spin": 8,
+        "number": "17",
+        "amountBet": 250,
+        "result": 50,
+        "time": "7:50"
+      },
+      {
+        "spin": 9,
+        "number": "00",
+        "amountBet": 250,
+        "result": -250,
+        "time": "8:40"
+      },
+      {
+        "spin": 10,
+        "number": "27",
+        "amountBet": 500,
+        "result": 100,
+        "time": "9:23",
+        "notes": "Alex 'borrowed' $300 to continue the progression, betting $300 on bottom half and $200 on 1st Dozen."
+      },
+      {
+        "spin": 11,
+        "number": "13",
+        "amountBet": 500,
+        "result": -500,
+        "time": "10:05",
+        "notes": "Alex stayed at this level."
+      }
+    ]
+  },
+  {
     "name": "Falcon's Revenge",
     "airDate": "2023-02-23",
     "youtubeUrl": "https://www.youtube.com/watch?v=eoCJ6vuA8PU",
