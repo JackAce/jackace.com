@@ -1,5 +1,101 @@
 [
   {
+    "name": "King of the Streets 2.0",
+    "airDate": "2023-03-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=8cjUgjt8OeQ",
+    "reviewUrl": "2023-03-01-King-of-the-Streets-20",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 250,
+    "bets": [
+      140
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "Flat bet system",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "28",
+        "amountBet": 140,
+        "result": 10,
+        "time": "1:10"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 140,
+        "result": 10,
+        "time": "1:54"
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 140,
+        "result": 10,
+        "time": "2:39"
+      },
+      {
+        "spin": 4,
+        "number": "12",
+        "amountBet": 140,
+        "result": 40,
+        "time": "3:16"
+      },
+      {
+        "spin": 5,
+        "number": "28",
+        "amountBet": 140,
+        "result": -20,
+        "time": "4:14"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 140,
+        "result": -20,
+        "time": "4:58"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 140,
+        "result": 10,
+        "time": "5:43"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 140,
+        "result": 10,
+        "time": "6:29"
+      },
+      {
+        "spin": 9,
+        "number": "24",
+        "amountBet": 140,
+        "result": 10,
+        "time": "6:49"
+      },
+      {
+        "spin": 10,
+        "number": "35",
+        "amountBet": 140,
+        "result": 10,
+        "time": "7:24"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 140,
+        "result": 40,
+        "time": "8:15"
+      }
+    ]
+  },
+  {
     "name": "Grapefruit Step System",
     "airDate": "2023-02-27",
     "youtubeUrl": "https://www.youtube.com/watch?v=Lbv28GN1Vus",
