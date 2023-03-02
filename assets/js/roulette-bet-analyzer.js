@@ -214,15 +214,16 @@ function updateChart() {
                     data: graphData,
                     backgroundColor: [
                         'rgba(0, 0, 255, 1)'
-                    ],
-                    borderColor: [
-                        'rgba(255, 255, 255, 1)'
-                    ],
-                    borderWidth: 1
+                    ]
                 }
             ]
         },
         options: {
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
             scales: {
                 y: {
                     beginAtZero: true
