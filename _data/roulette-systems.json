@@ -1,5 +1,246 @@
 [
   {
+    "name": "Lust Enhancer ❤️‍🔥❤️‍🔥",
+    "airDate": "2023-03-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=IHCKOrHkCCw",
+    "reviewUrl": "2023-03-06-Lust-Enhancer",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 2120,
+    "bets": [
+      10,
+      20,
+      40,
+      80,
+      160,
+      320,
+      640
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "'Follow and then loop on the sequence'...whatever that means. 2x Martingale up to 64 units.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 10,
+        "result": 10,
+        "time": "2:10",
+        "notes": "Alex bet 1-18"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 10,
+        "result": 10,
+        "time": "2:45",
+        "notes": "Alex bet Black"
+      },
+      {
+        "spin": 3,
+        "number": "19",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:19",
+        "notes": "Alex bet Even"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 20,
+        "result": -20,
+        "time": "3:49",
+        "notes": "Alex bet 19-36"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 40,
+        "result": -40,
+        "time": "4:22",
+        "notes": "Alex bet Odd"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 80,
+        "result": -80,
+        "time": "4:56",
+        "notes": "Alex bet Red"
+      },
+      {
+        "spin": 7,
+        "number": "17",
+        "amountBet": 160,
+        "result": 160,
+        "time": "5:31",
+        "notes": "Alex bet 1-18"
+      },
+      {
+        "spin": 8,
+        "number":  "9",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:03",
+        "notes": "Alex bet Black"
+      },
+      {
+        "spin": 9,
+        "number": "34",
+        "amountBet": 20,
+        "result": 20,
+        "time": "6:26",
+        "notes": "Alex bet Even"
+      },
+      {
+        "spin": 10,
+        "number": "12",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:00",
+        "notes": "Alex bet 19-36"
+      },
+      {
+        "spin": 11,
+        "number": "22",
+        "amountBet": 20,
+        "result": -20,
+        "time": "7:35",
+        "notes": "Alex bet Odd"
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 40,
+        "result": 40,
+        "time": "8:07",
+        "notes": "Alex bet Red"
+      },
+      {
+        "spin": 13,
+        "number": "27",
+        "amountBet": 10,
+        "result": -10,
+        "time": "8:54",
+        "notes": "Alex bet 1-18"
+      },
+      {
+        "spin": 14,
+        "number": "14",
+        "amountBet": 20,
+        "result": -20,
+        "time": "9:28",
+        "notes": "Alex bet Black"
+      },
+      {
+        "spin": 15,
+        "number": "28",
+        "amountBet": 40,
+        "result": 40,
+        "time": "10:04",
+        "notes": "Alex bet Even"
+      }
+    ]
+  },
+  {
+    "name": "Full 🔻 Tilt",
+    "airDate": "2023-03-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=libzvtoFwIc",
+    "reviewUrl": "2023-03-05-Full-Tilt",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 1800,
+    "bets": [
+      450
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "Alex said he was down $200, but he should have been down $210",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "00",
+        "amountBet": 1450,
+        "result": -450,
+        "time": "1:41"
+      },
+      {
+        "spin": 2,
+        "number": "31",
+        "amountBet": 450,
+        "result": 30,
+        "time": "2:35"
+      },
+      {
+        "spin": 3,
+        "number": "00",
+        "amountBet": 450,
+        "result": -450,
+        "time": "3:07"
+      },
+      {
+        "spin": 4,
+        "number": "29",
+        "amountBet": 450,
+        "result": 30,
+        "time": "4:02"
+      },
+      {
+        "spin": 5,
+        "number": "20",
+        "amountBet": 450,
+        "result": 540,
+        "time": "4:36"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 450,
+        "result": 30,
+        "time": "6:05"
+      },
+      {
+        "spin": 7,
+        "number": "33",
+        "amountBet": 450,
+        "result": 30,
+        "time": "6:47"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 450,
+        "result": 450,
+        "time": "7:24"
+      },
+      {
+        "spin": 9,
+        "number": "13",
+        "amountBet": 450,
+        "result": 0,
+        "time": "8:30"
+      },
+      {
+        "spin": 10,
+        "number": "1",
+        "amountBet": 450,
+        "result": -450,
+        "time": "9:08"
+      },
+      {
+        "spin": 11,
+        "number": "33",
+        "amountBet": 450,
+        "result": 30,
+        "time": "10:09"
+      }
+    ]
+  },
+  {
     "name": "Trust the Process",
     "airDate": "2023-03-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=iVaXbwzfqts",
