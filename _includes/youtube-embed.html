@@ -1,0 +1,6 @@
+{%- assign width = include.width | default: 560 -%}
+{%- assign height = include.height | default: 315 -%}
+{%- assign fullUrl = include.url -%}
+{%- assign urlParts = fullUrl | split: "=" -%}
+
+<iframe width="{{- width -}}" height="{{- height -}}" src="https://www.youtube.com/embed/{{- urlParts[1] -}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>

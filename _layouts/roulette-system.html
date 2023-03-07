@@ -101,6 +101,13 @@ layout: page-no-sidebar
 
 {%- endif -%}
 
+{%-  if system.jackaceVideoUrl -%}
+  <div>
+    For Jack's video review of this system, go here:
+  </div>
+  {%- include youtube-embed.html url=system.jackaceVideoUrl -%}
+{%-  endif -%}
+
 {% assign systemNotesSize = system.notes | size %}
 
 <table class="key-value-table" width="50%">
