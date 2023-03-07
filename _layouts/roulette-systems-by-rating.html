@@ -63,6 +63,9 @@ layout: page-no-sidebar
       <th>
         JackAce<br/>Rating
       </th>
+      <th>
+        JackAce<br/>Review
+      </th>
     </tr>
   </thead>
   <tbody>
@@ -186,6 +189,14 @@ layout: page-no-sidebar
         <td>
           {%- include ceg-system-rating.html rating=jackaceRating showRatingLetter=true -%}
         </td>
+        <td>
+          {%- if row['jackaceVideoUrl'] -%}
+
+            <a href="{{row['jackaceVideoUrl']}}" target="jackacereview"><img src="{{site.baseurl}}/assets/img/icons/youtube-24x24.png" alt="YouTube" title="YouTube" /></a>
+
+          {%- endif -%}
+
+        </td>
       </tr>
     {% endfor %}
   </tbody>
@@ -220,6 +231,9 @@ layout: page-no-sidebar
       <th>
         &nbsp;
       </th>
+      <th>
+        &nbsp;
+      </th>
     </tr>
     <tr>
       <td>
@@ -242,6 +256,9 @@ layout: page-no-sidebar
       </td>
       <td>
         {%- include win-loss-amount.html amount=totalLiveResults -%}
+      </td>
+      <td>
+        &nbsp;
       </td>
       <td>
         &nbsp;
