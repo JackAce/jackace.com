@@ -2,6 +2,10 @@
 layout: page-no-sidebar
 ---
 
+{%- assign currentYear = "now" | date: "%Y" -%}
+{%- assign pageYear = page.year | default: "" -%}
+{%- assign pageYear = pageYear | append: "" -%}
+
 <h1>
   {{page.title}}
 </h1>
@@ -31,6 +35,13 @@ layout: page-no-sidebar
     <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/d/">{%- include ceg-system-rating.html rating="d" showRatingLetter=false -%}</a>
     <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/f/">{%- include ceg-system-rating.html rating="f" showRatingLetter=false -%}</a>
   </p>
+  <!-- <p>
+    Show systems by Year
+    <a href="{{site.baseUrl}}/gambling/roulette/systems/years/2023/">2023</a>
+    <a href="{{site.baseUrl}}/gambling/roulette/systems/years/2022/">2022</a>
+    <a href="{{site.baseUrl}}/gambling/roulette/systems/years/2021/">2021</a>
+    <a href="{{site.baseUrl}}/gambling/roulette/systems/years/2020/">2020</a>
+  </p> -->
 {%- endif -%}
 
 <table class="roulette-system-table">
@@ -119,86 +130,100 @@ layout: page-no-sidebar
       {%- assign systemExpectedLoss = 0.00 -%}
       {%- assign systemCompValue = 0.00 -%}
       {%- assign systemWinLoss = 0 -%}
+      {%- assign displayRow = true -%}
+      {%- assign airDateYear = row["airDate"] | date: "%Y" -%}
+      {%- assign airDateYear = airDateYear | append: "" -%}
 
-      {%- for spin in row.spins -%}
+      {% if pageYear != "" %}
+        {% if airDateYear != pageYear %}
 
-        {%- assign bet = spin["amountBet"] -%}
-        {%- assign spinResult = spin["result"] | times: 1 -%}
-        {%- assign defaultEv = bet | times: -0.0526 -%}
-        {%- assign spinEvAmount = spin["ev"] | default: defaultEv -%}
+          {%- assign displayRow = false -%}
 
-        {%- assign systemBets = systemBets | plus: bet -%}
-        {%- assign systemExpectedLoss = systemExpectedLoss | plus: spinEvAmount -%}
-        {%- assign systemCompValue = systemExpectedLoss | times: -0.2 -%}
-        {%- assign systemWinLoss = systemWinLoss | plus: spinResult -%}
+        {% endif %}
+      {% endif %}
+    
+      {% if displayRow %}
+        {%- for spin in row.spins -%}
 
-      {%- endfor -%}
+            {%- assign bet = spin["amountBet"] -%}
+            {%- assign spinResult = spin["result"] | times: 1 -%}
+            {%- assign defaultEv = bet | times: -0.0526 -%}
+            {%- assign spinEvAmount = spin["ev"] | default: defaultEv -%}
 
-      {%- assign totalAmountBet = totalAmountBet | plus: systemBets -%}
-      {%- assign totalLiveResults = totalLiveResults | plus: systemWinLoss -%}
-      {%- assign totalExpectedLoss = totalExpectedLoss | plus: systemExpectedLoss -%}
-  
-      {%- assign buyIn = row["buyIn"] | times: 1 -%}
-      {%- assign bets = row["bets"] -%}
+            {%- assign systemBets = systemBets | plus: bet -%}
+            {%- assign systemExpectedLoss = systemExpectedLoss | plus: spinEvAmount -%}
+            {%- assign systemCompValue = systemExpectedLoss | times: -0.2 -%}
+            {%- assign systemWinLoss = systemWinLoss | plus: spinResult -%}
 
-      {%- assign betSizes = bets.size -%}
-      {%- assign evPercent = systemExpectedLoss | times: 100 | divided_by: systemBets -%}
-      {%- assign rating = row["rating"] -%}
-      {%- assign jackaceRating = row["jackaceRating"] -%}
+          {%- endfor -%}
 
-      <tr>
-        <td>
-          {% if row["reviewUrl"] %}
-            <a href="{{site.baseurl}}/gambling/roulette/systems/{{row['reviewUrl']}}/">{{ row["name"] }}</a>
-          {% else %}
-            {{ row["name"] }}
-          {% endif %}
-          &nbsp;
-          <br/>
-          <a href="{{row['youtubeUrl']}}"><img src="{{site.baseurl}}/assets/img/icons/youtube-24x24.png" alt="YouTube" title="YouTube" /></a>
-            <i class="airDate">
-              {% assign airDate = row["airDate"] %}
-              {%- include format-date.html date=airDate -%}
-            </i>
-        </td>
-        <td>
-          {%- include chip-amount.html chipAmount=buyIn -%}
-        </td>
-        <td>
-          {%- include chip-range.html amounts=bets -%}
-        </td>
-        <td>
-          ${%- include format-number.html number=systemBets -%}
-        </td>
-        <td>
-          {%- include win-loss-amount.html amount=systemExpectedLoss places=2 -%}
+          {%- assign totalAmountBet = totalAmountBet | plus: systemBets -%}
+          {%- assign totalLiveResults = totalLiveResults | plus: systemWinLoss -%}
+          {%- assign totalExpectedLoss = totalExpectedLoss | plus: systemExpectedLoss -%}
+      
+          {%- assign buyIn = row["buyIn"] | times: 1 -%}
+          {%- assign bets = row["bets"] -%}
 
-          {%- if evPercent < -5.261 or evPercent > -5.259 -%}
-            <br/><i class="small">({{- evPercent | round: 2 -}}%)</i>
-          {%- endif -%}
-        </td>
-        <td>
-          ${%- include format-number.html number=systemCompValue places=2 -%}
-        </td>
-        <td>
-          {%- include win-loss-amount.html amount=systemWinLoss -%}
-        </td>
-        <td>
-          {%- include ceg-system-rating.html rating=rating showRatingLetter=true -%}
-        </td>
-        <td>
-          {%- include ceg-system-rating.html rating=jackaceRating showRatingLetter=true -%}
-        </td>
-        <td>
-          {%- if row['jackaceVideoUrl'] -%}
+          {%- assign betSizes = bets.size -%}
+          {%- assign evPercent = systemExpectedLoss | times: 100 | divided_by: systemBets -%}
+          {%- assign rating = row["rating"] -%}
+          {%- assign jackaceRating = row["jackaceRating"] -%}
 
-            <a href="{{row['jackaceVideoUrl']}}" target="jackacereview"><img src="{{site.baseurl}}/assets/img/icons/youtube-24x24.png" alt="YouTube" title="YouTube" /></a>
+          <tr>
+            <td>
+              {% if row["reviewUrl"] %}
+                <a href="{{site.baseurl}}/gambling/roulette/systems/{{row['reviewUrl']}}/">{{ row["name"] }}</a>
+              {% else %}
+                {{ row["name"] }}
+              {% endif %}
+              &nbsp;
+              <br/>
+              <a href="{{row['youtubeUrl']}}"><img src="{{site.baseurl}}/assets/img/icons/youtube-24x24.png" alt="YouTube" title="YouTube" /></a>
+                <i class="airDate">
+                  {% assign airDate = row["airDate"] %}
+                  {%- include format-date.html date=airDate -%}
+                </i>
+            </td>
+            <td>
+              {%- include chip-amount.html chipAmount=buyIn -%}
+            </td>
+            <td>
+              {%- include chip-range.html amounts=bets -%}
+            </td>
+            <td>
+              ${%- include format-number.html number=systemBets -%}
+            </td>
+            <td>
+              {%- include win-loss-amount.html amount=systemExpectedLoss places=2 -%}
 
-          {%- endif -%}
+              {%- if evPercent < -5.261 or evPercent > -5.259 -%}
+                <br/><i class="small">({{- evPercent | round: 2 -}}%)</i>
+              {%- endif -%}
+            </td>
+            <td>
+              ${%- include format-number.html number=systemCompValue places=2 -%}
+            </td>
+            <td>
+              {%- include win-loss-amount.html amount=systemWinLoss -%}
+            </td>
+            <td>
+              {%- include ceg-system-rating.html rating=rating showRatingLetter=true -%}
+            </td>
+            <td>
+              {%- include ceg-system-rating.html rating=jackaceRating showRatingLetter=true -%}
+            </td>
+            <td>
+              {%- if row['jackaceVideoUrl'] -%}
 
-        </td>
-      </tr>
-    {% endfor %}
+                <a href="{{row['jackaceVideoUrl']}}" target="jackacereview"><img src="{{site.baseurl}}/assets/img/icons/youtube-24x24.png" alt="YouTube" title="YouTube" /></a>
+
+              {%- endif -%}
+
+            </td>
+          </tr>
+
+        {% endif %}
+      {% endfor %}
   </tbody>
   <tfoot>
     <tr>

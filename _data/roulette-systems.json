@@ -1,5 +1,110 @@
 [
   {
+    "name": "Economy Star Destroyer ⭐",
+    "airDate": "2023-03-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mPg9DUv8rIQ",
+    "reviewUrl": "2023-03-08-Economy-Star-Destroyer",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png"
+    ],
+    "buyIn": 400,
+    "bets": [
+      200,
+      200
+    ],
+    "rating": "a",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "Walk when you're up 5 units ($125)",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 200,
+        "result": 25,
+        "time": "1:18"
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 200,
+        "result": 25,
+        "time": "1:51"
+      },
+      {
+        "spin": 3,
+        "number": "28",
+        "amountBet": 200,
+        "result": 25,
+        "time": "2:31"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 200,
+        "result": 25,
+        "time": "3:06"
+      },
+      {
+        "spin": 5,
+        "number": "1",
+        "amountBet": 200,
+        "result": 100,
+        "time": "3:44"
+      },
+      {
+        "spin": 6,
+        "number": "27",
+        "amountBet": 200,
+        "result": 25,
+        "time": "4:37"
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 200,
+        "result": 25,
+        "time": "5:15"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 200,
+        "result": 25,
+        "time": "5:47"
+      },
+      {
+        "spin": 9,
+        "number": "17",
+        "amountBet": 200,
+        "result": 25,
+        "time": "6:31"
+      },
+      {
+        "spin": 10,
+        "number": "33",
+        "amountBet": 200,
+        "result": 25,
+        "time": "7:22"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 200,
+        "result": -200,
+        "time": "8:08"
+      },
+      {
+        "spin": 12,
+        "number": "26",
+        "amountBet": 200,
+        "result": 25,
+        "time": "8:59"
+      }
+    ]
+  },
+  {
     "name": "Lust Enhancer ❤️‍🔥❤️‍🔥",
     "airDate": "2023-03-06",
     "youtubeUrl": "https://www.youtube.com/watch?v=IHCKOrHkCCw",
