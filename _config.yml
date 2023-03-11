@@ -12,7 +12,8 @@ google_analytics: G-0HYRRBTEVY
 # old? G-0HYRRBTEVY
 
 # Google Adsense
-google_adsense: ca-pub-6195512053653719
+#google_adsense: ca-pub-6195512053653719 #old individual adsense account
+google_adsense: pub-5831288475713424 #new business adsense account
 
 contact:
   url: https://github.com/JackAce
