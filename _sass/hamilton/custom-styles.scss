@@ -86,6 +86,89 @@ blockquote {
     font-weight: bold;
     font-size: larger;
 }
+
+.rating {
+    margin: 0px;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    display: inline-block;
+}
+.rating-a {
+    background-image: url('/assets/img/systems/ratings/a-30x30.png');
+}
+.rating-b {
+    background-image: url('/assets/img/systems/ratings/b-30x30.png');
+}
+.rating-c {
+    background-image: url('/assets/img/systems/ratings/c-30x30.png');
+}
+.rating-d {
+    background-image: url('/assets/img/systems/ratings/d-30x30.png');
+}
+.rating-f {
+    background-image: url('/assets/img/systems/ratings/f-30x30.png');
+}
+
+.chip {
+    margin: 0px;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+.chip-1 {
+    background-image: url('/assets/img/chips/chip-1-blank-30x30.png');
+}
+.chip-5 {
+    background-image: url('/assets/img/chips/chip-5-blank-30x30.png');
+}
+.chip-25 {
+    background-image: url('/assets/img/chips/chip-25-blank-30x30.png');
+}
+.chip-100 {
+    background-image: url('/assets/img/chips/chip-100-blank-30x30.png');
+}
+.chip-500 {
+    background-image: url('/assets/img/chips/chip-500-blank-30x30.png');
+}
+.chip-1000 {
+    background-image: url('/assets/img/chips/chip-1000-blank-30x30.png');
+}
+
+// For system data table
+#systemTable_wrapper {
+    select {
+        background-color: #ccc;
+        font-size: 12px;
+    }
+    input {
+        background-color: #ccc;
+        font-size: 12px;
+    }
+    tr:nth-child(even) {
+        background-color: #222;
+    }
+
+    td {
+        font-size: 16px;
+        text-align: center;
+    }
+    th {
+        font-size: 16px;
+    }
+    a.airDate {
+        color: #aaedf8;
+        font-size: 12px;
+        text-decoration: italic;
+    }
+}
+
 .p-center {
     text-align: center;
 }
