@@ -131,9 +131,6 @@ title: Roulette System Catalog
           {
             data: 'rating',
             render: function (data, type, row, meta) {
-              if (!data) {
-                return '';
-              }
               return '<span class="rating rating-' + data + '" >' + data.toUpperCase() + '</span>'
             },
             defaultContent: '--'
