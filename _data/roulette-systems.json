@@ -1,5 +1,74 @@
 [
   {
+    "name": "Combo Minimization",
+    "airDate": "2023-03-13",
+    "youtubeUrl": "https://www.youtube.com/watch?v=T63sOSeE4aE",
+    "reviewUrl": "2023-03-13-Combo-Minimization",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 145,
+    "bets": [
+      145
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "One Bullet? That's pretty lame.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "7",
+        "amountBet": 145,
+        "result": 5,
+        "time": "2:07"
+      },
+      {
+        "spin": 2,
+        "number": "16",
+        "amountBet": 145,
+        "result": -145,
+        "time": "3:07",
+        "notes": "So Alex had to buy in for another $300 after this whack."
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 145,
+        "result": 50,
+        "time": "4:46"
+      },
+      {
+        "spin": 4,
+        "number": "12",
+        "amountBet": 145,
+        "result": 5,
+        "time": "5:52"
+      },
+      {
+        "spin": 5,
+        "number": "19",
+        "amountBet": 145,
+        "result": -145,
+        "time": "7:07"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 145,
+        "result": 95,
+        "time": "8:19"
+      },
+      {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 145,
+        "result": 5,
+        "time": "9:17"
+      }
+    ]
+  },
+  {
     "name": "Own the Wheel",
     "airDate": "2023-03-09",
     "youtubeUrl": "https://www.youtube.com/watch?v=yHzdvKApTJ8",

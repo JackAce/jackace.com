@@ -60,12 +60,6 @@ layout: page-no-sidebar
         Total amount<br/>Wagered
       </th>
       <th>
-        Expected<br/>Loss
-      </th>
-      <th>
-        Comp<br>Value
-      </th>
-      <th>
         Actual<br/>Results
       </th>
       <th>
@@ -193,16 +187,7 @@ layout: page-no-sidebar
             <td>
               ${%- include format-number.html number=systemBets -%}
             </td>
-            <td>
-              {%- include win-loss-amount.html amount=systemExpectedLoss places=2 -%}
 
-              {%- if evPercent < -5.261 or evPercent > -5.259 -%}
-                <br/><i class="small">({{- evPercent | round: 2 -}}%)</i>
-              {%- endif -%}
-            </td>
-            <td>
-              ${%- include format-number.html number=systemCompValue places=2 -%}
-            </td>
             <td>
               {%- include win-loss-amount.html amount=systemWinLoss -%}
             </td>
@@ -231,20 +216,14 @@ layout: page-no-sidebar
         &nbsp;
       </th>
       <th>
-        &nbsp;
+        Total Expected<br/>
+        Loss
       </th>
       <th>
         &nbsp;
       </th>
       <th>
         Total Bets
-      </th>
-      <th>
-        Total Expected<br/>
-        Loss
-      </th>
-      <th>
-        &nbsp;
       </th>
       <th>
         Total<br/>
@@ -265,19 +244,13 @@ layout: page-no-sidebar
         &nbsp;
       </td>
       <td>
-        &nbsp;
+        {%- include win-loss-amount.html amount=totalExpectedLoss places=2 -%}
       </td>
       <td>
         &nbsp;
       </td>
       <td>
         ${%- include format-number.html number=totalAmountBet -%}
-      </td>
-      <td>
-        {%- include win-loss-amount.html amount=totalExpectedLoss places=2 -%}
-      </td>
-      <td>
-        &nbsp;
       </td>
       <td>
         {%- include win-loss-amount.html amount=totalLiveResults -%}
