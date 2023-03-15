@@ -46,15 +46,19 @@ title: Roulette System Catalog
     $('#systemTable').DataTable( {
       data:  dataTableData,
       pageLength: 10,
-      order: [ [ 0, 'desc' ] ],
+      order: [ [ 1, 'desc' ] ],
       columns: [
           {
             data: 'airDate',
             
             render: function (data, type, row, meta) {
-                return '<a href="/gambling/roulette/systems/' + row.reviewUrl + '">' + row.name + '</a>'
-                + '<br/>'
-                + '<a href="' + row.youtubeUrl + '" class="airDate" target="_blank"><img src="/assets/img/icons/youtube-24x24.png" />&nbsp;' + row.airDate + '</a>';
+                return '<a href="/gambling/roulette/systems/' + row.reviewUrl + '">' + row.name + '</a>';
+            }
+          },
+          {
+            data: 'airDate',
+            render: function (data, type, row, meta) {
+              return '<a href="' + row.youtubeUrl + '" class="airDate" target="_blank"><img src="/assets/img/icons/youtube-24x24.png" />&nbsp;' + row.airDate + '</a>';
             }
           },
           {
@@ -173,6 +177,9 @@ title: Roulette System Catalog
       <tr>
         <th>
           System
+        </th>
+        <th>
+          Air Date
         </th>
         <th>
           Buy-in
