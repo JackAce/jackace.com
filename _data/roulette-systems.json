@@ -1,5 +1,94 @@
 [
   {
+    "name": "Big Black Column",
+    "airDate": "2023-03-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=GiX97xablLs",
+    "reviewUrl": "2023-03-15-Big-Black-Column",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      220
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Walk when you hit 3 black numbers in the 19-36 range",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "25",
+        "amountBet": 220,
+        "result": -20,
+        "time": "1:21"
+      },
+      {
+        "spin": 2,
+        "number": "4",
+        "amountBet": 220,
+        "result": -220,
+        "time": "1:54"
+      },
+      {
+        "spin": 3,
+        "number": "28",
+        "amountBet": 220,
+        "result": 160,
+        "time": "2:33"
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 220,
+        "result": -20,
+        "time": "3:35"
+      },
+      {
+        "spin": 5,
+        "number": "7",
+        "amountBet": 220,
+        "result": -220,
+        "time": "4:23"
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 220,
+        "result": 205,
+        "time": "5:21"
+      },
+      {
+        "spin": 7,
+        "number": "34",
+        "amountBet": 220,
+        "result": -20,
+        "time": "5:57"
+      },
+      {
+        "spin": 8,
+        "number": "00",
+        "amountBet": 220,
+        "result": -220,
+        "time": "6:35"
+      },
+      {
+        "spin": 9,
+        "number": "36",
+        "amountBet": 220,
+        "result": -20,
+        "time": "8:07"
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 220,
+        "result": -20,
+        "time": "8:39"
+      }
+    ]
+  },
+  {
     "name": "Combo Minimization",
     "airDate": "2023-03-13",
     "youtubeUrl": "https://www.youtube.com/watch?v=T63sOSeE4aE",
