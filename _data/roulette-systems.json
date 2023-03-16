@@ -23318,7 +23318,7 @@
     ]
   },
   {
-    "name": "The Rod of Asclepius",
+    "name": "The Rod of Asclepius ⚕️",
     "airDate": "2022-01-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=tyX4-dp2Rjw",
     "reviewUrl": "2022-01-21-Rod-of-Asclepius",
@@ -23595,6 +23595,119 @@
         "number": "34",
         "amountBet": 95,
         "result": -50
+      }
+    ]
+  },
+  {
+    "name": "Squid Games 🦑",
+    "airDate": "2021-10-31",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Zk-dK4OXZO4",
+    "reviewUrl": "2021-10-31-Squid-Games",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png"
+    ],
+    "buyIn": 50,
+    "bets": [
+      50,
+      80,
+      120
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "notes": "",
+    "isJackAceReview": false,
+    "friendCount": 4,
+    "spins": [
+      {
+        "spin": 1,
+        "friend": 1,
+        "number": "14",
+        "amountBet": 50,
+        "result": 40,
+        "time": "1:36",
+        "notes": "Timmy put the $10 bet on the 00 instead of the 0-00 Split. It had no bearing on the result."
+      },
+      {
+        "spin": 2,
+        "friend": 1,
+        "number": "30",
+        "amountBet": 80,
+        "result": 40,
+        "time": "2:39"
+      },
+      {
+        "spin": 3,
+        "friend": 1,
+        "number": "6",
+        "amountBet": 120,
+        "result": 96,
+        "time": "4:41"
+      },
+      {
+        "spin": 4,
+        "friend": 2,
+        "number": "14",
+        "amountBet": 50,
+        "result": 40,
+        "time": ""
+      },
+      {
+        "spin": 5,
+        "friend": 2,
+        "number": "26",
+        "amountBet": 80,
+        "result": -80,
+        "time": "6:38"
+      },
+      {
+        "spin": 6,
+        "friend": 3,
+        "number": "18",
+        "amountBet": 50,
+        "result": 40,
+        "time": "7:23"
+      },
+      {
+        "spin": 7,
+        "friend": 3,
+        "number": "3",
+        "amountBet": 80,
+        "result": 40,
+        "time": "7:59"
+      },
+      {
+        "spin": 8,
+        "friend": 3,
+        "number": "0",
+        "amountBet": 120,
+        "result": 96,
+        "time": "9:10"
+      },
+      {
+        "spin": 9,
+        "friend": 4,
+        "number": "23",
+        "amountBet": 50,
+        "result": 40,
+        "time": "10:37"
+      },
+      {
+        "spin": 10,
+        "friend": 4,
+        "number": "4",
+        "amountBet": 80,
+        "result": 40,
+        "time": "11:18"
+      },
+      {
+        "spin": 11,
+        "friend": 4,
+        "number": "16",
+        "amountBet": 120,
+        "result": -120,
+        "time": "12:09"
       }
     ]
   },
