@@ -1,5 +1,70 @@
 [
   {
+    "name": "9 BBCs 🍆🍆🍆🍆🍆🍆🍆🍆🍆",
+    "airDate": "2023-03-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=rBsnxq_FiTU",
+    "reviewUrl": "2023-03-20-9-BBCs",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 315,
+    "bets": [
+      290,
+      500
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Cash out at +900 (9 big black chips)",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 290,
+        "result": 70,
+        "time": "1:29"
+      },
+      {
+        "spin": 2,
+        "number": "31",
+        "amountBet": 290,
+        "result": 70,
+        "time": "2:59"
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 290,
+        "result": 70,
+        "time": "3:59"
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 500,
+        "result": -500,
+        "time": "5:02",
+        "notes": "Alex bought in for another $315 after getting WHACKED here."
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 290,
+        "result": -290,
+        "time": "6:24",
+        "notes": "Alex bought in for another $315 AGAIN after getting WHACKED here."
+      },
+      {
+        "spin": 6,
+        "number": "9",
+        "amountBet": 290,
+        "result": -290,
+        "time": "7:43",
+        "notes": "Alex waved the white flag and gave up after getting WHACKED here."
+      }
+    ]
+  },
+  {
     "name": "Small Medium Large 👕",
     "airDate": "2023-03-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=gusQsQ7KmYo",
