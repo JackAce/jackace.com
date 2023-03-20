@@ -182,9 +182,32 @@ title: Roulette System Catalog
       }
     );
   }
-  //]]>
-  </script>
+//]]>
+</script>
+
+<h1>
+  {{page.title}}
+</h1>
+
+<p>
+  <a href="https://www.youtube.com/watch?v=3bbK0pxWaeU" target="_blank">
+    <img src="{{site.baseurl}}/assets/img/systems/thumbnail-300x169.png" class="pull-left-image" alt="YouTube Video: EVERY CEG ROULETTE SYSTEM!" title="YouTube Video: EVERY CEG ROULETTE SYSTEM!" />
+  </a>
+</p>
   
+{%- if page.isJackAceReview -%}
+{%- else -%}
+  <p>
+    Find your favorite Roulette system reviewed and tested by the
+    <a href="https://www.youtube.com/c/CEGDealerSchool" target="_blank">CEG Dealer School</a>
+    on their YouTube channel!
+  </p>
+
+  <p>
+    We're updating this list daily and backfilling the rest!
+  </p>
+{%- endif -%}
+
 <br/>
 <div>
   <table id="systemTable">
