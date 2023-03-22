@@ -1,5 +1,130 @@
 [
   {
+    "name": "12 Step Program",
+    "airDate": "2023-03-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Na1yIicwJFw",
+    "reviewUrl": "2023-03-22-12-Step-Program",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png"
+    ],
+    "buyIn": 800,
+    "bets": [
+      10,
+      15,
+      20,
+      30,
+      40,
+      50,
+      60,
+      75,
+      90,
+      110,
+      135,
+      165
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Go to the next step on a loss. Bet any Double Street.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "30",
+        "amountBet": 10,
+        "result": -10,
+        "time": "0:51"
+      },
+      {
+        "spin": 2,
+        "number": "11",
+        "amountBet": 15,
+        "result": -15,
+        "time": "1:23"
+      },
+      {
+        "spin": 3,
+        "number": "32",
+        "amountBet": 20,
+        "result": -20,
+        "time": "1:49"
+      },
+      {
+        "spin": 4,
+        "number": "7",
+        "amountBet": 30,
+        "result": -30,
+        "time": "2:16"
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 40,
+        "result": -40,
+        "time": "2:54"
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 50,
+        "result": 250,
+        "time": "3:22"
+      },
+      {
+        "spin": 7,
+        "number": "7",
+        "amountBet": 250,
+        "result": 125,
+        "time": "4:02",
+        "notes": "Alex bet $125 on two dozens here"
+      },
+      {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:41"
+      },
+      {
+        "spin": 9,
+        "number": "16",
+        "amountBet": 15,
+        "result": 75,
+        "time": "5:21"
+      },
+      {
+        "spin": 10,
+        "number": "22",
+        "amountBet": 80,
+        "result": -80,
+        "time": "6:05",
+        "notes": "Alex bet $40 on two dozens here."
+      },
+      {
+        "spin": 11,
+        "number": "35",
+        "amountBet": 20,
+        "result": -20,
+        "time": "6:33"
+      },
+      {
+        "spin": 12,
+        "number": "20",
+        "amountBet": 30,
+        "result": 150,
+        "time": "7:07",
+        "notes": "Alex bet $75 on two dozens here."
+      },
+      {
+        "spin": 13,
+        "number": "18",
+        "amountBet": 150,
+        "result": -150,
+        "time": "7:49"
+      }
+    ]
+  },
+  {
     "name": "9 BBCs",
     "airDate": "2023-03-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=rBsnxq_FiTU",
