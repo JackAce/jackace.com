@@ -5,7 +5,9 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=41fxGoSwJn4  ",
     "reviewUrl": "2023-03-24-Dennis-Destroyer",
     "rbaImageUrls": [
-      "00-rba-0-800x662.png"
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png"
     ],
     "buyIn": 1400,
     "bets": [
@@ -30,7 +32,8 @@
         "number": "12",
         "amountBet": 65,
         "result": -65,
-        "time": "1:25"
+        "time": "1:25",
+        "notes": "Video said -$60, but it's -$65."
       },
       {
         "spin": 3,
@@ -45,7 +48,7 @@
         "amountBet": 70,
         "result": 485, 
         "time": "3:20",
-        "notes": "THis should pay $400, not $470."
+        "notes": "This should pay $485, not $470."
       },
       {
         "spin": 5,
