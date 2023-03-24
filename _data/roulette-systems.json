@@ -1,5 +1,45 @@
 [
   {
+    "name": "Dennis Destroyer",
+    "airDate": "2023-03-24",
+    "youtubeUrl": "https://www.youtube.com/watch?v=41fxGoSwJn4  ",
+    "reviewUrl": "2023-03-24-Dennis-Destroyer",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png",
+      "00-rba-3-800x662.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      10,
+      20,
+      20,
+      20
+    ],
+    "rating": "",
+    "jackaceRating": "f",
+    "isJackAceReview": true,
+    "notes": "Sector betting for no reason at all...",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "27",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:34",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 1,
+        "result": -1,
+        "time": ""
+      }
+    ]
+  },
+  {
     "name": "Time Killer 69 ☯️",
     "airDate": "2023-03-23",
     "youtubeUrl": "https://www.youtube.com/watch?v=5CNUxZXVPjs",
