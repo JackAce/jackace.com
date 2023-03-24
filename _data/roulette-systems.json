@@ -7,19 +7,16 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png",
-      "00-rba-2-800x662.png",
-      "00-rba-3-800x662.png"
+      "00-rba-2-800x662.png"
     ],
-    "buyIn": 1000,
+    "buyIn": 1400,
     "bets": [
-      10,
-      20,
-      20,
-      20
+      65,
+      70
     ],
-    "rating": "",
+    "rating": "a",
     "jackaceRating": "f",
-    "isJackAceReview": true,
+    "isJackAceReview": false,
     "notes": "Sector betting for no reason at all...",
     "spins": [
       {
@@ -31,11 +28,55 @@
         "notes": "Blank spin"
       },
       {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 1,
-        "result": -1,
-        "time": ""
+        "spin": 2,
+        "number": "12",
+        "amountBet": 65,
+        "result": -65,
+        "time": "1:25",
+        "notes": "Video said -$60, but it's -$65."
+      },
+      {
+        "spin": 3,
+        "number": "3",
+        "amountBet": 65,
+        "result": -65,
+        "time": "2:21"
+      },
+      {
+        "spin": 4,
+        "number": "3",
+        "amountBet": 70,
+        "result": 485, 
+        "time": "3:20",
+        "notes": "This should pay $485, not $470."
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 70,
+        "result": -70,
+        "time": "4:44"
+      },
+      {
+        "spin": 6,
+        "number": "18",
+        "amountBet": 70,
+        "result": -70,
+        "time": "5:53"
+      },
+      {
+        "spin": 7,
+        "number": "18",
+        "amountBet": 70,
+        "result": 470,
+        "time": "6:20"
+      },
+      {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 70,
+        "result": 110,
+        "time": "7:36"
       }
     ]
   },
