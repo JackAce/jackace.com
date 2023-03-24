@@ -17,7 +17,7 @@
     "rating": "a",
     "jackaceRating": "f",
     "isJackAceReview": false,
-    "notes": "Sector betting for no reason at all...",
+    "notes": "Sector betting for no reason at all...Alex said he was up 'almost $700' at the end, but he did the math wrong. He had $2195 and the buy-in was $1400, so he was up $795 at the end, which is what I have in my totals.",
     "spins": [
       {
         "spin": 1,
@@ -40,7 +40,8 @@
         "number": "3",
         "amountBet": 65,
         "result": -65,
-        "time": "2:21"
+        "time": "2:21",
+        "notes": "Video said -$60, but it's -$65."
       },
       {
         "spin": 4,
