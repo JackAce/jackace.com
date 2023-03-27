@@ -1,5 +1,104 @@
 [
   {
+    "name": "Split Decision",
+    "airDate": "2023-03-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=et_vUYpPu7A",
+    "reviewUrl": "2023-03-26-Split-Decision",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 310,
+    "bets": [
+      310
+    ],
+    "rating": "",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "Every single payout was short on this video. For this reason, I'm not providing CEG's rating for this system. Alex was up $40 at the end of the video, but he should have been up $140.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "35",
+        "amountBet": 310,
+        "result": 50,
+        "time": "2:26",
+        "notes": "Video said +$40, but they should have won $50."
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 310,
+        "result": 50,
+        "time": "3:12",
+        "notes": "Video said +$40, but they should have won $50."
+      },
+      {
+        "spin": 3,
+        "number": "11",
+        "amountBet": 310,
+        "result": -310,
+        "time": "4:02",
+        "notes": "Alex bought in for another $310 because of this whack"
+      },
+      {
+        "spin": 4,
+        "number": "30",
+        "amountBet": 310,
+        "result": 50,
+        "time": "5:40",
+        "notes": "Video said +$40, but they should have won $50."
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 310,
+        "result": 50,
+        "time": "6:17",
+        "notes": "Video said +$40, but they should have won $50."
+      },
+      {
+        "spin": 6,
+        "number": "9",
+        "amountBet": 310,
+        "result": 50,
+        "time": "6:59",
+        "notes": "Video said +$40, but they should have won $50."
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 310,
+        "result": 50,
+        "time": "7:35",
+        "notes": "Video said +$30, but they should have won $50."
+      },
+      {
+        "spin": 8,
+        "number": "10",
+        "amountBet": 310,
+        "result": 50,
+        "time": "8:08",
+        "notes": "Video said +$40, but they should have won $50."
+      },
+      {
+        "spin": 9,
+        "number": "29",
+        "amountBet": 310,
+        "result": 50,
+        "time": "8:45",
+        "notes": "Video said +$40, but they should have won $50."
+      },
+      {
+        "spin": 10,
+        "number": "4",
+        "amountBet": 310,
+        "result": 50,
+        "time": "9:16",
+        "notes": "Video said +$40, but they should have won $50."
+      }
+    ]
+  },
+  {
     "name": "Success",
     "airDate": "2023-03-25",
     "youtubeUrl": "https://www.youtube.com/watch?v=xRLOc90KyZA",
