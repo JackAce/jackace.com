@@ -1,8 +1,82 @@
 [
   {
+    "name": "Success",
+    "airDate": "2023-03-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xRLOc90KyZA",
+    "reviewUrl": "2023-03-25-Success",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      30
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 30,
+        "result": 15,
+        "time": "1:06"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 30,
+        "result": 15,
+        "time": "1:41"
+      },
+      {
+        "spin": 3,
+        "number": "18",
+        "amountBet": 30,
+        "result": 15,
+        "time": "2:55"
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:46"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 30,
+        "result": 60,
+        "time": "4:42"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 30,
+        "result": -30,
+        "time": "5:35"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 30,
+        "result": 60,
+        "time": "6:31"
+      },
+      {
+        "spin": 8,
+        "number": "4",
+        "amountBet": 30,
+        "result": 15,
+        "time": "7:25"
+      }
+    ]
+  },
+  {
     "name": "Dennis Destroyer",
     "airDate": "2023-03-24",
-    "youtubeUrl": "https://www.youtube.com/watch?v=41fxGoSwJn4  ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=41fxGoSwJn4",
     "reviewUrl": "2023-03-24-Dennis-Destroyer",
     "rbaImageUrls": [
       "00-rba-0-800x662.png",
