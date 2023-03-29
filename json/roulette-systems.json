@@ -1,5 +1,180 @@
 [
   {
+    "name": "Steps of Opportunity",
+    "airDate": "2023-03-29",
+    "youtubeUrl": "https://www.youtube.com/watch?v=masmxEvn2D0",
+    "reviewUrl": "2023-03-29-Steps-of-Opportunity",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png",
+      "00-rba-3-800x662.png",
+      "00-rba-4-800x662.png"
+    ],
+    "buyIn": 200,
+    "bets": [
+      10,
+      20,
+      30,
+      40,
+      60
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "Tier 5, bet 4 corner bets around 3 center column numbers.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "15",
+        "amountBet": 10,
+        "result": 10,
+        "time": "1:01"
+      },
+      {
+        "spin": 2,
+        "number": "9",
+        "amountBet": 20,
+        "result": -20,
+        "time": "1:34"
+      },
+      {
+        "spin": 3,
+        "number": "29",
+        "amountBet": 10,
+        "result": 10,
+        "time": "2:08"
+      },
+      {
+        "spin": 4,
+        "number": "30",
+        "amountBet": 20,
+        "result": 10,
+        "time": "2:28"
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 30,
+        "result": -30,
+        "time": "2:52"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:11"
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 10,
+        "result": 10,
+        "time": "3:41"
+      },
+      {
+        "spin": 8,
+        "number": "00",
+        "amountBet": 20,
+        "result": -20,
+        "time": "4:12"
+      },
+      {
+        "spin": 9,
+        "number": "27",
+        "amountBet": 10,
+        "result": 10,
+        "time": "4:45"
+      },
+      {
+        "spin": 10,
+        "number": "8",
+        "amountBet": 20,
+        "result": -20,
+        "time": "5:17"
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 10,
+        "result": 10,
+        "time": "5:44"
+      },
+      {
+        "spin": 12,
+        "number": "21",
+        "amountBet": 20,
+        "result": 10,
+        "time": "6:08"
+      },
+      {
+        "spin": 13,
+        "number": "12",
+        "amountBet": 30,
+        "result": -30,
+        "time": "6:40"
+      },
+      {
+        "spin": 14,
+        "number": "7",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:19"
+      },
+      {
+        "spin": 15,
+        "number": "32",
+        "amountBet": 10,
+        "result": 10,
+        "time": "7:53"
+      },
+      {
+        "spin": 16,
+        "number": "4",
+        "amountBet": 20,
+        "result": -20,
+        "time": "8:35"
+      },
+      {
+        "spin": 17,
+        "number": "36",
+        "amountBet": 10,
+        "result": -10,
+        "time": "9:15"
+      },
+      {
+        "spin": 18,
+        "number": "1",
+        "amountBet": 0,
+        "result": 0,
+        "time": "9:51",
+        "notes": "Alex was done, so he stopped betting. David was betting by himself."
+      },
+      {
+        "spin": 19,
+        "number": "16",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:16"
+      },
+      {
+        "spin": 20,
+        "number": "18",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:44"
+      },
+      {
+        "spin": 21,
+        "number": "00",
+        "amountBet": 0,
+        "result": 0,
+        "time": "11:27"
+      }
+    ]
+  },
+  {
     "name": "Split Decision",
     "airDate": "2023-03-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=et_vUYpPu7A",
