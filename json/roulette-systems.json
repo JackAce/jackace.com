@@ -916,6 +916,7 @@
     "airDate": "2023-03-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=mPg9DUv8rIQ",
     "reviewUrl": "2023-03-08-Economy-Star-Destroyer",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=1sParjFA3tw",
     "rbaImageUrls": [
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
@@ -19134,12 +19135,16 @@
     "reviewUrl": "2022-03-28-MultiLevel-Martingale",
     "rbaImageUrls": [
       "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png"
+      "00-rba-1-800x440.png",
+      "00-rba-2-800x440.png",
+      "00-rba-3-800x662.png"
     ],
     "buyIn": 840,
     "bets": [
       60,
-      180
+      180,
+      540,
+      840
     ],
     "rating": "a",
     "jackaceRating": "c",
