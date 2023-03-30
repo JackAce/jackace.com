@@ -1,6 +1,150 @@
 [
   {
-    "name": "Steps of Opportunity",
+    "name": "Ride or Die 2.0 🏍️",
+    "airDate": "2023-03-30",
+    "youtubeUrl": "https://www.youtube.com/watch?v=qZ98kL67U8o",
+    "reviewUrl": "2023-03-30-Ride-or-Die-20",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png",
+      "00-rba-3-800x662.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      50,
+      150,
+      450,
+      350
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "No real criteria for walking for this video.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "27",
+        "amountBet": 50,
+        "result": 100,
+        "time": "2:37"
+      },
+      {
+        "spin": 2,
+        "number": "28",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:13"
+      },
+      {
+        "spin": 3,
+        "number": "15",
+        "amountBet": 50,
+        "result": 100,
+        "time": "3:40"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 150,
+        "result": -150,
+        "time": "4:08"
+      },
+      {
+        "spin": 5,
+        "number": "30",
+        "amountBet": 50,
+        "result": 100,
+        "time": "4:41"
+      },
+      {
+        "spin": 6,
+        "number": "9",
+        "amountBet": 150,
+        "result": -150,
+        "time": "5:13"
+      },
+      {
+        "spin": 7,
+        "number": "28",
+        "amountBet": 50,
+        "result": 100,
+        "time": "5:49"
+      },
+      {
+        "spin": 8,
+        "number": "10",
+        "amountBet": 150,
+        "result": -150,
+        "time": "6:29"
+      },
+      {
+        "spin": 9,
+        "number": "16",
+        "amountBet": 50,
+        "result": -50,
+        "time": "6:55"
+      },
+      {
+        "spin": 10,
+        "number": "28",
+        "amountBet": 50,
+        "result": -50,
+        "time": "7:16"
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 50,
+        "result": -50,
+        "time": "7:47"
+      },
+      {
+        "spin": 12,
+        "number": "15",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:25"
+      },
+      {
+        "spin": 13,
+        "number": "3",
+        "amountBet": 50,
+        "result": -50,
+        "time": "9:01"
+      },
+      {
+        "spin": 14,
+        "number": "18",
+        "amountBet": 50,
+        "result": 100,
+        "time": "9:36"
+      },
+      {
+        "spin": 15,
+        "number": "26",
+        "amountBet": 150,
+        "result": -150,
+        "time": "10:15"
+      },
+      {
+        "spin": 16,
+        "number": "34",
+        "amountBet": 50,
+        "result": 100,
+        "time": "10:46"
+      },
+      {
+        "spin": 17,
+        "number": "33",
+        "amountBet": 150,
+        "result": -150,
+        "time": "11:17"
+      }
+    ]
+  },
+  {
+    "name": "Steps of Opportunity 👣",
     "airDate": "2023-03-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=masmxEvn2D0",
     "reviewUrl": "2023-03-29-Steps-of-Opportunity",
@@ -175,7 +319,7 @@
     ]
   },
   {
-    "name": "Split Decision",
+    "name": "Split Decision 🪓",
     "airDate": "2023-03-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=et_vUYpPu7A",
     "reviewUrl": "2023-03-26-Split-Decision",
@@ -274,7 +418,7 @@
     ]
   },
   {
-    "name": "Success",
+    "name": "Success 🏆",
     "airDate": "2023-03-25",
     "youtubeUrl": "https://www.youtube.com/watch?v=xRLOc90KyZA",
     "reviewUrl": "2023-03-25-Success",
@@ -575,7 +719,7 @@
     ]
   },
   {
-    "name": "12 Step Program",
+    "name": "12 Step Program 👣",
     "airDate": "2023-03-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=Na1yIicwJFw",
     "reviewUrl": "2023-03-22-12-Step-Program",
@@ -1338,7 +1482,7 @@
     ]
   },
   {
-    "name": "Full 🔻 Tilt",
+    "name": "Full Tilt 🔻",
     "airDate": "2023-03-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=libzvtoFwIc",
     "reviewUrl": "2023-03-05-Full-Tilt",
@@ -5866,7 +6010,7 @@
     ]
   },
   {
-    "name": "Ride or Die",
+    "name": "Ride or Die 🏍️",
     "airDate": "2022-11-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=D98ilhDYbkQ",
     "reviewUrl": "ja-2022-11-29-Ride-or-Die",
