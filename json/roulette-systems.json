@@ -1,5 +1,114 @@
 [
   {
+    "name": "Chat GPT",
+    "airDate": "2023-04-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=p-xV03tB9C0",
+    "reviewUrl": "2023-04-01-Chat-GPT",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 200,
+    "bets": [
+      2,
+      5,
+      10,
+      20,
+      40,
+      80
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "You're supposed to pick two adjacent numbers. If you don't win on the first spin, then double your bets and add $1 to a number opposite one of your original 2 bets. Martingale from there. Alex was up $994, but he should have been up $996.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "27",
+        "amountBet": 2,
+        "result": -2,
+        "time": "1:44"
+      },
+      {
+        "spin": 2,
+        "number": "5",
+        "amountBet": 5,
+        "result": -5,
+        "time": "2:41",
+        "notes": "$2 + $2 + $1 bet"
+      },
+      {
+        "spin": 3,
+        "number": "23",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:23",
+        "notes": "$4 + $4 + $2 bet"
+      },
+      {
+        "spin": 4,
+        "number": "33",
+        "amountBet": 20,
+        "result": -20,
+        "time": "4:04",
+        "notes": "$8 + $8 + $4 bet"
+      },
+      {
+        "spin": 5,
+        "number": "30",
+        "amountBet": 40,
+        "result": 536,
+        "time": "4:33",
+        "notes": "$16 + $16 + $8 bet and the $16 bet hit straight-up"
+      },
+      {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 2,
+        "result": -2,
+        "time": "5:39"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 5,
+        "result": -5,
+        "time": "6:45",
+        "notes": "$2 + $2 + $1 bet"
+      },
+      {
+        "spin": 8,
+        "number": "14",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:27",
+        "notes": "$4 + $4 + $2 bet"
+      },
+      {
+        "spin": 9,
+        "number": "34",
+        "amountBet": 20,
+        "result": -20,
+        "time": "8:34",
+        "notes": "$8 + $8 + $4 bet"
+      },
+      {
+        "spin": 10,
+        "number": "19",
+        "amountBet": 40,
+        "result": 536,
+        "time": "9:19",
+        "notes": "$16 + $16 + $8 bet and the $16 bet hit straight-up"
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 2,
+        "result": -2,
+        "time": "9:59"
+      }
+    ]
+  },
+  {
     "name": "Triplets Passive Income",
     "airDate": "2023-03-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=144UmacWSkc",
