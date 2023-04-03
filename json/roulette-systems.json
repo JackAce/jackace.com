@@ -1,11 +1,75 @@
 [
   {
+    "name": "King of the Castle",
+    "airDate": "2023-04-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7xFsc6JWTbw",
+    "reviewUrl": "2023-04-03-King-of-the-Castle",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png"
+    ],
+    "buyIn": 700,
+    "bets": [
+      165,
+      330
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Martingale on a loss and reset when you hit 2x at the higher betting level.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "25",
+        "amountBet": 165,
+        "result": 30,
+        "time": "3:06"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 165,
+        "result": 30,
+        "time": "4:08"
+      },
+      {
+        "spin": 3,
+        "number": "13",
+        "amountBet": 165,
+        "result": -60,
+        "time": "4:36"
+      },
+      {
+        "spin": 4,
+        "number": "14",
+        "amountBet": 330,
+        "result": 150,
+        "time": "5:43"
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 330,
+        "result": 30,
+        "time": "6:49"
+      },
+      {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 330,
+        "result": 30,
+        "time": "8:15"
+      }
+    ]
+  },
+  {
     "name": "Chat GPT",
     "airDate": "2023-04-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=p-xV03tB9C0",
     "reviewUrl": "2023-04-01-Chat-GPT",
     "rbaImageUrls": [
-      "00-rba-0-800x662.png"
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png"
     ],
     "buyIn": 200,
     "bets": [
