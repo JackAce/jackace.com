@@ -1,5 +1,116 @@
 [
   {
+    "name": "Sequence to Success",
+    "airDate": "2023-04-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=MhDJ7f8f-l8",
+    "reviewUrl": "2023-04-05-Sequence-to-Success",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 200,
+    "bets": [
+      84
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "Alex was down $111 at the end, but he should have been down $102.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "15",
+        "amountBet": 184,
+        "result": 6,
+        "time": "1:37"
+      },
+      {
+        "spin": 2,
+        "number": "8",
+        "amountBet": 84,
+        "result": 6,
+        "time": "2:18"
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 84,
+        "result": 6,
+        "time": "3:01"
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 84,
+        "result": 6,
+        "time": "3:38"
+      },
+      {
+        "spin": 5,
+        "number": "35",
+        "amountBet": 84,
+        "result": -84,
+        "time": "4:19"
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 84,
+        "result": 6,
+        "time": "5:38"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 84,
+        "result": 6,
+        "time": "6:12"
+      },
+      {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 84,
+        "result": -84,
+        "time": "6:47",
+        "notes": "Alex bought in for another $100 here."
+      },
+      {
+        "spin": 9,
+        "number": "10",
+        "amountBet": 84,
+        "result": 6,
+        "time": "8:21"
+      },
+      {
+        "spin": 10,
+        "number": "36",
+        "amountBet": 84,
+        "result": 6,
+        "time": "9:00"
+      },
+      {
+        "spin": 11,
+        "number": "21",
+        "amountBet": 84,
+        "result": 6,
+        "time": "9:32"
+      },
+      {
+        "spin": 12  ,
+        "number": "15",
+        "amountBet": 84,
+        "result": 6,
+        "time": "10:12"
+      },
+      {
+        "spin": 13,
+        "number": "3",
+        "amountBet": 84,
+        "result": 6,
+        "time": "10:49"
+      }
+    ]
+  },
+  {
     "name": "King of the Castle 🫅🏻🏰",
     "airDate": "2023-04-03",
     "youtubeUrl": "https://www.youtube.com/watch?v=7xFsc6JWTbw",
