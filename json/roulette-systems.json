@@ -11,10 +11,10 @@
     "bets": [
       84
     ],
-    "rating": "",
+    "rating": "b",
     "jackaceRating": "c",
     "isJackAceReview": false,
-    "notes": "",
+    "notes": "Alex was down $111 at the end, but he should have been down $102.",
     "spins": [
       {
         "spin": 1,
@@ -70,7 +70,8 @@
         "number": "0",
         "amountBet": 84,
         "result": -84,
-        "time": "6:47"
+        "time": "6:47",
+        "notes": "Alex bought in for another $100 here."
       },
       {
         "spin": 9,
