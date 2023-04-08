@@ -1,5 +1,226 @@
 [
   {
+    "name": "High Roller Hustle",
+    "airDate": "2023-04-07",
+    "youtubeUrl": "https://www.youtube.com/watch?v=M2D7NwHTPPE",
+    "reviewUrl": "2023-04-07-High-Roller-Hustle",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 775,
+    "bets": [
+      775
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "You're betting on 37 numbers. Automatic F",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "12",
+        "amountBet": 775,
+        "result": 50,
+        "time": "1:57"
+      },
+      {
+        "spin": 2,
+        "number": "5",
+        "amountBet": 775,
+        "result": 50,
+        "time": "3:09"
+      },
+      {
+        "spin": 3,
+        "number": "9",
+        "amountBet": 775,
+        "result": 50,
+        "time": "3:46"
+      },
+      {
+        "spin": 4,
+        "number": "28",
+        "amountBet": 775,
+        "result": 125,
+        "time": "4:15"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 775,
+        "result": 50,
+        "time": "4:42"
+      },
+      {
+        "spin": 6,
+        "number": "14",
+        "amountBet": 775,
+        "result": 50,
+        "time": "5:08"
+      },
+      {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 775,
+        "result": 50,
+        "time": "5:29"
+      },
+      {
+        "spin": 8,
+        "number": "4",
+        "amountBet": 775,
+        "result": 125,
+        "time": "6:03"
+      },
+      {
+        "spin": 9,
+        "number": "34",
+        "amountBet": 775,
+        "result": -475,
+        "time": "6:54"
+      },
+      {
+        "spin": 10,
+        "number": "18",
+        "amountBet": 775,
+        "result": 50,
+        "time": "8:03"
+      },
+      {
+        "spin": 11,
+        "number": "33",
+        "amountBet": 775,
+        "result": 50,
+        "time": "8:41"
+      }
+    ]
+  },
+  {
+    "name": "54321",
+    "airDate": "2023-04-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=nUBQLiHnxkY",
+    "reviewUrl": "2023-04-06-54321",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png",
+      "00-rba-3-800x662.png",
+      "00-rba-4-800x662.png"
+    ],
+    "buyIn": 750,
+    "bets": [
+      125,
+      30,
+      150,
+      375,
+      590
+    ],
+    "rating": "f",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "The official title of this system might be '54321: You need large cojones to get this done'",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "14",
+        "amountBet": 125,
+        "result": -125,
+        "time": "2:09"
+      },
+      {
+        "spin": 2,
+        "number": "12",
+        "amountBet": 125,
+        "result": 25,
+        "time": "2:55"
+      },
+      {
+        "spin": 3,
+        "number": "13",
+        "amountBet": 125,
+        "result": -125,
+        "time": "3:22"
+      },
+      {
+        "spin": 4,
+        "number": "36",
+        "amountBet": 125,
+        "result": 25,
+        "time": "3:57"
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 125,
+        "result": 25,
+        "time": "4:18"
+      },
+      {
+        "spin": 6,
+        "number": "34",
+        "amountBet": 125,
+        "result": 25,
+        "time": "5:05"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 125,
+        "result": -125,
+        "time": "5:24"
+      },
+      {
+        "spin": 8,
+        "number": "12",
+        "amountBet": 125,
+        "result": 25,
+        "time": "5:59"
+      },
+      {
+        "spin": 9,
+        "number": "31",
+        "amountBet": 125,
+        "result": 25,
+        "time": "6:21"
+      },
+      {
+        "spin": 10,
+        "number": "00",
+        "amountBet": 125,
+        "result": -125,
+        "time": "6:54"
+      },
+      {
+        "spin": 11,
+        "number": "22",
+        "amountBet": 125,
+        "result": 25,
+        "time": "7:45"
+      },
+      {
+        "spin": 12,
+        "number": "6",
+        "amountBet": 125,
+        "result": 25,
+        "time": "8:21"
+      },
+      {
+        "spin": 13,
+        "number": "25",
+        "amountBet": 125,
+        "result": 25,
+        "time": "8:50"
+      },
+      {
+        "spin": 14,
+        "number": "0",
+        "amountBet": 125,
+        "result": -125,
+        "time": "9:26"
+      }
+    ]
+  },
+  {
     "name": "Sequence to Success",
     "airDate": "2023-04-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=MhDJ7f8f-l8",
@@ -28,7 +249,8 @@
         "number": "8",
         "amountBet": 84,
         "result": 6,
-        "time": "2:18"
+        "time": "2:18",
+        "notes": "Alex asked for $3 here even though he should have won $6. He miscalculated the wins in the center column."
       },
       {
         "spin": 3,
@@ -56,7 +278,8 @@
         "number": "20",
         "amountBet": 84,
         "result": 6,
-        "time": "5:38"
+        "time": "5:38",
+        "notes": "Alex asked for $3 here even though he should have won $6."
       },
       {
         "spin": 7,
