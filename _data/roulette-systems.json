@@ -1,5 +1,77 @@
 [
   {
+    "name": "It's all about the Wheel",
+    "airDate": "2023-04-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=nwPWc6HCIhA",
+    "reviewUrl": "2023-04-10-Its-all-about-the-Wheel",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      160,
+      150
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "'Walk away when you're up $500 or down $500' according to the author... So then why is the buy-in $1000?",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "9",
+        "amountBet": 150,
+        "result": 30,
+        "time": "1:46",
+        "notes": "Alex didn't bet the 25-28 Split, so he made more money than he was supposed to."
+      },
+      {
+        "spin": 2,
+        "number": "6",
+        "amountBet": 150,
+        "result": -150,
+        "time": "2:35",
+        "notes": "Alex didn't bet the 25-28 Split, so he lost less money than he was supposed to."
+      },
+      {
+        "spin": 3,
+        "number": "1",
+        "amountBet": 160,
+        "result": 200,
+        "time": "3:36"
+      },
+      {
+        "spin": 4,
+        "number": "36",
+        "amountBet": 160,
+        "result": 20,
+        "time": "5:04"
+      },
+      {
+        "spin": 5,
+        "number": "20",
+        "amountBet": 160,
+        "result": 50,
+        "time": "6:10"
+      },
+      {
+        "spin": 6,
+        "number": "4",
+        "amountBet": 160,
+        "result": 20,
+        "time": "7:22"
+      },
+      {
+        "spin": 7,
+        "number": "13",
+        "amountBet": 160,
+        "result": 65,
+        "time": "8:35"
+      }
+    ]
+  },
+  {
     "name": "High Roller Hustle",
     "airDate": "2023-04-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=M2D7NwHTPPE",
