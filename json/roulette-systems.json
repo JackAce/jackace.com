@@ -1,5 +1,87 @@
 [
   {
+    "name": "Step-Sister's Secret System",
+    "airDate": "2023-04-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=UmHUaYJ5FlU",
+    "reviewUrl": "2023-04-12-Step-Sisters-Secret-System",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png",
+      "00-rba-3-800x662.png"
+    ],
+    "buyIn": 250,
+    "bets": [
+      25,
+      50,
+      70,
+      100
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "'Walk away when you're up $500 or down $500' according to the author... So then why is the buy-in $1000?",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "17",
+        "amountBet": 25,
+        "result": 25,
+        "time": "1:28"
+      },
+      {
+        "spin": 2,
+        "number": "13",
+        "amountBet": 50,
+        "result": 40,
+        "time": "2:20"
+      },
+      {
+        "spin": 3,
+        "number": "20",
+        "amountBet": 70,
+        "result": 35,
+        "time": "3:11"
+      },
+      {
+        "spin": 4,
+        "number": "13",
+        "amountBet": 100,
+        "result": 80,
+        "time": "4:30",
+        "notes": "Hand model paid Alex $180, but he should have paid him $175"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 25,
+        "result": -25,
+        "time": "5:39"
+      },
+      {
+        "spin": 6,
+        "number": "6",
+        "amountBet": 25,
+        "result": 25,
+        "time": "6:13"
+      },
+      {
+        "spin": 7,
+        "number": "1",
+        "amountBet": 50,
+        "result": -50,
+        "time": "7:04"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:05"
+      }
+    ]
+  },
+  {
     "name": "It's all about the Wheel",
     "airDate": "2023-04-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=nwPWc6HCIhA",
