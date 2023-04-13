@@ -1,5 +1,121 @@
 [
   {
+    "name": "Martin and Gale's College Fund",
+    "airDate": "2023-04-13",
+    "youtubeUrl": "https://www.youtube.com/watch?v=eRFHE6zWdyM",
+    "reviewUrl": "2023-04-13-Martin-and-Gales-College-Fund",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 1600,
+    "bets": [
+      25,
+      50,
+      100,
+      200,
+      400,
+      800
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "There must have been some mispayments in this one.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "31",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:29"
+      },
+      {
+        "spin": 2,
+        "number": "4",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:07"
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:51"
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 200,
+        "result": -200,
+        "time": "3:47"
+      },
+      {
+        "spin": 5,
+        "number": "34",
+        "amountBet": 400,
+        "result": -400,
+        "time": "4:44"
+      },
+      {
+        "spin": 6,
+        "number": "14",
+        "amountBet": 800,
+        "result": 640,
+        "time": "5:41"
+      },
+      {
+        "spin": 7,
+        "number": "13",
+        "amountBet": 25,
+        "result": 20,
+        "time": "6:55"
+      },
+      {
+        "spin": 8,
+        "number": "3",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:06"
+      },
+      {
+        "spin": 9,
+        "number": "12",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:44"
+      },
+      {
+        "spin": 10,
+        "number": "26",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:33"
+      },
+      {
+        "spin": 11,
+        "number": "23",
+        "amountBet": 200,
+        "result": -200,
+        "time": "10:03"
+      },
+      {
+        "spin": 12,
+        "number": "31",
+        "amountBet": 400,
+        "result": -400,
+        "time": "11:27"
+      },
+      {
+        "spin": 13,
+        "number": "28",
+        "amountBet": 710,
+        "result": -710,
+        "time": "12:28",
+        "notes": "I'm not sure what Alex's exact bet was here, but we know he yolo'ed what he had. It sounded like he didn't bet the full $160 on the 32 straight up bet, but he should have short changed the bet by $90 and only bet a total of $710."
+      }
+    ]
+  },
+  {
     "name": "Step-Sister's Secret System",
     "airDate": "2023-04-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=UmHUaYJ5FlU",
