@@ -1,5 +1,265 @@
 [
   {
+    "name": "Fortune Teller",
+    "airDate": "2023-04-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_31lMUeu0a0",
+    "reviewUrl": "2023-04-17-Fortune-Teller",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png",
+      "00-rba-2-800x662.png",
+      "00-rba-3-800x662.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Martingale on a full loss. Alternate the color bet on a miss. Walk when you get 'asked to leave' or when you go broke.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "6",
+        "amountBet": 30,
+        "result": 10,
+        "time": "1:28"
+      },
+      {
+        "spin": 2,
+        "number": "16",
+        "amountBet": 30,
+        "result": 0,
+        "time": "2:12"
+      },
+      {
+        "spin": 3,
+        "number": "20",
+        "amountBet": 30,
+        "result": 40,
+        "time": "2:57"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 30,
+        "result": 10,
+        "time": "3:36"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 30,
+        "result": 10,
+        "time": "4:13"
+      },
+      {
+        "spin": 6,
+        "number": "00",
+        "amountBet": 30,
+        "result": -30,
+        "time": "4:49"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 60,
+        "result": 0,
+        "time": "5:22"
+      },
+      {
+        "spin": 8,
+        "number": "36",
+        "amountBet": 60,
+        "result": 20,
+        "time": "5:53"
+      },
+      {
+        "spin": 9,
+        "number": "26",
+        "amountBet": 60,
+        "result": -60,
+        "time": "6:37",
+        "notes": "I think Alex was suppposed to reset back to the $30 bet here."
+      },
+      {
+        "spin": 10,
+        "number": "26",
+        "amountBet": 120,
+        "result": 40,
+        "time": "7:21"
+      },
+      {
+        "spin": 11,
+        "number": "31",
+        "amountBet": 30,
+        "result": -30,
+        "time": "8:09"
+      },
+      {
+        "spin": 12,
+        "number": "36",
+        "amountBet": 60,
+        "result": -60,
+        "time": "8:44"
+      },
+      {
+        "spin": 13,
+        "number": "21",
+        "amountBet": 120,
+        "result": 160,
+        "time": "9:06"
+      }
+    ]
+  },
+  {
+    "name": "Chat GPT 2",
+    "airDate": "2023-04-16",
+    "youtubeUrl": "https://www.youtube.com/watch?v=E5FZmzaoX1s",
+    "reviewUrl": "2023-04-16-Chat-GPT-2",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png",
+      "00-rba-1-800x662.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      200,
+      200
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "David didn't like Chat GPT's system, so he mixed it up after spin 11. It was somewhat difficult to see why our payouts differed, so the ending total is off by about $20.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "12",
+        "amountBet": 200,
+        "result": -200,
+        "time": "2:05"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 200,
+        "result": 0,
+        "time": "3:07"
+      },
+      {
+        "spin": 3,
+        "number": "18",
+        "amountBet": 200,
+        "result": 100,
+        "time": "3:46",
+        "notes": "They should have won $100 here, not $50 as the video showed."
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 200,
+        "result": 0,
+        "time": "4:31"
+      },
+      {
+        "spin": 5,
+        "number": "27",
+        "amountBet": 200,
+        "result": 0,
+        "time": "5:11"
+      },
+      {
+        "spin": 6,
+        "number": "14",
+        "amountBet": 200,
+        "result": 100,
+        "time": "5:46",
+        "notes": "They should have won $100 here, not $50 as the video showed."
+      },
+      {
+        "spin": 7,
+        "number": "20",
+        "amountBet": 200,
+        "result": 0,
+        "time": "6:33"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 200,
+        "result": 100,
+        "time": "7:03"
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 200,
+        "result": 0,
+        "time": "7:53"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 200,
+        "result": 0,
+        "time": "8:19"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 200,
+        "result": -200,
+        "time": "8:47"
+      },
+      {
+        "spin": 12,
+        "number": "7",
+        "amountBet": 195,
+        "result": 75,
+        "time": "10:45",
+        "notes": "David started mixing up his bets here. He should have won $75 here, but the video said +$115"
+      },
+      {
+        "spin": 13,
+        "number": "23",
+        "amountBet": 200,
+        "result": 10,
+        "time": "11:43"
+      },
+      {
+        "spin": 14,
+        "number": "23",
+        "amountBet": 200,
+        "result": 10,
+        "time": "12:22"
+      },
+      {
+        "spin": 15,
+        "number": "32",
+        "amountBet": 200,
+        "result": 10,
+        "time": "13:08"
+      },
+      {
+        "spin": 16,
+        "number": "30",
+        "amountBet": 200,
+        "result": 10,
+        "time": "14:06"
+      },
+      {
+        "spin": 17,
+        "number": "23",
+        "amountBet": 200,
+        "result": 10,
+        "time": "14:50"
+      }
+    ]
+  },
+  {
     "name": "Red Rocket Fizz 🚀💦",
     "airDate": "2023-04-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=SfxBXaIjQ5E",
