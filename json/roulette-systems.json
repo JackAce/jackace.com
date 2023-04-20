@@ -1,5 +1,92 @@
 [
   {
+    "name": "Triple Penetration 🍆🍆🍆",
+    "airDate": "2023-04-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xfJZlULuAc4",
+    "reviewUrl": "2023-04-20-Triple-Penetration",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 2000,
+    "bets": [
+      15,
+      30,
+      60,
+      120,
+      240,
+      480
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "30",
+        "amountBet": 15,
+        "result": -15,
+        "time": "1:29"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 15,
+        "result": -15,
+        "time": "2:10"
+      },
+      {
+        "spin": 3,
+        "number": "00",
+        "amountBet": 15,
+        "result": -15,
+        "time": "2:58"
+      },
+      {
+        "spin": 4,
+        "number": "2",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:30"
+      },
+      {
+        "spin": 5,
+        "number": "10",
+        "amountBet": 30,
+        "result": -30,
+        "time": "4:28"
+      },
+      {
+        "spin": 6,
+        "number": "10",
+        "amountBet": 60,
+        "result": -60,
+        "time": "5:05"
+      },
+      {
+        "spin": 7,
+        "number": "31",
+        "amountBet": 120,
+        "result": 360,
+        "time": "5:58"
+      },
+      {
+        "spin": 8,
+        "number": "36",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:08"
+      },
+      {
+        "spin": 9,
+        "number": "17",
+        "amountBet": 15,
+        "result": 45,
+        "time": "7:43"
+      }
+    ]
+  },
+  {
     "name": "Ultimate Ball Squeeze ⚽⚾🎾",
     "airDate": "2023-04-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=3-o4UWc7kWQ",
@@ -4956,6 +5043,7 @@
     "rating": "a",
     "jackaceRating": "c",
     "isJackAceReview": false,
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=GmiZJ3VzKys",
     "notes": "A mild positive progressive betting system. You basically increase your potential win by $5 on each win, except for the 6th step, where you increase it by 10.",
     "spins": [
       {
