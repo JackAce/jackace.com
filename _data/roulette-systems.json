@@ -1,5 +1,155 @@
 [
   {
+    "name": "All in Beast",
+    "airDate": "2023-04-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=KeE-jTkmTTw",
+    "reviewUrl": "2023-04-26-All-in-Beast",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 225,
+    "bets": [
+      225,
+      450,
+      900
+    ],
+    "rating": "",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "00",
+        "amountBet": 225,
+        "result": -225,
+        "time": "1:18"
+      },
+      {
+        "spin": 2,
+        "number": "17",
+        "amountBet": 225,
+        "result": 0,
+        "time": "1:59",
+        "notes": "Alex bought in for another $225."
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 225,
+        "result": -225,
+        "time": "2:29"
+      },
+      {
+        "spin": 4,
+        "number": "4",
+        "amountBet": 450,
+        "result": 0,
+        "time": "3:15",
+        "notes": "Alex bought in AGAIN for another $450 and Martingaled."
+      },
+      {
+        "spin": 5,
+        "number": "16",
+        "amountBet": 225,
+        "result": 0,
+        "time": "3:45"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 450,
+        "result": -450,
+        "time": "4:12"
+      },
+      {
+        "spin": 7,
+        "number": "5",
+        "amountBet": 900,
+        "result": 0,
+        "time": "5:01",
+        "notes": "Alex bought in AGAIN for another $900 and Martingaled."
+      },
+      {
+        "spin": 8,
+        "number": "25",
+        "amountBet": 900,
+        "result": 100,
+        "time": "5:24"
+      },
+      { 
+        "spin": 9,
+        "number": "31",
+        "amountBet": 900,
+        "result": 100,
+        "time": "5:51"
+      },
+      {
+        "spin": 10,
+        "number": "36",
+        "amountBet": 900,
+        "result": 100,
+        "time": "6:16"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 900,
+        "result": 100,
+        "time": "6:38"
+      },
+      {
+        "spin": 12,
+        "number": "30",
+        "amountBet": 900,
+        "result": 100,
+        "time": "7:06"
+      },
+      {
+        "spin": 13,
+        "number": "31",
+        "amountBet": 900,
+        "result": 100,
+        "time": "7:36"
+      },
+      {
+        "spin": 14,
+        "number": "1",
+        "amountBet": 900,
+        "result": 0,
+        "time": "7:57"
+      },
+      {
+        "spin": 15,
+        "number": "34",
+        "amountBet": 900,
+        "result": 100,
+        "time": "8:12"
+      },
+      {
+        "spin": 16,
+        "number": "1",
+        "amountBet": 900,
+        "result": 0,
+        "time": "8:34"
+      },
+      {
+        "spin": 17,
+        "number": "22",
+        "amountBet": 900,
+        "result": 100,
+        "time": "8:59"
+      },
+      {
+        "spin": 18,
+        "number": "19",
+        "amountBet": 900,
+        "result": 100,
+        "time": "9:30"
+      }
+    ]
+  },
+  {
     "name": "Bias 2",
     "airDate": "2023-04-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=wde5pwX_608",
