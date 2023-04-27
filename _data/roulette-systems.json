@@ -1,5 +1,142 @@
 [
   {
+    "name": "OCDPMS",
+    "airDate": "2023-04-27",
+    "youtubeUrl": "https://www.youtube.com/watch?v=yxx1XaSvzE8",
+    "reviewUrl": "2023-04-27-OCDPMS",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 1275,
+    "bets": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Bet Red, Black, Red, Red, Black, Black...even though it makes no difference which Even Money bets you make. Martingale at that starting bet and then return to the progression.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "32",
+        "amountBet": 5,
+        "result": 5,
+        "time": "1:42"
+      },
+      {
+        "spin": 2,
+        "number": "22",
+        "amountBet": 10,
+        "result": 10,
+        "time": "2:04"
+      },
+      {
+        "spin": 3,
+        "number": "20",
+        "amountBet": 15,
+        "result": -15,
+        "time": "2:33",
+        "notes": "Video said -20, but it was -15"
+      },
+      {
+        "spin": 4,
+        "number": "00",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:12"
+      },
+      {
+        "spin": 5,
+        "number": "33",
+        "amountBet": 60,
+        "result": 60,
+        "time": "3:35"
+      },
+      {
+        "spin": 6,
+        "number": "29",
+        "amountBet": 20,
+        "result": 20,
+        "time": "4:00"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 25,
+        "result": 25, 
+        "time": "4:16"
+      },
+      {
+        "spin": 8,
+        "number": "5",
+        "amountBet": 5,
+        "result": -5,
+        "time": "4:42"
+      },
+      {
+        "spin": 9,
+        "number": "14",
+        "amountBet": 10,
+        "result": 10,
+        "time": "5:01"
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 15,
+        "result": 15,
+        "time": "5:18"
+      },
+      {
+        "spin": 11,
+        "number": "29",
+        "amountBet": 20,
+        "result": 20,
+        "time": "5:51"
+      },
+      {
+        "spin": 12,
+        "number": "00",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:24",
+        "notes": "Alex lost $25, but the video said -$20"
+      },
+      {
+        "spin": 13,
+        "number": "20",
+        "amountBet": 50,
+        "result": -50,
+        "time": "7:10"
+      },
+      {
+        "spin": 14,
+        "number": "1",
+        "amountBet": 100,
+        "result": -100,
+        "time": "7:59"
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 200,
+        "result": -200,
+        "time": "8:31"
+      },
+      {
+        "spin": 16,
+        "number": "14",
+        "amountBet": 400,
+        "result": 400,
+        "time": "9:05"
+      }
+    ]
+  },
+  {
     "name": "All in Beast 👹",
     "airDate": "2023-04-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=KeE-jTkmTTw",
@@ -16,7 +153,7 @@
     "rating": "b",
     "jackaceRating": "c",
     "isJackAceReview": false,
-    "notes": "Alex ",
+    "notes": "",
     "spins": [
       {
         "spin": 1,
