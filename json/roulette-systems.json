@@ -1,5 +1,192 @@
 [
   {
+    "name": "DTF Comps",
+    "airDate": "2023-04-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=PLeeCtSHozM",
+    "reviewUrl": "2023-04-28-DTF-Comps",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      325
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 325,
+        "result": -325,
+        "time": "1:15"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 325,
+        "result": 125,
+        "time": "2:01"
+      },
+      {
+        "spin": 3,
+        "number": "11",
+        "amountBet": 325,
+        "result": -325,
+        "time": "2:28"
+      },
+      {
+        "spin": 4,
+        "number": "22",
+        "amountBet": 325,
+        "result": 125,
+        "time": "3:05"
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 325,
+        "result": 125,
+        "time": "3:45"
+      },
+      {
+        "spin": 6,
+        "number": "29",
+        "amountBet": 325,
+        "result": -325,
+        "time": "4:16"
+      },
+      {
+        "spin": 7,
+        "number": "5",
+        "amountBet": 325,
+        "result": 125,
+        "time": "5:02"
+      },
+      {
+        "spin": 8,
+        "number": "25",
+        "amountBet": 325,
+        "result": -325,
+        "time": "5:46"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 325,
+        "result": -325,
+        "time": "6:30"
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 325,
+        "result": -325,
+        "time": "7:13"
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 325,
+        "result": -1,
+        "time": ""
+      }
+    ]
+  },
+  {
     "name": "OCDPMS",
     "airDate": "2023-04-27",
     "youtubeUrl": "https://www.youtube.com/watch?v=yxx1XaSvzE8",
