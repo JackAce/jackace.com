@@ -165,9 +165,9 @@ function updateChart() {
     }
     let canvas = document.createElement('canvas');
     canvas.setAttribute('id', 'outcomeGraph');
-    canvas.setAttribute('width', '725');
-    canvas.setAttribute('min-width', '725');
-    canvas.setAttribute('max-width', '725');
+    canvas.setAttribute('width', '825');
+    canvas.setAttribute('min-width', '825');
+    canvas.setAttribute('max-width', '825');
     canvas.setAttribute('height', '200');
     canvas.setAttribute('min-height', '200');
     canvas.setAttribute('max-height', '200');
@@ -191,16 +191,31 @@ function updateChart() {
 
     lossesAndWins.sort(compareFn);
 
-    let graphData = [0];
+    let labels = [];
+    let graphData = [];
+    let backgroundColors = [];
     let counter = 0;
+    let worstLoss = 0;
+    if (lossesAndWins.length > 0) {
+        worstLoss = lossesAndWins[0];
+    }
     for (let i = 0; i < lossesAndWins.length; i++) {
         counter += lossesAndWins[i];
-        graphData.push(lossesAndWins[i]);
-    }
-
-    let labels = ["Start"];
-    for (let i = 1; i < lossesAndWins.length + 1; i++) {
         labels.push(i);
+        graphData.push(lossesAndWins[i]);
+
+        if (lossesAndWins[i] === worstLoss) {
+            // Red bar
+            backgroundColors.push('rgba(255, 0, 0, 1)');
+        }
+        else if (lossesAndWins[i] < 0) {
+            // Yellow bar
+            backgroundColors.push('rgba(255, 255, 0, 1)');
+        }
+        else {
+            // Green bar
+            backgroundColors.push('rgba(0, 255, 0, 1)');
+        }
     }
 
     const ctx = $('#outcomeGraph');
@@ -212,9 +227,7 @@ function updateChart() {
                 {
                     label: 'Outcome',
                     data: graphData,
-                    backgroundColor: [
-                        'rgba(0, 0, 255, 1)'
-                    ]
+                    backgroundColor: backgroundColors
                 }
             ]
         },
@@ -226,7 +239,10 @@ function updateChart() {
             },
             scales: {
                 y: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    border: {
+                        color: 'rgba(255, 255, 255, 1)'
+                    }
                 }
             }
         }
