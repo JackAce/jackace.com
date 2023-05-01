@@ -165,9 +165,9 @@ function updateChart() {
     }
     let canvas = document.createElement('canvas');
     canvas.setAttribute('id', 'outcomeGraph');
-    canvas.setAttribute('width', '825');
-    canvas.setAttribute('min-width', '825');
-    canvas.setAttribute('max-width', '825');
+    canvas.setAttribute('width', '828');
+    canvas.setAttribute('min-width', '828');
+    canvas.setAttribute('max-width', '828');
     canvas.setAttribute('height', '200');
     canvas.setAttribute('min-height', '200');
     canvas.setAttribute('max-height', '200');
@@ -201,7 +201,7 @@ function updateChart() {
     }
     for (let i = 0; i < lossesAndWins.length; i++) {
         counter += lossesAndWins[i];
-        labels.push(i);
+        labels.push(i+1);
         graphData.push(lossesAndWins[i]);
 
         if (lossesAndWins[i] === worstLoss) {
