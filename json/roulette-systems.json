@@ -1,5 +1,96 @@
 [
   {
+    "name": "Hedge 18",
+    "airDate": "2023-05-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Nd4ZVnmLbXU",
+    "reviewUrl": "2023-05-03-Hedge-18",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 1500,
+    "bets": [
+      75
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Walk when you're up $240.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "16",
+        "amountBet": 75,
+        "result": 180,
+        "time": "1:26"
+      },
+      {
+        "spin": 2,
+        "number": "16",
+        "amountBet": 75,
+        "result": 180,
+        "time": "2:16"
+      },
+      {
+        "spin": 3,
+        "number": "11",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:12",
+        "notes": "David's winning 1st Dozen bet was taken by mistake."
+      },
+      {
+        "spin": 4,
+        "number": "35",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:49",
+        "notes": "They spun a 35, not a 36 as shown in the video."
+      },
+      {
+        "spin": 5,
+        "number": "35",
+        "amountBet": 75,
+        "result": -75,
+        "time": "4:25"
+      },
+      {
+        "spin": 6,
+        "number": "34",
+        "amountBet": 75,
+        "result": -75,
+        "time": "5:03"
+      },
+      {
+        "spin": 7,
+        "number": "3",
+        "amountBet": 75,
+        "result": -75,
+        "time": "6:07"
+      },
+      {
+        "spin": 8,
+        "number": "27",
+        "amountBet": 75,
+        "result": 45,
+        "time": "7:07"
+      },
+      {
+        "spin": 9,
+        "number": "5",
+        "amountBet": 75,
+        "result": -75,
+        "time": "8:03"
+      },
+      {
+        "spin": 10,
+        "number": "3",
+        "amountBet": 75,
+        "result": -75,
+        "time": "8:55"
+      }
+    ]
+  },
+  {
     "name": "Read Between the Lines",
     "airDate": "2023-05-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=Nd4ZVnmLbXU",
