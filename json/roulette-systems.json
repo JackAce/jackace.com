@@ -1,5 +1,131 @@
 [
   {
+    "name": "Ride or Die Gang Bang",
+    "airDate": "2023-05-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=wD4HoiGGE-g",
+    "reviewUrl": "2023-05-05-Ride-or-Die-Gang-Bang",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 800,
+    "bets": [
+      20,
+      40,
+      100,
+      35
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "This is basically Ride or Die with 4 separate working bets.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 20,
+        "result": -20,
+        "time": "1:39",
+        "notes": "Lost 4 of 4 $5 bets."
+      },
+      {
+        "spin": 2,
+        "number": "6",
+        "amountBet": 20,
+        "result": -5,
+        "time": "2:14",
+        "notes": "Lost 3 of 4 $5 bets."
+      },
+      {
+        "spin": 3,
+        "number": "00",
+        "amountBet": 30,
+        "result": 0,
+        "time": "2:54",
+        "notes": "Won 2x$5 bets, lost 1x$5 and 1x$20"
+      },
+      {
+        "spin": 4,
+        "number": "4",
+        "amountBet": 40,
+        "result": 5,
+        "time": "3:26",
+        "notes": "Won 1x$15 bet, Lost 2x$5 bets and 1x$15 bet"
+      },
+      {
+        "spin": 5 ,
+        "number": "14",
+        "amountBet": 60,
+        "result": -45,
+        "time": "4:10",
+        "notes": "Won 1x$5 bet, Lost 2x$5 bets and 1x$45"
+      },
+      {
+        "spin": 6,
+        "number": "9",
+        "amountBet": 30,
+        "result": -15,
+        "time": "4:48",
+        "notes": "Won 1x$5 bet, Lost 2x$5 and 1x$15"
+      },
+      {
+        "spin": 7,
+        "number": "13",
+        "amountBet": 30,
+        "result": 30,
+        "time": "5:54",
+        "notes": "Alex won $30 here, not $15. He won 1x$15 and 1x$5 (x2 each), but lost 2x$5 bets."
+      },
+      {
+        "spin": 8,
+        "number": "2",
+        "amountBet": 70,
+        "result": -70,
+        "time": "6:20",
+        "notes": "Lost 1x$45, 1x$15, and 2x$5 bets"
+      },
+      {
+        "spin": 9,
+        "number": "15",
+        "amountBet": 20,
+        "result": 10,
+        "time": "7:01",
+        "notes": "Won 2x$5 bets, lost 2x$5 bets"
+      },
+      {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 40,
+        "result": -25,
+        "time": "7:39",
+        "notes": "Alex only lost $25 here, not $40. He won 1x$5 (x2), but lost 2x$15 and 1x$5."
+      },
+      {
+        "spin": 11,
+        "number": "00",
+        "amountBet": 30,
+        "result": -30,
+        "time": "8:20",
+        "notes": "Lost 2x$15 and 2x$5"
+      },
+      {
+        "spin": 12,
+        "number": "12",
+        "amountBet": 20,
+        "result": -5,
+        "time": "8:56",
+        "notes": "Won 1x$5, Lost 3x$5"
+      },
+      {
+        "spin": 13,
+        "number": "24",
+        "amountBet": 15,
+        "result": -15,
+        "time": "9:33",
+        "notes": "Alex just bet 1x$15, which lost here."
+      }
+    ]
+  },
+  {
     "name": "60/40",
     "airDate": "2023-05-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=aNtIW8V5C70",
