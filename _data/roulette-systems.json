@@ -1,5 +1,82 @@
 [
   {
+    "name": "Don't You Put that Evil on Me, Ricky Bobby!",
+    "airDate": "2023-05-07",
+    "youtubeUrl": "https://www.youtube.com/watch?v=EOUFumTdeZo",
+    "reviewUrl": "2023-05-07-Ricky-Bobby",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "buyIn": 960,
+    "bets": [
+      320,
+      100
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "27",
+        "amountBet": 320,
+        "result": 10,
+        "time": "1:24"
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 320,
+        "result": 20,
+        "time": "2:20"
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 320,
+        "result": 10,
+        "time": "3:18"
+      },
+      {
+        "spin": 4,
+        "number": "29",
+        "amountBet": 320,
+        "result": 10,
+        "time": "4:21"
+      },
+      {
+        "spin": 5,
+        "number": "16",
+        "amountBet": 320,
+        "result": 20,
+        "time": "5:11"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 320,
+        "result": 40,
+        "time": "5:47"
+      },
+      {
+        "spin": 7,
+        "number": "11",
+        "amountBet": 100,
+        "result": -100,
+        "time": "6:53"
+      },
+      {
+        "spin": 8,
+        "number": "33",
+        "amountBet": 320,
+        "result": 10,
+        "time": "8:05"
+      }
+    ]
+  },
+  {
     "name": "Ride or Die Gang Bang",
     "airDate": "2023-05-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=wD4HoiGGE-g",
