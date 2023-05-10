@@ -51,6 +51,13 @@ title: Roulette Number Distribution
 
 {%- endfor -%}
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/roulette-distribution.js"></script>
+
+<div id="chartContainerX" style="width:720px;min-width:720px;max-width:720px;height:230px;max-height:230px;min-height:230px;background-color: #ccc;"></div>
+<br/>
+
 <table class="betting-system-table">
   <thead>
     <tr>
@@ -77,7 +84,7 @@ title: Roulette Number Distribution
         <td>
           {%- include roulette-spot.html number=spot -%}
         </td>
-        <td>
+        <td id="hits-{{- spot -}}">
           {{- hitCounts[i] -}}
         </td>
         <td>
