@@ -1,5 +1,130 @@
 [
   {
+    "name": "Grapefruit Twins",
+    "airDate": "2023-05-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0pMyWz1_aBA",
+    "reviewUrl": "2023-05-10-Grapefruit-Twins",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
+    ],
+    "buyIn": 200,
+    "bets": [
+      80,
+      10,
+      20,
+      50,
+      40
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "This system combines Modified Tie Fighter with Ride or Die (2 leg).",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "12",
+        "amountBet": 80,
+        "result": -80,
+        "time": "1:40"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 80,
+        "result": 10,
+        "time": "2:42"
+      },
+      {
+        "spin": 3,
+        "number": "16",
+        "amountBet": 80,
+        "result": 10,
+        "time": "3:25"
+      },
+      {
+        "spin": 4,
+        "number": "33",
+        "amountBet": 80,
+        "result": 10,
+        "time": "4:10"
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 80,
+        "result": 10,
+        "time": "4:57"
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 10,
+        "result": 5,
+        "time": "5:53"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 20,
+        "result": -20,
+        "time": "6:50"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:09"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:53"
+      },
+      {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 80,
+        "result": 10,
+        "time": "8:47"
+      },
+      {
+        "spin": 11,
+        "number": "30",
+        "amountBet": 80,
+        "result": -80,
+        "time": "9:24"
+      },
+      {
+        "spin": 12,
+        "number": "9",
+        "amountBet": 10,
+        "result": -10,
+        "time": "10:08"
+      },
+      {
+        "spin": 13,
+        "number": "16",
+        "amountBet": 10,
+        "result": 20,
+        "time": "10:58"
+      },
+      {
+        "spin": 14,
+        "number": "6",
+        "amountBet": 30,
+        "result": -30,
+        "time": "11:38"
+      }
+    ]
+  },
+  {
     "name": "High Roulette Method",
     "airDate": "2023-05-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=-l0il5WXLGI",
@@ -28859,6 +28984,179 @@
         "amountBet": 150,
         "result": -150,
         "time": "11:29"
+      }
+    ]
+  },
+  {
+    "name": "Romanovsky",
+    "airDate": "2020-08-13",
+    "youtubeUrl": "https://www.youtube.com/watch?v=bH03QXPiQvw",
+    "reviewUrl": "2020-08-13-Romanovsky",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 500,
+    "bets": [
+      200
+    ],
+    "rating": "",
+    "jackaceRating": "b",
+    "notes": "They didn't give a rating for this system. This video preceeded their rating system.",
+    "isJackAceReview": false,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "5",
+        "amountBet": 200,
+        "result": 25,
+        "time": "2:31"
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 200,
+        "result": 25,
+        "time": "3:17"
+      },
+      {
+        "spin": 3,
+        "number": "3",
+        "amountBet": 200,
+        "result": 25,
+        "time": "3:59"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 200,
+        "result": 25,
+        "time": "4:44"
+      },
+      {
+        "spin": 5,
+        "number": "27",
+        "amountBet": 200,
+        "result": 25,
+        "time": "5:30"
+      },
+      {
+        "spin": 6,
+        "number": "16",
+        "amountBet": 200,
+        "result": 25,
+        "time": "6:12"
+      },
+      {
+        "spin": 7,
+        "number": "17",
+        "amountBet": 200,
+        "result": 25,
+        "time": "6:56"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 200,
+        "result": 25,
+        "time": "7:37"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 200,
+        "result": -200,
+        "time": "8:17"
+      },
+      {
+        "spin": 10,
+        "number": "0",
+        "amountBet": 200,
+        "result": -200,
+        "time": "9:01"
+      },
+      {
+        "spin": 11,
+        "number": "4",
+        "amountBet": 200,
+        "result": 25,
+        "time": "9:37"
+      },
+      {
+        "spin": 12,
+        "number": "9",
+        "amountBet": 200,
+        "result": 25,
+        "time": "10:20"
+      },
+      {
+        "spin": 13,
+        "number": "19",
+        "amountBet": 200,
+        "result": 25,
+        "time": "11:05"
+      },
+      {
+        "spin": 14,
+        "number": "5",
+        "amountBet": 200,
+        "result": 25,
+        "time": "11:43"
+      },
+      {
+        "spin": 15,
+        "number": "36",
+        "amountBet": 200,
+        "result": 25,
+        "time": "12:35"
+      },
+      {
+        "spin": 16,
+        "number": "30",
+        "amountBet": 200,
+        "result": 25,
+        "time": "13:19"
+      },
+      {
+        "spin": 17,
+        "number": "15",
+        "amountBet": 200,
+        "result": 25,
+        "time": "13:59"
+      },
+      {
+        "spin": 18,
+        "number": "2",
+        "amountBet": 200,
+        "result": 25,
+        "time": "14:36"
+      },
+      {
+        "spin": 19,
+        "number": "35",
+        "amountBet": 200,
+        "result": 25,
+        "time": "15:17"
+      },
+      {
+        "spin": 20,
+        "number": "22",
+        "amountBet": 200,
+        "result": 25,
+        "time": "15:54"
+      },
+      {
+        "spin": 21,
+        "number": "34",
+        "amountBet": 200,
+        "result": 25,
+        "time": "16:30"
+      },
+      {
+        "spin": 22,
+        "number": "27",
+        "amountBet": 200,
+        "result": 25,
+        "time": "17:05"
       }
     ]
   },
