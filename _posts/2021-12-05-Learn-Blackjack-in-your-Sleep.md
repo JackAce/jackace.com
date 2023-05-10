@@ -2,7 +2,7 @@
 layout: post
 title: "Learn Blackjack in your Sleep!"
 date: 2021-12-05 00:01:00 -0800
-author: Jack Hayes
+author: Jack Haze
 tags: [blackjack,basic strategy,soundcloud,flashcards]
 excerpt_image: "/assets/img/posts/2021-12-05/blackjack-800x600.png"
 summary: "Memorizing the 281 decisions needed to master Blackjack's Basic Strategy can be a daunting
