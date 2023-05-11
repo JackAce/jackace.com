@@ -1,5 +1,75 @@
 [
   {
+    "name": "50's All Day",
+    "airDate": "2023-05-11",
+    "youtubeUrl": "https://www.youtube.com/watch?v=h1MBQZHx2eo",
+    "reviewUrl": "2023-05-11-50s-All-Day",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 2000,
+    "bets": [
+      550,
+      1100
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "Martingale on a loss.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "4",
+        "amountBet": 550,
+        "result": -550,
+        "time": "2:50"
+      },
+      {
+        "spin": 2,
+        "number": "11",
+        "amountBet": 1100,
+        "result": 100,
+        "time": "3:49"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 1100,
+        "result": 100,
+        "time": "4:23"
+      },
+      {
+        "spin": 4,
+        "number": "14",
+        "amountBet": 1100,
+        "result": 100,
+        "time": "5:08"
+      },
+      {
+        "spin": 5,
+        "number": "26",
+        "amountBet": 1100,
+        "result": 100,
+        "time": "5:47"
+      },
+      {
+        "spin": 6,
+        "number": "4",
+        "amountBet": 1100,
+        "result": -1100,
+        "time": "6:25"
+      },
+      {
+        "spin": 7,
+        "number": "11",
+        "amountBet": 750,
+        "result": -750,
+        "time": "7:19",
+        "notes": "Alex just YOLOed on 19-36 for this spin with what he had left."
+      }
+    ]
+  },
+  {
     "name": "Grapefruit Twins",
     "airDate": "2023-05-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=0pMyWz1_aBA",
