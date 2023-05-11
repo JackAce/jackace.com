@@ -10,7 +10,9 @@ title: Roulette Number Distribution
 {%- assign hitCounts = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" | split: "," -%}
 {%- assign totalSpins = 0 -%}
 
-{%- for system in site.data.roulette-systems -%}
+{%- assign filteredSystems = site.data.roulette-systems | where: "isJackAceReview", false -%}
+
+{%- for system in filteredSystems -%}
 
   {%- for i in (0..37) -%}
 
