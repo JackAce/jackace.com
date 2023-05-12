@@ -1,5 +1,83 @@
 [
   {
+    "name": "BBC 🍆",
+    "airDate": "2023-05-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=svXCOoygvlY",
+    "reviewUrl": "2023-05-12-BBC",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      90
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "4",
+        "amountBet": 90,
+        "result": 30,
+        "time": "2:03"
+      },
+      {
+        "spin": 2,
+        "number": "34",
+        "amountBet": 90,
+        "result": -90,
+        "time": "3:01"
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 90,
+        "result": -60,
+        "time": "3:50",
+        "notes": "The loss is -60, not -70 as displayed in the video."
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 90,
+        "result": 60,
+        "time": "4:46"
+      },
+      {
+        "spin": 5,
+        "number": "32",
+        "amountBet": 90,
+        "result": 0,
+        "time": "6:01",
+        "notes": "This was a push, not -90 as displayed in the video."
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 90,
+        "result": 30,
+        "time": "7:14"
+      },
+      {
+        "spin": 7,
+        "number": "27",
+        "amountBet": 90,
+        "result": 30,
+        "time": "8:25",
+        "notes": "This was a $30 win, not +15 as displayed in the video."
+      },
+      {
+        "spin": 8,
+        "number": "19",
+        "amountBet": 90,
+        "result": 0,
+        "time": "9:47"
+      }
+    ]
+  },
+  {
     "name": "50's All Day",
     "airDate": "2023-05-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=h1MBQZHx2eo",
@@ -3940,7 +4018,7 @@
     ]
   },
   {
-    "name": "9 BBCs",
+    "name": "9 BBCs 🍆🍆🍆🍆🍆🍆🍆🍆🍆",
     "airDate": "2023-03-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=rBsnxq_FiTU",
     "reviewUrl": "2023-03-20-9-BBCs",
