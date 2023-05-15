@@ -1,5 +1,193 @@
 [
   {
+    "name": "Two Ways Double Street",
+    "airDate": "2023-05-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=zlAjl29zjKg",
+    "reviewUrl": "2023-05-15-Two-Ways-Double-Street",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      450
+    ],
+    "rating": "a",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "13",
+        "amountBet": 300,
+        "result": 0,
+        "time": "2:31"
+      },
+      {
+        "spin": 2,
+        "number": "27",
+        "amountBet": 300,
+        "result": 0,
+        "time": "3:15"
+      },
+      {
+        "spin": 3,
+        "number": "13",
+        "amountBet": 300,
+        "result": 0,
+        "time": "3:33"
+      },
+      {
+        "spin": 4,
+        "number": "21",
+        "amountBet": 300,
+        "result": 150,
+        "time": "3:54"
+      },
+      {
+        "spin": 5,
+        "number": "19",
+        "amountBet": 300,
+        "result": 150,
+        "time": "4:44"
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 300,
+        "result": 150,
+        "time": "5:23"
+      },
+      {
+        "spin": 7,
+        "number": "14",
+        "amountBet": 300,
+        "result": 0,
+        "time": "6:13"
+      },
+      {
+        "spin": 8,
+        "number": "33",
+        "amountBet": 300,
+        "result": 150,
+        "time": "6:31"
+      },
+      {
+        "spin": 9,
+        "number": "20",
+        "amountBet": 300,
+        "result": 150,
+        "time": "7:19"
+      },
+      {
+        "spin": 10,
+        "number": "27",
+        "amountBet": 300,
+        "result": 0,
+        "time": "8:07"
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 300,
+        "result": 0,
+        "time": "8:39"
+      },
+      {
+        "spin": 12,
+        "number": "32",
+        "amountBet": 300,
+        "result": 150,
+        "time": "9:09"
+      }
+    ]
+  },
+  {
+    "name": "Fodder for David",
+    "airDate": "2023-05-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ORVf7oMypL8",
+    "reviewUrl": "2023-05-14-Fodder-for-David",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 200,
+    "bets": [
+      25
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "10",
+        "amountBet": 25,
+        "result": 11,
+        "time": "1:46",
+        "notes": "They won $11, not $10 as displayed on the video."
+      },
+      {
+        "spin": 2,
+        "number": "9",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:07"
+      },
+      {
+        "spin": 3,
+        "number": "2",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:45"
+      },
+      {
+        "spin": 4,
+        "number": "25",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:00"
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 25,
+        "result": -25,
+        "time": "7:08"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:18"
+      },
+      {
+        "spin": 7,
+        "number": "3",
+        "amountBet": 25,
+        "result": -25,
+        "time": "9:38"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 25,
+        "result": 29,
+        "time": "11:25",
+        "notes": "They won $29, not $54 as displayed on the video"
+      },
+      {
+        "spin": 9,
+        "number": "21",
+        "amountBet": 25,
+        "result": 11,
+        "time": "12:32",
+        "notes": "They won $11, not $12 as displayed on the video"
+      }
+    ]
+  },
+  {
     "name": "BBC 🍆",
     "airDate": "2023-05-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=svXCOoygvlY",
