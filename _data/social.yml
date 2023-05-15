@@ -1,5 +1,5 @@
 - title: YouTube
-  url: https://www.youtube.com/c/JackAceDotCom
+  url: https://www.youtube.com/@JackAceDotCom
   icon: fab fa-youtube
 - title: TikTok
   url: https://www.tiktok.com/@jackace.com/
@@ -16,15 +16,12 @@
 - title: Instagram
   url: https://www.instagram.com/jackacedotcom/
   icon: fab fa-instagram
-#- title: TikTok
-#  url: https://www.tiktok.com/@jackace.com/
-#  icon: fab fa-brands fa-tiktok
 # - title: RSS Feed
 #   url: /feed.xml
 #   icon: fab fa-rss
-# - title: Discord
-#   url: https://discord.gg/R6nTPzcpma
-#   icon: fab fa-discord
+- title: Discord
+  url: https://discord.gg/R6nTPzcpma
+  icon: fab fa-discord
 # - title: Twitch
 #   url: https://www.twitch.tv/jackacestudios
 #   icon: fab fa-twitch
