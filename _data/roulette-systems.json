@@ -27675,6 +27675,103 @@
     ]
   },
   {
+    "name": "Fremont 100 💯",
+    "airDate": "2021-11-24",
+    "youtubeUrl": "https://www.youtube.com/watch?v=HVpf5Y4FV0g",
+    "reviewUrl": "2021-11-24-Fremont-100",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      60,
+      120,
+      180,
+      240
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "notes": "When you lose, proceed to the next tier and stay at that tier until you win 2 times. I calculated a $250 win, but they were up $343 somehow.",
+    "isJackAceReview": false,
+    "spins": [
+      {
+        "spin": 1,
+        "number": "9",
+        "amountBet": 60,
+        "result": -60,
+        "time": "2:02"
+      },
+      {
+        "spin": 2,
+        "number": "00",
+        "amountBet": 60,
+        "result": -60,
+        "time": "4:10",
+        "notes": "Timmy forgot to Martingale here. He should have bet $120."
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 120,
+        "result": 124,
+        "time": "5:03"
+      },
+      {
+        "spin": 4,
+        "number": "00",
+        "amountBet": 120,
+        "result": -120,
+        "time": "6:31"
+      },
+      {
+        "spin": 5,
+        "number": "8",
+        "amountBet": 180,
+        "result": 60,
+        "time": "7:42"
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 180,
+        "result": 60,
+        "time": "8:39",
+        "notes": "The spin was a 20, not 26 as displayed on the video."
+      },
+      {
+        "spin": 7,
+        "number": "14",
+        "amountBet": 180,
+        "result": 30,
+        "time": "9:42"
+      },
+      {
+        "spin": 8,
+        "number": "28",
+        "amountBet": 180,
+        "result": 186,
+        "time": "11:08"
+      },
+      {
+        "spin": 9,
+        "number": "20",
+        "amountBet": 60,
+        "result": 20,
+        "time": "12:31"
+      },
+      {
+        "spin": 10,
+        "number": "32",
+        "amountBet": 60,
+        "result": 10,
+        "time": "13:23"
+      }
+    ]
+  },
+  {
     "name": "Squid Games 🦑",
     "airDate": "2021-10-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=Zk-dK4OXZO4",
