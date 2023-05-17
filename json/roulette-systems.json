@@ -1,5 +1,80 @@
 [
   {
+    "name": "Follow the Wheel for the Comp",
+    "airDate": "2023-05-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=2xO3tpUWNYU",
+    "reviewUrl": "2023-05-17-Follow-the-Wheel-for-the-Comp",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 2000,
+    "bets": [
+      250
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Alex was up $480, but I believe he should have been up $490",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "22",
+        "amountBet": 250,
+        "result": 260,
+        "time": "1:43"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 250,
+        "result": -100,
+        "time": "2:45"
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 250,
+        "result": -100,
+        "time": "3:31"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 250,
+        "result": 110,
+        "time": "4:51"
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 250,
+        "result": -100,
+        "time": "6:03"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 250,
+        "result": 260,
+        "time": "6:59"
+      },
+      {
+        "spin": 7,
+        "number": "18",
+        "amountBet": 250,
+        "result": 260,
+        "time": "7:50"
+      },
+      {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 250,
+        "result": -100,
+        "time": "8:52"
+      }
+    ]
+  },
+  {
     "name": "Two Ways Double Street",
     "airDate": "2023-05-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=zlAjl29zjKg",
