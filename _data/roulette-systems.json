@@ -1,5 +1,156 @@
 [
   {
+    "name": "Nightingale",
+    "airDate": "2023-05-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Mvrl00NQdKc",
+    "reviewUrl": "2023-05-18-Nightingale",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "buyIn": 1000,
+    "bets": [
+      10,
+      20,
+      20,
+      40
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "This is Hopscotch with Martingale added. Only the first level tier values are shown.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 10,
+        "result": 10,
+        "time": "2:29"
+      },
+      {
+        "spin": 2,
+        "number": "5",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:56"
+      },
+      {
+        "spin": 3,
+        "number": "13",
+        "amountBet": 20,
+        "result": 20,
+        "time": "3:28"
+      },
+      {
+        "spin": 4,
+        "number": "4",
+        "amountBet": 40,
+        "result": -40,
+        "time": "4:10"
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 30,
+        "result": -30,
+        "time": "4:38"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 60,
+        "result": -60,
+        "time": "5:16"
+      },
+      {
+        "spin": 7,
+        "number": "18",
+        "amountBet": 120,
+        "result": -120,
+        "time": "5:57"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 250,
+        "result": 250,
+        "time": "6:39"
+      },
+      {
+        "spin": 9,
+        "number": "8",
+        "amountBet": 500,
+        "result": -500,
+        "time": "7:16"
+      },
+      {
+        "spin": 10,
+        "number": "31",
+        "amountBet": 510,
+        "result": 510,
+        "time": "7:45"
+      },
+      {
+        "spin": 11,
+        "number": "29",
+        "amountBet": 1020,
+        "result": 510,
+        "time": "8:34"
+      },
+      {
+        "spin": 12,
+        "number": "6",
+        "amountBet": 15,
+        "result": 15,
+        "time": "9:19"
+      },
+      {
+        "spin": 13,
+        "number": "24",
+        "amountBet": 30,
+        "result": 15,
+        "time": "9:43"
+      },
+      {
+        "spin": 14,
+        "number": "3",
+        "amountBet": 20,
+        "result": -20,
+        "time": "10:16"
+      },
+      {
+        "spin": 15,
+        "number": "16",
+        "amountBet": 10,
+        "result": -10,
+        "time": "10:54"
+      },
+      {
+        "spin": 16,
+        "number": "31",
+        "amountBet": 20,
+        "result": 20,
+        "time": "11:20"
+      },
+      {
+        "spin": 17,
+        "number": "19",
+        "amountBet": 20,
+        "result": 20,
+        "time": "11:53"
+      },
+      {
+        "spin": 18,
+        "number": "32",
+        "amountBet": 10,
+        "result": -10,
+        "time": "12:27"
+      }
+    ]
+  },
+  {
     "name": "Follow the Wheel for the Comp",
     "airDate": "2023-05-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=2xO3tpUWNYU",
@@ -694,6 +845,7 @@
     "airDate": "2023-05-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=wD4HoiGGE-g",
     "reviewUrl": "2023-05-05-Ride-or-Die-Gang-Bang",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=oIlhYH91vmk",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
@@ -28155,6 +28307,7 @@
     "airDate": "2021-09-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=KuGhy_7ZzmI",
     "reviewUrl": "2021-09-17-Holy-Splits",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=dI6s2TgPfGQ",
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
