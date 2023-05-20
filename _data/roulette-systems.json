@@ -1,5 +1,125 @@
 [
   {
+    "name": "2 Ways Double Street DTF",
+    "airDate": "2023-05-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=vdSRE2UKimQ",
+    "reviewUrl": "2023-05-19-2-Ways-Double-Street-DTF",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 1200,
+    "bets": [
+      300
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 300,
+        "result": 0,
+        "time": "1:22"
+      },
+      {
+        "spin": 2,
+        "number": "35",
+        "amountBet": 300,
+        "result": 0,
+        "time": "2:17"
+      },
+      {
+        "spin": 3,
+        "number": "6",
+        "amountBet": 300,
+        "result": -300,
+        "time": "2:46",
+        "notes": "They lost $300, not $400 as displayed on the video."
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 300,
+        "result": 0,
+        "time": "3:24"
+      },
+      {
+        "spin": 5,
+        "number": "22",
+        "amountBet": 300,
+        "result": 150,
+        "time": "3:54"
+      },
+      {
+        "spin": 6,
+        "number": "26",
+        "amountBet": 300,
+        "result": 0,
+        "time": "4:43"
+      },
+      {
+        "spin": 7,
+        "number": "6",
+        "amountBet": 300,
+        "result": -300,
+        "time": "5:17",
+        "notes": "They lost $300, not $400 as displayed on the video."
+      },
+      {
+        "spin": 8,
+        "number": "32",
+        "amountBet": 300,
+        "result": 0,
+        "time": "6:11"
+      },
+      {
+        "spin": 9,
+        "number": "20",
+        "amountBet": 300,
+        "result": 150,
+        "time": "6:36"
+      },
+      {
+        "spin": 10,
+        "number": "0",
+        "amountBet": 300,
+        "result": -300,
+        "time": "7:10",
+        "notes": "They lost $300, not $400 as displayed on the video."
+      },
+      {
+        "spin": 11,
+        "number": "22",
+        "amountBet": 300,
+        "result": 150,
+        "time": "8:15"
+      },
+      {
+        "spin": 12,
+        "number": "34",
+        "amountBet": 300,
+        "result": 0,
+        "time": "8:41"
+      },
+      {
+        "spin": 13,
+        "number": "24",
+        "amountBet": 300,
+        "result": 150,
+        "time": "9:00"
+      },
+      {
+        "spin": 14,
+        "number": "19",
+        "amountBet": 300,
+        "result": 150,
+        "time": "9:32"
+      }
+    ]
+  },
+  {
     "name": "Nightingale",
     "airDate": "2023-05-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=Mvrl00NQdKc",
