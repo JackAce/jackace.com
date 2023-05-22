@@ -1,6 +1,6 @@
 # jackace.com
 
-Production environment for jackace.com
+Staging environment for jackace.com
 
 https://staging.jackace.com
 
