@@ -1,5 +1,294 @@
 [
   {
+    "name": "Step System #69",
+    "airDate": "2023-05-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=crh9ixl7Mho",
+    "reviewUrl": "2023-05-22-Step-System-69",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "buyIn": 100,
+    "bets": [
+      10,
+      10,
+      30
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "27",
+        "amountBet": 10,
+        "result": -10,
+        "time": "2:30"
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:12"
+      },
+      {
+        "spin": 3,
+        "number": "4",
+        "amountBet": 10,
+        "result": 10,
+        "time": "3:48"
+      },
+      {
+        "spin": 4,
+        "number": "27",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:16"
+      },
+      {
+        "spin": 5,
+        "number": "10",
+        "amountBet": 10,
+        "result": 10,
+        "time": "4:49"
+      },
+      {
+        "spin": 6,
+        "number": "16",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:13"
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:34"
+      },
+      {
+        "spin": 8,
+        "number": "28",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:07"
+      },
+      {
+        "spin": 9,
+        "number": "30",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:46"
+      },
+      {
+        "spin": 10,
+        "number": "31",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:18"
+      },
+      {
+        "spin": 11,
+        "number": "35",
+        "amountBet": 10,
+        "result": -10,
+        "time": "8:05"
+      },
+      {
+        "spin": 12,
+        "number": "13",
+        "amountBet": 10,
+        "result": 10,
+        "time": "8:35"
+      },
+      {
+        "spin": 13,
+        "number": "0",
+        "amountBet": 10,
+        "result": -10,
+        "time": "9:03"
+      },
+      {
+        "spin": 14,
+        "number": "21",
+        "amountBet": 10,
+        "result": -10,
+        "time": "9:30"
+      },
+      {
+        "spin": 15,
+        "number": "28",
+        "amountBet": 10,
+        "result": -10,
+        "time": "10:06"
+      },
+      {
+        "spin": 16,
+        "number": "22",
+        "amountBet": 10,
+        "result": -10,
+        "time": "10:42"
+      },
+      {
+        "spin": 17,
+        "number": "0",
+        "amountBet": 0,
+        "result": 0,
+        "time": "11:14",
+        "notes": "Alex cried uncle here. No more bets."
+      }
+    ]
+  },
+  {
+    "name": "Outside Exposure",
+    "airDate": "2023-05-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1zMGy4gF3nM",
+    "reviewUrl": "2023-05-21-Outside-Exposure",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 300,
+    "bets": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "You bet Low, Even, Red, Black, Odd, High and then back again. Press one unit when you lose, Remove one unit when you win",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "17",
+        "amountBet": 10,
+        "result": 10,
+        "time": "1:17",
+        "notes": "Alex bet Low"
+      },
+      {
+        "spin": 2,
+        "number": "00",
+        "amountBet": 10,
+        "result": -10,
+        "time": "1:53",
+        "notes": "Alex bet Even"
+      },
+      {
+        "spin": 3,
+        "number": "15",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:29",
+        "notes": "Alex bet Red"
+      },
+      {
+        "spin": 4,
+        "number": "16",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:06",
+        "notes": "Alex bet Black"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 40,
+        "result": -40,
+        "time": "3:40",
+        "notes": "Alex bet Odd"
+      },
+      {
+        "spin": 6,
+        "number": "29",
+        "amountBet": 50,
+        "result": 50,
+        "time": "4:14",
+        "notes": "Alex bet High"
+      },
+      {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 40,
+        "result": -40,
+        "time": "4:54",
+        "notes": "Alex bet Odd"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 50,
+        "result": 50,
+        "time": "5:29",
+        "notes": "Alex bet Black"
+      },
+      {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 40,
+        "result": 40,
+        "time": "6:04",
+        "notes": "Alex bet Red"
+      },
+      {
+        "spin": 10,
+        "number": "13",
+        "amountBet": 30,
+        "result": -30,
+        "time": "6:32",
+        "notes": "Alex bet Even"
+      },
+      {
+        "spin": 11,
+        "number": "30",
+        "amountBet": 40,
+        "result": -40,
+        "time": "7:11",
+        "notes": "Alex bet Low"
+      },
+      {
+        "spin": 12,
+        "number": "29",
+        "amountBet": 50,
+        "result": -50,
+        "time": "7:58",
+        "notes": "Alex bet Even"
+      },
+      {
+        "spin": 13,
+        "number": "35",
+        "amountBet": 60,
+        "result": -60,
+        "time": "8:28",
+        "notes": "Alex bet Red"
+      },
+      {
+        "spin": 14,
+        "number": "00",
+        "amountBet": 70,
+        "result": -70,
+        "time": "9:05",
+        "notes": "Alex bet Black"
+      },
+      {
+        "spin": 15,
+        "number": "3",
+        "amountBet": 60,
+        "result": 60,
+        "time": "9:47",
+        "notes": "Alex bet $60 on Odd (that was all he had left)"
+      }
+    ]
+  },
+  {
     "name": "2 Ways Double Street DTF",
     "airDate": "2023-05-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=vdSRE2UKimQ",
