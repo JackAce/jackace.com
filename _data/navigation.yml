@@ -15,11 +15,9 @@
   - title: Roulette
     url: /gambling/roulette/
   - title: Bet Analyzer
-    url: /gambling/roulette/bet-analyzer/
+    url: https://rba.jackace.com/
   - title: Systems
     url: /gambling/roulette/systems/
-  - title: RBA (beta)
-    url: https://rba.jackace.com/
 - title: Other
   sublinks:
     - title: TipiT - Tip Calculator
