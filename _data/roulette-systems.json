@@ -1,6 +1,158 @@
 [
   {
-    "name": "Step System #69",
+    "name": "All Comp, No Nuts 🚫🥜",
+    "airDate": "2023-05-24",
+    "youtubeUrl": "https://www.youtube.com/watch?v=DG5ZrwDRW1I",
+    "reviewUrl": "2023-05-24-All-Comp-No-Nuts",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 900,
+    "bets": [
+      225
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "19",
+        "amountBet": 225,
+        "result": 0,
+        "time": "1:27"
+      },
+      {
+        "spin": 2,
+        "number": "10",
+        "amountBet": 225,
+        "result": 0,
+        "time": "2:10"
+      },
+      {
+        "spin": 3,
+        "number": "12",
+        "amountBet": 225,
+        "result": 0,
+        "time": "2:41"
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 225,
+        "result": 0,
+        "time": "3:23"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 225,
+        "result": 0,
+        "time": "4:01"
+      },
+      {
+        "spin": 6,
+        "number": "9",
+        "amountBet": 225,
+        "result": 0,
+        "time": "4:22"
+      },
+      {
+        "spin": 7,
+        "number": "12",
+        "amountBet": 225,
+        "result": 0,
+        "time": "4:53"
+      },
+      {
+        "spin": 8,
+        "number": "1",
+        "amountBet": 225,
+        "result": -225,
+        "time": "5:33"
+      },
+      {
+        "spin": 9,
+        "number": "33",
+        "amountBet": 225,
+        "result": 0,
+        "time": "6:13"
+      },
+      {
+        "spin": 10,
+        "number": "33",
+        "amountBet": 225,
+        "result": 0,
+        "time": "6:49"
+      },
+      {
+        "spin": 11,
+        "number": "33",
+        "amountBet": 225,
+        "result": 0,
+        "time": "7:21"
+      },
+      {
+        "spin": 12,
+        "number": "4",
+        "amountBet": 225,
+        "result": -225,
+        "time": "7:55"
+      },
+      {
+        "spin": 13,
+        "number": "20",
+        "amountBet": 225,
+        "result": 0,
+        "time": "8:43"
+      },
+      {
+        "spin": 14,
+        "number": "28",
+        "amountBet": 225,
+        "result": 0,
+        "time": "9:20"
+      },
+      {
+        "spin": 15,
+        "number": "8",
+        "amountBet": 225,
+        "result": 0,
+        "time": "9:58"
+      },
+      {
+        "spin": 16,
+        "number": "27",
+        "amountBet": 225,
+        "result": 0,
+        "time": "10:28"
+      },
+      {
+        "spin": 17,
+        "number": "19",
+        "amountBet": 225,
+        "result": 0,
+        "time": "11:07"
+      },
+      {
+        "spin": 18,
+        "number": "8",
+        "amountBet": 225,
+        "result": 0,
+        "time": "11:48"
+      },
+      {
+        "spin": 19,
+        "number": "9",
+        "amountBet": 225,
+        "result": 0,
+        "time": "12:25"
+      }
+    ]
+  },
+  {
+    "name": "Step System #69 🪜",
     "airDate": "2023-05-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=crh9ixl7Mho",
     "reviewUrl": "2023-05-22-Step-System-69",
@@ -409,7 +561,7 @@
     ]
   },
   {
-    "name": "Nightingale",
+    "name": "Nightingale 🌙",
     "airDate": "2023-05-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=Mvrl00NQdKc",
     "reviewUrl": "2023-05-18-Nightingale",
