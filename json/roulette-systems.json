@@ -1,5 +1,87 @@
 [
   {
+    "name": "Cha-Ching! 🏦",
+    "airDate": "2023-05-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Nb3mAtelSeg",
+    "reviewUrl": "2023-05-25-Cha-Ching",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "buyIn": 1080,
+    "bets": [
+      180
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "6",
+        "amountBet": 180,
+        "result": -90,
+        "time": "2:56"
+      },
+      {
+        "spin": 2,
+        "number": "12",
+        "amountBet": 180,
+        "result": 0,
+        "time": "3:52"
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 180,
+        "result": -90,
+        "time": "4:22"
+      },
+      {
+        "spin": 4,
+        "number": "3",
+        "amountBet": 180,
+        "result": -180,
+        "time": "5:03"
+      },
+      {
+        "spin": 5,
+        "number": "19",
+        "amountBet": 180,
+        "result": 0,
+        "time": "6:06"
+      },
+      {
+        "spin": 6,
+        "number": "26",
+        "amountBet": 180,
+        "result": 180,
+        "time": "6:41"
+      },
+      {
+        "spin": 7,
+        "number": "00",
+        "amountBet": 180,
+        "result": -180,
+        "time": "7:21"
+      },
+      {
+        "spin": 8,
+        "number": "21",
+        "amountBet": 180,
+        "result": 270,
+        "time": "8:06"
+      },
+      {
+        "spin": 9,
+        "number": "28",
+        "amountBet": 180,
+        "result": -90,
+        "time": "9:30"
+      }
+    ]
+  },
+  {
     "name": "All Comp, No Nuts 🚫🥜",
     "airDate": "2023-05-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=DG5ZrwDRW1I",
@@ -14224,16 +14306,16 @@
     ]
   },
   {
-    "name": "Ride or Die",
+    "name": "Ride or Die 💀",
     "airDate": "2022-09-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=D98ilhDYbkQ",
     "reviewUrl": "2022-09-12-Ride-or-Die",
     "jackaceVideoUrl": "https://www.youtube.com/watch?v=bShl-O8M4_g",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png",
-      "00-rba-3-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
     "buyIn": 250,
     "bets": [
@@ -17928,16 +18010,16 @@
     ]
   },
   {
-    "name": "Hopscotch",
+    "name": "Hopscotch 🥃",
     "airDate": "2022-06-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=uvlc4Ppvonc",
     "reviewUrl": "2022-06-14-Hopscotch",
     "jackaceVideoUrl": "https://www.youtube.com/watch?v=VLGH1OWQ_C0",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png",
-      "00-rba-3-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
     "buyIn": 100,
     "bets": [
@@ -20311,9 +20393,9 @@
     "reviewUrl": "2022-05-10-DTF",
     "jackaceVideoUrl": "https://www.youtube.com/watch?v=o4peD80Cwk8",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
     "buyIn": 1200,
     "bets": [
@@ -28971,10 +29053,10 @@
     "reviewUrl": "2021-09-03-Double-Street-Martingale",
     "jackaceVideoUrl": "https://www.youtube.com/watch?v=JCyMg6fKScU",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png",
-      "00-rba-3-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
     "buyIn": 2000,
     "friendCount": 2,
@@ -30091,7 +30173,7 @@
     "reviewUrl": "2020-09-12-Rumple-Still-Skin",
     "jackaceVideoUrl": "https://www.youtube.com/watch?v=nU8cL9yFg0w",
     "rbaImageUrls": [
-      "00-rba-0-800x662.png"
+      "00-rba-0-800x768.png"
     ],
     "buyIn": 2500,
     "bets": [
@@ -30389,9 +30471,9 @@
     "reviewUrl": "2020-08-06-Modified-24+8",
     "jackaceVideoUrl": "https://www.youtube.com/watch?v=QtXKfGXcn0E",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
     "buyIn": 500,
     "bets": [
