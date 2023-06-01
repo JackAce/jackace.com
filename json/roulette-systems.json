@@ -1,5 +1,162 @@
 [
   {
+    "name": "3 Pump Champ",
+    "airDate": "2023-06-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=IVbNKVxx87o",
+    "reviewUrl": "2023-06-01-3-Pump-Champ",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "buyIn": 500,
+    "bets": [
+      25,
+      50,
+      100
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "I'm only tracking Alex's spins.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "20",
+        "amountBet": 25,
+        "result": -25,
+        "time": "2:18",
+        "notes": "Alex bet the 3rd Dozen."
+      },
+      {
+        "spin": 2,
+        "number": "31",
+        "amountBet": 25,
+        "result": 50,
+        "time": "2:44"
+      },
+      {
+        "spin": 3,
+        "number": "11",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:19"
+      },
+      {
+        "spin": 4,
+        "number": "21",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:41"
+      },
+      {
+        "spin": 5,
+        "number": "31",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:11",
+        "notes": "Alex switched to the 2nd dozen here."
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:38"
+      },
+      {
+        "spin": 7,
+        "number": "36",
+        "amountBet": 25,
+        "result": 50,
+        "time": "5:08"
+      },
+      {
+        "spin": 8,
+        "number": "9",
+        "amountBet": 75,
+        "result": -75,
+        "time": "5:34",
+        "notes": "I'm hot sure why, but Alex bet $75 here."
+      },
+      {
+        "spin": 9,
+        "number": "1",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:16"
+      },
+      {
+        "spin": 10,
+        "number": "28",
+        "amountBet": 25,
+        "result": 50,
+        "time": "6:45"
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 50,
+        "result": 100,
+        "time": "7:44"
+      },
+      {
+        "spin": 12,
+        "number": "32",
+        "amountBet": 100,
+        "result": -100,
+        "time": "8:12"
+      },
+      {
+        "spin": 13,
+        "number": "36",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:39"
+      },
+      {
+        "spin": 14,
+        "number": "1",
+        "amountBet": 25,
+        "result": -25,
+        "time": "9:05"
+      },
+      {
+        "spin": 15,
+        "number": "14",
+        "amountBet": 25,
+        "result": -25,
+        "time": "9:33"
+      },
+      {
+        "spin": 16,
+        "number": "26",
+        "amountBet": 25,
+        "result": 50,
+        "time": "10:01"
+      },
+      {
+        "spin": 17,
+        "number": "3",
+        "amountBet": 50,
+        "result": -50,
+        "time": "10:32"
+      },
+      {
+        "spin": 18,
+        "number": "30",
+        "amountBet": 25,
+        "result": -25,
+        "time": "11:13"
+      }
+    ]
+  },
+  {
     "name": "5 Minutes to Win 🕔",
     "airDate": "2023-05-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=BVJqF_G028A",

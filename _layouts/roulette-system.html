@@ -13,6 +13,7 @@ layout: page-no-sidebar
 {%- assign friendCount = system.friendCount | default: 0 -%}
 {%- assign groupLoops = friendCount | at_least: 1 -%}
 {%- assign rbaImages = system.rbaImageUrls -%}
+{%- assign bettingConfigs = system.bettingTiers -%}
 {%- assign containsTimeStamps = false -%}
 {%- assign renderErrorsFound = false -%}
 {%- assign renderErrorMessage = "" -%}
@@ -84,8 +85,9 @@ layout: page-no-sidebar
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript">
 //<![CDATA[
-  function displayRbaImage(imageName) {
+  function displayRbaImage(imageName, config) {
     $("#rbaImg").attr("src", imageName);
+    $("#rbaLink").attr("href", "https://rba.jackace.com/?c=" + config);
   }
 //]]>
 </script>
@@ -198,6 +200,7 @@ layout: page-no-sidebar
 </table>
 
 {%- assign imageLimit = rbaImages.size | minus: 1 -%}
+{%- assign bettingConfigLimit = bettingConfigs.size -%}
 
 {%- if imageLimit > 0 -%}
   <h2>Betting Schemes</h2>
@@ -220,12 +223,18 @@ layout: page-no-sidebar
     {%- assign tierLevel = i | plus: 1 -%}
     {%- assign tierName = "Tier " | append: tierLevel -%}
 
+    {%- assign bettingConfig = "" -%}
+    {%- if i < bettingConfigLimit -%}
+      <!-- TODO: Turn this string replacement into a common function -->
+      {%- assign bettingConfig = bettingConfigs[i] | json | replace: "=>", ":" | replace: '"', '&quot;' -%}
+    {%- endif -%}
+
     {%- if system.bets[i] > 0 -%}
       {%- assign tierName = tierName | append: " ($" -%}
       {%- assign tierName = tierName | append: system.bets[i] -%}
       {%- assign tierName = tierName | append: ")" -%}
     {%- endif -%}
-    <a href="javascript:displayRbaImage('{{- imageUrl -}}');">{{- tierName -}}</a>
+    <a href="javascript:displayRbaImage('{{- imageUrl -}}', '{{- bettingConfig  -}}');">{{- tierName -}}</a>
     {%- if i < imageLimit -%}
       &nbsp;&nbsp;|&nbsp;&nbsp;
     {%- endif -%}
@@ -244,11 +253,15 @@ layout: page-no-sidebar
     {%- else -%}
       Betting scheme for <i>{{- system.name -}}</i>
     {%- endif -%}
-  </figcaption>
+
+    {%- if bettingConfigLimit > 0 -%}
+      {%- assign bettingConfig = bettingConfigs[0] | json | replace: "=>", ":" | replace: '"', '&quot;' -%}
+      <br/>
+      <a id="rbaLink" href="https://rba.jackace.com/?c={{- bettingConfig -}}" target="_blank">View this bet in the RBA</a>
+    {%- endif -%}
+    </figcaption>
 </figure>
-
 {%- for i in (1..groupLoops) -%}
-
   <!-- assign loopSpins = system.spins | sort: "spin" -->
   {%- assign loopSpins = system.spins -%}
   {%- assign groupEV = 0 -%}
