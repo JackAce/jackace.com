@@ -1,5 +1,98 @@
 [
   {
+    "name": "Even Stephen 2️⃣4️⃣6️⃣8️⃣🔟",
+    "airDate": "2023-06-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=OqAiG6aS7vM",
+    "reviewUrl": "2023-06-05-Even-Stephen",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-odd":60,"x2-0-00":5,"x1-34":5,"x1-36":5,"x1-32":5,"x1-30":5,"x1-28":5,"x1-26":5,"x1-24":5,"x1-22":5,"x1-20":5,"x1-16":5}},
+      {"wheelType":1,"wagers":{"x18-odd":60,"x2-0-00":5,"x1-34":10,"x1-36":10,"x1-32":10,"x1-30":10,"x1-28":10,"x1-26":10,"x1-24":10,"x1-22":10,"x1-20":10,"x1-16":10}},
+      {"wheelType":1,"wagers":{"x18-odd":60,"x2-0-00":5,"x1-34":20,"x1-36":20,"x1-32":20,"x1-30":20,"x1-28":20,"x1-26":20,"x1-24":20,"x1-22":20,"x1-20":20,"x1-16":20}}
+    ],
+    "buyIn": 800,
+    "bets": [
+      115,
+      165,
+      215
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "There are some discrepancies in the payouts here. Alex was only down $175, but I believe he should have been down $235.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "34",
+        "amountBet": 115,
+        "result": 65,
+        "time": "2:15"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 165,
+        "result": -45,
+        "time": "3:22"
+      },
+      {
+        "spin": 3,
+        "number": "9",
+        "amountBet": 115,
+        "result": 5,
+        "time": "4:05"
+      },
+      {
+        "spin": 4,
+        "number": "31",
+        "amountBet": 115,
+        "result": 5,
+        "time": "4:48"
+      },
+      {
+        "spin": 5,
+        "number": "28",
+        "amountBet": 115,
+        "result": 65,
+        "time": "5:45"
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 165,
+        "result": -165,
+        "time": "6:23",
+        "notes": "Alex lost $165 here, not $185 as displayed on the video."
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 115,
+        "result": 65,
+        "time": "6:59"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 115,
+        "result": 5,
+        "time": "7:59",
+        "notes": "Alex won $5 here, he didn't lose $115 as displayed on the video."
+      },
+      {
+        "spin": 9,
+        "number": "14",
+        "amountBet": 115,
+        "result": -115,
+        "time": "9:37"
+      }
+    ]
+  },
+  {
     "name": "Black Mirror ✊🏿🪞",
     "airDate": "2023-06-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=OqAiG6aS7vM",
