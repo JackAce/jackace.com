@@ -1,6 +1,6 @@
 [
   {
-    "name": "Even Stephen",
+    "name": "Even Stephen 2️⃣4️⃣6️⃣8️⃣🔟",
     "airDate": "2023-06-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=OqAiG6aS7vM",
     "reviewUrl": "2023-06-05-Even-Stephen",
@@ -23,7 +23,7 @@
     "rating": "d",
     "jackaceRating": "d",
     "isJackAceReview": false,
-    "notes": "",
+    "notes": "There are some discrepancies in the payouts here. Alex was only down $175, but I believe he should have been down $235.",
     "spins": [
       {
         "spin": 1,
@@ -79,8 +79,9 @@
         "spin": 8,
         "number": "15",
         "amountBet": 115,
-        "result": -115,
-        "time": "7:59"
+        "result": 5,
+        "time": "7:59",
+        "notes": "Alex won $5 here, he didn't lose $115 as displayed on the video."
       },
       {
         "spin": 9,
