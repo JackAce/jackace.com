@@ -1,5 +1,137 @@
 [
   {
+    "name": "Ride or Die with a Strap 🍆",
+    "airDate": "2023-06-07",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7uaGzrxbQJs",
+    "reviewUrl": "2023-06-07-Ride-or-Die-with-a-Strap",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":5,"x1-30":1,"x1-32":1,"x1-34":1,"x1-28":1}},
+      {"wheelType":1,"wagers":{"x12-doz2":15,"x1-16":1,"x1-19":1,"x1-20":1,"x1-21":1}},
+      {"wheelType":1,"wagers":{"x12-doz1":45,"x1-10":1,"x1-12":1,"x1-8":1,"x1-6":1}},
+      {"wheelType":1,"wagers":{"x1-21":35}}
+    ],
+    "buyIn": 100,
+    "bets": [
+      9,
+      19,
+      49,
+      35
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Stop making Ride or Die Clones. Please.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "26",
+        "amountBet": 9,
+        "result": 6,
+        "time": "1:21"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 19,
+        "result": -19,
+        "time": "1:55"
+      },
+      {
+        "spin": 3,
+        "number": "22",
+        "amountBet": 9,
+        "result": 6,
+        "time": "2:38",
+        "notes": "Alex was pushing his bets to different dozens."
+      },
+      {
+        "spin": 4,
+        "number": "00",
+        "amountBet": 19,
+        "result": -19,
+        "time": "3:16"
+      },
+      {
+        "spin": 5,
+        "number": "19",
+        "amountBet": 9,
+        "result": 6,
+        "time": "3:37"
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 19,
+        "result": -19,
+        "time": "4:08",
+        "notes": "Alex lost $19 here, not $9 as displayed on the video."
+      },
+      {
+        "spin": 7,
+        "number": "6",
+        "amountBet": 9,
+        "result": 6,
+        "time": "4:43"
+      },
+      {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 19,
+        "result": -19,
+        "time": "5:27"
+      },
+      {
+        "spin": 9,
+        "number": "6",
+        "amountBet": 9,
+        "result": -9,
+        "time": "6:11"
+      },
+      {
+        "spin": 10,
+        "number": "17",
+        "amountBet": 9,
+        "result": -9,
+        "time": "7:10"
+      },
+      {
+        "spin": 11,
+        "number": "14",
+        "amountBet": 9,
+        "result": -9,
+        "time": "8:03"
+      },
+      {
+        "spin": 12,
+        "number": "27",
+        "amountBet": 9,
+        "result": -9,
+        "time": "8:34"
+      },
+      {
+        "spin": 13,
+        "number": "2",
+        "amountBet": 12,
+        "result": -12,
+        "time": "9:08",
+        "notes": "Alex YOLOed the rest of his money here."
+      },
+      {
+        "spin": 14,
+        "number": "26",
+        "amountBet": 0,
+        "result": 0,
+        "time": "9:30",
+        "notes": "No bet here for Alex."
+      }
+    ]
+  },
+  {
     "name": "Even Stephen 2️⃣4️⃣6️⃣8️⃣🔟",
     "airDate": "2023-06-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=OqAiG6aS7vM",
