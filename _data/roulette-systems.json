@@ -1,5 +1,221 @@
 [
   {
+    "name": "Pied Piper 🪈",
+    "airDate": "2023-06-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LDjSuseaJR8",
+    "reviewUrl": "2023-06-10-Pied-Piper",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":50,"x18-high":50}},
+      {"wheelType":1,"wagers":{"x18-black":100,"x18-high":100}},
+      {"wheelType":1,"wagers":{"x4-2-6":25,"x4-7-11":25,"x4-13-17":25,"x4-20-24":25,"x4-26-30":25,"x4-31-35":25,"x2-0-00":25}},
+      {"wheelType":1,"wagers":{"x2-0-00":50,"x4-2-6":50,"x4-7-11":50,"x4-13-17":50,"x4-20-24":50,"x4-26-30":50,"x4-31-35":50}}
+    ],
+    "buyIn": 1000,
+    "bets": [
+      100,
+      200,
+      175,
+      350
+    ],
+    "rating": "a",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "I'm tracking David's wins/losses here, since that's who was supposed to be tracked in the video.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 100,
+        "result": 0,
+        "time": "1:05",
+        "notes": ""
+      },
+      {
+        "spin": 2,
+        "number": "5",
+        "amountBet": 100,
+        "result": 100,
+        "time": "1:36",
+        "notes": "David won $100 here."
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 200,
+        "result": -200,
+        "time": "2:18",
+        "notes": "David lost $200 here."
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:53",
+        "notes": "David lost $100 here."
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 100,
+        "result": 0,
+        "time": "3:43"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 100,
+        "result": 100,
+        "time": "4:14"
+      },
+      {
+        "spin": 7,
+        "number": "3",
+        "amountBet": 200,
+        "result": 200,
+        "time": "4:45",
+        "notes": "David won $200 here."
+      },
+      {
+        "spin": 8,
+        "number": "00",
+        "amountBet": 175,
+        "result": 275, 
+        "time": "5:39",
+        "notes": "David won $275 here, not $175."
+      },
+      {
+        "spin": 9,
+        "number": "00",
+        "amountBet": 350,
+        "result": 550,
+        "time": "6:40",
+        "notes": "David won $550 here, not $175"
+      },
+      {
+        "spin": 10,
+        "number": "0",
+        "amountBet": 350,
+        "result": 550,
+        "time": "7:53",
+        "notes": "David won $550 here, not $175"
+      },
+      {
+        "spin": 11,
+        "number": "34",
+        "amountBet": 350,
+        "result": -350,
+        "time": "8:42",
+        "notes": "David lost $350 here, not $225"
+      },
+      {
+        "spin": 12,
+        "number": "10",
+        "amountBet": 100,
+        "result": 0,
+        "time": "9:16"
+      }
+    ]
+  },
+  {
+    "name": "Big Cheese 🧀",
+    "airDate": "2023-06-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=hjYxCSnX-hI",
+    "reviewUrl": "2023-06-09-Big-Cheese",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-00-3":10,"x2-5-8":10,"x2-10-13":10,"x2-12-15":10,"x2-17-20":10,"x2-22-25":10,"x2-24-27":10,"x2-29-32":10,"x2-33-36":10}},
+      {"wheelType":1,"wagers":{"x2-00-3":20,"x2-5-8":20,"x2-10-13":20,"x2-12-15":20,"x2-17-20":20,"x2-22-25":20,"x2-24-27":20,"x2-29-32":20,"x2-33-36":20}},
+      {"wheelType":1,"wagers":{"x2-00-3":40,"x2-5-8":40,"x2-10-13":40,"x2-12-15":40,"x2-17-20":40,"x2-22-25":40,"x2-24-27":40,"x2-29-32":40,"x2-33-36":40}}
+    ],
+    "buyIn": 960,
+    "bets": [
+      90,
+      180,
+      360
+    ],
+    "rating": "",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "Positive progression. Press your bets when you hit. Max 3 levels",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "20",
+        "amountBet": 90,
+        "result": 90,
+        "time": "2:41"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 180,
+        "result": -180,
+        "time": "3:21"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 90,
+        "result": -90,
+        "time": "4:05"
+      },
+      {
+        "spin": 4,
+        "number": "2",
+        "amountBet": 90,
+        "result": -90,
+        "time": "4:55"
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 90,
+        "result": 90,
+        "time": "5:48"
+      },
+      {
+        "spin": 6,
+        "number": "15",
+        "amountBet": 90,
+        "result": 180,
+        "time": "6:27"
+      },
+      {
+        "spin": 7,
+        "number": "2",
+        "amountBet": 360,
+        "result": -360,
+        "time": "6:57"
+      },
+      {
+        "spin": 8,
+        "number": "26",
+        "amountBet": 90,
+        "result": -90,
+        "time": "7:39"
+      },
+      {
+        "spin": 9,
+        "number": "30",
+        "amountBet": 0,
+        "result": 0,
+        "time": "8:25",
+        "notes": "Alex didn't bet this one."
+      }
+    ]
+  },
+  {
     "name": "Ride or Die with a Strap 🍆",
     "airDate": "2023-06-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=7uaGzrxbQJs",
