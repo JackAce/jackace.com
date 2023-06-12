@@ -1,5 +1,253 @@
 [
   {
+    "name": "Stretched Limo",
+    "airDate": "2023-06-11",
+    "youtubeUrl": "https://www.youtube.com/watch?v=V50U9vJle3o",
+    "reviewUrl": "2023-06-11-Stretched-Limo",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":50,"x18-high":50}}
+    ],
+    "buyIn": 1200,
+    "bets": [
+      50,
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 50,
+        "result": 0,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      },
+      {
+        "spin": 99,
+        "number": "00",
+        "amountBet": 50,
+        "result": -1,
+        "time": ""
+      }
+    ]
+  },
+  {
     "name": "Pied Piper 🪈",
     "airDate": "2023-06-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=LDjSuseaJR8",
