@@ -1,6 +1,7 @@
 ---
 layout: roulette-system
 title: $5 Harley 🏍️ - Roulette System Review
+math: true
 ---
 
 <p>
@@ -10,3 +11,38 @@ title: $5 Harley 🏍️ - Roulette System Review
     I like this system, but I think step 3 should be a little easier to hit (like a single Street?),
     before you go for the Jugular.
 </p>
+<p>
+    In CEG's review, Alex asked me to calculate the probability of hitting the $500 jackpot. Here's the calculation:
+</p>
+<p>
+    \begin{align}
+    \\
+    \frac{18}{38} \times \frac{12}{38} \times \frac{1}{38} \times \frac{1}{38} &= \frac{216}{2085136} \\
+    \\
+    &= 0.00010359... \\
+    \\
+    &\approx \frac{1}{9653} \\
+    \\
+    \end{align}
+</p>
+<p>
+    This means for every time we start with the $5 bet, we will be successful in winning the next 4 bets
+    in a row about once every 9,653 attempts. Any loss will reset the attempt. But keep in mind that it's
+    possible to "win bullets" along the way.
+</p>
+<p>
+    Running this system through my simulator, I got the following stats:
+</p>
+<figure class="figure-condensed">
+    <img src="{{site.baseurl}}/assets/img/systems/2023-06-15/01-simulator-stats.png" alt="Simulation Statistics" />
+</figure>
+<p>
+    Out of 10,000 trials, we hit the goal of "winning the Harley" a total of 39 times. The other
+    9,961 times, we lost the $100.
+</p>
+<p>
+    This seems about right. If only used 20 bullets per buy-in, we'd expect to be successful around 20 or
+    21 times. But since it's possible to "win bullets" on the 2nd and 3rd tiers, that bumps that number
+    up by almost double.
+</p>
+
