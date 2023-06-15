@@ -1,0 +1,57 @@
+---
+layout: page
+---
+
+<h1>
+  Books
+</h1>
+
+<table class="roulette-system-table">
+  <thead>
+    <tr>
+      <th>
+        Title
+      </th>
+      <th>
+        Author[s]
+      </th>
+      <th>
+        JackAce<br/>Rating
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {%- assign filteredBooks = site.data.books | where: "book-category", page.book-category -%}
+
+    {% for bookRow in filteredBooks %}
+      {%- assign bookId = bookRow["book-id"] -%}
+      {%- assign bookRating = bookRow["book-rating"] -%}
+      {%- assign filteredBookAuthors = site.data.books-authors | where: "book-id", bookId -%}
+
+      <tr>
+            <td class="cell-center">
+                <a href="{{site.baseurl}}/books/{{bookId}}" >
+                  {{ bookRow["book-title"] }}
+                </a>
+            </td>
+            <td class="cell-center">
+              {% for bookAuthor in filteredBookAuthors %}
+                {%- assign authorId = bookAuthor["author-id"] -%}
+                {%- assign author = site.data.authors | where: "author-id", authorId | first -%}
+                {% assign authorName = author["author-name"] %}
+
+                <a href="{{site.baseurl}}/books/authors/{{authorId}}" >
+                    {{ authorName }}
+                </a>
+                <br/>
+
+                {% endfor %}
+            </td>
+            <td class="cell-center">
+                {%- include ceg-system-rating.html rating=bookRating showRatingLetter=true -%}
+            </td>
+        </tr>
+    {% endfor %}
+  </tbody>
+</table>

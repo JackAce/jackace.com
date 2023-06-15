@@ -1,0 +1,42 @@
+[
+    {
+        "book-id": "million-dollar-blackjack",
+        "author-id": "uston-ken"
+    },
+    {
+        "book-id": "knock-out-blackjack",
+        "author-id": "fuchs-ken"
+    },
+    {
+        "book-id": "knock-out-blackjack",
+        "author-id": "vancura-olaf"
+    },
+    {
+        "book-id": "the-worlds-greatest-blackjack-book",
+        "author-id": "humble-lance"
+    },
+    {
+        "book-id": "the-worlds-greatest-blackjack-book",
+        "author-id": "cooper-ken"
+    },
+    {
+        "book-id": "beat-the-dealer",
+        "author-id": "thorp-edward"
+    },
+    {
+        "book-id": "playing-blackjack-as-a-business",
+        "author-id": "revere-lawrence"
+    },
+    {
+        "book-id": "professional-blackjack",
+        "author-id": "wong-stanford"
+    },
+    {
+        "book-id": "blackjack-secrets",
+        "author-id": "wong-stanford"
+    },
+    {
+        "book-id": "basic-blackjack",
+        "author-id": "wong-stanford"
+   }
+]

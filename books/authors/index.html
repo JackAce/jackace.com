@@ -1,0 +1,44 @@
+---
+layout: page
+title: Authors
+---
+<table class="roulette-system-table">
+  <thead>
+    <tr>
+        <th>
+            Author
+        </th>
+        <th>
+            Book(s)
+        </th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {%- assign filteredAuthors = site.data.authors -%}
+
+    {% for authorRow in filteredAuthors %}
+      {%- assign authorId = authorRow["author-id"] -%}
+      {%- assign filteredBookAuthors = site.data.books-authors | where: "author-id", authorId -%}
+
+      <tr>
+          <td class="cell-center">
+              <a href="{{site.baseurl}}/books/authors/{{authorId}}" >
+                {{ authorRow["author-name"] }}
+              </a>
+          </td>
+          <td class="cell-center">
+            {% if filteredBookAuthors %}
+              {% for bookAuthor in filteredBookAuthors %}
+                {% assign bookId = bookAuthor["book-id"] %}
+                {% assign book = site.data.books | where: "book-id", bookId | first %}
+                {% assign bookTitle = book["book-title"] %}
+                <a href="{{site.baseurl}}/books/{{bookId}}" rel="book" >{{bookTitle}}</a>
+                <br/>
+              {% endfor %}
+            {% endif %}
+          </td>
+        </tr>
+    {% endfor %}
+  </tbody>
+</table>

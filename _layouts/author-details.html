@@ -1,0 +1,51 @@
+---
+layout: page
+---
+
+{% assign authorId = page.author-id %}
+
+{%- assign author = site.data.authors | where: "author-id", authorId | first -%}
+{%- assign authorName = author["author-name"] -%}
+{%- assign authorImgSrc = author["author-img-src"] -%}
+{%- assign filteredBookAuthors = site.data.books-authors | where: "author-id", authorId -%}
+
+{% if author == null %}
+    <div class="amt-neg">NO AUTHOR FOUND</div>
+{% endif %}
+
+<!-- <h2>{{author["author-name"]}}</h2> -->
+{% if authorImgSrc %}
+    <img src="{{site.baseurl}}/assets/img/books/{{authorImgSrc}}" />
+    <br/>
+    <br/>
+{% endif %}
+
+<h3>Books by {{authorName}}</h3>
+
+<table class="legend-table">
+    <tr>
+        <th>
+            Title
+        </th>
+    </tr>
+    {% for bookAuthor in filteredBookAuthors %}
+        {% assign bookId = bookAuthor["book-id"] %}
+        {% assign book = site.data.books | where: "book-id", bookId | first %}
+        {% assign bookTitle = book["book-title"] %}
+        <tr>
+            <td>
+                <a href="{{site.baseurl}}/books/{{bookId}}" rel="book" >{{bookTitle}}</a>
+            </td>
+        </tr>
+    {% endfor %}
+</table>
+
+<div class="system-review-content">
+    {{ content }}
+</div>
+
+<br/>
+<p>
+    <a href="{{site.baseurl}}/books/authors/" >Back to Authors</a>
+</p>
+  
