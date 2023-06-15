@@ -1,15 +1,19 @@
 - title: Blog
   url: /
+- title: Books
+  url: /books
 - title: Blackjack
   sublinks:
   - title: Blackjack
-    url: /gambling/blackjack/
+    url: /gambling/blackjack
   - title: Basic Strategy
     url: /gambling/blackjack/systems/basic-strategy
   - title: High Low Count
     url: /gambling/blackjack/systems/high-low
   - title: Other Systems
     url: /gambling/blackjack/systems
+  - title: Books
+    url: /books/blackjack
 - title: Roulette
   sublinks:
   - title: Roulette

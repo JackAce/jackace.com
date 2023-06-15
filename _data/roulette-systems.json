@@ -1,5 +1,240 @@
 [
   { 
+    "name": "5 Dollar Harley 🏍️",
+    "airDate": "2023-06-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=P5hNO86Qkss",
+    "reviewUrl": "2023-06-15-5-Dollar-Harley",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":5}},
+      {"wheelType":1,"wagers":{"x12-doz2":10}},
+      {"wheelType":1,"wagers":{"x1-21":20}},
+      {"wheelType":1,"wagers":{"x1-21":500}}
+    ],
+    "buyIn": 100,
+    "bets": [
+      5,
+      10,
+      20,
+      500
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "23",
+        "amountBet": 5,
+        "result": -5,
+        "time": "2:22"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 5,
+        "result": -5,
+        "time": "2:46"
+      },
+      {
+        "spin": 3,
+        "number": "8",
+        "amountBet": 5,
+        "result": 5,
+        "time": "3:06"
+      },
+      {
+        "spin": 4,
+        "number": "25",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:33"
+      },
+      {
+        "spin": 5,
+        "number": "24",
+        "amountBet": 5,
+        "result": 5,
+        "time": "3:51"
+      },
+      {
+        "spin": 6,
+        "number": "3",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:17"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 5,
+        "result": -5,
+        "time": "4:50"
+      },
+      {
+        "spin": 8,
+        "number": "5",
+        "amountBet": 5,
+        "result": -5,
+        "time": "5:15"
+      },
+      {
+        "spin": 9,
+        "number": "30",
+        "amountBet": 5,
+        "result": -5,
+        "time": "5:38"
+      },
+      {
+        "spin": 10,
+        "number": "15",
+        "amountBet": 5,
+        "result": 5,
+        "time": "6:08"
+      },
+      {
+        "spin": 11,
+        "number": "30",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:41"
+      },
+      {
+        "spin": 12,
+        "number": "32",
+        "amountBet": 5,
+        "result": -5,
+        "time": "7:12"
+      },
+      {
+        "spin": 13,
+        "number": "8",
+        "amountBet": 5,
+        "result": 5,
+        "time": "7:43"
+      },
+      {
+        "spin": 14,
+        "number": "14",
+        "amountBet": 10,
+        "result": 20,
+        "time": "8:09"
+      },
+      {
+        "spin": 15,
+        "number": "9",
+        "amountBet": 20,
+        "result": -20,
+        "time": "8:34",
+        "notes": "Alex put the $20 on 0."
+      },
+      {
+        "spin": 16,
+        "number": "00",
+        "amountBet": 5,
+        "result": -5,
+        "time": "9:04"
+      },
+      {
+        "spin": 17,
+        "number": "25",
+        "amountBet": 5,
+        "result": -5,
+        "time": "9:22"
+      },
+      {
+        "spin": 18,
+        "number": "13",
+        "amountBet": 5,
+        "result": 5,
+        "time": "9:46"
+      },
+      {
+        "spin": 19,
+        "number": "33",
+        "amountBet": 10,
+        "result": 20,
+        "time": "10:04"
+      },
+      {
+        "spin": 20,
+        "number": "18",
+        "amountBet": 20,
+        "result": -20,
+        "time": "10:35"
+      },
+      {
+        "spin": 21,
+        "number": "31",
+        "amountBet": 5,
+        "result": 5,
+        "time": "10:50"
+      },
+      {
+        "spin": 22,
+        "number": "8",
+        "amountBet": 10,
+        "result": -10,
+        "time": "11:13"
+      },
+      {
+        "spin": 23,
+        "number": "17",
+        "amountBet": 5,
+        "result": 5,
+        "time": "11:23"
+      },
+      {
+        "spin": 24,
+        "number": "25",
+        "amountBet": 10,
+        "result": 20,
+        "time": "11:45"
+      },
+      {
+        "spin": 25,
+        "number": "13",
+        "amountBet": 20,
+        "result": -20,
+        "time": "12:11"
+      },
+      {
+        "spin": 26,
+        "number": "31",
+        "amountBet": 5,
+        "result": 5,
+        "time": "12:23"
+      },
+      {
+        "spin": 27,
+        "number": "22",
+        "amountBet": 10,
+        "result": 20,
+        "time": "12:43"
+      },
+      {
+        "spin": 28,
+        "number": "7",
+        "amountBet": 20,
+        "result": -20,
+        "time": "12:54"
+      },
+      {
+        "spin": 29,
+        "number": "14",
+        "amountBet": 5,
+        "result": -5,
+        "time": "13:17"
+      }
+    ]
+  },
+  { 
     "name": "1 3 2 6",
     "airDate": "2023-06-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=Wi1_lYuG7tM",
