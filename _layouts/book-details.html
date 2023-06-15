@@ -1,0 +1,76 @@
+---
+layout: page
+---
+
+{% assign bookId = page.book-id %}
+{%- assign book = site.data.books | where: "book-id", bookId | first -%}
+{%- assign bookPurchaseUrl = book["book-purchase-url"] -%}
+{%- assign bookRating = book["book-rating"] -%}
+{%- assign bookAuthors = site.data.books-authors | where: "book-id", bookId -%}
+{%- assign page.title = book["book-title"] -%}
+
+{% if book == null %}
+    <div class="amt-neg">NO BOOK FOUND</div>
+{% endif %}
+
+<!-- <h2>{{book["book-title"]}}</h2> -->
+<img src="{{site.baseurl}}/assets/img/books/{{book['book-img-src']}}" />
+<br/>
+<br/>
+<table class="legend-table">
+    <tr>
+        <th>
+            Author(s):
+        </th>
+        <td>
+            {% if bookAuthors %}
+                {% for bookAuthor in bookAuthors %}
+                    {% assign authorId = bookAuthor["author-id"] %}
+                    {% assign author = site.data.authors | where: "author-id", authorId | first %}
+
+                    <!-- [[ {{author}} ]] -->
+
+                    {% assign authorName = author["author-name"] %}
+
+                    <a href="{{site.baseurl}}/books/authors/{{authorId}}" >
+                        {{ authorName }}
+                    </a>
+                    <br/>
+                {% endfor %}
+            {% endif %}
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Link:
+        </th>
+        <td>
+            <a href="{{bookPurchaseUrl}}" target="_blank">Buy!</a>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Rating:
+        </th>
+        <td>
+            {% include ceg-system-rating.html rating=bookRating showRatingLetter=true showRatingName=true %}
+        </td>
+    </tr>
+    <tr>
+        <th>
+            ISBN:
+        </th>
+        <td>
+            {{book["book-isbn-13"]}}
+        </td>
+    </tr>
+</table>
+
+<div class="system-review-content">
+    {{ content }}
+</div>
+<br/>
+<p>
+    <a href="{{site.baseurl}}/books/" >Back to Books</a>
+</p>
+  

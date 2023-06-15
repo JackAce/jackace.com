@@ -1,0 +1,84 @@
+[
+    {
+        "book-id": "basic-blackjack",
+        "book-category": "blackjack",
+        "book-title": "Basic Blackjack",
+        "book-isbn-10": "0935926194",
+        "book-isbn-13": "978-0935926194",
+        "book-rating": "a",
+        "book-purchase-url": "https://amzn.to/3XckwQ0",
+        "book-img-src": "basic-blackjack.jpg"
+    },
+    {
+        "book-id": "beat-the-dealer",
+        "book-category": "blackjack",
+        "book-title": "Beat the Dealer",
+        "book-tagline": "A Winning Strategy for the Game of Twenty-One",
+        "book-isbn-10": "9780394703107",
+        "book-isbn-13": "978-9780394703107",
+        "book-rating": "a",
+        "book-purchase-url": "https://amzn.to/3p7goo0",
+        "book-img-src": "beat-the-dealer.jpg"
+    },
+    {
+        "book-id": "blackjack-secrets",
+        "book-category": "blackjack",
+        "book-title": "Blackjack Secrets",
+        "book-isbn-10": "0935926208",
+        "book-isbn-13": "978-0935926208",
+        "book-rating": "a",
+        "book-purchase-url": "https://amzn.to/3CtPVnE",
+        "book-img-src": "blackjack-secrets.jpg"
+    },
+    {
+        "book-id": "knock-out-blackjack",
+        "book-category": "blackjack",
+        "book-title": "Knock-Out Blackjack",
+        "book-tagline": "The Easiest Card-Counting System Ever Devised",
+        "book-isbn-10": "1935396642",
+        "book-isbn-13": "978-1935396642",
+        "book-rating": "a",
+        "book-purchase-url": "https://amzn.to/3N69FTb",
+        "book-img-src": "knock-out-blackjack.jpg"
+    },
+    {
+        "book-id": "million-dollar-blackjack",
+        "book-category": "blackjack",
+        "book-title": "Million Dollar Blackjack",
+        "book-isbn-10": "1626548951",
+        "book-isbn-13": "978-1626548954",
+        "book-rating": "a",
+        "book-purchase-url": "https://amzn.to/3qLMSVl",
+        "book-img-src": "million-dollar-blackjack.jpg"
+    },
+    {
+        "book-id": "playing-blackjack-as-a-business",
+        "book-category": "blackjack",
+        "book-title": "Playing Blackjack as a Business",
+        "book-isbn-10": "1607967620",
+        "book-isbn-13": "978-1607967620",
+        "book-rating": "b",
+        "book-purchase-url": "https://amzn.to/464R3vD",
+        "book-img-src": "playing-blackjack-as-a-business.jpg"
+    },
+    {
+        "book-id": "professional-blackjack",
+        "book-category": "blackjack",
+        "book-title": "Professional Blackjack",
+        "book-isbn-10": "0935926216",
+        "book-isbn-13": "978-0935926216",
+        "book-rating": "a",
+        "book-purchase-url": "https://amzn.to/3PfC1NG",
+        "book-img-src": "professional-blackjack.jpg"
+    },
+    {
+        "book-id": "the-worlds-greatest-blackjack-book",
+        "book-category": "blackjack",
+        "book-title": "The World's Greatest Blackjack Book",
+        "book-isbn-10": "0385153829",
+        "book-isbn-13": "978-0385153829",
+        "book-rating": "b",
+        "book-purchase-url": "https://amzn.to/43IDwbE",
+        "book-img-src": "the-worlds-greatest-blackjack-book.jpg"
+    }
+]

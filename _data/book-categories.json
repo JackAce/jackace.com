@@ -1,0 +1,18 @@
+[
+    {
+        "book-category": "blackjack",
+        "book-category-name": "Blackjack"
+    },
+    {
+        "book-category": "general",
+        "book-category-name": "General Gambling"
+    },
+    {
+        "book-category": "other",
+        "book-category-name": "Other"
+    },
+    {
+        "book-category": "poker",
+        "book-category-name": "Poker"
+    }
+]
