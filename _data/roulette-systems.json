@@ -1,5 +1,105 @@
 [
   { 
+    "name": "Run it Through the Garden 🌼",
+    "airDate": "2023-06-16",
+    "youtubeUrl": "https://www.youtube.com/watch?v=W25Do05lDXg",
+    "reviewUrl": "2023-06-16-Run-it-Through-the-Garden",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-2":2,"x1-14":2,"x1-23":2,"x1-35":2,"x2-2-3":5,"x2-2-5":5,"x2-1-2":5,"x2-11-14":5,"x2-14-17":5,"x2-14-15":5,"x2-13-14":5,"x2-23-24":5,"x2-22-23":5,"x2-20-23":5,"x2-23-26":5,"x2-35-36":5,"x2-32-35":5,"x2-34-35":5,"x3-basket":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 616,
+    "bets": [
+      88  
+    ],
+    "rating": "",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "29",
+        "amountBet": 88,
+        "result": -88,
+        "time": "2:01"
+      },
+      {
+        "spin": 2,
+        "number": "29",
+        "amountBet": 88,
+        "result": -88,
+        "time": "2:54"
+      },
+      {
+        "spin": 3,
+        "number": "35",
+        "amountBet": 88,
+        "result": 254,
+        "time": "4:08"
+      },
+      {
+        "spin": 4,
+        "number": "7",
+        "amountBet": 88,
+        "result": -88,
+        "time": "5:17"
+      },
+      {
+        "spin": 5,
+        "number": "29",
+        "amountBet": 88,
+        "result": -88,
+        "time": "6:04"
+      },
+      {
+        "spin": 6,
+        "number": "3",
+        "amountBet": 88,
+        "result": 2,
+        "time": "6:50"
+      },
+      {
+        "spin": 7,
+        "number": "16",
+        "amountBet": 88,
+        "result": -88,
+        "time": "7:25"
+      },
+      {
+        "spin": 8,
+        "number": "3",
+        "amountBet": 88,
+        "result": 2,
+        "time": "8:10"
+      },
+      {
+        "spin": 9,
+        "number": "10",
+        "amountBet": 88,
+        "result": -88,
+        "time": "8:52"
+      },
+      {
+        "spin": 10,
+        "number": "29",
+        "amountBet": 88,
+        "result": -88,
+        "time": "9:47"
+      },
+      {
+        "spin": 11,
+        "number": "34",
+        "amountBet": 88,
+        "result": 2,
+        "time": "11:18"
+      }
+    ]
+  },
+  { 
     "name": "5 Dollar Harley 🏍️",
     "airDate": "2023-06-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=P5hNO86Qkss",
@@ -16,6 +116,7 @@
       {"wheelType":1,"wagers":{"x1-21":20}},
       {"wheelType":1,"wagers":{"x1-21":500}}
     ],
+    "systemType": "Positive Progression",
     "buyIn": 100,
     "bets": [
       5,
@@ -251,6 +352,7 @@
       {"wheelType":1,"wagers":{"x18-black":150}},
       {"wheelType":1,"wagers":{"x18-black":300}}
     ],
+    "systemType": "Negative Progression",
     "buyIn": 600,
     "bets": [
       25,
@@ -398,6 +500,7 @@
       {"wheelType":1,"wagers":{"x2-7-8":16,"x1-18":16,"x4-14-18":32,"x4-20-24":32,"x2-29-30":16,"x2-0-00":32,"x2-16-19":16}},
       {"wheelType":1,"wagers":{"x2-7-8":32,"x1-18":32,"x4-14-18":64,"x4-20-24":64,"x2-29-30":32,"x2-0-00":64,"x2-16-19":32}}
     ],
+    "systemType": "Martingale",
     "buyIn": 650,
     "bets": [
       10,
@@ -520,6 +623,7 @@
       {"wheelType":1,"wagers":{"x2-25-28":10,"x2-26-29":10,"x2-31-34":10,"x2-32-35":10,"x2-30-33":10,"x2-13-16":10,"x2-14-17":10,"x2-18-21":10,"x2-20-23":10,"x2-19-22":10}},
       {"wheelType":1,"wagers":{"x2-25-28":15,"x2-26-29":15,"x2-31-34":15,"x2-32-35":1150,"x2-30-33":15,"x2-13-16":15,"x2-14-17":15,"x2-18-21":15,"x2-20-23":15,"x2-19-22":15}}
     ],
+    "systemType": "Positive Progression",
     "buyIn": 1200,
     "bets": [
       50,
@@ -614,6 +718,7 @@
       {"wheelType":1,"wagers":{"x4-2-6":25,"x4-7-11":25,"x4-13-17":25,"x4-20-24":25,"x4-26-30":25,"x4-31-35":25,"x2-0-00":25}},
       {"wheelType":1,"wagers":{"x2-0-00":50,"x4-2-6":50,"x4-7-11":50,"x4-13-17":50,"x4-20-24":50,"x4-26-30":50,"x4-31-35":50}}
     ],
+    "systemType": "Positive Progression",
     "buyIn": 1000,
     "bets": [
       100,
@@ -736,6 +841,7 @@
       {"wheelType":1,"wagers":{"x2-00-3":20,"x2-5-8":20,"x2-10-13":20,"x2-12-15":20,"x2-17-20":20,"x2-22-25":20,"x2-24-27":20,"x2-29-32":20,"x2-33-36":20}},
       {"wheelType":1,"wagers":{"x2-00-3":40,"x2-5-8":40,"x2-10-13":40,"x2-12-15":40,"x2-17-20":40,"x2-22-25":40,"x2-24-27":40,"x2-29-32":40,"x2-33-36":40}}
     ],
+    "systemType": "Positive Progression",
     "buyIn": 960,
     "bets": [
       90,
@@ -829,6 +935,7 @@
       {"wheelType":1,"wagers":{"x12-doz1":45,"x1-10":1,"x1-12":1,"x1-8":1,"x1-6":1}},
       {"wheelType":1,"wagers":{"x1-21":35}}
     ],
+    "systemType": "Multi-Leg",
     "buyIn": 100,
     "bets": [
       9,
@@ -960,6 +1067,7 @@
       {"wheelType":1,"wagers":{"x18-odd":60,"x2-0-00":5,"x1-34":10,"x1-36":10,"x1-32":10,"x1-30":10,"x1-28":10,"x1-26":10,"x1-24":10,"x1-22":10,"x1-20":10,"x1-16":10}},
       {"wheelType":1,"wagers":{"x18-odd":60,"x2-0-00":5,"x1-34":20,"x1-36":20,"x1-32":20,"x1-30":20,"x1-28":20,"x1-26":20,"x1-24":20,"x1-22":20,"x1-20":20,"x1-16":20}}
     ],
+    "systemType": "Positive Progression",
     "buyIn": 800,
     "bets": [
       115,
@@ -1049,6 +1157,7 @@
     "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":50,"x12-col1":15,"x12-col3":15,"x2-2-5":5,"x2-5-8":5,"x2-16-19":5,"x2-17-20":15,"x2-18-21":5,"x2-29-32":5,"x2-32-35":5}}
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       100
@@ -1129,6 +1238,7 @@
     "bettingTiers": [
       {"wheelType":1,"wagers":{"x3-13-15":10,"x3-16-18":10,"x3-19-21":10,"x3-22-24":10,"x2-16-19":5,"x2-17-20":5,"x2-18-21":5,"x2-10-13":5,"x2-11-14":5,"x2-12-15":5,"x2-22-25":5,"x2-23-26":5,"x2-24-27":5,"x12-col2":10,"x2-0-00":5}}
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       100
@@ -1211,6 +1321,7 @@
       {"wheelType":1,"wagers":{"x12-doz2":50}},
       {"wheelType":1,"wagers":{"x12-doz2":100}}
     ],
+    "systemType": "Positive Progression",
     "buyIn": 500,
     "bets": [
       25,
@@ -1361,6 +1472,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1200,
     "bets": [
       600
@@ -1461,6 +1573,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 560,
     "bets": [
       230
@@ -1575,6 +1688,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 900,
     "bets": [
       225
@@ -1703,6 +1817,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1080,
     "bets": [
       180
@@ -1785,6 +1900,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 900,
     "bets": [
       225
@@ -1939,6 +2055,7 @@
       "00-rba-1-800x768.png",
       "00-rba-2-800x768.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 100,
     "bets": [
       10,
@@ -2080,6 +2197,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 300,
     "bets": [
       10,
@@ -2226,6 +2344,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1200,
     "bets": [
       300
@@ -2349,6 +2468,7 @@
       "00-rba-2-800x768.png",
       "00-rba-3-800x768.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1000,
     "bets": [
       10,
@@ -2497,6 +2617,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 2000,
     "bets": [
       250
@@ -2573,6 +2694,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1200,
     "bets": [
       450
@@ -2676,6 +2798,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 200,
     "bets": [
       25
@@ -2761,6 +2884,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 300,
     "bets": [
       90
@@ -2839,6 +2963,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 2000,
     "bets": [
       550,
@@ -2913,6 +3038,7 @@
       "00-rba-3-800x768.png",
       "00-rba-4-800x768.png"
     ],
+    "systemType": "Multi-Leg",
     "buyIn": 200,
     "bets": [
       80,
@@ -3034,6 +3160,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       225
@@ -3111,6 +3238,7 @@
       "00-rba-0-800x768.png",
       "00-rba-1-800x768.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 960,
     "bets": [
       320,
@@ -3189,6 +3317,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Multi-Leg",
     "buyIn": 800,
     "bets": [
       20,
@@ -3315,6 +3444,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 2000,
     "bets": [
       20,
@@ -3440,6 +3570,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1500,
     "bets": [
       75
@@ -3531,6 +3662,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 800,
     "bets": [
       130
@@ -3601,6 +3733,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 700,
     "bets": [
       25,
