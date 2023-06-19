@@ -1,5 +1,167 @@
 [
   { 
+    "name": "Double Bubble 🍈🍈",
+    "airDate": "2023-06-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-5i90KP7590",
+    "reviewUrl": "2023-06-19-Double-Bubble",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":75,"x6-10-15":75,"x6-22-27":75,"x6-16-21":100,"x6-28-33":100}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 2000,
+    "bets": [
+       425
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Should probably start with $1700 instead of $2000 (4 whacks). Not a fan of the tiny $25 wins.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "32",
+        "amountBet": 425,
+        "result": 175,
+        "time": "2:35"
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 425,
+        "result": 25,
+        "time": "3:11"
+      },
+      {
+        "spin": 3,
+        "number": "29",
+        "amountBet": 425,
+        "result": 175,
+        "time": "3:42"
+      },
+      {
+        "spin": 4,
+        "number": "18",
+        "amountBet": 425,
+        "result": 175,
+        "time": "4:36"
+      },
+      {
+        "spin": 5,
+        "number": "1",
+        "amountBet": 425,
+        "result": -425,
+        "time": "5:17"
+      },
+      {
+        "spin": 6,
+        "number": "13",
+        "amountBet": 425,
+        "result": 25,
+        "time": "6:01"
+      },
+      {
+        "spin": 7,
+        "number": "28",
+        "amountBet": 425,
+        "result": 175,
+        "time": "6:31"
+      },
+      {
+        "spin": 8,
+        "number": "8",
+        "amountBet": 425,
+        "result": 25,
+        "time": "7:26"
+      },
+      {
+        "spin": 9,
+        "number": "36",
+        "amountBet": 425,
+        "result": -425,
+        "time": "7:54"
+      }
+    ]
+  },
+  { 
+    "name": "Rumple Jackpots 🎰",
+    "airDate": "2023-06-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=eU8fo7Hu1y4",
+    "reviewUrl": "2023-06-17-Rumple-Jackpots",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-31-35":5,"x4-26-30":5,"x4-20-24":5,"x4-13-17":5,"x4-7-11":5,"x4-2-6":5,"x1-34":1,"x1-32":1,"x1-24":1,"x1-20":1,"x1-29":1,"x1-14":1,"x1-16":1,"x1-10":1,"x1-8":1,"x1-2":1}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 200,
+    "bets": [
+       40
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "The author wanted to Martingale, but CEG just flat bet this system.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "20",
+        "amountBet": 40,
+        "result": 41,
+        "time": "1:24",
+        "notes": "Alex won $41 here, not $35"
+      },
+      {
+        "spin": 2,
+        "number": "0",
+        "amountBet": 40,
+        "result": -40,
+        "time": "3:13"
+      },
+      {
+        "spin": 3,
+        "number": "13",
+        "amountBet": 40,
+        "result": 41,
+        "time": "4:49",
+        "notes": "Alex won $41 here, not $35"
+      },
+      {
+        "spin": 4,
+        "number": "28",
+        "amountBet": 40,
+        "result": 41,
+        "time": "6:29",
+        "notes": "Alex won $41 here, not $35"
+      },
+      {
+        "spin": 5,
+        "number": "6",
+        "amountBet": 40,
+        "result": -40,
+        "time": "7:52"
+      },
+      {
+        "spin": 6,
+        "number": "00",
+        "amountBet": 40,
+        "result": -40,
+        "time": "9:19"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 40,
+        "result": 41,
+        "time": "10:28",
+        "notes": "Alex won $41 here, not $35"
+      }
+    ]
+  },
+  { 
     "name": "Run it Through the Garden 🌼",
     "airDate": "2023-06-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=W25Do05lDXg",
