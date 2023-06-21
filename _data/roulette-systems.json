@@ -1,5 +1,84 @@
 [
   { 
+    "name": "Rumba 💃",
+    "airDate": "2023-06-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Ns0gOnfDFGc",
+    "reviewUrl": "2023-06-21-Rumba",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":100,"x4-13-17":30,"x4-20-24":30,"x4-26-30":30,"x4-31-35":30}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+       220
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 220,
+        "result": -220,
+        "time": "1:33"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 220,
+        "result": 50,
+        "time": "2:29"
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 220,
+        "result": 50,
+        "time": "3:24"
+      },
+      {
+        "spin": 4,
+        "number": "18",
+        "amountBet": 220,
+        "result": 50,
+        "time": "4:22"
+      },
+      {
+        "spin": 5,
+        "number": "29",
+        "amountBet": 220,
+        "result": 50,
+        "time": "5:07"
+      },
+      {
+        "spin": 6,
+        "number": "9",
+        "amountBet": 220,
+        "result": 80,
+        "time": "5:58"
+      },
+      {
+        "spin": 7,
+        "number": "16",
+        "amountBet": 220,
+        "result": 50,
+        "time": "6:42"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 220,
+        "result": -220,
+        "time": "7:39"
+      }
+    ]
+  },
+  { 
     "name": "Double Bubble 🍈🍈",
     "airDate": "2023-06-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=-5i90KP7590",
@@ -3987,6 +4066,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       325
@@ -4076,6 +4156,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 1275,
     "bets": [
       5,
@@ -4213,6 +4294,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 225,
     "bets": [
       225,
@@ -4363,6 +4445,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       90
@@ -4459,6 +4542,7 @@
       "00-rba-6-800x662.png",
       "00-rba-7-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 200,
     "bets": [
       1,
@@ -4624,6 +4708,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 600,
     "bets": [
       150,
@@ -4708,6 +4793,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 2000,
     "bets": [
       15,
@@ -4798,6 +4884,7 @@
       "00-rba-2-800x662.png",
       "00-rba-3-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 1000,
     "bets": [
       100,
@@ -4893,6 +4980,7 @@
       "00-rba-2-800x662.png",
       "00-rba-3-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1000,
     "bets": [
       30,
@@ -5008,6 +5096,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 1200,
     "bets": [
       200,
@@ -5152,6 +5241,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 500,
     "bets": [
       50,
@@ -5326,6 +5416,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1600,
     "bets": [
       25,
@@ -5445,6 +5536,7 @@
       "00-rba-2-800x662.png",
       "00-rba-3-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 250,
     "bets": [
       25,
@@ -5525,6 +5617,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 1000,
     "bets": [
       160,
@@ -5596,6 +5689,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 775,
     "bets": [
       775
@@ -5696,6 +5790,7 @@
       "00-rba-3-800x662.png",
       "00-rba-4-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 750,
     "bets": [
       125,
@@ -5817,6 +5912,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 200,
     "bets": [
       84
@@ -5931,6 +6027,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 700,
     "bets": [
       165,
@@ -5994,6 +6091,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 200,
     "bets": [
       2,
@@ -6103,6 +6201,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 810,
     "bets": [
       10,
@@ -6234,6 +6333,7 @@
       "00-rba-2-800x662.png",
       "00-rba-3-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 1000,
     "bets": [
       50,
@@ -6379,6 +6479,7 @@
       "00-rba-3-800x662.png",
       "00-rba-4-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 200,
     "bets": [
       10,
@@ -6550,6 +6651,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 310,
     "bets": [
       310
@@ -6649,6 +6751,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 300,
     "bets": [
       30
@@ -6725,6 +6828,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 1400,
     "bets": [
       65,
@@ -6808,6 +6912,7 @@
       "00-rba-2-800x662.png",
       "00-rba-3-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 100,
     "bets": [
       10,
@@ -6951,6 +7056,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 800,
     "bets": [
       10,
@@ -7075,6 +7181,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 315,
     "bets": [
       290,
@@ -7140,6 +7247,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       90
@@ -7208,6 +7316,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       220
@@ -7297,6 +7406,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 145,
     "bets": [
       145
@@ -7366,6 +7476,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 650,
     "bets": [
       130
@@ -7464,6 +7575,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 400,
     "bets": [
       200,
@@ -7568,6 +7680,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 2120,
     "bets": [
       10,
@@ -7713,6 +7826,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1800,
     "bets": [
       450
@@ -7810,6 +7924,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 400,
     "bets": [
       195
@@ -7908,6 +8023,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 500,
     "bets": [
       100,
@@ -8006,6 +8122,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 250,
     "bets": [
       140
@@ -8107,6 +8224,7 @@
       "00-rba-4-800x662.png",
       "00-rba-5-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 500,
     "bets": [
       50,
@@ -8211,6 +8329,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 16000,
     "bets": [
       8000,
@@ -8302,6 +8421,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 400,
     "bets": [
       130
@@ -8398,6 +8518,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 105,
     "bets": [
       21
@@ -8487,6 +8608,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 900,
     "bets": [
       275
@@ -8618,6 +8740,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 2500,
     "bets": [
       5,
@@ -8809,6 +8932,7 @@
       "00-rba-1-800x664.png",
       "00-rba-2-800x664.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 250,
     "bets": [
       25,
@@ -8922,6 +9046,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x664.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 200,
     "bets": [
       40
@@ -9029,6 +9154,7 @@
       "00-rba-2-800x664.png",
       "00-rba-3-800x664.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 400,
     "bets": [
       50,
@@ -9152,6 +9278,7 @@
       "00-rba-1-800x664.png",
       "00-rba-2-800x664.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 1050,
     "bets": [
       50,
@@ -9246,6 +9373,7 @@
       "00-rba-1-800x664.png",
       "00-rba-2-800x664.png"
     ],
+    "systemType": "Multi-Leg",
     "buyIn": 300,
     "bets": [
       26,
@@ -9344,6 +9472,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x664.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 800,
     "bets": [
       260
@@ -9444,6 +9573,7 @@
       "00-rba-4-800x662.png",
       "00-rba-5-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 2100,
     "bets": [
       100,
@@ -9560,6 +9690,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 2100,
     "bets": [
       50,
@@ -9665,6 +9796,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 750,
     "bets": [
       750
@@ -9733,6 +9865,7 @@
       "00-rba-4-800x662.png",
       "00-rba-5-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 320,
     "bets": [
       320,
@@ -9800,6 +9933,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       250
@@ -9889,6 +10023,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 3000,
     "bets": [
       1000
@@ -9958,6 +10093,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 650,
     "bets": [
       130
@@ -10027,6 +10163,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 400,
     "bets": [
       150,
@@ -10126,6 +10263,7 @@
       "00-rba-6-800x662.png",
       "00-rba-7-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 1100,
     "bets": [
       20,
@@ -10261,6 +10399,7 @@
       "00-rba-2-800x662.png",
       "00-rba-3-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 300,
     "bets": [
       10,
@@ -10396,6 +10535,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 530,
     "bets": [
       265
@@ -10488,6 +10628,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Multi-Leg",
     "buyIn": 6400,
     "bets": [
       100,
@@ -10630,6 +10771,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1575,
     "bets": [
       25,
@@ -10751,6 +10893,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 500,
     "bets": [
       50,
@@ -10870,6 +11013,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 250,
     "bets": [
       50
@@ -10961,6 +11105,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 300,
     "bets": [
       20,
@@ -11061,6 +11206,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 200,
     "bets": [
       20,
@@ -11161,6 +11307,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 10000,
     "bets": [
       25,
@@ -11280,6 +11427,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 425,
     "bets": [
       425
@@ -11390,6 +11538,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 2000,
     "bets": [
       70,
@@ -11491,6 +11640,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 300,
     "bets": [
       60
@@ -11566,6 +11716,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       400
@@ -11635,6 +11786,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 300,
     "bets": [
       125
@@ -11720,6 +11872,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1500,
     "bets": [
       180,
@@ -11951,6 +12104,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 5100,
     "bets": [
       10,
@@ -12040,6 +12194,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       125
@@ -12116,6 +12271,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 2000,
     "bets": [
       55,
@@ -12174,6 +12330,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 240,
     "bets": [
       80
@@ -12247,6 +12404,7 @@
       "00-rba-2-800x662.png",
       "00-rba-3-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 1500,
     "bets": [
       5,
@@ -12660,6 +12818,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 300,
     "bets": [
       125
@@ -12729,6 +12888,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 2000,
     "bets": [
       125,
@@ -13070,6 +13230,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 900,
     "bets": [
       450
@@ -13167,6 +13328,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       30,
@@ -13258,6 +13420,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 300,
     "bets": [
       70,
@@ -13343,6 +13506,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       75,
@@ -13406,6 +13570,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       100
@@ -13548,6 +13713,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 540,
     "bets": [
       160
@@ -13632,6 +13798,7 @@
       "00-rba-2-800x662.png",
       "00-rba-3-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 500,
     "bets": [
       10,
@@ -13819,6 +13986,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 720,
     "bets": [
       90,
@@ -13907,6 +14075,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 700,
     "bets": [
       140
@@ -13995,6 +14164,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 5000,
     "bets": [
       136
@@ -14172,6 +14342,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 3200,
     "bets": [
       165,
@@ -14246,6 +14417,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 700,
     "bets": [
       60
@@ -14334,6 +14506,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 700,
     "bets": [
       124
@@ -14417,6 +14590,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1400,
     "bets": [
       350
@@ -14525,6 +14699,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 300,
     "bets": [
       135
@@ -14588,6 +14763,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       40,
@@ -14689,6 +14865,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 300,
     "bets": [
       150,
@@ -14798,6 +14975,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x662.png"
     ],
+    "systemType": "Multi-Leg",
     "buyIn": 400,
     "bets": [
       5,
@@ -14888,6 +15066,7 @@
       "00-rba-0-800x662.png",
       "00-rba-1-800x662.png"
     ],
+    "systemType": "Other",
     "buyIn": 1000,
     "bets": [
       250,
@@ -14986,6 +15165,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 200,
     "bets": [
       50
@@ -15060,6 +15240,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       450
@@ -15168,6 +15349,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 660,
     "bets": [
       20,
@@ -15296,6 +15478,7 @@
       "00-rba-2-800x440.png",
       "00-rba-3-800x440.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 150,
     "bets": [
       15,
@@ -15409,6 +15592,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       100
@@ -15478,6 +15662,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 200,
     "bets": [
       25,
@@ -15562,6 +15747,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 100,
     "bets": [
       15
@@ -15631,6 +15817,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1200,
     "bets": [
       175
@@ -15728,6 +15915,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 1500,
     "bets": [
       150,
@@ -15834,6 +16022,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 3000,
     "bets": [
       500,
@@ -15934,6 +16123,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 630,
     "bets": [
       210
@@ -16009,6 +16199,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 360,
     "bets": [
       36
@@ -16084,6 +16275,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       100
@@ -16181,6 +16373,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 136,
     "bets": [
       136
@@ -16309,6 +16502,7 @@
       "00-rba-2-800x768.png",
       "00-rba-3-800x768.png"
     ],
+    "systemType": "Other",
     "buyIn": 250,
     "bets": [
       5,
@@ -16514,6 +16708,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 650,
     "bets": [
       5,
@@ -16706,6 +16901,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 650,
     "bets": [
       215
@@ -16781,6 +16977,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 190,
     "bets": [
       38
@@ -16858,6 +17055,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 800,
     "bets": [
       18,
@@ -16928,6 +17126,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 400,
     "bets": [
       100
@@ -17024,6 +17223,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 800,
     "bets": [
       12,
@@ -17105,6 +17305,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 420,
     "bets": [
       36,
@@ -17169,6 +17370,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       250
@@ -17223,6 +17425,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 650,
     "bets": [
       20,
@@ -17301,6 +17504,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 600,
     "bets": [
       120,
@@ -17385,6 +17589,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 3000,
     "bets": [
       10,
@@ -17543,6 +17748,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 500,
     "bets": [
       45,
@@ -17643,6 +17849,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       110
@@ -17722,6 +17929,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       175
@@ -17854,6 +18062,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       90
@@ -17935,6 +18144,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1200,
     "bets": [
       160,
@@ -18046,6 +18256,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 600,
     "bets": [
       150
@@ -18130,6 +18341,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 750,
     "bets": [
       70,
@@ -18235,6 +18447,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 300,
     "bets": [
       5,
@@ -18359,6 +18572,7 @@
       "00-rba-2-800x440.png",
       "00-rba-3-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1500,
     "bets": [
       100,
@@ -18433,6 +18647,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1020,
     "bets": [
       205
@@ -18530,6 +18745,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       25
@@ -18637,9 +18853,26 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 420,
     "bets": [
-      1
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
     ],
     "rating": "d",
     "jackaceRating": "d",
@@ -18803,6 +19036,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       100
@@ -18923,6 +19157,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Marginale",
     "buyIn": 1200,
     "bets": [
       170,
@@ -19070,6 +19305,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1200,
     "bets": [
       60
@@ -19185,6 +19421,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       125
@@ -19288,6 +19525,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1100,
     "bets": [
       220
@@ -19385,6 +19623,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       25,
@@ -19530,6 +19769,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1500,
     "bets": [
       90
@@ -19670,6 +19910,7 @@
       "00-rba-2-800x440.png",
       "00-rba-3-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1200,
     "bets": [
       90,
@@ -19748,6 +19989,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 750,
     "bets": [
       250
@@ -19825,6 +20067,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 300,
     "bets": [
       20,
@@ -20013,6 +20256,7 @@
       "00-rba-2-800x768.png",
       "00-rba-3-800x768.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 100,
     "bets": [
       5,
@@ -20224,6 +20468,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 600,
     "bets": [
       165
@@ -20338,6 +20583,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 1400,
     "bets": [
       40,
@@ -20506,6 +20752,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 325,
     "bets": [
       65
@@ -20624,6 +20871,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 600,
     "bets": [
       300
@@ -20726,9 +20974,10 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1200,
     "bets": [
-      10
+      300
     ],
     "rating": "f",
     "jackaceRating": "c",
@@ -20854,6 +21103,7 @@
       "00-rba-2-800x440.png",
       "00-rba-3-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 800,
     "bets": [
       10,
@@ -21015,6 +21265,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1900,
     "bets": [
       425
@@ -21140,6 +21391,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 600,
     "bets": [
       280
@@ -21287,6 +21539,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 255,
     "bets": [
       255
@@ -21411,6 +21664,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 360,
     "bets": [
       360
@@ -21527,6 +21781,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 800,
     "bets": [
       200
@@ -21693,6 +21948,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Multi-Leg",
     "buyIn": 1200,
     "bets": [
       94
@@ -21798,6 +22054,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 400,
     "bets": [
       9,
@@ -21926,6 +22183,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       125
@@ -22052,6 +22310,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 600,
     "bets": [
       135,
@@ -22170,6 +22429,7 @@
       "00-rba-6-800x440.png",
       "00-rba-7-800x440.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 100,
     "bets": [
       5,
@@ -22389,6 +22649,7 @@
       "00-rba-1-800x768.png",
       "00-rba-2-800x768.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1200,
     "bets": [
       170,
@@ -22513,6 +22774,7 @@
       "00-rba-5-800x440.png",
       "00-rba-6-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 500,
     "bets": [
       100,
@@ -22636,6 +22898,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 600,
     "bets": [
       140
@@ -22761,6 +23024,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 126,
     "bets": [
       9,
@@ -22929,6 +23193,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 1125,
     "bets": [
       75,
@@ -23054,6 +23319,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 900,
     "bets": [
       150
@@ -23177,6 +23443,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       140
@@ -23267,6 +23534,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 800,
     "bets": [
       180
@@ -23393,6 +23661,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 300,
     "bets": [
       130,
@@ -23555,6 +23824,7 @@
       "00-rba-3-800x440.png",
       "00-rba-4-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1200,
     "bets": [
       75,
@@ -23666,6 +23936,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 525,
     "bets": [
       35,
@@ -23828,6 +24099,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 1000,
     "bets": [
       25,
@@ -24015,6 +24287,7 @@
       "00-rba-4-800x440.png",
       "00-rba-5-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 850,
     "bets": [
       15,
@@ -24111,6 +24384,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 300,
     "bets": [
       75,
@@ -24252,6 +24526,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Multi-Leg",
     "buyIn": 1500,
     "bets": [
       50,
@@ -24456,6 +24731,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 625,
     "bets": [
       600
@@ -24597,6 +24873,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1500,
     "bets": [
       190
@@ -24692,6 +24969,7 @@
       "00-rba-3-800x440.png",
       "00-rba-4-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 350,
     "bets": [
       350,
@@ -24825,6 +25103,7 @@
       "00-rba-3-800x440.png",
       "00-rba-4-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 750,
     "bets": [
       750,
@@ -24937,6 +25216,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 600,
     "bets": [
       80,
@@ -25058,6 +25338,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 1200,
     "bets": [
       160,
@@ -25180,6 +25461,7 @@
       "00-rba-2-800x440.png",
       "00-rba-3-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 1200,
     "bets": [
       100,
@@ -25338,6 +25620,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       85
@@ -25441,6 +25724,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 100,
     "bets": [
       25
@@ -25554,6 +25838,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       47
@@ -25685,6 +25970,7 @@
       "00-rba-2-800x440.png",
       "00-rba-3-800x662.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 840,
     "bets": [
       60,
@@ -25806,6 +26092,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1200,
     "bets": [
       150
@@ -25937,6 +26224,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 750,
     "bets": [
       350
@@ -26014,6 +26302,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 2500,
     "bets": [
       135,
@@ -26112,6 +26401,7 @@
       "00-rba-4-800x440.png",
       "00-rba-5-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 500,
     "bets": [
       125,
@@ -26222,6 +26512,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 1000,
     "bets": [
       350,
@@ -26356,6 +26647,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Multi-Leg",
     "buyIn": 4000,
     "bets": [
       120
@@ -26467,6 +26759,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1000,
     "bets": [
       60,
@@ -26560,6 +26853,7 @@
       "00-rba-5-800x440.png",
       "00-rba-6-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 420,
     "bets": [
       11,
@@ -26718,6 +27012,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Multi-Leg",
     "buyIn": 5000,
     "bets": [
       30
@@ -26842,6 +27137,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       90
@@ -26963,6 +27259,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 300,
     "bets": [
       85
@@ -27132,6 +27429,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1350,
     "bets": [
       350
@@ -27228,6 +27526,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 2600,
     "bets": [
       430
@@ -27337,6 +27636,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       175
@@ -27456,6 +27756,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 500,
     "bets": [
       50,
@@ -27571,6 +27872,7 @@
       "00-rba-2-800x440.png",
       "00-rba-3-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 400,
     "bets": [
       10,
@@ -27715,6 +28017,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1500,
     "bets": [
       180,
@@ -27808,6 +28111,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       450
@@ -27911,6 +28215,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 100,
     "bets": [
       50
@@ -28068,6 +28373,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       150
@@ -28183,6 +28489,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       85
@@ -28293,6 +28600,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       50
@@ -28379,6 +28687,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 900,
     "bets": [
       270
@@ -28546,6 +28855,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1040,
     "bets": [
       260
@@ -28646,6 +28956,7 @@
       "00-rba-2-800x440.png",
       "00-rba-3-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 3000,
     "bets": [
       26,
@@ -28731,6 +29042,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 200,
     "bets": [
       10,
@@ -28827,6 +29139,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 350,
     "bets": [
       48,
@@ -28927,6 +29240,7 @@
       "00-rba-2-800x440.png",
       "00-rba-3-800x440.png"
     ],
+    "systemType": "Ladder",
     "buyIn": 500,
     "bets": [
       125,
@@ -29030,6 +29344,7 @@
       "00-rba-2-800x440.png",
       "00-rba-3-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 1200,
     "bets": [
       65,
@@ -29144,6 +29459,7 @@
       "00-rba-2-800x440.png",
       "00-rba-3-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 1200,
     "bets": [
       100,
@@ -29299,6 +29615,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       70
@@ -29385,6 +29702,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 2000,
     "bets": [
       130,
@@ -29524,6 +29842,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       400
@@ -29681,6 +30000,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 800,
     "bets": [
       170
@@ -29772,6 +30092,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 200,
     "bets": [
       70
@@ -29893,6 +30214,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 400,
     "bets": [
       110
@@ -30053,6 +30375,7 @@
       "00-rba-4-800x440.png",
       "00-rba-5-800x440.png"
     ],
+    "systemType": "Positive Progression",
     "buyIn": 125,
     "bets": [
       25,
@@ -30194,6 +30517,7 @@
       "00-rba-5-800x440.png",
       "00-rba-6-800x440.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 1500,
     "bets": [
       22,
@@ -30339,6 +30663,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       95
@@ -30472,6 +30797,7 @@
       "00-rba-2-800x768.png",
       "00-rba-3-800x768.png"
     ],
+    "systemType": "Negative Progression",
     "buyIn": 1000,
     "bets": [
       60,
@@ -30568,6 +30894,7 @@
       "00-rba-1-800x662.png",
       "00-rba-2-800x662.png"
     ],
+    "systemType": "Ladder",
     "buyIn": 50,
     "bets": [
       50,
@@ -30679,6 +31006,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 875,
     "bets": [
       235
@@ -30800,6 +31128,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 300,
     "bets": [
       120
@@ -30946,6 +31275,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       350
@@ -31050,6 +31380,7 @@
       "00-rba-2-800x768.png",
       "00-rba-3-800x768.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 2000,
     "friendCount": 2,
     "bets": [
@@ -31255,6 +31586,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1200,
     "bets": [
       310
@@ -31429,6 +31761,7 @@
       "00-rba-0-800x440.png",
       "00-rba-1-800x440.png"
     ],
+    "systemType": "Martingale",
     "buyIn": 300,
     "bets": [
       50,
@@ -31541,6 +31874,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1500,
     "bets": [
       300
@@ -31638,6 +31972,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1400,
     "bets": [
       175
@@ -31779,6 +32114,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 1000,
     "bets": [
       110,
@@ -31926,6 +32262,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Multi-Leg",
     "buyIn": 1600,
     "bets": [
       50,
@@ -32018,6 +32355,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
       500
@@ -32167,6 +32505,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 2500,
     "bets": [
       150
@@ -32291,6 +32630,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
       200
@@ -32467,6 +32807,7 @@
       "00-rba-1-800x768.png",
       "00-rba-2-800x768.png"
     ],
+    "systemType": "Other",
     "buyIn": 500,
     "bets": [
       150,
@@ -32591,6 +32932,7 @@
       "00-rba-1-800x440.png",
       "00-rba-2-800x440.png"
     ],
+    "systemType": "Flat Bet",
     "buyIn": 3500,
     "bets": [
       3500
@@ -32678,6 +33020,7 @@
       "00-rba-4-800x440.png",
       "00-rba-5-800x440.png"
     ],
+    "systemType": "Other",
     "buyIn": 200,
     "bets": [
       25,
