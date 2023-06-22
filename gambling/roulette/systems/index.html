@@ -51,7 +51,6 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
       columns: [
           {
             data: 'airDate',
-            
             render: function (data, type, row, meta) {
                 return '<a href="/gambling/roulette/systems/' + row.reviewUrl + '">' + row.name + '</a>';
             }
@@ -85,6 +84,17 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
                   return getHtmlForChip(row.bets[0]);
                 }
                 return getHtmlForChip(row.bets[0]) + ' &nbsp;to&nbsp; ' + getHtmlForChip(row.bets[row.bets.length - 1]);
+            }
+          },
+          {
+            // buyIn is just a dummy field here because there may be some records where systemType is not specified
+            data: 'buyIn',
+            render: function (data, type, row, meta) {
+              if (row.systemType) {
+                return row.systemType;
+              }
+              // Need to handle situation when systemType is not specified
+              return '--';
             }
           },
           {
@@ -225,6 +235,9 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
         </th>
         <th>
           Bet Sizes
+        </th>
+        <th>
+          System Type
         </th>
         <th>
           Total Amount Wagered
