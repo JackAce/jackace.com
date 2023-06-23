@@ -1,5 +1,166 @@
 [
   { 
+    "name": "Imperial Fortress",
+    "airDate": "2023-06-23",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ON2wV3R8ACY",
+    "reviewUrl": "2023-06-23-Imperial-Fortress",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-1-6":70,"x6-7-12":70,"x6-25-30":70,"x6-31-36":70,"x12-col3":10,"x3-basket":10,"x1-15":10,"x4-14-18":10,"x1-24":10,"x4-20-24":10,"x1-17":10,"x1-20":10,"x4-16-20":50}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1500,
+    "bets": [
+      410
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "You're betting on 36 or more numbers at a time. Automatic F. Alex was down $280 at the end, but I believe he should have been down $490.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "35",
+        "amountBet": 410,
+        "result": 10,
+        "time": "1:51"
+      },
+      {
+        "spin": 2,
+        "number": "8",
+        "amountBet": 410,
+        "result": 10,
+        "time": "3:07"
+      },
+      {
+        "spin": 3,
+        "number": "20",
+        "amountBet": 410,
+        "result": 490,
+        "time": "4:25"
+      },
+      {
+        "spin": 4,
+        "number": "34",
+        "amountBet": 410,
+        "result": 10,
+        "time": "6:33"
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 410,
+        "result": -290,
+        "time": "7:30"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 410,
+        "result": 10,
+        "time": "8:36"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 410,
+        "result": -320,
+        "time": "10:01"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 410,
+        "result": -410,
+        "time": "11:13"
+      }
+    ]
+  },
+  { 
+    "name": "Naughty Neighbors",
+    "airDate": "2023-06-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LdQv0wWtjrw",
+    "reviewUrl": "2023-06-22-Naughty-Neighbors",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-1-6":50,"x6-4-9":50,"x6-7-12":50,"x6-10-15":50,"x6-13-18":50,"x6-16-21":50,"x6-19-24":50,"x6-22-27":50,"x6-25-30":50,"x6-28-33":50,"x6-31-36":50}},
+      {"wheelType":1,"wagers":{"x6-1-6":150,"x6-4-9":150,"x6-7-12":150,"x6-10-15":150,"x6-13-18":150,"x6-16-21":150,"x6-19-24":150,"x6-22-27":150,"x6-25-30":150,"x6-28-33":150,"x6-31-36":150}}
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 3000,
+    "bets": [
+      550,
+      1650
+    ],
+    "rating": "f",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "3x Martingale for 1 spin if you lose $250, 3x Martingale for 3 spins if you lose $550.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "2",
+        "amountBet": 550,
+        "result": -250,
+        "time": "2:22"
+      },
+      {
+        "spin": 2,
+        "number": "8",
+        "amountBet": 1650,
+        "result": 150,
+        "time": "3:05"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 550,
+        "result": 50,
+        "time": "4:19"
+      },
+      {
+        "spin": 4,
+        "number": "32",
+        "amountBet": 550,
+        "result": 50,
+        "time": "5:04"
+      },
+      {
+        "spin": 5,
+        "number": "00",
+        "amountBet": 550,
+        "result": -550,
+        "time": "5:45"
+      },
+      {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 1650,
+        "result": 150,
+        "time": "6:30"
+      },
+      {
+        "spin": 7,
+        "number": "15",
+        "amountBet": 1650,
+        "result": 150,
+        "time": "7:30"
+      },
+      {
+        "spin": 8,
+        "number": "8",
+        "amountBet": 1650,
+        "result": 150,
+        "time": "8:10"
+      }
+    ]
+  },
+  { 
     "name": "Rumba 💃",
     "airDate": "2023-06-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=Ns0gOnfDFGc",
