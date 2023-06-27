@@ -1,5 +1,112 @@
 [
   { 
+    "name": "Opposites Attract 🧲 ",
+    "airDate": "2023-06-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=kKa1gR1B_QQ",
+    "reviewUrl": "2023-06-25-Opposites-Attract",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-red":75,"x1-35":5,"x1-33":5,"x1-31":5,"x1-28":5,"x1-29":5,"x1-26":5,"x1-24":5,"x1-22":5,"x1-20":5,"x1-17":5,"x1-15":5,"x1-13":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 600,
+    "bets": [
+      135
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Just bet $75 on the High and $60 on the 1st Dozen. Same thing.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "13",
+        "amountBet": 135,
+        "result": 45,
+        "time": ""
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 135,
+        "result": 15, 
+        "time": "3:34"
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 135,
+        "result": 45,
+        "time": "4:19"
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 135,
+        "result": -135,
+        "time": "5:03"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 135,
+        "result": 15,
+        "time": "5:56"
+      },
+      {
+        "spin": 6,
+        "number": "11",
+        "amountBet": 135,
+        "result": -135,
+        "time": "6:35"
+      },
+      {
+        "spin": 7,
+        "number": "4",
+        "amountBet": 135,
+        "result": -135,
+        "time": "7:44"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 135,
+        "result": -135,
+        "time": "8:29"
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 135,
+        "result": 45,
+        "time": "9:26"
+      },
+      {
+        "spin": 10,
+        "number": "23",
+        "amountBet": 135,
+        "result": 15,
+        "time": "10:16"
+      },
+      {
+        "spin": 11,
+        "number": "32",
+        "amountBet": 135,
+        "result": 15,
+        "time": "10:59"
+      },
+      {
+        "spin": 12,
+        "number": "36",
+        "amountBet": 135,
+        "result": 15,
+        "time": "12:01"
+      }
+    ]
+  },
+  { 
     "name": "Connect 4 🔴⚫🔴⚫",
     "airDate": "2023-06-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=ux1IHvBHVqQ",
