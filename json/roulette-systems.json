@@ -1,5 +1,268 @@
 [
   { 
+    "name": "Tribute to CEG 🎖️",
+    "airDate": "2023-07-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Zj5pTJD-9-o",
+    "reviewUrl": "2023-07-02-Tribute-to-CEG",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-3":10,"x1-2":10,"x1-1":10,"x1-4":10,"x1-7":10,"x1-10":10,"x1-11":10,"x1-12":10,"x1-15":10,"x1-14":10,"x1-13":10,"x1-16":10,"x1-19":10,"x1-22":10,"x1-23":10,"x1-24":10,"x1-27":10,"x1-26":10,"x1-25":10,"x1-28":10,"x1-31":10,"x1-34":10,"x1-35":10,"x1-36":10,"x1-33":10,"x1-32":10,"x2-17-20":20,"x4-16-20":10,"x4-17-21":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 2000,
+    "bets": [
+      300
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "They initially said the buy in was $480, but it looks like they started with $500 each.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "33",
+        "amountBet": 300,
+        "result": 60,
+        "time": "1:33"
+      },
+      {
+        "spin": 2,
+        "number": "17",
+        "amountBet": 300,
+        "result": 240, 
+        "time": "2:24"
+      },
+      {
+        "spin": 3,
+        "number": "3",
+        "amountBet": 300,
+        "result": 60, 
+        "time": "3:54"
+      },
+      {
+        "spin": 4,
+        "number": "25",
+        "amountBet": 300,
+        "result": 60, 
+        "time": "4:31"
+      },
+      {
+        "spin": 5,
+        "number": "18",
+        "amountBet": 300,
+        "result": -210, 
+        "time": "5:01"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 300,
+        "result": 60, 
+        "time": "6:08"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 300,
+        "result": -300, 
+        "time": "7:00"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 300,
+        "result": -300, 
+        "time": "7:40"
+      },
+      {
+        "spin": 9,
+        "number": "21",
+        "amountBet": 300,
+        "result": -210, 
+        "time": "8:30"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 300,
+        "result": 60, 
+        "time": "9:12"
+      },
+      {
+        "spin": 11,
+        "number": "21",
+        "amountBet": 300,
+        "result": -210, 
+        "time": "9:47"
+      },
+      {
+        "spin": 12,
+        "number": "00",
+        "amountBet": 300,
+        "result": -300, 
+        "time": "10:18"
+      },
+      {
+        "spin": 13,
+        "number": "13",
+        "amountBet": 300,
+        "result": 60, 
+        "time": "11:09"
+      },
+      {
+        "spin": 14,
+        "number": "13",
+        "amountBet": 300,
+        "result": 60, 
+        "time": "11:34"
+      },
+      {
+        "spin": 15,
+        "number": "00",
+        "amountBet": 300,
+        "result": -300, 
+        "time": "12:13"
+      },
+      {
+        "spin": 16,
+        "number": "34",
+        "amountBet": 300,
+        "result": 60, 
+        "time": "13:17"
+      },
+      {
+        "spin": 17,
+        "number": "13",
+        "amountBet": 300,
+        "result": 60, 
+        "time": "13:52"
+      }
+    ]
+  },
+  { 
+    "name": "Odd Hit That 1️⃣3️⃣5️⃣7️⃣9️⃣",
+    "airDate": "2023-07-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=rHKjJ4qC2Ek",
+    "reviewUrl": "2023-07-01-Odd-Hit-That",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-4-6":10,"x3-10-12":10,"x3-16-18":10,"x3-22-24":10,"x3-28-30":10,"x3-34-36":10,"x1-1":5,"x1-3":5,"x1-7":5,"x1-9":5,"x1-13":5,"x1-15":5,"x1-19":5,"x1-21":5,"x1-25":5,"x1-27":5,"x1-31":5,"x1-33":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      120
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "They initially said the buy in was $480, but it looks like they started with $500 each.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "6",
+        "amountBet": 120,
+        "result": 0,
+        "time": "1:24"
+      },
+      {
+        "spin": 2,
+        "number": "6",
+        "amountBet": 120,
+        "result": 0, 
+        "time": "2:20"
+      },
+      {
+        "spin": 3,
+        "number": "14",
+        "amountBet": 120,
+        "result": -120, 
+        "time": "3:02"
+      },
+      {
+        "spin": 4,
+        "number": "28",
+        "amountBet": 120,
+        "result": 0, 
+        "time": "4:19"
+      },
+      {
+        "spin": 5,
+        "number": "6",
+        "amountBet": 120,
+        "result": 0, 
+        "time": "4:53"
+      },
+      {
+        "spin": 6,
+        "number": "28",
+        "amountBet": 120,
+        "result": 0, 
+        "time": "5:28"
+      },
+      {
+        "spin": 7,
+        "number": "4",
+        "amountBet": 120,
+        "result": 0, 
+        "time": "6:06"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 120,
+        "result": 0, 
+        "time": "6:48"
+      },
+      {
+        "spin": 9,
+        "number": "00",
+        "amountBet": 120,
+        "result": -120, 
+        "time": "7:29"
+      },
+      {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 120,
+        "result": -120, 
+        "time": "8:36"
+      },
+      {
+        "spin": 11,
+        "number": "33",
+        "amountBet": 120,
+        "result": 60, 
+        "time": "9:42"
+      },
+      {
+        "spin": 12,
+        "number": "30",
+        "amountBet": 120,
+        "result": 0, 
+        "time": "10:38"
+      },
+      {
+        "spin": 13,
+        "number": "24",
+        "amountBet": 120,
+        "result": 0, 
+        "time": "11:09"
+      },
+      {
+        "spin": 14,
+        "number": "6",
+        "amountBet": 120,
+        "result": 0, 
+        "time": "11:58"
+      }
+    ]
+  },
+  { 
     "name": "Gum Drop Pass 🍬",
     "airDate": "2023-06-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=rkYuP9Fvgq0",
@@ -32,7 +295,7 @@
         "amountBet": 30,
         "result": 15,
         "time": "2:38",
-        "notes": "Ales won $15, he didn't lose $30 as displayed on the video."
+        "notes": "Alex won $15, he didn't lose $30 as displayed on the video."
       },
       {
         "spin": 2,
