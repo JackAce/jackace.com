@@ -123,13 +123,13 @@
       {"wheelType":1,"wagers":{"x6-4-9":10,"x6-10-15":10,"x6-16-21":15,"x6-22-27":10,"x6-28-33":15}}
     ],
     "systemType": "Positive Progression",
-    "buyIn": 2000,
+    "buyIn": 500,
     "bets": [
       300,
       60
     ],
     "rating": "b",
-    "jackaceRating": "c",
+    "jackaceRating": "d",
     "isJackAceReview": false,
     "notes": "",
     "spins": [
