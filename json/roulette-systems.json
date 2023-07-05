@@ -1,5 +1,239 @@
 [
   { 
+    "name": "Snake Charmer 🐍",
+    "airDate": "2023-07-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=K80A-XgMseU",
+    "reviewUrl": "2023-07-05-Snake-Charmer",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-34":5,"x1-32":5,"x1-30":5,"x1-27":5,"x1-23":5,"x1-19":5,"x1-16":5,"x1-14":5,"x1-12":5,"x1-9":5,"x1-5":5,"x1-1":5,"x2-18-21":10}},
+      {"wheelType":1,"wagers":{"x1-34":10,"x1-32":10,"x1-30":10,"x1-27":10,"x1-23":10,"x1-19":10,"x1-16":10,"x1-14":10,"x1-12":10,"x1-9":10,"x1-5":10,"x1-1":10,"x2-18-21":20}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 700,
+    "bets": [
+      70,
+      140
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Why not just bet Red? You're only 4 numbers short. Alex was down $395, but he should have been down $400. There were no wins or losses that wasn't a multiple of 10, so being down $395 would have been impossible. He was mispaid somewhere.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "30",
+        "amountBet": 70,
+        "result": 110,
+        "time": "1:58"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 140,
+        "result": -140, 
+        "time": "2:41"
+      },
+      {
+        "spin": 3,
+        "number": "4",
+        "amountBet": 70,
+        "result": -70, 
+        "time": "3:34"
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 70,
+        "result": -70, 
+        "time": "4:05"
+      },
+      {
+        "spin": 5,
+        "number": "1",
+        "amountBet": 70,
+        "result": 110, 
+        "time": "5:02"
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 140,
+        "result": -140, 
+        "time": "5:31"
+      },
+      {
+        "spin": 7,
+        "number": "16",
+        "amountBet": 70,
+        "result": 110, 
+        "time": "6:12"
+      },
+      {
+        "spin": 8,
+        "number": "7",
+        "amountBet": 140,
+        "result": -140, 
+        "time": "7:04"
+      },
+      {
+        "spin": 9,
+        "number": "8",
+        "amountBet": 70,
+        "result": -70, 
+        "time": "8:03"
+      },
+      {
+        "spin": 10,
+        "number": "20",
+        "amountBet": 70,
+        "result": -70, 
+        "time": "8:43"
+      },
+      {
+        "spin": 11,
+        "number": "21",
+        "amountBet": 70,
+        "result": 110, 
+        "time": "9:30"
+      },
+      {
+        "spin": 12,
+        "number": "7",
+        "amountBet": 140,
+        "result": -140, 
+        "time": "10:04"
+      }
+    ]
+  },
+  { 
+    "name": "Keeping It Up 🔷",
+    "airDate": "2023-07-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=6oZs4Ol276c",
+    "reviewUrl": "2023-07-03-Keeping-It-Up",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":60,"x6-10-15":60,"x6-16-21":60,"x6-22-27":60,"x6-28-33":60}},
+      {"wheelType":1,"wagers":{"x6-4-9":10,"x6-10-15":10,"x6-16-21":15,"x6-22-27":10,"x6-28-33":15}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 2000,
+    "bets": [
+      300,
+      60
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "31",
+        "amountBet": 300,
+        "result": 60,
+        "time": "1:44"
+      },
+      {
+        "spin": 2,
+        "number": "8",
+        "amountBet": 60,
+        "result": 0, 
+        "time": "2:31"
+      },
+      {
+        "spin": 3,
+        "number": "00",
+        "amountBet": 60,
+        "result": -60, 
+        "time": "3:03"
+      },
+      {
+        "spin": 4,
+        "number": "17",
+        "amountBet": 300,
+        "result": 60, 
+        "time": "3:57"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 60,
+        "result": 30, 
+        "time": "4:38"
+      },
+      {
+        "spin": 6,
+        "number": "3",
+        "amountBet": 60,
+        "result": -60, 
+        "time": "5:19"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 300,
+        "result": -300, 
+        "time": "5:45"
+      },
+      {
+        "spin": 8,
+        "number": "28",
+        "amountBet": 300,
+        "result": 60, 
+        "time": "6:17"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 60,
+        "result": 0, 
+        "time": "6:54"
+      },
+      {
+        "spin": 10,
+        "number": "19",
+        "amountBet": 60,
+        "result": 30, 
+        "time": "7:18"
+      },
+      {
+        "spin": 11,
+        "number": "11",
+        "amountBet": 60,
+        "result": 0, 
+        "time": "8:01"
+      },
+      {
+        "spin": 12,
+        "number": "7",
+        "amountBet": 60,
+        "result": 0, 
+        "time": "8:33"
+      },
+      {
+        "spin": 13,
+        "number": "8",
+        "amountBet": 60,
+        "result": 0, 
+        "time": "8:59"
+      },
+      {
+        "spin": 14,
+        "number": "12",
+        "amountBet": 60,
+        "result": 0, 
+        "time": "9:25"
+      }
+    ]
+  },
+  { 
     "name": "Tribute to CEG 🎖️",
     "airDate": "2023-07-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=Zj5pTJD-9-o",
