@@ -43,6 +43,23 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
     return '<span class="chip ' + chipClass + '">' + chipAmount.toLocaleString('en-US', {style: 'currency', currency: 'USD', maximumFractionDigits: 0}) + '</span>';
   }
 
+  function getHtmlForSystemType(systemType) {
+    let typeName = "--";
+    switch (systemType) {
+      case "Positive Progression":
+        typeName = "📈";
+        break;
+      case "Negative Progression":
+        typeName = "📉";
+        break;
+      case "Martingale":
+        typeName = "📉";
+        break;
+    }
+
+    return '<span class="chip ' + chipClass + '">' + chipAmount.toLocaleString('en-US', {style: 'currency', currency: 'USD', maximumFractionDigits: 0}) + '</span>';
+  }
+
   function populateDataTable(dataTableData) {
     $('#systemTable').DataTable( {
       data:  dataTableData,
@@ -116,28 +133,6 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
             render: function (data, type, row, meta) {
                 return row.spins.length;
             }
-          // },
-          // {
-          //   // Expected loss
-          //   data: 'spins[, ]',
-          //   render: function (data, type, row, meta) {
-          //       let returnValue = 0;
-          //       for (let i = 0; i < row.spins.length; i++) {
-          //         returnValue += row.spins[i].amountBet * -0.0526;
-          //       }
-          //       return '<span class="amt-neg">' + returnValue.toLocaleString('en-US', {style: 'currency', currency: 'USD'}) + '</span>';
-          //   }
-          // },
-          // {
-          //   // Comp Value 
-          //   data: 'spins[, ]',
-          //   render: function (data, type, row, meta) {
-          //       let returnValue = 0;
-          //       for (let i = 0; i < row.spins.length; i++) {
-          //         returnValue += row.spins[i].amountBet * 0.0526 * 0.2;
-          //       }
-          //       return returnValue.toLocaleString('en-US', {style: 'currency', currency: 'USD'});
-          //   }
           },
           {
             data: 'spins[, ]',
