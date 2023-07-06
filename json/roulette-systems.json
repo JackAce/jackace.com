@@ -1,5 +1,147 @@
 [
   { 
+    "name": "The Pretender 🤡",
+    "airDate": "2023-07-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=x7VuMVxXkjg",
+    "reviewUrl": "2023-07-06-The-Pretender",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-high":225,"x4-1-5":50,"x2-3-6":25,"x4-7-11":50,"x2-9-12":25,"x4-13-17":50}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 850,
+    "bets": [
+      425
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "0",
+        "amountBet": 425,
+        "result": -425,
+        "time": "1:55"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 425,
+        "result": -425, 
+        "time": "2:52"
+      },
+      {
+        "spin": 3,
+        "number": "22",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "4:02"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "4:32"
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "5:11"
+      },
+      {
+        "spin": 6,
+        "number": "34",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "5:47"
+      },
+      {
+        "spin": 7,
+        "number": "14",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "6:21"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "6:39"
+      },
+      {
+        "spin": 9,
+        "number": "7",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "7:14"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "7:51"
+      },
+      {
+        "spin": 11,
+        "number": "21",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "8:28"
+      },
+      {
+        "spin": 12,
+        "number": "2",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "9:03"
+      },
+      {
+        "spin": 13,
+        "number": "20",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "9:37"
+      },
+      {
+        "spin": 14,
+        "number": "34",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "10:06"
+      },
+      {
+        "spin": 15,
+        "number": "5",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "10:40"
+      },
+      {
+        "spin": 16,
+        "number": "6",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "11:08"
+      },
+      {
+        "spin": 17,
+        "number": "2",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "11:50"
+      }
+    ]
+  },
+  { 
     "name": "Snake Charmer 🐍",
     "airDate": "2023-07-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=K80A-XgMseU",
