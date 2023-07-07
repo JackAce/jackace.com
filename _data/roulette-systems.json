@@ -1,5 +1,112 @@
 [
   { 
+    "name": "Mother of all Comp Systems 🤰",
+    "airDate": "2023-07-07",
+    "youtubeUrl": "https://www.youtube.com/watch?v=psj8Q4kyuWg",
+    "reviewUrl": "2023-07-07-Mother-of-all-Comp-Systems",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":120,"x12-doz3":120,"x4-14-18":40,"x4-20-24":40,"x2-13-16":20}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 720,
+    "bets": [
+      340
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "5",
+        "amountBet": 340,
+        "result": 20,
+        "time": "1:14"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 340,
+        "result": 20, 
+        "time": "2:21"
+      },
+      {
+        "spin": 3 ,
+        "number": "10",
+        "amountBet": 340,
+        "result": 20, 
+        "time": "2:59"
+      },
+      {
+        "spin": 4,
+        "number": "4",
+        "amountBet": 340,
+        "result": 20, 
+        "time": "3:38"
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 340,
+        "result": 20, 
+        "time": "4:06"
+      },
+      {
+        "spin": 6,
+        "number": "13",
+        "amountBet": 340,
+        "result": 20, 
+        "time": "4:45"
+      },
+      {
+        "spin": 7,
+        "number": "13",
+        "amountBet": 340,
+        "result": 20, 
+        "time": "5:27"
+      },
+      {
+        "spin": 8,
+        "number": "8",
+        "amountBet": 340,
+        "result": 20, 
+        "time": "5:53"
+      },
+      {
+        "spin": 9,
+        "number": "14",
+        "amountBet": 340,
+        "result": 20, 
+        "time": "6:27"
+      },
+      {
+        "spin": 10,
+        "number": "9",
+        "amountBet": 340,
+        "result": 20, 
+        "time": "7:03"
+      },
+      {
+        "spin": 11,
+        "number": "00",
+        "amountBet": 340,
+        "result": -340, 
+        "time": "7:46"
+      },
+      {
+        "spin": 12,
+        "number": "6",
+        "amountBet": 340,
+        "result": 20, 
+        "time": "9:26"
+      }
+    ]
+  },
+  { 
     "name": "The Pretender 🤡",
     "airDate": "2023-07-06",
     "youtubeUrl": "https://www.youtube.com/watch?v=x7VuMVxXkjg",
