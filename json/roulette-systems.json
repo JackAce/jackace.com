@@ -1,5 +1,112 @@
 [
   { 
+    "name": "All Comp No Nuts 🚫🥜",
+    "airDate": "2023-07-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1kSKQ00C3Ng",
+    "reviewUrl": "2023-07-08-All-Comp-No-Nuts",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col3":150,"x4-4-8":50,"x4-10-14":50,"x3-16-18":50,"x4-19-23":50,"x4-25-29":50,"x4-31-35":50}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1800,
+    "bets": [
+      450
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "4",
+        "amountBet": 450,
+        "result": 0,
+        "time": "1:47"
+      },
+      {
+        "spin": 2,
+        "number": "28",
+        "amountBet": 450,
+        "result": 0, 
+        "time": "2:48"
+      },
+      {
+        "spin": 3,
+        "number": "8",
+        "amountBet": 450,
+        "result": 0, 
+        "time": "3:42"
+      },
+      {
+        "spin": 4,
+        "number": "2",
+        "amountBet": 450,
+        "result": -450, 
+        "time": "4:20"
+      },
+      {
+        "spin": 5,
+        "number": "2",
+        "amountBet": 450,
+        "result": -450, 
+        "time": "5:15"
+      },
+      {
+        "spin": 6,
+        "number": "15",
+        "amountBet": 450,
+        "result": 0, 
+        "time": "5:57"
+      },
+      {
+        "spin": 7,
+        "number": "1",
+        "amountBet": 450,
+        "result": -450, 
+        "time": "6:42"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 450,
+        "result": 0, 
+        "time": "7:55"
+      },
+      {
+        "spin": 9,
+        "number": "15",
+        "amountBet": 450,
+        "result": 0, 
+        "time": "8:32"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 450,
+        "result": 0, 
+        "time": "9:04"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 450,
+        "result": 0, 
+        "time": "9:40"
+      },
+      {
+        "spin": 12,
+        "number": "2",
+        "amountBet": 450,
+        "result": -450, 
+        "time": "10:09"
+      }
+    ]
+  },
+  { 
     "name": "Mother of all Comp Systems 🤰",
     "airDate": "2023-07-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=psj8Q4kyuWg",
