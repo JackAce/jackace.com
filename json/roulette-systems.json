@@ -1,5 +1,184 @@
 [
   { 
+    "name": "Banana Single Splits 🍌",
+    "airDate": "2023-07-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=z9F2724Al60",
+    "reviewUrl": "2023-07-14-Banana-Single-Splits",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-28-31":10,"x2-26-29":10,"x2-27-30":10,"x2-18-21":10,"x2-17-20":10,"x2-16-19":10,"x2-10-13":10,"x2-8-11":10,"x2-9-12":10,"x1-00":5,"x1-0":5,"x1-7":5,"x1-14":5,"x1-15":5,"x1-25":5,"x1-32":5,"x1-33":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 650,
+    "bets": [
+      130
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "You can choose to Martingale this system.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "18",
+        "amountBet": 130,
+        "result": 50,
+        "time": "1:42"
+      },
+      {
+        "spin": 2,
+        "number": "9",
+        "amountBet": 130,
+        "result": 50, 
+        "time": "2:56"
+      },
+      {
+        "spin": 3,
+        "number": "6",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "3:57"
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 130,
+        "result": 50, 
+        "time": "5:09"
+      },
+      {
+        "spin": 5,
+        "number": "3",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "5:52"
+      },
+      {
+        "spin": 6,
+        "number": "13",
+        "amountBet": 130,
+        "result": 50, 
+        "time": "6:55"
+      },
+      {
+        "spin": 7,
+        "number": "4",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "7:43"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 130,
+        "result": 50, 
+        "time": "8:50"
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 130,
+        "result": 50, 
+        "time": "9:26"
+      }
+    ]
+  },
+  { 
+    "name": "It's All About the Layers 🧅",
+    "airDate": "2023-07-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=z9F2724Al60",
+    "reviewUrl": "2023-07-12-Its-All-About-the-Layers",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":50,"x6-10-15":50,"x6-16-21":50,"x6-22-27":50,"x6-28-33":50,"x12-col1":25,"x12-col3":25,"x4-5-9":5,"x4-11-15":5,"x4-17-21":5,"x4-23-27":5,"x4-29-33":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 700,
+    "bets": [
+      325
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "21",
+        "amountBet": 325,
+        "result": 95,
+        "time": "1:47"
+      },
+      {
+        "spin": 2,
+        "number": "21",
+        "amountBet": 325,
+        "result": 95, 
+        "time": "2:57"
+      },
+      {
+        "spin": 3,
+        "number": "15",
+        "amountBet": 325,
+        "result": 95, 
+        "time": "4:06"
+      },
+      {
+        "spin": 4,
+        "number": "2",
+        "amountBet": 325,
+        "result": -325, 
+        "time": "5:12"
+      },
+      {
+        "spin": 5,
+        "number": "6",
+        "amountBet": 325,
+        "result": 95, 
+        "time": "5:34"
+      },
+      {
+        "spin": 6,
+        "number": "26",
+        "amountBet": 325,
+        "result": 20, 
+        "time": "6:55"
+      },
+      {
+        "spin": 7,
+        "number": "31",
+        "amountBet": 325,
+        "result": 50, 
+        "time": "7:43"
+      },
+      {
+        "spin": 8,
+        "number": "10",
+        "amountBet": 325,
+        "result": 50, 
+        "time": "8:35"
+      },
+      {
+        "spin": 9,
+        "number": "0",
+        "amountBet": 325,
+        "result": -325, 
+        "time": "9:25"
+      },
+      {
+        "spin": 10,
+        "number": "29",
+        "amountBet": 325,
+        "result": 20, 
+        "time": "9:46"
+      }
+    ]
+  },
+  { 
     "name": "Arctic Nips 🥶🎎",
     "airDate": "2023-07-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=myerIhc69fU",
