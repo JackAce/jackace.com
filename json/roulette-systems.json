@@ -1,6 +1,92 @@
 [
   { 
-    "name": "It's All About the Layers",
+    "name": "Banana Single Splits 🍌",
+    "airDate": "2023-07-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=z9F2724Al60",
+    "reviewUrl": "2023-07-14-Banana-Single-Splits",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-28-31":10,"x2-26-29":10,"x2-27-30":10,"x2-18-21":10,"x2-17-20":10,"x2-16-19":10,"x2-10-13":10,"x2-8-11":10,"x2-9-12":10,"x1-00":5,"x1-0":5,"x1-7":5,"x1-14":5,"x1-15":5,"x1-25":5,"x1-32":5,"x1-33":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 650,
+    "bets": [
+      130
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "You can choose to Martingale this system.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "18",
+        "amountBet": 130,
+        "result": 50,
+        "time": "1:42"
+      },
+      {
+        "spin": 2,
+        "number": "9",
+        "amountBet": 130,
+        "result": 50, 
+        "time": "2:56"
+      },
+      {
+        "spin": 3,
+        "number": "6",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "3:57"
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 130,
+        "result": 50, 
+        "time": "5:09"
+      },
+      {
+        "spin": 5,
+        "number": "3",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "5:52"
+      },
+      {
+        "spin": 6,
+        "number": "13",
+        "amountBet": 130,
+        "result": 50, 
+        "time": "6:55"
+      },
+      {
+        "spin": 7,
+        "number": "4",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "7:43"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 130,
+        "result": 50, 
+        "time": "8:50"
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 130,
+        "result": 50, 
+        "time": "9:26"
+      }
+    ]
+  },
+  { 
+    "name": "It's All About the Layers 🧅",
     "airDate": "2023-07-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=z9F2724Al60",
     "reviewUrl": "2023-07-12-Its-All-About-the-Layers",
