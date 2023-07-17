@@ -1,5 +1,91 @@
 [
   { 
+    "name": "Grapefruiting Chamba 🍇🍇",
+    "airDate": "2023-07-16",
+    "youtubeUrl": "https://www.youtube.com/watch?v=z9F2724Al60",
+    "reviewUrl": "2023-07-16-Grapefruiting-Chamba",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-33":100,"x2-32-33":100,"x1-32":100,"x1-29":100,"x2-28-29":100,"x1-28":100,"x1-26":100,"x2-26-27":100,"x1-27":100,"x1-23":100,"x2-22-23":100,"x1-22":100,"x1-20":100,"x2-20-21":100,"x1-21":100,"x1-17":100,"x2-16-17":100,"x1-16":100,"x1-14":100,"x2-14-15":100,"x1-15":100,"x1-11":100,"x2-10-11":100,"x1-10":100,"x1-8":100,"x2-8-9":100,"x1-9":100,"x1-5":100,"x2-4-5":100,"x1-4":100,"x1-6":100,"x1-7":100,"x1-12":100,"x1-13":100,"x1-18":100,"x1-19":100,"x1-24":100,"x1-25":100,"x1-30":100,"x1-31":100,"x12-col2":200}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 12600,
+    "bets": [
+      4200
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Such a stupid betting pattern.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "26",
+        "amountBet": 4200,
+        "result": 1800,
+        "time": "2:10"
+      },
+      {
+        "spin": 2,
+        "number": "1",
+        "amountBet": 4200,
+        "result": -4200, 
+        "time": "3:00"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 4200,
+        "result": -4200, 
+        "time": "3:34"
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 4200,
+        "result": -600, 
+        "time": "4:02"
+      },
+      { 
+        "spin": 5,
+        "number": "14",
+        "amountBet": 4200,
+        "result": 1800, 
+        "time": "4:25"
+      },
+      {
+        "spin": 6,
+        "number": "29",
+        "amountBet": 4200,
+        "result": 1800, 
+        "time": "4:51"
+      },
+      {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 4200,
+        "result": 1200, 
+        "time": "5:11"
+      },
+      {
+        "spin": 8,
+        "number": "12",
+        "amountBet": 4200,
+        "result": -600, 
+        "time": "5:25"
+      },
+      {
+        "spin": 9,
+        "number": "17",
+        "amountBet": 4200,
+        "result": 1800, 
+        "time": "5:58"
+      }
+    ]
+  },
+  { 
     "name": "Banana Single Splits 🍌",
     "airDate": "2023-07-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=z9F2724Al60",
