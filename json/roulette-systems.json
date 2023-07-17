@@ -1,5 +1,139 @@
 [
   { 
+    "name": "4 for the Money 💰💰💰💰",
+    "airDate": "2023-07-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=HzbssWXlLo4",
+    "reviewUrl": "2023-07-17-4-for-the-Money",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-high":180,"x12-doz1":90,"x1-14":10,"x1-17":10,"x1-18":10,"x1-16":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      310
+    ],
+    "rating": "",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "The video has all incorrect payouts for this system. They gave this system a C, but I'm not going to list it because this video is completely misleading.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "15",
+        "amountBet": 310,
+        "result": -310,
+        "time": "2:11"
+      },
+      {
+        "spin": 2,
+        "number": "27",
+        "amountBet": 310,
+        "result": 50, 
+        "time": "2:55",
+        "notes": "The video said PUSH, but they should have won +50."
+      },
+      {
+        "spin": 3,
+        "number": "21",
+        "amountBet": 310,
+        "result": 50, 
+        "time": "3:21",
+        "notes": "The video said PUSH, but they should have won +50."
+      },
+      {
+        "spin": 4,
+        "number": "32",
+        "amountBet": 310,
+        "result": 50, 
+        "time": "3:42",
+        "notes": "The video said PUSH, but they should have won +50."
+      },
+      {
+        "spin": 5,
+        "number": "28",
+        "amountBet": 310,
+        "result": 50, 
+        "time": "4:10",
+        "notes": "The video said PUSH, but they should have won +50."
+      },
+      {
+        "spin": 6,
+        "number": "21",
+        "amountBet": 310,
+        "result": 50, 
+        "time": "5:06",
+        "notes": "The video said PUSH, but they should have won +50."
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 310,
+        "result": -310, 
+        "time": "5:18",
+        "notes": "The video said -260, but they lost -310."
+      },
+      {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 310,
+        "result": -310, 
+        "time": "5:18",
+        "notes": "The video said -260, but they lost -310."
+      },
+      {
+        "spin": 9,
+        "number": "26",
+        "amountBet": 310,
+        "result": 50, 
+        "time": "6:06",
+        "notes": "The video said PUSH, but they should have won +50."
+      },
+      {
+        "spin": 10,
+        "number": "28",
+        "amountBet": 310,
+        "result": 50, 
+        "time": "6:40",
+        "notes": "The video said PUSH, but they should have won +50."
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 310,
+        "result": -40, 
+        "time": "7:00",
+        "notes": "The video said +10, but they should have lost -40."
+      },
+      {
+        "spin": 12,
+        "number": "29",
+        "amountBet": 310,
+        "result": 50, 
+        "time": "7:25",
+        "notes": "The video said PUSH, but they should have won +50."
+      },
+      {
+        "spin": 13,
+        "number": "35",
+        "amountBet": 310,
+        "result": 50, 
+        "time": "7:59",
+        "notes": "The video said PUSH, but they should have won +50."
+      },
+      {
+        "spin": 14,
+        "number": "6",
+        "amountBet": 310,
+        "result": -40, 
+        "time": "8:34",
+        "notes": "The video said +10, but they should have lost -40."
+      }
+    ]
+  },
+  { 
     "name": "Grapefruiting Chamba 🍇🍇",
     "airDate": "2023-07-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=z9F2724Al60",
@@ -15,10 +149,10 @@
     "bets": [
       4200
     ],
-    "rating": "d",
+    "rating": "c",
     "jackaceRating": "d",
     "isJackAceReview": false,
-    "notes": "Such a stupid betting pattern.",
+    "notes": "Such a stupid betting pattern. I'm not sure why they were even at the end. I have them being down $1200.",
     "spins": [
       {
         "spin": 1,
