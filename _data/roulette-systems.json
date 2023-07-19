@@ -1,5 +1,113 @@
 [
   { 
+    "name": "Blackmagic Jackpots 🐈‍⬛🎰",
+    "airDate": "2023-07-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=V2NS89MsX_k",
+    "reviewUrl": "2023-07-19-Blackmagic-Jackpots",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-red":65,"x1-26":5,"x1-29":5,"x1-28":5,"x1-31":5,"x4-28-32":5,"x4-25-29":5,"x1-8":5,"x1-10":5,"x1-11":5,"x1-13":5,"x4-10-14":5,"x4-7-11":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 600,
+    "bets": [
+      125
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    
+    "isJackAceReview": false,
+    "notes": "Alex was down $370, but he should have been down $415 according to my records. It's really difficult to tell why there's a discrepancy with their new style of editing.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "23",
+        "amountBet": 125,
+        "result": 5,
+        "time": "2:03"
+      },
+      {
+        "spin": 2,
+        "number": "14",
+        "amountBet": 125,
+        "result": 50, 
+        "time": "3:03"
+      },
+      {
+        "spin": 3,
+        "number": "6",
+        "amountBet": 125,
+        "result": -125, 
+        "time": "3:40"
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 125,
+        "result": -125, 
+        "time": "4:33"
+      },
+      {
+        "spin": 5,
+        "number": "1",
+        "amountBet": 125,
+        "result": 5, 
+        "time": "5:20"
+      },
+      {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 125,
+        "result": 5, 
+        "time": "6:04"
+      },
+      {
+        "spin": 7,
+        "number": "14",
+        "amountBet": 125,
+        "result": 5, 
+        "time": "6:30"
+      },
+      {
+        "spin": 8,
+        "number": "21",
+        "amountBet": 125,
+        "result": 5, 
+        "time": "7:03"
+      },
+      {
+        "spin": 9,
+        "number": "4",
+        "amountBet": 125,
+        "result": -125, 
+        "time": "7:41"
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 125,
+        "result": 5, 
+        "time": "8:26"
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 125,
+        "result": 5, 
+        "time": "9:06"
+      },
+      {
+        "spin": 12,
+        "number": "35",
+        "amountBet": 125,
+        "result": -125, 
+        "time": "9:27"
+      }
+    ]
+  },
+  { 
     "name": "4 for the Money 💰💰💰💰",
     "airDate": "2023-07-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=HzbssWXlLo4",
@@ -18,7 +126,7 @@
     "rating": "",
     "jackaceRating": "d",
     "isJackAceReview": false,
-    "notes": "The video has all incorrect payouts for this system. They gave this system a C, but I'm not going to list it because this video is completely misleading.",
+    "notes": "The video has all incorrect payouts for this system. They gave this system a C, but I'm not going to list it because this video is completely misleading. Alex was down -290, but he should have been down -250.",
     "spins": [
       {
         "spin": 1,
@@ -125,10 +233,10 @@
       }
     ]
   },
-  { 
+  {
     "name": "Grapefruiting Chamba 🍇🍇",
     "airDate": "2023-07-16",
-    "youtubeUrl": "https://www.youtube.com/watch?v=z9F2724Al60",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_c3hMkWy0Hs",
     "reviewUrl": "2023-07-16-Grapefruiting-Chamba",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
@@ -174,7 +282,7 @@
         "result": -600, 
         "time": "4:02"
       },
-      { 
+      {
         "spin": 5,
         "number": "14",
         "amountBet": 4200,
@@ -214,7 +322,7 @@
   { 
     "name": "Banana Single Splits 🍌",
     "airDate": "2023-07-14",
-    "youtubeUrl": "https://www.youtube.com/watch?v=z9F2724Al60",
+    "youtubeUrl": "https://www.youtube.com/watch?v=W62KbSKjPxw",
     "reviewUrl": "2023-07-14-Banana-Single-Splits",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
