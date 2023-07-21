@@ -1,5 +1,117 @@
 [
   { 
+    "name": "Ultimate Hedging ✂️🌿",
+    "airDate": "2023-07-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=vkZ8MFGTwHE",
+    "reviewUrl": "2023-07-20-Ultimate-Hedging",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":35,"x12-doz2":35,"x2-0-00":5,"x1-31":3,"x1-34":3,"x1-35":3,"x1-36":3,"x1-32":3,"x2-30-33":5}},
+      {"wheelType":1,"wagers":{"x12-doz1":105,"x12-doz2":105,"x2-0-00":15,"x1-31":9,"x1-34":9,"x1-35":9,"x1-36":9,"x1-32":9,"x2-30-33":15}}
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 500,
+    "bets": [
+      95,
+      285
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "3x Martingale if you get whacked.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "5",
+        "amountBet": 95,
+        "result": 10,
+        "time": "1:57"
+      },
+      {
+        "spin": 2,
+        "number": "1",
+        "amountBet": 95,
+        "result": 10, 
+        "time": "2:56"
+      },
+      {
+        "spin": 3,
+        "number": "32",
+        "amountBet": 95,
+        "result": 13, 
+        "time": "3:30"
+      },
+      {
+        "spin": 4,
+        "number": "18",
+        "amountBet": 95,
+        "result": 10, 
+        "time": "4:08"
+      },
+      {
+        "spin": 5,
+        "number": "6",
+        "amountBet": 95,
+        "result": 10, 
+        "time": "4:36"
+      },
+      {
+        "spin": 6,
+        "number": "26",
+        "amountBet": 95,
+        "result": 13, 
+        "time": "5:00",
+        "notes": "Alex moved his $3 bets around and caught this spin."
+      },
+      {
+        "spin": 7,
+        "number": "34",
+        "amountBet": 95,
+        "result": -95, 
+        "time": "5:37"
+      },
+      {
+        "spin": 8,
+        "number": "29",
+        "amountBet": 285,
+        "result": 39, 
+        "time": "6:30",
+        "notes": "They should have won $39 here, not $52 as shown on the video."
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 285,
+        "result": 39, 
+        "time": "6:57",
+        "notes": "They should have won $39 here, not $52 as shown on the video."
+      },
+      {
+        "spin": 10,
+        "number": "18",
+        "amountBet": 95,
+        "result": 10, 
+        "time": "7:52"
+      },
+      {
+        "spin": 11,
+        "number": "15",
+        "amountBet": 95,
+        "result": 10, 
+        "time": "8:09"
+      },
+      {
+        "spin": 12,
+        "number": "00",
+        "amountBet": 95,
+        "result": -5, 
+        "time": "9:09"
+      }
+    ]
+  },
+  { 
     "name": "Blackmagic Jackpots 🐈‍⬛🎰",
     "airDate": "2023-07-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=V2NS89MsX_k",
