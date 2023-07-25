@@ -1,5 +1,440 @@
 [
   { 
+    "name": "V28",
+    "airDate": "2023-07-24",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LyRSv9lEmBc",
+    "reviewUrl": "2023-07-24-V28",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":150,"x4-26-30":50,"x4-31-35":50,"x4-8-12":50,"x4-1-5":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":300,"x4-26-30":100,"x4-31-35":100,"x4-8-12":100,"x4-1-5":100}}
+    ],
+    "systemType": "Martingale",
+    "buyIn": 1050,
+    "bets": [
+      350,
+      700
+    ],
+    "rating": "a",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "22",
+        "amountBet": 350,
+        "result": 100,
+        "time": "1:38"
+      },
+      {
+        "spin": 2,
+        "number": "21",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "2:03"
+      },
+      {
+        "spin": 3,
+        "number": "14",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "2:27"
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 350,
+        "result": -350, 
+        "time": "2:47"
+      },
+      {
+        "spin": 5,
+        "number": "30",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "3:19"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "3:44"
+      },
+      {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "4:21"
+      },
+      {
+        "spin": 8,
+        "number": "00",
+        "amountBet": 350,
+        "result": -350, 
+        "time": "4:40"
+      },
+      {
+        "spin": 9,
+        "number": "16",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "4:52"
+      },
+      {
+        "spin": 10,
+        "number": "29",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "4:59"
+      },
+      {
+        "spin": 11,
+        "number": "11",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "5:12"
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "5:22"
+      },
+      {
+        "spin": 13,
+        "number": "34",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "5:32"
+      },
+      {
+        "spin": 14,
+        "number": "25",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "5:48"
+      },
+      {
+        "spin": 15,
+        "number": "19",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "6:13"
+      },
+      {
+        "spin": 16,
+        "number": "14",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "6:22"
+      },
+      {
+        "spin": 17,
+        "number": "36",
+        "amountBet": 350,
+        "result": -350, 
+        "time": "6:32"
+      },
+      {
+        "spin": 18,
+        "number": "7",
+        "amountBet": 350,
+        "result": -350, 
+        "time": "6:56"
+      },
+      {
+        "spin": 19,
+        "number": "17",
+        "amountBet": 700,
+        "result": 200, 
+        "time": "7:46",
+        "notes": "Alex changed the system to Martingale here and reloaded to $1050."
+      },
+      {
+        "spin": 20,
+        "number": "9",
+        "amountBet": 700,
+        "result": 200, 
+        "time": "8:12"
+      }
+    ]
+  },
+  { 
+    "name": "Raise Your Long Rod 🍆",
+    "airDate": "2023-07-23",
+    "youtubeUrl": "https://www.youtube.com/watch?v=PKJ91iC8Izk",
+    "reviewUrl": "2023-07-23-Raise-Your-Long-Rod",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col2":50,"x2-33-36":10,"x2-31-34":10,"x2-25-28":10,"x2-27-30":10,"x2-21-24":10,"x2-19-22":10,"x2-13-16":10,"x2-15-18":10,"x2-9-12":10,"x2-7-10":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      150
+    ],
+    "rating": "",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "23",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:27",
+        "notes": "Blank Spin"
+      },
+      {
+        "spin": 2,
+        "number": "6",
+        "amountBet": 150,
+        "result": -150, 
+        "time": "1:09"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "1:32",
+        "notes": "Alex won $30, not $20 as displayed on the video."
+      },
+      {
+        "spin": 4,
+        "number": "12",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "2:02",
+        "notes": "Alex won $30, not $20 as displayed on the video."
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 150,
+        "result": -150, 
+        "time": "2:21"
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 0,
+        "result": 0, 
+        "time": "3:05",
+        "notes": "Blank spin because of the 0"
+      },
+      {
+        "spin": 7,
+        "number": "22",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "3:14",
+        "notes": "Alex won $30, not $20 as displayed on the video."
+      },
+      {
+        "spin": 8,
+        "number": "32",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "3:20",
+        "notes": "Alex won $30, not $20 as displayed on the video."
+      },
+      {
+        "spin": 9,
+        "number": "6",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "3:39",
+        "notes": "Alex won $30, not $20 as displayed on the video."
+      },
+      {
+        "spin": 10,
+        "number": "29",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "3:54",
+        "notes": "Alex won $30, not $20 as displayed on the video."
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 150,
+        "result": -150, 
+        "time": "4:20",
+        "notes": "This spin was a 3, not a 0 as displayed on the video."
+      },
+      {
+        "spin": 12,
+        "number": "29",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "4:45",
+        "notes": "Alex won $30, not $20 as displayed on the video."
+      },
+      {
+        "spin": 13,
+        "number": "21",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "5:25",
+        "notes": "Alex won $30, not $20 as displayed on the video."
+      },
+      {
+        "spin": 14,
+        "number": "36",
+        "amountBet": 150,
+        "result": 0, 
+        "time": "5:48"
+      }
+    ]
+  },
+  { 
+    "name": "Dirty Little Birdy 🦤",
+    "airDate": "2023-07-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=bCr6z9Fd_RI",
+    "reviewUrl": "2023-07-22-Dirty-Little-Birdy",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-1-5":10,"x4-8-12":10,"x4-14-18":10,"x4-17-21":10,"x4-20-24":10,"x4-13-17":10,"x4-16-20":10,"x4-19-23":10,"x4-26-30":10,"x4-31-35":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      100
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "Walk when you're up $500 according to the author.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 100,
+        "result": -10,
+        "time": "0:54"
+      },
+      {
+        "spin": 2,
+        "number": "34",
+        "amountBet": 100,
+        "result": -10, 
+        "time": "1:32"
+      },
+      {
+        "spin": 3,
+        "number": "29",
+        "amountBet": 100,
+        "result": -10, 
+        "time": "1:54"
+      },
+      {
+        "spin": 4,
+        "number": "12",
+        "amountBet": 100,
+        "result": -10, 
+        "time": "2:13"
+      },
+        {
+          "spin": 5,
+          "number": "6",
+          "amountBet": 100,
+          "result": -100, 
+          "time": "2:18"
+        },
+      {
+        "spin": 6,
+        "number": "28",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "2:32"
+      },
+      {
+        "spin": 7,
+        "number": "11",
+        "amountBet": 100,
+        "result": -10, 
+        "time": "2:49"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 100,
+        "result": 60, 
+        "time": "3:02"
+      },
+      {
+        "spin": 9,
+        "number": "21",
+        "amountBet": 100,
+        "result": 60, 
+        "time": "3:37",
+        "notes": "Alex switched up his corner bets here."
+      },
+      {
+        "spin": 10,
+        "number": "10",
+        "amountBet": 100,
+        "result": -10, 
+        "time": "4:17"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 100,
+        "result": -10, 
+        "time": "4:28"
+      },
+      {
+        "spin": 12,
+        "number": "24",
+        "amountBet": 100,
+        "result": -10, 
+        "time": "4:51"
+      },
+      {
+        "spin": 13,
+        "number": "14",
+        "amountBet": 100,
+        "result": 60, 
+        "time": "5:13"
+      },
+      {
+        "spin": 14,
+        "number": "2",
+        "amountBet": 100,
+        "result": -10, 
+        "time": "5:39"
+      },
+      {
+        "spin": 15,
+        "number": "19",
+        "amountBet": 100,
+        "result": 60, 
+        "time": "6:06"
+      },
+      {
+        "spin": 16,
+        "number": "0",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "6:23"
+      }
+    ]
+  },
+  { 
     "name": "Ultimate Hedging ✂️🌿",
     "airDate": "2023-07-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=vkZ8MFGTwHE",
@@ -3056,6 +3491,7 @@
     "airDate": "2023-06-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=LDjSuseaJR8",
     "reviewUrl": "2023-06-10-Pied-Piper",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=aQkCjQscKks",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
       "00-rba-1-800x768.png",
@@ -5580,7 +6016,7 @@
     ]
   },
   {
-    "name": "Don't You Put that Evil on Me, Ricky Bobby!",
+    "name": "Don't You Put that Evil on Me, Ricky Bobby! 🏎️",
     "airDate": "2023-05-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=EOUFumTdeZo",
     "reviewUrl": "2023-05-07-Ricky-Bobby",
