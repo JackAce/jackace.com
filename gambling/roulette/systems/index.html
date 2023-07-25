@@ -157,11 +157,11 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
             data: 'rating',
             render: function (data, type, row, meta) {
               if (!data) {
-                return '--'
+                return '<i>unknown</i>'
               }
               return '<span class="rating rating-' + data + '" >' + data.toUpperCase() + '</span>'
             },
-            defaultContent: '--'
+            defaultContent: '<i>unknown</i>'
           },
           {
             data: 'jackaceRating',
