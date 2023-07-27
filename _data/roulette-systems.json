@@ -35839,7 +35839,7 @@
     "bets": [
       300
     ],
-    "jackaceRating": "f",
+    "jackaceRating": "b",
     "isJackAceReview": false,
     "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz1":100,"x12-doz3":100,"x2-17-20":25,"x2-15-18":25,"x2-13-16":25,"x2-19-22":25}}
