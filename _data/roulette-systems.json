@@ -1,5 +1,382 @@
 [
-  { 
+  {
+    "name": "Degenerate Tie Fighter 🚀",
+    "airDate": "2023-07-31",
+    "youtubeUrl": "https://www.youtube.com/watch?v=k5ys4mCB9XA",
+    "reviewUrl": "2023-07-31-Degenerate-Tie-Fighter",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-16-21":25,"x6-1-6":15,"x6-31-36":15,"x4-26-30":10,"x4-8-12":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      75
+    ],
+    "rating": "a",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "16",
+        "amountBet": 75,
+        "result": 75,
+        "time": "1:42"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 75,
+        "result": 15, 
+        "time": "2:02"
+      },
+      {
+        "spin": 3,
+        "number": "18",
+        "amountBet": 75,
+        "result": 75, 
+        "time": "2:29"
+      },
+      {
+        "spin": 4,
+        "number": "21",
+        "amountBet": 75,
+        "result": 75, 
+        "time": "3:21"
+      },
+      {
+        "spin": 5,
+        "number": "26",
+        "amountBet": 75,
+        "result": 15, 
+        "time": "3:30"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 75,
+        "result": 15, 
+        "time": "3:57"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 75,
+        "result": -75, 
+        "time": "4:29"
+      },
+      {
+        "spin": 8,
+        "number": "19",
+        "amountBet": 75,
+        "result": 75, 
+        "time": "5:00"
+      },
+      {
+        "spin": 9,
+        "number": "26",
+        "amountBet": 75,
+        "result": 15, 
+        "time": "5:17"
+      },
+      {
+        "spin": 10,
+        "number": "20",
+        "amountBet": 75,
+        "result": 75, 
+        "time": "5:52"
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 75,
+        "result": 15, 
+        "time": "6:18"
+      },
+      {
+        "spin": 12,
+        "number": "15",
+        "amountBet": 75,
+        "result": -75, 
+        "time": "6:33"
+      },
+      {
+        "spin": 13,
+        "number": "1",
+        "amountBet": 75,
+        "result": 15, 
+        "time": "7:05"
+      },
+      {
+        "spin": 14,
+        "number": "24",
+        "amountBet": 75,
+        "result": -75, 
+        "time": "7:52"
+      }
+    ]
+  },
+  {
+    "name": "Target Practice 🎯",
+    "airDate": "2023-07-29",
+    "youtubeUrl": "https://www.youtube.com/watch?v=RvIuDJuoS2c",
+    "reviewUrl": "2023-07-29-Target-Practice",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-7-9":5,"x3-10-12":5,"x3-13-15":5,"x3-16-18":5,"x3-19-21":5,"x3-22-24":5,"x3-25-27":5,"x3-28-30":5,"x3-31-33":5,"x3-34-36":5}},
+      {"wheelType":1,"wagers":{"x3-34-36":5,"x3-31-33":5,"x3-28-30":5,"x3-25-27":5,"x3-22-24":5,"x3-19-21":5,"x3-16-18":5,"x3-13-15":5,"x3-10-12":5}},
+      {"wheelType":1,"wagers":{"x3-34-36":5,"x3-31-33":5,"x3-28-30":5,"x3-25-27":5,"x3-22-24":5,"x3-19-21":5,"x3-16-18":5,"x3-13-15":5}},
+      {"wheelType":1,"wagers":{"x3-34-36":5,"x3-31-33":5,"x3-28-30":5,"x3-25-27":5,"x3-22-24":5,"x3-19-21":5,"x3-16-18":5}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      50,
+      45,
+      40,
+      35
+    ],
+    "rating": "f",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 50,
+        "result": 10,
+        "time": "1:00",
+        "notes": "The video said +5, but the result was +10"
+      },
+      {
+        "spin": 2,
+        "number": "00",
+        "amountBet": 45,
+        "result": -45, 
+        "time": "1:31"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 45,
+        "result": -45, 
+        "time": "2:00"
+      },
+      {
+        "spin": 4,
+        "number": "00",
+        "amountBet": 45,
+        "result": -45, 
+        "time": "2:22"
+      },
+      {
+        "spin": 5,
+        "number": "35",
+        "amountBet": 45,
+        "result": -45, 
+        "time": "2:57"
+      },
+      {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 45,
+        "result": 15, 
+        "time": "3:31",
+        "notes": "Video said +10, but it was +15"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 40,
+        "result": -40, 
+        "time": "3:53"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 40,
+        "result": 20, 
+        "time": "4:18"
+      },
+      {
+        "spin": 9,
+        "number": "11",
+        "amountBet": 50,
+        "result": 10,
+        "time": "4:59",
+        "notes": "Video said +5, but it should have been +10"
+      },
+      {
+        "spin": 10,
+        "number": "19",
+        "amountBet": 45,
+        "result": 15, 
+        "time": "5:13"
+      },
+      {
+        "spin": 11,
+        "number": "13",
+        "amountBet": 40,
+        "result": 20, 
+        "time": "5:16"
+      },
+      {
+        "spin": 12,
+        "number": "24",
+        "amountBet": 50,
+        "result": 10, 
+        "time": "5:35"
+      },
+      {
+        "spin": 13,
+        "number": "9",
+        "amountBet": 45,
+        "result": 15, 
+        "time": "5:56"
+      },
+      {
+        "spin": 14,
+        "number": "16",
+        "amountBet": 50,
+        "result": 20, 
+        "time": "6:16"
+      }
+    ]
+  },
+  {
+    "name": "The Five Ways 👋",
+    "airDate": "2023-07-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=pBSpcURgsBM",
+    "reviewUrl": "2023-07-28-The-Five-Ways",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-17":5,"x6-13-18":5,"x3-16-18":5,"x6-16-21":5,"x12-col2":5}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 300,
+    "bets": [
+      25,
+      30,
+      45
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "Alex ended down $300...not sure how.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "0",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:18"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 25,
+        "result": 5, 
+        "time": "1:35",
+        "notes": "Video said +35, but they only won +5"
+      },
+      {
+        "spin": 3,
+        "number": "28",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "1:57",
+        "notes": "They pressed the $5 win on the 17"
+      },
+      {
+        "spin": 4,
+        "number": "33",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "2:19"
+      },
+      {
+        "spin": 5,
+        "number": "7",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "2:31"
+      },
+      {
+        "spin": 6,
+        "number": "5",
+        "amountBet": 25,
+        "result": -10, 
+        "time": "3:01"
+      },
+      {
+        "spin": 7,
+        "number": "15",
+        "amountBet": 25,
+        "result": 5, 
+        "time": "3:31"
+      },
+      {
+        "spin": 8,
+        "number": "9",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "3:37"
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 25,
+        "result": -10, 
+        "time": "4:01"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "4:25",
+        "notes": "Video said -10, but I don't think Alex was switching the column he was betting."
+      },
+      {
+        "spin": 11,
+        "number": "33",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "4:47"
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 25,
+        "result": 95, 
+        "time": "5:21"
+      },
+      {
+        "spin": 13,
+        "number": "36",
+        "amountBet": 120,
+        "result": -90 , 
+        "time": "6:15"
+      },
+      {
+        "spin": 14,
+        "number": "3",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "6:41"
+      }
+    ]
+  },
+  {
     "name": "Slithery Little Snake 🐍",
     "airDate": "2023-07-27",
     "youtubeUrl": "https://www.youtube.com/watch?v=4FT3G8lZ7cs",
@@ -4959,6 +5336,9 @@
     "reviewUrl": "2023-05-24-All-Comp-No-Nuts",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-basket":25,"x4-7-11":25,"x4-13-17":25,"x4-19-23":25,"x4-25-29":25,"x4-31-35":25,"x12-col3":75}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 900,
