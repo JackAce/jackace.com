@@ -1,5 +1,112 @@
 [
   {
+    "name": "Shotgun 🔫🔫",
+    "airDate": "2023-08-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ruV664Xmhbc",
+    "reviewUrl": "2023-08-02-Shotgun",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":50,"x1-1":5,"x1-5":5,"x1-7":5,"x1-9":5,"x1-3":5,"x18-odd":5,"x18-red":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      135
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Alex was down $600, but he should have been down $580.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "34",
+        "amountBet": 135,
+        "result": 25,
+        "time": "0:56"
+      },
+      {
+        "spin": 2,
+        "number": "8",
+        "amountBet": 135,
+        "result": -135, 
+        "time": "1:23"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 135,
+        "result": 65, 
+        "time": "2:04"
+      },
+      {
+        "spin": 4,
+        "number": "6",
+        "amountBet": 135,
+        "result": -135, 
+        "time": "2:53"
+      },
+      {
+        "spin": 5,
+        "number": "7",
+        "amountBet": 135,
+        "result": 65, 
+        "time": "3:21"
+      },
+      {
+        "spin": 6,
+        "number": "00",
+        "amountBet": 135,
+        "result": -135, 
+        "time": "3:38"
+      },
+      {
+        "spin": 7,
+        "number": "4",
+        "amountBet": 135,
+        "result": -135, 
+        "time": "4:15"
+      },
+      {
+        "spin": 8,
+        "number": "6",
+        "amountBet": 135,
+        "result": -135, 
+        "time": "4:49"
+      },
+      {
+        "spin": 9,
+        "number": "11",
+        "amountBet": 135,
+        "result": -125, 
+        "time": "5:30"
+      },
+      {
+        "spin": 10,
+        "number": "13",
+        "amountBet": 135,
+        "result": 25, 
+        "time": "6:28"
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 135,
+        "result": 15, 
+        "time": "7:30"
+      },
+      {
+        "spin": 12,
+        "number": "32",
+        "amountBet": 135,
+        "result": 25, 
+        "time": "8:28"
+      }
+    ]
+  },
+  {
     "name": "Degenerate Tie Fighter 🚀",
     "airDate": "2023-07-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=k5ys4mCB9XA",
