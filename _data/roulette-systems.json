@@ -1,5 +1,123 @@
 [
   {
+    "name": "Color by Numbers 🟥⬛",
+    "airDate": "2023-08-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LtF9ClRAIDE",
+    "reviewUrl": "2023-08-03-Color-by-Numbers",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":0,"wagers":{"x12-col3":50,"x1-2":5,"x1-8":5,"x1-11":5,"x1-17":5,"x1-20":5,"x1-26":5,"x1-29":5,"x1-35":5,"x1-31":5,"x1-28":5,"x1-22":5,"x1-13":5,"x1-10":5,"x1-4":5}},
+      {"wheelType":0,"wagers":{"x12-col2":50,"x1-3":5,"x1-9":5,"x1-12":5,"x1-18":5,"x1-21":5,"x1-27":5,"x1-30":5,"x1-34":5,"x1-25":5,"x1-19":5,"x1-16":5,"x1-7":5,"x1-1":5,"x1-36":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 600,
+    "bets": [
+      120,
+      120
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Alex was up $215 at the end, but all the wins and losses end with a 0, so that's not possible.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:36",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 2,
+        "number": "27",
+        "amountBet": 120,
+        "result": 30, 
+        "time": "1:21"
+      },
+      {
+        "spin": 3,
+        "number": "9",
+        "amountBet": 120,
+        "result": 60, 
+        "time": "2:08",
+        "notes": "They bet red for this spin."
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 120,
+        "result": 30, 
+        "time": "3:06"
+      },
+      {
+        "spin": 5,
+        "number": "23",
+        "amountBet": 120,
+        "result": -120, 
+        "time": "3:35"
+      },
+      {
+        "spin": 6,
+        "number": "35",
+        "amountBet": 120,
+        "result": 30, 
+        "time": "3:48"
+      },
+      {
+        "spin": 7,
+        "number": "28",
+        "amountBet": 120,
+        "result": 60, 
+        "time": "4:18"
+      },
+      {
+        "spin": 8,
+        "number": "17",
+        "amountBet": 120,
+        "result": 60, 
+        "time": "5:04"
+      },
+      {
+        "spin": 9,
+        "number": "13",
+        "amountBet": 120,
+        "result": 30, 
+        "time": "6:01"
+      },
+      {
+        "spin": 10,
+        "number": "13",
+        "amountBet": 120,
+        "result": 60, 
+        "time": "6:58"
+      },
+      {
+        "spin": 11,
+        "number": "36",
+        "amountBet": 120,
+        "result": 30, 
+        "time": "7:45"
+      },
+      {
+        "spin": 12,
+        "number": "14",
+        "amountBet": 120,
+        "result": 30, 
+        "time": "8:46"
+      },
+      {
+        "spin": 13,
+        "number": "24",
+        "amountBet": 120,
+        "result": -120, 
+        "time": "9:38"
+      }
+    ]
+  },
+  {
     "name": "Shotgun 🔫🔫",
     "airDate": "2023-08-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=ruV664Xmhbc",
