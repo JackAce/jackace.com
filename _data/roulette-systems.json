@@ -1,5 +1,267 @@
 [
   {
+    "name": "Snail's Pace Luck 🐌",
+    "airDate": "2023-08-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Kb1g4-R2eCY",
+    "reviewUrl": "2023-08-10-Snails-Pace-Luck",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":30,"x6-16-21":30,"x6-28-33":30,"x2-0-00":10,"x2-1-2":10,"x4-10-14":20,"x4-23-27":20,"x1-25":5,"x2-35-36":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      165
+    ],
+    "rating": "f",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "This is basically betting $15 on 11 Streets. Not sure how this happened, but I think Alex was down $600 at the end, not $500.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "12",
+        "amountBet": 165,
+        "result": -165,
+        "time": "1:19"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 165,
+        "result": 15, 
+        "time": "1:57"
+      },
+      {
+        "spin": 3,
+        "number": "2",
+        "amountBet": 165,
+        "result": 15, 
+        "time": "2:39"
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 165,
+        "result": 15, 
+        "time": "3:08"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 165,
+        "result": 15, 
+        "time": "3:29"
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 165,
+        "result": 15, 
+        "time": "4:04"
+      },
+      {
+        "spin": 7,
+        "number": "3",
+        "amountBet": 165,
+        "result": -165, 
+        "time": "4:24"
+      },
+      {
+        "spin": 8,
+        "number": "34",
+        "amountBet": 165,
+        "result": -165, 
+        "time": "5:04"
+      },
+      {
+        "spin": 9,
+        "number": "13",
+        "amountBet": 165,
+        "result": 15, 
+        "time": "6:09"
+      },
+      {
+        "spin": 10,
+        "number": "20",
+        "amountBet": 165,
+        "result": 15, 
+        "time": "6:31"
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 165,
+        "result": 15, 
+        "time": "6:51"
+      },
+      {
+        "spin": 12,
+        "number": "3",
+        "amountBet": 165,
+        "result": -165, 
+        "time": "7:10"
+      },
+      {
+        "spin": 13,
+        "number": "29",
+        "amountBet": 60,
+        "result": 60, 
+        "time": "8:10",
+        "notes": "Alex YOLO'ed the rest on Black and won."
+      },
+      {
+        "spin": 14,
+        "number": "8",
+        "amountBet": 120,
+        "result": 120, 
+        "time": "8:21",
+        "notes": "Another YOLO on Black."
+      },
+      {
+        "spin": 15,
+        "number": "0",
+        "amountBet": 240,
+        "result": -240, 
+        "time": "9:01",
+        "notes": "Last YOLO."
+      }
+    ]
+  },
+  {
+    "name": "Greens are your Friend 🟩",
+    "airDate": "2023-08-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Gnbpm64Wgqc",
+    "reviewUrl": "2023-08-09-Greens-are-your-Friend",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-5-9":50,"x4-11-15":50,"x4-1-5":25,"x4-7-11":25,"x3-basket":50,"x18-high":225}},
+      {"wheelType":1,"wagers":{"x4-5-9":50,"x4-11-15":50,"x2-4-7":25,"x2-10-13":25,"x3-16-18":50,"x18-high":225}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 425,
+    "bets": [
+      425,
+      425
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "The second 'tier' is actually Alex's alternate version of this betting pattern.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "19",
+        "amountBet": 425,
+        "result": 25,
+        "time": "1:20"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "1:59"
+      },
+      {
+        "spin": 3,
+        "number": "18",
+        "amountBet": 425,
+        "result": -425, 
+        "time": "2:48"
+      },
+      {
+        "spin": 4,
+        "number": "17",
+        "amountBet": 425,
+        "result": -425, 
+        "time": "3:33"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "4:36",
+        "notes": "Alex started betting pattern 2 here."
+      },
+      {
+        "spin": 6,
+        "number": "18",
+        "amountBet": 425,
+        "result": 175, 
+        "time": "5:08"
+      },
+      {
+        "spin": 7,
+        "number": "22",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "5:43"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "6:04"
+      },
+      {
+        "spin": 9,
+        "number": "20",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "6:23"
+      },
+      {
+        "spin": 10,
+        "number": "23",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "7:04"
+      },
+      {
+        "spin": 11,
+        "number": "13",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "7:10"
+      },
+      {
+        "spin": 12,
+        "number": "14",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "7:30"
+      },
+      {
+        "spin": 13,
+        "number": "23",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "7:44"
+      },
+      {
+        "spin": 14,
+        "number": "6",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "8:03"
+      },
+      {
+        "spin": 15,
+        "number": "18",
+        "amountBet": 425,
+        "result": 175, 
+        "time": "8:34"
+      }
+    ]
+  },
+  {
     "name": "Martingale or Die 💀",
     "airDate": "2023-08-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=sreFHEiJmVI",
