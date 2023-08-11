@@ -1,5 +1,118 @@
 [
   {
+    "name": "Comp Killer Lite",
+    "airDate": "2023-08-11",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Y7mq7RpIlFk",
+    "reviewUrl": "2023-08-11-Comp-Killer-Lite",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":50,"x4-2-6":20,"x4-7-11":20,"x4-14-18":20,"x4-19-23":20,"x1-00":5,"x1-0":5,"x1-16":5,"x1-21":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      150
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "I have Alex being down $120, but he was down $145... Not sure how he'd be down $145 even if he was paid $25 for wins...",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "32",
+        "amountBet": 150,
+        "result": 0,
+        "time": "1:05"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 150,
+        "result": 0, 
+        "time": "1:42"
+      },
+      {
+        "spin": 3,
+        "number": "15",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "1:56",
+        "notes": "Video displayed +25 but it was a +30 win."
+      },
+      {
+        "spin": 4,
+        "number": "23",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "2:33",
+        "notes": "Video displayed +25 but it was a +30 win."
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 150,
+        "result": -150, 
+        "time": "3:09"
+      },
+      {
+        "spin": 6,
+        "number": "29",
+        "amountBet": 150,
+        "result": 0, 
+        "time": "3:56"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 150,
+        "result": -150, 
+        "time": "4:22"
+      },
+      {
+        "spin": 8,
+        "number": "18",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "5:11",
+        "notes": "Video displayed +25 but it was a +30 win."
+      },
+      {
+        "spin": 9,
+        "number": "7",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "5:57",
+        "notes": "Video displayed +25 but it was a +30 win."
+      },
+      {
+        "spin": 10,
+        "number": "18",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "6:18",
+        "notes": "Video displayed +25 but it was a +30 win."
+      },
+      {
+        "spin": 11,
+        "number": "34",
+        "amountBet": 150,
+        "result": 0, 
+        "time": "6:46"
+      },
+      {
+        "spin": 12,
+        "number": "8",
+        "amountBet": 150,
+        "result": 30, 
+        "time": "7:04",
+        "notes": "Video displayed +25 but it was a +30 win."
+      }
+    ]
+  },
+  {
     "name": "Snail's Pace Luck 🐌",
     "airDate": "2023-08-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=Kb1g4-R2eCY",
@@ -1608,6 +1721,7 @@
     "airDate": "2023-07-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=LyRSv9lEmBc",
     "reviewUrl": "2023-07-24-V28",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=AgKekOuEIGM",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
       "00-rba-1-800x768.png"
