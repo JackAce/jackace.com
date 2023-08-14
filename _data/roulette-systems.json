@@ -1,5 +1,310 @@
 [
   {
+    "name": "Sputch",
+    "airDate": "2023-08-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=jvXTsaZYsG4",
+    "reviewUrl": "2023-08-14-Sputch",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":75,"x12-doz3":75}},
+      {"wheelType":1,"wagers":{"x18-low":60,"x2-27-30":10,"x2-23-26":10,"x2-29-32":10,"x2-25-28":10,"x2-19-22":10,"x2-31-34":10}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 500,
+    "bets": [
+      50,
+      100,
+      150,
+      120
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Alex was down $195, but I believe he should have been down $175.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "17",
+        "amountBet": 50,
+        "result": 50,
+        "time": "1:02"
+      },
+      {
+        "spin": 2,
+        "number": "9",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "1:29"
+      },
+      {
+        "spin": 3,
+        "number": "32",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "1:51"
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 50,
+        "result": 50, 
+        "time": "2:17"
+      },
+      {
+        "spin": 5,
+        "number": "32",
+        "amountBet": 100,
+        "result": 50, 
+        "time": "2:33"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 150,
+        "result": -150, 
+        "time": "3:01"
+      },
+      {
+        "spin": 7,
+        "number": "31",
+        "amountBet": 50,
+        "result": 50, 
+        "time": "3:29"
+      },
+      {
+        "spin": 8,
+        "number": "12",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "3:51"
+      },
+      {
+        "spin": 9,
+        "number": "19",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "4:31"
+      },
+      {
+        "spin": 10,
+        "number": "20",
+        "amountBet": 50,
+        "result": 50, 
+        "time": "4:59"
+      },
+      {
+        "spin": 11,
+        "number": "15",
+        "amountBet": 100,
+        "result": 50, 
+        "time": "5:38"
+      },
+      {
+        "spin": 12,
+        "number": "28",
+        "amountBet": 150,
+        "result": 75, 
+        "time": "6:01"
+      },
+      {
+        "spin": 13,
+        "number": "14",
+        "amountBet": 120,
+        "result": 60, 
+        "time": "6:41",
+        "notes": "Alex bet the opposite tier 4 pattern, betting on High with the 6 $10 Splits in the low."
+      },
+      {
+        "spin": 14,
+        "number": "8",
+        "amountBet": 120,
+        "result": 60, 
+        "time": "6:57"
+      },
+      {
+        "spin": 15,
+        "number": "32",
+        "amountBet": 120,
+        "result": 0, 
+        "time": "7:19"
+      },
+      {
+        "spin": 16,
+        "number": "6",
+        "amountBet": 120,
+        "result": -120, 
+        "time": "7:44",
+        "notes": "Alex lost 120 here, not 60 as displayed in the video."
+      },
+      {
+        "spin": 17,
+        "number": "11",
+        "amountBet": 50,
+        "result": 50, 
+        "time": "8:06"
+      },
+      {
+        "spin": 18,
+        "number": "4",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "8:18"
+      },
+      {
+        "spin": 19,
+        "number": "27",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "8:38"
+      }
+    ]
+  },
+  {
+    "name": "The Comp'd Comp",
+    "airDate": "2023-08-13",
+    "youtubeUrl": "https://www.youtube.com/watch?v=VwB3exk81go",
+    "reviewUrl": "2023-08-13-The-Compd-Comp",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":50,"x18-high":75,"x6-10-15":20}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 700,
+    "bets": [
+      145
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "22",
+        "amountBet": 145,
+        "result": 5,
+        "time": "1:40"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "2:09",
+        "notes": "The spin was 19, not 22 as displayed in the video."
+      },
+      {
+        "spin": 3,
+        "number": "9",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "2:38"
+      },
+      {
+        "spin": 4,
+        "number": "17",
+        "amountBet": 145,
+        "result": -145, 
+        "time": "3:12"
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 145,
+        "result": 125, 
+        "time": "3:50"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "4:19"
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "4:42"
+      },
+      {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 145,
+        "result": -145, 
+        "time": "5:03"
+      },
+      {
+        "spin": 9,
+        "number": "36",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "5:26"
+      },
+      {
+        "spin": 10,
+        "number": "8",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "5:57"
+      },
+      {
+        "spin": 11,
+        "number": "32",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "6:24"
+      },
+      {
+        "spin": 12,
+        "number": "20",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "6:49",
+        "notes": "Video displayed 32, but the spin was 20"
+      },
+      {
+        "spin": 13,
+        "number": "5",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "7:15"
+      },
+      {
+        "spin": 14,
+        "number": "34",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "7:37"
+      },
+      {
+        "spin": 15,
+        "number": "36",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "7:56",
+        "notes": "Video displayed 34, but the spin was 36"
+      },
+      {
+        "spin": 16,
+        "number": "14",
+        "amountBet": 145,
+        "result": -25, 
+        "time": "8:07"
+      }
+    ]
+  },
+  {
     "name": "Comp Killer Lite",
     "airDate": "2023-08-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=Y7mq7RpIlFk",
