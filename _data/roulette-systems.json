@@ -1,5 +1,184 @@
 [
   {
+    "name": "Cheapskate Shuffle 🛼🛼",
+    "airDate": "2023-08-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=c5UU9yrt3D0",
+    "reviewUrl": "2023-08-17-Cheapskate-Shuffle",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col3":6,"x6-16-21":3,"x4-17-21":1,"x2-5-8":1,"x2-29-32":1,"x4-10-14":3,"x4-22-26":3}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 550,
+    "bets": [
+      18
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "34",
+        "amountBet": 18,
+        "result": -18,
+        "time": "1:21"
+      },
+      {
+        "spin": 2,
+        "number": "6",
+        "amountBet": 18,
+        "result": 0, 
+        "time": "2:11"
+      },
+      {
+        "spin": 3,
+        "number": "3",
+        "amountBet": 18,
+        "result": 0, 
+        "time": "2:49"
+      },
+      {
+        "spin": 4,
+        "number": "23",
+        "amountBet": 18,
+        "result": 9, 
+        "time": "3:25"
+      },
+      {
+        "spin": 5,
+        "number": "29",
+        "amountBet": 18,
+        "result": 0, 
+        "time": "4:13"
+      },
+      {
+        "spin": 6,
+        "number": "34",
+        "amountBet": 18,
+        "result": -18, 
+        "time": "4:34"
+      },
+      {
+        "spin": 7,
+        "number": "20",
+        "amountBet": 18,
+        "result": 9, 
+        "time": "5:26"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 18,
+        "result": 0, 
+        "time": "6:22"
+      },
+      {
+        "spin": 9,
+        "number": "26",
+        "amountBet": 18,
+        "result": 9, 
+        "time": "7:01"
+      },
+      {
+        "spin": 10,
+        "number": "00",
+        "amountBet": 18,
+        "result": -18, 
+        "time": "7:42"
+      }
+    ]
+  },
+  {
+    "name": "Anyone Can Play 🎮",
+    "airDate": "2023-08-16",
+    "youtubeUrl": "https://www.youtube.com/watch?v=fokNNQ9UJyI",
+    "reviewUrl": "2023-08-16-Anyone-Can-Play",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-0-00":2,"x1-2":1,"x4-5-9":4,"x2-8-11":1,"x1-7":1,"x1-10":1,"x1-13":1,"x2-15-18":1,"x4-17-21":4,"x1-23":1,"x1-22":1,"x2-24-27":1,"x4-26-30":4,"x1-33":1,"x1-36":1}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 200,
+    "bets": [
+      25
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "14",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:35"
+      },
+      {
+        "spin": 2,
+        "number": "34",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "2:02"
+      },
+      {
+        "spin": 3,
+        "number": "35",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "2:49"
+      },
+      {
+        "spin": 4,
+        "number": "00",
+        "amountBet": 25,
+        "result": 11, 
+        "time": "3:24"
+      },
+      {
+        "spin": 5,
+        "number": "18",
+        "amountBet": 25,
+        "result": 29, 
+        "time": "3:43"
+      },
+      {
+        "spin": 6,
+        "number": "4",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "4:15"
+      },
+      {
+        "spin": 7,
+        "number": "16",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "5:30"
+      },
+      {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 25,
+        "result": 11, 
+        "time": "6:59"
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 25,
+        "result": 11, 
+        "time": "8:16"
+      }
+    ]
+  },
+  {
     "name": "Sputch",
     "airDate": "2023-08-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=jvXTsaZYsG4",
