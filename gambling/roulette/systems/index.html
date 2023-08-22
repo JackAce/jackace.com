@@ -167,11 +167,11 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
             data: 'jackaceRating',
             render: function (data, type, row, meta) {
               if (!data) {
-                return '--'
+                return '<i>unknown</i>'
               }
               return '<span class="rating rating-' + row.jackaceRating + '" >' + row.jackaceRating.toUpperCase() + '</span>'
             },
-            defaultContent: '--'
+            defaultContent: '<i>unknown</i>'
           },
           {
             data: 'jackaceVideoUrl',
