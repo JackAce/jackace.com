@@ -1,5 +1,126 @@
 [
   {
+    "name": "Red Baron 🔴",
+    "airDate": "2023-08-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=QuX8yWYX3Ns",
+    "reviewUrl": "2023-08-22-Red-Baron",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-10-15":10,"x6-28-33":10,"x18-red":30}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 400,
+    "bets": [
+      50
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "I think I missed a $50 loss or it was edited out. I have them being up $20, but they were down $30.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "0",
+        "amountBet": 50,
+        "result": -50,
+        "time": "0:56"
+      },
+      {
+        "spin": 2,
+        "number": "34",
+        "amountBet": 50,
+        "result": 10, 
+        "time": "1:35"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 50,
+        "result": 10, 
+        "time": "2:05"
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 50,
+        "result": 10, 
+        "time": "2:34"
+      },
+      {
+        "spin": 5,
+        "number": "5",
+        "amountBet": 50,
+        "result": 10, 
+        "time": "3:06"
+      },
+      {
+        "spin": 6,
+        "number": "11",
+        "amountBet": 50,
+        "result": 10, 
+        "time": "3:27"
+      },
+      {
+        "spin": 7,
+        "number": "11",
+        "amountBet": 50,
+        "result": 10, 
+        "time": "3:57"
+      },
+      {
+        "spin": 8,
+        "number": "6",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "4:25"
+      },
+      {
+        "spin": 9,
+        "number": "22",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "4:57"
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 50,
+        "result": 70, 
+        "time": "5:24"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 50,
+        "result": 10, 
+        "time": "6:00"
+      }, 
+      {
+        "spin": 12,
+        "number": "21",
+        "amountBet": 50,
+        "result": 10, 
+        "time": "7:05"
+      },
+      {
+        "spin": 13,
+        "number": "14",
+        "amountBet": 50,
+        "result": 70, 
+        "time": "7:27"
+      },
+      {
+        "spin": 14,
+        "number": "22",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "7:41"
+      }
+    ]
+  },
+  {
     "name": "Advanced Tie Fighter 🚀",
     "airDate": "2023-08-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=DdUQJ-DcIZs",
