@@ -98,21 +98,21 @@
         "time": "6:00"
       }, 
       {
-        "spin": 13,
+        "spin": 12,
         "number": "21",
         "amountBet": 50,
         "result": 10, 
         "time": "7:05"
       },
       {
-        "spin": 14,
+        "spin": 13,
         "number": "14",
         "amountBet": 50,
         "result": 70, 
         "time": "7:27"
       },
       {
-        "spin": 15,
+        "spin": 14,
         "number": "22",
         "amountBet": 50,
         "result": -50, 
