@@ -1,5 +1,281 @@
 [
   {
+    "name": "Rusty Trombone 2 🎺🎺",
+    "airDate": "2023-08-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=PDcbs_CvrWc ",
+    "reviewUrl": "2023-08-25-Rusty-Trombone-2",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-13-17":10,"x4-14-18":10,"x4-17-21":10,"x4-16-20":10,"x4-20-24":10,"x4-19-23":10,"x12-col2":40}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      100
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "Alex was down $200, but I have him being down $120.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "33",
+        "amountBet": 100,
+        "result": -100,
+        "time": "1:17"
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 100,
+        "result": 200, 
+        "time": "2:04"
+      },
+      {
+        "spin": 3,
+        "number": "19",
+        "amountBet": 100,
+        "result": 80, 
+        "time": "2:45"
+      },
+      {
+        "spin": 4,
+        "number": "00",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "3:22"
+      },
+      {
+        "spin": 5,
+        "number": "00",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "4:19"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 100,
+        "result": 80, 
+        "time": "4:53"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 100,
+        "result": 80, 
+        "time": "5:21"
+      },
+      {
+        "spin": 8,
+        "number": "7",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "5:49"
+      },
+      {
+        "spin": 9,
+        "number": "7",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "6:23"
+      },
+      {
+        "spin": 10,
+        "number": "27",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "7:04"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 100,
+        "result": 20, 
+        "time": "7:49"
+      },
+      {
+        "spin": 12,
+        "number": "8",
+        "amountBet": 100,
+        "result": 20, 
+        "time": "8:15"
+      }
+    ]
+  },
+  {
+    "name": "Other People's Ploppy 2 💩💩",
+    "airDate": "2023-08-24",
+    "youtubeUrl": "https://www.youtube.com/watch?v=QuX8yWYX3Ns",
+    "reviewUrl": "2023-08-24-Other-Peoples-Ploppy-2",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":75,"x12-col3":50,"x1-6":5,"x1-15":5,"x1-24":5,"x1-33":5}},
+      {"wheelType":1,"wagers":{"x18-red":75,"x12-col2":50,"x1-5":5,"x1-14":5,"x1-23":5,"x1-32":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      145,
+      145
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "You can switch between betting on Black or Red at your own discretion",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "00",
+        "amountBet": 145,
+        "result": -145,
+        "time": "2:57"
+      },
+      {
+        "spin": 2,
+        "number": "10",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "3:27"
+      },
+      {
+        "spin": 3,
+        "number": "32",
+        "amountBet": 145,
+        "result": -145, 
+        "time": "3:36"
+      },
+      {
+        "spin": 4,
+        "number": "31",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "4:00"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "4:16"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "4:38"
+      },
+      {
+        "spin": 7,
+        "number": "6",
+        "amountBet": 145,
+        "result": 335, 
+        "time": "4:56"
+      },
+      {
+        "spin": 8,
+        "number": "5",
+        "amountBet": 145,
+        "result": 335, 
+        "time": "5:26",
+        "notes": "Alex switched to betting Red here."
+      },
+      {
+        "spin": 9,
+        "number": "24",
+        "amountBet": 145,
+        "result": -145, 
+        "time": "6:17",
+        "notes": "Alex stayed on Red."
+      },
+      {
+        "spin": 10,
+        "number": "22",
+        "amountBet": 145,
+        "result": -145, 
+        "time": "6:54"
+      },
+      {
+        "spin": 11,
+        "number": "21",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "7:18"
+      },
+      {
+        "spin": 12,
+        "number": "3",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "7:37"
+      },
+      {
+        "spin": 13,
+        "number": "30",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "8:00"
+      },
+      {
+        "spin": 14,
+        "number": "29",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "8:15"
+      },
+      {
+        "spin": 15,
+        "number": "29",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "8:39"
+      },
+      {
+        "spin": 16,
+        "number": "10",
+        "amountBet": 145,
+        "result": -145, 
+        "time": "8:58"
+      },
+      {
+        "spin": 14,
+        "number": "22",
+        "amountBet": 145,
+        "result": -145, 
+        "time": "9:23"
+      },
+      {
+        "spin": 15,
+        "number": "16",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "10:00",
+        "notes": "Alex bet the wrong column here, but it didn't matter."
+      },
+      {
+        "spin": 16,
+        "number": "3",
+        "amountBet": 145,
+        "result": 5, 
+        "time": "10:17"
+      },
+      {
+        "spin": 17,
+        "number": "31",
+        "amountBet": 145,
+        "result": -145, 
+        "time": "10:28"
+      }
+    ]
+  },
+  {
     "name": "Red Baron 🔴",
     "airDate": "2023-08-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=QuX8yWYX3Ns",
@@ -125,7 +401,6 @@
     "airDate": "2023-08-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=DdUQJ-DcIZs",
     "reviewUrl": "2023-08-21-Advanced-Tie-Fighter",
-    "jackaceVideoUrl": "https://www.youtube.com/watch?v=TZbaW1pGqWI",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
@@ -1983,6 +2258,7 @@
     "airDate": "2023-07-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=k5ys4mCB9XA",
     "reviewUrl": "2023-07-31-Degenerate-Tie-Fighter",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=TZbaW1pGqWI",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
