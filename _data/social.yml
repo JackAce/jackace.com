@@ -25,6 +25,12 @@
 # - title: Twitch
 #   url: https://www.twitch.tv/jackacestudios
 #   icon: fab fa-twitch
-- title: JSFiddle
-  url: https://jsfiddle.net/user/JackAce/fiddles/
-  icon: fab fa-jsfiddle
+# - title: JSFiddle
+#   url: https://jsfiddle.net/user/JackAce/fiddles/
+#   icon: fab fa-jsfiddle
+# - title: Links
+#   url: https://links.jackace.com/
+#   icon: fab fa-sticker-mule
+- title: Links X
+  url: https://links.jackace.com/
+  icon: fa-solid fa-link

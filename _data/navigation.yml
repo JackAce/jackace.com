@@ -45,4 +45,8 @@
     - title: Lotto EV Calculator
       url: https://lottoev.jackace.com/
 - title: About
-  url: /about/
+  sublinks:
+    - title: About Jack Haze
+      url: /about
+    - title: JackAce Donk Tree!
+      url: https://links.jackace.com
