@@ -1,8 +1,346 @@
 [
   {
+    "name": "Power of 13",
+    "airDate": "2023-08-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=bYy7OlnlElY",
+    "reviewUrl": "2023-08-28-Power-of-13",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":225,"x6-7-12":75,"x6-25-30":75,"x2-4-5":25,"x2-31-32":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":45,"x12-doz3":45}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 130,
+    "bets": [
+      130,
+      40,
+      60,
+      90
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "",
+    "friendCount": 6,
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "20",
+        "amountBet": 130,
+        "result": 10,
+        "time": "2:04"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "18",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "2:31"
+      },
+      {
+        "friend": 2,
+        "spin": 3,
+        "number": "18",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "3:16"
+      },
+      {
+        "friend": 3,
+        "spin": 4,
+        "number": "36",
+        "amountBet": 130,
+        "result": 10, 
+        "time": "3:43"
+      },
+      {
+        "friend": 3,
+        "spin": 5,
+        "number": "15",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "4:08"
+      },
+      {
+        "friend": 4,
+        "spin": 6,
+        "number": "00",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "4:42"
+      },
+      {
+        "friend": 5,
+        "spin": 7,
+        "number": "33",
+        "amountBet": 130,
+        "result": 10, 
+        "time": "5:31"
+      },
+      {
+        "friend": 5,
+        "spin": 8,
+        "number": "16",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "6:19"
+      },
+      {
+        "friend": 6,
+        "spin": 9,
+        "number": "35",
+        "amountBet": 130,
+        "result": 10, 
+        "time": "6:55"
+      },
+      {
+        "friend": 6,
+        "spin": 10,
+        "number": "3",
+        "amountBet": 130,
+        "result": 10, 
+        "time": "7:15"
+      },
+      {
+        "friend": 6,
+        "spin": 11,
+        "number": "32",
+        "amountBet": 130,
+        "result": 10, 
+        "time": "7:40"
+      },
+      {
+        "friend": 6,
+        "spin": 12,
+        "number": "23",
+        "amountBet": 130,
+        "result": 10, 
+        "time": "7:55"
+      },
+      {
+        "friend": 6,
+        "spin": 13,
+        "number": "28",
+        "amountBet": 40,
+        "result": 20, 
+        "time": "8:18"
+      },
+      {
+        "friend": 6,
+        "spin": 14,
+        "number": "11",
+        "amountBet": 60,
+        "result": -60, 
+        "time": "8:32"
+      },
+      {
+        "friend": 6,
+        "spin": 15,
+        "number": "11",
+        "amountBet": 130,
+        "result": 20, 
+        "time": "8:40"
+      },
+      {
+        "friend": 6,
+        "spin": 16,
+        "number": "35",
+        "amountBet": 130,
+        "result": 10, 
+        "time": "9:06"
+      },
+      {
+        "friend": 6,
+        "spin": 17,
+        "number": "2",
+        "amountBet": 130,
+        "result": 20, 
+        "time": "9:38"
+      },
+      {
+        "friend": 6,
+        "spin": 18,
+        "number": "20",
+        "amountBet": 50,
+        "result": 25, 
+        "time": "10:00",
+        "notes": "Alex bet 2x$25 here instead of 2x$40"
+      },
+      {
+        "friend": 6,
+        "spin": 19,
+        "number": "15",
+        "amountBet": 70,
+        "result": 35, 
+        "time": "10:19"
+      }
+    ]
+  },
+  {
+    "name": "Super G-Spot",
+    "airDate": "2023-08-27",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1ZO8RY0k1qI",
+    "reviewUrl": "2023-08-27-Super-G-Spot",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-high":70,"x12-doz1":50,"x2-14-17":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      425
+    ],
+    "rating": "",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "I'm not going to display CEG's rating here because it was based off of incorrect payouts.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "22",
+        "amountBet": 425,
+        "result": 250,
+        "time": "1:06",
+        "notes": "Alex incorrectly said he won $200, even though the video correctly said he won $250."
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 425,
+        "result": 250, 
+        "time": "1:50",
+        "notes": "Alex was only paid $200 here"
+      },
+      {
+        "spin": 3,
+        "number": "25",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "2:19"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "2:52"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 425,
+        "result": -425, 
+        "time": "3:32"
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 425,
+        "result": -425, 
+        "time": "4:00"
+      },
+      {
+        "spin": 7,
+        "number": "24",
+        "amountBet": 425,
+        "result": 250, 
+        "time": "4:36",
+        "notes": "Alex was only paid $200 here"
+      },
+      {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 425,
+        "result": 250, 
+        "time": "5:08",
+        "notes": "Alex was only paid $200 here"
+      },
+      {
+        "spin": 9,
+        "number": "21",
+        "amountBet": 425,
+        "result": 250, 
+        "time": "5:33",
+        "notes": "Alex was only paid $200 here"
+      },
+      {
+        "spin": 10,
+        "number": "17",
+        "amountBet": 425,
+        "result": 250, 
+        "time": "5:52",
+        "notes": "Alex was only paid $200 here"
+      },
+      {
+        "spin": 11,
+        "number": "17",
+        "amountBet": 425,
+        "result": 250, 
+        "time": "6:12",
+        "notes": "Alex was only paid $200 here"
+      },
+      {
+        "spin": 12,
+        "number": "1",
+        "amountBet": 425,
+        "result": -425, 
+        "time": "6:40"
+      },
+      {
+        "spin": 13,
+        "number": "16",
+        "amountBet": 425,
+        "result": 250, 
+        "time": "7:45",
+        "notes": "Alex was only paid $200 here"
+      },
+      {
+        "spin": 14,
+        "number": "30",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "8:07"
+      },
+      {
+        "spin": 15,
+        "number": "15",
+        "amountBet": 425,
+        "result": 250, 
+        "time": "8:38",
+        "notes": "Alex was only paid $200 here"
+      },
+      {
+        "spin": 16,
+        "number": "22",
+        "amountBet": 425,
+        "result": 250, 
+        "time": "9:14",
+        "notes": "Alex was only paid $200 here"
+      },
+      {
+        "spin": 17,
+        "number": "25",
+        "amountBet": 425,
+        "result": 25, 
+        "time": "9:54"
+      }
+    ]
+  },
+  {
     "name": "Rusty Trombone 2 🎺🎺",
     "airDate": "2023-08-25",
-    "youtubeUrl": "https://www.youtube.com/watch?v=PDcbs_CvrWc ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=PDcbs_CvrWc",
     "reviewUrl": "2023-08-25-Rusty-Trombone-2",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
