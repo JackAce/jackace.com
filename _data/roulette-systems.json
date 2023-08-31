@@ -1,5 +1,124 @@
 [
   {
+    "name": "Dirty Bird 2",
+    "airDate": "2023-08-31",
+    "youtubeUrl": "https://www.youtube.com/watch?v=E_Xv_HZQyIM",
+    "reviewUrl": "2023-08-31-Dirty-Bird-2",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":45,"x12-doz3":45}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 200,
+    "bets": [
+      10,
+      20,
+      40
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "This is just a re-do of Dirty Bird, with Alex giving the rating instead of David. I still give this a C.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "18",
+        "amountBet": 10,
+        "result": 26,
+        "time": "1:19"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 10,
+        "result": 26, 
+        "time": "2:06"
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 10,
+        "result": -10, 
+        "time": "2:58"
+      },
+      {
+        "spin": 4,
+        "number": "6",
+        "amountBet": 10,
+        "result": -10, 
+        "time": "3:54"
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 10,
+        "result": -10, 
+        "time": "4:08"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 20,
+        "result": -20, 
+        "time": "4:27"
+      },
+      {
+        "spin": 7,
+        "number": "24",
+        "amountBet": 20,
+        "result": -20, 
+        "time": "5:08"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 20,
+        "result": 52, 
+        "time": "5:46"
+      },
+      {
+        "spin": 9,
+        "number": "1",
+        "amountBet": 10,
+        "result": -10, 
+        "time": "6:35",
+        "notes": "Alex switched to the 3rd dozen here."
+      },
+      {
+        "spin": 10 ,
+        "number": "19",
+        "amountBet": 10,
+        "result": -10, 
+        "time": "7:01"
+      },
+      {
+        "spin": 11,
+        "number": "15",
+        "amountBet": 10,
+        "result": -10, 
+        "time": "7:30"
+      },
+      {
+        "spin": 12,
+        "number": "0",
+        "amountBet": 20,
+        "result": -20, 
+        "time": "8:14"
+      },
+      {
+        "spin": 13,
+        "number": "32",
+        "amountBet": 20,
+        "result": 52, 
+        "time": "9:06"
+      }
+    ]
+  },
+  {
     "name": "Power of 13",
     "airDate": "2023-08-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=bYy7OlnlElY",
