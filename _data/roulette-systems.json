@@ -1,5 +1,113 @@
 [
   {
+    "name": "Trust 28",
+    "airDate": "2023-09-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=a43QgK6dLMw",
+    "reviewUrl": "2023-09-01-Trust-28",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-18":20,"x1-21":30,"x12-col1":120,"x12-col2":150,"x1-27":15,"x1-30":15}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1500,
+    "bets": [
+      350
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "21",
+        "amountBet": 350,
+        "result": 730,
+        "time": "1:37"
+      },
+      {
+        "spin": 2,
+        "number": "16",
+        "amountBet": 350,
+        "result": 10, 
+        "time": "2:21"
+      },
+      {
+        "spin": 3,
+        "number": "17",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "3:17"
+      },
+      {
+        "spin": 4,
+        "number": "28",
+        "amountBet": 350,
+        "result": 10, 
+        "time": "3:51"
+      },
+      {
+        "spin": 5,
+        "number": "1",
+        "amountBet": 350,
+        "result": 10, 
+        "time": "4:28"
+      },
+      {
+        "spin": 6,
+        "number": "15",
+        "amountBet": 350,
+        "result": -350, 
+        "time": "4:57"
+      },
+      {
+        "spin": 7,
+        "number": "21",
+        "amountBet": 350,
+        "result": 730, 
+        "time": "5:46"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 350,
+        "result": 10, 
+        "time": "6:25"
+      },
+      {
+        "spin": 9,
+        "number": "23",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "6:36"
+      },
+      {
+        "spin": 10,
+        "number": "36",
+        "amountBet": 350,
+        "result": 190, 
+        "time": "7:08",
+        "notes": "Alex had been moving around some of the straight-up bets."
+      },
+      {
+        "spin": 11,
+        "number": "2",
+        "amountBet": 350,
+        "result": 100, 
+        "time": "7:45"
+      },
+      {
+        "spin": 12,
+        "number": "12",
+        "amountBet": 350,
+        "result": -350, 
+        "time": "8:15"
+      }
+    ]
+  },
+  {
     "name": "Dirty Bird 2 🐦🐦",
     "airDate": "2023-08-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=E_Xv_HZQyIM",
