@@ -1,5 +1,371 @@
 [
   {
+    "name": "4 to 4",
+    "airDate": "2023-09-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=k3i_17pTXtY",
+    "reviewUrl": "2023-09-03-4-to-4",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":100,"x6-10-15":100,"x6-16-21":100,"x6-22-27":100,"x6-28-33":100}},
+      {"wheelType":1,"wagers":{"x1-0":30,"x1-00":30,"x1-16":30,"x1-17":30,"x1-18":30,"x1-21":30,"x1-20":30,"x1-19":30,"x1-25":30,"x1-32":30}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 500,
+    "bets": [
+      500,
+      300
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "friendCount": 4,
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "30",
+        "amountBet": 500,
+        "result": 100,
+        "time": "0:59"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "5",
+        "amountBet": 500,
+        "result": 100, 
+        "time": "1:33"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "9",
+        "amountBet": 500,
+        "result": 100, 
+        "time": "2:07"
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "8",
+        "amountBet": 300,
+        "result": -300, 
+        "time": "3:37"
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "1",
+        "amountBet": 500,
+        "result": -500, 
+        "time": "4:11"
+      },
+      {
+        "friend": 2,
+        "spin": 6,
+        "number": "3",
+        "amountBet": 500,
+        "result": -500, 
+        "time": "5:05"
+      },
+      {
+        "friend": 3,
+        "spin": 7,
+        "number": "18",
+        "amountBet": 500,
+        "result": 100, 
+        "time": "5:39"
+      },
+      {
+        "friend": 3,
+        "spin": 8,
+        "number": "7",
+        "amountBet": 500,
+        "result": 100, 
+        "time": "6:06"
+      },
+      {
+        "friend": 3,
+        "spin": 9,
+        "number": "23",
+        "amountBet": 500,
+        "result": 100, 
+        "time": "6:34"
+      },
+      {
+        "friend": 3,
+        "spin": 10,
+        "number": "2",
+        "amountBet": 300,
+        "result": -300, 
+        "time": "7:21"
+      },
+      {
+        "friend": 3,
+        "spin": 11,
+        "number": "1",
+        "amountBet": 500,
+        "result": -500, 
+        "time": "7:54",
+        "notes": "Alex lost 500 here, not 300 as displayed in the video."
+      },
+      {
+        "friend": 4,
+        "spin": 12,
+        "number": "8",
+        "amountBet": 500,
+        "result": 100, 
+        "time": "8:08"
+      },
+      {
+        "friend": 4,
+        "spin": 13,
+        "number": "24",
+        "amountBet": 500,
+        "result": 100, 
+        "time": "8:34"
+      },
+      {
+        "friend": 4,
+        "spin": 14,
+        "number": "24",
+        "amountBet": 500,
+        "result": 100, 
+        "time": "8:58"
+      },
+      {
+        "friend": 4,
+        "spin": 15,
+        "number": "13",
+        "amountBet": 300,
+        "result": -300, 
+        "time": "9:45"
+      }
+    ]
+  },
+  {
+    "name": "The Secret Sauce 🥫🥫",
+    "airDate": "2023-09-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=enTiLJDyZP4",
+    "reviewUrl": "2023-09-02-The-Secret-Sauce",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png",
+      "00-rba-7-800x768.png",
+      "00-rba-8-800x768.png",
+      "00-rba-9-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":40,"x12-doz3":40}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":60,"x12-doz3":60}},
+      {"wheelType":1,"wagers":{"x12-doz2":70,"x12-doz3":70}},
+      {"wheelType":1,"wagers":{"x12-doz2":80,"x12-doz3":80}},
+      {"wheelType":1,"wagers":{"x12-doz2":90,"x12-doz3":90}},
+      {"wheelType":1,"wagers":{"x12-doz2":100,"x12-doz3":100}}
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 2000,
+    "bets": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      120,
+      150,
+      160,
+      180,
+      200
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "I only documented the first 10 levels, but you get the picture.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "2",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:08"
+      },
+      {
+        "spin": 2,
+        "number": "17",
+        "amountBet": 40,
+        "result": 20, 
+        "time": "2:40"
+      },
+      {
+        "spin": 3,
+        "number": "9",
+        "amountBet": 40,
+        "result": -40, 
+        "time": "3:11"
+      },
+      {
+        "spin": 4,
+        "number": "6",
+        "amountBet": 60,
+        "result": -60, 
+        "time": "3:20"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 80,
+        "result": 40, 
+        "time": "3:56"
+      },
+      {
+        "spin": 6,
+        "number": "18",
+        "amountBet": 80,
+        "result": 40, 
+        "time": "4:19"
+      },
+      {
+        "spin": 7,
+        "number": "18",
+        "amountBet": 80,
+        "result": 40, 
+        "time": "4:38"
+      },
+      {
+        "spin": 8,
+        "number": "34",
+        "amountBet": 80,
+        "result": 40, 
+        "time": "5:08"
+      },
+      {
+        "spin": 9,
+        "number": "6",
+        "amountBet": 80,
+        "result": -80, 
+        "time": "5:35"
+      },
+      {
+        "spin": 10,
+        "number": "5",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "5:56"
+      },
+      {
+        "spin": 11,
+        "number": "32",
+        "amountBet": 120,
+        "result": 60, 
+        "time": "6:32"
+      },
+      {
+        "spin": 12,
+        "number": "12",
+        "amountBet": 120,
+        "result": -120, 
+        "time": "6:50"
+      },
+      {
+        "spin": 13,
+        "number": "0",
+        "amountBet": 140,
+        "result": -140, 
+        "time": "7:19"
+      },
+      {
+        "spin": 14,
+        "number": "36",
+        "amountBet": 160,
+        "result": 80, 
+        "time": "7:40"
+      },
+      {
+        "spin": 15,
+        "number": "15",
+        "amountBet": 160,
+        "result": 80, 
+        "time": "8:16"
+      },
+      {
+        "spin": 16,
+        "number": "23",
+        "amountBet": 160,
+        "result": 80, 
+        "time": "8:42"
+      },
+      {
+        "spin": 17,
+        "number": "2",
+        "amountBet": 160,
+        "result": -160, 
+        "time": "9:09"
+      },
+      {
+        "spin": 18,
+        "number": "9",
+        "amountBet": 180,
+        "result": -180, 
+        "time": "9:34"
+      },
+      {
+        "spin": 19,
+        "number": "30",
+        "amountBet": 200,
+        "result": 100, 
+        "time": "9:54"
+      },
+      {
+        "spin": 20,
+        "number": "20",
+        "amountBet": 200,
+        "result": 100, 
+        "time": "10:15"
+      },
+      {
+        "spin": 21,
+        "number": "5",
+        "amountBet": 200,
+        "result": -200, 
+        "time": "10:35"
+      },
+      {
+        "spin": 22,
+        "number": "15",
+        "amountBet": 220,
+        "result": 110, 
+        "time": "11:00"
+      },
+      {
+        "spin": 23,
+        "number": "29",
+        "amountBet": 220,
+        "result": 110, 
+        "time": "11:19"
+      },
+      {
+        "spin": 24,
+        "number": "0",
+        "amountBet": 220,
+        "result": -220, 
+        "time": "11:34"
+      }
+    ]
+  },
+  {
     "name": "Trust 28",
     "airDate": "2023-09-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=a43QgK6dLMw",
