@@ -1,5 +1,166 @@
 [
   {
+    "name": "Grapefruit Grinder 🍇🍇",
+    "airDate": "2023-09-13",
+    "youtubeUrl": "https://www.youtube.com/watch?v=INdq5pTfHjw",
+    "reviewUrl": "2023-09-13-Grapefruit-Grinder",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":20}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 285,
+    "bets": [
+      285
+    ],
+    "rating": "d",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "friendCount": 4,
+    "notes": "System author wanted $600 buy-in, but Alex changed it to a $285 single shot buy-in. Alex says to walk when you're up $100.",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "23",
+        "amountBet": 285,
+        "result": 30,
+        "time": "1:00"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "35",
+        "amountBet": 285,
+        "result": 15, 
+        "time": "1:43"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "22",
+        "amountBet": 285,
+        "result": -285, 
+        "time": "2:12"
+      },
+      {
+        "friend": 2,
+        "spin": 4,
+        "number": "13",
+        "amountBet": 285,
+        "result": 30, 
+        "time": "2:55"
+      },
+      {
+        "friend": 2,
+        "spin": 5 ,
+        "number": "17",
+        "amountBet": 285,
+        "result": 30, 
+        "time": "3:28"
+      },
+      {
+        "friend": 2,
+        "spin": 6,
+        "number": "32",
+        "amountBet": 285,
+        "result": 15, 
+        "time": "3:52"
+      },
+      {
+        "friend": 2,
+        "spin": 7,
+        "number": "34",
+        "amountBet": 285,
+        "result": 15, 
+        "time": "4:27"
+      },
+      {
+        "friend": 2,
+        "spin": 8,
+        "number": "34",
+        "amountBet": 285,
+        "result": 15, 
+        "time": "4:55"
+      },
+      {
+        "friend": 3,
+        "spin": 9,
+        "number": "20",
+        "amountBet": 285,
+        "result": 30, 
+        "time": "5:44"
+      },
+      {
+        "friend": 3,
+        "spin": 10,
+        "number": "2",
+        "amountBet": 285,
+        "result": 15, 
+        "time": "6:18"
+      },
+      {
+        "friend": 3,
+        "spin": 11,
+        "number": "32",
+        "amountBet": 285,
+        "result": 15, 
+        "time": "6:37"
+      },
+      {
+        "friend": 3,
+        "spin": 12,
+        "number": "14",
+        "amountBet": 285,
+        "result": 30, 
+        "time": "7:01"
+      },
+      {
+        "friend": 3,
+        "spin": 13,
+        "number": "19",
+        "amountBet": 285,
+        "result": -285, 
+        "time": "7:24"
+      },
+      {
+        "friend": 4,
+        "spin": 14,
+        "number": "9",
+        "amountBet": 285,
+        "result": 15, 
+        "time": "8:31",
+        "notes": "Alex started betting his alternate version of this betting pattern here (tier 2)."
+      },
+      {
+        "friend": 4,
+        "spin": 15,
+        "number": "4",
+        "amountBet": 285,
+        "result": 15, 
+        "time": "9:07"
+      },
+      {
+        "friend": 4,
+        "spin": 16,
+        "number": "6",
+        "amountBet": 285,
+        "result": 15, 
+        "time": "9:28"
+      },
+      {
+        "friend": 4,
+        "spin": 17,
+        "number": "5",
+        "amountBet": 285,
+        "result": 15, 
+        "time": "9:50"
+      }
+    ]
+  },
+  {
     "name": "Alex Kim's Roulette Strategy 💗",
     "airDate": "2023-09-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=i3ctJDCrYt4",
