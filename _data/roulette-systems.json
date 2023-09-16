@@ -1,4 +1,243 @@
-[
+ [
+  {
+    "name": "Lucky 14/29",
+    "airDate": "2023-09-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=37EA__UHz54",
+    "reviewUrl": "2023-09-15-Lucky-14-29",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col3":10,"x12-col2":10,"x4-11-15":1,"x4-14-18":1,"x1-14":1,"x4-10-14":1,"x4-13-17":1,"x4-26-30":1,"x4-29-33":1,"x4-25-29":1,"x4-28-32":1,"x1-29":1}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 180,
+    "bets": [
+      30
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "32",
+        "amountBet": 30,
+        "result": 18,
+        "time": "1:14"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 30,
+        "result": 18, 
+        "time": "2:23"
+      },
+      {
+        "spin": 3,
+        "number": "15",
+        "amountBet": 30,
+        "result": 18, 
+        "time": "3:30"
+      },
+      {
+        "spin": 4,
+        "number": "8",
+        "amountBet": 30,
+        "result": 0, 
+        "time": "4:23"
+      },
+      {
+        "spin": 5,
+        "number": "16",
+        "amountBet": 30,
+        "result": -21, 
+        "time": "5:16"
+      },
+      {
+        "spin": 6,
+        "number": "8",
+        "amountBet": 30,
+        "result": 0, 
+        "time": "6:02"
+      },
+      {
+        "spin": 7,
+        "number": "14",
+        "amountBet": 30,
+        "result": 72, 
+        "time": "6:31"
+      },
+      {
+        "spin": 8,
+        "number": "1",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "7:52"
+      },
+      {
+        "spin": 9,
+        "number": "26",
+        "amountBet": 30,
+        "result": 18, 
+        "time": "9:16"
+      },
+      {
+        "spin": 10,
+        "number": "3",
+        "amountBet": 30,
+        "result": 0, 
+        "time": "10:45"
+      }
+    ]
+  },
+  {
+    "name": "Just the Tip 🍆",
+    "airDate": "2023-09-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=McoJMn8v19E",
+    "reviewUrl": "2023-09-14-Just-the-Tip",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":50}},
+      {"wheelType":1,"wagers":{"x18-black":100}},
+      {"wheelType":1,"wagers":{"x18-black":200}},
+      {"wheelType":1,"wagers":{"x12-doz2":100}},
+      {"wheelType":1,"wagers":{"x12-doz2":100,"x2-0-00":10}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 500,
+    "bets": [
+      50,
+      100,
+      200,
+      100,
+      110
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "I'm only tracking Alex's bets.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 50,
+        "result": 50,
+        "time": "2:41"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 50,
+        "result": 50, 
+        "time": "3:00"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "3:45"
+      },
+      {
+        "spin": 4,
+        "number": "11",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "4:05",
+        "notes": "Alex switched up his level 1 bet and bet Red here."
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 100,
+        "result": 100, 
+        "time": "4:30",
+        "notes": "Alex bet $100 on Black here."
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "5:00"
+      },
+      {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "5:52"
+      },
+      {
+        "spin": 8,
+        "number": "31",
+        "amountBet": 100,
+        "result": 100, 
+        "time": "6:30"
+      },
+      {
+        "spin": 9,
+        "number": "19",
+        "amountBet": 50,
+        "result": 50, 
+        "time": "6:52"
+      },
+      {
+        "spin": 10,
+        "number": "8",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "7:22"
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 50,
+        "result": 50, 
+        "time": "7:50"
+      },
+      {
+        "spin": 12,
+        "number": "31",
+        "amountBet": 50,
+        "result": 50, 
+        "time": "8:21"
+      },
+      {
+        "spin": 13,
+        "number": "23",
+        "amountBet": 100,
+        "result": 200, 
+        "time": "8:50"
+      },
+      {
+        "spin": 14,
+        "number": "14",
+        "amountBet": 110,
+        "result": 190, 
+        "time": "9:23"
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 110,
+        "result": 190, 
+        "time": "10:08"
+      },
+      {
+        "spin": 16,
+        "number": "2",
+        "amountBet": 0,
+        "result": 0, 
+        "time": "10:37",
+        "notes": "Alex sat out for this spin."
+      }
+    ]
+  },
   {
     "name": "Grapefruit Grinder 🍇🍇",
     "airDate": "2023-09-13",
