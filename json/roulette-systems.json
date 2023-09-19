@@ -1,6 +1,314 @@
  [
   {
-    "name": "Lucky 14/29",
+    "name": "One Dozen to Heaven 👼",
+    "airDate": "2023-09-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=MVYGGK2ijzg",
+    "reviewUrl": "2023-09-18-One-Dozen-to-Heaven",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":10}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 2000,
+    "bets": [
+      10 
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "We're only tracking Alex's bets. I'm also only showing the first tier graphics. You just add another $10 each time and you win half the total bet.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "13",
+        "amountBet": 10,
+        "result": -10,
+        "time": "2:08",
+        "notes": "Alex was betting the 3rd dozen."
+      },
+      {
+        "spin": 2,
+        "number": "5",
+        "amountBet": 20,
+        "result": -20, 
+        "time": "2:34"
+      },
+      {
+        "spin": 3,
+        "number": "29",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "3:04"
+      },
+      {
+        "spin": 4,
+        "number": "32",
+        "amountBet": 40,
+        "result": 80, 
+        "time": "3:29"
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "4:11"
+      },
+      {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 60,
+        "result": -60, 
+        "time": "4:43"
+      },
+      {
+        "spin": 7,
+        "number": "6",
+        "amountBet": 70,
+        "result": -70, 
+        "time": "5:07"
+      },
+      {
+        "spin": 8,
+        "number": "2",
+        "amountBet": 80,
+        "result": -80, 
+        "time": "5:47"
+      },
+      {
+        "spin": 9,
+        "number": "34",
+        "amountBet": 90,
+        "result": -90, 
+        "time": "6:30",
+        "notes": "Alex switched to 2nd Dozen."
+      },
+      {
+        "spin": 10,
+        "number": "26",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "6:43"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 110,
+        "result": 220, 
+        "time": "7:06"
+      },
+      {
+        "spin": 12,
+        "number": "28",
+        "amountBet": 120,
+        "result": 240, 
+        "time": "7:37"
+      },
+      {
+        "spin": 13,
+        "number": "32",
+        "amountBet": 130,
+        "result": -130, 
+        "time": "8:02"
+      },
+      {
+        "spin": 14,
+        "number": "15",
+        "amountBet": 140,
+        "result": 280, 
+        "time": "8:28",
+        "notes": "Alex up $180 after this win. Reset to $10."
+      },
+      {
+        "spin": 15,
+        "number": "6",
+        "amountBet": 10,
+        "result": -10, 
+        "time": "8:42"
+      },
+      {
+        "spin": 16,
+        "number": "4",
+        "amountBet": 20,
+        "result": -20, 
+        "time": "9:05"
+      },
+      {
+        "spin": 17,
+        "number": "36",
+        "amountBet": 30,
+        "result": 60, 
+        "time": "9:28"
+      },
+      {
+        "spin": 18,
+        "number": "18",
+        "amountBet": 40,
+        "result": -40, 
+        "time": "9:50"
+      },
+      {
+        "spin": 19,
+        "number": "12",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "10:06"
+      },
+      {
+        "spin": 20,
+        "number": "23",
+        "amountBet": 60,
+        "result": 120, 
+        "time": "10:14"
+      },
+      {
+        "spin": 21,
+        "number": "36",
+        "amountBet": 10,
+        "result": 20, 
+        "time": "10:34"
+      },
+      {
+        "spin": 22,
+        "number": "7",
+        "amountBet": 20,
+        "result": -20, 
+        "time": "10:50"
+      },
+      {
+        "spin": 23,
+        "number": "35",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "11:15"
+      }
+    ]
+  },
+  {
+    "name": "Comp You Long Time 2 💗💗",
+    "airDate": "2023-09-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=bIYlkMl1XoQ",
+    "reviewUrl": "2023-09-17-Comp-You-Long-Time-2",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":0,"wagers":{"x18-black":30,"x12-col3":20,"x12-col2":15,"x2-35-36":5,"x2-31-32":5,"x2-29-30":5,"x2-25-26":5,"x2-23-24":5,"x2-19-20":5,"x2-17-18":5,"x2-13-14":5,"x2-11-12":5,"x2-7-8":5,"x2-5-6":5,"x2-1-2":5,"x6-4-9":20,"x6-10-15":20,"x6-16-21":25,"x6-22-27":20,"x6-28-33":25,"x4-2-6":5,"x4-7-11":5,"x4-14-18":5,"x4-19-23":5,"x4-25-29":5,"x4-32-36":5,"x4-13-17":5,"x4-17-21":5,"x4-20-24":5,"x1-0":20}},
+      {"wheelType":0,"wagers":{"x18-black":30,"x12-col3":20,"x12-col2":15,"x2-35-36":5,"x2-31-32":5,"x2-29-30":5,"x2-25-26":5,"x2-23-24":5,"x2-19-20":5,"x2-17-18":5,"x2-13-14":5,"x2-11-12":5,"x2-7-8":5,"x2-5-6":5,"x2-1-2":5,"x6-4-9":20,"x6-10-15":20,"x6-16-21":25,"x6-22-27":20,"x6-28-33":25,"x4-2-6":5,"x4-7-11":5,"x4-14-18":5,"x4-19-23":5,"x4-25-29":5,"x4-32-36":5,"x4-13-17":5,"x4-17-21":5,"x4-20-24":5,"x1-0":20,"x12-doz1":15,"x12-doz3":15}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      300,
+      330
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "Alex was only betting $300, not $330. Most of the payoffs were incorrect.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "2",
+        "amountBet": 300,
+        "ev": -8.10,
+        "result": -60,
+        "time": "2:11",
+        "notes": "Video said -100, but it was -60."
+      },
+      {
+        "spin": 2,
+        "number": "4",
+        "amountBet": 300,
+        "ev": -8.10,
+        "result": -120, 
+        "time": "3:33",
+        "notes": "Video said -150, but it was -120."
+      },
+      {
+        "spin": 3,
+        "number": "00",
+        "amountBet": 300,
+        "ev": -8.10,
+        "result": -15, 
+        "time": "4:08",
+        "notes": "Video said -75, but it was -15. "
+      },
+      {
+        "spin": 4,
+        "number": "31",
+        "amountBet": 300,
+        "ev": -8.10,
+        "result": 0, 
+        "time": "5:09",
+        "notes": "Video said -75, but it was +0"
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 330,
+        "ev": -8.91,
+        "result": 390, 
+        "time": "6:12"
+      },
+      {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 330,
+        "ev": -8.91,
+        "result": 15, 
+        "time": "7:46"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 330,
+        "ev": -8.91,
+        "result": 15, 
+        "time": "8:49"
+      },
+      {
+        "spin": 8,
+        "number": "2",
+        "amountBet": 330,
+        "ev": -8.91,
+        "result": -45, 
+        "time": "10:29",
+        "notes": "Video said +50, but it's -45."
+      },
+      {
+        "spin": 9,
+        "number": "00",
+        "amountBet": 0,
+        "result": 0, 
+        "time": "11:42",
+        "notes": "Spin doesn't count because they're assuming a Single Zero wheel."
+      },
+      {
+        "spin": 10,
+        "number": "10",
+        "amountBet": 330,
+        "ev": -8.91,
+        "result": -60, 
+        "time": "11:56",
+        "notes": "Video said -70, but it should be -60."
+      },
+      {
+        "spin": 11,
+        "number": "1",
+        "amountBet": 330,
+        "ev": -8.91,
+        "result": -195, 
+        "time": "13:27",
+        "notes": "Video said -245, but it was -195."
+      }
+    ]
+  },
+  {
+    "name": "Lucky 14/29 🍀🍀",
     "airDate": "2023-09-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=37EA__UHz54",
     "reviewUrl": "2023-09-15-Lucky-14-29",
