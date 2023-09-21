@@ -1,4 +1,324 @@
- [
+[
+  {
+    "name": "Two Dozen Fibonacci 🧮",
+    "airDate": "2023-09-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=RPZZFcvM3p8",
+    "reviewUrl": "2023-09-21-Two-Dozen-Fibonacci",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100,"x12-doz3":100}}
+    ],
+    "systemType": "Multi-Leg",
+    "buyIn": 8000,
+    "bets": [
+      200,
+      200,
+      400,
+      600,
+      1000,
+      1600,
+      2600,
+      4200
+    ],
+    "rating": "f",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "We're only tracking Alex's bets. I'm not going to provide images for each betting tier. You just proceed with the Fibonacci sequence when you lose. Reset to the first tier when you win. This is a multi-leg system.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "14",
+        "amountBet": 200,
+        "result": 100,
+        "time": "2:18"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 200,
+        "result": 100, 
+        "time": "2:39"
+      },
+      {
+        "spin": 3,
+        "number": "24",
+        "amountBet": 300,
+        "result": 0, 
+        "time": "3:13"
+      },
+      {
+        "spin": 4,
+        "number": "16",
+        "amountBet": 400,
+        "result": 100, 
+        "time": "3:43"
+      },
+      {
+        "spin": 5,
+        "number": "20",
+        "amountBet": 600,
+        "result": -300, 
+        "time": "4:18"
+      },
+      {
+        "spin": 6,
+        "number": "27",
+        "amountBet": 900,
+        "result": 1500, 
+        "time": "4:46"
+      },
+      {
+        "spin": 7,
+        "number": "20",
+        "amountBet": 200,
+        "result": 100, 
+        "time": "5:16"
+      },
+      {
+        "spin": 8,
+        "number": "32",
+        "amountBet": 200,
+        "result": 100, 
+        "time": "5:53"
+      },
+      {
+        "spin": 9,
+        "number": "21",
+        "amountBet": 200,
+        "result": 100, 
+        "time": "6:31"
+      },
+      {
+        "spin": 10,
+        "number": "5",
+        "amountBet": 200,
+        "result": -200, 
+        "time": "7:33"
+      },
+      {
+        "spin": 11,
+        "number": "11",
+        "amountBet": 300,
+        "result": -300, 
+        "time": "8:08"
+      },
+      {
+        "spin": 12,
+        "number": "33",
+        "amountBet": 500,
+        "result": 400, 
+        "time": "8:31"
+      },
+      {
+        "spin": 13,
+        "number": "1",
+        "amountBet": 400,
+        "result": -400, 
+        "time": "9:13"
+      },
+      {
+        "spin": 14,
+        "number": "33",
+        "amountBet": 300,
+        "result": -300, 
+        "time": "9:39"
+      },
+      {
+        "spin": 15,
+        "number": "00",
+        "amountBet": 900,
+        "result": -900, 
+        "time": "10:02"
+      },
+      {
+        "spin": 16,
+        "number": "2",
+        "amountBet": 1400,
+        "result": -1400, 
+        "time": "10:20"
+      },
+      {
+        "spin": 17,
+        "number": "29",
+        "amountBet": 1700,
+        "result": -1700, 
+        "time": "10:43"
+      },
+      {
+        "spin": 18,
+        "number": "2",
+        "amountBet": 3500,
+        "result": -3500, 
+        "time": "11:13"
+      },
+      {
+        "spin": 19,
+        "number": "4",
+        "amountBet": 0,
+        "result": 0, 
+        "time": "11:49",
+        "notes": "Alex out of money here."
+      }
+    ]
+  },
+  {
+    "name": "Hop to Super G Spot 🦘",
+    "airDate": "2023-09-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=3f13RAB65N4",
+    "reviewUrl": "2023-09-20-Hop-to-Super-G-Spot",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-high":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":45,"x6-7-12":15,"x6-25-30":15}},
+      {"wheelType":1,"wagers":{"x12-doz2":45,"x6-7-12":15,"x6-25-30":15,"x2-4-5":5,"x2-31-32":5}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      25,
+      50,
+      75,
+      85
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "We're only tracking Alex's bets.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "35",
+        "amountBet": 25,
+        "result": 25,
+        "time": "1:07"
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 50,
+        "result": 25, 
+        "time": "1:27"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 75,
+        "result": -75, 
+        "time": "1:58"
+      },
+      {
+        "spin": 4,
+        "number": "20",
+        "amountBet": 25,
+        "result": 25, 
+        "time": "2:20"
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "2:40"
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "3:06"
+      },
+      {
+        "spin": 7,
+        "number": "3",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "3:42"
+      },
+      {
+        "spin": 8,
+        "number": "19",
+        "amountBet": 25,
+        "result": 25, 
+        "time": "4:28"
+      },
+      {
+        "spin": 9,
+        "number": "36",
+        "amountBet": 50,
+        "result": 25, 
+        "time": "5:08"
+      },
+      {
+        "spin": 10,
+        "number": "0",
+        "amountBet": 75,
+        "result": -75, 
+        "time": "5:45"
+      },
+      {
+        "spin": 11,
+        "number": "0",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "6:21"
+      },
+      {
+        "spin": 12,
+        "number": "8",
+        "amountBet": 25,
+        "result": 25, 
+        "time": "6:44",
+        "notes": "Alex bet black here."
+      },
+      {
+        "spin": 13,
+        "number": "2",
+        "amountBet": 50,
+        "result": -50, 
+        "time": "7:03"
+      },
+      {
+        "spin": 14,
+        "number": "9",
+        "amountBet": 25,
+        "result": -25, 
+        "time": "7:26"
+      },
+      {
+        "spin": 15,
+        "number": "23",
+        "amountBet": 25,
+        "result": 25, 
+        "time": "7:48"
+      },
+      {
+        "spin": 16,
+        "number": "21",
+        "amountBet": 50,
+        "result": 25, 
+        "time": "8:10"
+      },
+      {
+        "spin": 17,
+        "number": "9",
+        "amountBet": 75,
+        "result": 15, 
+        "time": "8:48"
+      },
+      {
+        "spin": 18,
+        "number": "25",
+        "amountBet": 85,
+        "result": 5, 
+        "time": "9:02"
+      }
+    ]
+  },
   {
     "name": "One Dozen to Heaven 👼",
     "airDate": "2023-09-18",
@@ -1230,7 +1550,7 @@
       2100
     ],
     "rating": "a",
-    "jackaceRating": "c",
+    "jackaceRating": "b",
     "isJackAceReview": false,
     "notes": "",
     "spins": [
