@@ -16,7 +16,6 @@ If you notice any errors, please submit a pull request to correct them!
 
 `bundle exec jekyll serve`
 
-
 ## Deployment Steps
 
 * Deploy to staging.jackace.com before deploying to www.jackace.com
