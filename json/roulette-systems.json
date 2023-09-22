@@ -1,5 +1,141 @@
 [
   {
+    "name": "One Ten 1️⃣🔟",
+    "airDate": "2023-09-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=L2_iEUi1Me0",
+    "reviewUrl": "2023-09-22-One-Ten",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-34-36":10,"x3-31-33":10,"x3-28-30":10,"x3-22-24":10,"x3-19-21":10,"x3-16-18":10,"x3-10-12":10,"x3-7-9":10,"x3-4-6":10,"x18-low":10,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x3-34-36":20,"x3-31-33":20,"x3-28-30":20,"x3-22-24":20,"x3-19-21":20,"x3-16-18":20,"x3-10-12":20,"x3-7-9":20,"x3-4-6":20,"x18-low":20,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x3-34-36":40,"x3-31-33":40,"x3-28-30":40,"x3-22-24":40,"x3-19-21":40,"x3-16-18":40,"x3-10-12":40,"x3-7-9":40,"x3-4-6":40,"x18-low":40,"x12-doz3":40}},
+      {"wheelType":1,"wagers":{"x18-low":10,"x12-doz3":10,"x3-10-12":10,"x3-7-9":10,"x3-4-6":10,"x3-13-15":10,"x3-16-18":10,"x3-19-21":10,"x3-34-36":10,"x3-31-33":10,"x3-28-30":10}}
+    ],
+    "systemType": "Martingale",
+    "buyIn": 2000,
+    "bets": [
+      110,
+      220,
+      440,
+      110
+    ],
+    "rating": "c",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "Martingale after 3x losses. Alex was up $115 at the end, but he should have been up $140. I don't even see how he could be up $115 when every win/loss ends with a 0.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "3",
+        "amountBet": 110,
+        "result": -90,
+        "time": "1:09"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 110,
+        "result": 40, 
+        "time": "1:52"
+      },
+      {
+        "spin": 3,
+        "number": "16",
+        "amountBet": 110,
+        "result": 10, 
+        "time": "2:51"
+      },
+      {
+        "spin": 4,
+        "number": "4",
+        "amountBet": 110,
+        "result": 30, 
+        "time": "3:27",
+        "notes": "Video said +40, but the win was just +30"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 110,
+        "result": 40, 
+        "time": "4:10"
+      },
+      {
+        "spin": 6,
+        "number": "18",
+        "amountBet": 110,
+        "result": 10, 
+        "time": "5:11"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 110,
+        "result": 30, 
+        "time": "6:15",
+        "notes": "Video said +40, but the win was just +30"
+      },
+      {
+        "spin": 8,
+        "number": "12",
+        "amountBet": 110,
+        "result": 30, 
+        "time": "6:50",
+        "notes": "Video said +40, but the win was just +30"
+      },
+      {
+        "spin": 9,
+        "number": "8",
+        "amountBet": 110,
+        "result": 30, 
+        "time": "7:35",
+        "notes": "Video said +40, but the win was just +30"
+      },
+      {
+        "spin": 10,
+        "number": "32",
+        "amountBet": 110,
+        "result": 40, 
+        "time": "8:11"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 110,
+        "result": 30, 
+        "time": "9:13",
+        "notes": "Video said +40, but the win was just +30"
+      },
+      {
+        "spin": 12,
+        "number": "24",
+        "amountBet": 110,
+        "result": -110, 
+        "time": "9:46"
+      },
+      {
+        "spin": 13,
+        "number": "17",
+        "amountBet": 110,
+        "result": 10, 
+        "time": "10:50"
+      },
+      {
+        "spin": 14,
+        "number": "10",
+        "amountBet": 110,
+        "result": 30, 
+        "time": "11:29",
+        "notes": "Video said +40, but the win was just +30"
+      }
+    ]
+  },
+  {
     "name": "Two Dozen Fibonacci 🧮",
     "airDate": "2023-09-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=RPZZFcvM3p8",
