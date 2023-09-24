@@ -1,5 +1,166 @@
 [
   {
+    "name": "Build the Engine",
+    "airDate": "2023-09-23",
+    "youtubeUrl": "https://www.youtube.com/watch?v=uHRjRqaL41E",
+    "reviewUrl": "2023-09-23-Build-the-Engine",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":10,"x18-high":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":15,"x12-doz3":15}},
+      {"wheelType":1,"wagers":{"x4-1-5":10,"x4-8-12":10,"x4-13-17":10,"x4-20-24":10,"x4-25-29":10,"x4-32-36":10,"x2-0-00":10}},
+      {"wheelType":1,"wagers":{"x4-1-5":20,"x4-8-12":20,"x4-13-17":20,"x4-20-24":20,"x4-25-29":20,"x4-32-36":20,"x2-0-00":20}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 200,
+    "bets": [
+      20,
+      30,
+      70,
+      140
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "isJackAceReview": false,
+    "notes": "Go to the next tier on a win.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "0",
+        "amountBet": 20,
+        "result": -20,
+        "time": "0:48"
+      },
+      {
+        "spin": 2,
+        "number": "10",
+        "amountBet": 20,
+        "result": 0, 
+        "time": "1:14"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 20,
+        "result": 0, 
+        "time": "1:53"
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 20,
+        "result": 0, 
+        "time": "2:18"
+      },
+      {
+        "spin": 5,
+        "number": "28",
+        "amountBet": 20,
+        "result": 20, 
+        "time": "2:52",
+        "notes": "Video said +30, but Alex only won +20"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "3:48"
+      },
+      {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 20,
+        "result": 0, 
+        "time": "4:41"
+      },
+      {
+        "spin": 8,
+        "number": "17",
+        "amountBet": 20,
+        "result": 0, 
+        "time": "5:23",
+        "notes": "Video said +30, but Alex pushed"
+      },
+      {
+        "spin": 9,
+        "number": "34",
+        "amountBet": 20,
+        "result": 0, 
+        "time": "6:18"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 20,
+        "result": 20, 
+        "time": "6:49",
+        "notes": "Video said +30, but Alex only won +20"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 30,
+        "result": 15, 
+        "time": "7:17"
+      },
+      {
+        "spin": 12,
+        "number": "5",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "7:50"
+      },
+      {
+        "spin": 13,
+        "number": "25",
+        "amountBet": 20,
+        "result": 0, 
+        "time": "8:12"
+      },
+      {
+        "spin": 14,
+        "number": "8",
+        "amountBet": 20,
+        "result": 0, 
+        "time": "8:49"
+      },
+      {
+        "spin": 15,
+        "number": "9",
+        "amountBet": 20,
+        "result": -20, 
+        "time": "9:19"
+      },
+      {
+        "spin": 16,
+        "number": "2",
+        "amountBet": 20,
+        "result": 0, 
+        "time": "9:40"
+      },
+      {
+        "spin": 17,
+        "number": "25",
+        "amountBet": 20,
+        "result": 20, 
+        "time": "10:06"
+      },
+      {
+        "spin": 18,
+        "number": "00",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "11:02"
+      }
+    ]
+  },
+  {
     "name": "One Ten 1️⃣🔟",
     "airDate": "2023-09-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=L2_iEUi1Me0",
