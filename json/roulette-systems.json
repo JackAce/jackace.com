@@ -1,6 +1,6 @@
 [
   {
-    "name": "Build the Engine",
+    "name": "Build the Engine 🚒🚂",
     "airDate": "2023-09-23",
     "youtubeUrl": "https://www.youtube.com/watch?v=uHRjRqaL41E",
     "reviewUrl": "2023-09-23-Build-the-Engine",
@@ -16,7 +16,7 @@
       {"wheelType":1,"wagers":{"x4-1-5":10,"x4-8-12":10,"x4-13-17":10,"x4-20-24":10,"x4-25-29":10,"x4-32-36":10,"x2-0-00":10}},
       {"wheelType":1,"wagers":{"x4-1-5":20,"x4-8-12":20,"x4-13-17":20,"x4-20-24":20,"x4-25-29":20,"x4-32-36":20,"x2-0-00":20}}
     ],
-    "systemType": "Ladder",
+    "systemType": "Positive Progression",
     "buyIn": 200,
     "bets": [
       20,
@@ -24,10 +24,10 @@
       70,
       140
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "c",
+    "jackaceRating": "c",
     "isJackAceReview": false,
-    "notes": "Go to the next tier on a win.",
+    "notes": "Go to the next tier on a win. There were mostly incorrect payouts for this system. I don't have the patience to try to resolve the discrapencies.",
     "spins": [
       {
         "spin": 1,
