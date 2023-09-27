@@ -1,5 +1,244 @@
 [
   {
+    "name": "David Style 🥳",
+    "airDate": "2023-09-27",
+    "youtubeUrl": "https://www.youtube.com/watch?v=PxHCvmEQuqE",
+    "reviewUrl": "2023-09-27-David-Style",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-1":5,"x2-1-2":5,"x4-1-5":5,"x2-1-4":5,"x1-7":5,"x1-10":5,"x4-7-11":5,"x4-13-17":5,"x1-16":5,"x4-16-20":5,"x2-25-26":5,"x1-25":5,"x2-31-32":5,"x4-31-35":5,"x2-31-34":5,"x1-31":5,"x12-col1":50,"x12-col2":50}},
+      {"wheelType":1,"wagers":{"x1-26":5,"x2-26-29":5,"x1-29":5,"x4-25-29":5,"x2-25-28":5,"x1-25":5,"x1-28":5,"x1-32":5,"x2-31-32":5,"x1-31":5,"x2-32-35":5,"x2-31-34":5,"x2-34-35":5,"x1-17":5,"x2-16-17":5,"x2-16-19":5,"x1-19":5,"x2-19-22":5,"x2-22-23":5,"x1-23":5,"x2-7-8":5,"x1-7":5,"x1-13":5,"x2-13-14":5,"x1-11":5,"x2-8-11":5,"x2-11-14":5,"x1-2":5,"x2-1-2":5,"x1-1":5,"x2-2-5":5,"x2-1-4":5,"x2-4-5":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 900,
+    "bets": [
+      180,
+      165
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "You can bet the 'little-D' (tier 1) or the 'BIG D' (tier 2)",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 180,
+        "result": 15,
+        "time": "1:04"
+      },
+      {
+        "spin": 2,
+        "number": "26",
+        "amountBet": 180,
+        "result": 60, 
+        "time": "1:48"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 180,
+        "result": 195, 
+        "time": "2:17"
+      },
+      {
+        "spin": 4,
+        "number": "12",
+        "amountBet": 180,
+        "result": -180, 
+        "time": "3:23"
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 180,
+        "result": -180, 
+        "time": "4:20"
+      },
+      {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 180,
+        "result": -30, 
+        "time": "5:02"
+      },
+      {
+        "spin": 7,
+        "number": "2",
+        "amountBet": 180,
+        "result": 105, 
+        "time": "5:56"
+      },
+      {
+        "spin": 8,
+        "number": "9",
+        "amountBet": 180,
+        "result": -180, 
+        "time": "6:38"
+      },
+      {
+        "spin": 9,
+        "number": "25",
+        "amountBet": 165,
+        "result": 150, 
+        "time": "7:36",
+        "notes": "Alex switched to the 'BIG D' version here."
+      },
+      {
+        "spin": 10,
+        "number": "5",
+        "amountBet": 165,
+        "result": 15, 
+        "time": "8:29"
+      },
+      {
+        "spin": 11,
+        "number": "4",
+        "amountBet": 165,
+        "result": 15,
+        "time": "9:15"
+      }
+    ]
+  },
+  {
+    "name": "Alex's Choice 👶🏻👶🏽",
+    "airDate": "2023-09-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=OYJAp4FKOpk",
+    "reviewUrl": "2023-09-25-Alexs-Choice",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-0-00":10,"x1-5":15,"x6-7-12":15,"x4-7-11":5,"x4-8-12":5,"x6-16-21":15,"x4-16-20":5,"x4-17-21":5,"x6-28-33":15,"x4-28-32":5,"x4-29-33":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      100
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "You can move the $15 straight up bet to any number. You can also bet $5 on 3 different numbers straight-up.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "13",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:27"
+      },
+      {
+        "spin": 2,
+        "number": "17",
+        "amountBet": 100,
+        "result": 80, 
+        "time": "2:59"
+      },
+      {
+        "spin": 3,
+        "number": "17",
+        "amountBet": 100,
+        "result": 80, 
+        "time": "3:24"
+      },
+      {
+        "spin": 4,
+        "number": "12",
+        "amountBet": 100,
+        "result": 35, 
+        "time": "3:50"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "4:17"
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 100,
+        "result": 80, 
+        "time": "4:47"
+      },
+      {
+        "spin": 7,
+        "number": "13",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "5:12"
+      },
+      {
+        "spin": 8,
+        "number": "4",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "5:39"
+      },
+      {
+        "spin": 9,
+        "number": "0",
+        "amountBet": 100,
+        "result": 80, 
+        "time": "6:27"
+      },
+      {
+        "spin": 10,
+        "number": "23",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "7:02"
+      },
+      {
+        "spin": 11,
+        "number": "16",
+        "amountBet": 100,
+        "result": 35, 
+        "time": "7:31"
+      },
+      {
+        "spin": 12,
+        "number": "24",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "7:50"
+      },
+      {
+        "spin": 13,
+        "number": "35",
+        "amountBet": 100,
+        "result": -100, 
+        "time": "8:48"
+      },
+      {
+        "spin": 14,
+        "number": "29",
+        "amountBet": 100,
+        "result": 80, 
+        "time": "9:41"
+      },
+      {
+        "spin": 15,
+        "number": "20",
+        "amountBet": 100,
+        "result": 80, 
+        "time": "9:55"
+      },
+      {
+        "spin": 16,
+        "number": "12",
+        "amountBet": 100,
+        "result": 35, 
+        "time": "10:31"
+      }
+    ]
+  },
+  {
     "name": "Build the Engine 🚒🚂",
     "airDate": "2023-09-23",
     "youtubeUrl": "https://www.youtube.com/watch?v=uHRjRqaL41E",
@@ -808,6 +1047,7 @@
     "airDate": "2023-09-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=bIYlkMl1XoQ",
     "reviewUrl": "2023-09-17-Comp-You-Long-Time-2",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=D79SewP8ozM",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
       "00-rba-1-800x768.png"
