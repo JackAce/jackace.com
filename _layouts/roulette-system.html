@@ -257,7 +257,7 @@ layout: page-no-sidebar
     {%- if bettingConfigLimit > 0 -%}
       {%- assign bettingConfig = bettingConfigs[0] | json | replace: "=>", ":" | replace: '"', '&quot;' -%}
       <br/>
-      <a id="rbaLink" href="https://rba.jackace.com/?c={{- bettingConfig -}}" target="_blank">View this bet in the RBA</a>
+      <a id="rbaLink" href="https://rba.jackace.com/?c={{- bettingConfig -}}" target="_blank">View this bet in the Roulette Bet Analyzer</a>
     {%- endif -%}
     </figcaption>
 </figure>
