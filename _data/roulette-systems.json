@@ -1,5 +1,654 @@
 [
   {
+    "name": "House Money 💵",
+    "airDate": "2023-10-16",
+    "youtubeUrl": "https://www.youtube.com/watch?v=eNrVIykAMdQ",
+    "reviewUrl": "2023-10-16-House-Money",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":5}},
+      {"wheelType":1,"wagers":{"x12-doz2":15}},
+      {"wheelType":1,"wagers":{"x12-doz2":15}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 250,
+    "bets": [
+      5,
+      15,
+      35
+    ],
+    "rating": "b", 
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "This is a 3 step positive progression similar to Ride or Die.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "29",
+        "amountBet": 5,
+        "result": 10,
+        "time": "2:08"
+      },
+      {
+        "spin": 2,
+        "number": "17",
+        "amountBet": 15,
+        "result": 30, 
+        "time": "2:26"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 35,
+        "result": -35, 
+        "time": "2:48"
+      },
+      {
+        "spin": 4,
+        "number": "33",
+        "amountBet": 5,
+        "result": 10, 
+        "time": "2:58"
+      },
+      {
+        "spin": 5,
+        "number": "22",
+        "amountBet": 15,
+        "result": -15, 
+        "time": "3:28"
+      },
+      {
+        "spin": 6,
+        "number": "29",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "3:49"
+      },
+      {
+        "spin": 7,
+        "number": "2",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "4:00"
+      },
+      {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "4:26"
+      },
+      {
+        "spin": 9,
+        "number": "4",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "4:40"
+      },
+      {
+        "spin": 10,
+        "number": "18",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "5:00"
+      },
+      {
+        "spin": 11,
+        "number": "15",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "5:21"
+      },
+      {
+        "spin": 12,
+        "number": "16",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "5:31"
+      },
+      {
+        "spin": 13,
+        "number": "35",
+        "amountBet": 5,
+        "result": 10, 
+        "time": "5:59"
+      },
+      {
+        "spin": 14,
+        "number": "12",
+        "amountBet": 15,
+        "result": -15, 
+        "time": "6:07"
+      },
+      {
+        "spin": 15,
+        "number": "00",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "6:35"
+      },
+      {
+        "spin": 16,
+        "number": "12",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "6:55"
+      },
+      {
+        "spin": 17,
+        "number": "3",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "7:14"
+      },
+      {
+        "spin": 18,
+        "number": "28",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "7:32"
+      },
+      {
+        "spin": 19,
+        "number": "5",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "8:04"
+      },
+      {
+        "spin": 20,
+        "number": "3",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "8:28"
+      },
+      {
+        "spin": 21,
+        "number": "36",
+        "amountBet": 5,
+        "result": 10, 
+        "time": "8:52"
+      },
+      {
+        "spin": 22,
+        "number": "17",
+        "amountBet": 15,
+        "result": 30, 
+        "time": "9:22"
+      },
+      {
+        "spin": 23,
+        "number": "19",
+        "amountBet": 35,
+        "result": 145, 
+        "time": "9:52"
+      },
+      {
+        "spin": 24,
+        "number": "2",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "10:17"
+      },
+      {
+        "spin": 25,
+        "number": "10",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "10:35"
+      },
+      {
+        "spin": 26,
+        "number": "15",
+        "amountBet": 5,
+        "result": -5, 
+        "time": "10:45"
+      }
+    ]
+  },
+  {
+    "name": "Always Taking Money 🏧",
+    "airDate": "2023-10-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=69XlgX0cFbs",
+    "reviewUrl": "2023-10-14-Always-Taking-Money",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":10,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x12-doz1":30,"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x12-doz1":90,"x12-doz3":90}},
+      {"wheelType":1,"wagers":{"x12-doz1":270,"x12-doz3":270}}
+    ],
+    "systemType": "Martingale",
+    "buyIn": 1620,
+    "bets": [
+      20,
+      60,
+      180,
+      540
+    ],
+    "rating": "f",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "7",
+        "amountBet": 20,
+        "result": 10,
+        "time": "1:12"
+      },
+      {
+        "spin": 2,
+        "number": "36",
+        "amountBet": 20,
+        "result": 10, 
+        "time": "1:37"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 20,
+        "result": 10, 
+        "time": "2:04"
+      },
+      {
+        "spin": 4,
+        "number": "8",
+        "amountBet": 20,
+        "result": -10, 
+        "time": "2:32"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 20,
+        "result": -20, 
+        "time": "2:50"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 60,
+        "result": -60, 
+        "time": "3:16",
+        "notes": "Video didn't display this loss."
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 180,
+        "result": 90, 
+        "time": "3:40",
+        "notes": "Video said +30, but Alex won +90 here."
+      },
+      {
+        "spin": 8,
+        "number": "23",
+        "amountBet": 20,
+        "result": -20, 
+        "time": "4:10"
+      },
+      {
+        "spin": 9,
+        "number": "15",
+        "amountBet": 60,
+        "result": -60, 
+        "time": "4:31"
+      },
+      {
+        "spin": 10,
+        "number": "36",
+        "amountBet": 60,
+        "result": 30, 
+        "time": "5:02",
+        "notes": "Alex bet $60 here, but he should have bet $180 (and won $90)"
+      },
+      {
+        "spin": 11,
+        "number": "30",
+        "amountBet": 20,
+        "result": 10, 
+        "time": "5:32"
+      },
+      {
+        "spin": 12,
+        "number": "1",
+        "amountBet": 20,
+        "result": 10, 
+        "time": "5:54"
+      },
+      {
+        "spin": 13,
+        "number": "27",
+        "amountBet": 20,
+        "result": 10, 
+        "time": "6:21"
+      },
+      {
+        "spin": 14,
+        "number": "22",
+        "amountBet": 20,
+        "result": -20, 
+        "time": "6:58"
+      },
+      {
+        "spin": 15,
+        "number": "5",
+        "amountBet": 60,
+        "result": 30, 
+        "time": "7:26",
+        "notes": "Video said +10, but Alex actually won +30 here."
+      },
+      {
+        "spin": 16,
+        "number": "00",
+        "amountBet": 20,
+        "result": -20, 
+        "time": "7:59"
+      },
+      {
+        "spin": 17,
+        "number": "18",
+        "amountBet": 60,
+        "result": -60, 
+        "time": "8:27",
+        "notes": "Video didn't display this loss."
+      },
+      {
+        "spin": 18,
+        "number": "24",
+        "amountBet": 180,
+        "result": -180, 
+        "time": "9:03"
+      },
+      {
+        "spin": 19,
+        "number": "24",
+        "amountBet": 180,
+        "result": -180, 
+        "time": "9:34"
+      },
+      {
+        "spin": 20,
+        "number": "30",
+        "amountBet": 430,
+        "result": 215, 
+        "time": "10:05",
+        "notes": "Alex didn't have enough to bet $540. Video said +430, but the win should have been +215."
+      },
+      {
+        "spin": 21,
+        "number": "31",
+        "amountBet": 640,
+        "result": 320, 
+        "time": "10:40",
+        "notes": "I'm not sure how much Alex bet here...the payouts displayed in the video are all messed up."
+      },
+      {
+        "spin": 22,
+        "number": "9",
+        "amountBet": 120,
+        "result": 60, 
+        "time": "11:11",
+        "notes": "I'm not sure how much Alex bet here...the payouts displayed in the video are all messed up."
+      }
+    ]
+  },
+  {
+    "name": "Buzzin' on the Dozens 🐝🐝",
+    "airDate": "2023-10-13",
+    "youtubeUrl": "https://www.youtube.com/watch?v=6hNFLv5xANI",
+    "reviewUrl": "2023-10-13-Buzzin-on-the-Dozens",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":10,"x2-30-33":1,"x4-29-33":1,"x2-29-32":1,"x4-28-32":1,"x2-28-31":1,"x4-26-30":1,"x4-25-29":1,"x4-32-36":1,"x4-31-35":1,"x1-30":1,"x1-33":1,"x1-29":1,"x1-32":1,"x1-28":1,"x1-31":1,"x2-29-30":1,"x2-32-33":1,"x2-28-29":1,"x2-31-32":1,"x6-28-33":1}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 300,
+    "bets": [
+      30
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "35",
+        "amountBet": 30,
+        "result": 18,
+        "time": "0:53"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 30,
+        "result": 132, 
+        "time": "1:40"
+      },
+      {
+        "spin": 3,
+        "number": "25",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "2:49",
+        "notes": "Alex moved his bet to the 2nd dozen."
+      },
+      {
+        "spin": 4,
+        "number": "22",
+        "amountBet": 30,
+        "result": 9, 
+        "time": "3:18"
+      },
+      {
+        "spin": 5,
+        "number": "34",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "4:10"
+      },
+      {
+        "spin": 6,
+        "number": "17",
+        "amountBet": 30,
+        "result": 132, 
+        "time": "5:02"
+      },
+      {
+        "spin": 7,
+        "number": "27",
+        "amountBet": 30,
+        "result": 9, 
+        "time": "6:07"
+      },
+      {
+        "spin": 8,
+        "number": "26",
+        "amountBet": 30,
+        "result": 18, 
+        "time": "6:52"
+      },
+      {
+        "spin": 9,
+        "number": "36",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "7:45"
+      },
+      {
+        "spin": 10,
+        "number": "10",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "8:28"
+      },
+      {
+        "spin": 11,
+        "number": "23",
+        "amountBet": 30,
+        "result": 18, 
+        "time": "9:04"
+      },
+      {
+        "spin": 12,
+        "number": "29",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "9:57"
+      },
+      {
+        "spin": 13,
+        "number": "2",
+        "amountBet": 30,
+        "result": -30, 
+        "time": "10:12",
+        "notes": "Video said this was 29, but it was clearly 2."
+      }
+    ]
+  },
+  {
+    "name": "All Seeing Eye 👁️",
+    "airDate": "2023-10-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=3TRML4F2_pE",
+    "reviewUrl": "2023-10-12-All-Seeing-Eye",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col1":50,"x12-col3":50,"x1-2":5,"x1-35":5,"x1-17":5,"x2-17-20":5,"x1-20":5,"x1-14":5,"x1-23":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 600,
+    "bets": [
+      135
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "32",
+        "amountBet": 135,
+        "result": -135,
+        "time": "2:06"
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 135,
+        "result": 15, 
+        "time": "2:29"
+      },
+      {
+        "spin": 3,
+        "number": "14",
+        "amountBet": 135,
+        "result": 45, 
+        "time": "3:03"
+      },
+      {
+        "spin": 4,
+        "number": "11",
+        "amountBet": 135,
+        "result": -135, 
+        "time": "3:44"
+      },
+      {
+        "spin": 5,
+        "number": "31",
+        "amountBet": 135,
+        "result": 15, 
+        "time": "3:55"
+      },
+      {
+        "spin": 6,
+        "number": "4",
+        "amountBet": 135,
+        "result": 15, 
+        "time": "4:25"
+      },
+      {
+        "spin": 7,
+        "number": "6",
+        "amountBet": 135,
+        "result": 15, 
+        "time": "4:45"
+      },
+      {
+        "spin": 8,
+        "number": "34",
+        "amountBet": 135,
+        "result": 15, 
+        "time": "5:14"
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 135,
+        "result": -135, 
+        "time": "5:31"
+      },
+      {
+        "spin": 10,
+        "number": "26",
+        "amountBet": 135,
+        "result": -135, 
+        "time": "6:04"
+      },
+      {
+        "spin": 11,
+        "number": "16",
+        "amountBet": 135,
+        "result": 15, 
+        "time": "6:50"
+      },
+      {
+        "spin": 12,
+        "number": "6",
+        "amountBet": 135,
+        "result": 15, 
+        "time": "7:10"
+      },
+      {
+        "spin": 13,
+        "number": "35",
+        "amountBet": 135,
+        "result": 45, 
+        "time": "7:27"
+      },
+      {
+        "spin": 14,
+        "number": "29",
+        "amountBet": 135,
+        "result": -135, 
+        "time": "7:55"
+      },
+      {
+        "spin": 15,
+        "number": "0",
+        "amountBet": 135,
+        "result": -135, 
+        "time": "8:39"
+      }
+    ]
+  },
+  {
     "name": "Heavy Handed Dozens 👋👋",
     "airDate": "2023-10-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=Zc9aqKZwoSg",
