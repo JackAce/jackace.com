@@ -1,5 +1,117 @@
 [
   {
+    "name": "Secret Fast Food Menu",
+    "airDate": "2023-10-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=IjkSpjGZm70",
+    "reviewUrl": "2023-10-18-Secret-Fast-Food-Menu",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-18-21":1,"x2-17-20":1,"x2-16-19":1,"x2-27-30":1,"x2-26-29":1,"x2-28-31":1,"x2-9-12":1,"x2-8-11":1,"x2-10-13":1}},
+      {"wheelType":1,"wagers":{"x1-9":1,"x1-12":1,"x1-8":1,"x1-11":1,"x1-10":1,"x1-13":1,"x1-18":1,"x1-21":1,"x1-17":1,"x1-20":1,"x1-16":1,"x1-19":1,"x1-27":1,"x1-30":1,"x1-26":1,"x1-29":1,"x1-28":1,"x1-31":1}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 200,
+    "bets": [
+      9,
+      18
+    ],
+    "rating": "c", 
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "0",
+        "amountBet": 9,
+        "result": -9,
+        "time": "0:54"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 9,
+        "result": -9, 
+        "time": "2:06"
+      },
+      {
+        "spin": 3,
+        "number": "24",
+        "amountBet": 9,
+        "result": -9, 
+        "time": "2:48"
+      },
+      {
+        "spin": 4,
+        "number": "32",
+        "amountBet": 9,
+        "result": -9, 
+        "time": "3:38"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 9,
+        "result": 9, 
+        "time": "4:09"
+      },
+      {
+        "spin": 6,
+        "number": "34",
+        "amountBet": 9,
+        "result": -9, 
+        "time": "4:54",
+        "notes": "Alex was supposed to bet $18 here, not $9."
+      },
+      {
+        "spin": 7,
+        "number": "16",
+        "amountBet": 9,
+        "result": 9, 
+        "time": "5:26"
+      },
+      {
+        "spin": 8,
+        "number": "18",
+        "amountBet": 18,
+        "result": 18, 
+        "time": "6:05",
+        "notes": "Video said -18, but Alex won +18"
+      },
+      {
+        "spin": 9,
+        "number": "21",
+        "amountBet": 9,
+        "result": 9, 
+        "time": "6:58"
+      },
+      {
+        "spin": 10,
+        "number": "29",
+        "amountBet": 18,
+        "result":  18, 
+        "time": "7:35"
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 9,
+        "result": -9, 
+        "time": "8:22"
+      },
+      {
+        "spin": 12,
+        "number": "5",
+        "amountBet": 9,
+        "result": -9, 
+        "time": "9:27"
+      }
+    ]
+  },
+  {
     "name": "House Money 💵",
     "airDate": "2023-10-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=eNrVIykAMdQ",
