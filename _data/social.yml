@@ -19,6 +19,9 @@
 - title: Discord
   url: https://discord.gg/R6nTPzcpma
   icon: fab fa-discord
+- title: Mastodon
+  url: https://hachyderm.io/@JackAce
+  icon: fab fa-mastodon
 - title: Amazon Store
   url: https://www.amazon.com/shop/jackace
   icon: fab fa-amazon
