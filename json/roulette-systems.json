@@ -268,28 +268,28 @@
         "time": "10:18"
       },
       {
-        "spin": 11,
+        "spin": 19,
         "number": "32",
         "amountBet": 150,
         "result": 0,
         "time": "10:44"
       },
       {
-        "spin": 12,
+        "spin": 20,
         "number": "34",
         "amountBet": 150,
         "result": 0,
         "time": "11:27"
       },
       {
-        "spin": 13,
+        "spin": 21,
         "number": "28",
         "amountBet": 150,
         "result": 0,
         "time": "11:47"
       },
       {
-        "spin": 14,
+        "spin": 22,
         "number": "21",
         "amountBet": 150,
         "result": 150,
@@ -297,7 +297,7 @@
         "notes": "Video said push, but this was a $150 win."
       },
       {
-        "spin": 15,
+        "spin": 23,
         "number": "00",
         "amountBet": 150,
         "result": -150,
@@ -3905,6 +3905,7 @@
     "airDate": "2023-09-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=V_z-4r5WlnE",
     "reviewUrl": "2023-09-29-Fibonacci-Ride-or-Die",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=cuXKsyyaAjI",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
       "00-rba-1-800x768.png",
