@@ -1,5 +1,804 @@
 [
   {
+    "name": "Columns and Dozens Slow Grind",
+    "airDate": "2023-11-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0GKOM_LsbUU",
+    "reviewUrl": "2023-11-12-Columns-and-Dozens-Slow-Grind",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":5,"x12-doz3":5}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":75,"x12-doz3":75}},
+      {"wheelType":1,"wagers":{"x12-doz2":250,"x12-doz3":250}}
+      
+    ],
+    "systemType": "",
+    "buyIn": 1500,
+    "bets": [
+      10,
+      40,
+      150,
+      500
+    ],
+    "rating": "f",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "friendCount": 2,
+    "notes": "",
+    "spins": [
+      {
+        "friend": 1,
+        "spin": 1,
+        "number": "33",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:41",
+        "notes": "Blank spin"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "30",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:54",
+        "notes": "Blank spin"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "6",
+        "amountBet": 10,
+        "result": -10,
+        "time": "1:19"
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "0",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:44"
+      },
+      {
+        "friend": 1,
+        "spin": 5,
+        "number": "4",
+        "amountBet": 150,
+        "result": -150,
+        "time": "2:07"
+      },
+      {
+        "friend": 1,
+        "spin": 6,
+        "number": "2",
+        "amountBet": 500,
+        "result": -500,
+        "time": "2:25",
+        "notes": "Video said -250, but Alex lost -500."
+      },
+      {
+        "friend": 2,
+        "spin": 7,
+        "number": "19",
+        "amountBet": 10,
+        "result": 10,
+        "time": "3:20",
+        "notes": "Video said -10, but Alex won +10."
+      },
+      {
+        "friend": 2,
+        "spin": 8,
+        "number": "2",
+        "amountBet": 0,
+        "result": 0,
+        "time": "3:52",
+        "notes": "Blank spin, but not sure why..."
+      },
+      {
+        "friend": 2,
+        "spin": 9,
+        "number": "2",
+        "amountBet": 10,
+        "result": 10,
+        "time": "4:28"
+      },
+      {
+        "friend": 2,
+        "spin": 10,
+        "number": "27",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:55"
+      },
+      {
+        "friend": 2,
+        "spin": 11,
+        "number": "6",
+        "amountBet": 40,
+        "result": 20,
+        "time": "5:47",
+        "notes": "Video said +15, but I think Alex won $20"
+      },
+      {
+        "friend": 2,
+        "spin": 12,
+        "number": "5",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:26"
+      },
+      {
+        "friend": 2,
+        "spin": 13,
+        "number": "21",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:31"
+      },
+      {
+        "friend": 2,
+        "spin": 14,
+        "number": "16",
+        "amountBet": 40,
+        "result": -40,
+        "time": "8:04"
+      },
+      {
+        "friend": 2,
+        "spin": 15,
+        "number": "11",
+        "amountBet": 150,
+        "result": 75,
+        "time": "8:26"
+      },
+      {
+        "friend": 2,
+        "spin": 16,
+        "number": "7",
+        "amountBet": 10,
+        "result": 5,
+        "time": "8:54"
+      },
+      {
+        "friend": 2,
+        "spin": 17,
+        "number": "1",
+        "amountBet": 10,
+        "result": 5,
+        "time": "9:16"
+      },
+      {
+        "friend": 2,
+        "spin": 18,
+        "number": "14",
+        "amountBet": 10,
+        "result": 5,
+        "time": "9:49"
+      },
+      {
+        "friend": 2,
+        "spin": 19,
+        "number": "17",
+        "amountBet": 10,
+        "result": 5,
+        "time": "10:38"
+      },
+      {
+        "friend": 2,
+        "spin": 20,
+        "number": "14",
+        "amountBet": 10,
+        "result": 5,
+        "time": "11:04"
+      }
+    ]
+  },
+  {
+    "name": "Purgatory",
+    "airDate": "2023-11-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ITxO7ewvyZ4",
+    "reviewUrl": "2023-11-10-Pergatory",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-high":10}},
+      {"wheelType":1,"wagers":{"x18-high":30}},
+      {"wheelType":1,"wagers":{"x18-high":70}},
+      {"wheelType":1,"wagers":{"x18-high":150}},
+      {"wheelType":1,"wagers":{"x18-high":310}}
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 800,
+    "bets": [
+      10,
+      30,
+      70,
+      150,
+      310
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "There are some pretty big discrepancies in the payouts, and there were some missed spins.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "0",
+        "amountBet": 10,
+        "result": -10,
+        "time": "1:03"
+      },
+      {
+        "spin": 2,
+        "number": "35",
+        "amountBet": 30,
+        "result": 30,
+        "time": "1:33",
+        "notes": "The video displayed +25, but the win was +30."
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 10,
+        "result": -10,
+        "time": "2:08"
+      },
+      {
+        "spin": 4,
+        "number": "13",
+        "amountBet": 30,
+        "result": 30,
+        "time": "2:37",
+        "notes": "The video displayed +25, but the win was +30."
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:23",
+        "notes": "The video displayed +25, but Alex lost $10."
+      },
+      {
+        "spin": 6,
+        "number": "8",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:50",
+        "notes": "The video displayed -25, but the loss was -30."
+      },
+      {
+        "spin": 7,
+        "number": "21",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:39",
+        "notes": "There was a missed bet before this one where Alex probably won $70."
+      },
+      {
+        "spin": 8,
+        "number": "20",
+        "amountBet": 30,
+        "result": 30,
+        "time": "5:00"
+      },
+      {
+        "spin": 9,
+        "number": "16",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:26"
+      },
+      {
+        "spin": 10,
+        "number": "2",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:20",
+        "notes": "There was a missed spin before this where Alex won $30"
+      },
+      {
+        "spin": 11,
+        "number": "18",
+        "amountBet": 30,
+        "result": -30,
+        "time": "7:08"
+      },
+      {
+        "spin": 12,
+        "number": "31",
+        "amountBet": 70,
+        "result": 70,
+        "time": "7:30"
+      },
+      {
+        "spin": 13,
+        "number": "22",
+        "amountBet": 10,
+        "result": 10,
+        "time": "7:58"
+      },
+      {
+        "spin": 14,
+        "number": "34",
+        "amountBet": 10,
+        "result": 10,
+        "time": "8:14"
+      },
+      {
+        "spin": 15,
+        "number": "28",
+        "amountBet": 10,
+        "result": 10,
+        "time": "9:25"
+      },
+      {
+        "spin": 16,
+        "number": "6",
+        "amountBet": 10,
+        "result": -10,
+        "time": "10:01",
+        "notes": "Video displayed 7 as the number, but it was 6."
+      },
+      {
+        "spin": 17,
+        "number": "19",
+        "amountBet": 30,
+        "result": 30,
+        "time": "10:29"
+      },
+      {
+        "spin": 18,
+        "number": "3",
+        "amountBet": 10,
+        "result": -10,
+        "time": "10:57"
+      },
+      {
+        "spin": 19,
+        "number": "32",
+        "amountBet": 30,
+        "result": -30,
+        "time": "11:18"
+      },
+      {
+        "spin": 20,
+        "number": "0",
+        "amountBet": 70,
+        "result": -70,
+        "time": "11:40"
+      },
+      {
+        "spin": 21,
+        "number": "33",
+        "amountBet": 150,
+        "result": 150,
+        "time": "12:05",
+        "notes": "Win was $150, not $125 as displayed."
+      }
+    ]
+  },
+  {
+    "name": "Fibonacci Lover 💗💗💗",
+    "airDate": "2023-11-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sElQcxVNsWs",
+    "reviewUrl": "2023-11-09-Fibonacci-Lover",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-4-6":50,"x3-7-9":50,"x3-10-12":50,"x3-25-27":50,"x3-28-30":50,"x3-31-33":50,"x12-doz2":200,"x2-5-6":10,"x2-8-9":10,"x2-11-12":10,"x2-26-27":10,"x2-29-30":10,"x2-32-33":10}}
+    ],
+    "systemType": "Multi-Leg",
+    "buyIn": 2000,
+    "bets": [
+      50
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "a.k.a. Fibonacci Gang Bang",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "16",
+        "amountBet": 50,
+        "result": 0,
+        "time": "1:31"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 50,
+        "result": -10,
+        "time": "2:20"
+      },
+      {
+        "spin": 3,
+        "number": "17",
+        "amountBet": 60,
+        "result": 40,
+        "time": "3:07",
+        "notes": "I think Alex won $40 here, not $50 as shown on the video."
+      },
+      {
+        "spin": 4,
+        "number": "35",
+        "amountBet": 60,
+        "result": 10,
+        "time": "4:04"
+      },
+      {
+        "spin": 5,
+        "number": "00",
+        "amountBet": 70,
+        "result": -70,
+        "time": "4:35"
+      },
+      {
+        "spin": 6,
+        "number": "26",
+        "amountBet": 100,
+        "result": 80,
+        "time": "5:07",
+        "notes": "I think Alex won $80 here, not $70 as shown in the video."
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 70,
+        "result": 40,
+        "time": "5:39"
+      },
+      {
+        "spin": 8,
+        "number": "17",
+        "amountBet": 50,
+        "result": 30,
+        "time": "6:13"
+      },
+      {
+        "spin": 9,
+        "number": "36",
+        "amountBet": 60,
+        "result": 0,
+        "time": "7:37"
+      },
+      {
+        "spin": 10,
+        "number": "3",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:45"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 80,
+        "result": 60,
+        "time": "9:39"
+      },
+      {
+        "spin": 12,
+        "number": "5",
+        "amountBet": 30,
+        "result": -30,
+        "time": "10:05"
+      },
+      {
+        "spin": 13,
+        "number": "19",
+        "amountBet": 50,
+        "result": 100,
+        "time": "10:28"
+      }
+    ]
+  },
+  {
+    "name": "Champion of Profit 🏆",
+    "airDate": "2023-11-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=tskxSHNkzUw",
+    "reviewUrl": "2023-11-08-Champion-of-Profit",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-4-6":50,"x3-7-9":50,"x3-10-12":50,"x3-25-27":50,"x3-28-30":50,"x3-31-33":50,"x12-doz2":200,"x2-5-6":10,"x2-8-9":10,"x2-11-12":10,"x2-26-27":10,"x2-29-30":10,"x2-32-33":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 2800,
+    "bets": [
+      560
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "Alex was down $860, but I have him being down $800.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "17",
+        "amountBet": 560,
+        "result": 40,
+        "time": "1:07"
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 560,
+        "result": 40,
+        "time": "1:37"
+      },
+      {
+        "spin": 3,
+        "number": "9",
+        "amountBet": 560,
+        "result": 220,
+        "time": "2:24"
+      },
+      {
+        "spin": 4,
+        "number": "2",
+        "amountBet": 560,
+        "result": -560,
+        "time": "3:17"
+      },
+      {
+        "spin": 5,
+        "number": "31",
+        "amountBet": 560,
+        "result": 40,
+        "time": "3:49"
+      },
+      {
+        "spin": 6,
+        "number": "34",
+        "amountBet": 560,
+        "result": -560,
+        "time": "4:19"
+      },
+      {
+        "spin": 7,
+        "number": "31",
+        "amountBet": 560,
+        "result": 40,
+        "time": "4:48"
+      },
+      {
+        "spin": 8,
+        "number": "17",
+        "amountBet": 560,
+        "result": 40,
+        "time": "5:15"
+      },
+      {
+        "spin": 9,
+        "number": "31",
+        "amountBet": 560,
+        "result": 40,
+        "time": "5:39"
+      },
+      {
+        "spin": 10,
+        "number": "7",
+        "amountBet": 560,
+        "result": 40,
+        "time": "6:06"
+      },
+      {
+        "spin": 11,
+        "number": "7",
+        "amountBet": 560,
+        "result": 40,
+        "time": "6:38"
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 560,
+        "result": 40,
+        "time": "7:09"
+      },
+      {
+        "spin": 13,
+        "number": "12",
+        "amountBet": 560,
+        "result": 220,
+        "time": "7:42"
+      },
+      {
+        "spin": 14,
+        "number": "17",
+        "amountBet": 560,
+        "result": 40,
+        "time": "8:11"
+      },
+      {
+        "spin": 15,
+        "number": "21",
+        "amountBet": 560,
+        "result": 40,
+        "time": "8:36"
+      },
+      {
+        "spin": 16,
+        "number": "35",
+        "amountBet": 560,
+        "result": -560,
+        "time": "9:00"
+      }
+    ]
+  },
+  {
+    "name": "What are you Doing, Step System?",
+    "airDate": "2023-11-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=FJH_O0wgZHU",
+    "reviewUrl": "2023-11-06-What-are-you-Doing-Step-System",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png",
+      "00-rba-7-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-16-21":25}},
+      {"wheelType":1,"wagers":{"x6-16-21":25,"x6-22-27":25}},
+      {"wheelType":1,"wagers":{"x6-16-21":25,"x6-22-27":25,"x6-28-33":25}},
+      {"wheelType":1,"wagers":{"x6-16-21":25,"x6-22-27":25,"x6-28-33":25,"x6-10-15":25}},
+      {"wheelType":1,"wagers":{"x6-16-21":25,"x6-22-27":25,"x6-28-33":25,"x6-10-15":25,"x6-4-9":25}},
+      {"wheelType":1,"wagers":{"x6-16-21":50,"x6-22-27":50,"x6-28-33":50,"x6-10-15":50,"x6-4-9":50}},
+      {"wheelType":1,"wagers":{"x6-16-21":100,"x6-22-27":100,"x6-28-33":100,"x6-10-15":100,"x6-4-9":100}},
+      {"wheelType":1,"wagers":{"x6-16-21":150,"x6-22-27":150,"x6-28-33":150,"x6-10-15":150,"x6-4-9":150}}
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 1000,
+    "bets": [
+      25,
+      50,
+      75,
+      100,
+      125,
+      250,
+      500,
+      750
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Alex was up $125, but I think he should have been up $100.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "13",
+        "amountBet": 25,
+        "result": -25,
+        "time": "0:51"
+      },
+      {
+        "spin": 2,
+        "number": "0",
+        "amountBet": 50,
+        "result": -50,
+        "time": "1:06"
+      },
+      {
+        "spin": 3 ,
+        "number": "8",
+        "amountBet": 75,
+        "result": -75,
+        "time": "1:38"
+      },
+      {
+        "spin": 4,
+        "number": "8",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:16"
+      },
+      {
+        "spin": 5,
+        "number": "5",
+        "amountBet": 125,
+        "result": 25,
+        "time": "2:38"
+      },
+      {
+        "spin": 6,
+        "number": "10",
+        "amountBet": 250,
+        "result": 50,
+        "time": "3:07"
+      },
+      {
+        "spin": 7,
+        "number": "31",
+        "amountBet": 500,
+        "result": 100,
+        "time": "3:27"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 750,
+        "result": 150,
+        "time": "4:05",
+        "notes": "The video said Alex won $200, but I think he only won $150 here. He might have won $175, though."
+      },
+      {
+        "spin": 9,
+        "number": "25",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:18"
+      },
+      {
+        "spin": 10,
+        "number": "11",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:38"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 75,
+        "result": 75,
+        "time": "5:10"
+      },
+      {
+        "spin": 12,
+        "number": "27",
+        "amountBet": 100,
+        "result": 50,
+        "time": "5:59",
+        "notes": "Not sure why Alex increased his bet here."
+      },
+      {
+        "spin": 13,
+        "number": "15",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:40"
+      },
+      {
+        "spin": 14,
+        "number": "4",
+        "amountBet": 50,
+        "result": -50,
+        "time": "7:01"
+      },
+      {
+        "spin": 15,
+        "number": "26",
+        "amountBet": 75,
+        "result": 75,
+        "time": "7:45"
+      },
+      {
+        "spin": 16,
+        "number": "32",
+        "amountBet": 25,
+        "result": -25,
+        "time": "7:59"
+      }
+    ]
+  },
+  {
     "name": "Fast Lane 🛣️",
     "airDate": "2023-11-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=OiEhgQHRM2M",
