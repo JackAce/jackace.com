@@ -1,8 +1,317 @@
 [
   {
-    "name": "Streetball ATM",
+    "name": "The One ♳",
+    "airDate": "2023-11-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=SRDgh1QSKp8",
+    "reviewUrl": "2023-11-21-The-One",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-7-12":25,"x6-13-18":25,"x6-19-24":25,"x6-25-30":25,"x6-31-36":25}},
+      {"wheelType":1,"wagers":{"x6-7-12":50,"x6-13-18":50,"x6-19-24":50,"x6-25-30":50,"x6-31-36":50}},
+      {"wheelType":1,"wagers":{"x6-7-12":100,"x6-13-18":100,"x6-19-24":100,"x6-25-30":100,"x6-31-36":100}},
+      {"wheelType":1,"wagers":{"x6-7-12":200,"x6-13-18":200,"x6-19-24":200,"x6-25-30":200,"x6-31-36":200}}
+    ],
+    "systemType": "Martingale",
+    "buyIn": 875,
+    "bets": [
+      125,
+      250,
+      500,
+      1000
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "4",
+        "amountBet": 125,
+        "result": -125,
+        "time": "2:24"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 250,
+        "result": 50,
+        "time": "3:06"
+      },
+      {
+        "spin": 3,
+        "number": "18",
+        "amountBet": 250,
+        "result": -250,
+        "time": "3:42"
+      },
+      {
+        "spin": 4,
+        "number": "36",
+        "amountBet": 500,
+        "result": 100,
+        "time": "4:19"
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 500,
+        "result": 100,
+        "time": "4:42"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 500,
+        "result": -500,
+        "time": "5:02"
+      },
+      {
+        "spin": 7,
+        "number": "24",
+        "amountBet": 1000,
+        "result": 200,
+        "time": "5:47"
+      },
+      {
+        "spin": 8,
+        "number": "18",
+        "amountBet": 1000,
+        "result": 200,
+        "time": "6:14"
+      },
+      {
+        "spin": 9,
+        "number": "7",
+        "amountBet": 1000,
+        "result": 200,
+        "time": "6:23"
+      },
+      {
+        "spin": 10,
+        "number": "31",
+        "amountBet": 125,
+        "result": 25,
+        "time": "6:56"
+      },
+      {
+        "spin": 11,
+        "number": "7",
+        "amountBet": 125,
+        "result": 25,
+        "time": "7:10"
+      },
+      {
+        "spin": 12,
+        "number": "10",
+        "amountBet": 125,
+        "result": 25,
+        "time": "7:30"
+      },
+      {
+        "spin": 13,
+        "number": "15",
+        "amountBet": 125,
+        "result": 25,
+        "time": "7:54"
+      },
+      {
+        "spin": 14,
+        "number": "3",
+        "amountBet": 125,
+        "result": 25,
+        "time": "8:24"
+      },
+      {
+        "spin": 15,
+        "number": "9",
+        "amountBet": 125,
+        "result": 25,
+        "time": "8:48"
+      },
+      {
+        "spin": 16,
+        "number": "26",
+        "amountBet": 125,
+        "result": 25,
+        "time": "9:23"
+      },
+      {
+        "spin": 17,
+        "number": "33",
+        "amountBet": 125,
+        "result": 25,
+        "time": "9:44"
+      },
+      {
+        "spin": 18,
+        "number": "2",
+        "amountBet": 125,
+        "result": 25,
+        "time": "10:08"
+      },
+      {
+        "spin": 19,
+        "number": "13",
+        "amountBet": 125,
+        "result": 25,
+        "time": "10:42"
+      }
+    ]
+  },
+  {
+    "name": "Gambler's P 🍆",
+    "airDate": "2023-11-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=tGHlmZaMLLQ",
+    "reviewUrl": "2023-11-20-Gamblers-P",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":30,"x12-doz3":30,"x3-13-15":5,"x3-16-18":5,"x2-13-16":5,"x4-13-17":5,"x2-14-17":5,"x4-14-18":5}},
+      {"wheelType":1,"wagers":{"x12-doz1":45,"x12-doz3":45,"x3-13-15":10,"x3-16-18":10,"x2-13-16":5,"x4-13-17":5,"x2-14-17":5,"x4-14-18":5,"x2-15-18":5}}
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 500,
+    "bets": [
+      90,
+      135
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "27",
+        "amountBet": 90,
+        "result": 0,
+        "time": "1:41"
+      },
+      {
+        "spin": 2,
+        "number": "9",
+        "amountBet": 90,
+        "result": 0,
+        "time": "1:55"
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 90,
+        "result": 0,
+        "time": "2:31"
+      },
+      {
+        "spin": 4,
+        "number": "33",
+        "amountBet": 90,
+        "result": 0,
+        "time": "3:09"
+      },
+      {
+        "spin": 5,
+        "number": "16",
+        "amountBet": 90,
+        "result": 105,
+        "time": "3:43"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 90,
+        "result": 0,
+        "time": "4:24"
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 90,
+        "result": 0,
+        "time": "4:42"
+      },
+      {
+        "spin": 8,
+        "number": "10",
+        "amountBet": 90,
+        "result": 0,
+        "time": "5:06"
+      },
+      {
+        "spin": 9,
+        "number": "30",
+        "amountBet": 90,
+        "result": 0,
+        "time": "5:36"
+      },
+      {
+        "spin": 10,
+        "number": "5",
+        "amountBet": 90,
+        "result": 0,
+        "time": "5:58"
+      },
+      {
+        "spin": 11,
+        "number": "29",
+        "amountBet": 90,
+        "result": 0,
+        "time": "6:23"
+      },
+      {
+        "spin": 12,
+        "number": "14",
+        "amountBet": 90,
+        "result": -90,
+        "time": "6:36"
+      },
+      {
+        "spin": 13,
+        "number": "3",
+        "amountBet": 135,
+        "result": 0,
+        "time": "7:08"
+      },
+      {
+        "spin": 14,
+        "number": "36",
+        "amountBet": 135,
+        "result": 0,
+        "time": "7:28"
+      },
+      {
+        "spin": 15,
+        "number": "21",
+        "amountBet": 135,
+        "result": 120,
+        "time": "7:39"
+      },
+      {
+        "spin": 16,
+        "number": "15",
+        "amountBet": 90,
+        "result": -90,
+        "time": "8:35"
+      },
+      {
+        "spin": 17,
+        "number": "2",
+        "amountBet": 90,
+        "result": 0,
+        "time": "9:12"
+      }
+    ]
+  },
+  {
+    "name": "Streetball ATM 🏧",
     "airDate": "2023-11-19",
-    "youtubeUrl": "https://www.youtube.com/watch?v=GNALi8o2rdo",
+    "youtubeUrl": "https://www.youtube.com/watch?v=T0FlaX3nPFg",
     "reviewUrl": "2023-11-19-Streetball-ATM",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
@@ -15,10 +324,10 @@
     "bets": [
       175
     ],
-    "rating": "",
+    "rating": "b",
     "jackaceRating": "f",
     "isJackAceReview": false,
-    "notes": "",
+    "notes": "Alex was up $795 at the end, but he should have been up $800",
     "spins": [
       {
         "spin": 1,
@@ -89,200 +398,11 @@
         "amountBet": 175,
         "result": 365,
         "time": "10:06"
-      },
-      {
-        "spin": 11,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
-      },
-      {
-        "spin": 99,
-        "number": "00",
-        "amountBet": 175,
-        "result": -1,
-        "time": ""
       }
     ]
   },
   {
-    "name": "Grandma Fibonacci Pie",
+    "name": "Grandma Fibonacci Pie 👵🥧",
     "airDate": "2023-11-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=GNALi8o2rdo",
     "reviewUrl": "2023-11-17-Grandma-Fibonacci-Pie",
@@ -396,7 +516,7 @@
     ]
   },
   {
-    "name": "Martingale Fibonacci Lover",
+    "name": "Martingale Fibonacci Lover 💗",
     "airDate": "2023-11-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=C15Fqj_KM0",
     "reviewUrl": "2023-11-16-Martingale-Fibonacci-Lover",
@@ -553,7 +673,7 @@
     ]
   },
   {
-    "name": "DTF Favorite Threesome",
+    "name": "DTF Favorite Threesome 👨‍🦰👩👩🏿",
     "airDate": "2023-11-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=5gftasFWtOE",
     "reviewUrl": "2023-11-15-DTF-Favorite-Threesome",
