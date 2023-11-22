@@ -1,5 +1,107 @@
 [
   {
+    "name": "Grandma Fibonacci Pie",
+    "airDate": "2023-11-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=GNALi8o2rdo",
+    "reviewUrl": "2023-11-17-Grandma-Fibonacci-Pie",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-2":1,"x1-6":1,"x1-8":1,"x1-4":1,"x1-14":1,"x1-18":1,"x1-21":1,"x1-23":1,"x1-19":1,"x1-16":1,"x1-33":1,"x1-35":1,"x1-31":1}}
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 500,
+    "bets": [
+      13,
+      26,
+      39,
+      65,
+      104,
+      169,
+      273
+    ],
+    "rating": "",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "35",
+        "amountBet": 13,
+        "result": 23,
+        "time": "1:16"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 13,
+        "result": -13,
+        "time": "2:01"
+      },
+      {
+        "spin": 3,
+        "number": "32",
+        "amountBet": 13,
+        "result": -13,
+        "time": "2:57"
+      },
+      {
+        "spin": 4,
+        "number": "11",
+        "amountBet": 26,
+        "result": -26,
+        "time": "3:44",
+        "notes": "Video said -13, but it was -26."
+      },
+      {
+        "spin": 5,
+        "number": "1",
+        "amountBet": 39,
+        "result": -39,
+        "time": "4:30"
+      },
+      {
+        "spin": 6,
+        "number": "11",
+        "amountBet": 65,
+        "result": -65,
+        "time": "5:08"
+      },
+      {
+        "spin": 7,
+        "number": "24",
+        "amountBet": 104,
+        "result": -104,
+        "time": "6:33"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 169,
+        "result": -169,
+        "time": "7:48",
+        "notes": "Video said -139, but it was -169"
+      },
+      {
+        "spin": 9,
+        "number": "23",
+        "amountBet": 273,
+        "result": 483,
+        "time": "9:10"
+      },
+      {
+        "spin": 10,
+        "number": "21",
+        "amountBet": 13,
+        "result": 23,
+        "time": "10:04",
+        "notes": "Video staid +22, but it was +23"
+      }
+    ]
+  },
+  {
     "name": "Martingale Fibonacci Lover",
     "airDate": "2023-11-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=C15Fqj_KM0",
