@@ -217,14 +217,15 @@
         "amountBet": 120,
         "result": -30,
         "time": "8:31",
-        "notes": "Video said 24 and +30, but the number was 21 and Alex lost 30. Dennis inaccurately pays Alex 30."
+        "notes": "Video said 24 and +30, but the number was 21 and Alex lost 30. Dennis inaccurately pays Alex 30. ALSO, Alex has an extra $5 on the 10-16 Double Street here. The bet is only supposed to be $5, but there's $10 there."
       },
       {
         "spin": 10,
         "number": "15",
-        "amountBet": 120,
-        "result": 180,
-        "time": "9:23"
+        "amountBet": 125,
+        "result": 205,
+        "time": "9:23",
+        "notes": "Alex got paid an extra $25 because he had an extra $5 on the 10-16 Double Street that got paid."
       },
       {
         "spin": 11,
@@ -243,9 +244,10 @@
       {
         "spin": 13,
         "number": "26",
-        "amountBet": 120,
-        "result": -120,
-        "time": "12:52"
+        "amountBet": 125,
+        "result": -125,
+        "time": "12:52",
+        "notes": "Dennis finally sweeps the extra $5 that was on the 10-16 double street."
       }
     ]
   },
