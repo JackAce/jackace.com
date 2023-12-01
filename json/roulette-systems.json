@@ -1,5 +1,863 @@
 [
   {
+    "name": "Split on the Corners",
+    "airDate": "2023-11-30",
+    "youtubeUrl": "https://www.youtube.com/watch?v=cDb_WtBTX_g",
+    "reviewUrl": "2023-11-30-Split-on-the-Corners",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-2-6":25,"x4-8-12":25,"x4-14-18":25,"x4-20-24":25,"x4-26-30":25,"x2-32-33":10,"x2-35-36":10,"x2-1-4":10,"x2-10-13":10,"x2-31-34":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 525,
+    "bets": [
+      175
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "15",
+        "amountBet": 175,
+        "result": 50,
+        "time": "2:32"
+      },
+      {
+        "spin": 2,
+        "number": "34",
+        "amountBet": 175,
+        "result": 5,
+        "time": "3:24"
+      },
+      {
+        "spin": 3,
+        "number": "24",
+        "amountBet": 175,
+        "result": 50,
+        "time": "4:17"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 175,
+        "result": 5,
+        "time": "4:55"
+      },
+      {
+        "spin": 5,
+        "number": "5",
+        "amountBet": 175,
+        "result": 50,
+        "time": "5:25"
+      },
+      {
+        "spin": 6,
+        "number": "5",
+        "amountBet": 175,
+        "result": 50,
+        "time": "5:54"
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 175,
+        "result": 50,
+        "time": "6:27"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 175,
+        "result": 50,
+        "time": "6:56"
+      },
+      {
+        "spin": 9,
+        "number": "26",
+        "amountBet": 175,
+        "result": 50,
+        "time": "7:14"
+      },
+      {
+        "spin": 10,
+        "number": "19",
+        "amountBet": 175,
+        "result": -175,
+        "time": "7:40"
+      },
+      {
+        "spin": 11,
+        "number": "4",
+        "amountBet": 175,
+        "result": 5,
+        "time": "8:10"
+      },
+      {
+        "spin": 12,
+        "number": "4",
+        "amountBet": 175,
+        "result": 5,
+        "time": "8:48"
+      },
+      {
+        "spin": 13,
+        "number": "1",
+        "amountBet": 175,
+        "result": 5,
+        "time": "9:11"
+      },
+      {
+        "spin": 14,
+        "number": "5",
+        "amountBet": 175,
+        "result": 50,
+        "time": "9:45"
+      },
+      {
+        "spin": 15,
+        "number": "10",
+        "amountBet": 175,
+        "result": 5,
+        "time": "10:30"
+      },
+      {
+        "spin": 16,
+        "number": "33",
+        "amountBet": 175,
+        "result": 5,
+        "time": "11:16"
+      }
+    ]
+  },
+  {
+    "name": "Tajine",
+    "airDate": "2023-11-29",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ck7p5N6nbZk",
+    "reviewUrl": "2023-11-29-Tajine",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":30,"x12-doz2":30,"x1-0":5,"x3-1-3":10,"x3-22-24":10,"x3-7-9":5,"x6-10-15":5,"x3-16-18":5,"x1-12":5,"x1-15":5,"x2-8-11":5,"x2-14-17":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1200,
+    "bets": [
+      120
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "16",
+        "amountBet": 120,
+        "result": 30,
+        "time": "1:55"
+      },
+      {
+        "spin": 2,
+        "number": "28",
+        "amountBet": 120,
+        "result": -120,
+        "time": "2:47"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 120,
+        "result": -120,
+        "time": "3:42"
+      },
+      {
+        "spin": 4,
+        "number": "22",
+        "amountBet": 120,
+        "result": 30,
+        "time": "4:24"
+      },
+      {
+        "spin": 5,
+        "number": "19",
+        "amountBet": 120,
+        "result": 30,
+        "time": "5:03"
+      },
+      {
+        "spin": 6,
+        "number": "27",
+        "amountBet": 120,
+        "result": -120,
+        "time": "5:43"
+      },
+      {
+        "spin": 7,
+        "number": "34",
+        "amountBet": 120,
+        "result": -120,
+        "time": "6:30"
+      },
+      {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 120,
+        "result": 60,
+        "time": "7:07"
+      },
+      {
+        "spin": 9,
+        "number": "21",
+        "amountBet": 120,
+        "result": -30,
+        "time": "8:31",
+        "notes": "Video said 24 and +30, but the number was 21 and Alex lost 30. Dennis inaccurately pays Alex 30."
+      },
+      {
+        "spin": 10,
+        "number": "15",
+        "amountBet": 120,
+        "result": 180,
+        "time": "9:23"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 120,
+        "result": 30,
+        "time": "10:53"
+      },
+      {
+        "spin": 12,
+        "number": "33",
+        "amountBet": 120,
+        "result": -120,
+        "time": "11:47"
+      },
+      {
+        "spin": 13,
+        "number": "26",
+        "amountBet": 120,
+        "result": -120,
+        "time": "12:52"
+      }
+    ]
+  },
+  {
+    "name": "HLT",
+    "airDate": "2023-11-27",
+    "youtubeUrl": "https://www.youtube.com/watch?v=62Xj7njqYaE",
+    "reviewUrl": "2023-11-27-HLT",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-high":100}},
+      {"wheelType":1,"wagers":{"x12-doz2":100,"x12-doz3":100}},
+      {"wheelType":1,"wagers":{"x12-doz2":150,"x12-doz3":150}},
+      {"wheelType":1,"wagers":{"x12-doz2":150,"x12-doz3":150,"x4-1-5":50,"x4-8-12":50}},
+      {"wheelType":1,"wagers":{"x1-17":25,"x2-14-17":25,"x2-17-18":25,"x2-17-20":25,"x2-16-17":25,"x12-doz2":75}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 3100,
+    "bets": [
+      100,
+      200,
+      300,
+      400,
+      200
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "You can bet any even money bet, any non-overlapping dozens, step 4 is Romanovsky, step 5 is Last Tango in Vegas",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "4",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:03"
+      },
+      {
+        "spin": 2,
+        "number": "11",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:26"
+      },
+      {
+        "spin": 3,
+        "number": "14",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:50"
+      },
+      {
+        "spin": 4,
+        "number": "20",
+        "amountBet": 100,
+        "result": 100,
+        "time": "3:18"
+      },
+      {
+        "spin": 5,
+        "number": "00",
+        "amountBet": 200,
+        "result": -200,
+        "time": "3:49"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 100,
+        "result": -100,
+        "time": "4:10",
+        "notes": "Alex bet black"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 100,
+        "result": -100,
+        "time": "4:37"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 100,
+        "result": -100,
+        "time": "4:58"
+      },
+      {
+        "spin": 9,
+        "number": "23",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:23"
+      },
+      {
+        "spin": 10,
+        "number": "7",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:47"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 100,
+        "result": 100,
+        "time": "6:37"
+      },
+      {
+        "spin": 12,
+        "number": "26",
+        "amountBet": 200,
+        "result": 100,
+        "time": "7:05"
+      },
+      {
+        "spin": 13,
+        "number": "14",
+        "amountBet": 300,
+        "result": 150,
+        "time": "7:34"
+      },
+      {
+        "spin": 14,
+        "number": "36",
+        "amountBet": 400,
+        "result": 50,
+        "time": "7:47"
+      },
+      {
+        "spin": 15,
+        "number": "10",
+        "amountBet": 200,
+        "result": -200,
+        "time": "8:06"
+      },
+      {
+        "spin": 16,
+        "number": "10",
+        "amountBet": 100,
+        "result": -100,
+        "time": "8:27"
+      },
+      {
+        "spin": 17,
+        "number": "19",
+        "amountBet": 100,
+        "result": 100,
+        "time": "8:44"
+      },
+      {
+        "spin": 18,
+        "number": "11",
+        "amountBet": 200,
+        "result": -200,
+        "time": "9:12"
+      },
+      {
+        "spin": 19,
+        "number": "13",
+        "amountBet": 100,
+        "result": 100,
+        "time": "9:34"
+      },
+      {
+        "spin": 20,
+        "number": "11",
+        "amountBet": 200,
+        "result": -200,
+        "time": "9:59"
+      },
+      {
+        "spin": 21,
+        "number": "5",
+        "amountBet": 100,
+        "result": -100,
+        "time": "10:18"
+      },
+      {
+        "spin": 22,
+        "number": "18",
+        "amountBet": 100,
+        "result": -100,
+        "time": "10:39"
+      },
+      {
+        "spin": 23,
+        "number": "30",
+        "amountBet": 100,
+        "result": 100,
+        "time": "11:03"
+      },
+      {
+        "spin": 24,
+        "number": "16",
+        "amountBet": 200,
+        "result": 100,
+        "time": "11:27"
+      },
+      {
+        "spin": 25,
+        "number": "2",
+        "amountBet": 300,
+        "result": -300,
+        "time": "11:46"
+      },
+      {
+        "spin": 26,
+        "number": "2",
+        "amountBet": 100,
+        "result": 100,
+        "time": "12:03"
+      },
+      {
+        "spin": 27,
+        "number": "7",
+        "amountBet": 200,
+        "result": -200,
+        "time": "12:21"
+      },
+      {
+        "spin": 28,
+        "number": "28",
+        "amountBet": 0,
+        "result": 0,
+        "time": "12:42",
+        "notes": "Blank spin for Alex. No bet."
+      }
+    ]
+  },
+  {
+    "name": "Flying V",
+    "airDate": "2023-11-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=m7okUC9lz40",
+    "reviewUrl": "2023-11-26-Flying-V",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-1-3":20,"x3-22-24":20,"x4-4-8":25,"x4-11-15":25,"x4-16-20":25}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 600,
+    "bets": [
+      200
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "A couple's system. That means it's garbage. Especially when you bet on 36 or more numbers.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "00 ",
+        "amountBet": 200,
+        "result": -200,
+        "time": "1:04"
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 200,
+        "result": 40,
+        "time": "1:55"
+      },
+      {
+        "spin": 3,
+        "number": "9",
+        "amountBet": 200,
+        "result": -200,
+        "time": "3:19"
+      },
+      {
+        "spin": 4,
+        "number": "11",
+        "amountBet": 200,
+        "result": 25,
+        "time": "4:19"
+      },
+      {
+        "spin": 5,
+        "number": "3",
+        "amountBet": 200,
+        "result": 40,
+        "time": "5:06"
+      },
+      {
+        "spin": 6,
+        "number": "27",
+        "amountBet": 200,
+        "result": 25,
+        "time": "5:57"
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 200,
+        "result": 25,
+        "time": "6:30"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 200,
+        "result": 25,
+        "time": "7:21"
+      },
+      {
+        "spin": 9,
+        "number": "14",
+        "amountBet": 200,
+        "result": 25,
+        "time": "7:50"
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 200,
+        "result": 25,
+        "time": "8:21"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 200,
+        "result": 25,
+        "time": "8:52"
+      },
+      {
+        "spin": 12,
+        "number": "28",
+        "amountBet": 200,
+        "result": 25,
+        "time": "9:23"
+      },
+      {
+        "spin": 13,
+        "number": "30",
+        "amountBet": 200,
+        "result": 25,
+        "time": "10:48"
+      },
+      {
+        "spin": 14,
+        "number": "00",
+        "amountBet": 200,
+        "result": -200,
+        "time": "11:23"
+      }
+    ]
+  },
+  {
+    "name": "L.A.U.B.",
+    "airDate": "2023-11-24",
+    "youtubeUrl": "https://www.youtube.com/watch?v=zBlYDoJweho",
+    "reviewUrl": "2023-11-24-LAUB",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":50,"x6-7-12":50,"x6-10-15":50,"x6-13-18":50,"x6-16-21":50,"x6-19-24":50,"x6-22-27":50,"x6-25-30":50,"x6-28-33":50,"x6-31-36":50}},
+      {"wheelType":1,"wagers":{"x4-1-5":50,"x4-8-12":50,"x4-13-17":50,"x4-20-24":50,"x4-25-29":50,"x4-32-36":50}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 500,
+    "bets": [
+      500,
+      300
+    ],
+    "rating": "f",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "A couple's system. That means it's garbage. Especially when you bet on 36 or more numbers.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "26",
+        "amountBet": 500,
+        "result": 100,
+        "time": "1:15"
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 300,
+        "result": 150,
+        "time": "2:39"
+      },
+      {
+        "spin": 3,
+        "number": "35",
+        "amountBet": 500,
+        "result": -500,
+        "time": "3:31"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 500,
+        "result": -150,
+        "time": "4:22"
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 300,
+        "result": 150,
+        "time": "6:28"
+      },
+      {
+        "spin": 6,
+        "number": "33",
+        "amountBet": 500,
+        "result": 100,
+        "time": "7:31"
+      },
+      {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 300,
+        "result": 150,
+        "time": "8:18"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 500,
+        "result": 100,
+        "time": "9:16"
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 500,
+        "result": -500,
+        "time": "10:26"
+      },
+      {
+        "spin": 10,
+        "number": "2",
+        "amountBet": 500,
+        "result": -500,
+        "time": "11:28"
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 300,
+        "result": -150,
+        "time": "12:26"
+      }
+    ]
+  },
+  {
+    "name": "Bullseye 🎯",
+    "airDate": "2023-11-23",
+    "youtubeUrl": "https://www.youtube.com/watch?v=KvRQsFHHTyY",
+    "reviewUrl": "2023-11-23-Bullseye",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"   
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-1-3":1,"x3-34-36":1}},
+      {"wheelType":1,"wagers":{"x6-1-6":5,"x6-31-36":5}},
+      {"wheelType":1,"wagers":{"x12-doz1":20,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x12-doz1":210,"x12-doz3":210,"x1-15":20,"x1-14":20,"x1-13":20,"x1-18":20,"x1-21":20,"x1-24":20,"x1-23":20,"x1-22":20,"x1-19":20,"x1-16":20}}
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 700,
+    "bets": [
+      2,
+      10,
+      40,
+      620
+    ],
+    "rating": "b",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "ETG only",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "29",
+        "amountBet": 2,
+        "result": -2,
+        "time": "2:11"
+      },
+      {
+        "spin": 2,
+        "number": "2",
+        "amountBet": 10,
+        "result": 20,
+        "time": "2:45"
+      },
+      {
+        "spin": 3,
+        "number": "13",
+        "amountBet": 2,
+        "result": -2,
+        "time": "3:20"
+      },
+      {
+        "spin": 4,
+        "number": "25",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:52"
+      },
+      {
+        "spin": 5,
+        "number": "7",
+        "amountBet": 40,
+        "result": 20,
+        "time": "4:18"
+      },
+      {
+        "spin": 6,
+        "number": "5",
+        "amountBet": 2,
+        "result": -2,
+        "time": "4:47"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:03"
+      },
+      {
+        "spin": 8,
+        "number": "19",
+        "amountBet": 40,
+        "result": -40,
+        "time": "5:25"
+      },
+      {
+        "spin": 9,
+        "number": "22",
+        "amountBet": 620,
+        "result": 100,
+        "time": "6:08"
+      },
+      {
+        "spin": 10,
+        "number": "15",
+        "amountBet": 2,
+        "result": -2,
+        "time": "6:56"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:39"
+      },
+      {
+        "spin": 12,
+        "number": "32",
+        "amountBet": 40,
+        "result": 20,
+        "time": "8:11"
+      },
+      {
+        "spin": 13,
+        "number": "30",
+        "amountBet": 2,
+        "result": -2,
+        "time": "8:38"
+      },
+      {
+        "spin": 14,
+        "number": "27",
+        "amountBet": 10,
+        "result": -10,
+        "time": "9:16"
+      },
+      {
+        "spin": 15,
+        "number": "9",
+        "amountBet": 40,
+        "result": 20,
+        "time": "9:48"
+      },
+      {
+        "spin": 16,
+        "number": "24",
+        "amountBet": 2,
+        "result": -2,
+        "time": "10:45"
+      },
+      {
+        "spin": 17,
+        "number": "2",
+        "amountBet": 10,
+        "result": 20,
+        "time": "13:33"
+      }
+    ]
+  },
+  {
     "name": "The One ♳",
     "airDate": "2023-11-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=SRDgh1QSKp8",
