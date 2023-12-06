@@ -1,5 +1,501 @@
 [
   {
+    "name": "Lucky Lanes 🎳",
+    "airDate": "2023-12-04",
+    "youtubeUrl": "https://www.youtube.com/watch?v=nVNPQ6AcX30",
+    "reviewUrl": "2023-12-04-Lucky-Lanes",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-34-36":5,"x3-31-33":5,"x3-28-30":5,"x3-25-27":5,"x3-22-24":5,"x3-19-21":5,"x3-16-18":5}}
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 300,
+    "bets": [
+      35  
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Bet 7 Streets. When you win, peel that bet down. When you miss, increase by the base unit.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "26",
+        "amountBet": 35,
+        "result": 25,
+        "time": "2:15"
+      },
+      {
+        "spin": 2,
+        "number": "00",
+        "amountBet": 60,
+        "result": 60,
+        "time": "2:53",
+        "notes": "Video said +50, but Alex won $60."
+      },
+      {
+        "spin": 3,
+        "number": "24",
+        "amountBet": 100,
+        "result": 140,
+        "time": "3:21",
+        "notes": "Video said +100, but Alex won $140."
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 35,
+        "result": -35,
+        "time": "4:05"
+      },
+      {
+        "spin": 5,
+        "number": "33",
+        "amountBet": 70,
+        "result": -70,
+        "time": "4:29"
+      },
+      {
+        "spin": 6,
+        "number": "4",
+        "amountBet": 105,
+        "result": 75,
+        "time": "4:57"
+      },
+      {
+        "spin": 7,
+        "number": "28",
+        "amountBet": 60,
+        "result": -60,
+        "time": "5:26"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 35,
+        "result": -35,
+        "time": "5:45"
+      },
+      {
+        "spin": 9,
+        "number": "13",
+        "amountBet": 70,
+        "result": -70,
+        "time": "6:09"
+      },
+      {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 105,
+        "result": -105,
+        "time": "6:32"
+      },
+      {
+        "spin": 11,
+        "number": "36",
+        "amountBet": 175,
+        "result": 125,
+        "time": "6:55"
+      },
+      {
+        "spin": 12,
+        "number": "0",
+        "amountBet": 60,
+        "result": -60,
+        "time": "7:28"
+      },
+      {
+        "spin": 13,
+        "number": "8",
+        "amountBet": 35,
+        "result": 125,
+        "time": "7:51"
+      },
+      {
+        "spin": 14,
+        "number": "22",
+        "amountBet": 60,
+        "result": 60,
+        "time": "8:17"
+      },
+      {
+        "spin": 15,
+        "number": "36",
+        "amountBet": 100,
+        "result": -100,
+        "time": "8:48"
+      },
+      {
+        "spin": 16,
+        "number": "3",
+        "amountBet": 35,
+        "result": -35,
+        "time": "9:06"
+      },
+      {
+        "spin": 17,
+        "number": "2",
+        "amountBet": 70,
+        "result": -70,
+        "time": "9:28"
+      },
+      {
+        "spin": 18,
+        "number": "2",
+        "amountBet": 105,
+        "result": -105,
+        "time": "9:55"
+      }
+    ]
+  },
+  {
+    "name": "Nick Pappagiorgio 🎰",
+    "airDate": "2023-12-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=3KG_G-jb9Q",
+    "reviewUrl": "2023-12-02-Nick-Pappagiorgio",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":25,"x18-odd":25}},
+      {"wheelType":1,"wagers":{"x18-black":75,"x18-odd":75}},
+      {"wheelType":1,"wagers":{"x18-black":100,"x18-odd":100}},
+      {"wheelType":1,"wagers":{"x18-black":450,"x18-odd":450}},
+      {"wheelType":1,"wagers":{"x18-black":1000,"x18-odd":1000}}
+    ],
+    "systemType": "Martingale",
+    "buyIn": 3500,
+    "bets": [
+      50,
+      150,
+      400,
+      900,
+      2000
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "3x Martingale (kinda) your losing even money bets",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "33",
+        "amountBet": 0,
+        "result": 0,
+        "time": "1:03",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 50,
+        "result": 0,
+        "time": "1:36"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 150,
+        "result": -150,
+        "time": "2:20"
+      },
+      {
+        "spin": 4,
+        "number": "28",
+        "amountBet": 400,
+        "result": 0,
+        "time": "2:48"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 400,
+        "result": -400,
+        "time": "3:09"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 900,
+        "result": 0,
+        "time": "3:43"
+      },
+      {
+        "spin": 7,
+        "number": "36",
+        "amountBet": 900,
+        "result": -900,
+        "time": "4:01"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 2000,
+        "result": 0,
+        "time": "4:35"
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 2000,
+        "result": 2000,
+        "time": "4:54",
+        "notes": "Video said +1000, but Alex won +2000"
+      },
+      {
+        "spin": 10,
+        "number": "7",
+        "amountBet": 50,
+        "result": -50,
+        "time": "6:09"
+      },
+      {
+        "spin": 11,
+        "number": "32",
+        "amountBet": 50,
+        "result": 0,
+        "time": "6:31"
+      },
+      {
+        "spin": 12,
+        "number": "26",
+        "amountBet": 150,
+        "result": 150,
+        "time": "6:48"
+      },
+      {
+        "spin": 13,
+        "number": "19",
+        "amountBet": 0,
+        "result": 0,
+        "time": "7:21",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 14,
+        "number": "4",
+        "amountBet": 0,
+        "result": 0,
+        "time": "8:03"
+      },
+      {
+        "spin": 15,
+        "number": "32",
+        "amountBet": 50,
+        "result": 0,
+        "time": "8:25"
+      },
+      {
+        "spin": 16,
+        "number": "13",
+        "amountBet": 150,
+        "result": 0,
+        "time": "8:54",
+        "notes": "Not sure why Alex 3xed his bet here."
+      },
+      {
+        "spin": 17,
+        "number": "11",
+        "amountBet": 0,
+        "result": 0,
+        "time": "9:44",
+        "notes": "No bet here"
+      },
+      {
+        "spin": 18,
+        "number": "11",
+        "amountBet": 50,
+        "result": 50,
+        "time": "10:07"
+      },
+      {
+        "spin": 19,
+        "number": "5",
+        "amountBet": 50,
+        "result": 0,
+        "time": "10:30"
+      },
+      {
+        "spin": 20,
+        "number": "18",
+        "amountBet": 50,
+        "result": -50,
+        "time": "10:55"
+      },
+      {
+        "spin": 21,
+        "number": "18",
+        "amountBet": 150,
+        "result": -150,
+        "time": "11:25"
+      },
+      {
+        "spin": 22,
+        "number": "23",
+        "amountBet": 400,
+        "result": 0,
+        "time": "11:51"
+      },
+      {
+        "spin": 23,
+        "number": "0",
+        "amountBet": 400,
+        "result": -400,
+        "time": "12:17"
+      },
+      {
+        "spin": 24,
+        "number": "17",
+        "amountBet": 900,
+        "result": 900,
+        "time": "13:10"
+      },
+      {
+        "spin": 25,
+        "number": "8",
+        "amountBet": 0,
+        "result": 0,
+        "time": "13:57",
+        "notes": "Blank spin."
+      },
+      {
+        "spin": 26,
+        "number": "36",
+        "amountBet": 0,
+        "result": 0,
+        "time": "14:46"
+      }
+    ]
+  },
+  {
+    "name": "American Six Shooter 🔫",
+    "airDate": "2023-12-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ET8tKLKHx-Y",
+    "reviewUrl": "2023-12-01-American-Six-Shooter",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-red":15,"x12-doz2":10,"x1-14":1,"x1-18":1,"x1-21":1,"x1-23":1,"x1-19":1,"x1-16":1}}
+    ],
+    "systemType": "Multi-Leg",
+    "buyIn": 1000,
+    "bets": [
+      31
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Martingale the Even Money bet, Fibonacci on the Dozen bet, increase the straight-up bets by $1 on a loss.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "36",
+        "amountBet": 31,
+        "result": -1,
+        "time": "1:18"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 37,
+        "result": 95,
+        "time": "1:52"
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 31,
+        "result": -1,
+        "time": "2:33"
+      },
+      {
+        "spin": 4,
+        "number": "30",
+        "amountBet": 37,
+        "result": -7,
+        "time": "3:01"
+      },
+      {
+        "spin": 5,
+        "number": "25",
+        "amountBet": 53,
+        "result": -23,
+        "time": "3:35"
+      },
+      {
+        "spin": 6,
+        "number": "17",
+        "amountBet": 69,
+        "result": 21,
+        "time": "4:19"
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 70,
+        "result": -70,
+        "time": "5:06"
+      },
+      {
+        "spin": 8,
+        "number": "36",
+        "amountBet": 106,
+        "result": 14,
+        "time": "5:53"
+      },
+      {
+        "spin": 9,
+        "number": "0",
+        "amountBet": 77,
+        "result": -77,
+        "time": "6:39"
+      },
+      {
+        "spin": 10,
+        "number": "28",
+        "amountBet": 108,
+        "result": -108,
+        "time": "7:12"
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 164,
+        "result": -14,
+        "time": "7:37"
+      },
+      {
+        "spin": 12,
+        "number": "24",
+        "amountBet": 190,
+        "result": -160,
+        "time": "8:28"
+      },
+      {
+        "spin": 13,
+        "number": "29",
+        "amountBet": 316,
+        "result": -316,
+        "time": "9:21"
+      },
+      {
+        "spin": 14,
+        "number": "0",
+        "amountBet": 562,
+        "result": -562,
+        "time": "10:04",
+        "notes": "Alex had to borrow $250 to make this bet."
+      }
+    ]
+  },
+  {
     "name": "Split on the Corners",
     "airDate": "2023-11-30",
     "youtubeUrl": "https://www.youtube.com/watch?v=cDb_WtBTX_g",
@@ -135,7 +631,7 @@
     ]
   },
   {
-    "name": "Tajine",
+    "name": "Tajine 🌶️",
     "airDate": "2023-11-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=ck7p5N6nbZk",
     "reviewUrl": "2023-11-29-Tajine",
@@ -232,7 +728,8 @@
         "number": "24",
         "amountBet": 120,
         "result": 30,
-        "time": "10:53"
+        "time": "10:53",
+        "notes": ""
       },
       {
         "spin": 12,
@@ -485,7 +982,7 @@
     ]
   },
   {
-    "name": "Flying V",
+    "name": "Flying V 🕊️",
     "airDate": "2023-11-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=m7okUC9lz40",
     "reviewUrl": "2023-11-26-Flying-V",
