@@ -1,0 +1,8 @@
+{% assign systemId = include.reviewUrl | default: include.term %}
+
+{%- assign system = site.data.roulette-systems | where: "reviewUrl", systemId | first -%}
+{%- assign systemName = include.displayName | default: system.name -%}
+
+<!-- TODO: handle invalid reviewUrl strings -->
+
+<a href="/gambling/roulette/systems/{{- include.reviewUrl -}}" >{{- systemName -}}</a>
