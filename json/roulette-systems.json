@@ -1,5 +1,489 @@
  [
   {
+    "name": "4Some 👯‍♀️👯‍♀️",
+    "airDate": "2024-01-11",
+    "youtubeUrl": "https://www.youtube.com/watch?v=FlBwANg5-ak",
+    "reviewUrl": "2024-01-11-4Some",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":25,"x6-10-15":25,"x6-16-21":25,"x6-22-27":25,"x6-28-33":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":75,"x12-doz3":75}},
+      {"wheelType":1,"wagers":{"x12-doz2":110,"x12-doz3":110}},
+      {"wheelType":1,"wagers":{"x2-33-36":10,"x2-31-34":10,"x2-29-32":10,"x2-24-27":10,"x2-22-25":10,"x2-20-23":10,"x2-15-18":10,"x2-13-16":10,"x2-11-14":10,"x2-5-8":10}},
+      {"wheelType":1,"wagers":{"x18-black":40,"x2-0-00":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":40,"x12-doz3":40}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 500,
+    "bets": [
+      125,
+      150,
+      220,
+      100,
+      50,
+      80
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "14",
+        "amountBet": 125,
+        "result": 25,
+        "time": "0:44"
+      },
+      {
+        "spin": 2,
+        "number": "1",
+        "amountBet": 150,
+        "result": -150,
+        "time": "1:03"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 125,
+        "result": 25,
+        "time": "1:29"
+      },
+      {
+        "spin": 4,
+        "number": "22",
+        "amountBet": 150,
+        "result": 75,
+        "time": "2:07"
+      },
+      {
+        "spin": 5,
+        "number": "30",
+        "amountBet": 220,
+        "result": 110,
+        "time": "2:27"
+      },
+      {
+        "spin": 6,
+        "number": "7",
+        "amountBet": 100,
+        "result": -100,
+        "time": "3:06"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:11"
+      },
+      {
+        "spin": 8,
+        "number": "8",
+        "amountBet": 125,
+        "result": 25,
+        "time": "4:45"
+      },
+      {
+        "spin": 9,
+        "number": "27",
+        "amountBet": 150,
+        "result": 75,
+        "time": "5:16"
+      },
+      {
+        "spin": 10,
+        "number": "21",
+        "amountBet": 220,
+        "result": 110,
+        "time": "5:40"
+      },
+      {
+        "spin": 11,
+        "number": "27",
+        "amountBet": 100,
+        "result": 80,
+        "time": "6:07",
+        "notes": "The win was only $80, not $90 as displayed in the video."
+      },
+      {
+        "spin": 12,
+        "number": "29",
+        "amountBet": 50,
+        "result": 30,
+        "time": "6:36"
+      },
+      {
+        "spin": 13,
+        "number": "4",
+        "amountBet": 80,
+        "result": -80,
+        "time": "6:55"
+      },
+      {
+        "spin": 14,
+        "number": "18",
+        "amountBet": 125,
+        "result": 25,
+        "time": "7:14"
+      },
+      {
+        "spin": 15,
+        "number": "18",
+        "amountBet": 150,
+        "result": 75,
+        "time": "7:32"
+      },
+      {
+        "spin": 16,
+        "number": "18",
+        "amountBet": 220,
+        "result": 110,
+        "time": "7:50"
+      },
+      {
+        "spin": 17,
+        "number": "15",
+        "amountBet": 100,
+        "result": 80,
+        "time": "8:10",
+        "notes": "The win was only $80, not $90 as displayed in the video."
+      },
+      {
+        "spin": 18,
+        "number": "11",
+        "amountBet": 50,
+        "result": 50,
+        "time": "8:58",
+        "notes": "Alex bet $50 on Black here."
+      },
+      {
+        "spin": 19,
+        "number": "34",
+        "amountBet": 125,
+        "result": -125,
+        "time": "9:26"
+      },
+      {
+        "spin": 20,
+        "number": "2",
+        "amountBet": 125,
+        "result": -125,
+        "time": "9:44"
+      }
+    ]
+  },
+  {
+    "name": "Let's Get Degen 🎰",
+    "airDate": "2024-01-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=4JLJx8NUCvw",
+    "reviewUrl": "2024-01-10-Lets-Get-Degen",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":5,"x6-7-12":5,"x6-10-15":5,"x6-13-18":5,"x6-16-21":5,"x6-19-24":5,"x6-22-27":5,"x6-25-30":5,"x6-28-33":5,"x12-col2":15,"x2-8-11":5,"x2-17-20":5,"x2-26-29":5,"x3-basket":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      80
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "25",
+        "amountBet": 80,
+        "result": -20,
+        "time": "1:43"
+      },
+      {
+        "spin": 2,
+        "number": "22",
+        "amountBet": 80,
+        "result": -20,
+        "time": "2:20"
+      },
+      {
+        "spin": 3,
+        "number": "15",
+        "amountBet": 80,
+        "result": -20,
+        "time": "2:38"
+      },
+      {
+        "spin": 4,
+        "number": "30",
+        "amountBet": 80,
+        "result": -20,
+        "time": "3:07"
+      },
+      {
+        "spin": 5,
+        "number": "20",
+        "amountBet": 80,
+        "result": -20,
+        "time": "3:37"
+      },
+      {
+        "spin": 6,
+        "number": "22",
+        "amountBet": 80,
+        "result": -20,
+        "time": "4:07"
+      },
+      {
+        "spin": 7,
+        "number": "30",
+        "amountBet": 80,
+        "result": -20,
+        "time": "4:27"
+      },
+      {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 80,
+        "result": -20,
+        "time": "4:52"
+      },
+      {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 80,
+        "result": -20,
+        "time": "5:44"
+      },
+      {
+        "spin": 10,
+        "number": "19",
+        "amountBet": 80,
+        "result": -20,
+        "time": "6:17"
+      },
+      {
+        "spin": 11,
+        "number": "19",
+        "amountBet": 80,
+        "result": -20,
+        "time": "6:46"
+      },
+      {
+        "spin": 12,
+        "number": "31",
+        "amountBet": 80,
+        "result": -20,
+        "time": "7:09"
+      },
+      {
+        "spin": 13,
+        "number": "22",
+        "amountBet": 80,
+        "result": -20,
+        "time": "7:50"
+      },
+      {
+        "spin": 14,
+        "number": "10",
+        "amountBet": 80,
+        "result": -20,
+        "time": "8:07"
+      },
+      {
+        "spin": 15,
+        "number": "15",
+        "amountBet": 80,
+        "result": -20,
+        "time": "8:18"
+      },
+      {
+        "spin": 16,
+        "number": "9",
+        "amountBet": 80,
+        "result": -20,
+        "time": "8:47"
+      },
+      {
+        "spin": 17,
+        "number": "35",
+        "amountBet": 80,
+        "result": -35,
+        "time": "9:18"
+      },
+      {
+        "spin": 18,
+        "number": "22",
+        "amountBet": 160,
+        "result": -40,
+        "time": "10:17",
+        "notes": "Alex doubled his bets here. He also got another $200 so he could make the bets."
+      },
+      {
+        "spin": 19,
+        "number": "10",
+        "amountBet": 160,
+        "result": -40,
+        "time": "10:53"
+      },
+      {
+        "spin": 20,
+        "number": "12",
+        "amountBet": 160,
+        "result": -40,
+        "time": "11:27"
+      },
+      {
+        "spin": 21,
+        "number": "16",
+        "amountBet": 160,
+        "result": -40,
+        "time": "11:43"
+      },
+      {
+        "spin": 22,
+        "number": "21",
+        "amountBet": 160,
+        "result": -40,
+        "time": "12:17"
+      }
+    ]
+  },
+  {
+    "name": "Winner Winner Tater Dinner 🥔🥔",
+    "airDate": "2024-01-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=56irpUZpwmg",
+    "reviewUrl": "2024-01-08-Winner-Winner-Tater-Dinner",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-25-30":60,"x6-16-21":60,"x6-7-12":60,"x2-32-33":20,"x2-23-24":20,"x2-14-15":20,"x2-5-6":20}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      260
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "30",
+        "amountBet": 260,
+        "result": 100,
+        "time": "1:15"
+      },
+      {
+        "spin": 2,
+        "number": "9",
+        "amountBet": 260,
+        "result": 100,
+        "time": "2:29"
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 260,
+        "result": 100,
+        "time": "3:13"
+      },
+      {
+        "spin": 4,
+        "number": "14",
+        "amountBet": 260,
+        "result": 100,
+        "time": "3:58"
+      },
+      {
+        "spin": 5,
+        "number": "34",
+        "amountBet": 260,
+        "result": -260,
+        "time": "4:30"
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 260,
+        "result": -260,
+        "time": "5:11"
+      },
+      {
+        "spin": 7,
+        "number": "14",
+        "amountBet": 260,
+        "result": 100,
+        "time": "6:03"
+      },
+      {
+        "spin": 8,
+        "number": "23",
+        "amountBet": 260,
+        "result": 100,
+        "time": "6:48"
+      },
+      {
+        "spin": 9,
+        "number": "17",
+        "amountBet": 260,
+        "result": 100,
+        "time": "7:16"
+      },
+      {
+        "spin": 10,
+        "number": "0",
+        "amountBet": 260,
+        "result": -260,
+        "time": "7:44"
+      },
+      {
+        "spin": 11,
+        "number": "9",
+        "amountBet": 260,
+        "result": 100,
+        "time": "8:38"
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 260,
+        "result": 100,
+        "time": "9:15"
+      },
+      {
+        "spin": 13,
+        "number": "15",
+        "amountBet": 260,
+        "result": 100,
+        "time": "9:43"
+      },
+      {
+        "spin": 14,
+        "number": "22",
+        "amountBet": 260,
+        "result": -260,
+        "time": "10:00"
+      },
+      {
+        "spin": 15,
+        "number": "36",
+        "amountBet": 260,
+        "result": -260,
+        "time": "10:37"
+      }
+    ]
+  },
+  {
     "name": "Pushin' the V",
     "airDate": "2024-01-06",
     "youtubeUrl": "https://www.youtube.com/watch?v=pZUCBS7bYvk",
@@ -30,7 +514,7 @@
         "number": "16",
         "amountBet": 175,
         "result": 50,
-        "time": "1:37 "
+        "time": "1:37"
       },
       {
         "spin": 2,
@@ -2387,6 +2871,7 @@
      "airDate": "2023-12-18",
      "youtubeUrl": "https://www.youtube.com/watch?v=efHcTKIO6lM",
      "reviewUrl": "2023-12-18-EGDSPP",
+     "jackaceVideoUrl": "https://www.youtube.com/watch?v=LRj6xkShb5Y",
      "rbaImageUrls": [
        "00-rba-0-800x768.png",
        "00-rba-1-800x768.png",
