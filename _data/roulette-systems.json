@@ -62,18 +62,18 @@
       {
         "spin": 6,
         "number": "29",
-        "amountBet": 90,
-        "result": 30,
+        "amountBet": 80,
+        "result": 10,
         "time": "5:26",
-        "notes": "50+10+30 bet. Video said +10, but I believe it was +30 (10x2+30x2-50)"
+        "notes": "50+10+20 bet."
       },
       {
         "spin": 7,
         "number": "32",
-        "amountBet": 90,
-        "result": 0,
+        "amountBet": 80,
+        "result": -20,
         "time": "6:05",
-        "notes": "60+10+20 bet. Video said -20, but I believe it was +0 (10x2+20x2-60)"
+        "notes": "60+10+10 bet."
       },
       {
         "spin": 8,
@@ -93,35 +93,35 @@
       },
       {
         "spin": 10,
-        "number": "23",
-        "amountBet": 140,
-        "result": -50,
+        "number": "28",
+        "amountBet": 150,
+        "result": -80,
         "time": "9:55",
-        "notes": "90+30+20 bet. Video said -70, but I believe it was -50 (30x2-90-20)"
+        "notes": "90+20+30 bet. Video said -70, but I believe it was -80 (20x2-90-30). Video also said the number was 23, but it was 28. Not sure why Alex jumped to $30 on the column bet."
       },
       {
         "spin": 11,
         "number": "8",
         "amountBet": 150,
-        "result": -60,
+        "result": -30,
         "time": "10:28",
-        "notes": "100+20+30 bet. Video said -30, but I believe it was -60 (30x2-100-20)"
+        "notes": "100+10+40 bet."
       },
       {
         "spin": 12,
         "number": "32",
         "amountBet": 160,
-        "result": -10,
-        "time": "",
-        "notes": "110+30+20 bet. Video said -60, but I believe it was -100 (30x2+20x2-110)"
+        "result": -30,
+        "time": "11:20",
+        "notes": "110+20+20 bet. Video said -60, but I believe it was -30 (20x2+20x2-110)"
       },
       {
         "spin": 13,
         "number": "25",
-        "amountBet": 150,
-        "result": -90,
+        "amountBet": 140,
+        "result": -110,
         "time": "12:16",
-        "notes": "120+20+10 bet. Video said -120, but I believe it was -90 (20x2-10-120)"
+        "notes": "120+10+10 bet. Video said -120, but I believe it was -90 (10x2-10-120)"
       },
       {
         "spin": 14,
@@ -153,7 +153,7 @@
         "amountBet": 30,
         "result": 130,
         "time": "15:58",
-        "notes": "75+40+10 bet. Not sure why Alex only bet $75. Video said +25, but it should have been +130"
+        "notes": "75+40+10 bet. Video said +25, but it should have been +130"
       }
     ]
   },
