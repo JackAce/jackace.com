@@ -1,5 +1,138 @@
 [
   {
+    "name": "2-3 Hopscotch Degenerate",
+    "airDate": "2024-02-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7R3QeXxCoHE",
+    "reviewUrl": "2024-02-01-2-3-Hopscotch-Degenerate",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-2-6":5,"x2-9-12":5,"x2-8-11":5,"x4-14-18":5,"x2-21-24":5,"x2-20-23":5,"x4-26-30":5,"x2-33-36":5,"x2-32-35":5,"x12-col3":15,"x12-col2":15}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 600,
+    "bets": [
+        75
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "8",
+        "amountBet": 75,
+        "result": 60,
+        "time": "1:08"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 75,
+        "result": 15,
+        "time": "1:24"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 75,
+        "result": -75,
+        "time": "2:15"
+      },
+      {
+        "spin": 4,
+        "number": "28",
+        "amountBet": 75,
+        "result": -75,
+        "time": "2:43"
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 105,
+        "result": 30,
+        "time": "3:11",
+        "notes": "Video said +15, but I believe it was +30"
+      },
+      {
+        "spin": 6,
+        "number": "33",
+        "amountBet": 75,
+        "result": 60,
+        "time": "3:56"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 75,
+        "result": -75,
+        "time": "4:37"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 105,
+        "result": -105,
+        "time": "5:18",
+        "notes": "Video said -75, but I believe it was -105"
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 135,
+        "result": 45,
+        "time": "6:02",
+        "notes": "Video said +15, but I believe it was +45"
+      },
+      {
+        "spin": 10,
+        "number": "29",
+        "amountBet": 120,
+        "result": 60,
+        "time": "6:24",
+        "notes": "I don't know what was happening here. Alex bet $10 on each of the 3 corners. He wasn't supposed to do that."
+      },
+      {
+        "spin": 11,
+        "number": "34",
+        "amountBet": 75,
+        "result": -75,
+        "time": "6:44"
+      },
+      {
+        "spin": 12,
+        "number": "11",
+        "amountBet": 105,
+        "result": 75,
+        "time": "7:12"
+      },
+      {
+        "spin": 13,
+        "number": "35",
+        "amountBet": 105,
+        "result": 120,
+        "time": "8:00",
+        "notes": "I don't know what was happening here. Alex bet $10 on the split bets?"
+      },
+      {
+        "spin": 14,
+        "number": "3",
+        "amountBet": 75,
+        "result": 15,
+        "time": "8:22"
+      },
+      {
+        "spin": 15,
+        "number": "7",
+        "amountBet": 90,
+        "result": -90,
+        "time": "9:11",
+        "notes": "I don't know what was happening here. Alex bet $10 on the split bets again?"
+      }
+    ]
+  },
+  {
     "name": "Five Alive 👋",
     "airDate": "2024-01-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=obmge9vNgh4",
