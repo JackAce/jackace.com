@@ -9,21 +9,56 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
 <script type="text/javascript">
   //<![CDATA[
   let systemUrl = '/json/roulette-systems.json';
+  let systemUrlBase = '/json/roulette-systems-';
 
   $(document).ready(function() {
-     $.ajax({ 
-     type: 'GET', 
-     url: systemUrl, 
-     data: { get_param: 'value' }, 
-     dataType: 'json',
-     success: function (data) { 
-        let filteredData = data.filter(item => item.isJackAceReview === false);
-        populateDataTable(filteredData);
-       }
-     });
+    let allSystems = [];
+    let firstYear = 2019;
+    let currentYear = new Date().getFullYear();
+    let totalYears = currentYear - firstYear + 1;
+    let yearsFetched = 0;
+
+    for (let i = firstYear; i <= currentYear; i++) {
+
+      console.log('getting year [[' + i + ']]');
+
+      $.ajax({ 
+        type: 'GET', 
+        url: systemUrlBase + i + '.json', 
+        data: { get_param: 'value' }, 
+        dataType: 'json',
+        success: function (data) { 
+          let filteredData = data.filter(item => item.isJackAceReview === false);
+          allSystems.push(...filteredData);
+          yearsFetched++;
+
+          if (yearsFetched === totalYears) {
+            console.log(allSystems);
+            populateDataTable(allSystems);
+          }
+        }
+      });
+
+    }
+
+    //  $.ajax({ 
+    //  type: 'GET', 
+    //  url: systemUrl, 
+    //  data: { get_param: 'value' }, 
+    //  dataType: 'json',
+    //  success: function (data) { 
+    //     let filteredData = data.filter(item => item.isJackAceReview === false);
+    //     populateDataTable(filteredData);
+    //    }
+    //  });
+
   });
 
   function getHtmlForChip(chipAmount) {
+    if (!chipAmount) {
+      chipAmount = 1;
+    }
+
     let chipClass = 'chip-1';
     if (chipAmount >= 1000) {
       chipClass = 'chip-1000';

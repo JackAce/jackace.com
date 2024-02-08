@@ -27,21 +27,6 @@ layout: page-no-sidebar
   <p>
     We're updating this list daily and backfilling the rest!
   </p>
-  <p>
-    Show systems by CEG rating
-    <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/a/">{%- include ceg-system-rating.html rating="a" showRatingLetter=false -%}</a>
-    <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/b/">{%- include ceg-system-rating.html rating="b" showRatingLetter=false -%}</a>
-    <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/c/">{%- include ceg-system-rating.html rating="c" showRatingLetter=false -%}</a>
-    <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/d/">{%- include ceg-system-rating.html rating="d" showRatingLetter=false -%}</a>
-    <a href="{{site.baseUrl}}/gambling/roulette/systems/ratings/f/">{%- include ceg-system-rating.html rating="f" showRatingLetter=false -%}</a>
-  </p>
-  <!-- <p>
-    Show systems by Year
-    <a href="{{site.baseUrl}}/gambling/roulette/systems/years/2023/">2023</a>
-    <a href="{{site.baseUrl}}/gambling/roulette/systems/years/2022/">2022</a>
-    <a href="{{site.baseUrl}}/gambling/roulette/systems/years/2021/">2021</a>
-    <a href="{{site.baseUrl}}/gambling/roulette/systems/years/2020/">2020</a>
-  </p> -->
 {%- endif -%}
 
 <table class="roulette-system-table">
@@ -85,13 +70,29 @@ layout: page-no-sidebar
     <!-- Loop through systems AND spins to get bet amount, EV, and Win/Loss -->
     {%- endcomment -%}
 
+    {%- assign systems2019 = site.data.roulette-systems-2019 -%}
+    {%- assign systems2020 = site.data.roulette-systems-2020 -%}
+    {%- assign systems2021 = site.data.roulette-systems-2021 -%}
+    {%- assign systems2022 = site.data.roulette-systems-2022 -%}
+    {%- assign systems2023 = site.data.roulette-systems-2023 -%}
+    {%- assign systems2024 = site.data.roulette-systems-2024 -%}
+    
+    {%- assign systemsAllYears = systems2019 -%}
+    {%- assign systemsAllYears = systemsAllYears | concat: systems2020 -%}
+    {%- assign systemsAllYears = systemsAllYears | concat: systems2021 -%}
+    {%- assign systemsAllYears = systemsAllYears | concat: systems2022 -%}
+    {%- assign systemsAllYears = systemsAllYears | concat: systems2023 -%}
+    {%- assign systemsAllYears = systemsAllYears | concat: systems2024 -%}
+    
+    {%- assign systemsAllYears = systemsAllYears | sort: "airDate" | reverse -%}
+    
     {%- if page.isJackAceReview -%}
-      {%- assign filteredSystems = site.data.roulette-systems | where: "isJackAceReview", true -%}
+      {%- assign filteredSystems = systemsAllYears | where: "isJackAceReview", true -%}
     {%- else -%}
       {%- if page.rating -%}
-        {%- assign filteredSystems = site.data.roulette-systems | where: "rating", page.rating | where: "isJackAceReview", false -%}
+        {%- assign filteredSystems = systemsAllYears | where: "rating", page.rating | where: "isJackAceReview", false -%}
       {%- else -%}
-        {%- assign filteredSystems = site.data.roulette-systems | where: "isJackAceReview", false -%}
+        {%- assign filteredSystems = systemsAllYears | where: "isJackAceReview", false -%}
       {%- endif -%}
     {%- endif -%}
 
