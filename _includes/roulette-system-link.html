@@ -14,7 +14,7 @@
 {%- assign systemsAllYears = systemsAllYears | concat: systems2023 -%}
 {%- assign systemsAllYears = systemsAllYears | concat: systems2024 -%}
 
-{%- assign system = systemsAllYears | where: "reviewUrl", systemName | first -%}
+{%- assign system = systemsAllYears | where: "reviewUrl", systemId | first -%}
 
 {%- assign systemName = include.displayName | default: system.name -%}
 
