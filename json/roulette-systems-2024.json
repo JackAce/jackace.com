@@ -558,10 +558,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=XfDDWhpMZio",
     "reviewUrl": "2024-03-08-Broke-Dick-Jelly",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x1-2":1,"x1-4":1,"x1-6":1,"x1-13":1,"x1-17":1,"x1-21":1,"x1-25":1,"x1-27":1,"x1-36":1,"x1-34":1}}
+      {"wheelType":1,"wagers":{"x1-2":1,"x1-4":1,"x1-6":1,"x1-13":1,"x1-17":1,"x1-21":1,"x1-25":1,"x1-27":1,"x1-36":1,"x1-34":1}},
+      {"wheelType":1,"wagers":{"x1-2":2,"x1-4":2,"x1-6":2,"x1-13":2,"x1-17":2,"x1-21":2,"x1-25":2,"x1-27":2,"x1-34":2,"x1-36":2}},
+      {"wheelType":1,"wagers":{"x1-2":3,"x1-4":3,"x1-6":3,"x1-13":3,"x1-17":3,"x1-21":3,"x1-25":3,"x1-27":3,"x1-36":3,"x1-34":3}},
+      {"wheelType":1,"wagers":{"x1-2":4,"x1-4":4,"x1-6":4,"x1-13":4,"x1-17":4,"x1-21":4,"x1-25":4,"x1-27":4,"x1-34":4,"x1-36":4}}
     ],
     "systemType": "Negative Progression",
     "buyIn": 100,
@@ -3516,6 +3522,7 @@
     "airDate": "2024-02-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=9A9Nxk15E4U",
     "reviewUrl": "2024-02-08-Triple-Entry-Max-Climax",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=b07QbYIbEnM",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
       "00-rba-1-800x768.png",
