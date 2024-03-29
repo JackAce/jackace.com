@@ -1,4 +1,310 @@
- [
+[
+  {
+    "name": "Divide and Conquer ➗",
+    "airDate": "2024-03-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=hJM47Ggv75ol",
+    "reviewUrl": "2024-03-25-Divide-and-Conquer",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-34":3,"x1-35":3,"x1-36":3,"x1-33":3,"x1-32":3,"x1-31":3,"x1-28":3,"x1-29":3,"x1-30":3,"x1-27":3}},
+      {"wheelType":1,"wagers":{"x1-34":7,"x1-35":7,"x1-36":7,"x1-33":7,"x1-32":7,"x1-31":7,"x1-28":7,"x1-29":7,"x1-30":7,"x1-27":7,"x1-26":7,"x1-25":7,"x1-22":7,"x1-23":7,"x1-24":7}},
+      {"wheelType":1,"wagers":{"x2-34-35":20,"x2-31-32":20,"x2-28-29":20,"x2-25-26":20,"x2-22-23":20,"x2-19-20":20,"x2-17-18":20,"x2-21-24":20,"x2-27-30":20,"x2-33-36":20}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 300,
+    "bets": [
+      30,
+      105,
+      200
+    ],
+    "rating": "a",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "10",
+        "amountBet": 30,
+        "result": -30,
+        "time": "1:54"
+      },
+      {
+        "spin": 2,
+        "number": "22",
+        "amountBet": 30,
+        "result": -30,
+        "time": "2:25"
+      },
+      {
+        "spin": 3,
+        "number": "27",
+        "amountBet": 30,
+        "result": 78,
+        "time": "3:21"
+      },
+      {
+        "spin": 4,
+        "number": "32",
+        "amountBet": 105,
+        "result": 147,
+        "time": "4:13"
+      },
+      {
+        "spin": 5,
+        "number": "24",
+        "amountBet": 200,
+        "result": 160,
+        "time": "5:06"
+      },
+      {
+        "spin": 6,
+        "number": "35",
+        "amountBet": 200,
+        "result": 160,
+        "time": "5:51"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 200,
+        "result": 160,
+        "time": "6:38"
+      },
+      {
+        "spin": 8,
+        "number": "34",
+        "amountBet": 200,
+        "result": 160,
+        "time": "7:14"
+      },
+      {
+        "spin": 9,
+        "number": "24",
+        "amountBet": 200,
+        "result": 160,
+        "time": "7:39"
+      },
+      {
+        "spin": 10,
+        "number": "32",
+        "amountBet": 200,
+        "result": 160,
+        "time": "8:12"
+      },
+      {
+        "spin": 11,
+        "number": "19",
+        "amountBet": 200,
+        "result": 160,
+        "time": "8:29"
+      },
+      {
+        "spin": 12,
+        "number": "33",
+        "amountBet": 200,
+        "result": 160,
+        "time": "8:45"
+      },
+       {
+        "spin": 13,
+        "number": "30",
+        "amountBet": 200,
+        "result": 160,
+        "time": "9:01"
+      },
+      {
+        "spin": 14,
+        "number": "19",
+        "amountBet": 200,
+        "result": 160,
+        "time": "9:26"
+      },
+      {
+        "spin": 15,
+        "number": "26",
+        "amountBet": 200,
+        "result": 160,
+        "time": "9:49"
+      },
+      {
+        "spin": 16,
+        "number": "28",
+        "amountBet": 200,
+        "result": 160,
+        "time": "10:03"
+      },
+      {
+        "spin": 17,
+        "number": "2",
+        "amountBet": 200,
+        "result": -200,
+        "time": "10:39"
+      }
+    ]
+  },
+  {
+    "name": "Safe Pays",
+    "airDate": "2024-03-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_OKNdCVCUjY",
+    "reviewUrl": "2024-03-22-Safe-Pays",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-1-3":12,"x3-16-18":12,"x3-25-27":12,"x1-34":8,"x1-32":8,"x1-30":8,"x1-24":8,"x1-20":8,"x1-13":8,"x1-11":8,"x1-8":8,"x1-5":8,"x1-0":8}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 400,
+    "bets": [
+        116
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Section betting system",
+    "spins": [{
+        "spin": 1,
+        "number": "18",
+        "amountBet": 116,
+        "result": 28,
+        "time": "2:16",
+        "notes": "The win here is 28, not 16."
+      },
+      {
+        "spin": 2,
+        "number": "00",
+        "amountBet": 116,
+        "result": -116,
+        "time": "4:41"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 116,
+        "result": 172,
+        "time": "6:35",
+        "notes": "The win here is 172, not 180."
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 116,
+        "result": 172,
+        "time": "8:15",
+        "notes": "The win here is 172, not 180."
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 116,
+        "result": 172,
+        "time": "11:20",
+        "notes": "The win here is 172, not 180."
+      },
+      {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 116,
+        "result": 28,
+        "time": "13:02",
+        "notes": "The win here is 28, not 16."
+      },
+      {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 116,
+        "result": -116,
+        "time": "14:32"
+      }
+    ]
+  },
+  {
+    "name": "Double Down Get Down 🃏",
+    "airDate": "2024-03-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=uyRCwWAaVMw",
+    "reviewUrl": "2024-03-21-Double-Down-Get-Down",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-2-3":2,"x2-2-5":1,"x2-4-5":2,"x2-7-8":2,"x2-8-11":1,"x2-11-12":2,"x2-14-15":2,"x2-14-17":1,"x2-16-17":2,"x2-19-20":2,"x2-22-23":2,"x2-20-23":1,"x2-25-26":2,"x2-26-29":1,"x2-29-30":2,"x2-31-32":2,"x2-32-35":1,"x2-34-35":2}},
+      {"wheelType":1,"wagers":{"x2-2-3":4,"x2-2-5":2,"x2-4-5":4,"x2-7-8":4,"x2-8-11":2,"x2-11-12":4,"x2-14-15":4,"x2-14-17":2,"x2-16-17":4,"x2-19-20":4,"x2-22-23":4,"x2-20-23":2,"x2-25-26":4,"x2-26-29":2,"x2-29-30":4,"x2-31-32":4,"x2-32-35":2,"x2-34-35":4}},
+      {"wheelType":1,"wagers":{"x2-2-3":8,"x2-2-5":4,"x2-4-5":8,"x2-7-8":8,"x2-8-11":4,"x2-11-12":8,"x2-14-15":8,"x2-14-17":4,"x2-16-17":8,"x2-19-20":8,"x2-22-23":8,"x2-20-23":4,"x2-25-26":8,"x2-26-29":4,"x2-29-30":8,"x2-31-32":8,"x2-32-35":4,"x2-34-35":8}},
+      {"wheelType":1,"wagers":{"x2-2-3":16,"x2-2-5":8,"x2-4-5":16,"x2-7-8":16,"x2-8-11":8,"x2-11-12":16,"x2-14-15":16,"x2-14-17":8,"x2-16-17":16,"x2-19-20":16,"x2-22-23":16,"x2-20-23":8,"x2-25-26":16,"x2-26-29":8,"x2-29-30":16,"x2-31-32":16,"x2-32-35":8,"x2-34-35":16}},
+      {"wheelType":1,"wagers":{"x2-2-3":32,"x2-2-5":16,"x2-4-5":32,"x2-7-8":32,"x2-8-11":16,"x2-11-12":32,"x2-14-15":32,"x2-14-17":16,"x2-16-17":32,"x2-19-20":32,"x2-22-23":32,"x2-20-23":16,"x2-25-26":32,"x2-26-29":16,"x2-29-30":32,"x2-31-32":32,"x2-32-35":16,"x2-34-35":32}}
+    ],
+    "systemType": "Martingale",
+    "buyIn": 1000,
+    "bets": [
+        30,
+        60,
+        120,
+        240,
+        480
+    ],
+    "rating": "f",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "Section betting system",
+    "spins": [{
+        "spin": 1,
+        "number": "36",
+        "amountBet": 30,
+        "result": -30,
+        "time": "2:08"
+      },
+      {
+        "spin": 2,
+        "number": "6",
+        "amountBet": 60,
+        "result": -60,
+        "time": "2:34"
+      },
+      {
+        "spin": 3,
+        "number": "4",
+        "amountBet": 120,
+        "result": 24,
+        "time": "3:31"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 120,
+        "result": -120,
+        "time": "4:23"
+      },
+      {
+        "spin": 5,
+        "number": "1",
+        "amountBet": 240,
+        "result": -240,
+        "time": "5:28"
+      },
+      {
+        "spin": 6,
+        "number": "28",
+        "amountBet": 480,
+        "result": -480,
+        "time": "7:16"
+      },
+      {
+        "spin": 7,
+        "number": "30",
+        "amountBet": 94,
+        "result": -94,
+        "time": "8:29"
+      }
+    ]
+  },
   {
     "name": "5 for 3 Parlay",
     "airDate": "2024-03-20",
