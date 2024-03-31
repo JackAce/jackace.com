@@ -81,6 +81,9 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
   function getHtmlForSystemType(systemType) {
     let typeName = "--";
     switch (systemType) {
+      case "Flat Bet":
+        typeName = "😐";
+        break;
       case "Positive Progression":
         typeName = "📈";
         break;
@@ -88,11 +91,20 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
         typeName = "📉";
         break;
       case "Martingale":
-        typeName = "📉";
+        typeName = "😱";
+        break;
+      case "Ladder":
+        typeName = "🪜";
+        break;
+      case "Multi-Leg":
+        typeName = "👯‍♀️";
+        break;
+      default:
+        typeName = systemType;
         break;
     }
 
-    return '<span class="chip ' + chipClass + '">' + chipAmount.toLocaleString('en-US', {style: 'currency', currency: 'USD', maximumFractionDigits: 0}) + '</span>';
+    return '<div title="' + systemType + '">' + typeName + '</div>';
   }
 
   function populateDataTable(dataTableData) {
@@ -143,7 +155,8 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
             data: 'buyIn',
             render: function (data, type, row, meta) {
               if (row.systemType) {
-                return row.systemType;
+                //return row.systemType;
+                return getHtmlForSystemType(row.systemType);
               }
               // Need to handle situation when systemType is not specified
               return '--';
