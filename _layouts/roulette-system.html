@@ -148,6 +148,14 @@ layout: page-no-sidebar
     {%-  endif -%}
     <tr>
         <th>
+            Buy-in:
+        </th>
+        <td>
+          {% include chip-amount.html chipAmount=system.buyIn %}
+        </td>
+    </tr>
+    <tr>
+        <th>
             Bet per Spin:
         </th>
         <td>
