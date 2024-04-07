@@ -136,14 +136,16 @@ layout: page-no-sidebar
           <a href="{{ system.youtubeUrl }}" target="cegreview"><img src="{{- site.baseurl -}}/assets/img/icons/youtube-24x24.png" />&nbsp;{% include format-date.html date=system.airDate %}</a>
         </td>
     </tr>
-    <tr>
-      <th width="30%">
-          Buy In:
-      </th>
-      <td width="70%">
-        {% include chip-amount.html chipAmount=system.buyIn %}
-      </td>
-    </tr>
+    {%-  if system.systemType -%}
+      <tr>
+        <th>
+            System Type:
+        </th>
+        <td>
+          {{ system.systemType }}
+        </td>
+      </tr>
+    {%-  endif -%}
     <tr>
         <th>
             Bet per Spin:
