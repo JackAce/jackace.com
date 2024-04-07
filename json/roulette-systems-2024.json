@@ -1,5 +1,429 @@
 [
   {
+    "name": "Stacy's Mom 💃",
+    "airDate": "2024-04-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=e3rJcTLvN1A",
+    "reviewUrl": "2024-04-01-Stacys-Mom",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-high":100}},
+      {"wheelType":1,"wagers":{"x12-doz3":100,"x12-doz2":100}},
+      {"wheelType":1,"wagers":{"x1-1":10,"x2-1-2":10,"x1-2":10,"x2-2-3":10,"x1-3":10,"x4-2-6":10,"x1-5":10,"x4-5-9":10,"x1-9":10,"x2-8-9":10,"x1-8":10,"x2-7-8":10,"x1-7":10,"x1-10":10,"x2-10-13":10,"x1-13":10,"x2-13-16":10,"x1-16":10,"x2-13-14":10,"x1-14":10,"x2-14-15":10,"x1-15":10,"x1-12":10,"x2-12-15":10,"x2-15-18":10,"x1-18":10,"x1-21":10,"x2-20-21":10,"x1-20":10,"x2-19-20":10,"x1-19":10,"x2-19-22":10,"x1-22":10,"x2-22-25":10,"x2-25-28":10,"x4-25-29":10,"x2-26-29":10,"x4-26-30":10,"x2-27-30":10,"x1-30":10,"x2-30-33":10,"x1-33":10,"x1-29":10,"x2-29-32":10}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 500,
+    "bets": [
+      100,
+      200,
+      440
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "20",
+        "amountBet": 100,
+        "result": 100,
+        "time": "1:50"
+      },
+      {
+        "spin": 2,
+        "number": "3",
+        "amountBet": 200,
+        "result": -200,
+        "time": "2:10"
+      },
+      {
+        "spin": 3,
+        "number": "21",
+        "amountBet": 100,
+        "result": 100,
+        "time": "2:43"
+      },
+      {
+        "spin": 4,
+        "number": "20",
+        "amountBet": 200,
+        "result": 100,
+        "time": "3:25"
+      },
+      {
+        "spin": 5,
+        "number": "34",
+        "amountBet": 440,
+        "result": -440,
+        "time": "4:01"
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 100,
+        "result": 100,
+        "time": "4:40"
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 200,
+        "result": 100,
+        "time": "4:52"
+      },
+      {
+        "spin": 8,
+        "number": "7",
+        "amountBet": 440,
+        "result": 100,
+        "time": "5:20"
+      },
+      {
+        "spin": 9,
+        "number": "8",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:35"
+      },
+      {
+        "spin": 10,
+        "number": "12",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:42"
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 100,
+        "result": 100,
+        "time": "6:00"
+      },
+      {
+        "spin": 12,
+        "number": "2",
+        "amountBet": 200,
+        "result": -200,
+        "time": "6:20"
+      },
+      {
+        "spin": 13,
+        "number": "19",
+        "amountBet": 100,
+        "result": 100,
+        "time": "6:52"
+      },
+      {
+        "spin": 14,
+        "number": "5",
+        "amountBet": 200,
+        "result": -200,
+        "time": "7:29"
+      },
+      {
+        "spin": 15,
+        "number": "8",
+        "amountBet": 100,
+        "result": -100,
+        "time": "8:00"
+      },
+      {
+        "spin": 16,
+        "number": "10",
+        "amountBet": 100,
+        "result": -100,
+        "time": "8:31"
+      },
+      {
+        "spin": 17,
+        "number": "5",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:53"
+      }
+    ]
+  },
+  {
+    "name": "Shotgun Blast 💉🔫",
+    "airDate": "2024-03-31",
+    "youtubeUrl": "https://www.youtube.com/watch?v=yfgRHN-IXeQ",
+    "reviewUrl": "2024-03-31-Shotgun-Blast",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x3-34-36":15,"x3-31-33":15,"x3-28-30":15,"x3-25-27":15,"x3-22-24":15}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 250,
+    "bets": [
+      25,
+      75
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "15",
+        "amountBet": 25,
+        "result": -25,
+        "time": "0:59"
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:27"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:53"
+      },
+      {
+        "spin": 4,
+        "number": "13",
+        "amountBet": 25,
+        "result": -25,
+        "time": "2:16"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 25,
+        "result": 50,
+        "time": "2:42",
+        "notes": "Alex won +50, but the video erroneously said +100."
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:20"
+      },
+      {
+        "spin": 7,
+        "number": "24",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:53"
+      },
+      {
+        "spin": 8,
+        "number": "12",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:10"
+      },
+      {
+        "spin": 9,
+        "number": "16",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:47"
+      },
+      {
+        "spin": 10,
+        "number": "22",
+        "amountBet": 25,
+        "result": -25,
+        "time": "5:32"
+      },
+      {
+        "spin": 11,
+        "number": "30",
+        "amountBet": 25,
+        "result": 50,
+        "time": "6:02",
+        "notes": "Alex won +50, but the video erroneously said +100."
+      },
+      {
+        "spin": 12,
+        "number": "36",
+        "amountBet": 75,
+        "result": 105,
+        "time": "6:37"
+      },
+      {
+        "spin": 13,
+        "number": "22",
+        "amountBet": 75,
+        "result": 105,
+        "time": "7:04"
+      },
+      {
+        "spin": 14,
+        "number": "9",
+        "amountBet": 75,
+        "result": -75,
+        "time": "7:42"
+      },
+      {
+        "spin": 15,
+        "number": "23",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:16",
+        "notes": "Video said -50, but it was -25"
+      },
+      {
+        "spin": 16,
+        "number": "5",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:44",
+        "notes": "Video said -50, but it was -25"
+      },
+      {
+        "spin": 17,
+        "number": "21",
+        "amountBet": 25,
+        "result": -25,
+        "time": "9:07",
+        "notes": "Video said -50, but it was -25"
+      },
+      {
+        "spin": 18,
+        "number": "31",
+        "amountBet": 25,
+        "result": 50,
+        "time": "9:55"
+      },
+      {
+        "spin": 19,
+        "number": "5",
+        "amountBet": 75,
+        "result": -75,
+        "time": "10:30"
+      },
+      {
+        "spin": 20,
+        "number": "12",
+        "amountBet": 25,
+        "result": -25,
+        "time": "11:02"
+      },
+      {
+        "spin": 21,
+        "number": "5",
+        "amountBet": 25,
+        "result": -25,
+        "time": "11:36"
+      }
+    ]
+  },
+  {
+    "name": "Fortune Wheel Formula 🔮",
+    "airDate": "2024-03-30",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dHFVAEtoSP4",
+    "reviewUrl": "2024-03-30-Fortune-Wheel-Formula",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-16-21":30,"x3-4-6":15,"x3-31-33":15,"x2-7-8":10,"x1-15":10,"x1-22":10,"x1-34":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      100
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "16",
+        "amountBet": 100,
+        "result": 80,
+        "time": "1:16"
+      },
+      {
+        "spin": 2,
+        "number": "9",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:15"
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 100,
+        "result": 80,
+        "time": "3:11"
+      },
+      {
+        "spin": 4,
+        "number": "14",
+        "amountBet": 100,
+        "result": -100,
+        "time": "4:24",
+        "notes": "Video said the number was 11, but it was 14"
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:11"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 100,
+        "result": 80,
+        "time": "6:20"
+      },
+      {
+        "spin": 7,
+        "number": "25",
+        "amountBet": 100,
+        "result": -100,
+        "time": "7:29"
+      },
+      {
+        "spin": 8,
+        "number": "6",
+        "amountBet": 100,
+        "result": 80,
+        "time": "9:09"
+      },
+      {
+        "spin": 9,
+        "number": "31",
+        "amountBet": 100,
+        "result": 80,
+        "time": "10:20"
+      },
+      {
+        "spin": 10,
+        "number": "2",
+        "amountBet": 100,
+        "result": -100,
+        "time": "11:27"
+      },
+      {
+        "spin": 11,
+        "number": "13",
+        "amountBet": 100,
+        "result": -100,
+        "time": "12:47"
+      }
+    ]
+  },
+  {
     "name": "Triple Martingale 24+8",
     "airDate": "2024-03-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=KCwT0_ZXnd4",
@@ -1204,7 +1628,7 @@
     ]
   },
   {
-    "name": "The Deperation",
+    "name": "The Desperation",
     "airDate": "2024-03-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=tkqfnI9iUbw",
     "reviewUrl": "2024-03-16-The-Desperation",
