@@ -1,5 +1,1819 @@
 [
   {
+    "name": "D-Gen TEC 9 🔫",
+    "airDate": "2024-04-21",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AaES5a7PhnA",
+    "reviewUrl": "2024-04-21-D-Gen-TEC-9",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":25}},
+      {"wheelType":1,"wagers":{"x18-high":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":50}},
+      {"wheelType":1,"wagers":{"x1-7":15,"x1-11":15,"x1-13":15,"x1-17":15,"x1-20":15,"x1-27":15,"x1-31":15,"x1-32":15,"x1-34":15,"x1-19":15}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      25,
+      50,
+      100,
+      150
+    ],
+    "rating": "a",
+    "jackaceRating": "c",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 3,
+      "chipUniformity": 3,
+      "jackpotPotential": 3,
+      "scalability": 3,
+      "compValue": 2
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "36",
+        "amountBet": 25,
+        "result": -25,
+        "time": "0:56"
+      },
+      {
+        "spin": 2,
+        "number": "14",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:32"
+      },
+      {
+        "spin": 3,
+        "number": "35",
+        "amountBet": 25,
+        "result": 25,
+        "time": "2:08"
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:59"
+      },
+      {
+        "spin": 5,
+        "number": "29",
+        "amountBet": 25,
+        "result": 25,
+        "time": "3:34"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:52"
+      },
+      {
+        "spin": 7,
+        "number": "12",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:22"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 25,
+        "result": 25,
+        "time": "5:02"
+      },
+      {
+        "spin": 9,
+        "number": "16",
+        "amountBet": 50,
+        "result": -50,
+        "time": "5:39"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:04"
+      },
+      {
+        "spin": 11,
+        "number": "33",
+        "amountBet": 50,
+        "result": 50,
+        "time": "6:23"
+      },
+      {
+        "spin": 12,
+        "number": "14",
+        "amountBet": 100,
+        "result": 50,
+        "time": "6:47"
+      },
+      {
+        "spin": 13,
+        "number": "34",
+        "amountBet": 150,
+        "result": 390,
+        "time": "7:24"
+      },
+      {
+        "spin": 14,
+        "number": "27",
+        "amountBet": 25,
+        "result": 25,
+        "time": "8:24"
+      },
+      {
+        "spin": 15,
+        "number": "22",
+        "amountBet": 25,
+        "result": 25,
+        "time": "8:56",
+        "notes": "I think Alex messed up his bet here."
+      },
+      {
+        "spin": 16,
+        "number": "1",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:23"
+      },
+      {
+        "spin": 17,
+        "number": "28",
+        "amountBet": 25,
+        "result": 25,
+        "time": "10:39",
+        "notes": "Video said he lost, but he won $25."
+      },
+      {
+        "spin": 18,
+        "number": "15",
+        "amountBet": 50,
+        "result": -50,
+        "time": "11:07"
+      },
+      {
+        "spin": 19,
+        "number": "32",
+        "amountBet": 25,
+        "result": -25,
+        "time": "11:36"
+      }
+    ]
+  },
+  {
+    "name": "Ark Reactor ☢️☢️",
+    "airDate": "2024-04-19",
+      "youtubeUrl": "https://www.youtube.com/watch?v=a_OWukzqQ9w",
+    "reviewUrl": "2024-04-19-Ark-Reactor",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-low":90,"x2-19-20":10,"x2-25-28":10,"x2-26-27":10,"x2-33-36":10,"x2-34-35":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 140,
+    "bets": [
+      140
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 5,
+      "chipUniformity": 4,
+      "jackpotPotential": 1,
+      "scalability": 3,
+      "compValue": 4
+    },
+    "isJackAceReview": false,
+    "friendCount": 5,
+    "notes": "",
+    "spins": [{
+        "friend": 1,
+        "spin": 1,
+        "number": "17",
+        "amountBet": 140,
+        "result": 40,
+        "time": "1:27"
+      },
+      {
+        "friend": 1,
+        "spin": 2,
+        "number": "16",
+        "amountBet": 140,
+        "result": 40,
+        "time": "2:21"
+      },
+      {
+        "friend": 1,
+        "spin": 3,
+        "number": "16",
+        "amountBet": 140,
+        "result": 40,
+        "time": "2:45"
+      },
+      {
+        "friend": 1,
+        "spin": 4,
+        "number": "15",
+        "amountBet": 140,
+        "result": 40,
+        "time": "3:44"
+      },
+      {
+        "friend": 2,
+        "spin": 5,
+        "number": "18",
+        "amountBet": 140,
+        "result": 40,
+        "time": "4:43"
+      },
+      {
+        "friend": 2,
+        "spin": 6,
+        "number": "22",
+        "amountBet": 140,
+        "result": -140,
+        "time": "5:30"
+      },
+      {
+        "friend": 3,
+        "spin": 7,
+        "number": "19",
+        "amountBet": 140,
+        "result": 40,
+        "time": "7:00"
+      },
+      {
+        "friend": 3,
+        "spin": 8,
+        "number": "23",
+        "amountBet": 140,
+        "result": -140,
+        "time": "7:41"
+      },
+      {
+        "friend": 4,
+        "spin": 9,
+        "number": "21",
+        "amountBet": 140,
+        "result": -140,
+        "time": "8:38"
+      },
+      {
+        "friend": 5,
+        "spin": 10,
+        "number": "11",
+        "amountBet": 140,
+        "result": 40,
+        "time": "9:42"
+      },
+      {
+        "friend": 5,
+        "spin": 11,
+        "number": "16",
+        "amountBet": 140,
+        "result": 40,
+        "time": "10:20"
+      },
+      {
+        "friend": 5,
+        "spin": 12,
+        "number": "15",
+        "amountBet": 140,
+        "result": 40,
+        "time": "10:55"
+      },
+      {
+        "friend": 5,
+        "spin": 13,
+        "number": "36",
+        "amountBet": 140,
+        "result": 40,
+        "time": "11:33"
+      }
+    ]
+  },
+  {
+    "name": "Fibonacci Hopscotch",
+    "airDate": "2024-04-18",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mg14IqiEAbs",
+    "reviewUrl": "2024-04-18-Fibonacci-Hopscotch",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x18-black":15}},
+      {"wheelType":1,"wagers":{"x12-doz2":15,"x12-doz3":15}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      10,
+      20,
+      15,
+      30,
+      20,
+      30,
+      50,
+      80,
+      130
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 2,
+      "chipUniformity": 2,
+      "jackpotPotential": 1,
+      "scalability": 2,
+      "compValue": 1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "28",
+        "amountBet": 100,
+        "result": 50,
+        "time": "2:01"
+      },
+      {
+        "spin": 2,
+        "number": "14",
+        "amountBet": 20,
+        "result": 10,
+        "time": "2:29"
+      },
+      {
+        "spin": 3,
+        "number": "3",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:35"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 10,
+        "result": 10,
+        "time": "3:50"
+      },
+      {
+        "spin": 5,
+        "number": "25",
+        "amountBet": 20,
+        "result": 10,
+        "time": "4:08"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 15,
+        "result": -15,
+        "time": "4:23"
+      },
+      {
+        "spin": 7,
+        "number": "35",
+        "amountBet": 10,
+        "result": 10,
+        "time": "4:47"
+      },
+      {
+        "spin": 8,
+        "number": "18",
+        "amountBet": 20,
+        "result": 10,
+        "time": "4:59"
+      },
+      {
+        "spin": 9,
+        "number": "00",
+        "amountBet": 15,
+        "result": -15,
+        "time": "5:22"
+      },
+      {
+        "spin": 10,
+        "number": "6",
+        "amountBet": 50,
+        "result": 50,
+        "time": "5:48",
+        "notes": "For this bet and beyond, Alex upped the bet size to $50 as the starting bet (multiply everything by 5)."
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 100,
+        "result": -100,
+        "time": "6:04"
+      },
+      {
+        "spin": 12,
+        "number": "9",
+        "amountBet": 50,
+        "result": -50,
+        "time": "6:13"
+      },
+      {
+        "spin": 13,
+        "number": "29",
+        "amountBet": 100,
+        "result": 100,
+        "time": "6:35",
+        "notes": "Not sure why Alex upped his bet to $100 here."
+      },
+      {
+        "spin": 14,
+        "number": "5",
+        "amountBet": 100,
+        "result": -100,
+        "time": "6:52"
+      },
+      {
+        "spin": 15,
+        "number": "22",
+        "amountBet": 150,
+        "result": -150,
+        "time": "7:22"
+      },
+      {
+        "spin": 16,
+        "number": "17",
+        "amountBet": 100,
+        "result": 50,
+        "time": "7:56",
+        "notes": "I don't know why Alex bet 2 dozens here."
+      },
+      {
+        "spin": 17,
+        "number": "25",
+        "amountBet": 75,
+        "result": -75,
+        "time": "8:12"
+      },
+      {
+        "spin": 18,
+        "number": "00",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:24"
+      },
+      {
+        "spin": 19,
+        "number": "7",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:35",
+        "notes": "Step 2 of Fibonacci"
+      },
+      {
+        "spin": 20,
+        "number": "12",
+        "amountBet": 100,
+        "result": -100,
+        "time": "8:48",
+        "notes": "Step 3 of Fibonacci"
+      },
+      {
+        "spin": 21,
+        "number": "21",
+        "amountBet": 150,
+        "result": -150,
+        "time": "8:56"
+      },
+      {
+        "spin": 22,
+        "number": "6",
+        "amountBet": 250,
+        "result": 250,
+        "time": "9:15"
+      },
+      {
+        "spin": 23,
+        "number": "12",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:33",
+        "notes": "I don't know why Alex bet the dozens here."
+      },
+      {
+        "spin": 24,
+        "number": "2",
+        "amountBet": 400,
+        "result": 400,
+        "time": "9:52",
+        "notes": "I have no idea what system Alex is trying to use."
+      },
+      {
+        "spin": 25,
+        "number": "9",
+        "amountBet": 100,
+        "result": -100,
+        "time": "10:28",
+        "notes": "Please let this pain be over."
+      },
+      {
+        "spin": 26,
+        "number": "24",
+        "amountBet": 650,
+        "result": 650,
+        "time": "10:38"
+      },
+      {
+        "spin": 27,
+        "number": "0",
+        "amountBet": 100,
+        "result": -100,
+        "time": "11:18"
+      },
+      {
+        "spin": 28,
+        "number": "21",
+        "amountBet": 1050,
+        "result": -1050,
+        "time": "11:35",
+        "notes": "YOLO"
+      },
+      {
+        "spin": 29,
+        "number": "6",
+        "amountBet": 1700,
+        "result": 1700,
+        "time": "11:57",
+        "notes": "Alex borrowed money to make this happen."
+      },
+      {
+        "spin": 30,
+        "number": "10",
+        "amountBet": 100,
+        "result": -100,
+        "time": "12:27",
+        "notes": "Why back to the dozens bet?"
+      },
+      {
+        "spin": 31,
+        "number": "31",
+        "amountBet": 2750,
+        "result": 2750,
+        "time": "12:46",
+        "notes": "I have no idea what system Alex is trying to use."
+      },
+      {
+        "spin": 32,
+        "number": "00",
+        "amountBet": 100,
+        "result": -100,
+        "time": "13:05"
+      },
+      {
+        "spin": 33,
+        "number": "22",
+        "amountBet": 4450,
+        "result": 4450,
+        "time": "13:21"
+      },
+      {
+        "spin": 34,
+        "number": "35",
+        "amountBet": 50,
+        "result": 50,
+        "time": "13:40"
+      }
+    ]
+  },
+  {
+    "name": "Cakewalk 2.0 🎂",
+    "airDate": "2024-04-17",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wDnDkCQAgSw",
+    "reviewUrl": "2024-04-17-Cakewalk-20",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":50,"x12-doz3":50}},
+      {"wheelType":1,"wagers":{"x12-doz1":75,"x12-doz3":75}},
+      {"wheelType":1,"wagers":{"x18-high":100}},
+      {"wheelType":1,"wagers":{"x12-doz1":100,"x12-doz3":100}},
+      {"wheelType":1,"wagers":{"x12-doz1":150,"x12-doz3":150}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 500,
+    "bets": [
+      100,
+      150,
+      100,
+      200,
+      300
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 3,
+      "chipUniformity": 4,
+      "jackpotPotential": 2,
+      "scalability": 4,
+      "compValue": 4
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "20",
+        "amountBet": 100,
+        "result": 50,
+        "time": "0:44"
+      },
+      {
+        "spin": 2,
+        "number": "14",
+        "amountBet": 150,
+        "result": -150,
+        "time": "0:57"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 100,
+        "result": 50,
+        "time": "1:26"
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 150,
+        "result": -150,
+        "time": "1:36"
+      },
+      {
+        "spin": 5,
+        "number": "24",
+        "amountBet": 100,
+        "result": -100,
+        "time": "1:51"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 100,
+        "result": -100,
+        "time": "1:59"
+      },
+      {
+        "spin": 7,
+        "number": "30",
+        "amountBet": 100,
+        "result": 50,
+        "time": "2:11"
+      },
+      {
+        "spin": 8,
+        "number": "31",
+        "amountBet": 150,
+        "result": 75,
+        "time": "2:31"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 100,
+        "result": -100,
+        "time": "3:02"
+      },
+      {
+        "spin": 10,
+        "number": "3",
+        "amountBet": 100,
+        "result": 50,
+        "time": "3:27"
+      },
+      {
+        "spin": 11,
+        "number": "23",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:40"
+      },
+      {
+        "spin": 12,
+        "number": "12",
+        "amountBet": 100,
+        "result": 50,
+        "time": "4:12"
+      },
+      {
+        "spin": 13,
+        "number": "5",
+        "amountBet": 150,
+        "result": 75,
+        "time": "4:32"
+      },
+      {
+        "spin": 14,
+        "number": "28",
+        "amountBet": 100,
+        "result": 100,
+        "time": "4:56"
+      },
+      {
+        "spin": 15,
+        "number": "26",
+        "amountBet": 200,
+        "result": 100,
+        "time": "5:18"
+      },
+      {
+        "spin": 16,
+        "number": "25",
+        "amountBet": 300,
+        "result": 150,
+        "time": "5:42"
+      },
+      {
+        "spin": 17,
+        "number": "14",
+        "amountBet": 200,
+        "result": 100,
+        "time": "6:14"
+      },
+      {
+        "spin": 18,
+        "number": "23",
+        "amountBet": 300,
+        "result": 150,
+        "time": "6:33"
+      },
+      {
+        "spin": 19,
+        "number": "5",
+        "amountBet": 200,
+        "result": -200,
+        "time": "7:03"
+      },
+      {
+        "spin": 20,
+        "number": "19",
+        "amountBet": 100,
+        "result": 50,
+        "time": "7:34"
+      },
+      {
+        "spin": 21,
+        "number": "19",
+        "amountBet": 150,
+        "result": 75,
+        "time": "7:52"
+      },
+      {
+        "spin": 22,
+        "number": "31",
+        "amountBet": 100,
+        "result": 100,
+        "time": "8:01"
+      },
+      {
+        "spin": 23,
+        "number": "14",
+        "amountBet": 200,
+        "result": 100,
+        "time": "8:22"
+      },
+      {
+        "spin": 24,
+        "number": "7",
+        "amountBet": 300,
+        "result": -300,
+        "time": "8:33"
+      },
+      {
+        "spin": 25,
+        "number": "25",
+        "amountBet": 100,
+        "result": 50,
+        "time": "8:51"
+      },
+      {
+        "spin": 26,
+        "number": "00",
+        "amountBet": 150,
+        "result": -150,
+        "time": "9:13"
+      },
+      {
+        "spin": 27,
+        "number": "29",
+        "amountBet": 100,
+        "result": 50,
+        "time": "9:30"
+      },
+      {
+        "spin": 28,
+        "number": "3",
+        "amountBet": 150,
+        "result": -150,
+        "time": "941"
+      },
+      {
+        "spin": 29,
+        "number": "36",
+        "amountBet": 100,
+        "result": 50,
+        "time": "9:51"
+      },
+      {
+        "spin": 30,
+        "number": "36",
+        "amountBet": 150,
+        "result": 75,
+        "time": "10:04"
+      },
+      {
+        "spin": 31,
+        "number": "3",
+        "amountBet": 100,
+        "result": -100,
+        "time": "10:33"
+      },
+      {
+        "spin": 32,
+        "number": "23",
+        "amountBet": 100,
+        "result": 50,
+        "time": "11:12"
+      },
+      {
+        "spin": 33,
+        "number": "34",
+        "amountBet": 150,
+        "result": 75,
+        "time": "11:24"
+      },
+      {
+        "spin": 34,
+        "number": "18",
+        "amountBet": 100,
+        "result": -100,
+        "time": "11:41"
+      }
+    ]
+  },
+  {
+    "name": "D1C",
+    "airDate": "2024-04-15",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T1yudNZRjGY",
+    "reviewUrl": "2024-04-15-D1C",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-col2":20}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 300,
+    "bets": [
+      40,
+      50
+    ],
+    "rating": "a",
+    "jackaceRating": "c",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 3,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 2
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "20",
+        "amountBet": 40,
+        "result": 80,
+        "time": "2:32"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 80,
+        "result": -80,
+        "time": "2:51"
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 40,
+        "result": -40,
+        "time": "3:14"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 40,
+        "result": 20,
+        "time": "3:40"
+      },
+      {
+        "spin": 5,
+        "number": "00",
+        "amountBet": 60,
+        "result": -60,
+        "time": "4:07"
+      },
+      {
+        "spin": 6,
+        "number": "16",
+        "amountBet": 40,
+        "result": -40,
+        "time": "4:37"
+      },
+      {
+        "spin": 7,
+        "number": "17",
+        "amountBet": 40,
+        "result": 80,
+        "time": "4:50"
+      },
+      {
+        "spin": 8,
+        "number": "6",
+        "amountBet": 120,
+        "result": -120,
+        "time": "5:14"
+      },
+      {
+        "spin": 9,
+        "number": "12",
+        "amountBet": 40,
+        "result": -40,
+        "time": "5:28"
+      },
+      {
+        "spin": 10,
+        "number": "11",
+        "amountBet": 40,
+        "result": -40,
+        "time": "6:06"
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 40,
+        "result": -40,
+        "time": "6:36"
+      },
+      {
+        "spin": 12,
+        "number": "7",
+        "amountBet": 40,
+        "result": -40,
+        "time": "6:57",
+        "notes": "I believe Alex bought in for more here."
+      },
+      {
+        "spin": 13,
+        "number": "8",
+        "amountBet": 40,
+        "result": -40,
+        "time": "7:29"
+      },
+      {
+        "spin": 14,
+        "number": "13",
+        "amountBet": 40,
+        "result": 20,
+        "time": "7:55"
+      },
+      {
+        "spin": 15,
+        "number": "29",
+        "amountBet": 60,
+        "result": 30,
+        "time": "8:35"
+      },
+      {
+        "spin": 16,
+        "number": "24",
+        "amountBet": 90,
+        "result": 45,
+        "time": "8:48"
+      },
+      {
+        "spin": 17,
+        "number": "28",
+        "amountBet": 40,
+        "result": 80,
+        "time": "8:58",
+        "notes": "Not sure why alex didn't keep his bets up. He dropped down to $20/$20."
+      },
+      {
+        "spin": 18,
+        "number": "8",
+        "amountBet": 120,
+        "result": -120,
+        "time": "9:18"
+      },
+      {
+        "spin": 19,
+        "number": "3",
+        "amountBet": 40,
+        "result": 20,
+        "time": "9:31"
+      },
+      {
+        "spin": 20,
+        "number": "10",
+        "amountBet": 60,
+        "result": -60,
+        "time": "9:46"
+      },
+      {
+        "spin": 21,
+        "number": "12",
+        "amountBet": 50,
+        "result": -50,
+        "time": "10:13",
+        "notes": "Alex was down to $50 so he just bet $25 each."
+      },
+      {
+        "spin": 22,
+        "number": "00",
+        "amountBet": 100,
+        "result": -100,
+        "time": "10:50",
+        "notes": "Alex bought in for more and increased his bets here."
+      },
+      {
+        "spin": 23,
+        "number": "33",
+        "amountBet": 100,
+        "result": 50,
+        "time": "10:59"
+      },
+      {
+        "spin": 24,
+        "number": "10",
+        "amountBet": 150,
+        "result": -150,
+        "time": "11:17"
+      },
+      {
+        "spin": 25,
+        "number": "5",
+        "amountBet": 100,
+        "result": -100,
+        "time": "11:27"
+      },
+      {
+        "spin": 26,
+        "number": "25",
+        "amountBet": 100,
+        "result": -100,
+        "time": "11:45"
+      },
+      {
+        "spin": 27,
+        "number": "28",
+        "amountBet": 100,
+        "result": -100,
+        "time": "12:04"
+      },
+      {
+        "spin": 28,
+        "number": "36",
+        "amountBet": 100,
+        "result": -100,
+        "time": "12:15"
+      },
+      {
+        "spin": 29,
+        "number": "25",
+        "amountBet": 100,
+        "result": -100,
+        "time": "12:29"
+      },
+      {
+        "spin": 30,
+        "number": "7",
+        "amountBet": 100,
+        "result": -100,
+        "time": "12:41"
+      },
+      {
+        "spin": 31,
+        "number": "5",
+        "amountBet": 200,
+        "result": -200,
+        "time": "13:00"
+      },
+      {
+        "spin": 32,
+        "number": "11",
+        "amountBet": 0,
+        "result": 0,
+        "time": "13:26",
+        "notes": "Alex cried uncle and stopped betting."
+      },
+      {
+        "spin": 33,
+        "number": "13",
+        "amountBet": 0,
+        "result": 0,
+        "time": "14:11"
+      }
+    ]
+  },
+  {
+    "name": "Alex's Kids 👶👶🏻👶🏼👶🏽👶🏾👶🏿",
+    "airDate": "2024-04-14",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fxoXOdh0UsU",
+    "reviewUrl": "2024-04-14-Alexs-Kids",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-10":5,"x1-12":5,"x1-14":5,"x1-15":5,"x1-16":5,"x1-17":5,"x1-19":5,"x1-20":5,"x1-21":5,"x1-24":5,"x1-26":5,"x1-29":5,"x1-30":5,"x1-31":5,"x1-35":5,"x1-36":5,"x1-4":5,"x1-5":5,"x1-6":5,"x1-7":5}},
+      {"wheelType":1,"wagers":{"x1-10":10,"x1-12":10,"x1-14":10,"x1-15":10,"x1-16":10,"x1-17":10,"x1-19":10,"x1-20":10,"x1-21":10,"x1-24":10,"x1-26":10,"x1-29":10,"x1-30":10,"x1-31":10,"x1-35":10,"x1-36":10,"x1-4":10,"x1-5":10,"x1-6":10,"x1-7":10}}
+    ],
+    "systemType": "Martingale",
+    "buyIn": 500,
+    "bets": [
+      100,
+      200
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 0,
+      "progressionSimplicity": 4,
+      "chipUniformity": 3.5,
+      "jackpotPotential": 1,
+      "scalability": 1.5,
+      "compValue": 4
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "9",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:32"
+      },
+      {
+        "spin": 2,
+        "number": "34",
+        "amountBet": 100,
+        "result": -100,
+        "time": "3:37"
+      },
+      {
+        "spin": 3,
+        "number": "25",
+        "amountBet": 200,
+        "result": 160,
+        "time": "4:45",
+        "notes": "Alex had to buy in for more here. And the win is +160, not +260 as displayed in the video."
+      },
+      {
+        "spin": 4,
+        "number": "30",
+        "amountBet": 200,
+        "result": 160,
+        "time": "5:47",
+        "notes": "The win is +160, not +260 as displayed in the video."
+      },
+      {
+        "spin": 5,
+        "number": "25",
+        "amountBet": 200,
+        "result": -200,
+        "time": "7:54"
+      },
+      {
+        "spin": 6,
+        "number": "28",
+        "amountBet": 200,
+        "result": -200,
+        "time": "9:22"
+      },
+      {
+        "spin": 7,
+        "number": "16",
+        "amountBet": 120,
+        "result": -120,
+        "time": "10:30",
+        "notes": "Alex just YOLO'ed the rest of his money."
+      }
+    ]
+  },
+  {
+    "name": "Best Minute",
+    "airDate": "2024-04-12",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rBBpc2DvVBo",
+    "reviewUrl": "2024-04-12-Best-Minute",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":25,"x6-10-15":25,"x6-16-21":25,"x6-22-27":25,"x6-28-33":25}},
+      {"wheelType":1,"wagers":{"x12-doz1":50,"x18-high":100}},
+      {"wheelType":1,"wagers":{"x18-high":50,"x18-odd":50,"x18-black":50}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 250,
+    "bets": [
+      125,
+      150,
+      150
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 5,
+      "jackpotPotential": 1,
+      "scalability": 2,
+      "compValue": 4
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "2",
+        "amountBet": 125,
+        "result": -125,
+        "time": "1:35"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 125,
+        "result": 25,
+        "time": "2:11"
+      },
+      {
+        "spin": 3,
+        "number": "21",
+        "amountBet": 125,
+        "result": 25,
+        "time": "2:47"
+      },
+      {
+        "spin": 4,
+        "number": "35",
+        "amountBet": 150,
+        "result": 50,
+        "time": "3:25"
+      },
+      {
+        "spin": 5,
+        "number": "18",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:57"
+      },
+      {
+        "spin": 6,
+        "number": "8",
+        "amountBet": 125,
+        "result": 25,
+        "time": "4:33"
+      },
+      {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 125,
+        "result": 25,
+        "time": "5:11"
+      },
+      {
+        "spin": 8,
+        "number": "19",
+        "amountBet": 150,
+        "result": 50,
+        "time": "5:58"
+      },
+      {
+        "spin": 9,
+        "number": "13",
+        "amountBet": 150,
+        "result": -150,
+        "time": "6:45",
+        "notes": "The loss was $150, not $125 as displayed on the video."
+      },
+      {
+        "spin": 10,
+        "number": "32",
+        "amountBet": 125,
+        "result": 25,
+        "time": "7:41"
+      },
+      {
+        "spin": 11,
+        "number": "33",
+        "amountBet": 125,
+        "result": 25,
+        "time": "8:15"
+      },
+      {
+        "spin": 12,
+        "number": "21",
+        "amountBet": 150,
+        "result": -150,
+        "time": "8:55"
+      },
+      {
+        "spin": 13,
+        "number": "26",
+        "amountBet": 150,
+        "result": 50,
+        "time": "9:36"
+      },
+      {
+        "spin": 14,
+        "number": "18",
+        "amountBet": 150,
+        "result": -150,
+        "time": "10:38"
+      },
+      {
+        "spin": 15,
+        "number": "29",
+        "amountBet": 125,
+        "result": 25,
+        "time": "11:17"
+      },
+      {
+        "spin": 16,
+        "number": "28",
+        "amountBet": 125,
+        "result": 25,
+        "time": "12:01"
+      },
+      {
+        "spin": 17,
+        "number": "31",
+        "amountBet": 150,
+        "result": 50,
+        "time": "12:32"
+      },
+      {
+        "spin": 18,
+        "number": "30",
+        "amountBet": 150,
+        "result": 50,
+        "time": "13:07"
+      },
+      {
+        "spin": 19,
+        "number": "8",
+        "amountBet": 150,
+        "result": -50,
+        "time": "13:34",
+        "notes": "Video said -100"
+      },
+      {
+        "spin": 20,
+        "number": "00",
+        "amountBet": 150,
+        "result": -150,
+        "time": "14:10"
+      }
+    ]
+  },
+  {
+    "name": "3 Shots G-Spot",
+    "airDate": "2024-04-11",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J6u_BtnSOv0",
+    "reviewUrl": "2024-04-11-3-Shots-G-Spot",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":50}},
+      {"wheelType":1,"wagers":{"x4-2-6":10,"x4-8-12":10,"x4-7-11":10,"x4-1-5":10,"x2-5-8":10,"x4-14-18":10,"x4-20-24":10,"x4-19-23":10,"x4-13-17":10,"x2-17-20":10,"x4-25-29":10,"x4-26-30":10,"x2-29-32":10,"x4-32-36":10,"x4-31-35":10}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 200,
+    "bets": [
+      25,
+      50,
+      150
+    ],
+    "rating": "a",
+    "jackaceRating": "f",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "7",
+        "amountBet": 25,
+        "result": -25,
+        "time": "2:13"
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 25,
+        "result": 25,
+        "time": "2:42"
+      },
+      {
+        "spin": 3,
+        "number": "3",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:59"
+      },
+      {
+        "spin": 4,
+        "number": "20",
+        "amountBet": 25,
+        "result": 25,
+        "time": "3:31"
+      },
+      {
+        "spin": 5,
+        "number": "24",
+        "amountBet": 50,
+        "result": 100,
+        "time": "3:44"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 150,
+        "result": -60,
+        "time": "4:17"
+      },
+      {
+        "spin": 7,
+        "number": "35",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:52"
+      },
+      {
+        "spin": 8,
+        "number": "36",
+        "amountBet": 25,
+        "result": 25,
+        "time": "5:17"
+      },
+      {
+        "spin": 9,
+        "number": "29",
+        "amountBet": 50,
+        "result": 100,
+        "time": "5:28"
+      },
+      {
+        "spin": 10,
+        "number": "33",
+        "amountBet": 150,
+        "result": -60,
+        "time": "5:52"
+      },
+      {
+        "spin": 11,
+        "number": "00",
+        "amountBet": 50,
+        "result": -50,
+        "time": "6:20"
+      },
+      {
+        "spin": 12,
+        "number": "21",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:47"
+      },
+      {
+        "spin": 13,
+        "number": "33",
+        "amountBet": 25,
+        "result": 25,
+        "time": "6:55"
+      },
+      {
+        "spin": 14,
+        "number": "18",
+        "amountBet": 50,
+        "result": 100,
+        "time": "7:11"
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 150,
+        "result": 210,
+        "time": "7:21"
+      },
+      {
+        "spin": 16,
+        "number": "16",
+        "amountBet": 25,
+        "result": -25,
+        "time": "7:46"
+      },
+      {
+        "spin": 17,
+        "number": "5",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:07"
+      },
+      {
+        "spin": 18,
+        "number": "6",
+        "amountBet": 25,
+        "result": 25,
+        "time": "8:24"
+      },
+      {
+        "spin": 19,
+        "number": "22",
+        "amountBet": 50,
+        "result": 100,
+        "time": "8:44"
+      },
+      {
+        "spin": 20,
+        "number": "21",
+        "amountBet": 150,
+        "result": -60,
+        "time": "8:55"
+      },
+      {
+        "spin": 21,
+        "number": "16",
+        "amountBet": 50,
+        "result": 100,
+        "time": "9:14"
+      },
+      {
+        "spin": 22,
+        "number": "31",
+        "amountBet": 150,
+        "result": -60,
+        "time": "9:22"
+      },
+      {
+        "spin": 23,
+        "number": "18",
+        "amountBet": 50,
+        "result": -50,
+        "time": "9:41"
+      },
+      {
+        "spin": 24,
+        "number": "8",
+        "amountBet": 25,
+        "result": 25,
+        "time": "9:51"
+      },
+      {
+        "spin": 25,
+        "number": "29",
+        "amountBet": 50,
+        "result": -50,
+        "time": "10:10"
+      },
+      {
+        "spin": 26,
+        "number": "26",
+        "amountBet": 25,
+        "result": 25,
+        "time": "10:25"
+      },
+      {
+        "spin": 27,
+        "number": "19",
+        "amountBet": 50,
+        "result": -50,
+        "time": "11:00"
+      },
+      {
+        "spin": 28,
+        "number": "23",
+        "amountBet": 25,
+        "result": -25,
+        "time": "11:36"
+      }
+    ]
+  },
+  {
+    "name": "Rumple DD",
+    "airDate": "2024-04-10",
+      "youtubeUrl": "https://www.youtube.com/watch?v=86c7jrEKTpE",
+    "reviewUrl": "2024-04-10-Rumple-DD",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-1-5":25,"x4-8-12":25,"x4-13-17":25,"x4-20-24":25,"x4-25-29":25,"x4-32-36":25}},
+      {"wheelType":1,"wagers":{"x4-1-5":50,"x4-8-12":50,"x4-13-17":50,"x4-20-24":50,"x4-25-29":50,"x4-32-36":50}},
+      {"wheelType":1,"wagers":{"x4-1-5":75,"x4-8-12":75,"x4-13-17":75,"x4-20-24":75,"x4-25-29":75,"x4-32-36":75}},
+      {"wheelType":1,"wagers":{"x4-1-5":100,"x4-8-12":100,"x4-13-17":100,"x4-20-24":100,"x4-25-29":100,"x4-32-36":100}}
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 1000,
+    "bets": [
+      150,
+      300,
+      450,
+      600,
+      750
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{ 
+        "spin": 1,
+        "number": "33",
+        "amountBet": 150,
+        "result": 75,
+        "time": "0:56"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 150,
+        "result": 75,
+        "time": "1:28"
+      },
+      {
+        "spin": 3,
+        "number": "4",
+        "amountBet": 150,
+        "result": 75,
+        "time": "1:46"
+      },
+      {
+        "spin": 4,
+        "number": "35",
+        "amountBet": 150,
+        "result": 75,
+        "time": "2:00"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 150,
+        "result": 75,
+        "time": "2:19"
+      },
+      {
+        "spin": 6,
+        "number": "5",
+        "amountBet": 150,
+        "result": 75,
+        "time": "2:42"
+      },
+      {
+        "spin": 7,
+        "number": "2",
+        "amountBet": 150,
+        "result": 75,
+        "time": "3:05"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:28"
+      },
+      {
+        "spin": 9,
+        "number": "16",
+        "amountBet": 300,
+        "result": -300,
+        "time": "4:03"
+      },
+      {
+        "spin": 10,
+        "number": "31",
+        "amountBet": 450,
+        "result": 225,
+        "time": "4:25"
+      },
+      {
+        "spin": 11,
+        "number": "11",
+        "amountBet": 450,
+        "result": 225,
+        "time": "4:51"
+      },
+      {
+        "spin": 12,
+        "number": "00",
+        "amountBet": 450,
+        "result": -450,
+        "time": "5:04"
+      },
+      {
+        "spin": 13,
+        "number": "3",
+        "amountBet": 600,
+        "result": 300,
+        "time": "5:37",
+        "notes": "Alex borrowed money to make this bet."
+      },
+      {
+        "spin": 14,
+        "number": "24",
+        "amountBet": 600,
+        "result": 300,
+        "time": "5:54"
+      },
+      {
+        "spin": 15,
+        "number": "16",
+        "amountBet": 600,
+        "result": -600,
+        "time": "6:22"
+      },
+      {
+        "spin": 16,
+        "number": "16",
+        "amountBet": 750,
+        "result": -750,
+        "time": "6:51",
+        "notes": "Alex borrowed more money to make this bet."
+      },
+      {
+        "spin": 17,
+        "number": "1",
+        "amountBet": 900,
+        "result": -900,
+        "time": "7:44",
+        "notes": "Alex borrowed more money and changed his numbers around."
+      },
+      {
+        "spin": 18,
+        "number": "18",
+        "amountBet": 1050,
+        "result": 525,
+        "time": "8:27"
+      },
+      {
+        "spin": 19,
+        "number": "18",
+        "amountBet": 1050,
+        "result": -1050,
+        "time": "9:18",
+        "notes": "Alex moved the bets around again."
+      },
+      {
+        "spin": 20,
+        "number": "12",
+        "amountBet": 900,
+        "result": -900,
+        "time": "10:07",
+        "notes": "Alex just YOLO'ed on Black."
+      }
+    ]
+  },
+  {
     "name": "Ploppy 3-2 DD",
     "airDate": "2024-04-08",
       "youtubeUrl": "https://www.youtube.com/watch?v=RWsv6E0EGhQ",
@@ -2328,6 +4142,7 @@
     "airDate": "2024-03-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=gQl-zx3uoIM",
     "reviewUrl": "2024-03-18-Spideycents",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=SoW4s0SDpRs",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
       "00-rba-1-800x768.png",
@@ -2349,7 +4164,7 @@
         80
     ],
     "rating": "a",
-    "jackaceRating": "b",
+    "jackaceRating": "d",
     "isJackAceReview": false,
     "notes": "",
     "spins": [{
