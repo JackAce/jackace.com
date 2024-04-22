@@ -33,6 +33,7 @@ layout: page-no-sidebar
 {%- assign renderErrorsFound = false -%}
 {%- assign renderErrorMessage = "" -%}
 {%- assign isJackAceReview = system.isJackAceReview -%}
+{%- assign ratingDetails = system.jackaceRatingDetails -%}
 
 <!-- Calculate totals BEGIN -->
 {%- assign totalAmountBet = 0.00 -%}
@@ -210,6 +211,59 @@ layout: page-no-sidebar
     </th>
     <td>
       {% include ceg-system-rating.html rating=jackaceRating showRatingLetter=true showRatingName=true %}
+      {%- if ratingDetails -%}
+        <br/><br/>
+        <table>
+          <tr>
+            <th>
+              Betting Simplicity:
+            </th>
+            <td>
+              {%- include rating-stars.html rating=ratingDetails.bettingSimplicity -%}
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Progression Simplicity:
+            </th>
+            <td>
+              {%- include rating-stars.html rating=ratingDetails.progressionSimplicity -%}
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Chip Uniformity:
+            </th>
+            <td>
+              {%- include rating-stars.html rating=ratingDetails.chipUniformity -%}
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Jackpot Potential:
+            </th>
+            <td>
+              {%- include rating-stars.html rating=ratingDetails.jackpotPotential -%}
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Scalability:
+            </th>
+            <td>
+              {%- include rating-stars.html rating=ratingDetails.scalability -%}
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Comp Value:
+            </th>
+            <td>
+              {%- include rating-stars.html rating=ratingDetails.compValue -%}
+            </td>
+          </tr>
+        </table>
+      {%- endif -%}
     </td>
   </tr>
   {% if systemNotesSize > 0 %}
