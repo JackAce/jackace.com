@@ -1,6 +1,6 @@
 [
   {
-    "name": "D-Gen TEC 9 🔫",
+    "name": "D-Gen TEC-9 🔫",
     "airDate": "2024-04-21",
       "youtubeUrl": "https://www.youtube.com/watch?v=AaES5a7PhnA",
     "reviewUrl": "2024-04-21-D-Gen-TEC-9",
@@ -3671,6 +3671,14 @@
     ],
     "rating": "a",
     "jackaceRating": "c",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 3,
+      "chipUniformity": 1,
+      "jackpotPotential": 4,
+      "scalability": 3,
+      "compValue": 1
+    },
     "isJackAceReview": false,
     "notes": "",
     "spins": [{
