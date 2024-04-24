@@ -3671,6 +3671,14 @@
     ],
     "rating": "a",
     "jackaceRating": "c",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 3,
+      "chipUniformity": 1,
+      "jackpotPotential": 4,
+      "scalability": 3,
+      "compValue": 1
+    },
     "isJackAceReview": false,
     "notes": "",
     "spins": [{

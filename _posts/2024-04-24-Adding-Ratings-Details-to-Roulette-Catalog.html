@@ -1,0 +1,285 @@
+---
+layout: post
+title: "We're Adding Ratings Details to Roulette Catalog"
+date: 2024-04-23 00:12:01 -0700
+author: Jack Haze
+tags: [roulette,ceg dealer school,meta]
+excerpt_image: "/assets/img/posts/2024-04-24-roulette-sub-ratings/00-title-600x515.png"
+summary: "Exciting NEW feature for the Roulette System Catalog"
+comments: true
+published: true 
+---
+
+<img src="{{site.baseurl}}{{page.excerpt_image}}" class="excerpt-image" />
+<p>
+    This month we've added a new feature to
+    <a href="{{site.base_url}}/gambling/roulette/systems/">the JackAce Roulette System Catalog</a>.
+    We're adding ratings subcategories!
+</p>
+<p>
+    In addition to CEG's rating and my rating for every system, we will display the
+    breakdown of the subcomponents of the rating. It offers a lot of insight into
+    how the overall rating was determined.
+</p>
+<p>
+    The 6 subcategories for the rating are as follows:
+</p>
+<ol>
+    <li>
+        Betting Simplicity
+    </li>
+    <li>
+        Progression Simplicity
+    </li>
+    <li>
+        Chip Uniformity
+    </li>
+    <li>
+        Jackpot Potential
+    </li>
+    <li>
+        Scalability
+    </li>
+    <li>
+        Comp Value
+    </li>
+</ol>
+
+<p>
+    You can see an example of the subratings in my recent review for the system
+    {% include roulette-system-link.html reviewUrl="2024-04-21-D-Gen-TEC-9" -%}.
+</p>
+<figure class="figure-condensed">
+    <img src="{{site.baseurl}}/assets/img/posts/2024-04-24-roulette-sub-ratings/01-dgen-tec9-284x450.png" alt="System Details for D-Gen TEC-9" />
+    <figcaption>
+        The subratings are displayed alongside my rating for the system.
+    </figcaption>
+</figure>
+<h3>Betting Simplicity</h3>
+<p>
+    This is the rating for the simplicity of the betting pattern(s). If there
+    is more than one betting pattern, then this is usually a rating of the
+    most complicated betting pattern amongst all betting tiers.
+</p>
+<p>
+    Any betting pattern where you make a single bet will get the highest rating.
+    Any betting pattern where you make more than 5 individual bets is likely to get
+    a low rating. Any betting pattern where you bet many individual specific numbers
+    is likely to get a
+    {% include rating-stars.html rating=0 %}
+    or
+    {% include rating-stars.html rating=1 %}
+    rating.
+</p>
+<figure class="figure-condensed">
+    <img src="{{site.baseurl}}/assets/img/posts/2024-04-24-roulette-sub-ratings/02-betting-simplicity-600x318.png" alt="Betting pattern with many random straight-up bets" />
+    <figcaption>
+        This is an example of a betting pattern that is complex.
+    </figcaption>
+</figure>
+<p>
+    This is part of the overall "DTF" classification for the Roulette system. The
+    easier the betting patterns are to place, the higher the <b>Betting Simplicity</b>
+    score will be.
+</p>
+
+<h3>Progression Simplicity</h3>
+<p>
+    The <b>Progression Simplicity</b> is used to measure the complexity of the betting
+    tiers.
+</p>
+<p>
+    Is this a simple flat betting system? What are the conditions of going to the next
+    tier? Is there complicated math needed to determine how much to bet? When do we
+    reset to the first tier?
+</p>
+<p>
+    These are amongst the questions used to determine this subrating. The more complex
+    the progression rules are, the lower the score will be.
+</p>
+<p>
+    A flat betting system will always get a
+    {% include rating-stars.html rating=5 %}
+    out of 5. Martingale systems will most likely get a 
+    {% include rating-stars.html rating=5 %}
+    as well. Fibonacci systems will probably get a
+    {% include rating-stars.html rating=4 -%}, since there's a little math
+    involved.
+</p>
+<p>
+    Systems where you have to count wins before going back levels will tend to
+    get lower scores for this category. And other systems with complicated rules
+    will be penalized as well.
+</p>
+<p>
+    A good example of a system with bad Progression Simplicity would be 
+    {% include roulette-system-link.html reviewUrl="2023-02-27-Grapefruit-Step-System" -%}.
+    This is a 6 tiered system where each tier has <b>ZERO</b> resemblance to the
+    next, and each tier requires memorizing several bets.
+</p>
+
+<h3>Chip Uniformity</h3>
+<p>
+    You want to use betting amounts that only have to rely on a single chip denomination
+    whenever possible. If you bet $3 per spot on one tier and then bet $25 per spot on
+    another tier (or even within the same tier!), you'll score low for this category.
+</p>
+<p>
+    This can often be a problem if you're playing at a live-dealer table if there are
+    many others playing with you. You can't have multiple people using the real cash-valued
+    casino chips at the same table because it makes it difficult to determine who the chip
+    owner of each bet is. Imagine 5 different players at the same player each betting on
+    the same number with the same colored chips. This would be a nightmare for the dealer.
+</p>
+<p>
+    You tend to have a wide gamut of chips needed for deep negative progression systems,
+    especially Martingale and Fibonacci. With these systems, you often have to chase
+    a loss with bets in the hundreds or even <i>THOUSANDS</i> range. So while those
+    systems may fare well with the <b>Progression Simplicity</b> category, they'll do
+    poorly in the <b>Chip Uniformity</b> score.
+</p>
+<p>
+    It's ok for a system to score low for this category if you only intend to use it
+    on an <i>Electronic Table Game</i> (ETG). For ETGs, chip uniformity is mostly irrelevant.
+</p>
+
+<p>
+    One system with chip values all over the place is
+    {% include roulette-system-link.html reviewUrl="2023-11-17-Grandma-Fibonacci-Pie" -%}.
+</p>
+<figure class="figure-condensed">
+    <img src="{{site.baseurl}}/assets/img/posts/2024-04-24-roulette-sub-ratings/04-chip-uniformity-450x276.png" alt="Each betting tier is a wacky value, usually not divisible by 5 and climbs as high as $273 per spin." />
+    <figcaption>
+        You can't get all your chips in one denomination if you need to make these bets.
+    </figcaption>
+</figure>
+
+<h3>Jackpot Potential</h3>
+<p>
+    This is one of the most important factors of the overall rating to me.
+</p>
+<p>
+    <b>Jackpot Potential</b> measures the system's ability to generate a large win.
+    For this subrating to score highly, the system usually needs to have a positive
+    progression or a ladder system with large winning potential. There are even some
+    flat betting systems that have high jackpot potential.
+</p>
+<p>
+    Without a jackpot potential, there's very little motivation for me to like a system.
+    We tend to give better scores to systems that either lose a little bit or win a lot.
+</p>
+<p>
+    Systems like
+    {% include roulette-system-link.html reviewUrl="2022-09-12-Ride-or-Die" %} or
+    {% include roulette-system-link.html reviewUrl="2023-09-07-Last-Tango-in-Vegas" %} are
+    good examples of systems with high <b>Jackpot Potential</b>.
+</p>
+<p>
+    Martingale is an example of a system with poor <b>Jackpot Potential</b>. With
+    Martingale, you either win a little, or you lose your shirt.
+</p>
+<p>
+    You have good jackpot potential with the system 
+    {% include roulette-system-link.html reviewUrl="2023-09-07-Last-Tango-in-Vegas" -%}.
+</p>
+<figure class="figure-condensed">
+    <img src="{{site.baseurl}}/assets/img/posts/2024-04-24-roulette-sub-ratings/05-jackpot-potential-600x429.png" alt="With just a $200 bet, you have the potential to win $2725 with this betting pattern." />
+    <figcaption>
+        Last Tango in Vegas is a great flat betting system with high Jackpot Potential.
+    </figcaption>
+</figure>
+
+<h3>Scalability</h3>
+<p>
+    <b>Scalability</b> is the flexibility in the betting system's bet amounts.
+</p>
+<p>
+    Can the system be scaled down for low rollers or ETGs? Can it be scaled up
+    for whales and High Rollers? A good system is flexible and can be used by
+    gamblers of all bankrolls.
+</p>
+<p>
+    This is why systems that bet odd amounts often score low. You want to have
+    a system where all bets across all tiers have a same common denominator. There
+    is some overlap between this category and the <b>Chip Uniformity</b> category.
+</p>
+<p>
+    The system
+    {% include roulette-system-link.html reviewUrl="2022-11-10-Look-at-you-Buddy" %}
+    is a good scalable system because you're just betting 2 units: one on the high/low
+    and one on the uncovered dozen. You can scale this up or down very easily.
+</p>
+<figure class="figure-condensed">
+    <img src="{{site.baseurl}}/assets/img/posts/2024-04-24-roulette-sub-ratings/06-scalability-600x429.png" alt="This betting pattern just has $50 on the Low, and $50 on the 3rd Dozen." />
+    <figcaption>
+        This betting pattern is easily scaled both up and down.
+    </figcaption>
+</figure>
+
+<h3>Comp Value</h3>
+<p>
+    The last subrating is the <b>Comp Value</b>.
+</p>
+<p>
+    Will this system earn me free rooms and meals in Las Vegas? Will I rack up the
+    rewards points using this system?
+</p>
+<p>
+    In order to be a system that is <i>"Good for Comps"</i> it has to have a high
+    starting bet. And all the bets should be high.
+</p>
+<p>
+    This is another category where Negative Progression systems like Martingale and
+    Fibonacci do poorly. But Positive Progression systems are not "Comp Friendly", either.
+</p>
+<p>
+    Systems that usually do best for this category are the Flat Bet systems. And these
+    systems usually need to have a high bet in the
+    {% include chip-amount.html chipAmount=100 %}
+    range or more to qualify.
+</p>
+<p>
+    The system
+    {% include roulette-system-link.html reviewUrl="2023-07-24-V28" %}
+    was crowned "Best Comp System of 2023" in my
+    <a href="https://www.youtube.com/watch?v=Lr1zKsPB7JY" >Best of 2023</a>
+    recap vidwo.
+</p>
+<figure class="figure-condensed">
+    <img src="{{site.baseurl}}/assets/img/posts/2024-04-24-roulette-sub-ratings/07-comp-value-600x429.png" alt="V28 has a starting bet of $350 per spin and a Comp Value of $3.68 per spin. It only goes up from there." />
+    <figcaption>
+        Betting $350 per spin can get you around $3.68 per spin in complimentary rewards.
+    </figcaption>
+</figure>
+
+<h3>Overall Score</h3>
+<p>
+    These 6 components are the main factors in determining the overall evaluation for
+    each Roulette system in my
+    <a href="{{site.base_url}}/gambling/roulette/systems/">Catalog</a>.
+</p>
+<p>
+    I feel I should mention that each category is not weighted equally.
+</p>
+<p>
+    <b>Comp Value</b> has very little affect on the overall score. It is
+    really only included for completeness, since many people look for
+    "comp friendly" systems. 
+</p>
+<p>
+    <b>Scalability</b> is another small factor overall. The systems are mostly
+    judged based on the original parameters of the submitted design. But if
+    the system is scalable (both downward and upward), it's possible to enhance
+    the score's overall rating by a few ticks.
+</p>
+
+<h3>Thoughts?</h3>
+<p>
+    So what do you think of these new subcategories? Are there factors that I am
+    missing? Let me know in the comments or tag me in
+    <a href="https://www.twitter.com/JackAce" target="_blank">Twitter</a>
+    with your thoughts!
+</p>
+
+{%- include venn-badge.html isMath=true isGambling=true -%}
+
