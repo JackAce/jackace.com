@@ -1,5 +1,457 @@
 [
   {
+    "name": "Bonus Ball ⚪",
+    "airDate": "2024-04-24",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mhcXjHOhl-s",
+    "reviewUrl": "2024-04-24-Bonus-Ball",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-low":150,"x3-34-36":25,"x3-31-33":25,"x3-28-30":25,"x3-25-27":25,"x3-22-24":25}},
+      {"wheelType":1,"wagers":{"x18-black":100}},
+      {"wheelType":1,"wagers":{"x1-1":20,"x1-3":20,"x1-4":20,"x1-6":20,"x1-8":20,"x1-11":20,"x1-13":20,"x1-15":20,"x1-18":20,"x1-16":20}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 825,
+    "bets": [
+      275,
+      100,
+      200
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 3,
+      "chipUniformity": 2,
+      "jackpotPotential": 1,
+      "scalability": 3,
+      "compValue": 4
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "0",
+        "amountBet": 275,
+        "result": -275,
+        "time": "2:07"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 275,
+        "result": -275,
+        "time": "3:05"
+      },
+      {
+        "spin": 3,
+        "number": "12",
+        "amountBet": 275,
+        "result": 25,
+        "time": "3:45"
+      },
+      {
+        "spin": 4,
+        "number": "31",
+        "amountBet": 275,
+        "result": 25,
+        "time": "4:19"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 275,
+        "result": 25,
+        "time": "4:51"
+      },
+      {
+        "spin": 6,
+        "number": "13",
+        "amountBet": 275,
+        "result": 25,
+        "time": "5:18"
+      },
+      {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:52"
+      },
+      {
+        "spin": 8,
+        "number": "18",
+        "amountBet": 275,
+        "result": 25,
+        "time": "6:20"
+      },
+      {
+        "spin": 9,
+        "number": "16",
+        "amountBet": 275,
+        "result": 25,
+        "time": "6:34"
+      },
+      {
+        "spin": 10,
+        "number": "29",
+        "amountBet": 275,
+        "result": 25,
+        "time": "6:54"
+      },
+      {
+        "spin": 11,
+        "number": "2",
+        "amountBet": 275,
+        "result": 25,
+        "time": "7:18"
+      },
+      {
+        "spin": 12,
+        "number": "0",
+        "amountBet": 100,
+        "result": -100,
+        "time": "7:47"
+      },
+      {
+        "spin": 13,
+        "number": "15",
+        "amountBet": 275,
+        "result": 25,
+        "time": "8:22"
+      },
+      {
+        "spin": 14,
+        "number": "1",
+        "amountBet": 275,
+        "result": 25,
+        "time": "8:39"
+      },
+      {
+        "spin": 15,
+        "number": "35",
+        "amountBet": 275,
+        "result": 25,
+        "time": "8:52"
+      },
+      {
+        "spin": 16,
+        "number": "21",
+        "amountBet": 275,
+        "result": -275,
+        "time": "9:41"
+      },
+      {
+        "spin": 17,
+        "number": "28",
+        "amountBet": 50,
+        "result": -50,
+        "time": "10:16",
+        "notes": "Alex just put his remaining chips on a Double Street bet here."
+      },
+      {
+        "spin": 18,
+        "number": "20",
+        "amountBet": 275,
+        "result": -275,
+        "time": "10:57",
+        "notes": "Alex bought in for more (2nd friend) here."
+      },
+      {
+        "spin": 19,
+        "number": "25",
+        "amountBet": 275,
+        "result": 25,
+        "time": "11:31"
+      },
+      {
+        "spin": 20,
+        "number": "1",
+        "amountBet": 275,
+        "result": 25,
+        "time": "11:49"
+      },
+      {
+        "spin": 21,
+        "number": "19",
+        "amountBet": 275,
+        "result": -275,
+        "time": "12:09"
+      },
+      {
+        "spin": 22,
+        "number": "32",
+        "amountBet": 275,
+        "result": 25,
+        "time": "12:42"
+      },
+      {
+        "spin": 23,
+        "number": "35",
+        "amountBet": 275,
+        "result": 25,
+        "time": "12:47"
+      },
+      {
+        "spin": 24,
+        "number": "31",
+        "amountBet": 100,
+        "result": 100,
+        "time": "13:17"
+      },
+      {
+        "spin": 25,
+        "number": "27",
+        "amountBet": 200,
+        "result": -200,
+        "time": "13:51"
+      },
+      {
+        "spin": 26,
+        "number": "10",
+        "amountBet": 200,
+        "result": -200,
+        "time": "14:27",
+        "notes": "Alex just bet $200 on Romanovsky here."
+      },
+      {
+        "spin": 27,
+        "number": "10",
+        "amountBet": 200,
+        "result": 25,
+        "time": "15:14",
+        "notes": "Alex bought in for more dough and kept doing Romanovsky."
+      },
+      {
+        "spin": 28,
+        "number": "19",
+        "amountBet": 200,
+        "result": 25,
+        "time": "15:41"
+      },
+      {
+        "spin": 29,
+        "number": "9",
+        "amountBet": 200,
+        "result": -200,
+        "time": "15:56"
+      }
+    ]
+  },
+  {
+    "name": "Triple Entry Max Climax 2.0 👉👌",
+    "airDate": "2024-04-22",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yoONaE5ut9Q",
+    "reviewUrl": "2024-04-22-Triple-Entry-Max-Climax-20",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":50}},
+      {"wheelType":1,"wagers":{"x18-black":50,"x18-odd":50,"x18-high":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":100,"x12-doz3":100}},
+      {"wheelType":1,"wagers":{"x1-17":20,"x1-20":20,"x1-21":20,"x1-28":10,"x1-32":10,"x1-25":10,"x1-13":20,"x1-5":10,"x1-7":10,"x1-12":10,"x2-0-00":10}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 600,
+    "bets": [
+      50,
+      150,
+      200,
+      150
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 3,
+      "jackpotPotential": 3,
+      "scalability": 5,
+      "compValue": 3
+    },
+    "isJackAceReview": false,
+    "notes": "Start on Tier 2",
+    "spins": [{
+        "spin": 1,
+        "number": "27",
+        "amountBet": 150,
+        "result": 50,
+        "time": "0:51"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 200,
+        "result": 100,
+        "time": "1:16"
+      },
+      {
+        "spin": 3,
+        "number": "19",
+        "amountBet": 150,
+        "result": -150,
+        "time": "2:25",
+        "notes": "I'm not sure about the exact amounts that alex bet here."
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 150,
+        "result": 50,
+        "time": "2:56"
+      },
+      {
+        "spin": 5,
+        "number": "27",
+        "amountBet": 150,
+        "result": 100,
+        "time": "3:38"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 150,
+        "result": 210,
+        "time": "4:17",
+        "notes": "$10 bet pays $210"
+      },
+      {
+        "spin": 7,
+        "number": "36",
+        "amountBet": 150,
+        "result": -50,
+        "time": "5:11"
+      },
+      {
+        "spin": 8,
+        "number": "33",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:42"
+      },
+      {
+        "spin": 9,
+        "number": "31",
+        "amountBet": 150,
+        "result": 150,
+        "time": "6:38"
+      },
+      {
+        "spin": 10,
+        "number": "5",
+        "amountBet": 150,
+        "result": -150,
+        "time": "7:30"
+      },
+      {
+        "spin": 11,
+        "number": "36",
+        "amountBet": 150,
+        "result": -50,
+        "time": "8:02"
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 100,
+        "result": 200,
+        "time": "8:52"
+      },
+      {
+        "spin": 13,
+        "number": "5",
+        "amountBet": 150,
+        "result": -150,
+        "time": "9:42"
+      },
+      {
+        "spin": 14,
+        "number": "13",
+        "amountBet": 150,
+        "result": 50,
+        "time": "10:19"
+      },
+      {
+        "spin": 15,
+        "number": "27",
+        "amountBet": 200,
+        "result": 100,
+        "time": "10:43"
+      },
+      {
+        "spin": 16,
+        "number": "10",
+        "amountBet": 150,
+        "result": -150,
+        "time": "11:21"
+      },
+      {
+        "spin": 17,
+        "number": "10",
+        "amountBet": 150,
+        "result": 50,
+        "time": "12:03"
+      },
+      {
+        "spin": 18,
+        "number": "00",
+        "amountBet": 200,
+        "result": -200,
+        "time": "12:42"
+      },
+      {
+        "spin": 19,
+        "number": "7",
+        "amountBet": 150,
+        "result": -50,
+        "time": "13:00"
+      },
+      {
+        "spin": 20,
+        "number": "10",
+        "amountBet": 100,
+        "result": -100,
+        "time": "13:22"
+      },
+      {
+        "spin": 21,
+        "number": "25",
+        "amountBet": 150,
+        "result": 50,
+        "time": "14:04"
+      },
+      {
+        "spin": 22,
+        "number": "10",
+        "amountBet": 150,
+        "result": -150,
+        "time": "15:04"
+      },
+      {
+        "spin": 23,
+        "number": "6",
+        "amountBet": 150,
+        "result": -50,
+        "time": "15:51"
+      },
+      {
+        "spin": 24,
+        "number": "27",
+        "amountBet": 100,
+        "result": -100,
+        "time": "17:04"
+      }
+    ]
+  },
+  {
     "name": "D-Gen TEC-9 🔫",
     "airDate": "2024-04-21",
       "youtubeUrl": "https://www.youtube.com/watch?v=AaES5a7PhnA",
@@ -3652,6 +4104,7 @@
     "airDate": "2024-03-25",
     "youtubeUrl": "https://www.youtube.com/watch?v=hJM47Ggv75ol",
     "reviewUrl": "2024-03-25-Divide-and-Conquer",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=mndZSqtpMAM",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
       "00-rba-1-800x768.png",
