@@ -34,6 +34,7 @@ layout: page-no-sidebar
 {%- assign renderErrorMessage = "" -%}
 {%- assign isJackAceReview = system.isJackAceReview -%}
 {%- assign ratingDetails = system.jackaceRatingDetails -%}
+{%- assign simulationResults = system.simulationResults -%}
 
 <!-- Calculate totals BEGIN -->
 {%- assign totalAmountBet = 0.00 -%}
@@ -263,7 +264,8 @@ layout: page-no-sidebar
             </td>
           </tr>
         </table>
-      {%- endif -%}
+        <a href="{{ site.baseurl }}/blog/2024/04/24/Adding-Ratings-Details-to-Roulette-Catalog/">What are these rating subcategories?</a>
+        {%- endif -%}
     </td>
   </tr>
   {% if systemNotesSize > 0 %}
@@ -280,6 +282,97 @@ layout: page-no-sidebar
 
 {%- assign imageLimit = rbaImages.size | minus: 1 -%}
 {%- assign bettingConfigLimit = bettingConfigs.size -%}
+
+{%- if simulationResults -%}
+  <h2>Simulation Results</h2>
+
+  <table class="simulator-table">
+    <tr>
+      <th rowspan="2">
+        Starting Balance
+      </th>
+      <th rowspan="2">
+        Desired Balance
+      </th>
+      <th rowspan="2">
+        Bankroll Increase %
+      </th>
+      <th colspan="2" class="stats-0">
+        {% include roulette-spot.html number="0" %}
+      </th>
+      <th colspan="2" class="stats-00">
+        {% include roulette-spot.html number="00" %}
+      </th>
+      <th colspan="2" class="stats-000">
+        {% include roulette-spot.html number="000" %}
+      </th>
+    </tr>
+    <tr>
+      <th class="stats-0">
+        %
+      </th>
+      <th class="stats-0">
+        Spins/Trial
+      </th>
+      <th class="stats-00">
+        %
+      </th>
+      <th class="stats-00">
+        Spins/Trial
+      </th>
+      <th class="stats-000">
+        %
+      </th>
+      <th class="stats-000">
+        Spins/Trial
+      </th>
+    </tr>
+    {%- for row in simulationResults -%}
+      {%- assign startingBalance = row['startingBalance'] -%}
+      {%- assign desiredBalance = row['desiredBalance'] -%}
+      {%- assign increasePercent = desiredBalance | times: 1.0 | minus: startingBalance -%}
+      {%- assign increasePercent = increasePercent | divided_by: startingBalance -%}
+      {%- assign successPercentage0 = row['successPercentage0'] -%}
+      {%- assign spinsPerTrial0 = row['spinsPerTrial0'] -%}
+      {%- assign successPercentage00 = row['successPercentage00'] -%}
+      {%- assign spinsPerTrial00 = row['spinsPerTrial00'] -%}
+      {%- assign successPercentage000 = row['successPercentage000'] -%}
+      {%- assign spinsPerTrial000 = row['spinsPerTrial000'] -%}
+      <tr class="row">
+        <td>
+          ${%- include format-number.html number=startingBalance -%}
+          <!-- {%- include chip-amount.html chipAmount=startingBalance -%} -->
+        </td>
+        <td>
+          ${%- include format-number.html number=desiredBalance -%}
+        </td>
+        <td>
+          {%- include format-number.html number=increasePercent asPercentage=true places=0 -%}
+        </td>
+        <td class="stats-0">
+          {%- include format-number.html number=successPercentage0 asPercentage=true places=1 -%}
+        </td>
+        <td class="stats-0">
+          {%- include format-number.html number=spinsPerTrial0 places=1 -%}
+        </td>
+        <td class="stats-00">
+          {%- include format-number.html number=successPercentage00 asPercentage=true places=1 -%}
+        </td>
+        <td class="stats-00">
+          {%- include format-number.html number=spinsPerTrial00 places=1 -%}
+        </td>
+        <td class="stats-000">
+          {%- include format-number.html number=successPercentage000 asPercentage=true places=1 -%}
+        </td>
+        <td class="stats-000">
+          {%- include format-number.html number=spinsPerTrial000 places=1 -%}
+        </td>
+      </tr>
+    {%- endfor -%}
+  </table>
+
+  {%- endif -%}
+
 
 {%- if imageLimit > 0 -%}
   <h2>Betting Schemes</h2>

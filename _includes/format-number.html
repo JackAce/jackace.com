@@ -1,5 +1,10 @@
 {%- assign number = include.number | times: 1 -%}
 {%- assign places = include.places | default: 0 -%}
+{%- assign asPercentage = include.asPercentage | default: false -%}
+
+{%- if asPercentage -%}
+    {%- assign number = number | times: 100.0 -%}
+{%- endif -%}
 
 {%- assign number = number | plus: 0.001 -%}
 {%- assign parts = number | split: "." -%}
@@ -37,6 +42,10 @@
         {%- assign formatOutput = formatOutput | prepend: "-"  -%}
     {%- endif -%}
 
+{%- endif -%}
+
+{%- if asPercentage -%}
+    {%- assign formatOutput = formatOutput | append: "%" -%}
 {%- endif -%}
 
 {{- formatOutput -}}

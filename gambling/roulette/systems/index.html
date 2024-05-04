@@ -41,23 +41,14 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
 
     }
 
-    //  $.ajax({ 
-    //  type: 'GET', 
-    //  url: systemUrl, 
-    //  data: { get_param: 'value' }, 
-    //  dataType: 'json',
-    //  success: function (data) { 
-    //     let filteredData = data.filter(item => item.isJackAceReview === false);
-    //     populateDataTable(filteredData);
-    //    }
-    //  });
-
   });
 
   function getHtmlForChip(chipAmount) {
     if (!chipAmount) {
       chipAmount = 1;
     }
+
+    chipAmountText = '$' + chipAmount;
 
     let chipClass = 'chip-1';
     if (chipAmount >= 1000) {
@@ -75,7 +66,7 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
     else if (chipAmount >= 5) {
       chipClass = 'chip-5';
     }
-    return '<span class="chip ' + chipClass + '">' + chipAmount.toLocaleString('en-US', {style: 'currency', currency: 'USD', maximumFractionDigits: 0}) + '</span>';
+    return '<span class="chip ' + chipClass + '" title="' + chipAmountText + '">' + chipAmountText + '</span>';
   }
 
   function getHtmlForSystemType(systemType) {
@@ -183,6 +174,17 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
             }
           },
           {
+            data: 'simulationResults',
+            render: function (data, type, row, meta) {
+              if (!data) {
+                return '';
+              }
+              return '<img src="/assets/img/roulette/icons/simulator-40x40.png" title="Simulation Results available" />';
+
+            },
+            defaultContent: ''
+          },
+          {
             data: 'spins[, ]',
             render: function (data, type, row, meta) {
                 let returnValue = 0;
@@ -207,7 +209,7 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
               if (!data) {
                 return '<i>unknown</i>'
               }
-              return '<span class="rating rating-' + data + '" >' + data.toUpperCase() + '</span>'
+              return '<span class="rating rating-' + data + '" title="' + data.toUpperCase() + '" >' + data.toUpperCase() + '</span>'
             },
             defaultContent: '<i>unknown</i>'
           },
@@ -291,12 +293,9 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
         <th>
           Spins
         </th>
-        <!-- <th>
-          Expected Loss
-        </th>
         <th>
-          Comp Value
-        </th> -->
+          Simulation Results? 
+        </th>
         <th>
           Actual Results
         </th>

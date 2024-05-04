@@ -1744,7 +1744,39 @@
   "rating": "a",
   "jackaceRating": "c",
   "isJackAceReview": false,
-  "notes": "",
+  "simulationResults": [
+    {
+      "startingBalance": 360,
+      "desiredBalance": 450,
+      "successPercentage0": 0.648,
+      "spinsPerTrial0": 6.9,
+      "successPercentage00": 0.578,
+      "spinsPerTrial00": 6.9,
+      "successPercentage000": 0.542,
+      "spinsPerTrial000": 6.8
+    },
+    {
+      "startingBalance": 360,
+      "desiredBalance": 540,
+      "successPercentage0": 0.497,
+      "spinsPerTrial0": 9.1,
+      "successPercentage00": 0.433,
+      "spinsPerTrial00": 8.8,
+      "successPercentage000": 0.375,
+      "spinsPerTrial000": 8.5
+    },
+    {
+      "startingBalance": 360,
+      "desiredBalance": 720,
+      "successPercentage0": 0.358,
+      "spinsPerTrial0": 12.5,
+      "successPercentage00": 0.302,
+      "spinsPerTrial00": 11.9,
+      "successPercentage000": 0.247,
+      "spinsPerTrial000": 11.3
+    }
+  ],
+"notes": "",
   "spins": [{
       "spin": 1,
       "number": "4",
@@ -1956,7 +1988,7 @@
   "jackaceRating": "c",
   "isJackAceReview": false,
   "friendCount": 3,
-  "notes": "D'Alambert progression.",
+  "notes": "D'Almbert progression.",
   "spins": [{
       "friend": 1,
       "spin": 1,
@@ -6403,7 +6435,7 @@
     }
 
   ],
-  "systemType": "",
+  "systemType": "Ladder",
   "buyIn": 1500,
   "bets": [
     10,
@@ -11794,6 +11826,18 @@
   "rating": "c",
   "jackaceRating": "f",
   "isJackAceReview": false,
+  "simulationResults": [
+    {
+      "startingBalance": 200,
+      "desiredBalance": 1360,
+      "successPercentage0": 0.071,
+      "spinsPerTrial0": 84.1,
+      "successPercentage00": 0.052,
+      "spinsPerTrial00": 75.0,
+      "successPercentage000": 0.036,
+      "spinsPerTrial000": 67.1
+    }
+  ],
   "notes": "Negative progression is Fibonacci, Positive progression is Ride or Die",
   "spins": [{
       "spin": 1,
@@ -14472,6 +14516,18 @@
   "jackaceRating": "b",
   "isJackAceReview": false,
   "friendCount": 11,
+  "simulationResults": [
+    {
+      "startingBalance": 200,
+      "desiredBalance": 675,
+      "successPercentage0": 0.167,
+      "spinsPerTrial0": 1.2,
+      "successPercentage00": 0.163,
+      "spinsPerTrial00": 1.2,
+      "successPercentage000": 0.157,
+      "spinsPerTrial000": 1.2
+    }
+  ],
   "notes": "Not a bad one shot attempt. But if you only win $25, press on the Dozen bet.",
   "spins": [{
       "friend": 1,
@@ -14763,6 +14819,38 @@
   "rating": "a",
   "jackaceRating": "a",
   "isJackAceReview": false,
+  "simulationResults": [
+    {
+      "startingBalance": 4000,
+      "desiredBalance": 5000,
+      "successPercentage0": 0.714,
+      "spinsPerTrial0": 13.1,
+      "successPercentage00": 0.687,
+      "spinsPerTrial00": 13.1,
+      "successPercentage000": 0.673,
+      "spinsPerTrial000": 13.1
+    },
+    {
+      "startingBalance": 4000,
+      "desiredBalance": 6000,
+      "successPercentage0": 0.555,
+      "spinsPerTrial0": 21.9,
+      "successPercentage00": 0.520,
+      "spinsPerTrial00": 21.6,
+      "successPercentage000": 0.502,
+      "spinsPerTrial000": 21.5
+    },
+    {
+      "startingBalance": 4000,
+      "desiredBalance": 8000,
+      "successPercentage0": 0.370,
+      "spinsPerTrial0": 34.3,
+      "successPercentage00": 0.349,
+      "spinsPerTrial00": 33.6,
+      "successPercentage000": 0.314,
+      "spinsPerTrial000": 32.4
+    }
+  ],
   "notes": "",
   "spins": [{
       "spin": 1,
@@ -18347,7 +18435,7 @@
       "number": "21",
       "amountBet": 20,
       "result": 20,
-      "time": ""
+      "time": "5:03"
     },
     {
       "spin": 12,
@@ -22082,7 +22170,7 @@
       "number": "13",
       "amountBet": 135,
       "result": 45,
-      "time": ""
+      "time": "2:29"
     },
     {
       "spin": 2,
@@ -24676,7 +24764,7 @@
       "number": "5",
       "amountBet": 0,
       "result": 0,
-      "time": ""
+      "time": "1:45"
     },
     {
       "spin": 2,
@@ -33442,7 +33530,7 @@
       "number": "14",
       "amountBet": 0,
       "result": 0,
-      "time": "",
+      "time": "1:44",
       "notes": "Blank Spin"
     },
     {
