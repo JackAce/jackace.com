@@ -1,25 +1,25 @@
 {% if include.rating == 5 %}
-    <img src="{{site.baseurl}}/assets/img/ratings/rating-50-200x40.png" />
+    <img src="{{site.baseurl}}/assets/img/ratings/rating-50-200x40.png" title="5 out of 5 stars" />
 {% elsif include.rating == 4.5 %}
-    <img src="{{site.baseurl}}/assets/img/ratings/rating-45-200x40.png" />
+    <img src="{{site.baseurl}}/assets/img/ratings/rating-45-200x40.png" title="4.5 out of 5 stars" />
 {% elsif include.rating == 4 %}
-    <img src="{{site.baseurl}}/assets/img/ratings/rating-40-200x40.png" />
+    <img src="{{site.baseurl}}/assets/img/ratings/rating-40-200x40.png" title="4 out of 5 stars" />
 {% elsif include.rating == 3.5 %}
-    <img src="{{site.baseurl}}/assets/img/ratings/rating-35-200x40.png" />
+    <img src="{{site.baseurl}}/assets/img/ratings/rating-35-200x40.png" title="3.5 out of 5 stars" />
 {% elsif include.rating == 3 %}
-    <img src="{{site.baseurl}}/assets/img/ratings/rating-30-200x40.png" />
+    <img src="{{site.baseurl}}/assets/img/ratings/rating-30-200x40.png" title="3 out of 5 stars" />
 {% elsif include.rating == 2.5 %}
-    <img src="{{site.baseurl}}/assets/img/ratings/rating-25-200x40.png" />
+    <img src="{{site.baseurl}}/assets/img/ratings/rating-25-200x40.png" title="2.5 out of 5 stars" />
 {% elsif include.rating == 2 %}
-    <img src="{{site.baseurl}}/assets/img/ratings/rating-20-200x40.png" />
+    <img src="{{site.baseurl}}/assets/img/ratings/rating-20-200x40.png" title="2 out of 5 stars" />
 {% elsif include.rating == 1.5 %}
-    <img src="{{site.baseurl}}/assets/img/ratings/rating-15-200x40.png" />
+    <img src="{{site.baseurl}}/assets/img/ratings/rating-15-200x40.png" title="1.5 out of 5 stars" />
 {% elsif include.rating == 1 %}
-    <img src="{{site.baseurl}}/assets/img/ratings/rating-10-200x40.png" />
+    <img src="{{site.baseurl}}/assets/img/ratings/rating-10-200x40.png" title="1 out of 5 stars" />
 {% elsif include.rating == 0.5 %}
-    <img src="{{site.baseurl}}/assets/img/ratings/rating-05-200x40.png" />
+    <img src="{{site.baseurl}}/assets/img/ratings/rating-05-200x40.png" title="0.5 out of 5 stars" />
 {% elsif include.rating == 0 %}
-    <img src="{{site.baseurl}}/assets/img/ratings/rating-00-200x40.png" />
+    <img src="{{site.baseurl}}/assets/img/ratings/rating-00-200x40.png" title="0 out of 5 stars" />
 {% else %}
     <span class="amt-neg">{{ include.rating }}</span>
 {% endif %}

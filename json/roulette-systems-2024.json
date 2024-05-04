@@ -1,5 +1,241 @@
 [
   {
+    "name": "Push It 🫸",
+    "airDate": "2024-04-25",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aF0Pu490e7k",
+    "reviewUrl": "2024-04-25-Push-It",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":20,"x12-col1":20,"x12-col2":20}},
+      {"wheelType":1,"wagers":{"x18-black":30,"x12-col1":30,"x12-col2":30}},
+      {"wheelType":1,"wagers":{"x18-black":40,"x12-col1":40,"x12-col2":40}},
+      {"wheelType":1,"wagers":{"x18-black":50,"x12-col1":50,"x12-col2":50}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 240,
+    "bets": [
+      60,
+      90,
+      120,
+      150
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 3,
+      "chipUniformity": 4,
+      "jackpotPotential": 2,
+      "scalability": 5,
+      "compValue": 3
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "24",
+        "amountBet": 60,
+        "result": -20,
+        "time": "2:14"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 60,
+        "result": 0,
+        "time": "2:51"
+      },
+      {
+        "spin": 3,
+        "number": "32",
+        "amountBet": 60,
+        "result": 0,
+        "time": "3:14"
+      },
+      {
+        "spin": 4,
+        "number": "20",
+        "amountBet": 60,
+        "result": 40,
+        "time": "3:53"
+      },
+      {
+        "spin": 5,
+        "number": "25",
+        "amountBet": 90,
+        "result": 0,
+        "time": "4:35",
+        "notes": "Video said -30, but this was a PUSH."
+      },
+      {
+        "spin": 6,
+        "number": "8",
+        "amountBet": 90,
+        "result": 60,
+        "time": "5:05"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 120,
+        "result": -120,
+        "time": "5:40",
+        "notes": "Video said -240, but Alex only lost -120."
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 60,
+        "result": -20,
+        "time": "6:33",
+        "notes": "Video said PUSH, but Alex lost -20 here."
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 60,
+        "result": 0,
+        "time": "7:15",
+        "notes": "Video said +40, but this was actually a push."
+      },
+      {
+        "spin": 10,
+        "number": "20",
+        "amountBet": 60,
+        "result": 40,
+        "time": "7:39"
+      },
+      {
+        "spin": 11,
+        "number": "00",
+        "amountBet": 90,
+        "result": -90,
+        "time": "8:15",
+        "notes": "Video said -180, but Alex only lost -90."
+      },
+      {
+        "spin": 12,
+        "number": "22",
+        "amountBet": 60,
+        "result": 40,
+        "time": "8:45"
+      },
+      {
+        "spin": 13,
+        "number": "16",
+        "amountBet": 90,
+        "result": 0,
+        "time": "9:34"
+      },
+      {
+        "spin": 14,
+        "number": "31",
+        "amountBet": 90,
+        "result": 60,
+        "time": "9:54",
+        "notes": "Video said +120, but the win was only +60."
+      },
+      {
+        "spin": 15,
+        "number": "1",
+        "amountBet": 120,
+        "result": 0,
+        "time": "10:30"
+      },
+      {
+        "spin": 16,
+        "number": "6",
+        "amountBet": 120,
+        "result": -40,
+        "time": "10:59"
+      },
+      {
+        "spin": 17,
+        "number": "35",
+        "amountBet": 60,
+        "result": 40,
+        "time": "11:35"
+      },
+      {
+        "spin": 18,
+        "number": "13",
+        "amountBet": 90,
+        "result": 60,
+        "time": "12:01"
+      },
+      {
+        "spin": 19,
+        "number": "19",
+        "amountBet": 120,
+        "result": 0,
+        "time": "12:37"
+      },
+      {
+        "spin": 20,
+        "number": "12",
+        "amountBet": 120,
+        "result": -120,
+        "time": "13:06"
+      },
+      {
+        "spin": 21,
+        "number": "8",
+        "amountBet": 60,
+        "result": 40,
+        "time": "14:12"
+      },
+      {
+        "spin": 22,
+        "number": "26",
+        "amountBet": 90,
+        "result": 60,
+        "time": "14:54"
+      },
+      {
+        "spin": 23,
+        "number": "00",
+        "amountBet": 120,
+        "result": -120,
+        "time": "15:38",
+        "notes": "Video said -240, but the loss was -120."
+      },
+      {
+        "spin": 24,
+        "number": "27",
+        "amountBet": 60,
+        "result": -60,
+        "time": "15:59"
+      },
+      {
+        "spin": 25,
+        "number": "31",
+        "amountBet": 60,
+        "result": 40,
+        "time": "16:56"
+      },
+      {
+        "spin": 26,
+        "number": "0",
+        "amountBet": 90,
+        "result": -90,
+        "time": "17:24"
+      },
+      {
+        "spin": 27,
+        "number": "7",
+        "amountBet": 40,
+        "result": -40,
+        "time": "18:13",
+        "notes": "Alex had $40 left, so he just made 4 $10 split bets."
+      }
+    ]
+  },
+  {
     "name": "Bonus Ball ⚪",
     "airDate": "2024-04-24",
       "youtubeUrl": "https://www.youtube.com/watch?v=mhcXjHOhl-s",
@@ -3860,7 +4096,7 @@
         "number": "8",
         "amountBet": 45,
         "result": 45,
-        "time": ""
+        "time": "3:57"
       },
       {
         "spin": 8,
@@ -4134,6 +4370,38 @@
     },
     "isJackAceReview": false,
     "notes": "",
+    "simulationResults": [
+      {
+        "startingBalance": 300,
+        "desiredBalance": 450,
+        "successPercentage0": 0.544,
+        "spinsPerTrial0": 9.8,
+        "successPercentage00": 0.519,
+        "spinsPerTrial00": 9.9,
+        "successPercentage000": 0.496,
+        "spinsPerTrial000": 9.9
+      },
+      {
+        "startingBalance": 300,
+        "desiredBalance": 600,
+        "successPercentage0": 0.402,
+        "spinsPerTrial0": 13.6,
+        "successPercentage00": 0.368,
+        "spinsPerTrial00": 13.7,
+        "successPercentage000": 0.326,
+        "spinsPerTrial000": 13.6
+      },
+      {
+        "startingBalance": 300,
+        "desiredBalance": 800,
+        "successPercentage0": 0.289,
+        "spinsPerTrial0": 18.6,
+        "successPercentage00": 0.261,
+        "spinsPerTrial00": 18.4,
+        "successPercentage000": 0.241,
+        "spinsPerTrial000": 18.4
+      }
+    ],
     "spins": [{
         "spin": 1,
         "number": "10",
@@ -4626,7 +4894,47 @@
     ],
     "rating": "a",
     "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 3,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 3
+    },
     "isJackAceReview": false,
+    "simulationResults": [
+      {
+        "startingBalance": 1000,
+        "desiredBalance": 1250,
+        "successPercentage0": 0.671,
+        "spinsPerTrial0": 10.5,
+        "successPercentage00": 0.599,
+        "spinsPerTrial00": 10.5,
+        "successPercentage000": 0.554,
+        "spinsPerTrial000": 10.1
+      },
+      {
+        "startingBalance": 1000,
+        "desiredBalance": 1500,
+        "successPercentage0": 0.458,
+        "spinsPerTrial0": 19.4,
+        "successPercentage00": 0.400,
+        "spinsPerTrial00": 18.6,
+        "successPercentage000": 0.327,
+        "spinsPerTrial000": 17.3
+      },
+      {
+        "startingBalance": 1000,
+        "desiredBalance": 1750,
+        "successPercentage0": 0.359,
+        "spinsPerTrial0": 26.2,
+        "successPercentage00": 0.294,
+        "spinsPerTrial00": 23.9,
+        "successPercentage000": 0.225,
+        "spinsPerTrial000": 22.3
+      }
+    ],
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -5638,6 +5946,38 @@
     "rating": "a",
     "jackaceRating": "c",
     "isJackAceReview": false,
+    "simulationResults": [
+      {
+        "startingBalance": 100,
+        "desiredBalance": 125,
+        "successPercentage0": 0.710,
+        "spinsPerTrial0": 2.7,
+        "successPercentage00": 0.701,
+        "spinsPerTrial00": 2.7,
+        "successPercentage000": 0.697,
+        "spinsPerTrial000": 2.7
+      },
+      {
+        "startingBalance": 100,
+        "desiredBalance": 150,
+        "successPercentage0": 0.525,
+        "spinsPerTrial0": 4.6,
+        "successPercentage00": 0.501,
+        "spinsPerTrial00": 4.6,
+        "successPercentage000": 0.489,
+        "spinsPerTrial000": 4.6
+      },
+      {
+        "startingBalance": 100,
+        "desiredBalance": 200,
+        "successPercentage0": 0.390,
+        "spinsPerTrial0": 6.4,
+        "successPercentage00": 0.378,
+        "spinsPerTrial00": 6.3,
+        "successPercentage000": 0.354,
+        "spinsPerTrial000": 6.3
+      }
+    ],
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -8604,6 +8944,38 @@
     "rating": "a",
     "jackaceRating": "b",
     "isJackAceReview": false,
+    "simulationResults": [
+      {
+        "startingBalance": 450,
+        "desiredBalance": 615,
+        "successPercentage0": 0.544,
+        "spinsPerTrial0": 10.1,
+        "successPercentage00": 0.520,
+        "spinsPerTrial00": 10.2,
+        "successPercentage000": 0.492,
+        "spinsPerTrial000": 10.2
+      },
+      {
+        "startingBalance": 450,
+        "desiredBalance": 765,
+        "successPercentage0": 0.499,
+        "spinsPerTrial0": 12.1,
+        "successPercentage00": 0.464,
+        "spinsPerTrial00": 12.2,
+        "successPercentage000": 0.427,
+        "spinsPerTrial000": 12.4
+      },
+      {
+        "startingBalance": 450,
+        "desiredBalance": 900,
+        "successPercentage0": 0.418,
+        "spinsPerTrial0": 16.1,
+        "successPercentage00": 0.377,
+        "spinsPerTrial00": 16.1,
+        "successPercentage000": 0.341,
+        "spinsPerTrial000": 15.8
+      }
+    ],
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -10067,7 +10439,7 @@
         "number": "00",
         "amountBet": 200,
         "result": 200,
-        "time": ""
+        "time": "1:14"
       },
       {
         "spin": 3,

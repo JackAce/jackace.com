@@ -399,6 +399,72 @@ div.infobox-error {
 }
 
 // --------------------------------------------------
+// Simulator classes
+.simulator-table {
+    max-width: 600px;
+    th {
+        font-size: 15px;
+        text-align: center;
+    }
+    td {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .stats-0 {
+        color: #333;
+    }
+    .stats-00 {
+        color: #333;
+    }
+    .stats-000 {
+        color: #333;
+    }
+
+    th.stats-0 {
+        background-color: #eab38b;
+    }
+    th.stats-00 {
+        background-color: #a3c1e3;
+    }
+    th.stats-000 {
+        background-color: #b1cf95;
+    }
+    
+    tr:nth-child(odd) td.stats-0 {
+        background-color: #f8cbad;
+    }
+    tr:nth-child(odd) td.stats-00 {
+        background-color: #bdd7ee;
+    }
+    tr:nth-child(odd) td.stats-000 {
+        background-color: #c6e0b4;
+    }
+    tr:nth-child(even) td.stats-0 {
+        background-color: #f8e5d8;
+    }
+    tr:nth-child(even) td.stats-00 {
+        background-color: #e0ebf6;
+    }
+    tr:nth-child(even) td.stats-000 {
+        background-color: #e4efdc;
+    }
+}
+
+// td.stats-0 {
+//     color: #333;
+//     background-color: #f1cdb1;
+// }
+// td.stats-00 {
+//     color: #333;
+//     background-color: #c2d6ec;
+// }
+// td.stats-000 {
+//     color: #333;
+//     background-color: #cbdfb8;
+// }
+
+// --------------------------------------------------
 // Table classes
 
 .strategy-table {
@@ -427,7 +493,6 @@ div.infobox-error {
         font-size: 12px;
         text-align: center;
     }
-
 }
 
 .betting-system-table {
