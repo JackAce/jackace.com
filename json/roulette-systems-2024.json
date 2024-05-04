@@ -481,7 +481,7 @@
   {
     "name": "Triple Entry Max Climax 2.0 👉👌",
     "airDate": "2024-04-22",
-      "youtubeUrl": "https://www.youtube.com/watch?v=yoONaE5ut9Q",
+    "youtubeUrl": "https://www.youtube.com/watch?v=yoONaE5ut9Q",
     "reviewUrl": "2024-04-22-Triple-Entry-Max-Climax-20",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
@@ -8942,7 +8942,15 @@
         50
     ],
     "rating": "a",
-    "jackaceRating": "b",
+    "jackaceRating": "a",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 2,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 5,
+      "compValue": 3
+    },
     "isJackAceReview": false,
     "simulationResults": [
       {
