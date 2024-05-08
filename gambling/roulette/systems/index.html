@@ -95,7 +95,7 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
         break;
     }
 
-    return '<div title="' + systemType + '">' + typeName + '</div>';
+    return '<span class="system-type" title="' + systemType + '">' + typeName + '&nbsp;' + systemType + '</span>';
   }
 
   function populateDataTable(dataTableData) {
@@ -107,13 +107,18 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
           {
             data: 'airDate',
             render: function (data, type, row, meta) {
-                return '<a href="/gambling/roulette/systems/' + row.reviewUrl + '">' + row.name + '</a>';
+              let output = '<a href="/gambling/roulette/systems/' + row.reviewUrl + '">' + row.name + '</a>';
+              output += "<br/>" + getHtmlForSystemType(row.systemType);
+              if (row.simulationResults) {
+                output += "<br/><img src=\"/assets/img/roulette/icons/simulator-40x40.png\" title=\"Simulation Results available\" />";
+              }
+              return output;
             }
           },
           {
             data: 'airDate',
             render: function (data, type, row, meta) {
-              return '<a href="' + row.youtubeUrl + '" class="airDate" target="_blank"><img src="/assets/img/icons/youtube-24x24.png" />&nbsp;' + row.airDate + '</a>';
+              return '<a href="' + row.youtubeUrl + '" class="airDate" target="_blank">' + row.airDate + '</a>';
             }
           },
           {
@@ -142,47 +147,10 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
             }
           },
           {
-            // buyIn is just a dummy field here because there may be some records where systemType is not specified
-            data: 'buyIn',
-            render: function (data, type, row, meta) {
-              if (row.systemType) {
-                //return row.systemType;
-                return getHtmlForSystemType(row.systemType);
-              }
-              // Need to handle situation when systemType is not specified
-              return '--';
-            }
-          },
-          {
-            data: 'spins[, ]',
-            render: function (data, type, row, meta) {
-                let returnValue = 0;
-                for (let i = 0; i < row.spins.length; i++) {
-                  returnValue += row.spins[i].amountBet;
-                }
-                return returnValue.toLocaleString('en-US', {
-                  style: 'currency',
-                  currency: 'USD',
-                  maximumFractionDigits: 0
-                });
-            }
-          },
-          {
             data: 'spins[, ]',
             render: function (data, type, row, meta) {
                 return row.spins.length;
             }
-          },
-          {
-            data: 'simulationResults',
-            render: function (data, type, row, meta) {
-              if (!data) {
-                return '';
-              }
-              return '<img src="/assets/img/roulette/icons/simulator-40x40.png" title="Simulation Results available" />';
-
-            },
-            defaultContent: ''
           },
           {
             data: 'spins[, ]',
@@ -285,16 +253,7 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
           Bet Sizes
         </th>
         <th>
-          System Type
-        </th>
-        <th>
-          Total Amount Wagered
-        </th>
-        <th>
           Spins
-        </th>
-        <th>
-          Simulation Results? 
         </th>
         <th>
           Actual Results
