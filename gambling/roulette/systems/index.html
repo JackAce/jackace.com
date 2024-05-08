@@ -70,7 +70,7 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
   }
 
   function getHtmlForSystemType(systemType) {
-    let typeName = "--";
+    let typeName = "";
     switch (systemType) {
       case "Flat Bet":
         typeName = "😐";
@@ -90,9 +90,9 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
       case "Multi-Leg":
         typeName = "👯‍♀️";
         break;
-      default:
-        typeName = systemType;
-        break;
+      // default:
+      //   typeName = systemType;
+      //   break;
     }
 
     return '<span class="system-type" title="' + systemType + '">' + typeName + '&nbsp;' + systemType + '</span>';
