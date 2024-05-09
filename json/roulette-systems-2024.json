@@ -1,5 +1,175 @@
 [
   {
+    "name": "5Ds Climax",
+    "airDate": "2024-05-09",
+      "youtubeUrl": "https://www.youtube.com/watch?v=alyeB_tiaE4",
+    "reviewUrl": "2024-05-09-5Ds-Climax",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":50,"x6-10-15":50,"x6-16-21":50,"x6-22-27":50,"x6-28-33":50}},
+      {"wheelType":1,"wagers":{"x4-8-12":10,"x4-14-18":10,"x4-20-24":10,"x4-26-30":10,"x6-4-9":50,"x6-10-15":50,"x6-16-21":50,"x6-22-27":50,"x6-28-33":50}},
+      {"wheelType":1,"wagers":{"x1-31":15,"x1-29":15,"x1-24":15,"x1-21":15,"x1-20":15,"x1-17":15,"x1-14":15,"x1-16":15,"x1-10":15,"x1-8":15}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 1000,
+    "bets": [
+      150,
+      190,
+      150
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 3,
+      "chipUniformity": 2,
+      "jackpotPotential": 4,
+      "scalability": 2,
+      "compValue": 4
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "28",
+        "amountBet": 25,
+        "result": 25,
+        "time": "0:46"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:32",
+        "notes": "They made an incorrect bet here."
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 150,
+        "result": 50,
+        "time": "2:06"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 190,
+        "result": 100,
+        "time": "2:34"
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:27"
+      },
+      {
+        "spin": 6,
+        "number": "35",
+        "amountBet": 150,
+        "result": -150,
+        "time": "4:03"
+      },
+      {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 150,
+        "result": 50,
+        "time": "4:26"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 190,
+        "result": 100,
+        "time": "4:43"
+      },
+      {
+        "spin": 9,
+        "number": "33",
+        "amountBet": 150,
+        "result": -150,
+        "time": "5:17"
+      },
+      {
+        "spin": 10,
+        "number": "7",
+        "amountBet": 150,
+        "result": 50,
+        "time": "5:43"
+      },
+      {
+        "spin": 11,
+        "number": "17",
+        "amountBet": 190,
+        "result": 100,
+        "time": "6:08"
+      },
+      {
+        "spin": 12,
+        "number": "16",
+        "amountBet": 150,
+        "result": -150,
+        "time": "6:48"
+      },
+      {
+        "spin": 13,
+        "number": "32",
+        "amountBet": 150,
+        "result": 50,
+        "time": "7:15"
+      },
+      {
+        "spin": 14,
+        "number": "6",
+        "amountBet": 190,
+        "result": 10,
+        "time": "7:33"
+      },
+      {
+        "spin": 15,
+        "number": "29",
+        "amountBet": 190,
+        "result": 100,
+        "time": "8:09"
+      },
+      {
+        "spin": 16,
+        "number": "31",
+        "amountBet": 150,
+        "result": -150,
+        "time": "8:56"
+      },
+      {
+        "spin": 17,
+        "number": "23",
+        "amountBet": 150,
+        "result": 50,
+        "time": "9:29"
+      },
+      {
+        "spin": 18,
+        "number": "1",
+        "amountBet": 190,
+        "result": -190,
+        "time": "10:09"
+      },
+      {
+        "spin": 19,
+        "number": "2",
+        "amountBet": 150,
+        "result": -150,
+        "time": "10:21"
+      }
+    ]
+  },
+  {
     "name": "Dodging a Dennis",
     "airDate": "2024-05-08",
       "youtubeUrl": "https://www.youtube.com/watch?v=btbijEoFvKo",
