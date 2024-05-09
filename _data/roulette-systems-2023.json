@@ -1743,6 +1743,14 @@
   ],
   "rating": "a",
   "jackaceRating": "c",
+  "jackaceRatingDetails": {
+    "bettingSimplicity": 3,
+    "progressionSimplicity": 2,
+    "chipUniformity": 2,
+    "jackpotPotential": 3,
+    "scalability": 2,
+    "compValue": 4
+  },
   "isJackAceReview": false,
   "simulationResults": [
     {
