@@ -23,30 +23,83 @@ layout: page
 {%- assign urlsUsed = "" -%}
 
 <p>
-    HELLO
+    BEGIN
 </p>
 
+<h3>Checking Reused URLs</h3>
 {%- for row in filteredSystems -%}
-    {%- assign currentName = row["name"] -%}
+    {%- assign currentReviewUrl = row["reviewUrl"] -%}
     {%- assign currentYouTubeUrl = row["youtubeUrl"] -%}
 
     {%- if urlsUsed contains row["youtubeUrl"] -%}
-        <span class="amt-bad">ERROR: DUPE URL FOUND IN {{ currentName }} [[ {{ currentYouTubeUrl }} ]]</span> <br/>
+        <span class="amt-bad">
+            ERROR: DUPE URL FOUND IN
+            {% include roulette-system-link.html reviewUrl=currentReviewUrl %}
+            [[ {{ currentYouTubeUrl }} ]]
+        </span> <br/>
     {%- else -%}
         {%- assign urlsUsed = urlsUsed | append: "|" | append: row["youtubeUrl"] -%}
     {%- endif -%}
 
+{%- endfor -%}
+
+<h3>Checking for Semicolons in Timestamps</h3>
+{%- for row in filteredSystems -%}
+    {%- assign currentReviewUrl = row["reviewUrl"] -%}
+
     {%- for spinRow in row.spins -%}
-        {%- if spinRow["time"] contains ";" -%}
-            <span class="amt-bad">ERROR: SEMICOLON FOUND IN TIME for {{ currentName }} [[ {{ spinRow["time"] }} ]]</span> <br/>
+        {%- assign currentTime = spinRow["time"] -%}
+        {%- if currentTime contains ";" -%}
+            <span class="amt-bad">
+                ERROR: SEMICOLON FOUND IN TIME
+                {% include roulette-system-link.html reviewUrl=currentReviewUrl %}
+                [[ {{ currentTime }} ]]
+            </span> <br/>
         {%- endif -%}
     {%- endfor -%}
 
-    {{ currentName }} <br/>
+{%- endfor -%}
+
+<h3>Checking for invalid losses</h3>
+{%- for row in filteredSystems -%}
+    {%- assign currentReviewUrl = row["reviewUrl"] -%}
+
+    {%- for spinRow in row.spins -%}
+        {%- assign currentAmountBet = spinRow["amountBet"] -%}
+        {%- assign currentResult = spinRow["result"] -%}
+        {%- assign currentLoss = currentResult | times: -1 -%}
+        {%- if currentLoss > currentAmountBet -%}
+            <span class="amt-bad">
+                ERROR: INVALID LOSS AMOUNT
+                {% include roulette-system-link.html reviewUrl=currentReviewUrl %}
+                [[ {{ currentLoss }} ]]
+            </span> <br/>
+        {%- endif -%}
+    {%- endfor -%}
+
+{%- endfor -%}
+
+<h3>Checking for invalid Wins</h3>
+{%- for row in filteredSystems -%}
+    {%- assign currentReviewUrl = row["reviewUrl"] -%}
+
+    {%- for spinRow in row.spins -%}
+        {%- assign currentAmountBet = spinRow["amountBet"] -%}
+        {%- assign maxPossibleWin = currentAmountBet | times: 35 -%}
+        {%- assign currentResult = spinRow["result"] -%}
+        {%- if currentResult > maxPossibleWin -%}
+            <span class="amt-bad">
+                ERROR: INVALID WIN AMOUNT
+                {% include roulette-system-link.html reviewUrl=currentReviewUrl %}
+                [[ {{ currentResult }} ]]
+            </span> <br/>
+        {%- endif -%}
+    {%- endfor -%}
+
 
 {%- endfor -%}
 
 <p>
     <br/>
-    Goodbye
+    END
 </p>

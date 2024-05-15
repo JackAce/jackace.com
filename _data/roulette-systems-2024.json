@@ -168,7 +168,7 @@
   {
     "name": "Snake 2 G-Spot",
     "airDate": "2024-05-13",
-      "youtubeUrl": "https://www.youtube.com/watch?v=m6Lf657Y3nQ",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jtpa4RGka6M",
     "reviewUrl": "2024-05-13-Snake-2-G-Spot",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
@@ -10915,7 +10915,7 @@
       {
         "spin": 20,
         "number": "12",
-        "amountBet": -50,
+        "amountBet": 50,
         "result": -50,
         "time": "12:27"
       }
