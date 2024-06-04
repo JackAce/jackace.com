@@ -1,5 +1,241 @@
 [
   {
+    "name": "BZB BBC",
+    "airDate": "2024-05-31",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3U-0nsRPtUE",
+    "reviewUrl": "2024-05-31-BZB-BBC",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-high":50}},
+      {"wheelType":1,"wagers":{"x18-high":50,"x18-black":50}},
+      {"wheelType":1,"wagers":{"x18-high":50,"x18-black":50,"x12-col1":50,"x12-col2":50}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 500,
+    "bets": [
+      50,
+      100,
+      200
+    ],
+    "rating": "",
+    "jackaceRating": "b",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 3,
+      "chipUniformity": 4,
+      "jackpotPotential": 3,
+      "scalability": 4,
+      "compValue": 2
+    },
+    "isJackAceReview": false,
+    "notes": "What a nightmare. There are no video displays of the number or the winner. They didn't even give the system a rating.",
+    "spins": [{
+        "spin": 1,
+        "number": "0",
+        "amountBet": 50,
+        "result": -50,
+        "time": "0:40"
+      },
+      {
+        "spin": 2,
+        "number": "2",
+        "amountBet": 50,
+        "result": -50,
+        "time": "0:58"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 50,
+        "result": -50,
+        "time": "1:25"
+      },
+      {
+        "spin": 4,
+        "number": "27",
+        "amountBet": 50,
+        "result": 50,
+        "time": "1:33"
+      },
+      {
+        "spin": 5,
+        "number": "26",
+        "amountBet": 100,
+        "result": 100,
+        "time": "1:58"
+      },
+      {
+        "spin": 6,
+        "number": "15",
+        "amountBet": 200,
+        "result": -100,
+        "time": "2:15"
+      },
+      {
+        "spin": 7,
+        "number": "15",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:38",
+        "notes": "This wasn't shown, but I believe Alex lost $50 around this time."
+      },
+      {
+        "spin": 8,
+        "number": "8",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:42"
+      },
+      {
+        "spin": 9,
+        "number": "1",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:47"
+      },
+      {
+        "spin": 10,
+        "number": "13",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:02"
+      },
+      {
+        "spin": 11,
+        "number": "1",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:15"
+      },
+      {
+        "spin": 12,
+        "number": "7",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:25"
+      },
+      {
+        "spin": 13,
+        "number": "6",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:47"
+      },
+      {
+        "spin": 14,
+        "number": "14",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:09"
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:35"
+      },
+      {
+        "spin": 16,
+        "number": "23",
+        "amountBet": 50,
+        "result": 50,
+        "time": "5:31",
+        "notes": "There were 2 losing bets that weren't displayed before this spin. The video didn't show what number it landed on."
+      },
+      {
+        "spin": 17,
+        "number": "34",
+        "amountBet": 100,
+        "result": 0,
+        "time": "6:10"
+      },
+      {
+        "spin": 18,
+        "number": "25",
+        "amountBet": 100,
+        "result": 0,
+        "time": "6:15"
+      },
+      {
+        "spin": 19,
+        "number": "5",
+        "amountBet": 100,
+        "result": -100,
+        "time": "6:20"
+      },
+      {
+        "spin": 20,
+        "number": "18",
+        "amountBet": 50,
+        "result": -50,
+        "time": "6:31"
+      },
+      {
+        "spin": 21,
+        "number": "5",
+        "amountBet": 50,
+        "result": -50,
+        "time": "6:58"
+      },
+      {
+        "spin": 22,
+        "number": "31",
+        "amountBet": 50,
+        "result": 50,
+        "time": "7:21"
+      },
+      {
+        "spin": 23,
+        "number": "23",
+        "amountBet": 100,
+        "result": 0,
+        "time": "7:52",
+        "notes": "Pretty sure the spin was 23, but they cut the video."
+      },
+      {
+        "spin": 24,
+        "number": "10",
+        "amountBet": 100,
+        "result": 0,
+        "time": "7:58"
+      },
+      {
+        "spin": 25,
+        "number": "30",
+        "amountBet": 100,
+        "result": 0,
+        "time": "8:05"
+      },
+      {
+        "spin": 26,
+        "number": "33",
+        "amountBet": 50,
+        "result": 50,
+        "time": "8:34",
+        "notes": "There was a losing spin before this, but the video cut it out."
+      },
+      {
+        "spin": 27 ,
+        "number": "30",
+        "amountBet": 100,
+        "result": 0,
+        "time": "9:06"
+      },
+      {
+        "spin": 28,
+        "number": "0",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:21"
+      }
+    ]
+  },
+  {
     "name": "Roman Ladder 🇮🇹",
     "airDate": "2024-05-29",
       "youtubeUrl": "https://www.youtube.com/watch?v=wOQPUX7MPkA",
