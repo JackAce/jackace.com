@@ -6679,6 +6679,47 @@
   "rating": "c",
   "jackaceRating": "c",
   "isJackAceReview": false,
+  "jackaceVideoUrl": "https://www.youtube.com/watch?v=S3Pm1rHlRRQ",
+  "jackaceRatingDetails": {
+    "bettingSimplicity": 5,
+    "progressionSimplicity": 1,
+    "chipUniformity": 2,
+    "jackpotPotential": 3,
+    "scalability": 2,
+    "compValue": 1
+  },
+  "simulationResults": [
+    {
+      "startingBalance": 800,
+      "desiredBalance": 1000,
+      "successPercentage0": 0.704,
+      "spinsPerTrial0": 20.3,
+      "successPercentage00": 0.660,
+      "spinsPerTrial00": 20.2,
+      "successPercentage000": 0.622,
+      "spinsPerTrial000": 20.0
+    },
+    {
+      "startingBalance": 800,
+      "desiredBalance": 1200,
+      "successPercentage0": 0.489,
+      "spinsPerTrial0": 33.5,
+      "successPercentage00": 0.458,
+      "spinsPerTrial00": 32.9,
+      "successPercentage000": 0.409,
+      "spinsPerTrial000": 31.6
+    },
+    {
+      "startingBalance": 800,
+      "desiredBalance": 1600,
+      "successPercentage0": 0.254,
+      "spinsPerTrial0": 50.6,
+      "successPercentage00": 0.203,
+      "spinsPerTrial00": 46.6,
+      "successPercentage000": 0.171,
+      "spinsPerTrial000": 44.0
+    }
+  ],
   "notes": "There are some pretty big discrepancies in the payouts, and there were some missed spins.",
   "spins": [{
       "spin": 1,
