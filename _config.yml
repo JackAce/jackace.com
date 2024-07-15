@@ -23,7 +23,7 @@ date_format: "%-d %b %Y"
 # Settings for Hamilton theme
 
 # Subscribe Feed
-#
+# 
 # By default, your site generates a subscription feed (RSS/Atom) at /feed.xml
 # Uncomment the next two lines to change the path.
 feed:
