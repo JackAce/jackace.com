@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until next section
 repository: JackAce/staging.jackace.com
 
 # Google Analytics
-# google_analytics: G-0HYRRBTEVY
+google_analytics: G-0HYRRBTEVY
 
 # Google Adsense
 #google_adsense: ca-pub-5831288475713424 #new business adsense account
