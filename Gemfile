@@ -21,7 +21,7 @@ gem "github-pages", "~> 231", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.17.0"
   #gem "jemoji", "~> 0.8"
   gem "jekyll-include-cache"
   #gem "jekyll-glossary_tooltip"
