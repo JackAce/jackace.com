@@ -6,7 +6,7 @@
     {%- assign number = number | times: 100.0 -%}
 {%- endif -%}
 
-{%- assign number = number | plus: 0.001 -%}
+{%- assign number = number | plus: 0.0001 -%}
 {%- assign parts = number | split: "." -%}
 {%- assign integerPart = parts[0] | times: 1 -%}
 {%- assign integerLength = integerPart | append: "" | size -%}
@@ -30,6 +30,7 @@
 
 {%- if places > 0 -%}
     {%- assign decimalPart = parts[1] -%}
+    {%- assign decimalPart = decimalPart | append: "000" -%}
     {%- assign decimalPart = decimalPart | slice: 0, places -%}
     {%- assign formatOutput = formatOutput | append: "." -%}
     {%- assign formatOutput = formatOutput | append: decimalPart  -%}
