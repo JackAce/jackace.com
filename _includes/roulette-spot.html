@@ -1,16 +1,21 @@
+{%- assign numberText = include.number | prepend: "," | append: "," -%}
+<!--
+{%- assign spotsGreen = "999,0,00,000,9999" | split: "," -%}
+{%- assign spotsRed = "999,1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36,9999" | split: "," -%}
+{%- assign isGreenSpot = spotsGreen | where: "", numberText -%}
+{%- assign isRedSpot = spotsRed | where: "", numberText -%}
+-->
+{%- assign isGreenSpot = "999,0,00,000,9999" | split: numberText -%}
+{%- assign isRedSpot = "999,1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36,9999" | split: numberText -%}
 
-{%- assign spotsGreen = "0,00,000" | split: "," -%}
-{%- assign spotsRed = "1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36" | split: "," -%}
-{%- assign isGreenSpot = spotsGreen | where: "", include.number -%}
-{%- assign isRedSpot = spotsRed | where: "", include.number -%}
 {%- assign cssClass = include.class | default: "roulette-spot" -%}
 {%- assign spotSuffix = "b" -%}
 {%- assign spotColor = "Black" -%}
 
-{%- if isGreenSpot.size == 1 -%}
+{%- if isGreenSpot.size > 1 -%}
     {%- assign spotSuffix = "g" -%}
     {%- assign spotColor = "Green" -%}
-{%- elsif isRedSpot.size == 1 -%}
+{%- elsif isRedSpot.size > 1 -%}
     {%- assign spotSuffix = "r" -%}
     {%- assign spotColor = "Red" -%}
 {%- endif -%}
