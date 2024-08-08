@@ -29,15 +29,15 @@
       480,
       780
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "d",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 1,
+      "chipUniformity": 1,
+      "jackpotPotential": 2,
+      "scalability": 1,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
