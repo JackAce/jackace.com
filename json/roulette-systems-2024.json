@@ -31,7 +31,7 @@
       "chipUniformity": 3,
       "jackpotPotential": 2,
       "scalability": 2,
-      "compValue": -1
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "This system is a mess. It has different levels where you bet the same amount. And then you D'Alembert on top of that?",
