@@ -1,5 +1,132 @@
 [
   {
+    "name": "Monopoly Money 2.0 💸💸",
+    "airDate": "2024-08-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=y-KJS4WcKJU",
+    "reviewUrl": "2024-08-10-Monopoly-Money-20",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-0-00":10,"x4-25-29":10,"x4-26-30":10,"x4-7-11":10,"x4-8-12":10}},
+      {"wheelType":1,"wagers":{"x6-1-6":15,"x6-13-18":15,"x2-22-23":5,"x2-21-24":5,"x2-33-36":5,"x2-34-35":5}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 500,
+    "bets": [
+      50,
+      50
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 3,
+      "chipUniformity": 4,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 2
+    },
+    "isJackAceReview": false,
+    "notes": "I think this is just a redo on Monopoly Money from 2024-07-12",
+    "spins": [{
+        "spin": 1,
+        "number": "27",
+        "amountBet": 50,
+        "result": 40,
+        "time": "3:09"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:38"
+      },
+      {
+        "spin": 3,
+        "number": "3",
+        "amountBet": 100,
+        "result": 80,
+        "time": "4:04"
+      },
+      {
+        "spin": 4,
+        "number": "12",
+        "amountBet": 50,
+        "result": 40,
+        "time": "5:14"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 50,
+        "result": 40,
+        "time": "5:57",
+        "notes": "Win was +40, not +55."
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 50,
+        "result": 40,
+        "time": "6:48"
+      },
+      {
+        "spin": 7,
+        "number": "4",
+        "amountBet": 50,
+        "result": 40,
+        "time": "7:33",
+        "notes": "Win was +40, not +55."
+      },
+      {
+        "spin": 8,
+        "number": "32",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:37"
+      },
+      {
+        "spin": 9,
+        "number": "36",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:09"
+      },
+      {
+        "spin": 10,
+        "number": "26",
+        "amountBet": 150,
+        "result": 390,
+        "time": "9:29"
+      },
+      {
+        "spin": 11,
+        "number": "18",
+        "amountBet": 50,
+        "result": 40,
+        "time": "10:50",
+        "notes": "Win was +40, not +55."
+      },
+      {
+        "spin": 12,
+        "number": "7",
+        "amountBet": 50,
+        "result": 40,
+        "time": "12:05"
+      },
+      {
+        "spin": 13,
+        "number": "24",
+        "amountBet": 50,
+        "result": 40,
+        "time": "13:02"
+      }
+    ]
+  },
+  {
     "name": "Top Hat 🎩",
     "airDate": "2024-08-09",
     "youtubeUrl": "https://www.youtube.com/watch?v=B8CBDBo9oP4",
