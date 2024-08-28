@@ -341,13 +341,20 @@ layout: page-no-sidebar
       <tr class="row">
         <td>
           ${%- include format-number.html number=startingBalance -%}
-          <!-- {%- include chip-amount.html chipAmount=startingBalance -%} -->
         </td>
         <td>
-          ${%- include format-number.html number=desiredBalance -%}
+          {%- if desiredBalance == 999999 -%}
+            -
+          {%- else -%}
+            ${%- include format-number.html number=desiredBalance -%}
+          {%- endif -%}
         </td>
         <td>
-          {%- include format-number.html number=increasePercent asPercentage=true places=0 -%}
+          {%- if desiredBalance == 999999 -%}
+            JACKPOT
+          {%- else -%}
+            {%- include format-number.html number=increasePercent asPercentage=true places=0 -%}
+          {%- endif -%}
         </td>
         <td class="stats-0">
           {%- include format-number.html number=successPercentage0 asPercentage=true places=1 -%}
