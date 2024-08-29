@@ -1,6 +1,288 @@
 [
   {
-    "name": "Spin Off",
+    "name": "Lock Stock Reverse Hopscotch",
+    "airDate": "2024-08-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=fI08HEnUj7Y",
+    "reviewUrl": "2024-08-15-Lock-Stock-Reverse-Hopscotch",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":10,"x12-doz3":15}},
+      {"wheelType":1,"wagers":{"x12-doz1":15,"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x18-high":15,"x18-odd":15,"x18-black":15}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 500,
+    "bets": [
+      25,
+      45,
+      45 
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 1,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "24",
+        "amountBet": 25,
+        "result": -25,
+        "time": "0:50"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:24"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 25,
+        "result": 20,
+        "time": "1:39"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 45,
+        "result": -15,
+        "time": "2:12"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 25,
+        "result": 20,
+        "time": "2:33"
+      },
+      {
+        "spin": 6,
+        "number": "8",
+        "amountBet": 45,
+        "result": 0,
+        "time": "2:51"
+      },
+      {
+        "spin": 7,
+        "number": "27",
+        "amountBet": 45,
+        "result": 45,
+        "time": "3:10"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:48"
+      },
+      {
+        "spin": 9,
+        "number": "36",
+        "amountBet": 25,
+        "result": 20,
+        "time": "4:11"
+      },
+      {
+        "spin": 10,
+        "number": "17",
+        "amountBet": 45,
+        "result": 15,
+        "time": "4:38"
+      },
+      {
+        "spin": 11,
+        "number": "23",
+        "amountBet": 45,
+        "result": 15,
+        "time": "4:53"
+      },
+      {
+        "spin": 12,
+        "number": "36",
+        "amountBet": 45,
+        "result": -15,
+        "time": "5:13"
+      },
+      {
+        "spin": 13,
+        "number": "21",
+        "amountBet": 25,
+        "result": -25,
+        "time": "5:56"
+      },
+      {
+        "spin": 14,
+        "number": "34",
+        "amountBet": 25,
+        "result": 20,
+        "time": "6:04"
+      },
+      {
+        "spin": 15,
+        "number": "15",
+        "amountBet": 45,
+        "result": 15,
+        "time": "6:17"
+      },
+      {
+        "spin": 16,
+        "number": "10",
+        "amountBet": 25,
+        "result": 5,
+        "time": "6:44",
+        "notes": "Win was +5, not +15."
+      },
+      {
+        "spin": 17,
+        "number": "7",
+        "amountBet": 45,
+        "result": 0,
+        "time": "7:08"
+      },
+      {
+        "spin": 18,
+        "number": "4",
+        "amountBet": 45,
+        "result": 0,
+        "time": "7:21"
+      },
+      {
+        "spin": 19,
+        "number": "12",
+        "amountBet": 45,
+        "result": 0,
+        "time": "7:33"
+      },
+      {
+        "spin": 20,
+        "number": "5",
+        "amountBet": 45,
+        "result": 0,
+        "time": "7:56"
+      },
+      {
+        "spin": 21,
+        "number": "18",
+        "amountBet": 45,
+        "result": -45,
+        "time": "8:07"
+      },
+      {
+        "spin": 22,
+        "number": "22",
+        "amountBet": 25,
+        "result": -25,
+        "time": "9:29"
+      },
+      {
+        "spin": 23,
+        "number": "22",
+        "amountBet": 25,
+        "result": -25,
+        "time": "9:57"
+      },
+      {
+        "spin": 24,
+        "number": "28",
+        "amountBet": 25,
+        "result": 20,
+        "time": "10:26"
+      },
+      {
+        "spin": 25,
+        "number": "29",
+        "amountBet": 25,
+        "result": 20,
+        "time": "10:52"
+      },
+      {
+        "spin": 26,
+        "number": "29",
+        "amountBet": 45,
+        "result": 45,
+        "time": "11:15"
+      },
+      {
+        "spin": 27,
+        "number": "18",
+        "amountBet": 25,
+        "result": -25,
+        "time": "11:39"
+      },
+      {
+        "spin": 28,
+        "number": "10",
+        "amountBet": 25,
+        "result": 5,
+        "time": "12:03"
+      },
+      {
+        "spin": 29,
+        "number": "19",
+        "amountBet": 25,
+        "result": -25,
+        "time": "12:30"
+      },
+      {
+        "spin": 30,
+        "number": "34",
+        "amountBet": 25,
+        "result": 20,
+        "time": "12:43"
+      },
+      {
+        "spin": 31,
+        "number": "31",
+        "amountBet": 25,
+        "result": 20,
+        "time": "12:55"
+      },
+      {
+        "spin": 32,
+        "number": "27",
+        "amountBet": 45,
+        "result": 15,
+        "time": "13:20"
+      },
+      {
+        "spin": 33,
+        "number": "4",
+        "amountBet": 45,
+        "result": -15,
+        "time": "14:07"
+      },
+      {
+        "spin": 34,
+        "number": "1",
+        "amountBet": 25,
+        "result": 15,
+        "time": "14:19"
+      },
+      {
+        "spin": 35,
+        "number": "17",
+        "amountBet": 45,
+        "result": -45,
+        "time": "14:41"
+      }
+    ]
+  },
+  {
+    "name": "Spin Off 🎡",
     "airDate": "2024-08-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=Nk3tZxJkdYUjj",
     "reviewUrl": "2024-08-14-Spin-Off",
