@@ -44,6 +44,12 @@ layout: page-no-sidebar
 {%- assign lastTimeInteger = 0 -%}
 {%- assign lastSpin = 0 -%}
 
+{%- assign firstSpinTimeSec = -1 -%}
+{%- assign lastSpinTimeSec = -1 -%}
+{%- assign totalSpinTimeSec = -1 -%}
+{%- assign avgSpinTimeSec = -1 -%}
+{%- assign totalSpins = -1 -%}
+
 {% for row in system.spins %}
   {%- assign currentBet = row["amountBet"] | times: 1 -%}
   {%- assign estimatedEV = currentBet | times: -0.0526 -%}
@@ -58,14 +64,23 @@ layout: page-no-sidebar
 
   {%- if currentTime contains ":" -%}
     {%- assign containsTimeStamps = true -%}
-    {%- assign currentTimeInteger = currentTime | replace: ":", "" | times: 1 -%}
+    {%- assign timeArray = currentTime | split: ":" -%}
+    {%- assign minutes = timeArray[0] -%}
+    {%- assign seconds = timeArray[1] -%}
+    {%- assign timeMarkerInSeconds = minutes | times: 60 -%}
+    {%- assign timeMarkerInSeconds = timeMarkerInSeconds | plus: seconds -%}            
 
-    {%- if currentTimeInteger <= lastTimeInteger -%}
+    {%- if timeMarkerInSeconds <= lastTimeInteger -%}
       {%- assign renderErrorsFound = true -%}
       {%- assign renderErrorMessage = renderErrorMessage | append: "[TIMESTAMPS OUT OF ORDER]" -%}
     {%- endif -%}
 
-    {%- assign lastTimeInteger = currentTimeInteger -%}
+    {%- assign lastTimeInteger = timeMarkerInSeconds -%}
+    {%- if firstSpinTimeSec == -1 -%}
+      {%- assign firstSpinTimeSec = timeMarkerInSeconds -%}
+    {%- endif -%}
+    {%- assign lastSpinTimeSec = timeMarkerInSeconds -%}
+
   {%- endif -%}
 
   {%- if currentSpin != expectedSpin -%}
@@ -88,8 +103,14 @@ layout: page-no-sidebar
   {%- endif -%}
 
   {%- assign lastSpin = currentSpin -%}
+  {%- assign totalSpins = currentSpin -%}
 
 {% endfor %}
+
+{%- if lastSpinTimeSec > -1 -%}
+  {%- assign totalSpinTimeSec = lastSpinTimeSec | minus: firstSpinTimeSec -%}
+  {%- assign avgSpinTimeSec = totalSpinTimeSec | divided_by: totalSpins -%}
+{%- endif -%}
 
 {%- assign totalAmountBet = totalAmountBet | floor -%}
 {%- assign totalCompValue = totalEV | times: -0.20 -%}
@@ -129,25 +150,23 @@ layout: page-no-sidebar
 
 {% assign systemNotesSize = system.notes | size %}
 
-<table class="key-value-table" width="50%">
+<table class="key-value-table" width="75%">
     <tr>
-        <th width="30%">
+        <th width="25%">
             Air Date:
         </th>
-        <td width="70%">
+        <td width="25%">
           <a href="{{ system.youtubeUrl }}" target="cegreview"><img src="{{- site.baseurl -}}/assets/img/icons/youtube-24x24.png" />&nbsp;{% include format-date.html date=system.airDate %}</a>
         </td>
+        {%-  if system.systemType -%}
+          <th width="25%">
+              System Type:
+          </th>
+          <td width="25%">
+            {{ system.systemType }}
+          </td>
+        {%-  endif -%}
     </tr>
-    {%-  if system.systemType -%}
-      <tr>
-        <th>
-            System Type:
-        </th>
-        <td>
-          {{ system.systemType }}
-        </td>
-      </tr>
-    {%-  endif -%}
     <tr>
         <th>
             Buy-in:
@@ -155,8 +174,6 @@ layout: page-no-sidebar
         <td>
           {% include chip-amount.html chipAmount=system.buyIn %}
         </td>
-    </tr>
-    <tr>
         <th>
             Bet per Spin:
         </th>
@@ -171,101 +188,58 @@ layout: page-no-sidebar
       <td>
         ${%- include format-number.html number=totalAmountBet -%}
       </td>
-  </tr>
-  <tr>
-    <th>
-        Total Win/Loss:
-    </th>
-    <td>
-      {% include win-loss-amount.html amount=totalWinLoss %}
-    </td>
-  </tr>
-  <tr>
-    <th>
-        Total Expected Loss:
-    </th>
-    <td>
-      {% include win-loss-amount.html amount=totalEV places=2 %}
-    </td>
-  </tr>
-  <tr>
-    <th>
-        Total Comp Value:
-    </th>
-    <td>
-      ${% include format-number.html number=totalCompValue places=2 %}
-    </td>
-  </tr>
-  {%- if isJackAceReview != true -%}
-    <tr>
       <th>
-          Rating:
+          Total Win/Loss:
       </th>
       <td>
-        {% include ceg-system-rating.html rating=rating showRatingLetter=true showRatingName=true %}
+        {% include win-loss-amount.html amount=totalWinLoss %}
       </td>
     </tr>
-  {%- endif -%}
-  <tr>
-    <th>
-        JackAce Rating:
-    </th>
-    <td>
-      {% include ceg-system-rating.html rating=jackaceRating showRatingLetter=true showRatingName=true %}
-      {%- if ratingDetails -%}
-        <br/><br/>
-        <table>
-          <tr>
-            <th>
-              Betting Simplicity:
-            </th>
-            <td>
-              {%- include rating-stars.html rating=ratingDetails.bettingSimplicity -%}
-            </td>
-          </tr>
-          <tr>
-            <th>
-              Progression Simplicity:
-            </th>
-            <td>
-              {%- include rating-stars.html rating=ratingDetails.progressionSimplicity -%}
-            </td>
-          </tr>
-          <tr>
-            <th>
-              Chip Uniformity:
-            </th>
-            <td>
-              {%- include rating-stars.html rating=ratingDetails.chipUniformity -%}
-            </td>
-          </tr>
-          <tr>
-            <th>
-              Jackpot Potential:
-            </th>
-            <td>
-              {%- include rating-stars.html rating=ratingDetails.jackpotPotential -%}
-            </td>
-          </tr>
-          <tr>
-            <th>
-              Scalability:
-            </th>
-            <td>
-              {%- include rating-stars.html rating=ratingDetails.scalability -%}
-            </td>
-          </tr>
-          <tr>
-            <th>
-              Comp Value:
-            </th>
-            <td>
-              {%- include rating-stars.html rating=ratingDetails.compValue -%}
-            </td>
-          </tr>
-        </table>
-        <a href="{{ site.baseurl }}/blog/2024/04/24/Adding-Ratings-Details-to-Roulette-Catalog/">What are these rating subcategories?</a>
-        {%- endif -%}
+    <tr>
+      <th>
+          Total Expected Loss:
+      </th>
+      <td>
+        {% include win-loss-amount.html amount=totalEV places=2 %}
+      </td>
+      <th>
+          Total Comp Value:
+      </th>
+      <td>
+        ${% include format-number.html number=totalCompValue places=2 %}
+      </td>
+    </tr>
+    <tr>
+      <th>
+        Total Spins:
+      </th>
+      <td>
+        {{- totalSpins -}}
+      </td>
+      {%- if avgSpinTimeSec > 0 -%}
+        <th>
+          Seconds between Spins:
+        </th>
+        <td>
+          {{- avgSpinTimeSec -}}
+        </td>
+      {%- endif -%}
+    </tr>
+    <tr>
+      {%- if isJackAceReview != true -%}
+        <th>
+            Rating:
+        </th>
+        <td>
+          {% include ceg-system-rating.html rating=rating showRatingLetter=true showRatingName=true %}
+        </td>
+      {%- endif -%}
+      <th>
+          JackAce Rating:
+      </th>
+      <td>
+        {% include ceg-system-rating.html rating=jackaceRating showRatingLetter=true showRatingName=true %}
+      </td>
     </td>
   </tr>
   {% if systemNotesSize > 0 %}
@@ -273,12 +247,59 @@ layout: page-no-sidebar
       <th>
           Notes:
       </th>
-      <td>
+      <td colspan="3">
           {{- system.notes -}}
       </td>
     </tr>
   {% endif %}
 </table>
+
+{%- if ratingDetails -%}
+<table class="key-value-table" width="75%">
+  <tr>
+    <th width="30%">
+      Betting Simplicity:
+    </th>
+    <td width="20%">
+      {%- include rating-stars.html rating=ratingDetails.bettingSimplicity -%}
+    </td>
+    <th width="30%">
+      Progression Simplicity:
+    </th>
+    <td width="20%">
+      {%- include rating-stars.html rating=ratingDetails.progressionSimplicity -%}
+    </td>
+  </tr>
+  <tr>
+    <th>
+      Chip Uniformity:
+    </th>
+    <td>
+      {%- include rating-stars.html rating=ratingDetails.chipUniformity -%}
+    </td>
+    <th>
+      Jackpot Potential:
+    </th>
+    <td>
+      {%- include rating-stars.html rating=ratingDetails.jackpotPotential -%}
+    </td>
+  </tr>
+  <tr>
+    <th>
+      Scalability:
+    </th>
+    <td>
+      {%- include rating-stars.html rating=ratingDetails.scalability -%}
+    </td>
+    <th>
+      Comp Value:
+    </th>
+    <td>
+      {%- include rating-stars.html rating=ratingDetails.compValue -%}
+    </td>
+  </tr>
+</table>
+{%- endif -%}
 
 {%- assign imageLimit = rbaImages.size | minus: 1 -%}
 {%- assign bettingConfigLimit = bettingConfigs.size -%}
