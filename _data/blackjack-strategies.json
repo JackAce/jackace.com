@@ -1,0 +1,154 @@
+[
+    {
+        "strategy": "basic-strategy",
+        "decks": 4,
+        "equality-code": "gte",
+        "soft-17": "h17",
+        "": "",
+        "indicies": [
+            {
+                "player-hand-type": "hard",
+                "value": 8,
+                "equality-code": "lte",
+                "dealer-upcard": "2",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 8,
+                "equality-code": "lte",
+                "dealer-upcard": "3",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 8,
+                "equality-code": "lte",
+                "dealer-upcard": "3",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 8,
+                "equality-code": "lte",
+                "dealer-upcard": "4",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 8,
+                "equality-code": "lte",
+                "dealer-upcard": "5",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 8,
+                "equality-code": "lte",
+                "dealer-upcard": "6",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 8,
+                "equality-code": "lte",
+                "dealer-upcard": "7",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 8,
+                "equality-code": "lte",
+                "dealer-upcard": "8",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 8,
+                "equality-code": "lte",
+                "dealer-upcard": "9",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 8,
+                "equality-code": "lte",
+                "dealer-upcard": "t",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 8,
+                "equality-code": "lte",
+                "dealer-upcard": "a",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 9,
+                "dealer-upcard": "2",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 9,
+                "dealer-upcard": "3",
+                "action-code": "dh"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 9,
+                "dealer-upcard": "3",
+                "action-code": "dh"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 9,
+                "dealer-upcard": "4",
+                "action-code": "dh"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 9,
+                "dealer-upcard": "5",
+                "action-code": "dh"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 9,
+                "dealer-upcard": "6",
+                "action-code": "dh"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 9,
+                "dealer-upcard": "7",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 9,
+                "dealer-upcard": "8",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 9,
+                "dealer-upcard": "9",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 9,
+                "dealer-upcard": "t",
+                "action-code": "h"
+            },
+            {
+                "player-hand-type": "hard",
+                "value": 9,
+                "dealer-upcard": "a",
+                "action-code": "h"
+            }
+        ]
+    }
+]
