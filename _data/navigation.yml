@@ -6,8 +6,6 @@
     url: /tags
   - title: Archive
     url: /years
-- title: Books
-  url: /books
 - title: Blackjack
   sublinks:
   - title: Blackjack
@@ -30,6 +28,14 @@
     url: /gambling/roulette/systems/
   - title: Submit your System!
     url: /gambling/roulette/systems/submit
+- title: Stake.us
+  sublinks:
+    - title: Sign up for Stake.us
+      url: /gambling/sites/stake/
+    - title: Plinko
+      url: /gambling/plinko/
+- title: Books
+  url: /books
 - title: Other
   sublinks:
     - title: TipiT - Tip Calculator
