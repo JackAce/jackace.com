@@ -27,15 +27,16 @@ published: true
     you can play on Stake.
 </p>
 <p>
-    The first difference is that the biggest prize slots are
-    located on the outer edges on Stake. This means that you don't want your balls
+    The first difference is that the <i>biggest prize slots</i> are
+    located on the <i>outer edges</i> on Stake. This means that you don't want your balls
     to fall according to the patterns found on a bell curve. You want your balls to
     land on the extreme edges of the board, so that you win the biggest prizes.
 </p>
 <figure class="figure-condensed">
     <img src="{{site.baseurl}}/assets/img/posts/2024-12-09-plinko/01-plinko-board-550x498.png" alt="The Pinko Board (16 rows/High risk)" />
     <figcaption>
-        The Plinko board with 16 rows and "High" risk offers the highest possible payout of 1000x for a single bet.
+        The Plinko board with 16 rows and "High" risk offers the highest possible payout of
+        1000x for a single bet.
     </figcaption>
 </figure>
 <p>
@@ -48,13 +49,13 @@ published: true
 <p>
     Even though you don't have any decisions to make regarding where the ball is dropped
     or where the ball lands, you still have a hand in deciding your fate. There are two
-    settings for the game that you can change to suit to your liking: The number of <i>Rows</i>,
-    and the level of <i>Risk</i>.
+    settings for the game that you can change to suit to your liking: The number of <b>Rows</b>,
+    and the level of <b>Risk</b>.
 </p>
 
 <h4>Rows</h4>
 <p>
-    The <i>Number of Rows</i> is the number of horizontal rows of pegs the ball must drop
+    The <b>Number of Rows</b> is the number of horizontal rows of pegs the ball must drop
     through. This does <i>NOT</i> correspond to the number of prize slots that are available.
 </p>
 <figure class="figure-condensed">
@@ -77,35 +78,41 @@ published: true
 
 <h4>Risk</h4>
 <p>
-    You can also choose between one of three levels of "risk": There is Low, Medium, and High.
+    You can also choose between one of three levels of <b>"Risk"</b>: 
+    <span class="amt-pos">Low</span>,
+    <span class="amt-med">Medium</span>, and
+    <span class="amt-neg">High</span>.
 </p>
 <p>
-    The Lower levels offer a flatter payout structure, and the worst slots will pay out more. For
-    example,  all High risk will pay out only 20% of your initial bet on the worst payout slots.
-    On the Low risk tier, some of the configurations will <i>still</i> pay out 70% on even the
-    WORST outcomes.
+    The lower levels offer a flatter payout structure, and the worst slots will pay out more. For
+    example,  all <span class="amt-neg">High</span> risk will pay out only 20% of your initial bet
+    on the worst payout slots. On the Low risk tier, some of the configurations will <i>still</i>
+    pay out 70% on even the WORST outcomes.
 </p>
 <figure class="figure-condensed">
     <img src="{{site.baseurl}}/assets/img/posts/2024-12-09-plinko/03-plinko-risk-600x277.png" alt="Plinko Low Risk vs. High Risk" />
     <figcaption>
-        The payout structure is much more flat for the Low risk tier. The High risk tier has the
-        possibility of losing more money, but you can reap much higher rewards.
+        The payout structure is much more flat for the <span class="amt-pos">Low</span> risk tier. The
+        <span class="amt-neg">High</span> risk tier has the possibility of losing more money,
+        but you can reap much higher rewards.
     </figcaption>
 </figure>
 <p>
-    Not only do you have the potential to lose more money (e.g. losing 80% versus losing 30%, in
-    the extreme case), but there are often more slots where you lose (e.g. 5 losing slots versus
-    1 losing slot). 
+    Not only do you have the potential to lose more money (e.g. losing
+    <span class="amt-neg">80%</span> versus losing <span class="amt-low">30%</span>
+    in the extreme case), but there are often more slots where you lose (e.g. 5 losing
+    slots versus 1 losing slot). 
 </p>
 <p>
-    And with that higher risk, you gain the possibility of a higher reward. For all the High risk
-    tiers, the top prize slots are much much higher than the extremes on the Low tiers.
+    And with that higher risk, you gain the possibility of a higher reward. For all the
+    <span class="amt-neg">High</span> risk tiers, the top prize slots are much much higher
+    than the extremes on the <span class="amt-pos">Low</span> tiers.
 </p>
 <h4>Configuration</h4>
 <p>
     For the purposes of this blog post, the combination of Number of Rows and the Risk level
     selected is considered a <b>"Configuration"</b>. So one configuration might be
-    "16 Rows/High Risk". Another configuration might be "10 Rows/Medium Risk".
+    "16 Rows/<span class="amt-neg">High</span> Risk". Another configuration might be "10 Rows/<span class="amt-med">Medium</span> Risk".
 </p>
 
 <h3>House Edge</h3>
@@ -152,14 +159,14 @@ published: true
     So which config is the best one for the player? Which config results in the lowest house edge?
 </p>
 <p>
-    Selecting 11 Rows with High risk results in the lowest house edge. Your expected result for a $1 wager is
+    Selecting 11 Rows with <span class="amt-neg">High</span> risk results in the lowest house edge. Your expected result for a $1 wager is
     $0.991526, which is a house edge of only 0.8474%. With this configuration, you still have the possibility
     of winning 120x, which will happen 0.0488% of the time, or once in every 2049 balls.
 </p>
 <figure class="figure-condensed">
     <img src="{{site.baseurl}}/assets/img/posts/2024-12-09-plinko/05-plinko-lowest-house-edge-600x230.png" alt="11 Rows with High Risk has an EV of 0.991526" />
     <figcaption>
-        11 Rows with High Risk results in the lowest house edge of 0.8474% (highest EV of 0.991526).
+        11 Rows with <span class="amt-neg">High</span> Risk results in the lowest house edge of 0.8474% (highest EV of 0.991526).
     </figcaption>
 </figure>
 
@@ -168,12 +175,12 @@ published: true
     And which configuration is the worst?
 </p>
 <p>
-    The Highest House Edge happens with the 8 Row/Medium Risk configuration. This config has a 1.0944% house edge.
+    The Highest House Edge happens with the 8 Row/<span class="amt-med">Medium</span> Risk configuration. This config has a 1.0944% house edge.
 </p>
 <figure class="figure-condensed">
     <img src="{{site.baseurl}}/assets/img/posts/2024-12-09-plinko/06-plinko-highest-house-edge-600x182.png" alt="8 Rows with Medium Risk has an EV of 0.989056" />
     <figcaption>
-        8 Rows with Medium Risk results in the highest house edge of 1.0944% (lowest EV of 0.989056).
+        8 Rows with <span class="amt-med">Medium</span> Risk results in the highest house edge of 1.0944% (lowest EV of 0.989056).
     </figcaption>
 </figure>
 
@@ -186,23 +193,30 @@ published: true
 <p>
     And you can see my findings for all 27 configurations <a href="{{site.baseurl}}/gambling/plinko/">here</a>. This page
     also includes the graphs for all 9 row settings such as the graph below. This graph displays the distribution of
-    value for each of the slots for the three risk levels: High (red), Medium (yellow), and Low (green).
+    value for each of the slots for the three risk levels:
+    <span class="amt-neg">High</span> (red),
+    <span class="amt-med">Medium</span> (yellow), and
+    <span class="amt-pos">Low</span> (green).
 </p>
 <figure class="figure-condensed">
     <img src="{{site.baseurl}}/assets/img/posts/2024-12-09-plinko/07-plinko-graph-600x356.png" alt="Graph for the 16 Row Configurations" />
     <figcaption>
-        This graph displays the distribution of Expected Value for the High (red), Medium (yellow), and Low (Green) risk
+        This graph displays the distribution of Expected Value for the
+        <span class="amt-neg">High</span> (red),
+        <span class="amt-med">Medium</span> (yellow), and
+        <span class="amt-pos">Low</span> (Green) risk
         levels.
     </figcaption>
 </figure>
 <p>
-    Looking at the graph above, you can see that for the High risk level, most of the value is given to the outside slots, 
-    where you earn up to 1000x your wager. For the High risk level, you lose a lot of value in the middle slots. And for all
-    three risk levels, there are inflection points on the 6th and 12th slots. At these points, the distribution of value
-    crosses over for all three risk levels.
+    Looking at the graph above, you can see that for the <span class="amt-neg">High</span> risk level, most
+    of the value is given to the outside slots, where you earn up to 1000x your wager. For the
+    <span class="amt-neg">High</span> risk level, you lose a lot of value in the middle slots. And for all
+    three risk levels, there are inflection points on the 6th and 12th slots. At these points, the
+    distribution of value crosses over for all three risk levels.
 </p>
 <p>
-    And you'll see similar characteristics for the other Row settings. The High risk levels will all have higher value on the
+    And you'll see similar characteristics for the other Row settings. The <span class="amt-neg">High</span> risk levels will all have higher value on the
     outer slots, and these get inverted in the middle slots.
 </p>
 <p>
