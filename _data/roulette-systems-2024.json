@@ -1,3 +1,61 @@
+{
+    "name": "Upwork Test",
+    "airDate": "2024-12-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=aeo76wVdh3Q",
+    "reviewUrl": "2024-12-12-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "a",
+    "jackaceRating": "b",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 1,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 2
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "34",
+        "amountBet": 50,
+        "result": 10,
+        "time": "1:20"
+      },
+      {
+        "spin": 2,
+        "number": "4",
+        "amountBet": 50,
+        "result": 10,
+        "time": "1:45"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 50,
+        "result": 10,
+        "time": "2:17"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 80,
+        "result": -80,
+        "time": "2:47"
+      }
+    ]
+  },
 [
   {
     "name": "Nolley Molley",
