@@ -188,15 +188,22 @@
         "result": -70,
         "time": "11:31"
       },
-       {
+      {
         "spin": 24,
+        "number": "35",
+        "amountBet": 0,
+        "result": 0,
+        "time": "12:06"
+      },
+       {
+        "spin": 25,
         "number": "20",
         "amountBet": 100,
         "result": -100,
         "time": "12:42"
       },
        {
-        "spin": 25,
+        "spin": 26,
         "number": "35",
         "amountBet": 50,
         "result": -50,
