@@ -9,7 +9,7 @@ repository: JackAce/jackace.com
 google_analytics: G-0HYRRBTEVY
 
 # Google Adsense
-#google_adsense: ca-pub-5831288475713424 #new business adsense account
+google_adsense: ca-pub-5831288475713424 #new business adsense account
 
 contact:
   url: https://github.com/JackAce
@@ -33,7 +33,7 @@ show_excerpts: true  # set to true to show excerpts on the homepage, otherwise f
 
 # Comments
 # To enable comments, set the `enabled` field to true and supply either a Disqus short name or a Jekyll comments receiver
-disqus: jackace-beta
+disqus: jackace
 comments:
   enabled: true
   #disqus: jackace
