@@ -2,27 +2,39 @@
   {
     "name": "Easy as 1,2,3",
     "airDate": "2024-10-17",
-    "youtubeUrl": "https://www.youtube.com/watch?v=PKvDsHUtFso&ab",
-    "reviewUrl": "2024-12-12-Upwork-Test",
+    "youtubeUrl": "https://www.youtube.com/watch?v=PKvDsHUtFso",
+    "reviewUrl": "2024-10-17-Easy-as-1-2-3",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-col3":20,"x12-col1":20,"x3-basket":5,"x3-1-3":5}},
+      {"wheelType":1,"wagers":{"x12-col3":30,"x12-col1":30,"x3-basket":10,"x3-1-3":10}},
+      {"wheelType":1,"wagers":{"x12-col3":25,"x12-col1":25,"x3-basket":5,"x3-1-3":5}},
+      {"wheelType":1,"wagers":{"x12-col3":30,"x12-col1":30,"x3-basket":5,"x3-1-3":5}},
+      {"wheelType":1,"wagers":{"x12-col3":30,"x12-col1":30,"x3-basket":10,"x3-1-3":10}}
     ],
-    "systemType": "Ladder",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
-      100
+      50,
+      80,
+      60,
+      70,
+      80
     ],
-    "rating": "a",
-    "jackaceRating": "b",
+    "rating": "f",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
       "bettingSimplicity": 3,
-      "progressionSimplicity": 2,
-      "chipUniformity": 1,
-      "jackpotPotential": 2,
-      "scalability": 3,
+      "progressionSimplicity": 1,
+      "chipUniformity": 4,
+      "jackpotPotential": 1,
+      "scalability": 2,
       "compValue": 2
     },
     "isJackAceReview": false,
@@ -137,7 +149,8 @@
         "number": "12",
         "amountBet": 60,
         "result": 15,
-        "time": "8:18"
+        "time": "8:18",
+        "notes": "Alex started pressing $10 on the two column bets here."
       },
       {
         "spin": 17,
@@ -157,8 +170,9 @@
         "spin": 19,
         "number": "30",
         "amountBet": 80,
-        "result": 20,
-        "time": "10:00"
+        "result": 10,
+        "time": "10:00",
+        "notes": "Win is +10, not +20"
       },
       {
         "spin": 20,
@@ -193,14 +207,16 @@
         "number": "35",
         "amountBet": 0,
         "result": 0,
-        "time": "12:06"
+        "time": "12:06",
+        "notes": "Alex didn't bet here."
       },
        {
         "spin": 25,
         "number": "20",
         "amountBet": 100,
         "result": -100,
-        "time": "12:42"
+        "time": "12:42",
+        "notes": "Alex Martingaled this bet for no reason at all."
       },
        {
         "spin": 26,
