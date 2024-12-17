@@ -1,5 +1,111 @@
 [
   {
+    "name": "It's My B-day",
+    "airDate": "2024-10-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=H2qJXLH2J5I",
+    "reviewUrl": "2024-10-18-Its-my-Bday",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-1":10,"x1-4":10,"x1-10":10,"x1-12":10,"x1-14":10,"x1-20":10,"x1-21":10,"x1-28":10,"x1-30":10,"x1-31":10}},
+      {"wheelType":1,"wagers":{"x1-1":20,"x1-4":20,"x1-10":20,"x1-12":20,"x1-14":20,"x1-20":20,"x1-21":20,"x1-28":20,"x1-30":20,"x1-31":20}},
+      {"wheelType":1,"wagers":{"x1-1":40,"x1-4":40,"x1-10":40,"x1-12":40,"x1-14":40,"x1-20":40,"x1-21":40,"x1-28":40,"x1-30":40,"x1-31":40}}
+    ],
+    "systemType": "Martingale",
+    "buyIn": 2100,
+    "bets": [
+      100,
+      200,
+      400
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 5,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 5,
+      "compValue": 3
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "6",
+        "amountBet": 100,
+        "result": -100,
+        "time": "1:20"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:00"
+      },
+      {
+        "spin": 3,
+        "number": "11",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:43"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 200,
+        "result": -200,
+        "time": "3:26"
+      },
+      {
+        "spin": 5,
+        "number": "24",
+        "amountBet": 200,
+        "result": -200,
+        "time": "4:44"
+      },
+      {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 200,
+        "result": -200,
+        "time": "5:55"
+      },
+      {
+        "spin": 7,
+        "number": "7",
+        "amountBet": 400,
+        "result": -400,
+        "time": "6:57"
+      },
+      {
+        "spin": 8,
+        "number": "20",
+        "amountBet": 400,
+        "result": 1040,
+        "time": "7:55"
+      },
+      {
+        "spin": 9,
+        "number": "27",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:07"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:49"
+      }
+    ]
+  },
+  {
     "name": "Easy as 1,2,3",
     "airDate": "2024-10-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=PKvDsHUtFso",
