@@ -1,29 +1,38 @@
 [
   {
-    "name": "Line em up to get em up",
+    "name": "Line 'em up to get 'em up",
     "airDate": "2024-10-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=f-PbrxxNGbg",
-    "reviewUrl": "2024-12-12-Upwork-Test",
+    "reviewUrl": "2024-10-19-Line-em-up-to-get-em-up",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x18-high":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x6-13-18":25,"x6-16-21":25,"x6-19-24":25}},
+      {"wheelType":1,"wagers":{"x6-13-18":50,"x6-16-21":50,"x6-19-24":50}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Positive Progression",
+    "buyIn": 1000,
     "bets": [
-      100
+      25,
+      50,
+      75,
+      150
     ],
-    "rating": "a",
+    "rating": "b",
     "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": 3,
-      "progressionSimplicity": 2,
-      "chipUniformity": 1,
-      "jackpotPotential": 2,
-      "scalability": 3,
-      "compValue": 2
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 4,
+      "chipUniformity": 5,
+      "jackpotPotential": 4,
+      "scalability": 5,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -39,14 +48,15 @@
         "number": "6",
         "amountBet": 25,
         "result": -25,
-        "time": "1:18"
+        "time": "1:17"
       },
       {
         "spin": 3,
         "number": "27",
         "amountBet": 25,
         "result": -25,
-        "time": "1:49"
+        "time": "1:49",
+        "notes": "Alex switched to Black instead of High"
       },
       {
         "spin": 4,
@@ -67,14 +77,14 @@
         "number": "8",
         "amountBet": 75,
         "result": -75,
-        "time": "2:58"
+        "time": "2:57"
       },
       {
         "spin": 7,
         "number": "9",
         "amountBet": 25,
         "result": -25,
-        "time": "3:29"
+        "time": "3:28"
       },
       {
         "spin": 8,
@@ -123,7 +133,7 @@
         "number": "15",
         "amountBet": 25,
         "result": 25,
-        "time": "6:23"
+        "time": "6:22"
       },
       {
         "spin": 15,
@@ -137,7 +147,7 @@
         "number": "16",
         "amountBet": 75,
         "result": 225,
-        "time": "7:05"
+        "time": "7:04"
       },
       {
         "spin": 17,
@@ -172,7 +182,7 @@
         "number": "31",
         "amountBet": 25,
         "result": 25,
-        "time": "9:29"
+        "time": "9:28"
       },
       {
         "spin": 22,
