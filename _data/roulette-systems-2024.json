@@ -1,5 +1,231 @@
 [
   {
+    "name": "Line em up to get em up",
+    "airDate": "2024-10-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=f-PbrxxNGbg",
+    "reviewUrl": "2024-12-12-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "a",
+    "jackaceRating": "b",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 1,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 2
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "0",
+        "amountBet": 25,
+        "result": -25,
+        "time": "0:57"
+      },
+      {
+        "spin": 2,
+        "number": "6",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:18"
+      },
+      {
+        "spin": 3,
+        "number": "27",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:49"
+      },
+      {
+        "spin": 4,
+        "number": "2",
+        "amountBet": 25,
+        "result": 25,
+        "time": "2:01"
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 50,
+        "result": 25,
+        "time": "2:22"
+      },
+      {
+        "spin": 6,
+        "number": "8",
+        "amountBet": 75,
+        "result": -75,
+        "time": "2:58"
+      },
+      {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:29"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:12"
+      },
+      {
+        "spin": 9,
+        "number": "34",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:42"
+      },
+      {
+        "spin": 10,
+        "number": "21",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:56"
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 25,
+        "result": 25,
+        "time": "5:13"
+      },
+      {
+        "spin": 12,
+        "number": "24",
+        "amountBet": 50,
+        "result": 25,
+        "time": "5:43"
+      },
+      {
+        "spin": 13,
+        "number": "8",
+        "amountBet": 75,
+        "result": -75,
+        "time": "6:08"
+      },
+      {
+        "spin": 14,
+        "number": "15",
+        "amountBet": 25,
+        "result": 25,
+        "time": "6:23"
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 50,
+        "result": 25,
+        "time": "6:47"
+      },
+      {
+        "spin": 16,
+        "number": "16",
+        "amountBet": 75,
+        "result": 225,
+        "time": "7:05"
+      },
+      {
+        "spin": 17,
+        "number": "28",
+        "amountBet": 150,
+        "result": -150,
+        "time": "7:34"
+      },
+      {
+        "spin": 18,
+        "number": "1",
+        "amountBet": 25,
+        "result": 25,
+        "time": "8:06"
+      },
+      {
+        "spin": 19,
+        "number": "31",
+        "amountBet": 50,
+        "result": 25,
+        "time": "8:53"
+      },
+      {
+        "spin": 20,
+        "number": "30",
+        "amountBet": 75,
+        "result": -75,
+        "time": "9:17"
+      },
+      {
+        "spin": 21,
+        "number": "31",
+        "amountBet": 25,
+        "result": 25,
+        "time": "9:29"
+      },
+      {
+        "spin": 22,
+        "number": "7",
+        "amountBet": 50,
+        "result": -50,
+        "time": "9:43"
+      },
+      {
+        "spin": 23,
+        "number": "20",
+        "amountBet": 25,
+        "result": 25,
+        "time": "10:00"
+      },
+      {
+        "spin": 24,
+        "number": "14",
+        "amountBet": 50,
+        "result": 25,
+        "time": "10:30"
+      },
+      {
+        "spin": 25,
+        "number": "23",
+        "amountBet": 75,
+        "result": 75,
+        "time": "11:00"
+      },
+      {
+        "spin": 26,
+        "number": "15",
+        "amountBet": 75,
+        "result": 75,
+        "time": "11:18"
+      },
+      {
+        "spin": 27,
+        "number": "13",
+        "amountBet": 75,
+        "result": -75,
+        "time": "11:34"
+      },
+      {
+        "spin": 28,
+        "number": "36",
+        "amountBet": 25,
+        "result": -25,
+        "time": "12:01"
+      }
+    ]
+  },
+  {
     "name": "It's My B-day",
     "airDate": "2024-10-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=H2qJXLH2J5I",
