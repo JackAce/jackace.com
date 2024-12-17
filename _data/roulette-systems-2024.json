@@ -1,5 +1,105 @@
 [
   {
+    "name": "It's My B-day",
+    "airDate": "2024-10-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=H2qJXLH2J5I",
+    "reviewUrl": "2024-12-12-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "a",
+    "jackaceRating": "b",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 1,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 2
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "6",
+        "amountBet": 100,
+        "result": -100,
+        "time": "1:20"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:00"
+      },
+      {
+        "spin": 3,
+        "number": "11",
+        "amountBet": 100,
+        "result": -100,
+        "time": "2:43"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 200,
+        "result": -200,
+        "time": "3:26"
+      },
+      {
+        "spin": 5,
+        "number": "24",
+        "amountBet": 200,
+        "result": -200,
+        "time": "4:45"
+      },
+      {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 200,
+        "result": -200,
+        "time": "5:57"
+      },
+      {
+        "spin": 7,
+        "number": "7",
+        "amountBet": 400,
+        "result": -400,
+        "time": "6:57"
+      },
+      {
+        "spin": 8,
+        "number": "20",
+        "amountBet": 400,
+        "result": 1040,
+        "time": "7:56"
+      },
+      {
+        "spin": 9,
+        "number": "27",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:08"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:50"
+      }
+    ]
+  },
+  {
     "name": "Easy as 1,2,3",
     "airDate": "2024-10-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=PKvDsHUtFso",
