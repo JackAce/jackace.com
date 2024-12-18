@@ -1,4 +1,111 @@
 [
+   {
+    "name": "Tripps",
+    "airDate": "2024-10-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=gB3LmUo8aqQ",
+    "reviewUrl": "2024-10-20-Tripps",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x18-black":10,"x18-odd":10,"x18-high":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x18-low":10,"x18-red":10,"x12-col1":10,"x12-col3":10}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      20,
+      30,
+      40,
+      40
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "26",
+        "amountBet": 20,
+        "result": 10,
+        "time": "1:54"
+      },
+      {
+        "spin": 2,
+        "number": "21",
+        "amountBet": 30,
+        "result": 10,
+        "time": "2:26"
+      },
+      {
+        "spin": 3,
+        "number": "14",
+        "amountBet": 40,
+        "result": 20,
+        "time": "2:54"
+      },
+      {
+        "spin": 4,
+        "number": "36",
+        "amountBet": 60,
+        "result": -60,
+        "time": "3:30"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 40,
+        "result": 20,
+        "time": "4:09"
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 60,
+        "result": -60,
+        "time": "4:26"
+      },
+      {
+        "spin": 7,
+        "number": "21",
+        "amountBet": 40,
+        "result": 20,
+        "time": "5:00"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 60,
+        "result": 60,
+        "time": "5:21"
+      },
+      {
+        "spin": 9,
+        "number": "31",
+        "amountBet": 80,
+        "result": 20,
+        "time": "5:54"
+      },
+      {
+        "spin": 10,
+        "number": "29",
+        "amountBet": 20,
+        "result": 10,
+        "time": "6:16"
+      }
+    ]
+  },
   {
     "name": "Line 'em up to get 'em up",
     "airDate": "2024-10-19",
