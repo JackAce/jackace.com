@@ -6,7 +6,9 @@
     "reviewUrl": "2024-10-20-Tripps",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
-      "00-rba-1-800x768.png"
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}},
@@ -22,15 +24,15 @@
       40,
       40
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "c",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 2,
+      "chipUniformity": 4,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -67,28 +69,28 @@
         "number": "13",
         "amountBet": 40,
         "result": 20,
-        "time": "4:09"
+        "time": "4:08"
       },
       {
         "spin": 6,
         "number": "1",
         "amountBet": 60,
         "result": -60,
-        "time": "4:26"
+        "time": "4:25"
       },
       {
         "spin": 7,
         "number": "21",
         "amountBet": 40,
         "result": 20,
-        "time": "5:00"
+        "time": "4:59"
       },
       {
         "spin": 8,
         "number": "35",
         "amountBet": 60,
         "result": 60,
-        "time": "5:21"
+        "time": "5:20"
       },
       {
         "spin": 9,
