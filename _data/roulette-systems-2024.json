@@ -1,5 +1,175 @@
 [
    {
+    "name": "Why Not 2.0",
+    "airDate": "2024-10-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=nPiOGKyEqSM",
+    "reviewUrl": "2024-12-12-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "a",
+    "jackaceRating": "b",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 1,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 2
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "18",
+        "amountBet": 15,
+        "result": 0,
+        "time": "1:20"
+      },
+      {
+        "spin": 2,
+        "number": "2",
+        "amountBet": 15,
+        "result": -15,
+        "time": "1:43"
+      },
+        {
+        "spin": 3,
+        "number": "4",
+        "amountBet": 15,
+        "result": -15,
+        "time": "2:05"
+      },
+        {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 15,
+        "result": -15,
+        "time": "2:30"
+      },
+        {
+        "spin": 5,
+        "number": "5",
+        "amountBet": 15,
+        "result": -15,
+        "time": "2:54"
+      },
+        {
+        "spin": 6,
+        "number": "3",
+        "amountBet": 15,
+        "result": -15,
+        "time": "3:21"
+      },
+        {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 15,
+        "result": 10,
+        "time": "3:47"
+      },
+        {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 25,
+        "result": 0,
+        "time": "4:22"
+      },
+        {
+        "spin": 9,
+        "number": "15",
+        "amountBet": 15,
+        "result": 0,
+        "time": "5:15"
+      },
+        {
+        "spin": 10,
+        "number": "16",
+        "amountBet": 15,
+        "result": 0,
+        "time": "5:44"
+      },
+        {
+        "spin": 11,
+        "number": "4",
+        "amountBet": 15,
+        "result": -15,
+        "time": "6:07"
+      },
+       {
+        "spin": 12,
+        "number": "13",
+        "amountBet": 15,
+        "result": 0,
+        "time": "6:35"
+      },
+       {
+        "spin": 13,
+        "number": "0",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:01"
+      },
+       {
+        "spin": 14,
+        "number": "11",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:25"
+      },
+       {
+        "spin": 15,
+        "number": "6",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:31"
+      },
+       {
+        "spin": 16,
+        "number": "35",
+        "amountBet": 15,
+        "result": 10,
+        "time": "7:48"
+      },
+       {
+        "spin": 17,
+        "number": "29",
+        "amountBet": 25,
+        "result": 25,
+        "time": "8:13"
+      },
+       {
+        "spin": 18,
+        "number": "18",
+        "amountBet": 30,
+        "result": 0,
+        "time": "8:46"
+      },
+       {
+        "spin": 19,
+        "number": "27",
+        "amountBet": 30,
+        "result": 0,
+        "time": "9:12"
+      },
+       {
+        "spin": 20,
+        "number": "27",
+        "amountBet": 50,
+        "result": 50,
+        "time": "9:41"
+      },
+    ]
+  },
+   {
     "name": "Tripps",
     "airDate": "2024-10-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=gB3LmUo8aqQ",
