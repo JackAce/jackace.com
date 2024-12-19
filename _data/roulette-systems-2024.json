@@ -246,6 +246,125 @@
         "result": -40,
         "time": "13:42"
       },
+       {
+        "spin": 31,
+        "number": "30",
+        "amountBet": 40,
+        "result": 20,
+        "time": "14:17"
+      },
+        {
+        "spin": 32,
+        "number": "13",
+        "amountBet": 60,
+        "result": 20,
+        "time": "14:45"
+      },
+        {
+        "spin": 33,
+        "number": "22",
+        "amountBet": 80,
+        "result": 40,
+        "time": "15:07"
+      },
+        {
+        "spin": 34,
+        "number": "35",
+        "amountBet": 120,
+        "result": 120,
+        "time": "15:33"
+      },
+        {
+        "spin": 35,
+        "number": "25",
+        "amountBet": 160,
+        "result": 40,
+        "time": "16:17"
+      },
+        {
+        "spin": 36,
+        "number": "32",
+        "amountBet": 20,
+        "result": 10,
+        "time": "17:03"
+      },
+        {
+        "spin": 37,
+        "number": "34",
+        "amountBet": 30,
+        "result": -20,
+        "time": "17:19"
+      },
+        {
+        "spin": 38,
+        "number": "25",
+        "amountBet": 20,
+        "result": 10,
+        "time": "17:31"
+      },
+        {
+        "spin": 39,
+        "number": "30",
+        "amountBet": 30,
+        "result": -20,
+        "time": "17:51"
+      },
+        {
+        "spin": 40,
+        "number": "33",
+        "amountBet": 20,
+        "result": 10,
+        "time": "18:11"
+      },
+       {
+        "spin": 41,
+        "number": "9",
+        "amountBet": 30,
+        "result": -20,
+        "time": "18:34"
+      },
+         {
+        "spin": 42,
+        "number": "2",
+        "amountBet": 20,
+        "result": -20,
+        "time": "18:48"
+      },
+         {
+        "spin": 43,
+        "number": "16",
+        "amountBet": 0,
+        "result": 0,
+        "time": "19:02"
+      },
+         {
+        "spin": 44,
+        "number": "34",
+        "amountBet": 0,
+        "result": 0,
+        "time": "19:22"
+      },
+         {
+        "spin": 45,
+        "number": "7",
+        "amountBet": 0,
+        "result": 0,
+        "time": "19:45"
+      },
+       {
+        "spin": 46,
+        "number": "11",
+        "amountBet": 0,
+        "result": 0,
+        "time": "19:52"
+      },
+        {
+        "spin": 47,
+        "number": "27",
+        "amountBet": 0,
+        "result": 0,
+        "time": "20:05"
+      }
     ]
   },
   {
