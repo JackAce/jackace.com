@@ -1,5 +1,105 @@
 [
    {
+    "name": "Slow Roller",
+    "airDate": "2024-10-23",
+    "youtubeUrl": "https://www.youtube.com/watch?v=gLAFeAIMV-U&t",
+    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "5",
+        "amountBet": 75 ,
+        "result": 15,
+        "time": "1:15"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 75,
+        "result": 15,
+        "time": "1:50"
+      },
+        {
+        "spin": 3,
+        "number": "19",
+        "amountBet": 75,
+        "result": -15,
+        "time": "2:24"
+      },
+        {
+        "spin": 4,
+        "number": "35",
+        "amountBet": 75,
+        "result": 15,
+        "time": "2:58"
+      },
+        {
+        "spin": 5,
+        "number": "22",
+        "amountBet": 75,
+        "result": -15,
+        "time": "3:19"
+      },
+        {
+        "spin": 6,
+        "number": "26",
+        "amountBet": 75,
+        "result": 15,
+        "time": "3:34"
+      },
+        {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 75,
+        "result": 15,
+        "time": "4:23"
+      },
+        {
+        "spin": 8,
+        "number": "27",
+        "amountBet": 120,
+        "result": -120,
+        "time": "5:00"
+      },
+        {
+        "spin": 9,
+        "number": "31",
+        "amountBet": 75,
+        "result": -75,
+        "time": "5:50"
+      },
+        {
+        "spin": 10,
+        "number": "27",
+        "amountBet": 75,
+        "result": -120,
+        "time": "6:07"
+      },
+    ]
+  },
+   {
     "name": "Why Not 2.0",
     "airDate": "2024-10-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=nPiOGKyEqSM",
