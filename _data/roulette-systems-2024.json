@@ -1,4 +1,174 @@
 [
+    {
+    "name": "Spin Off 2.0",
+    "airDate": "2024-10-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=AWV6kxZSynI",
+    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "6",
+        "amountBet": 50,
+        "result": -50,
+        "time": "1:33"
+      },
+      {
+        "spin": 2,
+        "number": "4",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:02"
+      },
+       {
+        "spin": 3,
+        "number": "3",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:22"
+      },
+       {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:42"
+      },
+       {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 50,
+        "result": 25,
+        "time": "3:04"
+      },
+       {
+        "spin": 6,
+        "number": "14",
+        "amountBet": 75,
+        "result": 75,
+        "time": "4:17"
+      },
+       {
+        "spin": 7,
+        "number": "3",
+        "amountBet": 150,
+        "result": -150,
+        "time": "4:45"
+      },
+       {
+        "spin": 8,
+        "number": "9",
+        "amountBet": 50,
+        "result": -50,
+        "time": "5:51"
+      },
+       {
+        "spin": 9,
+        "number": "10",
+        "amountBet": 50,
+        "result": -50,
+        "time": "6:44"
+      },
+       {
+        "spin": 10,
+        "number": "15",
+        "amountBet": 50,
+        "result": 25,
+        "time": "7:13"
+      },
+       {
+        "spin": 11,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 12,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 13,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 14,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 15,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 16,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 17,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 18,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 19,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 20,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+    ]
+  },
    {
     "name": "The Drake",
     "airDate": "2024-10-25",
