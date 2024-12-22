@@ -1,4 +1,233 @@
 [
+    {
+    "name": "Spin Off 2.0",
+    "airDate": "2024-10-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=AWV6kxZSynI",
+    "reviewUrl": "2024-10-26-Spin-Off-20",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x2-13-16":15,"x2-14-17":15,"x2-15-18":15,"x2-31-34":15,"x2-25-28":15,"x2-29-32":15,"x2-30-33":15,"x2-21-24":15,"x2-20-23":15,"x2-19-22":15}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 250,
+    "bets": [
+      50,
+      75,
+      150
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "friendCount": 3,
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 2
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "friend": 1,
+        "number": "6",
+        "amountBet": 50,
+        "result": -50,
+        "time": "1:33"
+      },
+      {
+        "spin": 2,
+        "friend": 1,
+        "number": "4",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:02"
+      },
+       {
+        "spin": 3,
+        "friend": 1,
+        "number": "3",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:22"
+      },
+       {
+        "spin": 4,
+        "friend": 1,
+        "number": "9",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:42"
+      },
+       {
+        "spin": 5,
+        "friend": 1,
+        "number": "21",
+        "amountBet": 50,
+        "result": 25,
+        "time": "3:04"
+      },
+       {
+        "spin": 6,
+        "friend": 1,
+        "number": "14",
+        "amountBet": 75,
+        "result": 75,
+        "time": "4:17"
+      },
+       {
+        "spin": 7,
+        "friend": 1,
+        "number": "3",
+        "amountBet": 150,
+        "result": -150,
+        "time": "4:45"
+      },
+       {
+        "spin": 8,
+        "friend": 2,
+        "number": "9",
+        "amountBet": 50,
+        "result": -50,
+        "time": "5:51"
+      },
+       {
+        "spin": 9,
+        "friend": 2,
+        "number": "10",
+        "amountBet": 50,
+        "result": -50,
+        "time": "6:44"
+      },
+       {
+        "spin": 10,
+        "friend": 2,
+        "number": "15",
+        "amountBet": 50,
+        "result": 25,
+        "time": "7:13"
+      },
+       {
+        "spin": 11,
+        "friend": 2,
+        "number": "34",
+        "amountBet": 75,
+        "result": 0,
+        "time": "7:33"
+      },
+       {
+        "spin": 12,
+        "friend": 2,
+        "number": "11",
+        "amountBet": 75,
+        "result": -75,
+        "time": "7:48"
+      },
+       {
+        "spin": 13,
+        "friend": 2,
+        "number": "0",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:23"
+      },
+       {
+        "spin": 14,
+        "friend": 2,
+        "number": "22",
+        "amountBet": 50,
+        "result": 25,
+        "time": "8:47"
+      },
+       {
+        "spin": 15,
+        "friend": 2,
+        "number": "10",
+        "amountBet": 75,
+        "result": -75,
+        "time": "9:11"
+      },
+       {
+        "spin": 16,
+        "friend": 3,
+        "number": "31",
+        "amountBet": 50,
+        "result": 25,
+        "time": "9:51"
+      },
+       {
+        "spin": 17,
+        "friend": 3,
+        "number": "29",
+        "amountBet": 75,
+        "result": 0,
+        "time": "11:11"
+      },
+       {
+        "spin": 18,
+        "friend": 3,
+        "number": "4",
+        "amountBet": 75,
+        "result": -75,
+        "time": "11:42"
+      },
+       {
+        "spin": 19,
+        "friend": 3,
+        "number": "30",
+        "amountBet": 50,
+        "result": 25,
+        "time": "12:18"
+      },
+       {
+        "spin": 20,
+        "friend": 3,
+        "number": "33",
+        "amountBet": 75,
+        "result": 0,
+        "time": "12:47"
+      },
+        {
+        "spin": 21,
+        "friend": 3,
+        "number": "34",
+        "amountBet": 75,
+        "result": 0,
+        "time": "13:11"
+      },
+        {
+        "spin": 22,
+        "friend": 3,
+        "number": "35",
+        "amountBet": 75,
+        "result": 0,
+        "time": "13:33"
+      },
+        {
+        "spin": 23,
+        "friend": 3,
+        "number": "30",
+        "amountBet": 75,
+        "result": 0,
+        "time": "14:01"
+      },
+        {
+        "spin": 24,
+        "friend": 3,
+        "number": "7",
+        "amountBet": 75,
+        "result": -75,
+        "time": "14:22"
+      }
+    ]
+  },
    {
     "name": "The Drake",
     "airDate": "2024-10-25",
