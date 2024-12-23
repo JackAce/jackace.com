@@ -2,28 +2,37 @@
     {
     "name": "C in my C",
     "airDate": "2024-11-03",
-    "youtubeUrl": "https://www.youtube.com/watch?v=LpJqn4O8AQ0&ab",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LpJqn4O8AQ0",
+    "reviewUrl": "2024-11-03-C-in-my-C",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x18-black":15,"x12-col3":15}},
+      {"wheelType":1,"wagers":{"x18-black":20,"x12-col3":20}},
+      {"wheelType":1,"wagers":{"x12-col3":30,"x18-black":30}},
+      {"wheelType":1,"wagers":{"x18-black":35,"x12-col3":35}}
     ],
-    "systemType": "Ladder",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
-      100
+      30,
+      40,
+      60,
+      70
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "b",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 3,
+      "scalability": 5,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -37,7 +46,7 @@
       {
         "spin": 2,
         "number": "36",
-        "amountBet": 30 ,
+        "amountBet": 30,
         "result": 45,
         "time": "1:36"
       },
@@ -191,30 +200,39 @@
     ]
   },
     {
-    "name": "3 V's R Better",
+    "name": "3 V's R Better than 1",
     "airDate": "2024-11-02",
-    "youtubeUrl": "https://www.youtube.com/watch?v=8Fap6ayfGwA&ab",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "youtubeUrl": "https://www.youtube.com/watch?v=8Fap6ayfGwA",
+    "reviewUrl": "2024-11-02-3-Vs-R-Better-than-1",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x6-4-9":15,"x6-16-21":15,"x6-28-33":15,"x2-32-35":5,"x2-26-29":5,"x2-20-23":5,"x2-14-17":5,"x2-8-11":5,"x2-2-5":5}},
+      {"wheelType":1,"wagers":{"x6-4-9":20,"x6-16-21":20,"x6-28-33":20,"x2-32-35":5,"x2-26-29":5,"x2-20-23":5,"x2-14-17":5,"x2-8-11":5,"x2-2-5":5}},
+      {"wheelType":1,"wagers":{"x6-4-9":20,"x6-16-21":20,"x6-28-33":20,"x2-32-35":10,"x2-26-29":10,"x2-20-23":10,"x2-14-17":10,"x2-8-11":10,"x2-2-5":10}},
+      {"wheelType":1,"wagers":{"x6-4-9":20,"x6-16-21":20,"x6-28-33":20,"x2-32-35":15,"x2-26-29":15,"x2-20-23":15,"x2-14-17":15,"x2-8-11":15,"x2-2-5":15}}
     ],
-    "systemType": "Ladder",
+    "systemType": "Flat Bet",
     "buyIn": 300,
     "bets": [
-      100
+      75,
+      90,
+      120,
+      150
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "c",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 5,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
@@ -272,7 +290,8 @@
         "number": "15",
         "amountBet": 90,
         "result": -90,
-        "time": "7:46"
+        "time": "7:46",
+        "notes": "Alex started pressing the $15 wins here instead of sticking to the flat bet system."
       },
         {
         "spin": 9,
@@ -292,15 +311,17 @@
         "spin": 11,
         "number": "5",
         "amountBet": 120,
-        "result": 160,
-        "time": "9:50"
+        "result": 180,
+        "time": "9:50",
+        "notes": "The win here is +180, not +120. Alex started pressing up the 2nd column here."
       },
         {
         "spin": 12,
         "number": "32",
         "amountBet": 150,
         "result": 240,
-        "time": "11:02"
+        "time": "11:02",
+        "notes": "Alex pressed up the 2nd column again and got lucky!"
       }        
     ]
   },
