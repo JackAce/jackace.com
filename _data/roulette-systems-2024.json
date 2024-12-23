@@ -2,28 +2,34 @@
     {
     "name": "Best of all Worlds",
     "airDate": "2024-11-01",
-    "youtubeUrl": "https://www.youtube.com/watch?v=7cXxgOds3vY&ab",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7cXxgOds3vY",
+    "reviewUrl": "2024-11-01-Best-of-all-Worlds",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x12-doz3":30,"x12-doz1":30,"x6-16-21":25}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Positive Progression",
+    "buyIn": 200,
     "bets": [
-      100
+      50,
+      75,
+      85
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "b",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 1,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -46,7 +52,7 @@
         "number": "19",
         "amountBet": 75,
         "result": 75,
-        "time": "2:30"
+        "time": "2:29"
       },
         {
         "spin": 4,
