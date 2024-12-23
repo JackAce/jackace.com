@@ -1,5 +1,196 @@
 [
     {
+    "name": "C in my C",
+    "airDate": "2024-11-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LpJqn4O8AQ0&ab",
+    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "34",
+        "amountBet": 30,
+        "result": 0,
+        "time": "1:18"
+      },
+      {
+        "spin": 2,
+        "number": "36",
+        "amountBet": 30 ,
+        "result": 45,
+        "time": "1:36"
+      },
+        {
+        "spin": 3,
+        "number": "9",
+        "amountBet": 70,
+        "result": 105,
+        "time": "2:08"
+      },
+        {
+        "spin": 4,
+        "number": "1",
+        "amountBet": 30,
+        "result": 0,
+        "time": "2:43"
+      },
+        {
+        "spin": 5,
+        "number": "31",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:07"
+      },
+        {
+        "spin": 6,
+        "number": "15",
+        "amountBet": 30,
+        "result": 15,
+        "time": "3:45"
+      },
+        {
+        "spin": 7,
+        "number": "25",
+        "amountBet": 40,
+        "result": 0,
+        "time": "4:14"
+      },
+        {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 40,
+        "result": 20,
+        "time": "4:56"
+      },
+        {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 60,
+        "result": 90,
+        "time": "5:18"
+      },
+        {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 30,
+        "result": 0,
+        "time": "6:03"
+      },
+        {
+        "spin": 11,
+        "number": "31",
+        "amountBet": 30,
+        "result": -30,
+        "time": "6:20"
+      },
+        {
+        "spin": 12,
+        "number": "3",
+        "amountBet": 30,
+        "result": 45,
+        "time": "6:29"
+      },
+        {
+        "spin": 13,
+        "number": "21",
+        "amountBet": 70,
+        "result": 105,
+        "time": "6:54"
+      },
+        {
+        "spin": 14,
+        "number": "1",
+        "amountBet": 30,
+        "result": 0,
+        "time": "7:33"
+      },
+        {
+        "spin": 15,
+        "number": "34",
+        "amountBet": 30,
+        "result": -30,
+        "time": "8:00"
+      },
+        {
+        "spin": 16,
+        "number": "0",
+        "amountBet": 30,
+        "result": -30,
+        "time": "8:22"
+      },
+        {
+        "spin": 17,
+        "number": "22",
+        "amountBet": 30,
+        "result": 0,
+        "time": "8:28"
+      },
+        {
+        "spin": 18,
+        "number": "4",
+        "amountBet": 30,
+        "result": 0,
+        "time": "8:38"
+      },
+        {
+        "spin": 19,
+        "number": "10",
+        "amountBet": 30,
+        "result": 0,
+        "time": "8:50"
+      },
+        {
+        "spin": 20,
+        "number": "32",
+        "amountBet": 30,
+        "result": 15,
+        "time": "9:09"
+      },
+        {
+        "spin": 21,
+        "number": "30",
+        "amountBet": 40,
+        "result": -40,
+        "time": "9:41"
+      },
+        {
+        "spin": 22,
+        "number": "21",
+        "amountBet": 30,
+        "result": 45,
+        "time": "10:01"
+      },
+        {
+        "spin": 23,
+        "number": "26",
+        "amountBet": 70,
+        "result": 105,
+        "time": "10:24"
+      }
+    ]
+  },
+    {
     "name": "3 V's R Better",
     "airDate": "2024-11-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=8Fap6ayfGwA&ab",
