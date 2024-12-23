@@ -3,27 +3,33 @@
     "name": "Dynamic Recover Approach",
     "airDate": "2024-10-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=qFVyupCEiLo",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-10-28-Dynamic-Recover-Approach",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-doz1":100,"x12-col1":100,"x1-16":15,"x1-19":15,"x1-22":15}},
+      {"wheelType":1,"wagers":{"x12-doz1":150,"x12-col1":150,"x1-16":30,"x1-19":30,"x1-22":30}},
+      {"wheelType":1,"wagers":{"x12-doz1":200,"x12-col1":200,"x1-10":45,"x1-16":45,"x1-19":45}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Negative Progression",
+    "buyIn": 1000,
     "bets": [
-      100
+      245,
+      390,
+      535
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "c",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 3,
+      "chipUniformity": 1,
+      "jackpotPotential": 4,
+      "scalability": 1,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
