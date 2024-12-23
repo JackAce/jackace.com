@@ -1,5 +1,132 @@
 [
     {
+    "name": "Dynamic Recover Approach",
+    "airDate": "2024-10-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=qFVyupCEiLo",
+    "reviewUrl": "2024-10-28-Dynamic-Recover-Approach",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":100,"x12-col1":100,"x1-16":15,"x1-19":15,"x1-22":15}},
+      {"wheelType":1,"wagers":{"x12-doz1":150,"x12-col1":150,"x1-16":30,"x1-19":30,"x1-22":30}},
+      {"wheelType":1,"wagers":{"x12-doz1":200,"x12-col1":200,"x1-10":45,"x1-16":45,"x1-19":45}}
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 1000,
+    "bets": [
+      245,
+      390,
+      535
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 3,
+      "chipUniformity": 1,
+      "jackpotPotential": 4,
+      "scalability": 1,
+      "compValue": 3
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "14",
+        "amountBet": 245,
+        "result": -245,
+        "time": "1:26"
+      },
+      {
+        "spin": 2,
+        "number": "16",
+        "amountBet": 390,
+        "result": 1140,
+        "time": "2:13"
+      },
+        {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 245,
+        "result": 55,
+        "time": "2:54"
+      },
+        {
+        "spin": 4,
+        "number": "7",
+        "amountBet": 245,
+        "result": 355,
+        "time": "3:11"
+      },
+        {
+        "spin": 5,
+        "number": "33",
+        "amountBet": 245,
+        "result": -245,
+        "time": "3:50"
+      },
+        {
+        "spin": 6,
+        "number": "7",
+        "amountBet": 390,
+        "result": 555,
+        "time": "4:22"
+      },
+        {
+        "spin": 7,
+        "number": "15",
+        "amountBet": 245,
+        "result": -245,
+        "time": "5:16"
+      },
+        {
+        "spin": 8,
+        "number": "17",
+        "amountBet": 390,
+        "result": -390,
+        "time": "5:39"
+      },
+        {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 535,
+        "result": 65,
+        "time": "6:34"
+      },
+        {
+        "spin": 10,
+        "number": "9",
+        "amountBet": 245,
+        "result": 65,
+        "time": "7:30"
+      },
+        {
+        "spin": 11,
+        "number": "30",
+        "amountBet": 245,
+        "result": -245,
+        "time": "7:41"
+      },
+        {
+        "spin": 12,
+        "number": "33",
+        "amountBet": 390,
+        "result": -390,
+        "time": "8:07"
+      },
+        {
+        "spin": 13,
+        "number": "19",
+        "amountBet": 535,
+        "result": 1685,
+        "time": "9:05"
+      }
+    ]
+  },
+    {
     "name": "Spin Off 2.0",
     "airDate": "2024-10-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=AWV6kxZSynI",
