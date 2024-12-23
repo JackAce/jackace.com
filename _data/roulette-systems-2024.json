@@ -1,5 +1,119 @@
 [
     {
+    "name": "3 V's R Better",
+    "airDate": "2024-11-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=8Fap6ayfGwA&ab",
+    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "2",
+        "amountBet": 75,
+        "result": 15,
+        "time": "1:03"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 75,
+        "result": 105,
+        "time": "1:40"
+      },
+        {
+        "spin": 3,
+        "number": "15",
+        "amountBet": 75,
+        "result": -75,
+        "time": "2:55"
+      },
+        {
+        "spin": 4,
+        "number": "7",
+        "amountBet": 75,
+        "result": 15,
+        "time": "4:05"
+      },
+        {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 75,
+        "result": -75,
+        "time": "4:42"
+      },
+        {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 75,
+        "result": -75,
+        "time": "6:24"
+      },
+        {
+        "spin": 7,
+        "number": "16",
+        "amountBet": 75,
+        "result": 15,
+        "time": "7:10"
+      },
+        {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 90,
+        "result": -90,
+        "time": "7:46"
+      },
+        {
+        "spin": 9,
+        "number": "19",
+        "amountBet": 75,
+        "result": 15,
+        "time": "8:07"
+      },
+        {
+        "spin": 10,
+        "number": "17",
+        "amountBet": 90,
+        "result": 120,
+        "time": "8:36"
+      },
+        {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 120,
+        "result": 160,
+        "time": "9:50"
+      },
+        {
+        "spin": 12,
+        "number": "32",
+        "amountBet": 150,
+        "result": 240,
+        "time": "11:02"
+      }        
+    ]
+  },
+    {
     "name": "Best of all Worlds",
     "airDate": "2024-11-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=7cXxgOds3vY",
