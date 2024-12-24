@@ -237,6 +237,91 @@
         "result": 40,
         "time": "17:17"
       },
+         {
+        "spin": 31,
+        "number": "00",
+        "amountBet": 60,
+        "result": -60,
+        "time": "17:54"
+      },
+         {
+        "spin": 32,
+        "number": "35",
+        "amountBet": 30,
+        "result": 30,
+        "time": "18:26"
+      },
+         {
+        "spin": 33,
+        "number": "8",
+        "amountBet": 60,
+        "result": -60,
+        "time": "18:55"
+      },
+         {
+        "spin": 34,
+        "number": "3",
+        "amountBet": 30,
+        "result": -10,
+        "time": "19:09"
+      },
+         {
+        "spin": 35,
+        "number": "36",
+        "amountBet": 20,
+        "result": 40,
+        "time": "19:21"
+      },
+         {
+        "spin": 36,
+        "number": "2",
+        "amountBet": 60,
+        "result": -60,
+        "time": "19:38"
+      },
+         {
+        "spin": 37,
+        "number": "1",
+        "amountBet": 30,
+        "result": -10,
+        "time": "20:04"
+      },
+         {
+        "spin": 38,
+        "number": "14",
+        "amountBet": 20,
+        "result": -20,
+        "time": "20:27"
+        "note": "Video stated -60 loss, may be wrong"
+      },
+         {
+        "spin": 39,
+        "number": "11",
+        "amountBet": 0,
+        "result": 0,
+        "time": "20:53"
+      },
+         {
+        "spin": 40,
+        "number": "1",
+        "amountBet": 0,
+        "result": 0,
+        "time": "21:53"
+      },
+         {
+        "spin": 41,
+        "number": "21",
+        "amountBet": 0,
+        "result": 0,
+        "time": "21:58"
+      },
+         {
+        "spin": 42,
+        "number": "0",
+        "amountBet": 0,
+        "result": 0,
+        "time": "22:02"
+      }
     ]
   },
     {
