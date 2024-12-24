@@ -176,66 +176,66 @@
       },
         {
         "spin": 22,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "4",
+        "amountBet": 30,
+        "result": -10,
+        "time": "13:45"
       },
         {
         "spin": 23,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "1",
+        "amountBet": 20,
+        "result": -20,
+        "time": "14:14"
       },
         {
         "spin": 24,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "00",
+        "amountBet": 30,
+        "result": -30,
+        "time": "14:33"
       },
         {
         "spin": 25,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "10",
+        "amountBet": 30,
+        "result": -10,
+        "time": "15:00"
       },
         {
         "spin": 26,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "1",
+        "amountBet": 20,
+        "result": -20,
+        "time": "15:41"
       },
         {
         "spin": 27,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "17",
+        "amountBet": 30,
+        "result": 10,
+        "time": "16:00"
       },
         {
         "spin": 28,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "8",
+        "amountBet": 40,
+        "result": -40,
+        "time": "16:20"
       },
         {
         "spin": 29,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "5",
+        "amountBet": 30,
+        "result": -30,
+        "time": "16:57"
       },
         {
         "spin": 30,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "24",
+        "amountBet": 20,
+        "result": 40,
+        "time": "17:17"
       },
     ]
   },
