@@ -1,4 +1,307 @@
 [
+      {
+    "name": "Vertigo",
+    "airDate": "2024-11-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=iC0v-SQxK9I",
+    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "7",
+        "amountBet": 10,
+        "result": -10,
+        "time": "2:19"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 10,
+        "result": -10,
+        "time": "2:42"
+      },
+         {
+        "spin": 3,
+        "number": "11",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:05"
+      },
+         {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:35"
+      },
+         {
+        "spin": 5,
+        "number": "2",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:15"
+      },
+         {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 10,
+        "result": 20,
+        "time": "4:32"
+      },
+         {
+        "spin": 7,
+        "number": "12",
+        "amountBet": 30,
+        "result": -30,
+        "time": "4:46"
+      },
+         {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:26"
+      },
+         {
+        "spin": 9,
+        "number": "10",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:52"
+      },
+         {
+        "spin": 10,
+        "number": "5",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:29"
+      },
+         {
+        "spin": 11,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 12,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 13,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 14,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 15,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 16,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 17,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 19,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 20,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 21,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 22,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 23,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 24,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 25,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 26,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 27,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 28,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 29,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 30,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 31,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 32,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 33,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 34,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 35,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 36,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 37,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 38,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 39,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+         {
+        "spin": 40,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+    ]
+  },
      {
     "name": "Triple Nut",
     "airDate": "2024-11-04",
