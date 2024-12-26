@@ -3,27 +3,27 @@
     "name": "Paddle Boat",
     "airDate": "2024-11-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=Qozxqhd5_vo",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-08-Paddle-Boat",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-col3":30,"x12-col1":30,"x4-1-5":10,"x4-5-9":10,"x4-7-11":10,"x4-11-15":10,"x4-13-17":10,"x4-17-21":10,"x4-19-23":10,"x4-23-27":10,"x4-25-29":10,"x4-29-33":10,"x4-31-35":10}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Flat Bet",
+    "buyIn": 340,
     "bets": [
-      100
+      170
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "d",
+    "jackaceRating": "f",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 1,
+      "progressionSimplicity": 5,
+      "chipUniformity": 2,
+      "jackpotPotential": 1,
+      "scalability": 2,
+      "compValue": 4
     },
     "isJackAceReview": false,
     "notes": "",
@@ -115,8 +115,9 @@
         "spin": 13,
         "number": "0",
         "amountBet": 170,
-        "result": -80,
-        "time": "9:43"
+        "result": -170,
+        "time": "9:43",
+        "notes": "Loss was -170, not -80"
       },
            {
         "spin": 14,
@@ -129,8 +130,9 @@
         "spin": 15,
         "number": "0",
         "amountBet": 170,
-        "result": -80,
-        "time": "11:32"
+        "result": -170,
+        "time": "11:32",
+        "notes": "Loss was -170, not -80"
       },
            {
         "spin": 16,
@@ -155,31 +157,34 @@
       }
     ]
   },
-       {
+  {
     "name": "Follow the Pattern",
     "airDate": "2024-11-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=x2Vo4cZ1RvE",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-07-Follow-the-Pattern",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x18-red":65,"x1-13":5,"x1-17":5,"x1-20":5,"x1-24":5,"x1-22":5,"x1-26":5,"x1-29":5,"x1-28":5,"x1-33":5,"x1-31":5,"x1-35":5}},
+      {"wheelType":1,"wagers":{"x18-black":65,"x1-34":5,"x1-36":5,"x1-32":5,"x1-30":5,"x1-27":5,"x1-25":5,"x1-23":5,"x1-21":5,"x1-19":5,"x1-16":5,"x1-18":5}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Flat Bet",
+    "buyIn": 500,
     "bets": [
-      100
+      120,
+      120
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "c",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 1,
+      "progressionSimplicity": 5,
+      "chipUniformity": 4,
+      "jackpotPotential": 1,
+      "scalability": 3,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
@@ -188,7 +193,7 @@
         "number": "25",
         "amountBet": 0,
         "result": 0,
-        "time": "0:24"
+        "time": "0:19"
       },
       {
         "spin": 2,
@@ -364,20 +369,26 @@
     "name": "Vertigo",
     "airDate": "2024-11-06",
     "youtubeUrl": "https://www.youtube.com/watch?v=iC0v-SQxK9I",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-06-Vertigo",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-col2":20,"x1-32":5,"x1-17":5,"x1-20":5,"x1-8":5}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Positive Progression",
+    "buyIn": 200,
     "bets": [
-      100
+      10,
+      30,
+      60
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "a",
+    "jackaceRating": "a",
     "jackaceRatingDetails": {
       "bettingSimplicity": -1,
       "progressionSimplicity": -1,
@@ -786,27 +797,45 @@
     "name": "Triple Nut",
     "airDate": "2024-11-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=TzXeem37u-A",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-04-Triple-Nut",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x18-black":10,"x18-odd":10,"x18-high":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x18-black":15,"x18-odd":15,"x18-high":15}},
+      {"wheelType":1,"wagers":{"x12-doz2":30}},
+      {"wheelType":1,"wagers":{"x18-black":10}},
+      {"wheelType":1,"wagers":{"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30}}
     ],
     "systemType": "Ladder",
-    "buyIn": 300,
+    "buyIn": 400,
     "bets": [
-      100
+      30,
+      40,
+      45,
+      30,
+      10,
+      20,
+      60
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "f",
+    "jackaceRating": "f",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 1,
+      "chipUniformity": 4,
+      "jackpotPotential": 3,
+      "scalability": 4,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -1074,8 +1103,8 @@
         "number": "14",
         "amountBet": 20,
         "result": -20,
-        "time": "20:27"
-        "note": "Video stated -60 loss, may be wrong"
+        "time": "20:27",
+        "note": "Loss was -20, not -60"
       },
          {
         "spin": 39,
