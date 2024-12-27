@@ -1,29 +1,35 @@
 [
-       {
-    "name": "Good Thing Come in 3s",
+  {
+    "name": "Good Things Come in 3s",
     "airDate": "2024-11-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=9OM2n-mGpQI",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-11-Good-Things-Come-in-3s",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":15,"x12-doz3":15}},
+      {"wheelType":1,"wagers":{"x18-black":15,"x18-odd":15,"x18-high":15}}
     ],
     "systemType": "Ladder",
-    "buyIn": 300,
+    "buyIn": 1000,
     "bets": [
-      100
+      20,
+      30,
+      45
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "f",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 1,
+      "chipUniformity": 2,
+      "jackpotPotential": 1,
+      "scalability": 1,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
