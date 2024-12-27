@@ -5,25 +5,31 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=7FYsd1woIOU",
     "reviewUrl": "2024-11-09-Double-Street-Cleaner",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-col3":25,"x12-col1":25}},
+      {"wheelType":1,"wagers":{"x12-col3":50,"x12-col1":25}},
+      {"wheelType":1,"wagers":{"x6-13-18":25,"x6-16-21":25,"x6-19-24":25}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Positive Progression",
+    "buyIn": 500,
     "bets": [
-      100
+      50,
+      75,
+      75
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "d",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 2,
+      "chipUniformity": 5,
+      "jackpotPotential": 4,
+      "scalability": 4,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
