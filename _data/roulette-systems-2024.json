@@ -1,5 +1,245 @@
 [
   {
+    "name": "Daddy D New Strat",
+    "airDate": "2024-11-16",
+    "youtubeUrl": "https://www.youtube.com/watch?v=I0UlAMDiyX8",
+    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 2,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 3,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 4,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 5,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 6,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 7,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 8,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 9,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 10,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 11,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 12,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 13,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 14,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 15,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 16,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 17,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 18,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 19,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 20,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 21,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 22,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 23,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 24,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 25,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 26,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 27,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 28,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 29,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+       {
+        "spin": 30,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+    ]
+  },
+  {
     "name": "Spin off 3.0",
     "airDate": "2024-11-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=dz2n5fEW1ww",
