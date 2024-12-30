@@ -176,66 +176,66 @@
       },
       {
         "spin": 22,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "10",
+        "amountBet": 20,
+        "result": 10,
+        "time": "11:45"
       },
       {
         "spin": 23,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "31",
+        "amountBet": 30,
+        "result": 10,
+        "time": "12:09"
       },
       {
         "spin": 24,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "7",
+        "amountBet": 40,
+        "result": 20,
+        "time": "12:35"
       },
       {
         "spin": 25,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "34",
+        "amountBet": 60,
+        "result": 20,
+        "time": "13:03"
       },
       {
         "spin": 26,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "32",
+        "amountBet": 80,
+        "result": 40,
+        "time": "13:26"
       },
       {
         "spin": 27,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "11",
+        "amountBet": 120,
+        "result": 120,
+        "time": "13:48"
       },
       {
         "spin": 28,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "35",
+        "amountBet": 20,
+        "result": 10,
+        "time": "14:22"
       },
       {
         "spin": 29,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "7",
+        "amountBet": 30,
+        "result": 10,
+        "time": "14:55"
       },
       {
         "spin": 30,
-        "number": "",
-        "amountBet": ,
-        "result": ,
-        "time": ":"
+        "number": "4",
+        "amountBet": 40,
+        "result": 20,
+        "time": "15:41"
       },
     ]
   },
