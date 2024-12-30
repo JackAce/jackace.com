@@ -237,6 +237,62 @@
         "result": 20,
         "time": "15:41"
       },
+      {
+        "spin": 31,
+        "number": "25",
+        "amountBet": 60,
+        "result": 60,
+        "time": "16:09"
+      },
+      {
+        "spin": 32,
+        "number": "6",
+        "amountBet": 20,
+        "result": 10,
+        "time": "16:47"
+      },
+      {
+        "spin": 33,
+        "number": "13",
+        "amountBet": 30,
+        "result": -10,
+        "time": "17:08"
+      },
+      {
+        "spin": 34,
+        "number": "29",
+        "amountBet": 20,
+        "result": 10,
+        "time": "17:34"
+      },
+      {
+        "spin": 35,
+        "number": "8",
+        "amountBet": 30,
+        "result": 10,
+        "time": "17:54"
+      },
+      {
+        "spin": 36,
+        "number": "1",
+        "amountBet": 40,
+        "result": 20,
+        "time": "18:09"
+      },
+      {
+        "spin": 37,
+        "number": "33",
+        "amountBet": 60,
+        "result": 20,
+        "time": "18:26"
+      },
+      {
+        "spin": 38,
+        "number": "25",
+        "amountBet": 80,
+        "result": -80,
+        "time": "18:43"
+      }
     ]
   },
   {
