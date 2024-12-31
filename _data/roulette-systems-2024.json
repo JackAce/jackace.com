@@ -3,27 +3,36 @@
     "name": "Elephant Walk",
     "airDate": "2024-11-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=H5ne5pbebGo",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-20-Elephant-Walk",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x18-high":15,"x12-doz1":10}},
+      {"wheelType":1,"wagers":{"x18-high":20,"x12-doz1":15}},
+      {"wheelType":1,"wagers":{"x18-high":25,"x12-doz1":20}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Positive Progression",
+    "buyIn": 200,
     "bets": [
-      100
+      25,
+      35,
+      45,
+      55,
+      65,
+      75
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "c",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 3,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -109,7 +118,7 @@
         "number": "13",
         "amountBet": 55,
         "result": -45,
-        "time": "5:40"
+        "time": "5:40",
         "notes": "may have lost -55"
       },
       {
@@ -286,27 +295,31 @@
     "name": "Bet away from the Winner",
     "airDate": "2024-11-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=ZOy470epUB8",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-18-Bet-away-from-the-Winner",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x18-black":10,"x18-odd":10,"x18-high":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":20}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Negative Progression",
+    "buyIn": 500,
     "bets": [
-      100
+      20,
+      30,
+      40
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "b",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 1,
+      "chipUniformity": 3,
+      "jackpotPotential": 1,
+      "scalability": 3,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -582,27 +595,32 @@
     "name": "Fibonacci BBC Wombo Combo",
     "airDate": "2024-11-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=tsALpfHNhx8",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-17-Fibonacci-BBC-Wombo-Combo",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x18-black":20,"x18-high":20}},
+      {"wheelType":1,"wagers":{"x18-black":20,"x18-high":20,"x12-col1":20,"x12-col2":20}}
     ],
     "systemType": "Ladder",
-    "buyIn": 300,
+    "buyIn": 500,
     "bets": [
-      100
+      25,
+      40,
+      80
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "c",
+    "jackaceRating": "f",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 1,
+      "chipUniformity": 1,
+      "jackpotPotential": 2,
+      "scalability": 1,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -645,8 +663,9 @@
         "spin": 6,
         "number": "24",
         "amountBet": 40,
-        "result": 20,
-        "time": "3:31"
+        "result": 40,
+        "time": "3:31",
+        "notes": "Win was +40, not +20."
       },
       {
         "spin": 7,
@@ -805,7 +824,7 @@
       {
         "spin": 29,
         "number": "13",
-        "amountBet": 230,
+        "amountBet": 225,
         "result": 450,
         "time": "13:46"
       }
@@ -815,20 +834,26 @@
     "name": "Daddy D New Strat",
     "airDate": "2024-11-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=I0UlAMDiyX8",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-16-Daddy-D-New-Strat",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":40}}
     ],
-    "systemType": "Ladder",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
-      100
+      40,
+      50,
+      70
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "d",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
       "bettingSimplicity": -1,
       "progressionSimplicity": -1,
@@ -1026,7 +1051,8 @@
         "number": "00",
         "amountBet": 40,
         "result": -40,
-        "time": "13:00"
+        "time": "13:00",
+        "notes": "Alex had to rebuy here."
       },
        {
         "spin": 28,
@@ -1143,30 +1169,36 @@
     ]
   },
   {
-    "name": "Spin off 3.0",
+    "name": "Spin Off 3.0",
     "airDate": "2024-11-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=dz2n5fEW1ww",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-14-Spin-Off-30",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-col2":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-col2":25}},
+      {"wheelType":1,"wagers":{"x2-31-34":10,"x2-27-30":10,"x2-26-29":10,"x2-25-28":10,"x2-21-24":10,"x2-20-23":10,"x2-19-22":10,"x2-15-18":10,"x2-14-17":10,"x2-13-16":10}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Positive Progression",
+    "buyIn": 250,
     "bets": [
-      100
+      50,
+      75,
+      150
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "b",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
@@ -1307,15 +1339,17 @@
         "spin": 20,
         "number": "35",
         "amountBet": 75,
-        "result": 25,
-        "time": "11:46"
+        "result": 0,
+        "time": "11:46",
+        "notes": "This was a push, not a +25 win."
       },
        {
         "spin": 21,
         "number": "28",
         "amountBet": 75,
-        "result": -50,
-        "time": "12:08"
+        "result": -75,
+        "time": "12:08",
+        "notes": "This was a -75 loss, not a -50 loss."
       },
        {
         "spin": 22,
@@ -1344,27 +1378,36 @@
     "name": "Jackpot Nolley",
     "airDate": "2024-11-13",
     "youtubeUrl": "https://www.youtube.com/watch?v=qZ-VUPj44bc",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-13-Jackpot-Nolley",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x4-14-18":5,"x4-20-24":5,"x4-16-20":5,"x4-26-30":5,"x4-32-36":5,"x4-28-32":5}},
+      {"wheelType":1,"wagers":{"x4-14-18":10,"x4-20-24":10,"x4-16-20":10,"x4-26-30":5,"x4-32-36":5,"x4-28-32":5}},
+      {"wheelType":1,"wagers":{"x4-14-18":10,"x4-20-24":10,"x4-16-20":10,"x4-26-30":10,"x4-32-36":10,"x4-28-32":10}},
+      {"wheelType":1,"wagers":{"x4-14-18":20,"x4-20-24":20,"x4-16-20":20,"x4-26-30":10,"x4-32-36":10,"x4-28-32":10}}
     ],
-    "systemType": "Ladder",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
-      100
+      30,
+      45,
+      60,
+      90
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "b",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 2,
+      "chipUniformity": 4,
+      "jackpotPotential": 2,
+      "scalability": 4,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
