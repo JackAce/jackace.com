@@ -1,5 +1,246 @@
 [
   {
+    "name": "Elephant Walk",
+    "airDate": "2024-11-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=H5ne5pbebGo",
+    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "24",
+        "amountBet": 25,
+        "result": 5,
+        "time": "0:44"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 25,
+        "result": 5,
+        "time": "1:19"
+      },
+      {
+        "spin": 3,
+        "number": "12",
+        "amountBet": 35,
+        "result": 5,
+        "time": "1:45"
+      },
+      {
+        "spin": 4,
+        "number": "33",
+        "amountBet": 45,
+        "result": 5,
+        "time": "2:13"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 45,
+        "result": -45,
+        "time": "2:38"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 25,
+        "result": 5,
+        "time": "3:13"
+      },
+      {
+        "spin": 7,
+        "number": "28",
+        "amountBet": 25,
+        "result": 5,
+        "time": "3:28"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 35,
+        "result": 10,
+        "time": "4:01"
+      },
+      {
+        "spin": 9,
+        "number": "23",
+        "amountBet": 45,
+        "result": 5,
+        "time": "4:23"
+      },
+      {
+        "spin": 10,
+        "number": "31",
+        "amountBet": 45,
+        "result": 5,
+        "time": "4:58"
+      },
+      {
+        "spin": 11,
+        "number": "31",
+        "amountBet": 55,
+        "result": 5,
+        "time": "5:13"
+      },
+      {
+        "spin": 12,
+        "number": "13",
+        "amountBet": 55,
+        "result": -45,
+        "time": "5:40"
+        "notes": "may have lost -55"
+      },
+      {
+        "spin": 13,
+        "number": "29",
+        "amountBet": 25,
+        "result": 5,
+        "time": "6:08"
+      },
+      {
+        "spin": 14,
+        "number": "16",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:52"
+      },
+      {
+        "spin": 15,
+        "number": "3",
+        "amountBet": 25,
+        "result": 5,
+        "time": "7:26"
+      },
+      {
+        "spin": 16,
+        "number": "2",
+        "amountBet": 25,
+        "result": 5,
+        "time": "7:43"
+      },
+      {
+        "spin": 17,
+        "number": "23",
+        "amountBet": 35,
+        "result": 5,
+        "time": "8:10"
+      },
+      {
+        "spin": 18,
+        "number": "29",
+        "amountBet": 35,
+        "result": 5,
+        "time": "8:35"
+      },
+      {
+        "spin": 19,
+        "number": "11",
+        "amountBet": 45,
+        "result": 15,
+        "time": "9:29"
+      },
+      {
+        "spin": 20,
+        "number": "13",
+        "amountBet": 25,
+        "result": -25,
+        "time": "10:01"
+      },
+      {
+        "spin": 21,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 22,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 23,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 24,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 25,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 26,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 27,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 28,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 29,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 30,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+    ]
+  },
+  {
     "name": "Bet away from the Winner",
     "airDate": "2024-11-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=ZOy470epUB8",
