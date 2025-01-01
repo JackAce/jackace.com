@@ -1,5 +1,175 @@
 [
   {
+    "name": "Fibonnaci Coners YT",
+    "airDate": "2024-11-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=OfUPaAKjcIo",
+    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "6",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:40"
+      },
+      {
+        "spin": 2,
+        "number": "18",
+        "amountBet": 25,
+        "result": -25,
+        "time": "2:06"
+      },
+      {
+        "spin": 3,
+        "number": "34",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:30"
+      },
+      {
+        "spin": 4,
+        "number": "36",
+        "amountBet": 50,
+        "result": 60,
+        "time": "3:01"
+      },
+      {
+        "spin": 5,
+        "number": "10",
+        "amountBet": 65,
+        "result": -65,
+        "time": "3:26"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 95,
+        "result": 60,
+        "time": "4:06"
+      },
+      {
+        "spin": 7,
+        "number": "33",
+        "amountBet": 25,
+        "result": 60,
+        "time": "4:41"
+      },
+      {
+        "spin": 8,
+        "number": "6",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:59"
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 35,
+        "result": 70,
+        "time": "5:47"
+      },
+      {
+        "spin": 10,
+        "number": "32",
+        "amountBet": 25,
+        "result": 50,
+        "time": "6:13"
+      },
+      {
+        "spin": 11,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 12,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 13,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 14,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 15,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 16,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 17,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 18,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 19,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+      {
+        "spin": 20,
+        "number": "",
+        "amountBet": ,
+        "result": ,
+        "time": ":"
+      },
+    ]
+  },
+  {
     "name": "Elephant Walk",
     "airDate": "2024-11-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=H5ne5pbebGo",
