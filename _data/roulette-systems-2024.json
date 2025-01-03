@@ -1,5 +1,353 @@
 [
   {
+    "name": "PAR",
+    "airDate": "2024-11-23",
+    "youtubeUrl": "https://www.youtube.com/watch?v=A-IgKJ5HCdU",
+    "reviewUrl": "2024-11-23-PAR",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-19-24":5,"x4-26-30":5,"x4-31-35":5,"x12-col3":10,"x18-high":15}},
+      {"wheelType":1,"wagers":{"x6-19-24":10,"x4-26-30":10,"x4-31-35":10,"x12-col3":15,"x18-high":20}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 250,
+    "bets": [
+      40,
+      65
+    ],
+    "rating": "a",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 1,
+      "chipUniformity": 3,
+      "jackpotPotential": 1,
+      "scalability": 2,
+      "compValue": 1
+    },
+    "isJackAceReview": false,
+    "notes": "PAR - Press and Regress",
+    "spins": [{
+        "spin": 1,
+        "number": "30",
+        "amountBet": 40,
+        "result": 65,
+        "time": "0:57"
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 65,
+        "result": 35,
+        "time": "1:40"
+      },
+      {
+        "spin": 3,
+        "number": "24",
+        "amountBet": 40,
+        "result": 20,
+        "time": "2:27"
+      },
+      {
+        "spin": 4,
+        "number": "31",
+        "amountBet": 60,
+        "result": 50,
+        "time": "3:12"
+      },
+      {
+        "spin": 5,
+        "number": "20",
+        "amountBet": 40,
+        "result": 20,
+        "time": "4:13"
+      },
+      {
+        "spin": 6,
+        "number": "18",
+        "amountBet": 60,
+        "result": -60,
+        "time": "4:37"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 40,
+        "result": -40,
+        "time": "5:24"
+      },
+      {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 40,
+        "result": -40,
+        "time": "5:59"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 40,
+        "result": -40,
+        "time": "6:30"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 40,
+        "result": 20,
+        "time": "7:22"
+      },
+      {
+        "spin": 11,
+        "number": "11",
+        "amountBet": 60,
+        "result": -60,
+        "time": "7:48"
+      },
+      {
+        "spin": 12,
+        "number": "30",
+        "amountBet": 40,
+        "result": 65,
+        "time": "8:15"
+      },
+      {
+        "spin": 13,
+        "number": "32",
+        "amountBet": 65,
+        "result": 65,
+        "time": "9:02"
+      },
+      {
+        "spin": 14,
+        "number": "11",
+        "amountBet": 40,
+        "result": -40,
+        "time": "9:25"
+      },
+      {
+        "spin": 15,
+        "number": "6",
+        "amountBet": 40,
+        "result": -40,
+        "time": "9:46"
+      },
+      {
+        "spin": 16,
+        "number": "3",
+        "amountBet": 40,
+        "result": -40,
+        "time": "10:42"
+      }
+    ]
+  },
+  {
+    "name": "Fibonacci Corners YT",
+    "airDate": "2024-11-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=OfUPaAKjcIo",
+    "reviewUrl": "2024-11-22-Fibonacci-Corners-YT",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col2":10,"x4-32-36":5,"x4-25-29":5,"x4-20-24":5}},
+      {"wheelType":1,"wagers":{"x12-col2":10,"x4-32-36":5,"x4-25-29":5,"x4-20-24":5}},
+      {"wheelType":1,"wagers":{"x12-col2":20,"x4-32-36":10,"x4-25-29":10,"x4-20-24":10}},
+      {"wheelType":1,"wagers":{"x12-col2":30,"x4-32-36":15,"x4-25-29":15,"x4-20-24":15}},
+      {"wheelType":1,"wagers":{"x12-col2":50,"x4-32-36":25,"x4-25-29":25,"x4-20-24":25}},
+      {"wheelType":1,"wagers":{"x12-col2":80,"x4-32-36":40,"x4-25-29":40,"x4-20-24":40}},
+      {"wheelType":1,"wagers":{"x12-col2":130,"x4-32-36":65,"x4-25-29":65,"x4-20-24":65}}
+    ],
+    "systemType": "Multi-Leg",
+    "buyIn": 1000,
+    "bets": [
+      25,
+      25,
+      50,
+      75,
+      125,
+      200,
+      325
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 3,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "6",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:40"
+      },
+      {
+        "spin": 2,
+        "number": "18",
+        "amountBet": 25,
+        "result": -25,
+        "time": "2:06"
+      },
+      {
+        "spin": 3,
+        "number": "34",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:30"
+      },
+      {
+        "spin": 4,
+        "number": "36",
+        "amountBet": 50,
+        "result": 60,
+        "time": "3:01"
+      },
+      {
+        "spin": 5,
+        "number": "10",
+        "amountBet": 65,
+        "result": -65,
+        "time": "3:26"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 95,
+        "result": 60,
+        "time": "4:06"
+      },
+      {
+        "spin": 7,
+        "number": "33",
+        "amountBet": 25,
+        "result": 60,
+        "time": "4:41"
+      },
+      {
+        "spin": 8,
+        "number": "6",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:59"
+      },
+      {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 35,
+        "result": 70,
+        "time": "5:47"
+      },
+      {
+        "spin": 10,
+        "number": "32",
+        "amountBet": 25,
+        "result": 50,
+        "time": "6:13"
+      },
+      {
+        "spin": 11,
+        "number": "14",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:41"
+      },
+      {
+        "spin": 12,
+        "number": "7",
+        "amountBet": 25,
+        "result": -25,
+        "time": "7:09"
+      },
+      {
+        "spin": 13,
+        "number": "12",
+        "amountBet": 40,
+        "result": -40,
+        "time": "7:26"
+      },
+      {
+        "spin": 14,
+        "number": "30",
+        "amountBet": 60,
+        "result": -60,
+        "time": "7:43",
+        "notes": "Loss was -60, not -55."
+      },
+      {
+        "spin": 15,
+        "number": "32",
+        "amountBet": 105,
+        "result": 170,
+        "time": "8:02"
+      },
+      {
+        "spin": 16,
+        "number": "1",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:24"
+      },
+      {
+        "spin": 17,
+        "number": "0",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:55"
+      },
+      {
+        "spin": 18,
+        "number": "22",
+        "amountBet": 50,
+        "result": -50,
+        "time": "9:17"
+      },
+      {
+        "spin": 19,
+        "number": "19",
+        "amountBet": 75,
+        "result": -75,
+        "time": "9:47"
+      },
+      {
+        "spin": 20,
+        "number": "0",
+        "amountBet": 125,
+        "result": -125,
+        "time": "10:29"
+      },
+      {
+        "spin": 21,
+        "number": "25",
+        "amountBet": 200,
+        "result": 160,
+        "time": "11:02"
+      },
+      {
+        "spin": 22,
+        "number": "20",
+        "amountBet": 130,
+        "result": 260,
+        "time": "11:42"
+      }
+    ]
+  },
+  {
     "name": "Elephant Walk",
     "airDate": "2024-11-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=H5ne5pbebGo",
