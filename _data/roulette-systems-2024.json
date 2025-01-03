@@ -3028,12 +3028,12 @@
     "rating": "a",
     "jackaceRating": "a",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 5,
+      "scalability": 4,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
