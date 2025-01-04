@@ -1,4 +1,132 @@
-[   
+[
+   {
+    "name": "DL10",
+    "airDate": "2024-11-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=A0utly91m5g",
+    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "5",
+        "amountBet": 0,
+        "result": 0,
+        "time": "1:04"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 10,
+        "result": -10,
+        "time": "1:39"
+      },
+       {
+        "spin": 3,
+        "number": "11",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:06"
+      },
+       {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 30,
+        "result": -30,
+        "time": "2:55"
+      },
+       {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 40,
+        "result": -40,
+        "time": "3:23"
+      },
+       {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 50,
+        "result": 130,
+        "time": "4:11"
+      },
+       {
+        "spin": 7,
+        "number": "00",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:14"
+      },
+       {
+        "spin": 8,
+        "number": "5",
+        "amountBet": 20,
+        "result": -20,
+        "time": "5:48"
+      },
+       {
+        "spin": 9,
+        "number": "25",
+        "amountBet": 30,
+        "result": 78,
+        "time": "6:37"
+      },
+       {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:28"
+      },
+       {
+        "spin": 11,
+        "number": "33",
+        "amountBet": 20,
+        "result": -20,
+        "time": "7:54"
+      },
+       {
+        "spin": 12,
+        "number": "28",
+        "amountBet": 30,
+        "result": 78,
+        "time": "8:33"
+      },
+       {
+        "spin": 13,
+        "number": "5",
+        "amountBet": 10,
+        "result": -10,
+        "time": "8:49"
+      },
+       {
+        "spin": 14,
+        "number": "34",
+        "amountBet": 20,
+        "result": -20,
+        "time": "9:45"
+      }
+    ]
+  },
    {
     "name": "Smack that Dolly",
     "airDate": "2024-11-25",
