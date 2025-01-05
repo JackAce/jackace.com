@@ -1,29 +1,38 @@
 [
    {
-    "name": "Tiny Dancer",
+    "name": "Tiny Dancer 💃",
     "airDate": "2024-11-27",
     "youtubeUrl": "https://www.youtube.com/watch?v=XfYFJMbcxrU",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-27-Tiny-Dancer",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x4-17-21":5,"x2-17-20":5,"x4-16-20":5}},
+      {"wheelType":1,"wagers":{"x4-17-21":10,"x2-17-20":10,"x4-16-20":10}},
+      {"wheelType":1,"wagers":{"x4-17-21":15,"x2-17-20":15,"x4-16-20":15}},
+      {"wheelType":1,"wagers":{"x4-17-21":25,"x2-17-20":25,"x4-16-20":25}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Negative Progression",
+    "buyIn": 350,
     "bets": [
-      100
+      15,
+      30,
+      45,
+      75
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "c",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 2,
+      "scalability": 5,
+      "compValue": 0.5
     },
     "isJackAceReview": false,
     "notes": "",
@@ -236,6 +245,48 @@
         "amountBet": 30,
         "result": -30,
         "time": "11:38"
+      },
+       {
+        "spin": 31,
+        "number": "12",
+        "amountBet": 30,
+        "result": -30,
+        "time": "11:50"
+      },
+      {
+        "spin": 32,
+        "number": "35",
+        "amountBet": 30,
+        "result": 330,
+        "time": "12:10"
+      },
+       {
+        "spin": 33,
+        "number": "17",
+        "amountBet": 15,
+        "result": -15,
+        "time": "12:42"
+      },
+       {
+        "spin": 34,
+        "number": "27",
+        "amountBet": 15,
+        "result": -15,
+        "time": "12:51"
+      },
+       {
+        "spin": 35,
+        "number": "16",
+        "amountBet": 15,
+        "result": -15,
+        "time": "13:07"
+      },
+      {
+        "spin": 36,
+        "number": "36",
+        "amountBet": 15,
+        "result": -15,
+        "time": "13:12"
       }
     ]
   },
@@ -243,27 +294,37 @@
     "name": "DL10",
     "airDate": "2024-11-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=A0utly91m5g",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-26-DL10",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x1-19":1,"x1-20":1,"x1-21":1,"x1-23":1,"x1-26":1,"x1-25":1,"x1-29":1,"x1-30":1,"x1-35":1,"x1-13":1}},
+      {"wheelType":1,"wagers":{"x1-19":2,"x1-20":2,"x1-21":2,"x1-23":2,"x1-26":2,"x1-25":2,"x1-29":2,"x1-30":2,"x1-35":2,"x1-13":2}},
+      {"wheelType":1,"wagers":{"x1-19":3,"x1-20":3,"x1-21":3,"x1-23":3,"x1-26":3,"x1-25":3,"x1-29":3,"x1-30":3,"x1-35":3,"x1-13":3}}
     ],
     "systemType": "Ladder",
-    "buyIn": 300,
+    "buyIn": 360,
     "bets": [
-      100
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "b",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 4,
+      "chipUniformity": 1,
+      "jackpotPotential": 2,
+      "scalability": 1,
+      "compValue": 0.5
     },
     "isJackAceReview": false,
     "notes": "",
@@ -272,7 +333,8 @@
         "number": "5",
         "amountBet": 0,
         "result": 0,
-        "time": "1:04"
+        "time": "1:04",
+        "notes": "Blank spin - not sure what this was used for."
       },
       {
         "spin": 2,
@@ -368,7 +430,7 @@
     ]
   },
    {
-    "name": "Smack that Dolly",
+    "name": "Smack that Dolly 👋",
     "airDate": "2024-11-25",
     "youtubeUrl": "https://www.youtube.com/watch?v=NSEIbCI7xEs",
     "reviewUrl": "2024-11-25-Smack-that-Dolly",
@@ -379,13 +441,13 @@
       {"wheelType":1,"wagers":{"x12-doz2":30}},
       {"wheelType":1,"wagers":{"x4-29-33":10,"x4-32-36":10,"x4-28-32":10,"x4-31-35":10,"x2-0-00":5,"x6-16-21":15,"x12-doz1":30}}
     ],
-    "systemType": "Ladder",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       30,
       90
     ],
-    "rating": "",
+    "rating": "d",
     "jackaceRating": "c",
     "jackaceRatingDetails": {
       "bettingSimplicity": 2,
@@ -737,7 +799,7 @@
     ]
   },
   {
-    "name": "PAR",
+    "name": "PAR 🏌️",
     "airDate": "2024-11-23",
     "youtubeUrl": "https://www.youtube.com/watch?v=A-IgKJ5HCdU",
     "reviewUrl": "2024-11-23-PAR",
@@ -1085,7 +1147,7 @@
     ]
   },
   {
-    "name": "Elephant Walk",
+    "name": "Elephant Walk 🐘",
     "airDate": "2024-11-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=H5ne5pbebGo",
     "reviewUrl": "2024-11-20-Elephant-Walk",
@@ -1677,7 +1739,7 @@
     ]
   },
   {
-    "name": "Fibonacci BBC Wombo Combo",
+    "name": "Fibonacci BBC Wombo Combo 🍆",
     "airDate": "2024-11-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=tsALpfHNhx8",
     "reviewUrl": "2024-11-17-Fibonacci-BBC-Wombo-Combo",
@@ -2460,7 +2522,7 @@
     ]
   },
   {
-    "name": "Jackpot Nolley",
+    "name": "Jackpot Nolley 🎰",
     "airDate": "2024-11-13",
     "youtubeUrl": "https://www.youtube.com/watch?v=qZ-VUPj44bc",
     "reviewUrl": "2024-11-13-Jackpot-Nolley",
@@ -3017,7 +3079,7 @@
     ]
   },
   {
-    "name": "Double Street Cleaner",
+    "name": "Double Street Cleaner 🧹",
     "airDate": "2024-11-09",
     "youtubeUrl": "https://www.youtube.com/watch?v=7FYsd1woIOU",
     "reviewUrl": "2024-11-09-Double-Street-Cleaner",
@@ -3304,7 +3366,7 @@
     ]
   },
   {
-    "name": "Paddle Boat",
+    "name": "Paddle Boat 🚣‍♀️",
     "airDate": "2024-11-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=Qozxqhd5_vo",
     "reviewUrl": "2024-11-08-Paddle-Boat",
@@ -4170,7 +4232,7 @@
     ]
   },
   {
-    "name": "Triple Nut",
+    "name": "Triple Nut 🥜🥜🥜",
     "airDate": "2024-11-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=TzXeem37u-A",
     "reviewUrl": "2024-11-04-Triple-Nut",
@@ -5776,7 +5838,7 @@
     ]
   },
   {
-    "name": "The Drake",
+    "name": "The Drake 🦆",
     "airDate": "2024-10-25",
     "youtubeUrl": "https://www.youtube.com/watch?v=Q5O_uBlnJVM",
     "reviewUrl": "2024-10-25-The-Drake",
