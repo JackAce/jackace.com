@@ -34,6 +34,8 @@
       url: /gambling/sites/stake/
     - title: Plinko
       url: /gambling/plinko/
+    - title: Mines Simulator
+      url: https://mines-sim.jackace.com/
 - title: Books
   url: /books
 - title: Other
