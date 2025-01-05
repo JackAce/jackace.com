@@ -201,8 +201,9 @@
         "spin": 24,
         "number": "26",
         "amountBet": 105,
-        "result": 231,
-        "time": "9:41"
+        "result": 1155,
+        "time": "9:41",
+        "notes": "This win was +1155, not +231. Alex forgot to multiply by his $5 chip value. I think he was counting units."
       },
        {
         "spin": 25,
