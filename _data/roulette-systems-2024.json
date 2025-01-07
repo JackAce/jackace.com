@@ -8539,7 +8539,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 400,
     "bets": [
       40,
@@ -8736,7 +8736,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 250,
     "bets": [
       25,
@@ -9669,7 +9669,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 200,
     "bets": [
       20,
@@ -14141,7 +14141,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 1000,
     "bets": [
       20,
@@ -14314,7 +14314,7 @@
     ]
   },
   {
-    "name": "Spotlight",
+    "name": "Spotlight 💡",
     "airDate": "2024-08-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=CnFtnjOrVsY",
     "reviewUrl": "2024-08-31-Spotlight",
@@ -14362,7 +14362,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 600,
     "bets": [
       60,
