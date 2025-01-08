@@ -1,5 +1,226 @@
 [
    {
+    "name": "Bert And Ernie",
+    "airDate": "2024-11-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=GMdiLGhHJoI",
+    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "26",
+        "amountBet": 20,
+        "result": 10,
+        "time": "0:45"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 30,
+        "result": 30,
+        "time": "1:03"
+      },
+       {
+        "spin": 3,
+        "number": "4",
+        "amountBet": 30,
+        "result": 15,
+        "time": "1:28"
+      },
+       {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 45,
+        "result": 45,
+        "time": "1:49"
+      },
+       {
+        "spin": 5,
+        "number": "16",
+        "amountBet": 40,
+        "result": 20,
+        "time": "2:11"
+      },
+       {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 60,
+        "result": 60,
+        "time": "2:32"
+      },
+       {
+        "spin": 7,
+        "number": "35",
+        "amountBet": 50,
+        "result": 25,
+        "time": "3:22"
+      },
+       {
+        "spin": 8,
+        "number": "34",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:29"
+      },
+       {
+        "spin": 9,
+        "number": "24",
+        "amountBet": 20,
+        "result": -20,
+        "time": "3:52",
+        "notes": "video displays incorrect loss amount"
+      },
+       {
+        "spin": 10,
+        "number": "26",
+        "amountBet": 20,
+        "result": 10,
+        "time": "4:23"
+      },
+       {
+        "spin": 11,
+        "number": "12",
+        "amountBet": 30,
+        "result": -30,
+        "time": "4:54"
+      },
+       {
+        "spin": 12,
+        "number": "28",
+        "amountBet": 20,
+        "result": 10,
+        "time": "5:13"
+      },
+       {
+        "spin": 13,
+        "number": "28",
+        "amountBet": 30,
+        "result": 30,
+        "time": "5:42"
+      },
+       {
+        "spin": 14,
+        "number": "5",
+        "amountBet": 30,
+        "result": 15,
+        "time": "6:07"
+      },
+       {
+        "spin": 15,
+        "number": "34",
+        "amountBet": 45,
+        "result": -45,
+        "time": "6:28"
+      },
+       {
+        "spin": 16,
+        "number": "26",
+        "amountBet": 20,
+        "result": 10,
+        "time": "7:05"
+      },
+       {
+        "spin": 17,
+        "number": "32",
+        "amountBet": 30,
+        "result": 30,
+        "time": "7:34"
+      },
+       {
+        "spin": 18,
+        "number": "29",
+        "amountBet": 30,
+        "result": 15,
+        "time": "7:53"
+      },
+       {
+        "spin": 19,
+        "number": "00",
+        "amountBet": 45,
+        "result": -45,
+        "time": "8:10",
+        "notes": "video displayed incorrect loss amount"
+      },
+       {
+        "spin": 20,
+        "number": "28",
+        "amountBet": 20,
+        "result": 10,
+        "time": "8:27"
+      },
+       {
+        "spin": 21,
+        "number": "3",
+        "amountBet": 30,
+        "result": -30,
+        "time": "8:58"
+      },
+        {
+        "spin": 22,
+        "number": "33",
+        "amountBet": 20,
+        "result": -20,
+        "time": "9:27"
+      },
+        {
+        "spin": 24,
+        "number": "12",
+        "amountBet": 20,
+        "result": -20,
+        "time": "10:06"
+      },
+        {
+        "spin": 25,
+        "number": "5",
+        "amountBet": 20,
+        "result": 10,
+        "time": "10:42"
+      },
+        {
+        "spin": 26,
+        "number": "21",
+        "amountBet": 30,
+        "result": 30,
+        "time": "10:49"
+      },
+       {
+        "spin": 27,
+        "number": "3",
+        "amountBet": 30,
+        "result": -30,
+        "time": "11:34"
+      },
+       {
+        "spin": 28,
+        "number": "36",
+        "amountBet": 0,
+        "result": 0,
+        "time": "12:13"
+      }
+    ]
+  },
+   {
     "name": "Tiny Dancer 💃",
     "airDate": "2024-11-27",
     "youtubeUrl": "https://www.youtube.com/watch?v=XfYFJMbcxrU",
