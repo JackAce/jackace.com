@@ -1,29 +1,50 @@
 [
    {
-    "name": "Bert And Ernie",
+    "name": "Bert And Ernie 🟨🟧",
     "airDate": "2024-11-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=GMdiLGhHJoI",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-28-Bert-and-Ernie",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png",
+      "00-rba-7-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x6-31-36":10,"x6-25-30":10,"x6-19-24":10}},
+      {"wheelType":1,"wagers":{"x12-col2":15,"x12-col1":15}},
+      {"wheelType":1,"wagers":{"x6-28-33":15,"x6-22-27":15,"x6-16-21":15}},
+      {"wheelType":1,"wagers":{"x12-col2":20,"x12-col1":20}},
+      {"wheelType":1,"wagers":{"x6-28-33":20,"x6-22-27":20,"x6-16-21":20}},
+      {"wheelType":1,"wagers":{"x12-col2":25,"x12-col1":25}},
+      {"wheelType":1,"wagers":{"x6-31-36":25,"x6-25-30":25,"x6-19-24":25}}
     ],
-    "systemType": "Ladder",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
-      100
+      10,
+      30,
+      30,
+      45,
+      40,
+      60,
+      50,
+      75
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "b",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 4,
+      "compValue": 0.5
     },
     "isJackAceReview": false,
     "notes": "",
@@ -89,7 +110,7 @@
         "amountBet": 20,
         "result": -20,
         "time": "3:52",
-        "notes": "video displays incorrect loss amount"
+        "notes": "Loss was -20, not -75."
       },
        {
         "spin": 10,
@@ -160,7 +181,7 @@
         "amountBet": 45,
         "result": -45,
         "time": "8:10",
-        "notes": "video displayed incorrect loss amount"
+        "notes": "Loss was -45, not -30."
       },
        {
         "spin": 20,
@@ -216,7 +237,8 @@
         "number": "36",
         "amountBet": 0,
         "result": 0,
-        "time": "12:13"
+        "time": "12:13",
+        "notes": "Alex didn't bet here."
       }
     ]
   },
