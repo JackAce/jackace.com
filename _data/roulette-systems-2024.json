@@ -1,5 +1,259 @@
 [
    {
+    "name": "Split the Hole",
+    "airDate": "2024-11-29",
+    "youtubeUrl": "https://www.youtube.com/watch?v=FY20XCfKIh0",
+    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100}}
+    ],
+    "systemType": "Ladder",
+    "buyIn": 300,
+    "bets": [
+      100
+    ],
+    "rating": "",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "5",
+        "amountBet": 150,
+        "result": 30,
+        "time": "2:00"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 150,
+        "result": 30,
+        "time": "2:26"
+      },
+       {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 150,
+        "result": 30,
+        "time": "2:48"
+      },
+       {
+        "spin": 4,
+        "number": "16",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:14"
+      },
+       {
+        "spin": 5,
+        "number": "26",
+        "amountBet": 150,
+        "result": 30,
+        "time": "4:05"
+      },
+       {
+        "spin": 6,
+        "number": "27",
+        "amountBet": 150,
+        "result": 30,
+        "time": "4:43"
+      },
+       {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 150,
+        "result": 30,
+        "time": "4:59"
+      },
+       {
+        "spin": 8,
+        "number": "20",
+        "amountBet": 150,
+        "result": 120,
+        "time": "5:24"
+      },
+       {
+        "spin": 9,
+        "number": "32",
+        "amountBet": 150,
+        "result": 30,
+        "time": "6:13"
+      },
+       {
+        "spin": 10,
+        "number": "26",
+        "amountBet": 150,
+        "result": 30,
+        "time": "6:25"
+      },
+       {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 150,
+        "result": 30,
+        "time": "7:14"
+      },
+       {
+        "spin": 12,
+        "number": "21",
+        "amountBet": 150,
+        "result": -150,
+        "time": "7:35"
+      },
+       {
+        "spin": 13,
+        "number": "29",
+        "amountBet": 150,
+        "result": 30,
+        "time": "9:09"
+      },
+       {
+        "spin": 14,
+        "number": "1",
+        "amountBet": 150,
+        "result": 30,
+        "time": "9:39"
+      },
+       {
+        "spin": 15,
+        "number": "19",
+        "amountBet": 150,
+        "result": -150,
+        "time": "9:55"
+      },
+       {
+        "spin": 16,
+        "number": "16",
+        "amountBet": 150,
+        "result": -150,
+        "time": "11:13"
+      },
+       {
+        "spin": 17,
+        "number": "23",
+        "amountBet": 150,
+        "result": -150,
+        "time": "11:52"
+      },
+       {
+        "spin": 18,
+        "number": "21",
+        "amountBet": 150,
+        "result": -150,
+        "time": "12:30"
+      },
+       {
+        "spin": 19,
+        "number": "35",
+        "amountBet": 50,
+        "result": -50,
+        "time": "13:09"
+      },
+       {
+        "spin": 20,
+        "number": "6",
+        "amountBet": 150,
+        "result": 30,
+        "time": "13:30"
+      },
+       {
+        "spin": 21,
+        "number": "32",
+        "amountBet": 180,
+        "result": 30,
+        "time": "14:02"
+      },
+       {
+        "spin": 22,
+        "number": "00",
+        "amountBet": 200,
+        "result": 160,
+        "time": "14:34"
+      },
+       {
+        "spin": 23,
+        "number": "4",
+        "amountBet": 150,
+        "result": 30,
+        "time": "15:04"
+      },
+       {
+        "spin": 24,
+        "number": "20",
+        "amountBet": 180,
+        "result": 180,
+        "time": "15:10"
+      },
+       {
+        "spin": 25,
+        "number": "34",
+        "amountBet": 150,
+        "result": 30,
+        "time": "15:38"
+      },
+       {
+        "spin": 26,
+        "number": "36",
+        "amountBet": 180,
+        "result": 30,
+        "time": "16:02"
+      },
+       {
+        "spin": 27,
+        "number": "35",
+        "amountBet": 200,
+        "result": 40,
+        "time": "16:18"
+      },
+       {
+        "spin": 28,
+        "number": "12",
+        "amountBet": 230,
+        "result": 30,
+        "time": "17:28"
+      },
+       {
+        "spin": 29,
+        "number": "35",
+        "amountBet": 260,
+        "result": 40,
+        "time": "17:59"
+      },
+       {
+        "spin": 30,
+        "number": "11",
+        "amountBet": 300,
+        "result": 30,
+        "time": "18:48"
+      },
+       {
+        "spin": 31,
+        "number": "25",
+        "amountBet": 330,
+        "result": 30,
+        "time": "19:34"
+      },
+       {
+        "spin": 32,
+        "number": "13",
+        "amountBet": 50,
+        "result": -50,
+        "time": "20:26"
+      }
+    ]
+  },
+   {
     "name": "Bert And Ernie 🟨🟧",
     "airDate": "2024-11-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=GMdiLGhHJoI",
