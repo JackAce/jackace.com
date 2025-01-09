@@ -3,27 +3,30 @@
     "name": "Cakes, Pies & Dives",
     "airDate": "2024-11-30",
     "youtubeUrl": "https://www.youtube.com/watch?v=QASzevnZLUQ",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-30-Cakes-Pies-and-Dives",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":70}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Positive Progression",
+    "buyIn": 250,
     "bets": [
-      100
+      50,
+      90
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "b",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 4,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
@@ -94,8 +97,9 @@
         "spin": 10,
         "number": "23",
         "amountBet": 90,
-        "result": -90,
-        "time": "5:44"
+        "result": 120,
+        "time": "5:44",
+        "notes": "Win was +120, not -90"
       },
        {
         "spin": 11,
@@ -194,32 +198,34 @@
     "name": "Split the Hole",
     "airDate": "2024-11-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=FY20XCfKIh0",
-    "reviewUrl": "2024-xx-xx-Upwork-Test",
+    "reviewUrl": "2024-11-29-Split-the-Hole",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":100}}
+      {"wheelType":1,"wagers":{"x12-doz1":60,"x12-doz3":60,"x2-17-20":15,"x2-0-00":15}}
     ],
-    "systemType": "Ladder",
-    "buyIn": 300,
+    "systemType": "Flat Bet",
+    "buyIn": 500,
     "bets": [
-      100
+      150
     ],
-    "rating": "",
-    "jackaceRating": "",
+    "rating": "c",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 5,
+      "chipUniformity": 3,
+      "jackpotPotential": 4,
+      "scalability": 2,
+      "compValue": 3
     },
     "isJackAceReview": false,
-    "notes": "",
+    "friendCount": 2,
+    "notes": "Alex originally gave the flat bet system an Eggplant (D), but changed his mind.",
     "spins": [{
         "spin": 1,
+        "friend": 1,
         "number": "5",
         "amountBet": 150,
         "result": 30,
@@ -227,6 +233,7 @@
       },
       {
         "spin": 2,
+        "friend": 1,
         "number": "30",
         "amountBet": 150,
         "result": 30,
@@ -234,6 +241,7 @@
       },
        {
         "spin": 3,
+        "friend": 1,
         "number": "10",
         "amountBet": 150,
         "result": 30,
@@ -241,6 +249,7 @@
       },
        {
         "spin": 4,
+        "friend": 1,
         "number": "16",
         "amountBet": 150,
         "result": -150,
@@ -248,6 +257,7 @@
       },
        {
         "spin": 5,
+        "friend": 1,
         "number": "26",
         "amountBet": 150,
         "result": 30,
@@ -255,6 +265,7 @@
       },
        {
         "spin": 6,
+        "friend": 1,
         "number": "27",
         "amountBet": 150,
         "result": 30,
@@ -262,6 +273,7 @@
       },
        {
         "spin": 7,
+        "friend": 1,
         "number": "9",
         "amountBet": 150,
         "result": 30,
@@ -269,6 +281,7 @@
       },
        {
         "spin": 8,
+        "friend": 1,
         "number": "20",
         "amountBet": 150,
         "result": 120,
@@ -276,6 +289,7 @@
       },
        {
         "spin": 9,
+        "friend": 1,
         "number": "32",
         "amountBet": 150,
         "result": 30,
@@ -283,6 +297,7 @@
       },
        {
         "spin": 10,
+        "friend": 1,
         "number": "26",
         "amountBet": 150,
         "result": 30,
@@ -290,6 +305,7 @@
       },
        {
         "spin": 11,
+        "friend": 1,
         "number": "6",
         "amountBet": 150,
         "result": 30,
@@ -297,6 +313,7 @@
       },
        {
         "spin": 12,
+        "friend": 1,
         "number": "21",
         "amountBet": 150,
         "result": -150,
@@ -304,6 +321,7 @@
       },
        {
         "spin": 13,
+        "friend": 1,
         "number": "29",
         "amountBet": 150,
         "result": 30,
@@ -311,6 +329,7 @@
       },
        {
         "spin": 14,
+        "friend": 1,
         "number": "1",
         "amountBet": 150,
         "result": 30,
@@ -318,6 +337,7 @@
       },
        {
         "spin": 15,
+        "friend": 1,
         "number": "19",
         "amountBet": 150,
         "result": -150,
@@ -325,6 +345,7 @@
       },
        {
         "spin": 16,
+        "friend": 1,
         "number": "16",
         "amountBet": 150,
         "result": -150,
@@ -332,6 +353,7 @@
       },
        {
         "spin": 17,
+        "friend": 1,
         "number": "23",
         "amountBet": 150,
         "result": -150,
@@ -339,6 +361,7 @@
       },
        {
         "spin": 18,
+        "friend": 1,
         "number": "21",
         "amountBet": 150,
         "result": -150,
@@ -346,34 +369,43 @@
       },
        {
         "spin": 19,
+        "friend": 1,
         "number": "35",
         "amountBet": 50,
         "result": -50,
-        "time": "13:09"
+        "time": "13:09",
+        "notes": "Alex just bet a random bet here out of frustration."
       },
        {
         "spin": 20,
+        "friend": 2,
         "number": "6",
         "amountBet": 150,
         "result": 30,
-        "time": "13:30"
+        "time": "13:30",
+        "notes": "Alex bought in again here."
       },
        {
         "spin": 21,
+        "friend": 2,
         "number": "32",
         "amountBet": 180,
         "result": 30,
-        "time": "14:02"
+        "time": "14:02",
+        "notes": "Alex was just experimenting here. Straying from the system."
       },
        {
         "spin": 22,
+        "friend": 2,
         "number": "00",
         "amountBet": 200,
         "result": 160,
-        "time": "14:34"
+        "time": "14:34",
+        "notes": "Alex was just pressing some more of his wins here."
       },
        {
         "spin": 23,
+        "friend": 2,
         "number": "4",
         "amountBet": 150,
         "result": 30,
@@ -381,6 +413,7 @@
       },
        {
         "spin": 24,
+        "friend": 2,
         "number": "20",
         "amountBet": 180,
         "result": 180,
@@ -388,6 +421,7 @@
       },
        {
         "spin": 25,
+        "friend": 2,
         "number": "34",
         "amountBet": 150,
         "result": 30,
@@ -395,6 +429,7 @@
       },
        {
         "spin": 26,
+        "friend": 2,
         "number": "36",
         "amountBet": 180,
         "result": 30,
@@ -402,6 +437,7 @@
       },
        {
         "spin": 27,
+        "friend": 2,
         "number": "35",
         "amountBet": 200,
         "result": 40,
@@ -409,6 +445,7 @@
       },
        {
         "spin": 28,
+        "friend": 2,
         "number": "12",
         "amountBet": 230,
         "result": 30,
@@ -416,6 +453,7 @@
       },
        {
         "spin": 29,
+        "friend": 2,
         "number": "35",
         "amountBet": 260,
         "result": 40,
@@ -423,6 +461,7 @@
       },
        {
         "spin": 30,
+        "friend": 2,
         "number": "11",
         "amountBet": 300,
         "result": 30,
@@ -430,6 +469,7 @@
       },
        {
         "spin": 31,
+        "friend": 2,
         "number": "25",
         "amountBet": 330,
         "result": 30,
@@ -437,6 +477,7 @@
       },
        {
         "spin": 32,
+        "friend": 2,
         "number": "13",
         "amountBet": 50,
         "result": -50,
