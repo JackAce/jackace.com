@@ -32,13 +32,11 @@
   sublinks:
     - title: Sign up for Stake.us
       url: /gambling/sites/stake/
-    - title: Plinko
+    - title: Plinko Analysis
       url: /gambling/plinko/
-    - title: Mines Simulator
-      url: https://mines-sim.jackace.com/
 - title: Books
   url: /books
-- title: Other
+- title: Tools
   sublinks:
     - title: TipiT - Tip Calculator
       url: https://tipit.jackace.com/
@@ -46,12 +44,18 @@
       url: /games/wordle/solver/
     - title: GTO Baccarat
       url: https://gto-baccarat.jackace.com/
+    - title: Mines Simulator
+      url: https://mines-sim.jackace.com/
+    - title: Labouchêre Simulator
+      url: https://labouchere-sim.jackace.com/
     - title: Baccarat Edge Sorter
       url: https://edgesorter.jackace.com/
     - title: Chip Shuffle Simulator
       url: https://chipsimulator.jackace.com/
     - title: Lotto EV Calculator
       url: https://lottoev.jackace.com/
+    - title: Roulette Bet Analyzer
+      url: https://rba.jackace.com/
 - title: About
   sublinks:
     - title: About Jack Haze
