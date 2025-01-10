@@ -2023,6 +2023,38 @@
     "isJackAceReview": false,
     "friendCount": 3,
     "notes": "D'Almbert progression.",
+    "simulationResults": [
+      {
+        "startingBalance": 4000,
+        "desiredBalance": 5000,
+        "successPercentage0": 0.717,
+        "spinsPerTrial0": 10.6,
+        "successPercentage00": 0.686,
+        "spinsPerTrial00": 10.8,
+        "successPercentage000": 0.670,
+        "spinsPerTrial000": 10.9
+      },
+      {
+        "startingBalance": 4000,
+        "desiredBalance": 6000,
+        "successPercentage0": 0.560,
+        "spinsPerTrial0": 15.6,
+        "successPercentage00": 0.531,
+        "spinsPerTrial00": 15.5,
+        "successPercentage000": 0.516,
+        "spinsPerTrial000": 15.5
+      },
+      {
+        "startingBalance": 4000,
+        "desiredBalance": 8000,
+        "successPercentage0": 0.401,
+        "spinsPerTrial0": 21.6,
+        "successPercentage00": 0.360,
+        "spinsPerTrial00": 21.1,
+        "successPercentage000": 0.326,
+        "spinsPerTrial000": 20.8
+      }
+    ],
     "spins": [
       {
         "friend": 1,
