@@ -5,7 +5,13 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=f93ZYa4LbI8&t=261s",
     "reviewUrl": "2024-12-04-Unbreakable-7",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x1-31":1,"x1-32":1,"x1-28":1,"x1-29":1,"x1-25":1,"x1-26":1,"x1-22":1}},
@@ -15,23 +21,21 @@
       {"wheelType":1,"wagers":{"x1-16":13,"x1-19":13,"x1-22":13,"x1-25":13,"x1-28":13,"x1-29":13,"x1-32":13}},
       {"wheelType":1,"wagers":{"x1-31":21,"x1-32":21,"x1-28":21,"x1-19":21,"x1-20":21,"x1-22":21,"x1-17":21}},
       {"wheelType":1,"wagers":{"x1-32":35,"x1-19":35,"x1-20":35,"x1-21":35,"x1-16":35,"x1-17":35,"x1-18":35}},
-      {"wheelType":1,"wagers":{"x1-31":60,"x1-28":60,"x1-29":60,"x1-25":60,"x1-23":60,"x1-19":60,"x1-20":60}},
-      {"wheelType":1,"wagers":{"x1-34":100,"x1-35":100,"x1-31":100,"x1-32":100,"x1-25":100,"x1-26":100,"x1-22":100}}  
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 420,
     "bets": [
-      7, 21, 35, 49, 91, 147, 245, 420, 700
+      7, 21, 35, 49, 91, 147, 245
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 3,
+      "chipUniformity": 2,
+      "jackpotPotential": 4,
+      "scalability": 3,
+      "compValue": 0.5
     },
     "isJackAceReview": false,
     "notes": "",
@@ -187,7 +191,8 @@
         "number": "23",
         "amountBet": 147,
         "result": -147,
-        "time": "11:49"
+        "time": "11:49",
+        "notes": "Alex bought in for more here."
       },
       {
         "spin": 23,
