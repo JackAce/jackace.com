@@ -1,11 +1,14 @@
 [
    {
-    "name": "$5 Baked Potato",
+    "name": "$5 Baked Potato 🥔",
     "airDate": "2024-12-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=J7qsgvnB_Hc",
-    "reviewUrl": "2024-12-02-$5-Baked-Potato",
+    "reviewUrl": "2024-12-02-5-Baked-Potato",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x2-19-22":1,"x2-23-26":1,"x2-29-32":1,"x2-31-34":1,"x2-25-28":1}},
@@ -19,17 +22,17 @@
       5, 18, 36, 6
     ],
     "rating": "a",
-    "jackaceRating": "",
+    "jackaceRating": "a",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 5,
+      "scalability": 4,
+      "compValue": 1
     },
     "isJackAceReview": false,
-    "notes": "",
+    "notes": "Good low-limit system",
     "spins": [{
         "spin": 1,
         "number": "8",
@@ -271,7 +274,7 @@
     ]
   },
    {
-    "name": "Cakes, Pies & Dives",
+    "name": "Cakes, Pies & Dives 🎂🥧🤿",
     "airDate": "2024-11-30",
     "youtubeUrl": "https://www.youtube.com/watch?v=QASzevnZLUQ",
     "reviewUrl": "2024-11-30-Cakes-Pies-and-Dives",
