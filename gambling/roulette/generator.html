@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Generator</title>
+</head>
+<body>
+    <h1>Generated SVG Image</h1>
+    <img id="svgImage" alt="Generated SVG" />
+
+    <script>
+        // Generate SVG content as a string
+        const svgContent = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+                <rect x="10" y="10" width="180" height="180" fill="blue" />
+                <circle cx="100" cy="100" r="50" fill="green" />
+                <text x="50" y="105" font-size="20" fill="white">SVG</text>
+            </svg>
+        `;
+
+        // Create a data URI for the SVG content
+        const svgDataUri = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svgContent)}`;
+
+        // Set the data URI as the source of an <img> tag
+        const imgElement = document.getElementById("svgImage");
+        imgElement.src = svgDataUri;
+    </script>
+</body>
+</html>

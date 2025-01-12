@@ -1,5 +1,143 @@
 [
    {
+    "name": "Dealer's Signature",
+    "airDate": "2024-12-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1VffzWQHjRs",
+    "reviewUrl": "2024-12-06-Dealers-Signature",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-25-30":20,"x6-7-12":20,"x1-23":5,"x1-33":5,"x1-19":5,"x1-21":5,"x1-16":5,"x1-18":5,"x1-6":5}},
+      {"wheelType":1,"wagers":{"x6-25-30":20,"x6-7-12":20,"x1-19":10,"x1-21":10,"x1-23":10,"x1-16":10,"x1-18":10,"x1-14":10,"x1-2":10}},
+      {"wheelType":1,"wagers":{"x6-7-12":20,"x6-25-30":20,"x1-2":15,"x1-4":15,"x1-14":15,"x1-16":15,"x1-21":15,"x1-23":15,"x1-35":15}},
+      {"wheelType":1,"wagers":{"x6-7-12":20,"x6-25-30":20,"x1-4":20,"x1-14":20,"x1-16":20,"x1-18":20,"x1-19":20,"x1-21":20,"x1-23":20}}  
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      75, 110, 145, 180
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 0.5,
+      "progressionSimplicity": 1,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 3
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "34",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:43",
+        "notes": "Blank spin"
+      },
+      {
+        "spin": 2,
+        "number": "31",
+        "amountBet": 75,
+        "result": -75,
+        "time": "1:54"
+      },
+      {
+        "spin": 3,
+        "number": "17",
+        "amountBet": 75,
+        "result": 105,
+        "time": "2:39"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:43"
+      },
+      {
+        "spin": 5,
+        "number": "10",
+        "amountBet": 75,
+        "result": 55,
+        "time": "4:28"
+      },
+      {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 75,
+        "result": -75,
+        "time": "4:50"
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 110,
+        "result": 10,
+        "time": "5:36"
+      },
+      {
+        "spin": 8,
+        "number": "21",
+        "amountBet": 110,
+        "result": -110,
+        "time": "6:40",
+        "notes": "Loss was -110, not -75"
+      },
+      {
+        "spin": 9,
+        "number": "1",
+        "amountBet": 0,
+        "result": 0,
+        "time": "6:44"
+      },
+      {
+        "spin": 10,
+        "number": "15",
+        "amountBet": 145,
+        "result": -145,
+        "time": "6:51"
+      },
+      {
+        "spin": 11,
+        "number": "27",
+        "amountBet": 180,
+        "result": -180,
+        "time": "7:20",
+        "notes": "Loss was -180, not -60"
+      },
+      {
+        "spin": 12,
+        "number": "36",
+        "amountBet": 180,
+        "result": -180,
+        "time": "7:35"
+      },
+      {
+        "spin": 13,
+        "number": "6",
+        "amountBet": 180,
+        "result": -180,
+        "time": "8:01"
+      },
+      {
+        "spin": 14,
+        "number": "29",
+        "amountBet": 115,
+        "result": 920,
+        "time": "8:53",
+        "notes": "bet doesn't seem to be a part of the system" 
+      }
+    ]
+  },
+   {
     "name": "Unbreakable 7",
     "airDate": "2024-12-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=f93ZYa4LbI8&t=261s",
