@@ -1,11 +1,14 @@
 [
    {
-    "name": "Dealer's Signature YT",
+    "name": "Dealer's Signature",
     "airDate": "2024-12-06",
     "youtubeUrl": "https://www.youtube.com/watch?v=1VffzWQHjRs",
-    "reviewUrl": "2024-12-06-Dealers-Signature-YT",
+    "reviewUrl": "2024-12-06-Dealers-Signature",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x6-25-30":20,"x6-7-12":20,"x1-23":5,"x1-33":5,"x1-19":5,"x1-21":5,"x1-16":5,"x1-18":5,"x1-6":5}},
@@ -19,14 +22,14 @@
       75, 110, 145, 180
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "f",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 0.5,
+      "progressionSimplicity": 1,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
@@ -35,7 +38,8 @@
         "number": "34",
         "amountBet": 0,
         "result": 0,
-        "time": "0:43"
+        "time": "0:43",
+        "notes": "Blank spin"
       },
       {
         "spin": 2,
@@ -85,7 +89,7 @@
         "amountBet": 110,
         "result": -110,
         "time": "6:40",
-        "notes": "video displayed incorrect loss amount"
+        "notes": "Loss was -110, not -75"
       },
       {
         "spin": 9,
@@ -105,8 +109,9 @@
         "spin": 11,
         "number": "27",
         "amountBet": 180,
-        "result": -60,
-        "time": "7:20"
+        "result": -180,
+        "time": "7:20",
+        "notes": "Loss was -180, not -60"
       },
       {
         "spin": 12,
