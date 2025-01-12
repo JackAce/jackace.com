@@ -5,19 +5,15 @@
     {% include head.html %}
 
     {% if jekyll.environment == 'production' and site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window['ga-disable-{{ site.google_analytics }}'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
+      {% include google-analytics.html %}
     {% endif %}
 
     {% if jekyll.environment == 'production' and site.google_adsense %}
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.google_adsense }}" crossorigin="anonymous"></script>
+      {% include google-adsense.html %}
+    {% endif %}
+
+    {% if jekyll.environment == 'production' and site.cookiebot_cbid %}
+      {% include cookiebot-consent.html %}
     {% endif %}
   </head>
 
@@ -26,7 +22,6 @@
       <header class="site-header">
         {% include header.html %}
       </header>
-      
       <div class="site-wide wrapper">
         <main class="site-wide" id="site-main" aria-label="Content" tabindex="1">
           {{ content }}
