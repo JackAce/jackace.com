@@ -1,5 +1,162 @@
 [
   {
+    "name": "5 Split Street",
+    "airDate": "2024-12-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=4Xe7LvZkvgI",
+    "reviewUrl": "2024-12-09-5-Split-Street",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-10-12":1,"x3-16-18":1,"x3-22-24":1,"x3-28-30":1,"x3-34-36":1,"x2-31-32":1,"x2-26-27":1,"x2-19-20":1,"x2-14-15":1,"x2-7-8":1}},
+      {"wheelType":1,"wagers":{"x3-10-12":2,"x3-16-18":2,"x3-22-24":2,"x3-28-30":2,"x3-34-36":2,"x2-31-32":2,"x2-26-27":2,"x2-19-20":2,"x2-14-15":2,"x2-7-8":2}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 200,
+    "bets": [
+      10, 20
+    ],
+    "rating": "a",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "6",
+        "amountBet": 10,
+        "result": -10,
+        "time": "2:48"
+      },
+      {
+        "spin": 2,
+        "number": "12",
+        "amountBet": 20,
+        "result": 4,
+        "time": "3:39"
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 10,
+        "result": 2,
+        "time": "4:24"
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:38"
+      },
+      {
+        "spin": 5,
+        "number": "11",
+        "amountBet": 20,
+        "result": 4,
+        "time": "6:20"
+      },
+      {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 10,
+        "result": 8,
+        "time": "7:09"
+      },
+      {
+        "spin": 7,
+        "number": "2",
+        "amountBet": 10,
+        "result": -10,
+        "time": "8:34"
+      },
+      {
+        "spin": 8,
+        "number": "21",
+        "amountBet": 20,
+        "result": 16,
+        "time": "9:22"
+      },
+      {
+        "spin": 9,
+        "number": "12",
+        "amountBet": 10,
+        "result": -10,
+        "time": "10:46"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 10,
+        "result": 2,
+        "time": "11:26"
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 10,
+        "result": -10,
+        "time": "12:28"
+      },
+      {
+        "spin": 12,
+        "number": "16",
+        "amountBet": 20,
+        "result": 4,
+        "time": "13:13"
+      },
+      {
+        "spin": 13,
+        "number": "19",
+        "amountBet": 10,
+        "result": 2,
+        "time": "14:40"
+      },
+      {
+        "spin": 14,
+        "number": "10",
+        "amountBet": 10,
+        "result": 2,
+        "time": "15:23"
+      },
+      {
+        "spin": 15,
+        "number": "25",
+        "amountBet": 10,
+        "result": 8,
+        "time": "15:51"
+      },
+      {
+        "spin": 16,
+        "number": "31",
+        "amountBet": 10,
+        "result": 8,
+        "time": "17:13"
+      },
+      {
+        "spin": 17,
+        "number": "34",
+        "amountBet": 10,
+        "result": 8,
+        "time": "17:42"
+      },
+      {
+        "spin": 18,
+        "number": "36",
+        "amountBet": 10,
+        "result": 8,
+        "time": "18:12"
+      }
+    ]
+  },
+  {
     "name": "R U Nuts?",
     "airDate": "2024-12-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=idpimSf4yuE",
