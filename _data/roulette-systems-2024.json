@@ -1,5 +1,278 @@
 [
   {
+    "name": "Romanovskys Grower",
+    "airDate": "2024-12-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_3ZPkThYQKg",
+    "reviewUrl": "2024-12-10-Romanovskys-Grower",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":15}},
+      {"wheelType":1,"wagers":{"x6-25-30":15,"x6-19-24":15}},
+      {"wheelType":1,"wagers":{"x4-1-5":5,"x4-8-12":5,"x12-doz3":15,"x12-doz2":15}},
+      {"wheelType":1,"wagers":{"x12-col1":30,"x12-col2":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30,"x4-7-11":10,"x4-2-6":10}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 300,
+    "bets": [
+      15, 30, 40, 60, 80
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "27",
+        "amountBet": 15,
+        "result": -15,
+        "time": "1:04"
+      },
+      {
+        "spin": 2,
+        "number": "29",
+        "amountBet": 15,
+        "result": 15,
+        "time": "1:18"
+      },
+      {
+        "spin": 3,
+        "number": "4",
+        "amountBet": 30,
+        "result": -30,
+        "time": "1:46",
+        "notes": "wrong loss amount displayed"
+      },
+      {
+        "spin": 4,
+        "number": "13",
+        "amountBet": 15,
+        "result": 15,
+        "time": "2:04"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 30,
+        "result": 15,
+        "time": "2:31"
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 40,
+        "result": 5,
+        "time": "2:44"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 40,
+        "result": 5,
+        "time": "3:16"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 40,
+        "result": 5,
+        "time": "3:36"
+      },
+      {
+        "spin": 9,
+        "number": "3",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:51"
+      },
+      {
+        "spin": 10,
+        "number": "8",
+        "amountBet": 15,
+        "result": 15,
+        "time": "4:09"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 30,
+        "result": -30,
+        "time": "4:32"
+      },
+      {
+        "spin": 12,
+        "number": "14",
+        "amountBet": 15,
+        "result": -15,
+        "time": "4:58"
+      },
+      {
+        "spin": 13,
+        "number": "2",
+        "amountBet": 15,
+        "result": 15,
+        "time": "5:14"
+      },
+      {
+        "spin": 14,
+        "number": "28",
+        "amountBet": 30,
+        "result": 15,
+        "time": "5:41"
+      },
+      {
+        "spin": 15,
+        "number": "8",
+        "amountBet": 30,
+        "result": 5,
+        "time": "6:02"
+      },
+      {
+        "spin": 16,
+        "number": "32",
+        "amountBet": 40,
+        "result": 5,
+        "time": "6:26"
+      },
+      {
+        "spin": 17,
+        "number": "28",
+        "amountBet": 40,
+        "result": 5,
+        "time": "6:51"
+      },
+      {
+        "spin": 18,
+        "number": "1",
+        "amountBet": 30,
+        "result": -30,
+        "time": "7:05"
+      },
+      {
+        "spin": 19,
+        "number": "11",
+        "amountBet": 15,
+        "result": 15,
+        "time": "7:16"
+      },
+      {
+        "spin": 20,
+        "number": "8",
+        "amountBet": 30,
+        "result": 15,
+        "time": "7:41"
+      },
+      {
+        "spin": 21,
+        "number": "20",
+        "amountBet": 40,
+        "result": 5,
+        "time": "8:10"
+      },
+      {
+        "spin": 22,
+        "number": "17",
+        "amountBet": 40,
+        "result": 5,
+        "time": "8:30"
+      },
+      {
+        "spin": 23,
+        "number": "23",
+        "amountBet": 40,
+        "result": 5,
+        "time": "8:46"
+      },
+      {
+        "spin": 24,
+        "number": "21",
+        "amountBet": 30,
+        "result": -30,
+        "time": "9:33"
+      },
+      {
+        "spin": 25,
+        "number": "8",
+        "amountBet": 15,
+        "result": 15,
+        "time": "9:48"
+      },
+      {
+        "spin": 26,
+        "number": "5",
+        "amountBet": 30,
+        "result": 15,
+        "time": "10:24"
+      },
+      {
+        "spin": 27,
+        "number": "15",
+        "amountBet": 40,
+        "result": 5,
+        "time": "10:58"
+      },
+      {
+        "spin": 28,
+        "number": "25",
+        "amountBet": 40,
+        "result": 5,
+        "time": "11:19"
+      },
+      {
+        "spin": 29,
+        "number": "16",
+        "amountBet": 40,
+        "result": 5,
+        "time": "11:43"
+      },
+      {
+        "spin": 30,
+        "number": "29",
+        "amountBet": 30,
+        "result": 30,
+        "time": "12:16"
+      },
+      {
+        "spin": 31,
+        "number": "7",
+        "amountBet": 60,
+        "result": 30,
+        "time": "12:46"
+      },
+      {
+        "spin": 32,
+        "number": "34",
+        "amountBet": 80,
+        "result": 10,
+        "time": "13:03"
+      },
+      {
+        "spin": 33,
+        "number": "10",
+        "amountBet": 80,
+        "result": 10,
+        "time": "13:24"
+      },
+      {
+        "spin": 34,
+        "number": "00",
+        "amountBet": 80,
+        "result": -80,
+        "time": "13:48"
+      }
+    ]
+  },
+  {
     "name": "5 Split Street",
     "airDate": "2024-12-09",
     "youtubeUrl": "https://www.youtube.com/watch?v=4Xe7LvZkvgI",
