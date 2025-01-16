@@ -508,6 +508,7 @@ layout: page-no-sidebar
         {%- assign currentResult = row["result"] | times: 1 -%}
         {%- assign currentLoss = currentResult | times: -1 -%}
         {%- assign currentBet = row["amountBet"] | times: 1 -%}
+        {%- assign displayedResult = row["displayedResult"] | default: 0 | times: 1 -%}
         {%- assign estimatedEV = currentBet | times: -0.0526 -%}
         {%- assign currentEV = row["ev"] | default: estimatedEV | times: 1 -%}
         {%- assign groupEV = groupEV | plus: currentEV | times: 1 -%}
@@ -555,6 +556,11 @@ layout: page-no-sidebar
             </td>
           {% endif %}
           <td>
+            {% if row["displayedResult"] %}
+              Result displayed in video was 
+              {% include win-loss-amount.html amount=displayedResult %}
+              <br/>
+            {% endif %}
             {{- row["notes"] -}}
           </td>
       </tr>

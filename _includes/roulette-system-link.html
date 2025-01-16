@@ -18,6 +18,8 @@
 
 {%- assign systemName = include.displayName | default: system.name -%}
 
-<!-- TODO: handle invalid reviewUrl strings -->
+{% comment %}
+    TODO: handle invalid reviewUrl strings
+{% endcomment %}
 
 <a href="/gambling/roulette/systems/{{- include.reviewUrl -}}" >{{- systemName -}}</a>
