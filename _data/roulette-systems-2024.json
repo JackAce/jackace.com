@@ -6581,6 +6581,38 @@
       "compValue": 1
     },
     "isJackAceReview": false,
+    "simulationResults": [
+      {
+        "startingBalance": 200,
+        "desiredBalance": 400,
+        "successPercentage0": 0.377,
+        "spinsPerTrial0": 38.3,
+        "successPercentage00": 0.335,
+        "spinsPerTrial00": 37.8,
+        "successPercentage000": 0.367,
+        "spinsPerTrial000": 36.7
+      },
+      {
+        "startingBalance": 200,
+        "desiredBalance": 520,
+        "successPercentage0": 0.279,
+        "spinsPerTrial0": 52.6,
+        "successPercentage00": 0.243,
+        "spinsPerTrial00": 50.4,
+        "successPercentage000": 0.213,
+        "spinsPerTrial000": 49.9
+      },
+      {
+        "startingBalance": 200,
+        "desiredBalance": 600,
+        "successPercentage0": 0.246,
+        "spinsPerTrial0": 60.9,
+        "successPercentage00": 0.193,
+        "spinsPerTrial00": 58.1,
+        "successPercentage000": 0.161,
+        "spinsPerTrial000": 56.8
+      }
+    ],
     "notes": "",
     "spins": [
       {
@@ -48334,16 +48366,18 @@
         "number": "25",
         "amountBet": 140,
         "result": -110,
+        "displayedResult": -120,
         "time": "12:16",
-        "notes": "120+10+10 bet. Video said -120, but I believe it was -90 (10x2-10-120)"
+        "notes": "120+10+10 bet."
       },
       {
         "spin": 14,
         "number": "4",
         "amountBet": 160,
         "result": -160,
+        "displayedResult": -180,
         "time": "13:04",
-        "notes": "130+10+20 bet. Video said -180, but I believe it was -160 (-130-10-20)"
+        "notes": "130+10+20 bet."
       },
       {
         "spin": 15,
@@ -48366,8 +48400,9 @@
         "number": "26",
         "amountBet": 30,
         "result": 130,
+        "displayedResult": 25,
         "time": "15:58",
-        "notes": "75+40+10 bet. Video said +25, but it should have been +130"
+        "notes": "75+40+10 bet."
       }
     ]
   },
@@ -48529,8 +48564,8 @@
         "number": "27",
         "amountBet": 100,
         "result": 80,
-        "time": "6:07",
-        "notes": "The win was only $80, not $90 as displayed in the video."
+        "displayedResult": 90,
+        "time": "6:07"
       },
       {
         "spin": 12,
@@ -48572,8 +48607,8 @@
         "number": "15",
         "amountBet": 100,
         "result": 80,
-        "time": "8:10",
-        "notes": "The win was only $80, not $90 as displayed in the video."
+        "displayedResult": 90,
+        "time": "8:10"
       },
       {
         "spin": 18,
@@ -49051,8 +49086,8 @@
         "number": "31",
         "amountBet": 50,
         "result": 25,
-        "time": "8:26",
-        "notes": "Video said +50, but Alex only won +25."
+        "displayedResult": 50,
+        "time": "8:26"
       },
       {
         "spin": 11,
