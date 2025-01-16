@@ -1,11 +1,15 @@
 [
   {
-    "name": "Romanovskys Grower",
+    "name": "Romanovsky's Grower 🍆",
     "airDate": "2024-12-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=_3ZPkThYQKg",
     "reviewUrl": "2024-12-10-Romanovskys-Grower",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":15}},
@@ -20,14 +24,14 @@
       15, 30, 40, 60, 80
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -50,8 +54,8 @@
         "number": "4",
         "amountBet": 30,
         "result": -30,
-        "time": "1:46",
-        "notes": "wrong loss amount displayed"
+        "displayedResult": -15,
+        "time": "1:46"
       },
       {
         "spin": 4,
@@ -948,8 +952,8 @@
         "number": "21",
         "amountBet": 110,
         "result": -110,
-        "time": "6:40",
-        "notes": "Loss was -110, not -75"
+        "displayedResult": -75,
+        "time": "6:40"
       },
       {
         "spin": 9,
@@ -970,8 +974,8 @@
         "number": "27",
         "amountBet": 180,
         "result": -180,
-        "time": "7:20",
-        "notes": "Loss was -180, not -60"
+        "displayedResult": -60,
+        "time": "7:20"
       },
       {
         "spin": 12,
@@ -1737,8 +1741,8 @@
         "number": "23",
         "amountBet": 90,
         "result": 120,
-        "time": "5:44",
-        "notes": "Win was +120, not -90"
+        "displayedResult": -90,
+        "time": "5:44"
       },
       {
         "spin": 11,
@@ -2295,8 +2299,8 @@
         "number": "24",
         "amountBet": 20,
         "result": -20,
-        "time": "3:52",
-        "notes": "Loss was -20, not -75."
+        "displayedResult": -75,
+        "time": "3:52"
       },
       {
         "spin": 10,
@@ -2366,8 +2370,8 @@
         "number": "00",
         "amountBet": 45,
         "result": -45,
-        "time": "8:10",
-        "notes": "Loss was -45, not -30."
+        "displayedResult": -30,
+        "time": "8:10"
       },
       {
         "spin": 20,
@@ -2660,8 +2664,9 @@
         "number": "26",
         "amountBet": 105,
         "result": 1155,
+        "displayedResult": 231,
         "time": "9:41",
-        "notes": "This win was +1155, not +231. Alex forgot to multiply by his $5 chip value. I think he was counting units."
+        "notes": "Alex forgot to multiply by his $5 chip value. I think he was counting units."
       },
       {
         "spin": 25,
@@ -3680,8 +3685,8 @@
         "number": "30",
         "amountBet": 60,
         "result": -60,
-        "time": "7:43",
-        "notes": "Loss was -60, not -55."
+        "displayedResult": -55,
+        "time": "7:43"
       },
       {
         "spin": 15,
@@ -3878,9 +3883,9 @@
         "spin": 12,
         "number": "13",
         "amountBet": 55,
-        "result": -45,
-        "time": "5:40",
-        "notes": "may have lost -55"
+        "result": -55,
+        "displayedResult": -45,
+        "time": "5:40"
       },
       {
         "spin": 13,
@@ -4465,8 +4470,8 @@
         "number": "24",
         "amountBet": 40,
         "result": 40,
-        "time": "3:31",
-        "notes": "Win was +40, not +20."
+        "displayedResult": 20,
+        "time": "3:31"
       },
       {
         "spin": 7,
@@ -5187,16 +5192,16 @@
         "number": "35",
         "amountBet": 75,
         "result": 0,
-        "time": "11:46",
-        "notes": "This was a push, not a +25 win."
+        "displayedResult": 25,
+        "time": "11:46"
       },
       {
         "spin": 21,
         "number": "28",
         "amountBet": 75,
         "result": -75,
-        "time": "12:08",
-        "notes": "This was a -75 loss, not a -50 loss."
+        "displayedResult": -50,
+        "time": "12:08"
       },
       {
         "spin": 22,
@@ -6241,8 +6246,8 @@
         "number": "0",
         "amountBet": 170,
         "result": -170,
-        "time": "9:43",
-        "notes": "Loss was -170, not -80"
+        "displayedResult": -80,
+        "time": "9:43"
       },
       {
         "spin": 14,
@@ -6256,8 +6261,8 @@
         "number": "0",
         "amountBet": 170,
         "result": -170,
-        "time": "11:32",
-        "notes": "Loss was -170, not -80"
+        "displayedResult": -80,
+        "time": "11:32"
       },
       {
         "spin": 16,
@@ -7748,8 +7753,9 @@
         "number": "5",
         "amountBet": 120,
         "result": 180,
+        "displayedResult": 120,
         "time": "9:50",
-        "notes": "The win here is +180, not +120. Alex started pressing up the 2nd column here."
+        "notes": "Alex started pressing up the 2nd column here."
       },
       {
         "spin": 12,
@@ -8716,8 +8722,8 @@
         "number": "35",
         "amountBet": 375,
         "result": -375,
-        "time": "3:52",
-        "notes": "Loss was -375, not -300"
+        "displayedResult": -300,
+        "time": "3:52"
       },
       {
         "spin": 8,
@@ -9161,8 +9167,8 @@
         "number": "10",
         "amountBet": 120,
         "result": -120,
-        "time": "9:49",
-        "notes": "The loss was -120, not -75"
+        "displayedResult": -75,
+        "time": "9:49"
       },
       {
         "spin": 19,
@@ -9190,8 +9196,8 @@
         "number": "21",
         "amountBet": 120,
         "result": 60,
-        "time": "11:55",
-        "notes": "Win was +60, not +30"
+        "displayedResult": 30,
+        "time": "11:55"
       },
       {
         "spin": 23,
@@ -10546,8 +10552,8 @@
         "number": "30",
         "amountBet": 80,
         "result": 10,
-        "time": "10:00",
-        "notes": "Win is +10, not +20"
+        "displayedResult": 20,
+        "time": "10:00"
       },
       {
         "spin": 20,
@@ -10835,8 +10841,8 @@
         "number": "7",
         "amountBet": 60,
         "result": 30,
-        "time": "9:22",
-        "notes": "Win is +30, not +60."
+        "displayedResult": 60,
+        "time": "9:22"
       },
       {
         "spin": 18,
@@ -11106,8 +11112,8 @@
         "number": "13",
         "amountBet": 30,
         "result": 45,
-        "time": "3:36",
-        "notes": "Win is +45, not +30."
+        "displayedResult": 30,
+        "time": "3:36"
       },
       {
         "spin": 7,
@@ -11128,8 +11134,8 @@
         "number": "13",
         "amountBet": 30,
         "result": 45,
-        "time": "4:56",
-        "notes": "Win is +45, not +30."
+        "displayedResult": 30,
+        "time": "4:56"
       },
       {
         "spin": 10,
@@ -11375,8 +11381,8 @@
         "number": "16",
         "amountBet": 60,
         "result": -60,
-        "time": "6:42",
-        "notes": "Loss was -60, not -40."
+        "displayedResult": -40,
+        "time": "6:42"
       },
       {
         "spin": 12,
@@ -11572,8 +11578,8 @@
         "number": "27",
         "amountBet": 50,
         "result": 50,
-        "time": "4:45",
-        "notes": "Win was +50, not +25"
+        "displayedResult": 25,
+        "time": "4:45"
       },
       {
         "spin": 12,
@@ -11657,8 +11663,8 @@
         "number": "15",
         "amountBet": 25,
         "result": 25,
-        "time": "9:26",
-        "notes": "Win was +25, not +5"
+        "displayedResult": 5,
+        "time": "9:26"
       },
       {
         "spin": 24,
@@ -12326,8 +12332,8 @@
         "number": "25",
         "amountBet": 60,
         "result": 100,
-        "time": "8:30",
-        "notes": "Win here was +100, not +10."
+        "displayedResult": 10,
+        "time": "8:30"
       },
       {
         "spin": 15,
@@ -12348,16 +12354,16 @@
         "number": "15",
         "amountBet": 120,
         "result": 20,
-        "time": "9:48",
-        "notes": "Win here is +20, not +10."
+        "displayedResult": 10,
+        "time": "9:48"
       },
       {
         "spin": 18,
         "number": "7",
         "amountBet": 120,
         "result": 200,
-        "time": "10:09",
-        "notes": "Win here is +200, not +10."
+        "displayedResult": 10,
+        "time": "10:09"
       }
     ]
   },
@@ -12915,16 +12921,16 @@
         "number": "15",
         "amountBet": 50,
         "result": 50,
-        "time": "11:34",
-        "notes": "Alex won +50, not +10."
+        "displayedResult": 10,
+        "time": "11:34"
       },
       {
         "spin": 18,
         "number": "19",
         "amountBet": 100,
         "result": 50,
-        "time": "12:00",
-        "notes": "Alex won +50, not +10."
+        "displayedResult": 10,
+        "time": "12:00"
       },
       {
         "spin": 19,
@@ -13413,8 +13419,8 @@
         "number": "4",
         "amountBet": 10,
         "result": 20,
-        "time": "3:37",
-        "notes": "Alex won +20, not +10."
+        "displayedResult": 10,
+        "time": "3:37"
       },
       {
         "spin": 8,
@@ -13683,8 +13689,8 @@
         "number": "36",
         "amountBet": 32,
         "result": -32,
-        "time": "9:53",
-        "notes": "Video said +10, but he should have lost -32"
+        "displayedResult": 10,
+        "time": "9:53"
       },
       {
         "spin": 15,
@@ -14618,16 +14624,16 @@
         "number": "13",
         "amountBet": 390,
         "result": -390,
-        "time": "9:12",
-        "notes": "Loss was -390, not -360."
+        "displayedResult": -360,
+        "time": "9:12"
       },
       {
         "spin": 24,
         "number": "32",
         "amountBet": 630,
         "result": 1260,
-        "time": "9:58",
-        "notes": "Win was +1260, not +660."
+        "displayedResult": 660,
+        "time": "9:58"
       },
       {
         "spin": 25,
@@ -15690,8 +15696,8 @@
         "number": "18",
         "amountBet": 25,
         "result": 50,
-        "time": "9:10",
-        "notes": "Alex won +50, not +25-"
+        "displayedResult": 25,
+        "time": "9:10"
       },
       {
         "spin": 22,
@@ -15768,8 +15774,8 @@
         "number": "24",
         "amountBet": 25,
         "result": 50,
-        "time": "12:21",
-        "notes": "Alex won +50, not +25."
+        "displayedResult": 25,
+        "time": "12:21"
       },
       {
         "spin": 33,
@@ -15878,8 +15884,8 @@
         "number": "2",
         "amountBet": 60,
         "result": -60,
-        "time": "1:24",
-        "notes": "The loss was -60, not -30."
+        "displayedResult": -30,
+        "time": "1:24"
       },
       {
         "friend": 1,
@@ -15903,8 +15909,8 @@
         "number": "9",
         "amountBet": 60,
         "result": -60,
-        "time": "2:54",
-        "notes": "Loss was -60, not -30"
+        "displayedResult": -30,
+        "time": "2:54"
       },
       {
         "friend": 1,
@@ -16019,8 +16025,8 @@
         "number": "8",
         "amountBet": 120,
         "result": -120,
-        "time": "9:43",
-        "notes": "Loss was -120, not -240"
+        "displayedResult": -240,
+        "time": "9:43"
       },
       {
         "friend": 2,
@@ -16318,8 +16324,8 @@
         "number": "36",
         "amountBet": 170,
         "result": 10,
-        "time": "5:22",
-        "notes": "Win here was +10, not +5."
+        "displayedResult": 5,
+        "time": "5:22"
       },
       {
         "spin": 11,
@@ -16459,8 +16465,8 @@
         "number": "13",
         "amountBet": 60,
         "result": 30,
-        "time": "12:36",
-        "notes": "Win was +30, not +5."
+        "displayedResult": 5,
+        "time": "12:36"
       },
       {
         "spin": 31,
@@ -16732,8 +16738,8 @@
         "number": "22",
         "amountBet": 50,
         "result": 50,
-        "time": "11:32",
-        "notes": "Win was +50, not -50"
+        "displayedResult": -50,
+        "time": "11:32"
       },
       {
         "spin": 25,
@@ -17184,8 +17190,8 @@
         "number": "33",
         "amountBet": 180,
         "result": 90,
-        "time": "6:40",
-        "notes": "Win was +90, not +120"
+        "displayedResult": 120,
+        "time": "6:40"
       },
       {
         "spin": 10,
@@ -17199,8 +17205,8 @@
         "number": "36",
         "amountBet": 180,
         "result": 90,
-        "time": "8:18",
-        "notes": "Win is +90, not +120"
+        "displayedResult": 120,
+        "time": "8:18"
       },
       {
         "spin": 12,
@@ -17386,8 +17392,8 @@
         "number": "32",
         "amountBet": 50,
         "result": -50,
-        "time": "5:37",
-        "notes": "Loss was -50, not -25"
+        "displayedResult": -25,
+        "time": "5:37"
       },
       {
         "spin": 14,
@@ -17415,8 +17421,8 @@
         "number": "11",
         "amountBet": 50,
         "result": -50,
-        "time": "7:17",
-        "notes": "Loss was -50, not -25"
+        "displayedResult": -25,
+        "time": "7:17"
       },
       {
         "spin": 18,
@@ -17916,16 +17922,16 @@
         "number": "22",
         "amountBet": 210,
         "result": -210,
-        "time": "8:14",
-        "notes": "I believe the loss was -210, not -240."
+        "displayedResult": -240,
+        "time": "8:14"
       },
       {
         "spin": 12,
         "number": "24",
         "amountBet": 240,
         "result": -240,
-        "time": "9:27",
-        "notes": "I believe the loss was -240, not -270."
+        "displayedResult": -270,
+        "time": "9:27"
       }
     ]
   },
@@ -18246,8 +18252,8 @@
         "number": "19",
         "amountBet": 100,
         "result": 50,
-        "time": "7:32",
-        "notes": "This was a +50 win, not +20."
+        "displayedResult": 20,
+        "time": "7:32"
       },
       {
         "spin": 12,
@@ -18478,8 +18484,8 @@
         "number": "10",
         "amountBet": 25,
         "result": 5,
-        "time": "6:44",
-        "notes": "Win was +5, not +15."
+        "displayedResult": 15,
+        "time": "6:44"
       },
       {
         "spin": 17,
@@ -18988,8 +18994,8 @@
         "number": "30",
         "amountBet": 200,
         "result": 160,
-        "time": "13:31",
-        "notes": "The win here was +180, not +190."
+        "displayedResult": 190,
+        "time": "13:31"
       },
       {
         "spin": 17,
@@ -19105,8 +19111,8 @@
         "number": "14",
         "amountBet": 50,
         "result": 40,
-        "time": "5:57",
-        "notes": "Win was +40, not +55."
+        "displayedResult": 55,
+        "time": "5:57"
       },
       {
         "spin": 6,
@@ -19120,8 +19126,8 @@
         "number": "4",
         "amountBet": 50,
         "result": 40,
-        "time": "7:33",
-        "notes": "Win was +40, not +55."
+        "displayedResult": 55,
+        "time": "7:33"
       },
       {
         "spin": 8,
@@ -19149,8 +19155,8 @@
         "number": "18",
         "amountBet": 50,
         "result": 40,
-        "time": "10:50",
-        "notes": "Win was +40, not +55."
+        "displayedResult": 55,
+        "time": "10:50"
       },
       {
         "spin": 12,
@@ -19445,16 +19451,17 @@
         "number": "34",
         "amountBet": 378,
         "result": 18,
-        "time": "11:35",
-        "notes": "Win here is +18, not +7."
+        "displayedResult": 7,
+        "time": "11:35"
       },
       {
         "spin": 15,
         "number": "20",
         "amountBet": 378,
         "result": 90,
+        "displayedResult": 7,
         "time": "12:20",
-        "notes": "Win here is +90, not +7. Dennis handed Alex $90 here."
+        "notes": "Dennis handed Alex $90 here."
       },
       {
         "spin": 16,
@@ -20268,8 +20275,8 @@
         "number": "28",
         "amountBet": 270,
         "result": 0,
-        "time": "8:49",
-        "notes": "Video showed +270, but it was a PUSH."
+        "displayedResult": 270,
+        "time": "8:49"
       },
       {
         "spin": 9,
@@ -20695,8 +20702,8 @@
         "number": "34",
         "amountBet": 75,
         "result": -75,
-        "time": "8:37",
-        "notes": "The loss was -75, not -100"
+        "displayedResult": -100,
+        "time": "8:37"
       },
       {
         "spin": 19,
@@ -20740,8 +20747,8 @@
         "number": "31",
         "amountBet": 50,
         "result": -50,
-        "time": "11:32",
-        "notes": "Loss is -50, not -100."
+        "displayedResult": -100,
+        "time": "11:32"
       },
       {
         "spin": 25,
@@ -20762,8 +20769,8 @@
         "number": "34",
         "amountBet": 50,
         "result": 25,
-        "time": "12:25",
-        "notes": "This is a +25 win, not a push."
+        "displayedResult": 0,
+        "time": "12:25"
       },
       {
         "spin": 28,
@@ -21108,8 +21115,8 @@
         "number": "30",
         "amountBet": 740,
         "result": 550,
-        "time": "15:44",
-        "notes": "Video said +560, but it should be $550."
+        "displayedResult": 560,
+        "time": "15:44"
       }
     ]
   },
@@ -21475,8 +21482,8 @@
         "number": "20",
         "amountBet": 400,
         "result": 1040,
-        "time": "5:51",
-        "notes": "Win was +1040, not +1025"
+        "displayedResult": 1025,
+        "time": "5:51"
       },
       {
         "spin": 9,
@@ -21570,8 +21577,8 @@
         "number": "27",
         "amountBet": 50,
         "result": -50,
-        "time": "3:28",
-        "notes": "Video said -25, but it is -50."
+        "displayedResult": -25,
+        "time": "3:28"
       },
       {
         "spin": 4,
@@ -21732,16 +21739,16 @@
         "number": "27",
         "amountBet": 50,
         "result": 50,
-        "time": "12:25",
-        "notes": "Win here is +50, not +25 as displayed."
+        "displayedResult": 25,
+        "time": "12:25"
       },
       {
         "spin": 27,
         "number": "27",
         "amountBet": 100,
         "result": -100,
-        "time": "12:51",
-        "notes": "Loss here was -100, not -50."
+        "displayedResult": -50,
+        "time": "12:51"
       },
       {
         "spin": 28,
@@ -23289,8 +23296,8 @@
         "number": "32",
         "amountBet": 780,
         "result": 780,
-        "time": "7:59",
-        "notes": "Win was +780, not +910"
+        "displayedResult": 910,
+        "time": "7:59"
       },
       {
         "spin": 15,
@@ -23721,8 +23728,8 @@
         "number": "32",
         "amountBet": 75,
         "result": -75,
-        "time": "10:49",
-        "notes": "Loss here was -75, not -50"
+        "displayedResult": -50,
+        "time": "10:49"
       },
       {
         "spin": 22,
@@ -23930,8 +23937,8 @@
         "number": "14",
         "amountBet": 50,
         "result": -50,
-        "time": "4:37",
-        "notes": "Loss was -50, not -145."
+        "displayedResult": -145,
+        "time": "4:37"
       },
       {
         "spin": 11,
@@ -24448,8 +24455,8 @@
         "number": "4",
         "amountBet": 100,
         "result": -100,
-        "time": "6:18",
-        "notes": "Loss was -100, not -50."
+        "displayedResult": -50,
+        "time": "6:18"
       },
       {
         "spin": 12,
@@ -24646,8 +24653,8 @@
         "number": "2",
         "amountBet": 32,
         "result": -32,
-        "time": "5:52",
-        "notes": "Loss was -32, not -35."
+        "displayedResult": -35,
+        "time": "5:52"
       },
       {
         "spin": 8,
@@ -24661,8 +24668,8 @@
         "number": "2",
         "amountBet": 29,
         "result": -29,
-        "time": "7:45",
-        "notes": "Loss was -29, not -26."
+        "displayedResult": -26,
+        "time": "7:45"
       },
       {
         "spin": 10,
@@ -24809,8 +24816,8 @@
         "number": "30",
         "amountBet": 80,
         "result": -80,
-        "time": "2:21",
-        "notes": "Loss was -80, not -30."
+        "displayedResult": -30,
+        "time": "2:21"
       },
       {
         "spin": 5,
@@ -24824,8 +24831,9 @@
         "number": "25",
         "amountBet": 60,
         "result": -60,
+        "displayedResult": -30,
         "time": "3:03",
-        "notes": "Alex bet the double street, but he should have bet the corner. Also, the loss was -60, not -30."
+        "notes": "Alex bet the double street, but he should have bet the corner."
       },
       {
         "spin": 7,
@@ -24853,8 +24861,8 @@
         "number": "13",
         "amountBet": 40,
         "result": -40,
-        "time": "4:40",
-        "notes": "Alex lost -40, he didn't win +80."
+        "displayedResult": 80,
+        "time": "4:40"
       },
       {
         "spin": 11,
@@ -25261,8 +25269,8 @@
         "number": "31",
         "amountBet": 475,
         "result": 50,
-        "time": "15:32",
-        "notes": "Win was +50, not +425."
+        "displayedResult": 425,
+        "time": "15:32"
       }
     ]
   },
@@ -25376,8 +25384,8 @@
         "number": "28",
         "amountBet": 80,
         "result": -80,
-        "time": "1:55",
-        "notes": "Loss is -80, not -75"
+        "displayedResult": -75,
+        "time": "1:55"
       },
       {
         "spin": 3,
@@ -25405,24 +25413,24 @@
         "number": "35",
         "amountBet": 90,
         "result": 0,
-        "time": "4:45",
-        "notes": "This was a PUSH, not a +15 win."
+        "displayedResult": 15,
+        "time": "4:45"
       },
       {
         "spin": 7,
         "number": "29",
         "amountBet": 95,
         "result": -5,
-        "time": "5:10",
-        "notes": "This was a -5 loss, not a PUSH."
+        "displayedResult": 0,
+        "time": "5:10"
       },
       {
         "spin": 8,
         "number": "24",
         "amountBet": 100,
         "result": -100,
-        "time": "5:34",
-        "notes": "This was a -100 WHACK, not -90."
+        "displayedResult": -90,
+        "time": "5:34"
       },
       {
         "spin": 9,
@@ -25436,24 +25444,24 @@
         "number": "5",
         "amountBet": 80,
         "result": 10,
-        "time": "6:13",
-        "notes": "This was a +10 win, not +15."
+        "displayedResult": 15,
+        "time": "6:13"
       },
       {
         "spin": 11,
         "number": "4",
         "amountBet": 85,
         "result": 5,
-        "time": "6:45",
-        "notes": "This was a +5 win, not +15."
+        "displayedResult": 15,
+        "time": "6:45"
       },
       {
         "spin": 12,
         "number": "19",
         "amountBet": 90,
         "result": 150,
-        "time": "7:10",
-        "notes": "This was a +150 win, not +125."
+        "displayedResult": 125,
+        "time": "7:10"
       },
       {
         "spin": 13,
@@ -25467,8 +25475,8 @@
         "number": "0",
         "amountBet": 80,
         "result": -80,
-        "time": "9:08",
-        "notes": "This was a -80 WHACK, not -75."
+        "displayedResult": -75,
+        "time": "9:08"
       },
       {
         "spin": 15,
@@ -25482,24 +25490,24 @@
         "number": "17",
         "amountBet": 80,
         "result": 100,
-        "time": "10:26",
-        "notes": "Win was +100, not +75."
+        "displayedResult": 75,
+        "time": "10:26"
       },
       {
         "spin": 17,
         "number": "8",
         "amountBet": 75,
         "result": 15,
-        "time": "11:05",
-        "notes": "Win was +15, not +10."
+        "displayedResult": 10,
+        "time": "11:05"
       },
       {
         "spin": 18,
         "number": "20",
         "amountBet": 80,
         "result": 100,
-        "time": "11:45",
-        "notes": "Win was +100, not +125."
+        "displayedResult": 125,
+        "time": "11:45"
       },
       {
         "spin": 19,
@@ -25520,8 +25528,8 @@
         "number": "8",
         "amountBet": 75,
         "result": 10,
-        "time": "13:49",
-        "notes": "Win was +10, not +15."
+        "displayedResult": 15,
+        "time": "13:49"
       },
       {
         "spin": 22,
@@ -25620,8 +25628,8 @@
         "number": "4",
         "amountBet": 200,
         "result": -200,
-        "time": "2:23",
-        "notes": "Loss is -200, not -100 as displayed."
+        "displayedResult": -100,
+        "time": "2:23"
       },
       {
         "spin": 6,
@@ -25663,8 +25671,8 @@
         "number": "13",
         "amountBet": 150,
         "result": 50,
-        "time": "5:14",
-        "notes": "Win is +50, not +100 as displayed."
+        "displayedResult": 100,
+        "time": "5:14"
       },
       {
         "spin": 12,
@@ -25678,8 +25686,8 @@
         "number": "13",
         "amountBet": 150,
         "result": 50,
-        "time": "5:45",
-        "notes": "Win is +50, not +100 as displayed."
+        "displayedResult": 100,
+        "time": "5:45"
       },
       {
         "spin": 14,
@@ -25800,8 +25808,8 @@
         "number": "18",
         "amountBet": 300,
         "result": -300,
-        "time": "12:24",
-        "notes": "Loss here was -300, not -50 as displayed."
+        "displayedResult": -50,
+        "time": "12:24"
       },
       {
         "spin": 31,
@@ -25815,16 +25823,16 @@
         "number": "2",
         "amountBet": 600,
         "result": -600,
-        "time": "13:02",
-        "notes": "Loss here was -600, not -800 as displayed."
+        "displayedResult": -800,
+        "time": "13:02"
       },
       {
         "spin": 33,
         "number": "10",
         "amountBet": 750,
         "result": -250,
-        "time": "13:14",
-        "notes": "Loss here was -250, not -750 as displayed."
+        "displayedResult": -750,
+        "time": "13:14"
       },
       {
         "spin": 34,
@@ -25991,8 +25999,8 @@
         "number": "15",
         "amountBet": 75,
         "result": 105,
-        "time": "6:42",
-        "notes": "Win is +105, not +180."
+        "displayedResult": 180,
+        "time": "6:42"
       },
       {
         "friend": 2,
@@ -26016,8 +26024,8 @@
         "number": "00",
         "amountBet": 75,
         "result": 105,
-        "time": "8:02",
-        "notes": "Win is +105, not +180."
+        "displayedResult": 180,
+        "time": "8:02"
       },
       {
         "friend": 2,
@@ -26357,8 +26365,8 @@
         "number": "17",
         "amountBet": 65,
         "result": 85,
-        "time": "1:15",
-        "notes": "Win is +85, not +87."
+        "displayedResult": 87,
+        "time": "1:15"
       },
       {
         "spin": 2,
@@ -26373,168 +26381,168 @@
         "number": "4",
         "amountBet": 65,
         "result": -29,
-        "time": "2:40",
-        "notes": "Loss is -29, not -27."
+        "displayedResult": -27,
+        "time": "2:40"
       },
       {
         "spin": 4,
         "number": "10",
         "amountBet": 65,
         "result": -65,
-        "time": "3:32",
-        "notes": "Loss is -65, not -63."
+        "displayedResult": -63,
+        "time": "3:32"
       },
       {
         "spin": 5,
         "number": "34",
         "amountBet": 65,
         "result": -65,
-        "time": "4:03",
-        "notes": "Loss is -65, not -63."
+        "displayedResult": -63,
+        "time": "4:03"
       },
       {
         "spin": 6,
         "number": "31",
         "amountBet": 65,
         "result": -65,
-        "time": "4:26",
-        "notes": "Loss is -65, not -63."
+        "displayedResult": -63,
+        "time": "4:26"
       },
       {
         "spin": 7,
         "number": "22",
         "amountBet": 65,
         "result": 28,
-        "time": "5:04",
-        "notes": "Win is +28, not +30."
+        "displayedResult": 30,
+        "time": "5:04"
       },
       {
         "spin": 8,
         "number": "6",
         "amountBet": 65,
         "result": -65,
-        "time": "5:45",
-        "notes": "Loss is -65, not -63."
+        "displayedResult": -63,
+        "time": "5:45"
       },
       {
         "spin": 9,
         "number": "19",
         "amountBet": 65,
         "result": 19,
-        "time": "6:04",
-        "notes": "Win is +19, not +21."
+        "displayedResult": 21,
+        "time": "6:04"
       },
       {
         "spin": 10,
         "number": "23",
         "amountBet": 65,
         "result": 301,
-        "time": "6:26",
-        "notes": "Win is +301, not +303."
+        "displayedResult": 303,
+        "time": "6:26"
       },
       {
         "spin": 11,
         "number": "00",
         "amountBet": 65,
         "result": -29,
-        "time": "6:51",
-        "notes": "Loss is -29, not -27."
+        "displayedResult": -27,
+        "time": "6:51"
       },
       {
         "spin": 12,
         "number": "4",
         "amountBet": 65,
         "result": -29,
-        "time": "7:31",
-        "notes": "Loss is -29, not -27."
+        "displayedResult": -27,
+        "time": "7:31"
       },
       {
         "spin": 13,
         "number": "18",
         "amountBet": 65,
         "result": 10,
-        "time": "7:50",
-        "notes": "Win is +10, not +12."
+        "displayedResult": 12,
+        "time": "7:50"
       },
       {
         "spin": 14,
         "number": "28",
         "amountBet": 65,
         "result": -65,
-        "time": "8:11",
-        "notes": "Loss is -65, not -63."
+        "displayedResult": -63,
+        "time": "8:11"
       },
       {
         "spin": 15,
         "number": "11",
         "amountBet": 65,
         "result": 10,
-        "time": "9:00",
-        "notes": "Win is +10, not +12."
+        "displayedResult": 12,
+        "time": "9:00"
       },
       {
         "spin": 16,
         "number": "21",
         "amountBet": 65,
         "result": 19,
-        "time": "9:53",
-        "notes": "Win is +19, not +21."
+        "displayedResult": 21,
+        "time": "9:53"
       },
       {
         "spin": 17,
         "number": "34",
         "amountBet": 65,
         "result": -65,
-        "time": "11:04",
-        "notes": "Loss is -65, not -63."
+        "displayedResult": -63,
+        "time": "11:04"
       },
       {
         "spin": 18,
         "number": "33",
         "amountBet": 65,
         "result": -65,
-        "time": "11:43",
-        "notes": "Loss is -65, not -63."
+        "displayedResult": -63,
+        "time": "11:43"
       },
       {
         "spin": 19,
         "number": "21",
         "amountBet": 65,
         "result": 19,
-        "time": "12:19",
-        "notes": "Win is +19, not +30."
+        "displayedResult": 30,
+        "time": "12:19"
       },
       {
         "spin": 20,
         "number": "15",
         "amountBet": 65,
         "result": 10,
-        "time": "13:15",
-        "notes": "Win is +10, not +12."
+        "displayedResult": 12,
+        "time": "13:15"
       },
       {
         "spin": 21,
         "number": "19",
         "amountBet": 65,
         "result": 19,
-        "time": "13:57",
-        "notes": "Win is +19, not +21."
+        "displayedResult": 21,
+        "time": "13:57"
       },
       {
         "spin": 22,
         "number": "8",
         "amountBet": 65,
-        "result": 19,
-        "time": "15:08",
-        "notes": "Win is +10, not +12."
+        "result": 10,
+        "displayedResult": 12,
+        "time": "15:08"
       },
       {
         "spin": 23,
         "number": "7",
         "amountBet": 65,
         "result": -65,
-        "time": "15:29",
-        "notes": "Loss is -65, not -63."
+        "displayedResult": -63,
+        "time": "15:29"
       }
     ]
   },
@@ -26677,8 +26685,8 @@
         "number": "6",
         "amountBet": 225,
         "result": 0,
-        "time": "8:38",
-        "notes": "This is a PUSH, but video displayed +25."
+        "displayedResult": 25,
+        "time": "8:38"
       },
       {
         "spin": 16,
@@ -27166,8 +27174,8 @@
         "number": "24",
         "amountBet": 150,
         "result": 0,
-        "time": "5:33",
-        "notes": "This was a PUSH, but video showed +50."
+        "displayedResult": 50,
+        "time": "5:33"
       },
       {
         "friend": 2,
@@ -27175,8 +27183,8 @@
         "number": "17",
         "amountBet": 150,
         "result": 180,
-        "time": "6:01",
-        "notes": "This was a +180 win, but video showed +230."
+        "displayedResult": 230,
+        "time": "6:01"
       },
       {
         "friend": 2,
@@ -27184,8 +27192,8 @@
         "number": "00",
         "amountBet": 150,
         "result": -150,
-        "time": "6:37",
-        "notes": "This was a -150 loss, but video showed -250."
+        "displayedResult": -250,
+        "time": "6:37"
       },
       {
         "friend": 2,
@@ -27193,8 +27201,8 @@
         "number": "11",
         "amountBet": 100,
         "result": 50,
-        "time": "7:18",
-        "notes": "This was a +50 win, not +230."
+        "displayedResult": 230,
+        "time": "7:18"
       },
       {
         "friend": 2,
@@ -27202,8 +27210,8 @@
         "number": "8",
         "amountBet": 150,
         "result": 150,
-        "time": "7:37",
-        "notes": "This was a +150 win, not +200."
+        "displayedResult": 200,
+        "time": "7:37"
       },
       {
         "friend": 2,
@@ -27211,8 +27219,8 @@
         "number": "0",
         "amountBet": 150,
         "result": -150,
-        "time": "8:21",
-        "notes": "This was a -150 loss, but video showed -250."
+        "displayedResult": -250,
+        "time": "8:21"
       },
       {
         "friend": 2,
@@ -27236,8 +27244,8 @@
         "number": "15",
         "amountBet": 150,
         "result": 0,
-        "time": "9:36",
-        "notes": "This was a PUSH, but video showed +50."
+        "displayedResult": 50,
+        "time": "9:36"
       },
       {
         "friend": 2,
@@ -27245,8 +27253,8 @@
         "number": "16",
         "amountBet": 150,
         "result": 90,
-        "time": "9:56",
-        "notes": "This was a +90 win, not +140."
+        "displayedResult": 140,
+        "time": "9:56"
       },
       {
         "friend": 2,
@@ -27254,8 +27262,8 @@
         "number": "28",
         "amountBet": 150,
         "result": 60,
-        "time": "10:06",
-        "notes": "This was a +60 win, not +110."
+        "displayedResult": 110,
+        "time": "10:06"
       },
       {
         "friend": 2,
@@ -27263,8 +27271,8 @@
         "number": "16",
         "amountBet": 150,
         "result": 90,
-        "time": "10:36",
-        "notes": "This was a +90 win, not +140."
+        "displayedResult": 140,
+        "time": "10:36"
       },
       {
         "friend": 2,
@@ -27272,8 +27280,8 @@
         "number": "0",
         "amountBet": 150,
         "result": -150,
-        "time": "11:04",
-        "notes": "This was a -150 loss, but video showed -250."
+        "displayedResult": -250,
+        "time": "11:04"
       },
       {
         "friend": 2,
@@ -27380,16 +27388,16 @@
         "number": "19",
         "amountBet": 80,
         "result": 40,
-        "time": "4:57",
-        "notes": "Win was +40 but it displayed +20"
+        "displayedResult": 20,
+        "time": "4:57"
       },
       {
         "spin": 9,
         "number": "12",
         "amountBet": 60,
         "result": 40,
-        "time": "5:43",
-        "notes": "I think this was +40 instead of -40."
+        "displayedResult": -40,
+        "time": "5:43"
       },
       {
         "spin": 10,
@@ -27410,8 +27418,8 @@
         "number": "16",
         "amountBet": 60,
         "result": -60,
-        "time": "7:09",
-        "notes": "Loss was -60, but video showed -20"
+        "displayedResult": -20,
+        "time": "7:09"
       },
       {
         "spin": 13,
@@ -27440,8 +27448,8 @@
         "number": "23",
         "amountBet": 120,
         "result": 60,
-        "time": "10:02",
-        "notes": "Video showed +10 but I think it was +60"
+        "displayedResult": 10,
+        "time": "10:02"
       },
       {
         "spin": 17,
@@ -27637,16 +27645,16 @@
         "number": "16",
         "amountBet": 800,
         "result": 400,
-        "time": "4:17",
-        "notes": "Video displayed +800, but the win should be +400."
+        "displayedResult": 800,
+        "time": "4:17"
       },
       {
         "spin": 10,
         "number": "28",
         "amountBet": 600,
         "result": 300,
-        "time": "4:30",
-        "notes": "Win was +300, but video showed +600."
+        "displayedResult": 600,
+        "time": "4:30"
       },
       {
         "spin": 11,
@@ -28289,8 +28297,8 @@
         "number": "25",
         "amountBet": 320,
         "result": 40,
-        "time": "2:44",
-        "notes": "Video showed +30, but the win was +40."
+        "displayedResult": 30,
+        "time": "2:44"
       },
       {
         "friend": 1,
@@ -28418,8 +28426,8 @@
         "number": "36",
         "amountBet": 330,
         "result": 30,
-        "time": "7:24",
-        "notes": "Video said +40, but it was +30."
+        "displayedResult": 40,
+        "time": "7:24"
       },
       {
         "friend": 1,
@@ -28427,8 +28435,8 @@
         "number": "30",
         "amountBet": 320,
         "result": 40,
-        "time": "7:52",
-        "notes": "Video said +50, but it was +40."
+        "displayedResult": 50,
+        "time": "7:52"
       },
       {
         "friend": 1,
@@ -28501,8 +28509,8 @@
         "number": "8",
         "amountBet": 330,
         "result": 30,
-        "time": "11:06",
-        "notes": "Win was +30, but the video said +40."
+        "displayedResult": 40,
+        "time": "11:06"
       },
       {
         "friend": 2,
@@ -28542,8 +28550,8 @@
         "number": "33",
         "amountBet": 330,
         "result": 30,
-        "time": "13:13",
-        "notes": "Video said +40, but the win was +30"
+        "displayedResult": 40,
+        "time": "13:13"
       },
       {
         "friend": 2,
@@ -29400,24 +29408,24 @@
         "number": "25",
         "amountBet": 80,
         "result": 100,
-        "time": "3:30",
-        "notes": "The win is +100 not +95"
+        "displayedResult": 95,
+        "time": "3:30"
       },
       {
         "spin": 5,
         "number": "3",
         "amountBet": 100,
         "result": -100,
-        "time": "3:59",
-        "notes": "The loss is -100, not -80"
+        "displayedResult": -80,
+        "time": "3:59"
       },
       {
         "spin": 6,
         "number": "6",
         "amountBet": 100,
         "result": -100,
-        "time": "4:22",
-        "notes": "The loss is -100, not -95"
+        "displayedResult": -85,
+        "time": "4:22"
       },
       {
         "spin": 7,
@@ -29431,16 +29439,16 @@
         "number": "5",
         "amountBet": 100,
         "result": -100,
-        "time": "5:00",
-        "notes": "The loss is -100, not -95"
+        "displayedResult": -95,
+        "time": "5:00"
       },
       {
         "spin": 9,
         "number": "1",
         "amountBet": 100,
         "result": -100,
-        "time": "5:27",
-        "notes": "The loss is -100, not -95"
+        "displayedResult": -95,
+        "time": "5:27"
       },
       {
         "spin": 10,
@@ -29475,8 +29483,8 @@
         "number": "3",
         "amountBet": 100,
         "result": -100,
-        "time": "7:08",
-        "notes": "The loss is -100, not -95"
+        "displayedResult": -95,
+        "time": "7:08"
       },
       {
         "spin": 15,
@@ -30069,8 +30077,8 @@
         "number": "5",
         "amountBet": 200,
         "result": 160,
-        "time": "6:39",
-        "notes": "Win here is +160, not +60."
+        "displayedResult": 60,
+        "time": "6:39"
       },
       {
         "friend": 2,
@@ -30258,8 +30266,8 @@
         "number": "26",
         "amountBet": 90,
         "result": -90,
-        "time": "4:25",
-        "notes": "Loss here is -90, not -30 as displayed on the video."
+        "displayedResult": -30,
+        "time": "4:25"
       },
       {
         "spin": 11,
@@ -30273,8 +30281,8 @@
         "number": "21",
         "amountBet": 90,
         "result": 90,
-        "time": "5:09",
-        "notes": "The win here was +90, not +150"
+        "displayedResult": 150,
+        "time": "5:09"
       },
       {
         "spin": 13,
@@ -30288,16 +30296,16 @@
         "number": "00",
         "amountBet": 90,
         "result": 90,
-        "time": "5:44",
-        "notes": "The win here was +90, not +150"
+        "displayedResult": 150,
+        "time": "5:44"
       },
       {
         "spin": 15,
         "number": "11",
         "amountBet": 15,
         "result": -15,
-        "time": "6:18",
-        "notes": "The loss here was -15, not -30"
+        "displayedResult": -30,
+        "time": "6:18"
       },
       {
         "spin": 16,
@@ -30325,8 +30333,8 @@
         "number": "19",
         "amountBet": 75,
         "result": 75,
-        "time": "7:10",
-        "notes": "The win here was +75, not +125"
+        "displayedResult": 125,
+        "time": "7:10"
       },
       {
         "spin": 20,
@@ -30340,8 +30348,8 @@
         "number": "25",
         "amountBet": 30,
         "result": 90,
-        "time": "7:34",
-        "notes": "The win here was +90, not +190"
+        "displayedResult": 190,
+        "time": "7:34"
       },
       {
         "spin": 22,
@@ -30426,8 +30434,8 @@
         "number": "23",
         "amountBet": 90,
         "result": 270,
-        "time": "10:31",
-        "notes": "The win here is +270, not +300"
+        "displayedResult": 300,
+        "time": "10:31"
       },
       {
         "spin": 34,
@@ -31436,8 +31444,8 @@
         "number": "23",
         "amountBet": 136,
         "result": 180,
-        "time": "8:59",
-        "notes": "The win was +180, not +136."
+        "displayedResult": 136,
+        "time": "8:59"
       }
     ]
   },
@@ -31611,8 +31619,8 @@
         "number": "7",
         "amountBet": 100,
         "result": -100,
-        "time": "9:22",
-        "notes": "Loss here was -50, not -90."
+        "displayedResult": -90,
+        "time": "9:22"
       },
       {
         "spin": 17,
@@ -31926,8 +31934,8 @@
         "number": "23",
         "amountBet": 195,
         "result": 10,
-        "time": "7:28",
-        "notes": "Win is +10, not +5 as displayed in the video."
+        "displayedResult": 5,
+        "time": "7:28"
       },
       {
         "spin": 8,
@@ -32380,8 +32388,8 @@
         "number": "22",
         "amountBet": 25,
         "result": 25,
-        "time": "10:19",
-        "notes": "Alex won +25, he didn't lose -25 as displayed."
+        "displayedResult": -25,
+        "time": "10:19"
       },
       {
         "friend": 1,
@@ -32528,8 +32536,8 @@
         "number": "25",
         "amountBet": 100,
         "result": 50,
-        "time": "16:43",
-        "notes": "Win here was +50, not +25."
+        "displayedResult": 25,
+        "time": "16:43"
       },
       {
         "friend": 3,
@@ -32829,8 +32837,8 @@
         "number": "26",
         "amountBet": 90,
         "result": 90,
-        "time": "9:39",
-        "notes": "Win was +90, not +145"
+        "displayedResult": 145,
+        "time": "9:39"
       },
       {
         "spin": 22,
@@ -33824,8 +33832,8 @@
         "number": "34",
         "amountBet": 140,
         "result": -140,
-        "time": "1:16",
-        "notes": "Alex lost -140, not -120."
+        "displayedResult": -120,
+        "time": "1:16"
       },
       {
         "spin": 3,
@@ -33888,8 +33896,8 @@
         "number": "19",
         "amountBet": 165,
         "result": 15,
-        "time": "8:11",
-        "notes": "Alex won +15, not +20"
+        "displayedResult": 20,
+        "time": "8:11"
       },
       {
         "spin": 12,
@@ -33932,8 +33940,8 @@
         "number": "22",
         "amountBet": 205,
         "result": 35,
-        "time": "12:36",
-        "notes": "I believe the win was only +35, not +55 as shown in the video."
+        "displayedResult": 55,
+        "time": "12:36"
       },
       {
         "spin": 18,
@@ -34111,8 +34119,8 @@
         "number": "36",
         "amountBet": 100,
         "result": -100,
-        "time": "2:44",
-        "notes": "Loss was -100, not -50."
+        "displayedResult": -50,
+        "time": "2:44"
       },
       {
         "spin": 5,
@@ -34134,8 +34142,8 @@
         "number": "24",
         "amountBet": 100,
         "result": -100,
-        "time": "5:11",
-        "notes": "Loss was -100, not -50."
+        "displayedResult": -50,
+        "time": "5:11"
       },
       {
         "spin": 8,
@@ -34304,8 +34312,8 @@
         "number": "31",
         "amountBet": 5,
         "result": 5,
-        "time": "4:57",
-        "notes": "Alex won +5, but the video said +10."
+        "displayedResult": 10,
+        "time": "4:57"
       },
       {
         "spin": 8,
@@ -34537,8 +34545,8 @@
         "number": "25",
         "amountBet": 90,
         "result": 0,
-        "time": "4:35",
-        "notes": "Video said -30, but this was a PUSH."
+        "displayedResult": -30,
+        "time": "4:35"
       },
       {
         "spin": 6,
@@ -34552,24 +34560,24 @@
         "number": "0",
         "amountBet": 120,
         "result": -120,
-        "time": "5:40",
-        "notes": "Video said -240, but Alex only lost -120."
+        "displayedResult": -240,
+        "time": "5:40"
       },
       {
         "spin": 8,
         "number": "24",
         "amountBet": 60,
         "result": -20,
-        "time": "6:33",
-        "notes": "Video said PUSH, but Alex lost -20 here."
+        "displayedResult": 0,
+        "time": "6:33"
       },
       {
         "spin": 9,
         "number": "32",
         "amountBet": 60,
         "result": 0,
-        "time": "7:15",
-        "notes": "Video said +40, but this was actually a push."
+        "displayedResult": 40,
+        "time": "7:15"
       },
       {
         "spin": 10,
@@ -34583,8 +34591,8 @@
         "number": "00",
         "amountBet": 90,
         "result": -90,
-        "time": "8:15",
-        "notes": "Video said -180, but Alex only lost -90."
+        "displayedResult": -180,
+        "time": "8:15"
       },
       {
         "spin": 12,
@@ -34605,8 +34613,8 @@
         "number": "31",
         "amountBet": 90,
         "result": 60,
-        "time": "9:54",
-        "notes": "Video said +120, but the win was only +60."
+        "displayedResult": 120,
+        "time": "9:54"
       },
       {
         "spin": 15,
@@ -34669,8 +34677,8 @@
         "number": "00",
         "amountBet": 120,
         "result": -120,
-        "time": "15:38",
-        "notes": "Video said -240, but the loss was -120."
+        "displayedResult": -240,
+        "time": "15:38"
       },
       {
         "spin": 24,
@@ -36614,8 +36622,8 @@
         "number": "30",
         "amountBet": 200,
         "result": 160,
-        "time": "5:47",
-        "notes": "The win is +160, not +260 as displayed in the video."
+        "displayedResult": 260,
+        "time": "5:47"
       },
       {
         "spin": 5,
@@ -36759,8 +36767,8 @@
         "number": "13",
         "amountBet": 150,
         "result": -150,
-        "time": "6:45",
-        "notes": "The loss was $150, not $125 as displayed on the video."
+        "displayedResult": -125,
+        "time": "6:45"
       },
       {
         "spin": 10,
@@ -36830,8 +36838,8 @@
         "number": "8",
         "amountBet": 150,
         "result": -50,
-        "time": "13:34",
-        "notes": "Video said -100"
+        "displayedResult": -100,
+        "time": "13:34"
       },
       {
         "spin": 20,
@@ -37883,8 +37891,8 @@
         "number": "12",
         "amountBet": 50,
         "result": -50,
-        "time": "4:06",
-        "notes": "The loss here was -50, not -90 as displayed in the video."
+        "displayedResult": -90,
+        "time": "4:06"
       },
       {
         "spin": 7,
@@ -37912,8 +37920,8 @@
         "number": "33",
         "amountBet": 30,
         "result": 10,
-        "time": "6:19",
-        "notes": "The win here is +10, not +30 as shown in the video."
+        "displayedResult": 30,
+        "time": "6:19"
       },
       {
         "spin": 11,
@@ -37934,8 +37942,8 @@
         "number": "9",
         "amountBet": 30,
         "result": -30,
-        "time": "8:07",
-        "notes": "The loss here was -30, not -50 as shown in the video."
+        "displayedResult": -50,
+        "time": "8:07"
       },
       {
         "spin": 14,
@@ -37964,8 +37972,8 @@
         "number": "22",
         "amountBet": 30,
         "result": 40,
-        "time": "10:16",
-        "notes": "The win is +40, not +60 as shown in the video."
+        "displayedResult": 60,
+        "time": "10:16"
       },
       {
         "spin": 18,
@@ -37980,16 +37988,16 @@
         "number": "14",
         "amountBet": 30,
         "result": 0,
-        "time": "11:26",
-        "notes": "This should have been a PUSH, not a +10 win."
+        "displayedResult": 10,
+        "time": "11:26"
       },
       {
         "spin": 20,
         "number": "33",
         "amountBet": 50,
         "result": 30,
-        "time": "12:01",
-        "notes": "The win is +30, not +70 as shown in the video."
+        "displayedResult": 70,
+        "time": "12:01"
       },
       {
         "spin": 21,
@@ -38003,8 +38011,8 @@
         "number": "15",
         "amountBet": 20,
         "result": 30,
-        "time": "12:55",
-        "notes": "The win is +30, not +10 as shown in the video."
+        "displayedResult": 10,
+        "time": "12:55"
       },
       {
         "spin": 23,
@@ -38025,16 +38033,16 @@
         "number": "11",
         "amountBet": 50,
         "result": 30,
-        "time": "14:32",
-        "notes": "The win is +30, not +70 as shown in the video."
+        "displayedResult": 70,
+        "time": "14:32"
       },
       {
         "spin": 26,
         "number": "14",
         "amountBet": 20,
         "result": 10,
-        "time": "15:03",
-        "notes": "The win is +10, not +70 as shown in the video."
+        "displayedResult": 70,
+        "time": "15:03"
       }
     ]
   },
@@ -38717,8 +38725,8 @@
         "number": "36",
         "amountBet": 25,
         "result": 50,
-        "time": "2:42",
-        "notes": "Alex won +50, but the video erroneously said +100."
+        "displayedResult": 100,
+        "time": "2:42"
       },
       {
         "spin": 6,
@@ -38760,8 +38768,8 @@
         "number": "30",
         "amountBet": 25,
         "result": 50,
-        "time": "6:02",
-        "notes": "Alex won +50, but the video erroneously said +100."
+        "displayedResult": 100,
+        "time": "6:02"
       },
       {
         "spin": 12,
@@ -38789,24 +38797,24 @@
         "number": "23",
         "amountBet": 25,
         "result": -25,
-        "time": "8:16",
-        "notes": "Video said -50, but it was -25"
+        "displayedResult": 50,
+        "time": "8:16"
       },
       {
         "spin": 16,
         "number": "5",
         "amountBet": 25,
         "result": -25,
-        "time": "8:44",
-        "notes": "Video said -50, but it was -25"
+        "displayedResult": -50,
+        "time": "8:44"
       },
       {
         "spin": 17,
         "number": "21",
         "amountBet": 25,
         "result": -25,
-        "time": "9:07",
-        "notes": "Video said -50, but it was -25"
+        "displayedResult": -50,
+        "time": "9:07"
       },
       {
         "spin": 18,
@@ -39400,8 +39408,8 @@
         "number": "0",
         "amountBet": 100,
         "result": 620,
-        "time": "3:59",
-        "notes": "Alex won +620, not +630 as displayed on the video."
+        "displayedResult": 630,
+        "time": "3:59"
       },
       {
         "spin": 7,
@@ -39471,8 +39479,8 @@
         "number": "0",
         "amountBet": 100,
         "result": 620,
-        "time": "9:27",
-        "notes": "Alex won +620, not +630 as displayed on the video."
+        "displayedResult": 630,
+        "time": "9:27"
       }
     ]
   },
@@ -39755,8 +39763,8 @@
         "number": "18",
         "amountBet": 116,
         "result": 28,
-        "time": "2:16",
-        "notes": "The win here is 28, not 16."
+        "displayedResult": 16,
+        "time": "2:16"
       },
       {
         "spin": 2,
@@ -39770,32 +39778,32 @@
         "number": "5",
         "amountBet": 116,
         "result": 172,
-        "time": "6:35",
-        "notes": "The win here is 172, not 180."
+        "displayedResult": 180,
+        "time": "6:35"
       },
       {
         "spin": 4,
         "number": "24",
         "amountBet": 116,
         "result": 172,
-        "time": "8:15",
-        "notes": "The win here is 172, not 180."
+        "displayedResult": 180,
+        "time": "8:15"
       },
       {
         "spin": 5,
         "number": "21",
         "amountBet": 116,
         "result": 172,
-        "time": "11:20",
-        "notes": "The win here is 172, not 180."
+        "displayedResult": 180,
+        "time": "11:20"
       },
       {
         "spin": 6,
         "number": "24",
         "amountBet": 116,
         "result": 28,
-        "time": "13:02",
-        "notes": "The win here is 28, not 16."
+        "displayedResult": 16,
+        "time": "13:02"
       },
       {
         "spin": 7,
@@ -40449,8 +40457,8 @@
         "number": "2",
         "amountBet": 500,
         "result": -500,
-        "time": "11:25",
-        "notes": "Loss here was -500, not -100."
+        "displayedResult": -100,
+        "time": "11:25"
       },
       {
         "spin": 20,
@@ -40522,8 +40530,8 @@
         "number": "22",
         "amountBet": 160,
         "result": 30,
-        "time": "1:36",
-        "notes": "The win here is $20, not $40 as displayed on the video."
+        "displayedResult": 40,
+        "time": "1:36"
       },
       {
         "spin": 2,
@@ -40537,8 +40545,8 @@
         "number": "36",
         "amountBet": 150,
         "result": -150,
-        "time": "4:19",
-        "notes": "Loss was -150, not -140 as displayed on the video."
+        "displayedResult": -140,
+        "time": "4:19"
       },
       {
         "spin": 4,
@@ -40566,16 +40574,16 @@
         "number": "31",
         "amountBet": 135,
         "result": 45,
-        "time": "8:46",
-        "notes": "The win here was 45, not 50."
+        "displayedResult": 50,
+        "time": "8:46"
       },
       {
         "spin": 8,
         "number": "13",
         "amountBet": 130,
         "result": 50,
-        "time": "9:53",
-        "notes": "The win here was 50, not 55."
+        "displayedResult": 55,
+        "time": "9:53"
       }
     ]
   },
@@ -41368,8 +41376,8 @@
         "number": "18",
         "amountBet": 170,
         "result": 120,
-        "time": "7:04",
-        "notes": "Video said they won $125, but that's wrong."
+        "displayedResult": 125,
+        "time": "7:04"
       },
       {
         "spin": 8,
@@ -41383,8 +41391,9 @@
         "number": "26",
         "amountBet": 170,
         "result": 45,
+        "displayedResult": -20,
         "time": "9:05",
-        "notes": "Video is wrong here. They won $45, they didn't lose 20...and the number was 26, not 31."
+        "notes": "The number was 26, not 31."
       },
       {
         "spin": 10,
@@ -41611,8 +41620,8 @@
         "number": "1",
         "amountBet": 30,
         "result": -30,
-        "time": "14:03",
-        "notes": "Video said -20, but Alex lost -30"
+        "displayedResult": -20,
+        "time": "14:03"
       }
     ]
   },
@@ -42278,8 +42287,8 @@
         "number": "27",
         "amountBet": 40,
         "result": 20,
-        "time": "13:04",
-        "notes": "Video said -40, but Alex won +20"
+        "displayedResult": -40,
+        "time": "13:04"
       },
       {
         "spin": 17,
@@ -42514,8 +42523,8 @@
         "number": "31",
         "amountBet": 130,
         "result": 95,
-        "time": "2:32",
-        "notes": "Win should be +95, not +85 as shown in the video."
+        "displayedResult": 85,
+        "time": "2:32"
       },
       {
         "spin": 3,
@@ -42571,8 +42580,8 @@
         "number": "17",
         "amountBet": 130,
         "result": -40,
-        "time": "7:38",
-        "notes": "This is a -40 loss, not -50, as displayed in the video."
+        "displayedResult": -50,
+        "time": "7:38"
       },
       {
         "spin": 11,
@@ -43222,8 +43231,8 @@
         "number": "26",
         "amountBet": 210,
         "result": 30,
-        "time": "9:17",
-        "notes": "Video said +90, but Alex just won +30."
+        "displayedResult": 90,
+        "time": "9:17"
       },
       {
         "spin": 10,
@@ -43688,8 +43697,8 @@
         "number": "15",
         "amountBet": 97,
         "result": -67,
-        "time": "6:56",
-        "notes": "This should have been a -67 loss, not -97 as displayed on the video."
+        "displayedResult": -97,
+        "time": "6:56"
       },
       {
         "spin": 9,
@@ -43704,8 +43713,8 @@
         "number": "32",
         "amountBet": 125,
         "result": 211,
-        "time": "8:32",
-        "notes": "Win should have been +211 instead of +175 as displayed in the video."
+        "displayedResult": 175,
+        "time": "8:32"
       },
       {
         "spin": 11,
@@ -43924,16 +43933,16 @@
         "number": "28",
         "amountBet": 120,
         "result": -120,
-        "time": "10:01",
-        "notes": "Loss was -120, not -40 as displayed in the video."
+        "displayedResult": -40,
+        "time": "10:01"
       },
       {
         "spin": 17,
         "number": "29",
         "amountBet": 200,
         "result": -200,
-        "time": "10:40",
-        "notes": "Loss was -200, not -100 as displayed in the video."
+        "displayedResult": -100,
+        "time": "10:40"
       },
       {
         "spin": 18,
@@ -44425,8 +44434,8 @@
         "number": "11",
         "amountBet": 200,
         "result": -110,
-        "time": "5:22",
-        "notes": "Loss was -110, not -100 as displayed in the video."
+        "displayedResult": -100,
+        "time": "5:22"
       },
       {
         "spin": 6,
@@ -44656,8 +44665,8 @@
         "number": "0",
         "amountBet": 95,
         "result": -5,
-        "time": "2:58",
-        "notes": "Video displayed -10, but the loss is only -5."
+        "displayedResult": -10,
+        "time": "2:58"
       },
       {
         "spin": 3,
@@ -44734,16 +44743,16 @@
         "number": "4",
         "amountBet": 95,
         "result": 85,
-        "time": "11:19",
-        "notes": "Video said +170, but the win was +85."
+        "displayedResult": 170,
+        "time": "11:19"
       },
       {
         "spin": 14,
         "number": "0",
         "amountBet": 95,
         "result": -5,
-        "time": "12:31",
-        "notes": "Video said -10, but the loss was -5."
+        "displayedResult": -10,
+        "time": "12:31"
       },
       {
         "spin": 15,
@@ -44841,16 +44850,16 @@
         "number": "16",
         "amountBet": 50,
         "result": -50,
-        "time": "1:01",
-        "notes": "Video said -90, but Alex only bet $50."
+        "displayedResult": -90,
+        "time": "1:01"
       },
       {
         "spin": 2,
         "number": "5",
         "amountBet": 50,
         "result": -50,
-        "time": "1:54",
-        "notes": "Video said -90, but Alex only bet $50."
+        "displayedResult": -90,
+        "time": "1:54"
       },
       {
         "spin": 3,
@@ -45784,8 +45793,8 @@
         "number": "21",
         "amountBet": 75,
         "result": -75,
-        "time": "2:54",
-        "notes": "Video said -70, but Alex doesn't even have red chips."
+        "displayedResult": -70,
+        "time": "2:54"
       },
       {
         "friend": 1,
@@ -46068,8 +46077,8 @@
         "number": "15",
         "amountBet": 105,
         "result": 30,
-        "time": "3:11",
-        "notes": "Video said +15, but I believe it was +30"
+        "displayedResult": 15,
+        "time": "3:11"
       },
       {
         "spin": 6,
@@ -46090,16 +46099,16 @@
         "number": "22",
         "amountBet": 105,
         "result": -105,
-        "time": "5:18",
-        "notes": "Video said -75, but I believe it was -105"
+        "displayedResult": 75,
+        "time": "5:18"
       },
       {
         "spin": 9,
         "number": "2",
         "amountBet": 135,
         "result": 45,
-        "time": "6:02",
-        "notes": "Video said +15, but I believe it was +45"
+        "displayedResult": 15,
+        "time": "6:02"
       },
       {
         "spin": 10,
@@ -46422,8 +46431,8 @@
         "number": "8",
         "amountBet": 10,
         "result": -10,
-        "time": "4:06",
-        "notes": "Video said -5, but this may have been -10"
+        "displayedResult": -5,
+        "time": "4:06"
       },
       {
         "spin": 6,
@@ -46630,8 +46639,8 @@
         "number": "19",
         "amountBet": 25,
         "result": -25,
-        "time": "8:42",
-        "notes": "Video said +25, but Alex got whacked for -25"
+        "displayedResult": 25,
+        "time": "8:42"
       },
       {
         "spin": 9,
@@ -46838,8 +46847,8 @@
         "number": "21",
         "amountBet": 200,
         "result": 200,
-        "time": "9:47",
-        "notes": "Video said -200, but they won +200."
+        "displayedResult": -200,
+        "time": "9:47"
       },
       {
         "spin": 20,
@@ -47230,16 +47239,16 @@
         "number": "22",
         "amountBet": 24,
         "result": 12,
-        "time": "2:23",
-        "notes": "Video said +32, but it was only +12"
+        "displayedResult": 32,
+        "time": "2:23"
       },
       {
         "spin": 3,
         "number": "23",
         "amountBet": 30,
         "result": -6,
-        "time": "3:23",
-        "notes": "Video said +6, but it was -6"
+        "displayedResult": 6,
+        "time": "3:23"
       },
       {
         "spin": 4,
@@ -47260,8 +47269,8 @@
         "number": "17",
         "amountBet": 48,
         "result": 12,
-        "time": "6:20",
-        "notes": "Video said +18, but it was +12"
+        "displayedResult": 18,
+        "time": "6:20"
       },
       {
         "spin": 7,
@@ -47289,16 +47298,16 @@
         "number": "21",
         "amountBet": 74,
         "result": 34,
-        "time": "10:22",
-        "notes": "Video said +45, but the win was +34"
+        "displayedResult": 45,
+        "time": "10:22"
       },
       {
         "spin": 11,
         "number": "19",
         "amountBet": 78,
         "result": 18,
-        "time": "12:34",
-        "notes": "Video said PUSH, but I think Alex won +18."
+        "displayedResult": 0,
+        "time": "12:34"
       }
     ]
   },
@@ -47417,8 +47426,8 @@
         "number": "2",
         "amountBet": 45,
         "result": 75,
-        "time": "5:32",
-        "notes": "Video said +95, but the win should have been +75."
+        "displayedResult": 95,
+        "time": "5:32"
       },
       {
         "spin": 6,
@@ -47462,8 +47471,8 @@
         "number": "2",
         "amountBet": 405,
         "result": 675,
-        "time": "11:49",
-        "notes": "Video said +150, but it was +675."
+        "displayedResult": 150,
+        "time": "11:49"
       },
       {
         "spin": 12,
@@ -48258,8 +48267,9 @@
         "number": "29",
         "amountBet": 80,
         "result": 80,
+        "displayedResult": 60,
         "time": "4:34",
-        "notes": "40+20+40 bet. Video said +60, but I believe it was +80 (20x2+40x2-40)"
+        "notes": "40+20+40 bet."
       },
       {
         "spin": 6,
@@ -48298,8 +48308,9 @@
         "number": "28",
         "amountBet": 150,
         "result": -80,
+        "displayedResult": -70,
         "time": "9:55",
-        "notes": "90+20+30 bet. Video said -70, but I believe it was -80 (20x2-90-30). Video also said the number was 23, but it was 28. Not sure why Alex jumped to $30 on the column bet."
+        "notes": "90+20+30 bet. Video also said the number was 23, but it was 28. Not sure why Alex jumped to $30 on the column bet."
       },
       {
         "spin": 11,
@@ -48314,8 +48325,9 @@
         "number": "32",
         "amountBet": 160,
         "result": -30,
+        "displayedResult": -60,
         "time": "11:20",
-        "notes": "110+20+20 bet. Video said -60, but I believe it was -30 (20x2+20x2-110)"
+        "notes": "110+20+20 bet."
       },
       {
         "spin": 13,
