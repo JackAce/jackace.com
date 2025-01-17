@@ -558,7 +558,11 @@ layout: page-no-sidebar
           <td>
             {% if row["displayedResult"] %}
               Result displayed in video was 
-              {% include win-loss-amount.html amount=displayedResult %}
+              {% if displayedResult == 0 %}
+                <b>PUSH</b>
+              {% else %}
+                {% include win-loss-amount.html amount=displayedResult %}
+              {% endif %}
               <br/>
             {% endif %}
             {{- row["notes"] -}}
