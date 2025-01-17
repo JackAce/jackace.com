@@ -1,5 +1,238 @@
 [
   {
+    "name": "Golden Basket",
+    "airDate": "2024-12-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_-TDY6GJv9I",
+    "reviewUrl": "2024-12-12-Golden-Basket",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col2":60,"x18-low":100,"x3-basket":20}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      180
+    ],
+    "rating": "c",
+    "jackaceRating": "c",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 5,
+      "chipUniformity": 3,
+      "jackpotPotential": 4,
+      "scalability": 1,
+      "compValue": 4
+    },
+    "isJackAceReview": false,
+    "notes": "Quit when you're down $500.",
+    "friendCount": 3,
+    "spins": [{
+        "spin": 1,
+        "friend": 1,
+        "number": "1",
+        "amountBet": 180,
+        "result": 20,
+        "time": "1:11"
+      },
+      {
+        "spin": 2,
+        "friend": 1,
+        "number": "33",
+        "amountBet": 180,
+        "result": -180,
+        "time": "1:50"
+      },
+      {
+        "spin": 3,
+        "friend": 1,
+        "number": "36",
+        "amountBet": 180,
+        "result": -180,
+        "time": "3:11"
+      },
+      {
+        "spin": 4,
+        "friend": 1,
+        "number": "6",
+        "amountBet": 180,
+        "result": 20,
+        "time": "4:19"
+      },
+      {
+        "spin": 5,
+        "friend": 1,
+        "number": "25",
+        "amountBet": 180,
+        "result": -180,
+        "displayedResult": 0,
+        "time": "4:54"
+      },
+      {
+        "spin": 6,
+        "friend": 1,
+        "number": "20",
+        "amountBet": 180,
+        "result": 0,
+        "time": "6:00"
+      },
+      {
+        "spin": 7,
+        "friend": 1,
+        "number": "17",
+        "amountBet": 180,
+        "result": 200,
+        "time": "6:58"
+      },
+      {
+        "spin": 8,
+        "friend": 1,
+        "number": "0",
+        "amountBet": 180,
+        "result": 60,
+        "time": "7:44"
+      },
+      {
+        "spin": 9,
+        "friend": 1,
+        "number": "34",
+        "amountBet": 180,
+        "result": -180,
+        "time": "8:17"
+      },
+      {
+        "spin": 10,
+        "friend": 1,
+        "number": "4",
+        "amountBet": 180,
+        "result": 20,
+        "time": "9:22"
+      },
+      {
+        "spin": 11,
+        "friend": 1,
+        "number": "27",
+        "amountBet": 180,
+        "result": -180,
+        "time": "9:42"
+      },
+      {
+        "spin": 12,
+        "friend": 2,
+        "number": "14",
+        "amountBet": 180,
+        "result": 200,
+        "time": "10:37"
+      },
+      {
+        "spin": 13,
+        "friend": 2,
+        "number": "27",
+        "amountBet": 180,
+        "result": -180,
+        "time": "11:14"
+      },
+      {
+        "spin": 14,
+        "friend": 2,
+        "number": "6",
+        "amountBet": 180,
+        "result": 20,
+        "time": "11:52"
+      },
+      {
+        "spin": 15,
+        "friend": 2,
+        "number": "21",
+        "amountBet": 180,
+        "result": -180,
+        "time": "12:18"
+      },
+      {
+        "spin": 16,
+        "friend": 2,
+        "number": "26",
+        "amountBet": 180,
+        "result": 0,
+        "time": "12:57"
+      },
+      {
+        "spin": 17,
+        "friend": 2,
+        "number": "00",
+        "amountBet": 180,
+        "result": 60,
+        "time": "13:16"
+      },
+      {
+        "spin": 18,
+        "friend": 2,
+        "number": "32",
+        "amountBet": 180,
+        "result": 0,
+        "time": "13:52"
+      },
+      {
+        "spin": 19,
+        "friend": 2,
+        "number": "2",
+        "amountBet": 180,
+        "result": 440,
+        "time": "14:10",
+        "notes": "You're supposed to walk when you're up $400, but Alex is walking with $360."
+      },
+      {
+        "spin": 20,
+        "friend": 3,
+        "number": "20",
+        "amountBet": 180,
+        "result": 0,
+        "time": "15:37"
+      },
+      {
+        "spin": 21,
+        "friend": 3,
+        "number": "0",
+        "amountBet": 180,
+        "result": 60,
+        "time": "15:57"
+      },
+      {
+        "spin": 22,
+        "friend": 3,
+        "number": "30",
+        "amountBet": 180,
+        "result": -180,
+        "time": "16:50"
+      },
+      {
+        "spin": 23,
+        "friend": 3,
+        "number": "16",
+        "amountBet": 180,
+        "result": 20,
+        "time": "17:47"
+      },
+      {
+        "spin": 24,
+        "friend": 3,
+        "number": "11",
+        "amountBet": 180,
+        "result": 200,
+        "time": "18:23"
+      },
+      {
+        "spin": 25,
+        "friend": 3,
+        "number": "32",
+        "amountBet": 180,
+        "result": 0,
+        "time": "18:47"
+      }
+    ]
+  },
+  {
     "name": "Romanovsky's Grower 🍆",
     "airDate": "2024-12-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=_3ZPkThYQKg",
