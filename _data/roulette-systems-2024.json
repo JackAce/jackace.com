@@ -1,6 +1,6 @@
 [
   {
-    "name": "Golden Basket",
+    "name": "Golden Basket 🧺",
     "airDate": "2024-12-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=_-TDY6GJv9I",
     "reviewUrl": "2024-12-12-Golden-Basket",
@@ -228,7 +228,8 @@
         "number": "32",
         "amountBet": 180,
         "result": 0,
-        "time": "18:47"
+        "time": "18:47",
+        "notes": "Alex stopped here due to the time."
       }
     ]
   },
@@ -510,7 +511,7 @@
     ]
   },
   {
-    "name": "5 Split Street",
+    "name": "5 Split Street 🛣️🛣️🛣️🛣️🛣️",
     "airDate": "2024-12-09",
     "youtubeUrl": "https://www.youtube.com/watch?v=4Xe7LvZkvgI",
     "reviewUrl": "2024-12-09-5-Split-Street",
@@ -672,7 +673,7 @@
     ]
   },
   {
-    "name": "R U Nuts?",
+    "name": "R U Nuts? 🥜🥜🥜",
     "airDate": "2024-12-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=idpimSf4yuE",
     "reviewUrl": "2024-12-07-R-U-Nuts",
@@ -1235,7 +1236,7 @@
     ]
   },
   {
-    "name": "Unbreakable 7",
+    "name": "Unbreakable 7 ⛔⛓️‍💥",
     "airDate": "2024-12-04",
     "youtubeUrl": "https://www.youtube.com/watch?v=f93ZYa4LbI8&t=261s",
     "reviewUrl": "2024-12-04-Unbreakable-7",
@@ -2071,7 +2072,7 @@
     ]
   },
   {
-    "name": "Split the Hole",
+    "name": "Split the Hole 🖖🕳️",
     "airDate": "2024-11-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=FY20XCfKIh0",
     "reviewUrl": "2024-11-29-Split-the-Hole",
@@ -3720,7 +3721,7 @@
     ]
   },
   {
-    "name": "Fibonacci Corners YT",
+    "name": "Fibonacci Corners YT ⛶",
     "airDate": "2024-11-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=OfUPaAKjcIo",
     "reviewUrl": "2024-11-22-Fibonacci-Corners-YT",
