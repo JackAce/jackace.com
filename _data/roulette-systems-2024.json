@@ -1,5 +1,226 @@
 [
   {
+    "name": "5 and Dime",
+    "airDate": "2024-12-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=VnvN3xkEZQI",
+    "reviewUrl": "2024-12-18-5-and-Dime",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-red":10,"x1-17":1,"x1-20":1,"x1-22":1,"x1-24":1,"x1-26":1}},
+      {"wheelType":1,"wagers":{"x18-black":20,"x1-16":2,"x1-30":2,"x1-32":2,"x1-34":2,"x1-14":2}},
+      {"wheelType":1,"wagers":{"x18-black":40,"x1-32":4,"x1-25":4,"x1-16":4,"x1-19":4,"x1-21":4}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 100,
+    "bets": [
+      15, 30, 60
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "12",
+        "amountBet": 15,
+        "result": 5,
+        "time": "1:14"
+      },
+      {
+        "spin": 2,
+        "number": "3",
+        "amountBet": 15,
+        "result": 5,
+        "time": "1:45"
+      },
+      {
+        "spin": 3,
+        "number": "24",
+        "amountBet": 15,
+        "result": 5,
+        "time": "2:45"
+      },
+      {
+        "spin": 4,
+        "number": "34",
+        "amountBet": 15,
+        "result": 21,
+        "time": "3:06"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 15,
+        "result": -15,
+        "time": "3:47"
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 15,
+        "result": -15,
+        "time": "4:39"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 15,
+        "result": -15,
+        "time": "5:07"
+      },
+      {
+        "spin": 8,
+        "number": "28",
+        "amountBet": 15,
+        "result": -15,
+        "time": "5:32"
+      },
+      {
+        "spin": 9,
+        "number": "6",
+        "amountBet": 15,
+        "result": -15,
+        "time": "6:11"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 15,
+        "result": -15,
+        "time": "6:59"
+      },
+      {
+        "spin": 11,
+        "number": "18",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:33"
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 15,
+        "result": -15,
+        "time": "8:15"
+      },
+      {
+        "spin": 13,
+        "number": "2",
+        "amountBet": 15,
+        "result": -15,
+        "time": "8:51"
+      },
+      {
+        "spin": 14,
+        "number": "27",
+        "amountBet": 15,
+        "result": 21,
+        "time": "9:41"
+      },
+      {
+        "spin": 15,
+        "number": "00",
+        "amountBet": 15,
+        "result": -15,
+        "time": "10:17"
+      },
+      {
+        "spin": 16,
+        "number": "19",
+        "amountBet": 15,
+        "result": -15,
+        "time": "10:31"
+      },
+      {
+        "spin": 17,
+        "number": "3",
+        "amountBet": 15,
+        "result": -15,
+        "time": "10:55"
+      },
+      {
+        "spin": 18,
+        "number": "27",
+        "amountBet": 15,
+        "result": 5,
+        "time": "11:36"
+      },
+      {
+        "spin": 19,
+        "number": "23",
+        "amountBet": 15,
+        "result": 5,
+        "time": "12:02"
+      },
+      {
+        "spin": 20,
+        "number": "16",
+        "amountBet": 15,
+        "result": -15,
+        "time": "12:30"
+      },
+      {
+        "spin": 21,
+        "number": "26",
+        "amountBet": 15,
+        "result": -15,
+        "time": "12:53"
+      },
+      {
+        "spin": 22,
+        "number": "7",
+        "amountBet": 15,
+        "result": -15,
+        "time": "13:19"
+      },
+      {
+        "spin": 23,
+        "number": "23",
+        "amountBet": 15,
+        "result": 21,
+        "time": "14:20"
+      },
+      {
+        "spin": 24,
+        "number": "15",
+        "amountBet": 30,
+        "result": 5,
+        "time": "15:05"
+      },
+      {
+        "spin": 25,
+        "number": "23",
+        "amountBet": 30,
+        "result": 21,
+        "time": "15:18"
+      },
+      {
+        "spin": 26,
+        "number": "21",
+        "amountBet": 60,
+        "result": 88,
+        "time": "16:46"
+      },
+      {
+        "spin": 27,
+        "number": "4",
+        "amountBet": 15,
+        "result": -15,
+        "time": "17:45"
+      }
+    ]
+  },
+  {
     "name": "5 Leaf Clover",
     "airDate": "2024-12-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=9l7m_eTaDa4",
