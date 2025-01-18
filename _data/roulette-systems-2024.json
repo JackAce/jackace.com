@@ -1,5 +1,83 @@
 [
   {
+    "name": "5 Leaf Clover",
+    "airDate": "2024-12-16",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9l7m_eTaDa4",
+    "reviewUrl": "2024-12-16-5-Leaf-Clover",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-low":5,"x18-black":5,"x18-odd":5,"x12-doz3":5}},
+      {"wheelType":1,"wagers":{"x18-low":10,"x18-black":10,"x18-odd":5,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x18-low":15,"x18-black":10,"x18-odd":10,"x12-doz3":15}},
+      {"wheelType":1,"wagers":{"x18-low":20,"x18-black":15,"x18-odd":10,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x18-low":25,"x18-black":20,"x18-odd":15,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x18-low":30,"x18-black":20,"x18-odd":20,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x18-low":35,"x18-black":20,"x18-odd":25,"x12-doz3":25}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      20, 35, 50, 65, 85, 95, 105
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "19",
+        "amountBet": 20,
+        "result": -10,
+        "time": "1:52"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 35,
+        "result": -15,
+        "time": "2:27"
+      },
+      {
+        "spin": 3,
+        "number": "19",
+        "amountBet": 50,
+        "result": -30,
+        "time": "3:15"
+      },
+      {
+        "spin": 4,
+        "number": "0",
+        "amountBet": 65,
+        "result": -65,
+        "time": "3:44"
+      },
+      {
+        "spin": 5,
+        "number": "28",
+        "amountBet": 85,
+        "result": 35,
+        "time": "4:19"
+      },
+      {
+        "spin": 6,
+        "number": "26",
+        "amountBet": 95,
+        "result": 20,
+        "time": "5:01"
+      }
+    ]
+  },
+  {
     "name": "Modified V28",
     "airDate": "2024-12-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=XA9kcRuSsl0",
