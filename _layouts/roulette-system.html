@@ -632,8 +632,20 @@ layout: page-no-sidebar
   {%-  if system.finalWinLoss < 99999 -%}
     {%-  if system.finalWinLoss != totalWinLoss -%}
       <div>
-        Alex said he was up {% include win-loss-amount.html amount=system.finalWinLoss -%},
-        but I have him being up {% include win-loss-amount.html amount=totalWinLoss -%}.
+        The main player said they were
+        {%-  if system.finalWinLoss >= 0 -%}
+          up
+        {%-  else -%}
+          down
+        {%-  endif -%}
+        {% include win-loss-amount.html amount=system.finalWinLoss -%},
+        but I have them being
+        {%-  if totalWinLoss >= 0 -%}
+          up
+        {%-  else -%}
+          down
+        {%-  endif -%}
+        {% include win-loss-amount.html amount=totalWinLoss -%}.
       </div>
     {%-  endif -%}
   {%-  endif -%}
