@@ -629,26 +629,34 @@ layout: page-no-sidebar
 <div class="system-review-content">
   {{ content }}
 
+  {%-  if system.systemType == "Multi-Leg" -%}
+    <div>
+      Since this is a Multi-Leg system, the betting diagrams may only include
+      the base tier bet.
+    </div>
+  {%-  endif -%}
+
   {%-  if system.finalWinLoss < 99999 -%}
     {%-  if system.finalWinLoss != totalWinLoss -%}
       <div>
         The main player said they were
-        {%-  if system.finalWinLoss >= 0 -%}
+        {%  if system.finalWinLoss >= 0 %}
           up
-        {%-  else -%}
+        {%  else %}
           down
-        {%-  endif -%}
+        {%  endif %}
         {% include win-loss-amount.html amount=system.finalWinLoss -%},
         but I have them being
-        {%-  if totalWinLoss >= 0 -%}
+        {%  if totalWinLoss >= 0 %}
           up
-        {%-  else -%}
+        {%  else %}
           down
-        {%-  endif -%}
+        {%  endif %}
         {% include win-loss-amount.html amount=totalWinLoss -%}.
       </div>
     {%-  endif -%}
   {%-  endif -%}
+
 
   {% comment %}
     Put something to handle win/loss discrepancies here.
