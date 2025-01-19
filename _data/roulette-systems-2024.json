@@ -694,27 +694,29 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=3sSrQgbLCec",
     "reviewUrl": "2024-12-13-Boo-Ca-Key",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":30}},
       {"wheelType":1,"wagers":{"x12-doz3":30,"x12-doz2":30}},
       {"wheelType":1,"wagers":{"x4-28-32":30,"x4-16-20":30,"x4-7-11":30}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       30, 60, 90
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 5,
+      "chipUniformity": 3,
+      "jackpotPotential": 4,
+      "scalability": 5,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
