@@ -35,6 +35,7 @@ layout: page-no-sidebar
 {%- assign isJackAceReview = system.isJackAceReview -%}
 {%- assign ratingDetails = system.jackaceRatingDetails -%}
 {%- assign simulationResults = system.simulationResults -%}
+{%- assign finalWinLoss = system.finalWinLoss | default: 99999 -%}
 
 <!-- Calculate totals BEGIN -->
 {%- assign totalAmountBet = 0.00 -%}
@@ -627,6 +628,15 @@ layout: page-no-sidebar
 
 <div class="system-review-content">
   {{ content }}
+
+  {%-  if system.finalWinLoss < 99999 -%}
+    {%-  if system.finalWinLoss != totalWinLoss -%}
+      <div>
+        Alex said he was up {% include win-loss-amount.html amount=system.finalWinLoss -%},
+        but I have him being up {% include win-loss-amount.html amount=totalWinLoss -%}.
+      </div>
+    {%-  endif -%}
+  {%-  endif -%}
 
   {% comment %}
     Put something to handle win/loss discrepancies here.

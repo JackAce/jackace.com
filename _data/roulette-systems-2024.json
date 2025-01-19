@@ -443,17 +443,18 @@
       350
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 5,
+      "chipUniformity": 4,
+      "jackpotPotential": 4,
+      "scalability": 5,
+      "compValue": 5
     },
     "isJackAceReview": false,
     "notes": "",
+    "finalWinLoss": -1025,
     "spins": [{
         "spin": 1,
         "number": "30",
@@ -583,10 +584,9 @@
       {
         "spin": 19,
         "number": "12",
-        "amountBet": 350,
+        "amountBet": 325,
         "result": 100,
-        "time": "8:57",
-        "notes": "Alex forgot to cover the 12/15 split"
+        "time": "8:57"
       },
       {
         "spin": 20,
@@ -684,7 +684,8 @@
         "number": "6",
         "amountBet": 225,
         "result": -225,
-        "time": "17:08"      
+        "time": "17:08",
+        "notes": "Alex just YOLOed the rest of his money."
       }
     ]
   },
