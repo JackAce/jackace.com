@@ -1,5 +1,235 @@
 [
   {
+    "name": "House Money Printer",
+    "airDate": "2024-12-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=z4Pixhxze24",
+    "reviewUrl": "2024-12-19-House-Money-Printer",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":40}},
+      {"wheelType":1,"wagers":{"x12-doz3":40,"x12-doz2":40}},
+      {"wheelType":1,"wagers":{"x2-22-25":5,"x2-10-13":5,"x4-25-29":10,"x4-19-23":10,"x4-13-17":10,"x4-7-11":10,"x4-17-21":10,"x4-5-9":10,"x4-29-33":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      40, 80, 80
+    ],
+    "rating": "c",
+    "jackaceRating": "b",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 4,
+      "chipUniformity": 3,
+      "jackpotPotential": 3,
+      "scalability": 4,
+      "compValue": 1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "3",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:11"
+      },
+      {
+        "spin": 2,
+        "number": "1",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:37"
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 40,
+        "result": 40,
+        "time": "2:52"
+      },
+      {
+        "spin": 4,
+        "number": "17",
+        "amountBet": 80,
+        "result": 40,
+        "time": "3:22"
+      },
+      {
+        "spin": 5,
+        "number": "6",
+        "amountBet": 80,
+        "result": 10,
+        "time": "3:52"
+      },
+      {
+        "spin": 6,
+        "number": "9",
+        "amountBet": 80,
+        "result": -80,
+        "time": "4:06"
+      },
+      {
+        "spin": 7,
+        "number": "24",
+        "amountBet": 40,
+        "result": 40,
+        "time": "5:11"
+      },
+      {
+        "spin": 8,
+        "number": "8",
+        "amountBet": 80,
+        "result": -80,
+        "time": "5:28"
+      },
+      {
+        "spin": 9,
+        "number": "11",
+        "amountBet": 40,
+        "result": 40,
+        "time": "5:57"
+      },
+      {
+        "spin": 10,
+        "number": "4",
+        "amountBet": 80,
+        "result": -80,
+        "time": "6:57"
+      },
+      {
+        "spin": 11,
+        "number": "12",
+        "amountBet": 40,
+        "result": -40,
+        "time": "7:15"
+      },
+      {
+        "spin": 12,
+        "number": "19",
+        "amountBet": 40,
+        "result": -40,
+        "time": "7:45"
+      },
+      {
+        "spin": 13,
+        "number": "5",
+        "amountBet": 40,
+        "result": -40,
+        "time": "8:10"
+      },
+      {
+        "spin": 14,
+        "number": "17",
+        "amountBet": 40,
+        "result": -40,
+        "time": "8:39"
+      },
+      {
+        "spin": 15,
+        "number": "00",
+        "amountBet": 40,
+        "result": -40,
+        "time": "9:02"
+      },
+      {
+        "spin": 16,
+        "number": "29",
+        "amountBet": 40,
+        "result": 40,
+        "time": "9:14"
+      },
+      {
+        "spin": 17,
+        "number": "12",
+        "amountBet": 80,
+        "result": -80,
+        "time": "9:30"
+      },
+      {
+        "spin": 18,
+        "number": "4",
+        "amountBet": 40,
+        "result": 40,
+        "time": "10:01"
+      },
+      {
+        "spin": 19,
+        "number": "3",
+        "amountBet": 80,
+        "result": -80,
+        "time": "10:22"
+      },
+      {
+        "spin": 20,
+        "number": "6",
+        "amountBet": 40,
+        "result": 40,
+        "time": "10:56"
+      },
+      {
+        "spin": 21,
+        "number": "17",
+        "amountBet": 80,
+        "result": 40,
+        "time": "11:21"
+      },
+      {
+        "spin": 22,
+        "number": "20",
+        "amountBet": 80,
+        "result": 100,
+        "time": "11:34"
+      },
+      {
+        "spin": 23,
+        "number": "17",
+        "amountBet": 80,
+        "result": 100,
+        "time": "11:53"
+      },
+      {
+        "spin": 24,
+        "number": "19",
+        "amountBet": 80,
+        "result": 10,
+        "time": "12:15"
+      },
+      {
+        "spin": 25,
+        "number": "32",
+        "amountBet": 80,
+        "result": 10,
+        "time": "12:27"
+      },
+      {
+        "spin": 26,
+        "number": "16",
+        "amountBet": 80,
+        "result": 10,
+        "time": "12:33"
+      },
+      {
+        "spin": 27,
+        "number": "6",
+        "amountBet": 80,
+        "result": 10,
+        "time": "12:37"
+      },
+      {
+        "spin": 28,
+        "number": "30",
+        "amountBet": 80,
+        "result": -80,
+        "time": "12:43"
+      }
+    ]
+  },
+  {
     "name": "5 and Dime 🪙",
     "airDate": "2024-12-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=VnvN3xkEZQI",
