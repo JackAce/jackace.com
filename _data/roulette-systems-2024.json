@@ -1,5 +1,232 @@
 [
   {
+    "name": "Grapefruit Pie",
+    "airDate": "2024-12-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZIQdKasJpCo",
+    "reviewUrl": "2024-12-20-Grapefruit-Pie",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":15,"x18-odd":15,"x18-high":15}},
+      {"wheelType":1,"wagers":{"x12-doz3":15,"x12-doz2":15}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":15}},
+      {"wheelType":1,"wagers":{"x12-doz3":20,"x12-doz2":20}},
+      {"wheelType":1,"wagers":{"x12-doz3":20,"x12-doz2":40}},
+      {"wheelType":1,"wagers":{"x12-doz3":25,"x12-doz2":25}},
+      {"wheelType":1,"wagers":{"x12-doz3":50,"x12-doz2":25}},
+      {"wheelType":1,"wagers":{"x12-doz3":30,"x12-doz2":30}},
+      {"wheelType":1,"wagers":{"x18-black":15,"x18-high":15,"x12-col1":15,"x12-col2":15}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 450,
+    "bets": [
+      45, 30, 40, 60, 50, 75
+    ],
+    "rating": "a",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "1",
+        "amountBet": 45,
+        "result": -15,
+        "time": "0:54"
+      },
+      {
+        "spin": 2,
+        "number": "14",
+        "amountBet": 30,
+        "result": 15,
+        "time": "1:23"
+      },
+      {
+        "spin": 3,
+        "number": "17",
+        "amountBet": 45,
+        "result": 45,
+        "time": "1:52"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 40,
+        "result": 20,
+        "time": "2:12"
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 60,
+        "result": 60,
+        "time": "2:49"
+      },
+      {
+        "spin": 6,
+        "number": "30",
+        "amountBet": 50,
+        "result": 25,
+        "time": "3:17"
+      },
+      {
+        "spin": 7,
+        "number": "25",
+        "amountBet": 75,
+        "result": 75,
+        "time": "3:52"
+      },
+      {
+        "spin": 8,
+        "number": "2",
+        "amountBet": 60,
+        "result": -60,
+        "time": "4:28"
+      },
+      {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 45,
+        "result": -15,
+        "time": "5:02"
+      },
+      {
+        "spin": 10,
+        "number": "36",
+        "amountBet": 45,
+        "result": -15,
+        "time": "5:42"
+      },
+      {
+        "spin": 11,
+        "number": "25",
+        "amountBet": 30,
+        "result": 15,
+        "time": "6:26"
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 45,
+        "result": 45,
+        "time": "6:43"
+      },
+      {
+        "spin": 13,
+        "number": "32",
+        "amountBet": 40,
+        "result": 20,
+        "time": "7:12"
+      },
+      {
+        "spin": 14,
+        "number": "19",
+        "amountBet": 60,
+        "result": 60,
+        "time": "7:37"
+      },
+      {
+        "spin": 15,
+        "number": "29",
+        "amountBet": 50,
+        "result": 25,
+        "time": "8:02"
+      },
+      {
+        "spin": 16,
+        "number": "1",
+        "amountBet": 75,
+        "result": -75,
+        "time": "8:38"
+      },
+      {
+        "spin": 17,
+        "number": "6",
+        "amountBet": 45,
+        "result": -15,
+        "time": "9:22"
+      },
+      {
+        "spin": 18,
+        "number": "5",
+        "amountBet": 30,
+        "result": -30,
+        "time": "9:59"
+      },
+      {
+        "spin": 19,
+        "number": "22",
+        "amountBet": 45,
+        "result": 15,
+        "time": "10:28"
+      },
+      {
+        "spin": 20,
+        "number": "16",
+        "amountBet": 60,
+        "result": -15,
+        "time": "11:09"
+      },
+      {
+        "spin": 21,
+        "number": "5",
+        "amountBet": 45,
+        "result": -15,
+        "time": "11:55"
+      },
+      {
+        "spin": 22,
+        "number": "15",
+        "amountBet": 30,
+        "result": 15,
+        "time": "12:51"
+      },
+      {
+        "spin": 23,
+        "number": "14",
+        "amountBet": 45,
+        "result": 40,
+        "time": "13:12"
+      },
+      {
+        "spin": 24,
+        "number": "20",
+        "amountBet": 40,
+        "result": 20,
+        "time": "13:53"
+      },
+      {
+        "spin": 25,
+        "number": "14",
+        "amountBet": 60,
+        "result": 60,
+        "time": "14:07"
+      },
+      {
+        "spin": 26,
+        "number": "14",
+        "amountBet": 50,
+        "result": 25,
+        "time": "14:32"
+      },
+      {
+        "spin": 27,
+        "number": "8",
+        "amountBet": 75,
+        "result": -75,
+        "time": "15:02"
+      }
+    ]
+  },
+  {
     "name": "House Money Printer",
     "airDate": "2024-12-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=z4Pixhxze24",
