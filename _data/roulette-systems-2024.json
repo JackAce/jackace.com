@@ -5,26 +5,29 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=z4Pixhxze24",
     "reviewUrl": "2024-12-19-House-Money-Printer",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":40}},
-      {"wheelType":1,"wagers":{"x12-doz3":40,"x12-doz2":40}} 
+      {"wheelType":1,"wagers":{"x12-doz3":40,"x12-doz2":40}},
+      {"wheelType":1,"wagers":{"x2-22-25":5,"x2-10-13":5,"x4-25-29":10,"x4-19-23":10,"x4-13-17":10,"x4-7-11":10,"x4-17-21":10,"x4-5-9":10,"x4-29-33":10}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 1000,
     "bets": [
-      40, 80
+      40, 80, 80
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 4,
+      "chipUniformity": 3,
+      "jackpotPotential": 3,
+      "scalability": 4,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
