@@ -15492,10 +15492,14 @@
     "reviewUrl": "2022-03-19-No-Lose-Comp-Collector",
     "jackaceVideoUrl": "https://www.youtube.com/watch?v=Gq_YTvW9L2M",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
     ],
-    "systemType": "Other",
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":120,"x6-1-6":60,"x6-31-36":60,"x4-25-29":40,"x4-7-11":40,"x2-0-00":10,"x2-9-12":10,"x2-27-30":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":300,"x6-31-36":150,"x6-1-6":150,"x4-7-11":100,"x4-25-29":100}}
+    ],
+    "systemType": "Negative Progression",
     "buyIn": 1000,
     "bets": [
       350,
@@ -15503,8 +15507,17 @@
     ],
     "rating": "b",
     "jackaceRating": "f",
-    "notes": "They should be down $800 at the end of the video, but somehow Alex only has $100 left (down $900).",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 1,
+      "progressionSimplicity": 4,
+      "chipUniformity": 2,
+      "jackpotPotential": 1,
+      "scalability": 2,
+      "compValue": 5
+    },
+    "notes": "",
     "isJackAceReview": false,
+    "finalWinLoss": -900,
     "spins": [
       {
         "spin": 1,
