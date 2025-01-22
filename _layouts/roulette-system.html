@@ -164,7 +164,7 @@ layout: page-no-sidebar
               System Type:
           </th>
           <td width="30%">
-            {{ system.systemType }}
+            {% include roulette-system-type.html type=system.systemType %}
           </td>
         {%-  endif -%}
     </tr>
