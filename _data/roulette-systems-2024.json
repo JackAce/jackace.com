@@ -246,29 +246,32 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=cmjXJ6BWNrI",
     "reviewUrl": "2024-12-23-High-Must-Ride",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz3":10,"x12-doz2":10}},
-      {"wheelType":1,"wagers":{"x12-doz3":10,"x12-doz2":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":20}},
       {"wheelType":1,"wagers":{"x18-high":20,"x12-doz3":10,"x4-19-23":5,"x4-20-24":5,"x4-25-29":5,"x4-26-30":5,"x4-31-35":5,"x4-32-36":5}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 360,
     "bets": [
-      20, 30, 60
+      20, 30, 60 
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 4,
+      "scalability": 4,
+      "compValue": 1
     },
     "isJackAceReview": false,
+    "finalWinLoss": 215,
     "notes": "",
     "spins": [{
         "spin": 1,
