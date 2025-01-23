@@ -8,28 +8,25 @@
       "00-rba-0-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x18-red":10,"x18-high":10,"x18-even":10}},
-      {"wheelType":1,"wagers":{"x18-red":20,"x18-high":20}},
-      {"wheelType":1,"wagers":{"x18-odd":20}},
-      {"wheelType":1,"wagers":{"x18-odd":80}},
-      {"wheelType":1,"wagers":{"x18-black":20,"x18-odd":20,"x18-high":20}} 
+      {"wheelType":1,"wagers":{"x18-black":10,"x18-odd":10,"x18-high":10}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Multi-Leg",
     "buyIn": 600,
     "bets": [
-      30, 40, 20, 80, 60
+      30, 20, 40, 60, 80
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "f",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 4,
+      "chipUniformity": 2,
+      "jackpotPotential": 1,
+      "scalability": 5,
+      "compValue": 1
     },
     "isJackAceReview": false,
+    "finalWinLoss": 310,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -392,46 +389,33 @@
       "00-rba-0-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x18-high":5}},
-      {"wheelType":1,"wagers":{"x18-high":15}},
-      {"wheelType":1,"wagers":{"x18-high":25}},
-      {"wheelType":1,"wagers":{"x18-high":30}},
-      {"wheelType":1,"wagers":{"x18-high":40}},
-      {"wheelType":1,"wagers":{"x18-high":45}},
-      {"wheelType":1,"wagers":{"x18-high":50}},
-      {"wheelType":1,"wagers":{"x18-high":55}},
-      {"wheelType":1,"wagers":{"x18-high":65}},
-      {"wheelType":1,"wagers":{"x18-high":70}},
-      {"wheelType":1,"wagers":{"x18-high":75}},
-      {"wheelType":1,"wagers":{"x18-red":35}},
-      {"wheelType":1,"wagers":{"x18-red":85}},
-      {"wheelType":1,"wagers":{"x18-red":90}},
-      {"wheelType":1,"wagers":{"x18-red":100}},
-      {"wheelType":1,"wagers":{"x18-red":105}} 
+      {"wheelType":1,"wagers":{"x18-high":5}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 500,
     "bets": [
-      5, 15, 25, 30, 40, 45, 50, 55, 65, 70, 75, 35, 85, 90, 100, 105
+      5, 10, 15, 20, 25, 30, 35, 40, 45, 50
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 2,
+      "chipUniformity": 3,
+      "jackpotPotential": 1,
+      "scalability": 3,
+      "compValue": 0.5
     },
     "isJackAceReview": false,
+    "finalWinLoss": 130,
     "notes": "",
     "spins": [{
         "spin": 1,
         "number": "24",
         "amountBet": 0,
         "result": 0,
-        "time": "0:45"
+        "time": "0:45",
+        "notes": "Blank spin"
       },
       {
         "spin": 2,
