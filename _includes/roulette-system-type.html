@@ -1,0 +1,21 @@
+{%- assign type = include.type | upcase -%}
+{%- assign emoji = "😵‍💫" -%}
+
+{%- if type == "FLAT BET" -%}
+    {%- assign emoji = "😐" -%}
+{%- elsif type == "POSITIVE PROGRESSION" -%}
+    {%- assign emoji = "⬆️" -%}
+{%- elsif type == "NEGATIVE PROGRESSION" -%}
+    {%- assign emoji = "⬇️" -%}
+{%- elsif type == "LADDER" -%}
+    {%- assign emoji = "🪜" -%}
+{%- elsif type == "MARTINGALE" -%}
+    {%- assign emoji = "🔥" -%}
+{%- elsif type == "MULTI-LEG" -%}
+    {%- assign emoji = "🐙" -%}
+{%- elsif type == "OTHER" -%}
+    {%- assign emoji = "🤯" -%}
+{%- endif -%}
+<span class="system-type">
+    {{ emoji }}&nbsp;{{ include.type }}
+</span>
