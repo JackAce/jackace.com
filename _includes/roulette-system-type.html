@@ -12,10 +12,10 @@
 {%- elsif type == "MARTINGALE" -%}
     {%- assign emoji = "🔥" -%}
 {%- elsif type == "MULTI-LEG" -%}
-    {%- assign emoji = "👯‍♀️" -%}
+    {%- assign emoji = "🐙" -%}
 {%- elsif type == "OTHER" -%}
     {%- assign emoji = "🤯" -%}
 {%- endif -%}
-<span>
+<span class="system-type">
     {{ emoji }}&nbsp;{{ include.type }}
 </span>

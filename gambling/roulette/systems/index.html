@@ -55,32 +55,32 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
   }
 
   function getHtmlForSystemType(systemType) {
-    let typeName = "";
+    let typeIcon = "";
     switch (systemType) {
       case "Flat Bet":
-        typeName = "😐";
+        typeIcon = "😐";
         break;
       case "Positive Progression":
-        typeName = "📈";
+        typeIcon = "📈";
         break;
       case "Negative Progression":
-        typeName = "📉";
+        typeIcon = "📉";
         break;
       case "Martingale":
-        typeName = "😱";
+        typeIcon = "😱";
         break;
       case "Ladder":
-        typeName = "🪜";
+        typeIcon = "🪜";
         break;
       case "Multi-Leg":
-        typeName = "👯‍♀️";
+        typeIcon = "🐙";
         break;
       // default:
-      //   typeName = systemType;
+      //   typeIcon = systemType;
       //   break;
     }
 
-    return '<span class="system-type" title="' + systemType + '">' + typeName + '&nbsp;' + systemType + '</span>';
+    return '<span class="system-type" title="' + systemType + '">' + typeIcon + '&nbsp;' + systemType + '</span>';
   }
 
   function populateDataTable(dataTableData) {
