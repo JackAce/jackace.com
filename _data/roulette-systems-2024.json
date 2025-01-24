@@ -5,7 +5,11 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=td4moj8kQWI",
     "reviewUrl": "2024-12-26-Huzz-Corner",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz2":10,"x4-14-18":5,"x4-17-21":5,"x4-16-20":5}},
@@ -20,14 +24,14 @@
       25, 50, 70, 95, 115
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 2,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -134,7 +138,8 @@
         "number": "32",
         "amountBet": 115,
         "result": -115,
-        "time": "6:09"
+        "time": "6:09",
+        "notes": "Alex bought in for another 1000 after this loss. It shouldn't count as a second 'friend' because he didn't reset."
       },
       {
         "spin": 16,
@@ -252,7 +257,8 @@
         "spin": 32,
         "number": "21",
         "amountBet": 95,
-        "result": 140,
+        "result": 190,
+        "displayedResult": 140,
         "time": "13:40"
       },
       {
