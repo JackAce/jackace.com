@@ -14,7 +14,7 @@
       {"wheelType":1,"wagers":{"x12-doz2":100,"x12-doz3":100}},
       {"wheelType":1,"wagers":{"x1-31":10,"x1-32":15,"x1-28":10,"x1-26":5,"x1-22":5,"x1-23":15,"x1-19":15,"x1-20":20,"x1-16":15,"x1-17":20,"x1-10":10,"x1-12":10}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 1000,
     "bets": [
       150, 100, 200
@@ -238,37 +238,25 @@
       "00-rba-0-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x18-black":10,"x18-high":10}},
-      {"wheelType":1,"wagers":{"x18-black":15,"x18-high":20}},
-      {"wheelType":1,"wagers":{"x18-odd":30,"x18-high":20}},
-      {"wheelType":1,"wagers":{"x18-odd":40,"x18-high":30}},
-      {"wheelType":1,"wagers":{"x18-odd":50,"x18-high":35}},
-      {"wheelType":1,"wagers":{"x18-high":20,"x18-black":20}},
-      {"wheelType":1,"wagers":{"x18-high":25,"x18-black":30}},
-      {"wheelType":1,"wagers":{"x18-black":35,"x18-high":35}},
-      {"wheelType":1,"wagers":{"x18-black":40,"x18-high":45}},
-      {"wheelType":1,"wagers":{"x18-black":50,"x18-high":55}},
-      {"wheelType":1,"wagers":{"x18-black":55,"x18-high":65}},
-      {"wheelType":1,"wagers":{"x18-black":60,"x18-high":75}},
-      {"wheelType":1,"wagers":{"x18-black":80,"x18-high":75}},
-      {"wheelType":1,"wagers":{"x18-black":75,"x18-high":85}} 
+      {"wheelType":1,"wagers":{"x18-black":10,"x18-high":10}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Multi-Leg",
     "buyIn": 600,
     "bets": [
-      20, 35, 50, 70, 85, 40, 55, 105, 120, 135, 155, 160
+      20, 30, 40, 50, 60, 70, 80, 160
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 1,
+      "chipUniformity": 1,
+      "jackpotPotential": 4,
+      "scalability": 3,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": -460,
     "notes": "",
     "spins": [{
         "spin": 1,
