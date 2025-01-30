@@ -1,7 +1,6 @@
 require 'rake'
 
 task :build do
-    #sh 'cp _data/roulette-systems* json/'
     sh 'rm json/*'
 
     #sh 'jq -c \'.\' _data/roulette-systems-2019.json > json/roulette-systems-2019.json'
@@ -17,7 +16,7 @@ task :build do
             "_data/roulette-systems-2021.json " \
             "_data/roulette-systems-2022.json " \
             "_data/roulette-systems-2023.json " \
-            "_data/roulette-systems-2024.json > " \
+            "_data/roulette-systems-2024.json " \
             "_data/roulette-systems-2025.json > " \
             "json/roulette-systems-combined.json"
 
