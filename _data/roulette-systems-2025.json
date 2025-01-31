@@ -1,35 +1,29 @@
 [
   {
-    "name": "Itza couple System",
-    "airDate": "2025-12-03",
+    "name": "Itza Couple System",
+    "airDate": "2025-01-03",
     "youtubeUrl": "https://www.youtube.com/watch?v=p0epfJo_3pI",
-    "reviewUrl": "2025-12-03-Itza-couple-System",
+    "reviewUrl": "2025-01-03-Itza-Couple-System",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}},
-      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":20}},
-      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":30}},
-      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":10}},
-      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":50}},
-      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":80}},
-      {"wheelType":1,"wagers":{"x12-doz3":10,"x12-doz2":130}} 
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Multi-Leg",
     "buyIn": 1000,
     "bets": [
       20, 30, 50, 40, 60, 90, 140
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 4,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 4,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",

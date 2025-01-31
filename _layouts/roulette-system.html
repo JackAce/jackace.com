@@ -305,6 +305,7 @@ layout: page-no-sidebar
 {%- endif -%}
 
 {%- assign imageLimit = rbaImages.size | minus: 1 -%}
+{%- assign betLimit = system.bets.size -%}
 {%- assign bettingConfigLimit = bettingConfigs.size -%}
 
 {%- if simulationResults -%}
@@ -411,7 +412,7 @@ layout: page-no-sidebar
   <h2>Betting Scheme</h2>
 {%- endif -%}
 
-{%- if imageLimit > 0 -%}
+{%- if imageLimit >= 0 -%}
   {%- for i in (0..imageLimit) -%}
     {%- assign imageUrl = site.baseurl -%}
     {%- assign imageUrl = imageUrl | append: "/assets/img/systems/" -%}
