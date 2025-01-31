@@ -5,44 +5,27 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=4O2xD4FVVOw",
     "reviewUrl": "2025-01-05-The-Clencher",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-col1":10,"x12-col2":10}},
-      {"wheelType":1,"wagers":{"x12-col2":30}},
-      {"wheelType":1,"wagers":{"x12-col1":15,"x12-col2":15}},
-      {"wheelType":1,"wagers":{"x12-col2":45}},
-      {"wheelType":1,"wagers":{"x12-col1":20,"x12-col2":20}},
-      {"wheelType":1,"wagers":{"x12-col2":60}},
-      {"wheelType":1,"wagers":{"x12-col1":25,"x12-col2":25}},
-      {"wheelType":1,"wagers":{"x12-col1":30,"x12-col2":30}},
-      {"wheelType":1,"wagers":{"x12-col2":90}},
-      {"wheelType":1,"wagers":{"x12-col1":35,"x12-col2":35}},
-      {"wheelType":1,"wagers":{"x12-col1":40,"x12-col2":40}},
-      {"wheelType":1,"wagers":{"x12-col2":120}},
-      {"wheelType":1,"wagers":{"x12-col1":45,"x12-col2":45}},
-      {"wheelType":1,"wagers":{"x12-col2":135}},
-      {"wheelType":1,"wagers":{"x12-col1":50,"x12-col2":50}},
-      {"wheelType":1,"wagers":{"x12-col2":150}},
-      {"wheelType":1,"wagers":{"x12-col1":55,"x12-col2":55}},
-      {"wheelType":1,"wagers":{"x12-col2":165}},
-      {"wheelType":1,"wagers":{"x12-col1":60,"x12-col2":60}},
-      {"wheelType":1,"wagers":{"x12-col2":180}} 
+      {"wheelType":1,"wagers":{"x12-col2":30}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 300,
     "bets": [
-      20, 30, 45, 40, 60, 50, 90, 70, 80, 120, 135, 100, 150, 110, 165, 180
+      20, 30, 30, 45, 40, 60, 50, 75, 60, 90, 70, 105, 80, 120, 90, 135, 100, 150, 110, 165, 120, 180
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 3,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 3,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
