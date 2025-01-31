@@ -1,5 +1,583 @@
 [
   {
+    "name": "Nolley Deluxe",
+    "airDate": "2025-01-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=JCoWicoKuik",
+    "reviewUrl": "2025-01-08-Nolley-Deluxe",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col1":25,"x12-col2":25}},
+      {"wheelType":1,"wagers":{"x12-col1":25,"x12-col2":50}},
+      {"wheelType":1,"wagers":{"x12-col1":50,"x12-col2":100}},
+      {"wheelType":1,"wagers":{"x12-col1":75,"x12-col2":200}},
+      {"wheelType":1,"wagers":{"x12-col1":100,"x12-col2":200}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      50, 75, 150, 275, 300
+    ],
+    "rating": "a",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "3",
+        "amountBet": 50,
+        "result": -50,
+        "time": "1:16"
+      },
+      {
+        "spin": 2,
+        "number": "13",
+        "amountBet": 50,
+        "result": 25,
+        "time": "1:36"
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 75,
+        "result": 25,
+        "time": "1:47"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 150,
+        "result": 150,
+        "time": "2:09"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 275,
+        "result": 0,
+        "time": "2:32"
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 275,
+        "result": 0,
+        "time": "302:"
+      },
+      {
+        "spin": 7,
+        "number": "22",
+        "amountBet": 275,
+        "result": 0,
+        "time": "3:33"
+      },
+      {
+        "spin": 8,
+        "number": "8",
+        "amountBet": 275,
+        "result": 25,
+        "time": "3:44"
+      },
+      {
+        "spin": 9,
+        "number": "31",
+        "amountBet": 50,
+        "result": 25,
+        "time": "4:35"
+      },
+      {
+        "spin": 10,
+        "number": "4",
+        "amountBet": 75,
+        "result": 0,
+        "time": "5:02"
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 75,
+        "result": 75,
+        "time": "5:17"
+      },
+      {
+        "spin": 12,
+        "number": "3",
+        "amountBet": 150,
+        "result": 0,
+        "time": "5:41"
+      },
+      {
+        "spin": 13,
+        "number": "34",
+        "amountBet": 150,
+        "result": -150,
+        "time": "6:01"
+      },
+      {
+        "spin": 14,
+        "number": "6",
+        "amountBet": 50,
+        "result": 25,
+        "time": "6:14"
+      },
+      {
+        "spin": 15,
+        "number": "19",
+        "amountBet": 75,
+        "result": 0,
+        "time": "6:18"
+      },
+      {
+        "spin": 16,
+        "number": "9",
+        "amountBet": 75,
+        "result": 0,
+        "time": "6:24"
+      },
+      {
+        "spin": 17,
+        "number": "22",
+        "amountBet": 75,
+        "result": -75,
+        "time": "6:45"
+      },
+      {
+        "spin": 18,
+        "number": "27",
+        "amountBet": 50,
+        "result": 25,
+        "time": "7:02"
+      },
+      {
+        "spin": 19,
+        "number": "24",
+        "amountBet": 75,
+        "result": -75,
+        "displayedResult": -50,
+        "time": "7:21"
+      },
+      {
+        "spin": 20,
+        "number": "11",
+        "amountBet": 50,
+        "result": 25,
+        "time": "7:42"
+      },
+      {
+        "spin": 21,
+        "number": "25",
+        "amountBet": 75,
+        "result": 75,
+        "time": "7:54"
+      },
+      {
+        "spin": 22,
+        "number": "32",
+        "amountBet": 150,
+        "result": 150,
+        "time": "8:10"
+      },
+      {
+        "spin": 23,
+        "number": "12",
+        "amountBet": 300,
+        "result": -300,
+        "time": "8:20"
+      },
+      {
+        "spin": 24,
+        "number": "19",
+        "amountBet": 50,
+        "result": 25,
+        "time": "8:33"
+      },
+      {
+        "spin": 25,
+        "number": "30",
+        "amountBet": 75,
+        "result": 75,
+        "time": "8:53"
+      },
+      {
+        "spin": 26,
+        "number": "6",
+        "amountBet": 150,
+        "result": 0,
+        "time": "9:13"
+      },
+      {
+        "spin": 27,
+        "number": "23",
+        "amountBet": 150,
+        "result": 150,
+        "time": "9:42"
+      },
+      {
+        "spin": 28,
+        "number": "36",
+        "amountBet": 300,
+        "result": 0,
+        "time": "9:57"
+      },
+      {
+        "spin": 29,
+        "number": "24",
+        "amountBet": 300,
+        "result": 0,
+        "time": "10:25"
+      },
+      {
+        "spin": 30,
+        "number": "26",
+        "amountBet": 300,
+        "result": 300,
+        "time": "10:39"
+      },
+      {
+        "spin": 31,
+        "number": "15",
+        "amountBet": 50,
+        "result": -50,
+        "time": "11:04"
+      },
+      {
+        "spin": 32,
+        "number": "32",
+        "amountBet": 50,
+        "result": 25,
+        "time": "11:14"
+      },
+      {
+        "spin": 33,
+        "number": "25",
+        "amountBet": 75,
+        "result": 75,
+        "time": "11:21"
+      },
+      {
+        "spin": 34,
+        "number": "8",
+        "amountBet": 150,
+        "result": 150,
+        "time": "11:42"
+      },
+      {
+        "spin": 35,
+        "number": "11",
+        "amountBet": 300,
+        "result": 0,
+        "time": "11:51"
+      },
+      {
+        "spin": 36,
+        "number": "34",
+        "amountBet": 300,
+        "result": -300,
+        "time": "12:09"
+      },
+      {
+        "spin": 37,
+        "number": "18",
+        "amountBet": 50,
+        "result": 25,
+        "time": "12:20"
+      },
+      {
+        "spin": 38,
+        "number": "18",
+        "amountBet": 75,
+        "result": 0,
+        "time": "12:33"
+      },
+      {
+        "spin": 39,
+        "number": "20",
+        "amountBet": 75,
+        "result": 75,
+        "time": "12:41"
+      },
+      {
+        "spin": 40,
+        "number": "13",
+        "amountBet": 150,
+        "result": -150,
+        "time": "12:53"
+      },
+       {
+        "spin": 41,
+        "number": "35",
+        "amountBet": 50,
+        "result": 25,
+        "time": "13:02"
+      },
+      {
+        "spin": 42,
+        "number": "9",
+        "amountBet": 75,
+        "result": -75,
+        "time": "13:22"
+      },
+      {
+        "spin": 43,
+        "number": "18",
+        "amountBet": 50,
+        "result": -50,
+        "time": "13:35"
+      },
+      {
+        "spin": 44,
+        "number": "25",
+        "amountBet": 0,
+        "result": 0,
+        "time": "13:49"
+      }
+    ]
+  },
+  {
+    "name": "Tired Dozens",
+    "airDate": "2025-01-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=WfI6pW6hLbA",
+    "reviewUrl": "2025-01-06-Tired-Dozens",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col1":10,"x12-col2":10}},
+      {"wheelType":1,"wagers":{"x12-col1":20,"x12-col2":20}},
+      {"wheelType":1,"wagers":{"x12-col1":30,"x12-col2":30}},
+      {"wheelType":1,"wagers":{"x12-col1":40,"x12-col2":35}},
+      {"wheelType":1,"wagers":{"x12-col1":45,"x12-col2":45}},
+      {"wheelType":1,"wagers":{"x12-col1":50,"x12-col2":55}},
+      {"wheelType":1,"wagers":{"x12-col1":55,"x12-col2":65}},
+      {"wheelType":1,"wagers":{"x12-col1":65,"x12-col2":75}},
+      {"wheelType":1,"wagers":{"x12-col1":75,"x12-col2":80}},
+      {"wheelType":1,"wagers":{"x12-col1":85,"x12-col2":90}},
+      {"wheelType":1,"wagers":{"x12-col1":95,"x12-col2":100}},
+      {"wheelType":1,"wagers":{"x12-col1":100,"x12-col2":110}},
+      {"wheelType":1,"wagers":{"x12-col1":105,"x12-col2":120}},
+      {"wheelType":1,"wagers":{"x12-col1":115,"x12-col2":130}},
+      {"wheelType":1,"wagers":{"x12-col1":125,"x12-col2":135}},
+      {"wheelType":1,"wagers":{"x12-col1":130,"x12-col2":155}},
+      {"wheelType":1,"wagers":{"x12-col1":135,"x12-col2":165}},
+      {"wheelType":1,"wagers":{"x12-col1":145,"x12-col2":170}},
+      {"wheelType":1,"wagers":{"x12-col1":155,"x12-col2":180}},
+      {"wheelType":1,"wagers":{"x12-col1":160,"x12-col2":190}},
+      {"wheelType":1,"wagers":{"x12-col1":170,"x12-col2":195}},
+      {"wheelType":1,"wagers":{"x12-col1":25,"x12-col2":30}},
+      {"wheelType":1,"wagers":{"x12-col1":30,"x12-col2":40}},
+      {"wheelType":1,"wagers":{"x12-col1":40,"x12-col2":50}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1100,
+    "bets": [
+      20, 40, 60, 75, 90, 105, 120, 140, 155, 175, 195, 210, 225, 245, 260, 285, 300, 315, 335, 350, 365, 55, 70
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "0",
+        "amountBet": 20,
+        "result": -20,
+        "time": "0:59"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:16"
+      },
+      {
+        "spin": 3,
+        "number": "11",
+        "amountBet": 60,
+        "result": 30,
+        "time": "1:33"
+      },
+      {
+        "spin": 4,
+        "number": "22",
+        "amountBet": 75,
+        "result": 50,
+        "time": "1:56"
+      },
+      {
+        "spin": 5,
+        "number": "19",
+        "amountBet": 90,
+        "result": 65,
+        "time": "2:48"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 105,
+        "result": 45,
+        "time": "3:13"
+      },
+      {
+        "spin": 7,
+        "number": "12",
+        "amountBet": 120,
+        "result": -120,
+        "time": "3:27"
+      },
+      {
+        "spin": 8,
+        "number": "29",
+        "amountBet": 140,
+        "result": 85,
+        "time": "4:03"
+      },
+      {
+        "spin": 9,
+        "number": "30",
+        "amountBet": 155,
+        "result": -155,
+        "time": "4:39"
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 175,
+        "result": -175,
+        "time": "4:55"
+      },
+      {
+        "spin": 11,
+        "number": "22",
+        "amountBet": 195,
+        "result": 90,
+        "time": "5:27"
+      },
+      {
+        "spin": 12,
+        "number": "22",
+        "amountBet": 210,
+        "result": 90,
+        "time": "5:57"
+      },
+      {
+        "spin": 13,
+        "number": "3",
+        "amountBet": 225,
+        "result": -225,
+        "time": "6:13"
+      },
+      {
+        "spin": 14,
+        "number": "11",
+        "amountBet": 245,
+        "result": 145,
+        "time": "6:57"
+      },
+      {
+        "spin": 15,
+        "number": "7",
+        "amountBet": 260,
+        "result": 115,
+        "time": "7:38"
+      },
+      {
+        "spin": 16,
+        "number": "15",
+        "amountBet": 285,
+        "result": -285,
+        "time": "8:18"
+      },
+      {
+        "spin": 17,
+        "number": "32",
+        "amountBet": 300,
+        "result": 195,
+        "time": "8:55"
+      },
+      {
+        "spin": 18,
+        "number": "0",
+        "amountBet": 315,
+        "result": -315,
+        "time": "9:33"
+      },
+      {
+        "spin": 19,
+        "number": "31",
+        "amountBet": 335,
+        "result": 130,
+        "time": "9:55"
+      },
+      {
+        "spin": 20,
+        "number": "23",
+        "amountBet": 350,
+        "result": 220,
+        "time": "10:39"
+      },
+      {
+        "spin": 21,
+        "number": "23",
+        "amountBet": 365,
+        "result": 220,
+        "time": "11:10"
+      },
+      {
+        "spin": 22,
+        "number": "6",
+        "amountBet": 20,
+        "result": -20,
+        "time": "12:07"
+      },
+      {
+        "spin": 23,
+        "number": "34",
+        "amountBet": 40,
+        "result": 20,
+        "time": "12:40"
+      },
+      {
+        "spin": 24,
+        "number": "22",
+        "amountBet": 55,
+        "result": 20,
+        "time": "13:16"
+      },
+      {
+        "spin": 25,
+        "number": "27",
+        "amountBet": 70,
+        "result": -70,
+        "time": "14:28"
+      },
+      {
+        "spin": 26,
+        "number": "22",
+        "amountBet": 90,
+        "result": 30,
+        "time": "14:47"
+      }
+    ]
+  },
+  {
     "name": "The Clencher",
     "airDate": "2025-01-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=4O2xD4FVVOw",
