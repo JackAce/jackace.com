@@ -1,5 +1,229 @@
 [
   {
+    "name": "The Clencher",
+    "airDate": "2025-01-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=4O2xD4FVVOw",
+    "reviewUrl": "2025-01-05-The-Clencher",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col1":10,"x12-col2":10}},
+      {"wheelType":1,"wagers":{"x12-col2":30}},
+      {"wheelType":1,"wagers":{"x12-col1":15,"x12-col2":15}},
+      {"wheelType":1,"wagers":{"x12-col2":45}},
+      {"wheelType":1,"wagers":{"x12-col1":20,"x12-col2":20}},
+      {"wheelType":1,"wagers":{"x12-col2":60}},
+      {"wheelType":1,"wagers":{"x12-col1":25,"x12-col2":25}},
+      {"wheelType":1,"wagers":{"x12-col1":30,"x12-col2":30}},
+      {"wheelType":1,"wagers":{"x12-col2":90}},
+      {"wheelType":1,"wagers":{"x12-col1":35,"x12-col2":35}},
+      {"wheelType":1,"wagers":{"x12-col1":40,"x12-col2":40}},
+      {"wheelType":1,"wagers":{"x12-col2":120}},
+      {"wheelType":1,"wagers":{"x12-col1":45,"x12-col2":45}},
+      {"wheelType":1,"wagers":{"x12-col2":135}},
+      {"wheelType":1,"wagers":{"x12-col1":50,"x12-col2":50}},
+      {"wheelType":1,"wagers":{"x12-col2":150}},
+      {"wheelType":1,"wagers":{"x12-col1":55,"x12-col2":55}},
+      {"wheelType":1,"wagers":{"x12-col2":165}},
+      {"wheelType":1,"wagers":{"x12-col1":60,"x12-col2":60}},
+      {"wheelType":1,"wagers":{"x12-col2":180}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 300,
+    "bets": [
+      20, 30, 45, 40, 60, 50, 90, 70, 80, 120, 135, 100, 150, 110, 165, 180
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "13",
+        "amountBet": 20,
+        "result": 10,
+        "time": "1:49"
+      },
+      {
+        "spin": 2,
+        "number": "3",
+        "amountBet": 30,
+        "result": -30,
+        "time": "2:16"
+      },
+      {
+        "spin": 3,
+        "number": "28",
+        "amountBet": 30,
+        "result": 15,
+        "time": "2:50"
+      },
+      {
+        "spin": 4,
+        "number": "16",
+        "amountBet": 45,
+        "result": -45,
+        "time": "3:19"
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 40,
+        "result": 20,
+        "time": "3:49"
+      },
+      {
+        "spin": 6,
+        "number": "28",
+        "amountBet": 60,
+        "result": -60,
+        "time": "4:30"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:49"
+      },
+      {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 60,
+        "result": 30,
+        "time": "5:10"
+      },
+      {
+        "spin": 9,
+        "number": "21",
+        "amountBet": 90,
+        "result": -90,
+        "time": "5:33"
+      },
+      {
+        "spin": 10,
+        "number": "30",
+        "amountBet": 70,
+        "result": -70,
+        "time": "5:47"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 80,
+        "result": 40,
+        "time": "6:27"
+      },
+      {
+        "spin": 12,
+        "number": "00",
+        "amountBet": 120,
+        "result": -120,
+        "time": "6:45"
+      },
+      {
+        "spin": 13,
+        "number": "8",
+        "amountBet": 90,
+        "result": 45,
+        "time": "7:18"
+      },
+      {
+        "spin": 14,
+        "number": "33",
+        "amountBet": 135,
+        "result": -135,
+        "time": "7:52"
+      },
+      {
+        "spin": 15,
+        "number": "4",
+        "amountBet": 100,
+        "result": 50,
+        "time": "8:40"
+      },
+      {
+        "spin": 16,
+        "number": "12",
+        "amountBet": 150,
+        "result": -150,
+        "time": "9:17"
+      },
+      {
+        "spin": 17,
+        "number": "14",
+        "amountBet": 110,
+        "result": 55,
+        "time": "10:02"
+      },
+      {
+        "spin": 18,
+        "number": "11",
+        "amountBet": 165,
+        "result": 330,
+        "time": "10:38"
+      },
+      {
+        "spin": 19,
+        "number": "4",
+        "amountBet": 90,
+        "result": 45,
+        "time": "11:21"
+      },
+      {
+        "spin": 20,
+        "number": "36",
+        "amountBet": 135,
+        "result": -135,
+        "time": "12:02"
+      },
+      {
+        "spin": 21,
+        "number": "15",
+        "amountBet": 100,
+        "result": -100,
+        "time": "12:34"
+      },
+      {
+        "spin": 22,
+        "number": "23",
+        "amountBet": 110,
+        "result": 55,
+        "time": "13:09"
+      },
+      {
+        "spin": 23,
+        "number": "5",
+        "amountBet": 165,
+        "result": -165,
+        "time": "13:39"
+      },
+      {
+        "spin": 24,
+        "number": "35",
+        "amountBet": 120,
+        "result": 60,
+        "time": "14:16"
+      },
+      {
+        "spin": 25,
+        "number": "7",
+        "amountBet": 180,
+        "result": -180,
+        "time": "14:49"
+      }
+    ]
+  },
+  {
     "name": "Itza Couple System",
     "airDate": "2025-01-03",
     "youtubeUrl": "https://www.youtube.com/watch?v=p0epfJo_3pI",
