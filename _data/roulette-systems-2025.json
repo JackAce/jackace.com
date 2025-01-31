@@ -5,29 +5,31 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=JCoWicoKuik",
     "reviewUrl": "2025-01-08-Nolley-Deluxe",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-col1":25,"x12-col2":25}},
       {"wheelType":1,"wagers":{"x12-col1":25,"x12-col2":50}},
       {"wheelType":1,"wagers":{"x12-col1":50,"x12-col2":100}},
-      {"wheelType":1,"wagers":{"x12-col1":75,"x12-col2":200}},
+      {"wheelType":1,"wagers":{"x12-col1":75,"x12-col2":150}},
       {"wheelType":1,"wagers":{"x12-col1":100,"x12-col2":200}} 
     ],
     "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
-      50, 75, 150, 275, 300
+      50, 75, 150, 225, 300
     ],
     "rating": "a",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 4,
+      "scalability": 5,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
@@ -49,7 +51,8 @@
         "spin": 3,
         "number": "26",
         "amountBet": 75,
-        "result": 25,
+        "result": 75,
+        "displayedResult": 25,
         "time": "1:47"
       },
       {
@@ -62,29 +65,30 @@
       {
         "spin": 5,
         "number": "13",
-        "amountBet": 275,
+        "amountBet": 300,
         "result": 0,
         "time": "2:32"
       },
       {
         "spin": 6,
         "number": "1",
-        "amountBet": 275,
+        "amountBet": 300,
         "result": 0,
-        "time": "302:"
+        "time": "3:02"
       },
       {
         "spin": 7,
         "number": "22",
-        "amountBet": 275,
+        "amountBet": 300,
         "result": 0,
         "time": "3:33"
       },
       {
         "spin": 8,
         "number": "8",
-        "amountBet": 275,
-        "result": 25,
+        "amountBet": 300,
+        "displayedResult": 25,
+        "result": 300,
         "time": "3:44"
       },
       {
@@ -351,45 +355,22 @@
       "00-rba-0-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-col1":10,"x12-col2":10}},
-      {"wheelType":1,"wagers":{"x12-col1":20,"x12-col2":20}},
-      {"wheelType":1,"wagers":{"x12-col1":30,"x12-col2":30}},
-      {"wheelType":1,"wagers":{"x12-col1":40,"x12-col2":35}},
-      {"wheelType":1,"wagers":{"x12-col1":45,"x12-col2":45}},
-      {"wheelType":1,"wagers":{"x12-col1":50,"x12-col2":55}},
-      {"wheelType":1,"wagers":{"x12-col1":55,"x12-col2":65}},
-      {"wheelType":1,"wagers":{"x12-col1":65,"x12-col2":75}},
-      {"wheelType":1,"wagers":{"x12-col1":75,"x12-col2":80}},
-      {"wheelType":1,"wagers":{"x12-col1":85,"x12-col2":90}},
-      {"wheelType":1,"wagers":{"x12-col1":95,"x12-col2":100}},
-      {"wheelType":1,"wagers":{"x12-col1":100,"x12-col2":110}},
-      {"wheelType":1,"wagers":{"x12-col1":105,"x12-col2":120}},
-      {"wheelType":1,"wagers":{"x12-col1":115,"x12-col2":130}},
-      {"wheelType":1,"wagers":{"x12-col1":125,"x12-col2":135}},
-      {"wheelType":1,"wagers":{"x12-col1":130,"x12-col2":155}},
-      {"wheelType":1,"wagers":{"x12-col1":135,"x12-col2":165}},
-      {"wheelType":1,"wagers":{"x12-col1":145,"x12-col2":170}},
-      {"wheelType":1,"wagers":{"x12-col1":155,"x12-col2":180}},
-      {"wheelType":1,"wagers":{"x12-col1":160,"x12-col2":190}},
-      {"wheelType":1,"wagers":{"x12-col1":170,"x12-col2":195}},
-      {"wheelType":1,"wagers":{"x12-col1":25,"x12-col2":30}},
-      {"wheelType":1,"wagers":{"x12-col1":30,"x12-col2":40}},
-      {"wheelType":1,"wagers":{"x12-col1":40,"x12-col2":50}} 
+      {"wheelType":1,"wagers":{"x12-col1":10,"x12-col2":10}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Multi-Leg",
     "buyIn": 1100,
     "bets": [
-      20, 40, 60, 75, 90, 105, 120, 140, 155, 175, 195, 210, 225, 245, 260, 285, 300, 315, 335, 350, 365, 55, 70
+      20, 40, 60, 70, 350, 365
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 2,
+      "chipUniformity": 3,
+      "jackpotPotential": 4,
+      "scalability": 3,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
