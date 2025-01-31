@@ -1,5 +1,202 @@
 [
   {
+    "name": "Itza couple System",
+    "airDate": "2025-12-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=p0epfJo_3pI",
+    "reviewUrl": "2025-12-03-Itza-couple-System",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":80}},
+      {"wheelType":1,"wagers":{"x12-doz3":10,"x12-doz2":130}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      20, 30, 50, 40, 60, 90, 140
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "14",
+        "amountBet": 20,
+        "result": 10,
+        "time": "0:47"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 20,
+        "result": 10,
+        "time": "1:15"
+      },
+      {
+        "spin": 3,
+        "number": "21",
+        "amountBet": 20,
+        "result": 10,
+        "time": "1:39"
+      },
+      {
+        "spin": 4,
+        "number": "30",
+        "amountBet": 20,
+        "result": 10,
+        "time": "2:01"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 20,
+        "result": 10,
+        "time": "2:31"
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:56"
+      },
+      {
+        "spin": 7,
+        "number": "1",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:16"
+      },
+      {
+        "spin": 8,
+        "number": "29",
+        "amountBet": 50,
+        "result": 10,
+        "time": "3:53"
+      },
+      {
+        "spin": 9,
+        "number": "22",
+        "amountBet": 40,
+        "result": 50,
+        "time": "4:19"
+      },
+      {
+        "spin": 10,
+        "number": "20",
+        "amountBet": 30,
+        "result": 0,
+        "time": "4:39"
+      },
+      {
+        "spin": 11,
+        "number": "18",
+        "amountBet": 40,
+        "result": -10,
+        "time": "4:52"
+      },
+      {
+        "spin": 12,
+        "number": "6",
+        "amountBet": 60,
+        "result": -60,
+        "time": "5:13"
+      },
+      {
+        "spin": 13,
+        "number": "36",
+        "amountBet": 90,
+        "result": 150,
+        "time": "5:35"
+      },
+      {
+        "spin": 14,
+        "number": "16",
+        "amountBet": 20,
+        "result": 10,
+        "time": "6:10"
+      },
+      {
+        "spin": 15,
+        "number": "24",
+        "amountBet": 20,
+        "result": 10,
+        "time": "6:24"
+      },
+      {
+        "spin": 16,
+        "number": "31",
+        "amountBet": 30,
+        "result": 30,
+        "time": "6:35"
+      },
+      {
+        "spin": 17,
+        "number": "33",
+        "amountBet": 20,
+        "result": 10,
+        "time": "7:14"
+      },
+      {
+        "spin": 18,
+        "number": "27",
+        "amountBet": 20,
+        "result": 10,
+        "time": "7:31"
+      },
+      {
+        "spin": 19,
+        "number": "6",
+        "amountBet": 30,
+        "result": -30,
+        "time": "8:01"
+      },
+      {
+        "spin": 20,
+        "number": "28",
+        "amountBet": 40,
+        "result": -10,
+        "time": "8:43"
+      },
+      {
+        "spin": 21,
+        "number": "29",
+        "amountBet": 60,
+        "result": -30,
+        "time": "9:23"
+      },
+      {
+        "spin": 22,
+        "number": "26",
+        "amountBet": 90,
+        "result": -60,
+        "time": "9:32"
+      },
+      {
+        "spin": 23,
+        "number": "18",
+        "amountBet": 140,
+        "result": 250,
+        "time": "9:40"
+      }
+    ]
+  },
+  {
     "name": "Red Hot Splits 🔥🔥🖤🖤",
     "airDate": "2025-01-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=2Rl1OcPUoV4",
