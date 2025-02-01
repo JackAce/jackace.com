@@ -1,5 +1,290 @@
 [
   {
+    "name": "Center Strip Tease",
+    "airDate": "2025-01-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=4uXq2SPxXCU",
+    "reviewUrl": "2025-01-09-Center-Strip-Tease",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x3-28-30":5,"x3-31-33":5,"x3-16-18":5,"x3-19-21":5,"x3-7-9":5}},
+      {"wheelType":1,"wagers":{"x4-8-12":10,"x4-13-17":10,"x4-20-24":10,"x4-25-29":10,"x4-32-36":10,"x2-0-00":10}},
+      {"wheelType":1,"wagers":{"x1-26":5,"x2-23-26":5,"x2-26-29":5,"x4-23-27":5,"x2-26-27":5,"x4-26-30":5,"x4-22-26":5,"x2-25-26":5,"x4-25-29":5,"x3-25-27":5,"x6-22-27":5,"x6-25-30":5}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 300,
+    "bets": [
+      50, 25, 60
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "19",
+        "amountBet": 50,
+        "result": 25,
+        "time": "1:44"
+      },
+      {
+        "spin": 2,
+        "number": "14",
+        "amountBet": 25,
+        "result": -25,
+        "time": "2:21"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:03"
+      },
+      {
+        "spin": 4,
+        "number": "22",
+        "amountBet": 50,
+        "result": 25,
+        "time": "3:22"
+      },
+      {
+        "spin": 5,
+        "number": "4",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:54"
+      },
+      {
+        "spin": 6,
+        "number": "6",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:24"
+      },
+      {
+        "spin": 7,
+        "number": "1",
+        "amountBet": 50,
+        "result": -50,
+        "time": "5:10"
+      },
+      {
+        "spin": 8,
+        "number": "12",
+        "amountBet": 50,
+        "result": -50,
+        "time": "5:35"
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 50,
+        "result": 25,
+        "time": "6:00"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 25,
+        "result": 35,
+        "time": "6:25"
+      },
+      {
+        "spin": 11,
+        "number": "5",
+        "amountBet": 60,
+        "result": -60,
+        "time": "7:10"
+      },
+      {
+        "spin": 12,
+        "number": "30",
+        "amountBet": 50,
+        "result": 25,
+        "time": "7:45"
+      },
+      {
+        "spin": 13,
+        "number": "21",
+        "amountBet": 25,
+        "result": 35,
+        "time": "8:25"
+      },
+      {
+        "spin": 14,
+        "number": "22",
+        "amountBet": 60,
+        "result": -60,
+        "time": "9:07"
+      },
+      {
+        "spin": 15,
+        "number": "24",
+        "amountBet": 50,
+        "result": 25,
+        "time": "9:44"
+      },
+      {
+        "spin": 16,
+        "number": "26",
+        "amountBet": 25,
+        "result": -25,
+        "time": "10:12"
+      },
+      {
+        "spin": 17,
+        "number": "00",
+        "amountBet": 50,
+        "result": -50,
+        "time": "10:42"
+      },
+      {
+        "spin": 18,
+        "number": "28",
+        "amountBet": 50,
+        "result": 25,
+        "time": "10:56"
+      },
+      {
+        "spin": 19,
+        "number": "35",
+        "amountBet": 25,
+        "result": -25,
+        "time": "11:12"
+      },
+      {
+        "spin": 20,
+        "number": "18",
+        "amountBet": 50,
+        "result": 25,
+        "time": "11:50"
+      },
+      {
+        "spin": 21,
+        "number": "36",
+        "amountBet": 25,
+        "result": -25,
+        "time": "12:24"
+      },
+      {
+        "spin": 22,
+        "number": "21",
+        "amountBet": 50,
+        "result": 25,
+        "time": "12:42"
+      },
+      {
+        "spin": 23,
+        "number": "29",
+        "amountBet": 25,
+        "result": 35,
+        "time": "13:15"
+      },
+      {
+        "spin": 24,
+        "number": "19",
+        "amountBet": 60,
+        "result": 30,
+        "time": "13:42"
+      },
+      {
+        "spin": 25,
+        "number": "6",
+        "amountBet": 60,
+        "result": -60,
+        "time": "14:26"
+      },
+      {
+        "spin": 26,
+        "number": "15",
+        "amountBet": 50,
+        "result": -50,
+        "time": "15:03"
+      },
+      {
+        "spin": 27,
+        "number": "28",
+        "amountBet": 25,
+        "result": 35,
+        "time": "15:40"
+      },
+      {
+        "spin": 28,
+        "number": "4",
+        "amountBet": 60,
+        "result": -60,
+        "time": "16:31"
+      },
+      {
+        "spin": 29,
+        "number": "19",
+        "amountBet": 50,
+        "result": 25,
+        "time": "16:57"
+      },
+      {
+        "spin": 30,
+        "number": "23",
+        "amountBet": 25,
+        "result": 35,
+        "time": "17:17"
+      },
+      {
+        "spin": 31,
+        "number": "28",
+        "amountBet": 60,
+        "result": 30,
+        "time": "17:57"
+      },
+      {
+        "spin": 32,
+        "number": "30",
+        "amountBet": 60,
+        "result": -60,
+        "time": "18:31"
+      },
+      {
+        "spin": 33,
+        "number": "28",
+        "amountBet": 50,
+        "result": 25,
+        "time": "18:53"
+      },
+      {
+        "spin": 34,
+        "number": "29",
+        "amountBet": 25,
+        "result": -25,
+        "time": "19:11"
+      },
+      {
+        "spin": 35,
+        "number": "9",
+        "amountBet": 10,
+        "result": -10,
+        "time": "19:39"
+      },
+      {
+        "spin": 36,
+        "number": "28",
+        "amountBet": 0,
+        "result": 0,
+        "time": "20:00"
+      }
+    ]
+  },
+  {
     "name": "Nolley Deluxe",
     "airDate": "2025-01-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=JCoWicoKuik",
