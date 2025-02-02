@@ -1,5 +1,177 @@
 [
   {
+    "name": "Double Street Sandwich",
+    "airDate": "2025-01-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sO9QzZTplvI",
+    "reviewUrl": "2025-01-15-Double-Street-Sandwich",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-0-00":5,"x1-1":5,"x1-2":5,"x1-9":5,"x1-10":5,"x1-13":5,"x1-14":5,"x1-25":5,"x1-26":5,"x1-27":5,"x1-28":5,"x1-35":5,"x1-36":5,"x6-16-21":25}},
+      {"wheelType":1,"wagers":{"x2-0-00":10,"x1-1":10,"x1-2":10,"x1-9":10,"x1-10":10,"x1-13":10,"x1-14":10,"x1-25":10,"x1-26":10,"x1-27":10,"x1-28":10,"x1-35":10,"x1-36":10,"x6-16-21":50}},
+      {"wheelType":1,"wagers":{"x2-0-00":15,"x1-1":15,"x1-2":15,"x1-9":15,"x1-10":15,"x1-13":15,"x1-14":15,"x1-25":15,"x1-26":15,"x1-27":15,"x1-28":15,"x1-35":15,"x1-36":15,"x6-16-21":75}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      90, 180, 270
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "24",
+        "amountBet": 90,
+        "result": -90,
+        "time": "0:53"
+      },
+      {
+        "spin": 2,
+        "number": "17",
+        "amountBet": 90,
+        "result": 60,
+        "time": "1:21"
+      },
+      {
+        "spin": 3,
+        "number": "24",
+        "amountBet": 90,
+        "result": -90,
+        "time": "1:44"
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 90,
+        "result": 90,
+        "time": "2:33"
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 180,
+        "result": 180,
+        "time": "3:19"
+      },
+      {
+        "spin": 6,
+        "number": "35",
+        "amountBet": 270,
+        "result": 270,
+        "time": "3:55"
+      },
+      {
+        "spin": 7,
+        "number": "18",
+        "amountBet": 90,
+        "result": 60,
+        "time": "5:07"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 90,
+        "result": 90,
+        "time": "5:23"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 90,
+        "result": 90,
+        "time": "6:29"
+      },
+      {
+        "spin": 10,
+        "number": "28",
+        "amountBet": 180,
+        "result": 180,
+        "time": "7:05"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 270,
+        "result": -270,
+        "time": "7:52"
+      },
+      {
+        "spin": 12,
+        "number": "8",
+        "amountBet": 90,
+        "result": -90,
+        "time": "8:59"
+      },
+      {
+        "spin": 13,
+        "number": "34",
+        "amountBet": 90,
+        "result": -90,
+        "time": "9:57"
+      },
+      {
+        "spin": 14,
+        "number": "31",
+        "amountBet": 90,
+        "result": -90,
+        "time": "10:30"
+      },
+      {
+        "spin": 15,
+        "number": "36",
+        "amountBet": 90,
+        "result": 90,
+        "time": "11:37"
+      },
+      {
+        "spin": 16,
+        "number": "24",
+        "amountBet": 180,
+        "result": -180,
+        "time": "12:29"
+      },
+      {
+        "spin": 17,
+        "number": "31",
+        "amountBet": 90,
+        "result": -90,
+        "time": "14:21"
+      },
+      {
+        "spin": 18,
+        "number": "4",
+        "amountBet": 90,
+        "result": -90,
+        "time": "15:17"
+      },
+      {
+        "spin": 19,
+        "number": "35",
+        "amountBet": 90,
+        "result": 90,
+        "time": "16:10"
+      },
+      {
+        "spin": 20,
+        "number": "34",
+        "amountBet": 180,
+        "result": -180,
+        "time": "16:42"
+      }
+    ]
+  },
+  {
     "name": "BBL Hunter",
     "airDate": "2025-01-13",
     "youtubeUrl": "https://www.youtube.com/watch?v=vzwq6JSvJe4",
