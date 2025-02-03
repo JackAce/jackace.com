@@ -5,27 +5,29 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=sO9QzZTplvI",
     "reviewUrl": "2025-01-15-Double-Street-Sandwich",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x2-0-00":5,"x1-1":5,"x1-2":5,"x1-9":5,"x1-10":5,"x1-13":5,"x1-14":5,"x1-25":5,"x1-26":5,"x1-27":5,"x1-28":5,"x1-35":5,"x1-36":5,"x6-16-21":25}},
       {"wheelType":1,"wagers":{"x2-0-00":10,"x1-1":10,"x1-2":10,"x1-9":10,"x1-10":10,"x1-13":10,"x1-14":10,"x1-25":10,"x1-26":10,"x1-27":10,"x1-28":10,"x1-35":10,"x1-36":10,"x6-16-21":50}},
       {"wheelType":1,"wagers":{"x2-0-00":15,"x1-1":15,"x1-2":15,"x1-9":15,"x1-10":15,"x1-13":15,"x1-14":15,"x1-25":15,"x1-26":15,"x1-27":15,"x1-28":15,"x1-35":15,"x1-36":15,"x6-16-21":75}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 1000,
     "bets": [
       90, 180, 270
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 4,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 3,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
@@ -177,7 +179,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=vzwq6JSvJe4",
     "reviewUrl": "2025-01-13-BBL-Hunter",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz2":10}},
@@ -185,22 +190,23 @@
       {"wheelType":1,"wagers":{"x12-doz2":50,"x6-28-33":10}},
       {"wheelType":1,"wagers":{"x12-doz2":60,"x6-28-33":15}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 200,
     "bets": [
       10, 30, 60, 75
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 0.5
     },
     "isJackAceReview": false,
+    "finalWinLoss": -70,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -305,7 +311,8 @@
         "number": "13",
         "amountBet": 10,
         "result": 20,
-        "time": "7:15"
+        "time": "7:15",
+        "notes": "Dennis took Alex's $10 instead of paying him $20. This should cause a $30 discrepancy at the end."
       },
       {
         "spin": 16,
@@ -387,7 +394,7 @@
       {
         "spin": 27,
         "number": "15",
-        "amountBet": 25,
+        "amountBet": 30,
         "result": -30,
         "time": "11:43"
       },
@@ -526,7 +533,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=4uXq2SPxXCU",
     "reviewUrl": "2025-01-09-Center-Strip-Tease",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25}},
@@ -534,22 +544,23 @@
       {"wheelType":1,"wagers":{"x4-8-12":10,"x4-13-17":10,"x4-20-24":10,"x4-25-29":10,"x4-32-36":10,"x2-0-00":10}},
       {"wheelType":1,"wagers":{"x1-26":5,"x2-23-26":5,"x2-26-29":5,"x4-23-27":5,"x2-26-27":5,"x4-26-30":5,"x4-22-26":5,"x2-25-26":5,"x4-25-29":5,"x3-25-27":5,"x6-22-27":5,"x6-25-30":5}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
-      50, 25, 60
+      50, 25, 60, 60
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 3,
+      "chipUniformity": 2,
+      "jackpotPotential": 4,
+      "scalability": 1,
+      "compValue": 1.5
     },
     "isJackAceReview": false,
+    "finalWinLoss": -200,
     "notes": "",
     "spins": [{
         "spin": 1,
