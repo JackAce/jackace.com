@@ -70,20 +70,7 @@ layout: page-no-sidebar
     <!-- Loop through systems AND spins to get bet amount, EV, and Win/Loss -->
     {%- endcomment -%}
 
-    {%- assign systems2019 = site.data.roulette-systems-2019 -%}
-    {%- assign systems2020 = site.data.roulette-systems-2020 -%}
-    {%- assign systems2021 = site.data.roulette-systems-2021 -%}
-    {%- assign systems2022 = site.data.roulette-systems-2022 -%}
-    {%- assign systems2023 = site.data.roulette-systems-2023 -%}
-    {%- assign systems2024 = site.data.roulette-systems-2024 -%}
-    
-    {%- assign systemsAllYears = systems2019 -%}
-    {%- assign systemsAllYears = systemsAllYears | concat: systems2020 -%}
-    {%- assign systemsAllYears = systemsAllYears | concat: systems2021 -%}
-    {%- assign systemsAllYears = systemsAllYears | concat: systems2022 -%}
-    {%- assign systemsAllYears = systemsAllYears | concat: systems2023 -%}
-    {%- assign systemsAllYears = systemsAllYears | concat: systems2024 -%}
-    
+    {%- assign systemsAllYears = site.data.roulette-systems -%}
     {%- assign systemsAllYears = systemsAllYears | sort: "airDate" | reverse -%}
     
     {%- if page.isJackAceReview -%}

@@ -664,6 +664,7 @@
     "rating": "b",
     "jackaceRating": "d",
     "isJackAceReview": false,
+    "finalWinLoss": 80,
     "notes": "After a loss, Martingale. After winning 2 times at a higher tier, drop down one level. Walk away when you're up $750.",
     "spins": [
       {
@@ -6420,6 +6421,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "isJackAceReview": false,
+    "finalWinLoss": 20,
     "spins": [
       {
         "spin": 1,
