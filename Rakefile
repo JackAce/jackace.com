@@ -5,13 +5,13 @@ task :build do
     sh 'rm json/roulette-systems.json'
 
     sh "jq -sc \'add\' " \
-            "data-composite/roulette-systems-2019.json " \
-            "data-composite/roulette-systems-2020.json " \
-            "data-composite/roulette-systems-2021.json " \
-            "data-composite/roulette-systems-2022.json " \
-            "data-composite/roulette-systems-2023.json " \
-            "data-composite/roulette-systems-2024.json " \
-            "data-composite/roulette-systems-2025.json " \
+            "data-disjoint/roulette-systems-2019.json " \
+            "data-disjoint/roulette-systems-2020.json " \
+            "data-disjoint/roulette-systems-2021.json " \
+            "data-disjoint/roulette-systems-2022.json " \
+            "data-disjoint/roulette-systems-2023.json " \
+            "data-disjoint/roulette-systems-2024.json " \
+            "data-disjoint/roulette-systems-2025.json " \
             "> _data/roulette-systems.json"
 
     sh "cp _data/roulette-systems.json json/roulette-systems.json"
