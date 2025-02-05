@@ -5,10 +5,7 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=0jw8X0w2uzI",
     "reviewUrl": "2025-01-21-A-Life-Changing-Strategy",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png",
-      "00-rba-1-800x768.png",
-      "00-rba-2-800x768.png",
-      "00-rba-3-800x768.png"
+      "00-rba-0-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":20,"x18-high":20}},
