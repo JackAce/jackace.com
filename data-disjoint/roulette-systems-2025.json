@@ -1,11 +1,14 @@
 [
   {
-    "name": "A Life Changing Strategy",
+    "name": "A Life Changing Strategy ☠️☠️",
     "airDate": "2025-01-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=0jw8X0w2uzI",
     "reviewUrl": "2025-01-21-A-Life-Changing-Strategy",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":20,"x18-high":20}},
@@ -13,22 +16,23 @@
       {"wheelType":1,"wagers":{"x18-black":140,"x18-odd":140}},
       {"wheelType":1,"wagers":{"x18-black":300,"x18-high":300}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Multi-Leg",
     "buyIn": 2000,
     "bets": [
       40, 120, 280, 600
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 3,
+      "chipUniformity": 2,
+      "jackpotPotential": 1,
+      "scalability": 4,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": 1000,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -313,32 +317,34 @@
     ]
   },
   {
-    "name": "David's Crazy 8s",
+    "name": "David's Crazy 8s 🎱🎱",
     "airDate": "2025-01-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=-JIuaEYpEbo",
     "reviewUrl": "2025-01-19-Davids-Crazy-8s",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-col3":10}},
       {"wheelType":1,"wagers":{"x12-col2":20}},
       {"wheelType":1,"wagers":{"x12-col1":40}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 400,
     "bets": [
       10, 20, 40
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 4,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 4,
+      "compValue": 0.5
     },
     "isJackAceReview": false,
     "notes": "",
@@ -2379,7 +2385,7 @@
     ]
   },
   {
-    "name": "Tired Dozens",
+    "name": "Tired Dozens 😩😩",
     "airDate": "2025-01-06",
     "youtubeUrl": "https://www.youtube.com/watch?v=WfI6pW6hLbA",
     "reviewUrl": "2025-01-06-Tired-Dozens",
