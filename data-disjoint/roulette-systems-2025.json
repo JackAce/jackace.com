@@ -1,5 +1,318 @@
 [
   {
+    "name": "A Life Changing Strategy",
+    "airDate": "2025-01-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0jw8X0w2uzI",
+    "reviewUrl": "2025-01-21-A-Life-Changing-Strategy",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":20,"x18-high":20}},
+      {"wheelType":1,"wagers":{"x18-black":60,"x18-odd":60}},
+      {"wheelType":1,"wagers":{"x18-black":140,"x18-odd":140}},
+      {"wheelType":1,"wagers":{"x18-black":300,"x18-high":300}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 2000,
+    "bets": [
+      40, 120, 280, 600
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "9",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:15"
+      },
+      {
+        "spin": 2,
+        "number": "26",
+        "amountBet": 120,
+        "result": 0,
+        "time": "1:49"
+      },
+      {
+        "spin": 3,
+        "number": "25",
+        "amountBet": 280,
+        "result": 0,
+        "time": "2:39"
+      },
+      {
+        "spin": 4,
+        "number": "35",
+        "amountBet": 280,
+        "result": 280,
+        "time": "3:01"
+      },
+      {
+        "spin": 5,
+        "number": "0",
+        "amountBet": 40,
+        "result": -40,
+        "time": "3:24"
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 120,
+        "result": 0,
+        "time": "3:51"
+      },
+      {
+        "spin": 7,
+        "number": "35",
+        "amountBet": 120,
+        "result": 120,
+        "time": "4:13"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 40,
+        "result": 40,
+        "time": "4:46"
+      },
+      {
+        "spin": 9,
+        "number": "23",
+        "amountBet": 40,
+        "result": 40,
+        "time": "5:15"
+      },
+      {
+        "spin": 10,
+        "number": "17",
+        "amountBet": 40,
+        "result": 40,
+        "time": "5:47"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 40,
+        "result": 0,
+        "time": "6:24"
+      },
+      {
+        "spin": 12,
+        "number": "13",
+        "amountBet": 40,
+        "result": 40,
+        "time": "6:44"
+      },
+      {
+        "spin": 13,
+        "number": "3",
+        "amountBet": 40,
+        "result": 0,
+        "time": "7:05"
+      },
+      {
+        "spin": 14,
+        "number": "3",
+        "amountBet": 40,
+        "result": 0,
+        "time": "7:37"
+      },
+      {
+        "spin": 15,
+        "number": "9",
+        "amountBet": 40,
+        "result": 0,
+        "time": "8:12"
+      },
+      {
+        "spin": 16,
+        "number": "11",
+        "amountBet": 40,
+        "result": 40,
+        "time": "8:45"
+      },
+      {
+        "spin": 17,
+        "number": "00",
+        "amountBet": 40,
+        "result": -40,
+        "time": "9:16"
+      },
+      {
+        "spin": 18,
+        "number": "22",
+        "amountBet": 120,
+        "result": 120,
+        "time": "9:28"
+      },
+      {
+        "spin": 19,
+        "number": "0",
+        "amountBet": 120,
+        "result": -120,
+        "time": "9:48"
+      },
+      {
+        "spin": 20,
+        "number": "29",
+        "amountBet": 280,
+        "result": 280,
+        "time": "10:02"
+      },
+      {
+        "spin": 21,
+        "number": "32",
+        "amountBet": 40,
+        "result": 0,
+        "time": "10:31"
+      },
+      {
+        "spin": 22,
+        "number": "24",
+        "amountBet": 40,
+        "result": 0,
+        "time": "10:47"
+      },
+      {
+        "spin": 23,
+        "number": "35",
+        "amountBet": 40,
+        "result": 40,
+        "time": "12:00"
+      },
+      {
+        "spin": 24,
+        "number": "13",
+        "amountBet": 40,
+        "result": 40,
+        "time": "12:31"
+      },
+      {
+        "spin": 25,
+        "number": "3",
+        "amountBet": 40,
+        "result": 0,
+        "time": "12:54"
+      },
+      {
+        "spin": 26,
+        "number": "2",
+        "amountBet": 40,
+        "result": 0,
+        "time": "13:09"
+      },
+      {
+        "spin": 27,
+        "number": "9",
+        "amountBet": 40,
+        "result": 0,
+        "time": "13:34"
+      },
+      {
+        "spin": 28,
+        "number": "33",
+        "amountBet": 40,
+        "result": 40,
+        "time": "14:08"
+      },
+      {
+        "spin": 29,
+        "number": "36",
+        "amountBet": 40,
+        "result": -40,
+        "time": "14:34"
+      },
+      {
+        "spin": 30,
+        "number": "16",
+        "amountBet": 120,
+        "result": -120,
+        "time": "14:50"
+      },
+      {
+        "spin": 31,
+        "number": "16",
+        "amountBet": 280,
+        "result": -280,
+        "time": "15:07"
+      },
+      {
+        "spin": 32,
+        "number": "28",
+        "amountBet": 600,
+        "result": 600,
+        "time": "15:39"
+      },
+      {
+        "spin": 33,
+        "number": "11",
+        "amountBet": 40,
+        "result": 0,
+        "time": "16:12"
+      },
+      {
+        "spin": 34,
+        "number": "14",
+        "amountBet": 40,
+        "result": -40,
+        "time": "16:23"
+      },
+      {
+        "spin": 35,
+        "number": "7",
+        "amountBet": 120,
+        "result": 0,
+        "time": "16:51"
+      },
+      {
+        "spin": 36,
+        "number": "21",
+        "amountBet": 120,
+        "result": 0,
+        "time": "17:18"
+      },
+      {
+        "spin": 37,
+        "number": "30",
+        "amountBet": 120,
+        "result": -120,
+        "time": "17:40"
+      },
+      {
+        "spin": 38,
+        "number": "14",
+        "amountBet": 280,
+        "result": -280,
+        "time": "18:17"
+      },
+      {
+        "spin": 39,
+        "number": "27",
+        "amountBet": 600,
+        "result": 0,
+        "time": "18:52"
+      },
+      {
+        "spin": 40,
+        "number": "35",
+        "amountBet": 600,
+        "result": 600,
+        "time": "19:03"
+      }
+    ]
+  },
+  {
     "name": "David's Crazy 8s",
     "airDate": "2025-01-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=-JIuaEYpEbo",
