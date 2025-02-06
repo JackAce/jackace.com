@@ -7,16 +7,43 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x18-black":20,"x18-high":20}},
-      {"wheelType":1,"wagers":{"x18-black":60,"x18-odd":60}},
-      {"wheelType":1,"wagers":{"x18-black":140,"x18-odd":140}},
-      {"wheelType":1,"wagers":{"x18-black":300,"x18-high":300}} 
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-black": 20,
+          "x18-high": 20
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-black": 60,
+          "x18-odd": 60
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-black": 140,
+          "x18-odd": 140
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-black": 300,
+          "x18-high": 300
+        }
+      }
     ],
     "systemType": "Multi-Leg",
     "buyIn": 2000,
     "bets": [
-      40, 120, 280, 600
+      40,
+      120,
+      280,
+      600
     ],
     "rating": "d",
     "jackaceRating": "d",
@@ -31,7 +58,8 @@
     "isJackAceReview": false,
     "finalWinLoss": 1000,
     "notes": "",
-    "spins": [{
+    "spins": [
+      {
         "spin": 1,
         "number": "9",
         "amountBet": 40,
@@ -323,15 +351,32 @@
       "00-rba-1-800x768.png",
       "00-rba-2-800x768.png"
     ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-col3":10}},
-      {"wheelType":1,"wagers":{"x12-col2":20}},
-      {"wheelType":1,"wagers":{"x12-col1":40}} 
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-col3": 10
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-col2": 20
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-col1": 40
+        }
+      }
     ],
     "systemType": "Positive Progression",
     "buyIn": 400,
     "bets": [
-      10, 20, 40
+      10,
+      20,
+      40
     ],
     "rating": "d",
     "jackaceRating": "c",
@@ -345,7 +390,8 @@
     },
     "isJackAceReview": false,
     "notes": "",
-    "spins": [{
+    "spins": [
+      {
         "spin": 1,
         "number": "24",
         "amountBet": 10,

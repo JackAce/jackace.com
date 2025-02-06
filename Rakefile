@@ -18,4 +18,8 @@ task :build do
 
     sh 'touch gambling/roulette/systems/index-static.html'
     sh 'touch gambling/roulette/systems/error-check.html'
+
+    # sh "jq . data-disjoint/roulette-systems-2025.json > data-disjoint/roulette-systems-2025-x.json"
+    # sh "rm data-disjoint/roulette-systems-2025.json"
+    # sh "mv data-disjoint/roulette-systems-2025-x.json data-disjoint/roulette-systems-2025.json"
 end
