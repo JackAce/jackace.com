@@ -1,5 +1,160 @@
 [
   {
+    "name": "Dangerous System",
+    "airDate": "2025-01-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=OaDDCkjqEzY",
+    "reviewUrl": "2025-01-25-Dangerous-System",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":25,"x12-doz2":25,"x1-1":5,"x1-4":5}},
+      {"wheelType":1,"wagers":{"x12-doz1":50,"x12-doz2":50,"x1-1":10,"x1-4":10,"x1-2":10,"x1-5":10}},
+      {"wheelType":1,"wagers":{"x12-doz1":100,"x12-doz2":100,"x1-1":20,"x1-4":20,"x1-2":20,"x1-5":20,"x1-7":20,"x1-8":20}},
+      {"wheelType":1,"wagers":{"x12-doz1":200,"x12-doz2":200,"x1-1":40,"x1-4":40,"x1-2":40,"x1-5":40,"x1-7":40,"x1-8":40,"x1-3":40,"x1-6":40}},
+      {"wheelType":1,"wagers":{"x12-doz1":400,"x12-doz2":400,"x1-1":80,"x1-4":80,"x1-2":80,"x1-5":80,"x1-7":80,"x1-8":80,"x1-3":80,"x1-6":80,"x1-9":80,"x1-10":80}},
+      {"wheelType":1,"wagers":{"x12-doz1":100,"x12-doz2":100,"x1-1":40,"x1-2":40,"x1-3":40,"x1-4":40,"x1-5":40,"x1-6":40}},
+      {"wheelType":1,"wagers":{"x12-doz1":400,"x12-doz2":400,"x1-1":80,"x1-2":80,"x1-3":80,"x1-4":80,"x1-5":80,"x1-6":80,"x1-7":80,"x1-8":80}},
+      {"wheelType":1,"wagers":{"x12-doz1":50,"x12-doz2":50,"x1-1":20,"x1-2":20,"x1-3":20,"x1-4":20}},
+      {"wheelType":1,"wagers":{"x12-doz1":200,"x12-doz2":200,"x1-1":40,"x1-2":40,"x1-3":40,"x1-4":40,"x1-5":40,"x1-6":40}},
+      {"wheelType":1,"wagers":{"x12-doz1":800,"x12-doz2":800,"x1-1":160,"x1-2":160,"x1-3":160,"x1-4":160,"x1-5":160,"x1-6":160,"x1-7":160,"x1-8":160,"x1-9":160,"x1-10":160}},
+      {"wheelType":1,"wagers":{"x12-doz1":1600,"x12-doz2":1600,"x1-1":320,"x1-2":320,"x1-3":320,"x1-4":320,"x1-5":320,"x1-6":320,"x1-7":320,"x1-8":320,"x1-9":320,"x1-10":320,"x1-11":320,"x1-12":320}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 5000,
+    "bets": [
+      60, 140, 320, 720, 1600, 440, 1440, 180, 640, 3200, 7040
+    ],
+    "rating": "f",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "9",
+        "amountBet": 60,
+        "result": 15,
+        "time": "3:04"
+      },
+      {
+        "spin": 2,
+        "number": "26",
+        "amountBet": 140,
+        "result": -140,
+        "time": "3:46"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 320,
+        "result": -320,
+        "time": "4:26"
+      },
+      {
+        "spin": 4,
+        "number": "17",
+        "amountBet": 720,
+        "result": -120,
+        "displayedResult": -320,
+        "time": "5:16"
+      },
+      {
+        "spin": 5,
+        "number": "8",
+        "amountBet": 1600,
+        "result": 2580,
+        "time": "6:13"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 60,
+        "result": -60,
+        "displayedResult": 15,
+        "time": "7:57"
+      },
+      {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 140,
+        "result": 10,
+        "displayedResult": 20,
+        "time": "8:23"
+      },
+      {
+        "spin": 8,
+        "number": "00",
+        "amountBet": 440,
+        "result": -440,
+        "displayedResult": -320,
+        "notes": "David may have made a mistake here. I think it should have been $100 on two dozens and $20 on six straight up bets for a $320 total bet",
+        "time": "9:02"
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 1440,
+        "result": 2640,
+        "displayedResult": 2580,
+        "notes": "David thought he had $200 on two dozens previously but it was actually $100 each",
+        "time": "9:21"
+      },
+      {
+        "spin": 10,
+        "number": "4",
+        "amountBet": 60,
+        "result": 15,
+        "displayedResult": 2580,
+        "time": "10:30"
+      },
+      {
+        "spin": 11,
+        "number": "32",
+        "amountBet": 180,
+        "result": -180,
+        "notes": "Not sure if he's purposefully modifying the system at this point but the straight up bets should have been $10 each, not $20",
+        "time": "11:10"
+      },
+      {
+        "spin": 12,
+        "number": "20",
+        "amountBet": 640,
+        "result": -40,
+        "displayedResult": -380,
+        "time": "12:02"
+      },
+      {
+        "spin": 13,
+        "number": "22",
+        "amountBet": 1440,
+        "result": -240,
+        "time": "12:32"
+      },
+      {
+        "spin": 14,
+        "number": "29",
+        "amountBet": 3200,
+        "result": -3200,
+        "time": "13:50"
+      },
+      {
+        "spin": 15,
+        "number": "5",
+        "amountBet": 7040,
+        "result": 9280,
+        "time": "16:47"
+      }
+    ]
+  },
+  {
     "name": "David's 1-3-5",
     "airDate": "2025-01-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=zPO8-sMjLMI",
