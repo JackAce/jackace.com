@@ -4742,8 +4742,8 @@
     "rating": "a",
     "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": 3,
-      "progressionSimplicity": 3,
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 4,
       "chipUniformity": 4,
       "jackpotPotential": 3,
       "scalability": 4,
