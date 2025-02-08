@@ -740,28 +740,22 @@
       {"wheelType":1,"wagers":{"x12-doz1":50,"x12-doz2":50,"x1-1":10,"x1-4":10,"x1-2":10,"x1-5":10}},
       {"wheelType":1,"wagers":{"x12-doz1":100,"x12-doz2":100,"x1-1":20,"x1-4":20,"x1-2":20,"x1-5":20,"x1-7":20,"x1-8":20}},
       {"wheelType":1,"wagers":{"x12-doz1":200,"x12-doz2":200,"x1-1":40,"x1-4":40,"x1-2":40,"x1-5":40,"x1-7":40,"x1-8":40,"x1-3":40,"x1-6":40}},
-      {"wheelType":1,"wagers":{"x12-doz1":400,"x12-doz2":400,"x1-1":80,"x1-4":80,"x1-2":80,"x1-5":80,"x1-7":80,"x1-8":80,"x1-3":80,"x1-6":80,"x1-9":80,"x1-10":80}},
-      {"wheelType":1,"wagers":{"x12-doz1":100,"x12-doz2":100,"x1-1":40,"x1-2":40,"x1-3":40,"x1-4":40,"x1-5":40,"x1-6":40}},
-      {"wheelType":1,"wagers":{"x12-doz1":400,"x12-doz2":400,"x1-1":80,"x1-2":80,"x1-3":80,"x1-4":80,"x1-5":80,"x1-6":80,"x1-7":80,"x1-8":80}},
-      {"wheelType":1,"wagers":{"x12-doz1":50,"x12-doz2":50,"x1-1":20,"x1-2":20,"x1-3":20,"x1-4":20}},
-      {"wheelType":1,"wagers":{"x12-doz1":200,"x12-doz2":200,"x1-1":40,"x1-2":40,"x1-3":40,"x1-4":40,"x1-5":40,"x1-6":40}},
-      {"wheelType":1,"wagers":{"x12-doz1":800,"x12-doz2":800,"x1-1":160,"x1-2":160,"x1-3":160,"x1-4":160,"x1-5":160,"x1-6":160,"x1-7":160,"x1-8":160,"x1-9":160,"x1-10":160}},
-      {"wheelType":1,"wagers":{"x12-doz1":1600,"x12-doz2":1600,"x1-1":320,"x1-2":320,"x1-3":320,"x1-4":320,"x1-5":320,"x1-6":320,"x1-7":320,"x1-8":320,"x1-9":320,"x1-10":320,"x1-11":320,"x1-12":320}} 
+      {"wheelType":1,"wagers":{"x12-doz1":400,"x12-doz2":400,"x1-1":80,"x1-4":80,"x1-2":80,"x1-5":80,"x1-7":80,"x1-8":80,"x1-3":80,"x1-6":80,"x1-9":80,"x1-10":80}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 5000,
     "bets": [
-      60, 140, 320, 720, 1600, 440, 1440, 180, 640, 3200, 7040
+      60, 140, 320, 720, 1600
     ],
     "rating": "f",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 2,
+      "jackpotPotential": 4,
+      "scalability": 2,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
