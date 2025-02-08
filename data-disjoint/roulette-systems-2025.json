@@ -5,29 +5,32 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=VNgIZSJr2ho",
     "reviewUrl": "2025-01-30-Big-Fish",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-col1":30,"x12-col2":30}},
       {"wheelType":1,"wagers":{"x12-col2":60,"x12-col3":30}},
       {"wheelType":1,"wagers":{"x18-high":115,"x4-8-12":25,"x4-14-18":25,"x1-16":5}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       60, 90, 170
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 3,
+      "chipUniformity": 2,
+      "jackpotPotential": 4,
+      "scalability": 1,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": -480,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -189,28 +192,32 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=OGw-bTupccM",
     "reviewUrl": "2025-01-29-Overlap-Dance",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":15,"x12-col2":10}},
-      {"wheelType":1,"wagers":{"x12-col2":30,"x2-0-00":5}}
+      {"wheelType":1,"wagers":{"x12-col2":30,"x2-0-00":5}},
+      {"wheelType":1,"wagers":{"x12-col2":30,"x2-17-20":5}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 200,
     "bets": [
-      25, 35
+      25, 35, 35
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 5,
+      "chipUniformity": 4,
+      "jackpotPotential": 4,
+      "scalability": 5,
+      "compValue": 1
     },
     "isJackAceReview": false,
+    "finalWinLoss": -40,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -288,7 +295,8 @@
         "number": "2",
         "amountBet": 35,
         "result": 55,
-        "time": "6:31"
+        "time": "6:31",
+        "notes": "Alex changed the betting pattern to bet on the 17/20 instead of the 0/00 (tier 3). This adds the possibility of a big $145 win."
       },
       {
         "spin": 12,
