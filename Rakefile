@@ -2,7 +2,9 @@ require 'rake'
 
 desc "Rolls up all the JSON files into a single JSON file and makes two copies. Usage: `rake build`"
 task :build do
+    sh "touch _data/roulette-systems.json" # It's ok if the file's not there.
     sh "rm _data/roulette-systems.json"
+    sh "touch json/roulette-systems.json" # It's ok if the file's not there.
     sh "rm json/roulette-systems.json"
 
     sh "jq -sc \'add\' " \

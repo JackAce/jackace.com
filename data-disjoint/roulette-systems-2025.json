@@ -1,33 +1,36 @@
 [
   {
-    "name": "Big Fish",
+    "name": "Big Fish 🐠",
     "airDate": "2025-01-30",
     "youtubeUrl": "https://www.youtube.com/watch?v=VNgIZSJr2ho",
     "reviewUrl": "2025-01-30-Big-Fish",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-col1":30,"x12-col2":30}},
       {"wheelType":1,"wagers":{"x12-col2":60,"x12-col3":30}},
       {"wheelType":1,"wagers":{"x18-high":115,"x4-8-12":25,"x4-14-18":25,"x1-16":5}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       60, 90, 170
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 3,
+      "chipUniformity": 2,
+      "jackpotPotential": 4,
+      "scalability": 1,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": -480,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -184,33 +187,37 @@
     ]
   },
   {
-    "name": "Overlap Dance",
+    "name": "Overlap Dance 💃",
     "airDate": "2025-01-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=OGw-bTupccM",
     "reviewUrl": "2025-01-29-Overlap-Dance",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":15,"x12-col2":10}},
-      {"wheelType":1,"wagers":{"x12-col2":30,"x2-0-00":5}}
+      {"wheelType":1,"wagers":{"x12-col2":30,"x2-0-00":5}},
+      {"wheelType":1,"wagers":{"x12-col2":30,"x2-17-20":5}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 200,
     "bets": [
-      25, 35
+      25, 35, 35
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 5,
+      "chipUniformity": 4,
+      "jackpotPotential": 4,
+      "scalability": 5,
+      "compValue": 1
     },
     "isJackAceReview": false,
+    "finalWinLoss": -40,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -288,7 +295,8 @@
         "number": "2",
         "amountBet": 35,
         "result": 55,
-        "time": "6:31"
+        "time": "6:31",
+        "notes": "Alex changed the betting pattern to bet on the 17/20 instead of the 0/00 (tier 3). This adds the possibility of a big $145 win."
       },
       {
         "spin": 12,
@@ -496,12 +504,15 @@
     ]
   },
   {
-    "name": "Oscar's Dance",
+    "name": "Oscar's Dance 🕺",
     "airDate": "2025-01-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=KNuq84GK5Nw",
     "reviewUrl": "2025-01-28-Oscars-Dance",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":10}},
@@ -509,20 +520,20 @@
       {"wheelType":1,"wagers":{"x18-black":30}},
       {"wheelType":1,"wagers":{"x12-doz2":40}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 200,
     "bets": [
       10, 20, 30, 40
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 2,
+      "chipUniformity": 4,
+      "jackpotPotential": 4,
+      "scalability": 4,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -783,31 +794,46 @@
     ]
   },
   {
-    "name": "24-8",
+    "name": "24 - 8",
     "airDate": "2025-01-27",
     "youtubeUrl": "https://www.youtube.com/watch?v=nChlqx7l2BY",
     "reviewUrl": "2025-01-27-24-8",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png",
+      "00-rba-7-800x768.png",
+      "00-rba-8-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-33":5,"x1-36":5,"x1-35":5,"x1-32":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5,"x1-34":5}}
-      
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-33":5,"x1-36":5,"x1-35":5,"x1-32":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5,"x1-34":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-33":5,"x1-32":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5,"x1-34":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-33":5,"x1-32":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-32":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-26":5,"x1-25":5,"x1-28":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-26":5,"x1-25":5}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 2000,
     "bets": [
-      120, 115, 110, 105, 100, 95, 190, 285, 380, 270, 360, 420, 340
+      120, 115, 110, 105, 100, 95, 90, 85, 80
     ],
     "rating": "f",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 1,
+      "chipUniformity": 1,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
@@ -926,7 +952,7 @@
       {"wheelType":1,"wagers":{"x12-doz1":200,"x12-doz2":200,"x1-1":40,"x1-4":40,"x1-2":40,"x1-5":40,"x1-7":40,"x1-8":40,"x1-3":40,"x1-6":40}},
       {"wheelType":1,"wagers":{"x12-doz1":400,"x12-doz2":400,"x1-1":80,"x1-4":80,"x1-2":80,"x1-5":80,"x1-7":80,"x1-8":80,"x1-3":80,"x1-6":80,"x1-9":80,"x1-10":80}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 5000,
     "bets": [
       60, 140, 320, 720, 1600
