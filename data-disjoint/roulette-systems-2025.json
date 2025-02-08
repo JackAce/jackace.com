@@ -788,19 +788,34 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=nChlqx7l2BY",
     "reviewUrl": "2025-01-27-24-8",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png",
+      "00-rba-7-800x768.png",
+      "00-rba-8-800x768.png"
     ],
      "bettingTiers": [
-       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-33":5,"x1-36":5,"x1-35":5,"x1-32":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5,"x1-34":5}}
-      
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-33":5,"x1-36":5,"x1-35":5,"x1-32":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5,"x1-34":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-33":5,"x1-32":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5,"x1-34":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-33":5,"x1-32":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-32":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5,"x1-31":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-30":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-29":5,"x1-26":5,"x1-25":5,"x1-28":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-26":5,"x1-25":5,"x1-28":5}},
+       {"wheelType":1,"wagers":{"x12-doz2":60,"x1-27":5,"x1-26":5,"x1-25":5}}
     ],
-    "systemType": "Negative Progression",
+    "systemType": "Ladder",
     "buyIn": 2000,
     "bets": [
-      120, 115, 110, 105, 100, 95, 190, 285, 380, 270, 360, 420, 340
+      120, 115, 110, 105, 100, 95, 90, 85, 80
     ],
     "rating": "f",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
       "bettingSimplicity": -1,
       "progressionSimplicity": -1,
