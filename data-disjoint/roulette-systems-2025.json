@@ -501,7 +501,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=KNuq84GK5Nw",
     "reviewUrl": "2025-01-28-Oscars-Dance",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":10}},
@@ -509,20 +512,20 @@
       {"wheelType":1,"wagers":{"x18-black":30}},
       {"wheelType":1,"wagers":{"x12-doz2":40}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 200,
     "bets": [
       10, 20, 30, 40
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 2,
+      "chipUniformity": 4,
+      "jackpotPotential": 4,
+      "scalability": 4,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -817,12 +820,12 @@
     "rating": "f",
     "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 1,
+      "chipUniformity": 1,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
