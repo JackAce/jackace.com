@@ -618,15 +618,15 @@ layout: page-no-sidebar
   {{ content }}
 
   {%-  if system.systemType == "Multi-Leg" -%}
-    <div>
+    <p>
       Since this is a Multi-Leg system, the betting diagrams may only include
       the base tier bet.
-    </div>
+    </p>
   {%-  endif -%}
 
   {%-  if system.finalWinLoss < 99999 -%}
     {%-  if system.finalWinLoss != totalWinLoss -%}
-      <div>
+      <p>
         The main player said they were
         {%  if system.finalWinLoss >= 0 %}
           up
@@ -641,7 +641,7 @@ layout: page-no-sidebar
           down
         {%  endif %}
         {% include win-loss-amount.html amount=totalWinLoss -%}.
-      </div>
+      </p>
     {%-  endif -%}
   {%-  endif -%}
 
