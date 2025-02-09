@@ -1,5 +1,198 @@
 [
   {
+    "name": "Cover it all",
+    "airDate": "2025-02-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=noRmwB6S2rg",
+    "reviewUrl": "2025-02-02-Cover-it-all",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":300,"x12-doz2":300,"x4-2-6":100,"x4-8-12":50,"x2-7-10":25,"x1-0":25}},
+      {"wheelType":1,"wagers":{"x12-doz1":300,"x12-doz2":300,"x4-26-30":100,"x2-25-28":50,"x1-0":25,"x2-31-34":25}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 800,
+    "bets": [
+      800
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "21",
+        "amountBet": 800,
+        "result": 100,
+        "time": "1:22"
+      },
+      {
+        "spin": 2,
+        "number": "9",
+        "amountBet": 800,
+        "result": -350,
+        "time": "1:32"
+      },
+      {
+        "spin": 3,
+        "number": "25",
+        "amountBet": 800,
+        "result": 100,
+        "time": "2:00"
+      },
+      {
+        "spin": 4,
+        "number": "13",
+        "amountBet": 800,
+        "result": 100,
+        "time": "2:19"
+      },
+      {
+        "spin": 5,
+        "number": "28",
+        "amountBet": 800,
+        "result": 100,
+        "time": "2:47"
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 800,
+        "result": 100,
+        "time": "3:03"
+      },
+      {
+        "spin": 7,
+        "number": "6",
+        "amountBet": 800,
+        "result": 100,
+        "time": "3:15"
+      },
+      {
+        "spin": 8,
+        "number": "21",
+        "amountBet": 800,
+        "result": 100,
+        "time": "3:33"
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 800,
+        "result": 100,
+        "time": "4:03"
+      },
+      {
+        "spin": 10,
+        "number": "0",
+        "amountBet": 800,
+        "result": 100,
+        "time": "4:11"
+      },
+      {
+        "spin": 11,
+        "number": "10",
+        "amountBet": 800,
+        "result": -350,
+        "time": "4:29"
+      },
+      {
+        "spin": 12,
+        "number": "26",
+        "amountBet": 800,
+        "result": 100,
+        "time": "4:46"
+      },
+      {
+        "spin": 13,
+        "number": "9",
+        "amountBet": 800,
+        "result": -350,
+        "time": "5:00"
+      },
+      {
+        "spin": 14,
+        "number": "31",
+        "amountBet": 800,
+        "result": -350,
+        "notes": "Alex tried to switch things up here. Same bet amounts just at different positions at the table",
+        "time": "5:49"
+      },
+      {
+        "spin": 15,
+        "number": "30",
+        "amountBet": 800,
+        "result": 100,
+        "time": "6:08"
+      },
+      {
+        "spin": 16,
+        "number": "20",
+        "amountBet": 800,
+        "result": 100,
+        "time": "6:14"
+      },
+      {
+        "spin": 17,
+        "number": "15",
+        "amountBet": 800,
+        "result": 100,
+        "time": "6:26"
+      },
+      {
+        "spin": 18,
+        "number": "31",
+        "amountBet": 800,
+        "result": 100,
+        "time": "6:50"
+      },
+      {
+        "spin": 19,
+        "number": "2",
+        "amountBet": 800,
+        "result": 100,
+        "time": "7:03"
+      },
+      {
+        "spin": 20,
+        "number": "30",
+        "amountBet": 800,
+        "result": 100,
+        "time": "7:13"
+      },
+      {
+        "spin": 21,
+        "number": "30",
+        "amountBet": 800,
+        "result": 100,
+        "time": "7:21"
+      },
+      {
+        "spin": 22,
+        "number": "16",
+        "amountBet": 800,
+        "result": 100,
+        "time": "7:29"
+      },
+      {
+        "spin": 23,
+        "number": "7",
+        "amountBet": 800,
+        "result": -350,
+        "time": "7:37"
+      }
+    ]
+  },
+  {
     "name": "Rat Race",
     "airDate": "2025-02-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=7aVXQtUSQpU",
