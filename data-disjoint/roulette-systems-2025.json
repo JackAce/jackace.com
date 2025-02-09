@@ -1,5 +1,155 @@
 [
   {
+    "name": "Rat Race",
+    "airDate": "2025-02-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7aVXQtUSQpU",
+    "reviewUrl": "2025-02-01-Rat-Race",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-14-18":5,"x4-32-36":5,"x4-25-29":5,"x4-19-23":5,"x2-17-20":5,"x2-29-32":5}},
+      {"wheelType":1,"wagers":{"x4-14-18":10,"x4-32-36":10,"x4-25-29":10,"x4-19-23":10,"x2-17-20":5,"x2-29-32":5}},
+      {"wheelType":1,"wagers":{"x4-14-18":15,"x4-32-36":15,"x4-25-29":15,"x4-19-23":15,"x2-17-20":5,"x2-29-32":5}},
+      {"wheelType":1,"wagers":{"x4-13-17":20,"x2-17-20":5,"x4-19-23":20,"x4-25-29":20,"x2-29-32":5,"x4-32-36":20}},
+      {"wheelType":1,"wagers":{"x4-13-17":25,"x2-17-20":5,"x4-19-23":25,"x4-25-29":25,"x2-29-32":5,"x4-32-36":25}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 400,
+    "bets": [
+      30, 40, 50, 70, 90, 110
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "4",
+        "amountBet": 30,
+        "result": -30,
+        "time": "1:37"
+      },
+      {
+        "spin": 2,
+        "number": "4",
+        "amountBet": 30,
+        "result": -30,
+        "time": "2:12"
+      },
+      {
+        "spin": 3,
+        "number": "00",
+        "amountBet": 30,
+        "result": -30,
+        "time": "2:33"
+      },
+      {
+        "spin": 4,
+        "number": "25",
+        "amountBet": 30,
+        "result": 15,
+        "time": "2:56"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 40,
+        "result": 95,
+        "displayedResult": 90,
+        "notes": "Not sure if this bet was a part of the original system. I think Alex was just saying you could press just two of the corner bets instead of all four",
+        "time": "3:35"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 50,
+        "result": -50,
+        "displayedResult": 50,
+        "time": "4:50"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 30,
+        "result": 15,
+        "time": "5:38"
+      },
+      {
+        "spin": 8,
+        "number": "3",
+        "amountBet": 50,
+        "result": -50,
+        "time": "6:17"
+      },
+      {
+        "spin": 9,
+        "number": "14",
+        "amountBet": 30,
+        "result": 15,
+        "time": "7:05"
+      },
+      {
+        "spin": 10,
+        "number": "19",
+        "amountBet": 50,
+        "result": 40,
+        "displayedResult": 70,
+        "time": "8:19"
+      },
+      {
+        "spin": 11,
+        "number": "16",
+        "amountBet": 70,
+        "result": -70,
+        "time": "9:12"
+      },
+      {
+        "spin": 12,
+        "number": "32",
+        "amountBet": 30,
+        "result": 105,
+        "time": "9:50"
+      },
+      {
+        "spin": 13,
+        "number": "14",
+        "amountBet": 50,
+        "result": 40,
+        "time": "10:21"
+      },
+      {
+        "spin": 14,
+        "number": "32",
+        "amountBet": 70,
+        "result": 155,
+        "time": "11:22"
+      },
+      {
+        "spin": 15,
+        "number": "19",
+        "amountBet": 90,
+        "result": 90,
+        "time": "12:33"
+      },
+      {
+        "spin": 16,
+        "number": "33",
+        "amountBet": 110,
+        "result": 115,
+        "time": "13:32"
+      }
+    ]
+  },
+  {
     "name": "Big Fish 🐠",
     "airDate": "2025-01-30",
     "youtubeUrl": "https://www.youtube.com/watch?v=VNgIZSJr2ho",
