@@ -7,53 +7,193 @@ title: Roulette Number Distribution
 </p>
 
 {%- assign spots = "0,00,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36" | split: "," -%}
-{%- assign hitCounts = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" | split: "," -%}
+{%- assign hitCountSuperString = "" -%}
+
+{% comment %}
+<!-- This goofiness is here because Liquid doesn't support array assignments -->
+{% endcomment %}
+
+{%- assign hitCount00 = 0 -%}
+{%- assign hitCount0 = 0 -%}
+{%- assign hitCount1 = 0 -%}
+{%- assign hitCount2 = 0 -%}
+{%- assign hitCount3 = 0 -%}
+{%- assign hitCount4 = 0 -%}
+{%- assign hitCount5 = 0 -%}
+{%- assign hitCount6 = 0 -%}
+{%- assign hitCount7 = 0 -%}
+{%- assign hitCount8 = 0 -%}
+{%- assign hitCount9 = 0 -%}
+{%- assign hitCount10 = 0 -%}
+{%- assign hitCount11 = 0 -%}
+{%- assign hitCount12 = 0 -%}
+{%- assign hitCount13 = 0 -%}
+{%- assign hitCount14 = 0 -%}
+{%- assign hitCount15 = 0 -%}
+{%- assign hitCount16 = 0 -%}
+{%- assign hitCount17 = 0 -%}
+{%- assign hitCount18 = 0 -%}
+{%- assign hitCount19 = 0 -%}
+{%- assign hitCount20 = 0 -%}
+{%- assign hitCount21 = 0 -%}
+{%- assign hitCount22 = 0 -%}
+{%- assign hitCount23 = 0 -%}
+{%- assign hitCount24 = 0 -%}
+{%- assign hitCount25 = 0 -%}
+{%- assign hitCount26 = 0 -%}
+{%- assign hitCount27 = 0 -%}
+{%- assign hitCount28 = 0 -%}
+{%- assign hitCount29 = 0 -%}
+{%- assign hitCount30 = 0 -%}
+{%- assign hitCount31 = 0 -%}
+{%- assign hitCount32 = 0 -%}
+{%- assign hitCount33 = 0 -%}
+{%- assign hitCount34 = 0 -%}
+{%- assign hitCount35 = 0 -%}
+{%- assign hitCount36 = 0 -%}
+
 {%- assign totalSpins = 0 -%}
 
 {%- assign systemsAllYears = site.data.roulette-systems -%}
-{%- assign systemsAllYears = systemsAllYears | sort: "airDate" | reverse -%}
 {%- assign filteredSystems = systemsAllYears | where: "isJackAceReview", false -%}
 
 {%- for system in filteredSystems -%}
 
-  {%- for i in (0..37) -%}
+  {%- assign spins = system.spins -%}
 
-    {%- assign spins = system.spins -%}
-    {%- assign numberHits = spins | where: "number", spots[i] -%}
+  {%- for spin in spins -%}
 
-    {%- if numberHits -%}
-      {%- assign currentCount = numberHits.size | times: 1 -%}
-      {%- if currentCount > 0 -%}
-
-        {%- assign currentHitCount = hitCounts[i] | times: 1 -%}
-        {%- assign currentHitCount = currentHitCount | plus: currentCount -%}
-        {%- assign totalSpins = totalSpins | plus: currentCount -%}
-        {%- assign hitCountSuperString = "" -%}
-
-        {% comment %}
-        <!-- Liquid doesn't support assigning to arrays! WTF -->
-        {% endcomment %}
-
-        {%- for j in (0..37) -%}
-          {%- if i == j -%}
-            {%- assign hitCountSuperString = hitCountSuperString | append: currentHitCount -%}
-          {%- else -%}
-            {%- assign hitCountSuperString = hitCountSuperString | append: hitCounts[j] -%}
-          {%- endif -%}
-
-          {%- if j < 37 -%}
-            {%- assign hitCountSuperString = hitCountSuperString | append: "," -%}
-          {%- endif -%}
-        {%- endfor -%}
-
-        {%- assign hitCounts = hitCountSuperString | split: "," -%}
-
-      {%- endif -%}
+    {%- assign currentNumberString = spin.number | append: "" -%}
+    {%- assign currentNumberX = currentNumberString | times: 1 -%}
+    
+    {%- if currentNumberString == "0" -%}
+      {%- assign hitCount0 = hitCount0 | plus: 1 -%}
+    {%- elsif currentNumberString == "00" -%}
+      {%- assign hitCount00 = hitCount00 | plus: 1 -%}
+    {%- elsif currentNumberString == "1" -%}
+      {%- assign hitCount1 = hitCount1 | plus: 1 -%}
+    {%- elsif currentNumberString == "2" -%}
+      {%- assign hitCount2 = hitCount2 | plus: 1 -%}
+    {%- elsif currentNumberString == "3" -%}
+      {%- assign hitCount3 = hitCount3 | plus: 1 -%}
+    {%- elsif currentNumberString == "4" -%}
+      {%- assign hitCount4 = hitCount4 | plus: 1 -%}
+    {%- elsif currentNumberString == "5" -%}
+      {%- assign hitCount5 = hitCount5 | plus: 1 -%}
+    {%- elsif currentNumberString == "6" -%}
+      {%- assign hitCount6 = hitCount6 | plus: 1 -%}
+    {%- elsif currentNumberString == "7" -%}
+      {%- assign hitCount7 = hitCount7 | plus: 1 -%}
+    {%- elsif currentNumberString == "8" -%}
+      {%- assign hitCount8 = hitCount8 | plus: 1 -%}
+    {%- elsif currentNumberString == "9" -%}
+      {%- assign hitCount9 = hitCount9 | plus: 1 -%}
+    {%- elsif currentNumberString == "10" -%}
+      {%- assign hitCount10 = hitCount10 | plus: 1 -%}
+    {%- elsif currentNumberString == "11" -%}
+      {%- assign hitCount11 = hitCount11 | plus: 1 -%}
+    {%- elsif currentNumberString == "12" -%}
+      {%- assign hitCount12 = hitCount12 | plus: 1 -%}
+    {%- elsif currentNumberString == "13" -%}
+      {%- assign hitCount13 = hitCount13 | plus: 1 -%}
+    {%- elsif currentNumberString == "14" -%}
+      {%- assign hitCount14 = hitCount14 | plus: 1 -%}
+    {%- elsif currentNumberString == "15" -%}
+      {%- assign hitCount15 = hitCount15 | plus: 1 -%}
+    {%- elsif currentNumberString == "16" -%}
+      {%- assign hitCount16 = hitCount16 | plus: 1 -%}
+    {%- elsif currentNumberString == "17" -%}
+      {%- assign hitCount17 = hitCount17 | plus: 1 -%}
+    {%- elsif currentNumberString == "18" -%}
+      {%- assign hitCount18 = hitCount18 | plus: 1 -%}
+    {%- elsif currentNumberString == "19" -%}
+      {%- assign hitCount19 = hitCount19 | plus: 1 -%}
+    {%- elsif currentNumberString == "20" -%}
+      {%- assign hitCount20 = hitCount20 | plus: 1 -%}
+    {%- elsif currentNumberString == "21" -%}
+      {%- assign hitCount21 = hitCount21 | plus: 1 -%}
+    {%- elsif currentNumberString == "22" -%}
+      {%- assign hitCount22 = hitCount22 | plus: 1 -%}
+    {%- elsif currentNumberString == "23" -%}
+      {%- assign hitCount23 = hitCount23 | plus: 1 -%}
+    {%- elsif currentNumberString == "24" -%}
+      {%- assign hitCount24 = hitCount24 | plus: 1 -%}
+    {%- elsif currentNumberString == "25" -%}
+      {%- assign hitCount25 = hitCount25 | plus: 1 -%}
+    {%- elsif currentNumberString == "26" -%}
+      {%- assign hitCount26 = hitCount26 | plus: 1 -%}
+    {%- elsif currentNumberString == "27" -%}
+      {%- assign hitCount27 = hitCount27 | plus: 1 -%}
+    {%- elsif currentNumberString == "28" -%}
+      {%- assign hitCount28 = hitCount28 | plus: 1 -%}
+    {%- elsif currentNumberString == "29" -%}
+      {%- assign hitCount29 = hitCount29 | plus: 1 -%}
+    {%- elsif currentNumberString == "30" -%}
+      {%- assign hitCount30 = hitCount30 | plus: 1 -%}
+    {%- elsif currentNumberString == "31" -%}
+      {%- assign hitCount31 = hitCount31 | plus: 1 -%}
+    {%- elsif currentNumberString == "32" -%}
+      {%- assign hitCount32 = hitCount32 | plus: 1 -%}
+    {%- elsif currentNumberString == "33" -%}
+      {%- assign hitCount33 = hitCount33 | plus: 1 -%}
+    {%- elsif currentNumberString == "34" -%}
+      {%- assign hitCount34 = hitCount34 | plus: 1 -%}
+    {%- elsif currentNumberString == "35" -%}
+      {%- assign hitCount35 = hitCount35 | plus: 1 -%}
+    {%- elsif currentNumberString == "36" -%}
+      {%- assign hitCount36 = hitCount36 | plus: 1 -%}
     {%- endif -%}
+
+    {%- assign totalSpins = totalSpins | plus: 1 -%}
+
+    {% comment %}
+    <!-- Liquid doesn't support assigning to arrays! WTF -->
+    {% endcomment %}
 
   {%- endfor -%}
 
 {%- endfor -%}
+
+{%- assign hitCountSuperString = hitCount0 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount00 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount1 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount2 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount3 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount4 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount5 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount6 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount7 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount8 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount9 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount10 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount11 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount12 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount13 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount14 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount15 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount16 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount17 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount18 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount19 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount20 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount21 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount22 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount23 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount24 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount25 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount26 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount27 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount28 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount29 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount30 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount31 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount32 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount33 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount34 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount35 | append: "," -%}
+{%- assign hitCountSuperString = hitCountSuperString | append: hitCount36 -%}
+
+{%- assign hitCounts = hitCountSuperString | split: "," -%}
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
@@ -117,7 +257,7 @@ title: Roulette Number Distribution
     </tr>
     <tr>
       <td></td>
-      <td>{{- totalSpins -}}</td>
+      <td>{%- include format-number.html number=totalSpins places=0 -%}</td>
       <td></td>
       <td></td>
     </tr>

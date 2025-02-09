@@ -450,6 +450,39 @@ layout: page-no-sidebar
     {%- endif -%}
     </figcaption>
 </figure>
+
+<div class="system-review-content">
+  {{ content }}
+
+  {%-  if system.systemType == "Multi-Leg" -%}
+    <p>
+      Since this is a Multi-Leg system, the betting diagrams may only include
+      the base tier bet.
+    </p>
+  {%-  endif -%}
+
+  {%-  if system.finalWinLoss < 99999 -%}
+    {%-  if system.finalWinLoss != totalWinLoss -%}
+      <p>
+        The main player said they were
+        {%  if system.finalWinLoss >= 0 %}
+          up
+        {%  else %}
+          down
+        {%  endif %}
+        {% include win-loss-amount.html amount=system.finalWinLoss -%},
+        but I have them being
+        {%  if totalWinLoss >= 0 %}
+          up
+        {%  else %}
+          down
+        {%  endif %}
+        {% include win-loss-amount.html amount=totalWinLoss -%}.
+      </p>
+    {%-  endif -%}
+  {%-  endif -%}
+</div>
+
 {%- for i in (1..groupLoops) -%}
   <!-- assign loopSpins = system.spins | sort: "spin" -->
   {%- assign loopSpins = system.spins -%}
@@ -613,43 +646,6 @@ layout: page-no-sidebar
     </tfoot>
   </table>
 {% endfor %}
-
-<div class="system-review-content">
-  {{ content }}
-
-  {%-  if system.systemType == "Multi-Leg" -%}
-    <p>
-      Since this is a Multi-Leg system, the betting diagrams may only include
-      the base tier bet.
-    </p>
-  {%-  endif -%}
-
-  {%-  if system.finalWinLoss < 99999 -%}
-    {%-  if system.finalWinLoss != totalWinLoss -%}
-      <p>
-        The main player said they were
-        {%  if system.finalWinLoss >= 0 %}
-          up
-        {%  else %}
-          down
-        {%  endif %}
-        {% include win-loss-amount.html amount=system.finalWinLoss -%},
-        but I have them being
-        {%  if totalWinLoss >= 0 %}
-          up
-        {%  else %}
-          down
-        {%  endif %}
-        {% include win-loss-amount.html amount=totalWinLoss -%}.
-      </p>
-    {%-  endif -%}
-  {%-  endif -%}
-
-
-  {% comment %}
-    Put something to handle win/loss discrepancies here.
-  {% endcomment %}
-</div>
 
 <br/>
 <br/>
