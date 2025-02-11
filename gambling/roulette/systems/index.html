@@ -182,7 +182,7 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
               if (!data) {
                 return '<i>unknown</i>'
               }
-              return '<span class="rating rating-' + data + '" title="' + data.toUpperCase() + '" >' + data.toUpperCase() + '</span>'
+              return `<a href="?rating=${row.rating}"><span class="rating rating-${data}" title="${data.toUpperCase()}" >${data.toUpperCase()}</span></a>`;
             },
             defaultContent: '<i>unknown</i>'
           },
@@ -192,7 +192,7 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
               if (!data) {
                 return '<i>unknown</i>'
               }
-              return '<span class="rating rating-' + row.jackaceRating + '" >' + row.jackaceRating.toUpperCase() + '</span>'
+              return `<a href="?jackaceRating=${row.jackaceRating}"><span class="rating rating-${row.jackaceRating}" >${row.jackaceRating.toUpperCase()}</span></a>`;
             },
             defaultContent: '<i>unknown</i>'
           },
