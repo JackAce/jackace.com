@@ -5,36 +5,48 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=9X5-p6R5Uic",
     "reviewUrl": "2025-02-05-Fibonacci-Chase",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png",
+      "00-rba-7-800x768.png",
+      "00-rba-8-800x768.png",
+      "00-rba-9-800x768.png",
+      "00-rba-10-800x768.png"
     ],
      "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col2":10}},
       {"wheelType":1,"wagers":{"x12-col2":10}},
       {"wheelType":1,"wagers":{"x12-col3":20}},
       {"wheelType":1,"wagers":{"x12-col1":30}},
       {"wheelType":1,"wagers":{"x12-col3":50}},
-      {"wheelType":1,"wagers":{"x18-even":30}},
-      {"wheelType":1,"wagers":{"x18-odd":30}},
       {"wheelType":1,"wagers":{"x12-col3":80}},
       {"wheelType":1,"wagers":{"x12-col1":130}},
       {"wheelType":1,"wagers":{"x12-col3":210}},
-      {"wheelType":1,"wagers":{"x12-col1":340}} 
+      {"wheelType":1,"wagers":{"x12-col1":340}},
+      {"wheelType":1,"wagers":{"x18-even":30}},
+      {"wheelType":1,"wagers":{"x12-col3":50}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 1000,
     "bets": [
-      10, 20, 30, 50, 80, 130, 210, 340, 125
+      10, 10, 20, 30, 50, 80, 130, 210, 340, 30, 50
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 0.5,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 1
     },
     "isJackAceReview": false,
+    "finalWinLoss": -985,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -277,7 +289,7 @@
       {"wheelType":1,"wagers":{"x18-high":50,"x12-doz1":25}},
       {"wheelType":1,"wagers":{"x2-17-20":20,"x4-19-23":15,"x4-20-24":15,"x4-13-17":15,"x4-14-18":15,"x2-0-00":10,"x12-doz2":35}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 400,
     "bets": [
       50, 75, 75, 125
