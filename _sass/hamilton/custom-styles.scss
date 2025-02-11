@@ -109,6 +109,12 @@ blockquote {
     background-repeat: no-repeat;
     font-weight: bold;
     display: inline-block;
+    a {
+        color: #fff;
+    }
+    a:hover {
+        color: #ff0;
+    }
 }
 .rating-a {
     background-image: url('/assets/img/systems/ratings/a-30x30.png');
@@ -521,6 +527,16 @@ div.infobox-error {
         font-size: 16px;
         text-align: center;
     }
+}
+
+.borderless {
+    td {
+        border: 0px;
+    }
+    th {
+        border: 0px;
+    }
+    border: 0px;
 }
 
 .key-value-table {
