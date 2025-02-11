@@ -23,7 +23,7 @@ task :build do
     sh "touch gambling/roulette/systems/error-check.html"
 end
 
-desc "Reformats a single JSON file in place. Usage: `rake json_refresh[file_path]`"
+desc "Reformats a single JSON file in place. Usage: `rake \"json_refresh[file_path]\"`"
 task :json_refresh, [:file_path] do |t, args|
     if args[:file_path].nil?
         puts "Usage: rake json_refresh[file_path]"
@@ -32,7 +32,7 @@ task :json_refresh, [:file_path] do |t, args|
 
     file_path = args[:file_path]
     # TODO: Make sure this process short circuits if there is an error
-    sh "jq . #{file_path} > temp-#{file_path}"
-    sh "rm #{file_path}"
-    sh "mv temp-#{file_path} #{file_path}"
+    sh "jq . data-disjoint/#{file_path} > data-disjoint/temp-#{file_path}"
+    sh "rm data-disjoint/#{file_path}"
+    sh "mv data-disjoint/temp-#{file_path} data-disjoint/#{file_path}"
 end
