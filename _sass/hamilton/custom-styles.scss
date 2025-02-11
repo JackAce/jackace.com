@@ -523,6 +523,16 @@ div.infobox-error {
     }
 }
 
+.borderless {
+    td {
+        border: 0px;
+    }
+    th {
+        border: 0px;
+    }
+    border: 0px;
+}
+
 .key-value-table {
     width: 70%;
     th {

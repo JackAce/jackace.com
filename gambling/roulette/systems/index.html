@@ -13,7 +13,6 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
 
   $(document).ready(function() {
     let allSystems = [];
-
     $.ajax({ 
         type: 'GET', 
         url: systemUrl, 
@@ -21,6 +20,7 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
         dataType: 'json',
         success: function (data) { 
           let filteredData = data.filter(item => item.isJackAceReview === false);
+          filteredData = filterFromQueryString(filteredData);
           allSystems.push(...filteredData);
           populateDataTable(allSystems);
         }
@@ -81,6 +81,26 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
     }
 
     return '<span class="system-type" title="' + systemType + '">' + typeIcon + '&nbsp;' + systemType + '</span>';
+  }
+
+  function filterFromQueryString(data) {
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (searchParams, prop) => searchParams.get(prop),
+    });
+
+    let ratingQSValue = params.rating;
+    let jackaceRatingQSValue = params.jackaceRating;
+
+    if (ratingQSValue) {
+      console.log(`Filtering for rating: ${ratingQSValue}`);
+      data = data.filter(item => item.rating === ratingQSValue);
+    }
+    else if (jackaceRatingQSValue) {
+      console.log(`Filtering for jackaceRating: ${jackaceRatingQSValue}`);
+      data = data.filter(item => item.jackaceRating === jackaceRatingQSValue);
+    }
+
+    return data;
   }
 
   function populateDataTable(dataTableData) {
@@ -219,6 +239,26 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
     Have an idea for a Roulette system that you'd like Jack to review? Learn how to
     <a href="{{site.baseurl}}/gambling/roulette/systems/submit">submit your Roulette strategy to JackAce</a>!
   </p>
+  <table class="borderless">
+    <tr>
+      <th>
+        CEG Rating:
+        <a href="?rating=a">{% include ceg-system-rating.html rating="a" showRatingLetter=false showRatingName=false %}</a> |
+        <a href="?rating=b">{% include ceg-system-rating.html rating="b" showRatingLetter=false showRatingName=false %}</a> |
+        <a href="?rating=c">{% include ceg-system-rating.html rating="c" showRatingLetter=false showRatingName=false %}</a> |
+        <a href="?rating=d">{% include ceg-system-rating.html rating="d" showRatingLetter=false showRatingName=false %}</a> |
+        <a href="?rating=f">{% include ceg-system-rating.html rating="f" showRatingLetter=false showRatingName=false %}</a>
+      </th>
+      <th>
+        JackAce Rating:
+        <a href="?jackaceRating=a">{% include ceg-system-rating.html rating="a" showRatingLetter=false showRatingName=false %}</a> |
+        <a href="?jackaceRating=b">{% include ceg-system-rating.html rating="b" showRatingLetter=false showRatingName=false %}</a> |
+        <a href="?jackaceRating=c">{% include ceg-system-rating.html rating="c" showRatingLetter=false showRatingName=false %}</a> |
+        <a href="?jackaceRating=d">{% include ceg-system-rating.html rating="d" showRatingLetter=false showRatingName=false %}</a> |
+        <a href="?jackaceRating=f">{% include ceg-system-rating.html rating="f" showRatingLetter=false showRatingName=false %}</a>
+      </th>
+    </tr>
+  </table>
 {%- endif -%}
 
 <div>
