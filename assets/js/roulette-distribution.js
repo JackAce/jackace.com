@@ -31,8 +31,6 @@ function updateChart() {
         hits[i] = parseInt($('#hits-' + indexes[i]).text());
     }
 
-    console.log(hits);
-
     let graphData = [];
     let backgroundColors = [];
     let totalSpins = 0;

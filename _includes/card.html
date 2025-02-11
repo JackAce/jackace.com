@@ -1,4 +1,3 @@
-
 {%- assign rank = include.card | slice: 0, 1 -%}
 {%- assign suit = include.card | slice: 1, 1 -%}
 {%- assign class = include.class | default: "card-md" -%}
@@ -17,7 +16,6 @@
 {%- endif -%}
 
 {%- assign suitSymbol = "♠" -%}
-
 {%- assign color = "black" -%}
 
 {%- if showSuitLetter -%}

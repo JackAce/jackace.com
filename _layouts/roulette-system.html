@@ -419,13 +419,13 @@ layout: page-no-sidebar
     {%- endif -%}
 
     {%- if system.bets[i] > 0 -%}
-      {%- assign tierName = tierName | append: " ($" -%}
+      {%- assign tierName = tierName | append: "&nbsp;($" -%}
       {%- assign tierName = tierName | append: system.bets[i] -%}
       {%- assign tierName = tierName | append: ")" -%}
     {%- endif -%}
     <a href="javascript:displayRbaImage('{{- imageUrl -}}', '{{- bettingConfig  -}}');">{{- tierName -}}</a>
     {%- if i < imageLimit -%}
-      &nbsp;&nbsp;|&nbsp;&nbsp;
+      |&nbsp;
     {%- endif -%}
   {%- endfor -%}
 {%- endif -%}
@@ -647,9 +647,4 @@ layout: page-no-sidebar
   </table>
 {% endfor %}
 
-<br/>
-<br/>
-<div>
-  <a href="{{site.baseurl}}/gambling/roulette/systems/">Back to Roulette Systems</a> <br/>
-  <a href="{{site.baseurl}}/gambling/roulette/systems/distribution/">View distribution of all numbers</a> <br/>
-</div>
+{%- include footer-roulette-systems.html -%}
