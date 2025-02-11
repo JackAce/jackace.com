@@ -5,9 +5,7 @@ let hits = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 let spotsRed = ['1','3','5','7','9','12','14','16','18','19','21','23','25','27','30','32','34','36'];
 
 $(document).ready(function() {
-    console.log('DO IT');
     updateUi();
-    console.log('IBBE DONE');
 });
     
 function updateUi() {
