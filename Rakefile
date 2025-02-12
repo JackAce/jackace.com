@@ -7,6 +7,7 @@ task :build do
     sh "touch json/roulette-systems.json" # It's ok if the file's not there.
     sh "rm json/roulette-systems.json"
 
+    # Merge the json files and place in the _data folder. This is needed by Jekyll
     sh "jq -sc \'add\' " \
             "data-disjoint/roulette-systems-2019.json " \
             "data-disjoint/roulette-systems-2020.json " \
@@ -17,8 +18,10 @@ task :build do
             "data-disjoint/roulette-systems-2025.json " \
             "> _data/roulette-systems.json"
 
+    # Copy to a folder that Jekyll *DOESN'T* remove. This is needed by DataGrid.js.
     sh "cp _data/roulette-systems.json json/roulette-systems.json"
 
+    # Force the regeneration of these files
     sh "touch gambling/roulette/systems/index-static.html"
     sh "touch gambling/roulette/systems/error-check.html"
 end
