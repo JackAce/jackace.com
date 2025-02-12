@@ -8,7 +8,7 @@ let backgroundColors = [
     'rgba(217, 90, 106, 1)',
     'rgba(223, 155, 123, 1)',
     'rgba(173, 101, 122, 1)',
-    'rgba(92, 54, 93, 1)',
+    'rgba(160, 86, 168, 1)',
     'rgba(155, 154, 39, 1)'
 ];
 
@@ -62,6 +62,9 @@ function updateCharts() {
         },
         options: {
             responsive: true,
+            legend: {
+                display: false
+            },
             layout: {
                 padding: 10
             }
@@ -93,6 +96,9 @@ function updateCharts() {
         },
         options: {
             responsive: true,
+            legend: {
+                display: false
+            },
             layout: {
                 padding: 10
             }
