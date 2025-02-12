@@ -131,6 +131,34 @@ blockquote {
 .rating-f {
     background-image: url('/assets/img/systems/ratings/f-30x30.png');
 }
+.rating-cell {
+    font-size: 20px;
+}
+.rating-link {
+    color: #000;
+}
+.rating-link:hover{
+    color: #666;
+}
+.rating-link:visited{
+    color: #333;
+}
+.rating-cell-a {
+    background-color: #d95a6a;
+}
+.rating-cell-b {
+    background-color: #df9b7b;
+}
+.rating-cell-c {
+    background-color: #ad657a;
+}
+.rating-cell-d {
+    background-color: #a056a8;
+}
+.rating-cell-f {
+    background-color: #9b9a27;
+}
+
 .system-type {
     font-size: 14px;
     color: #999;
