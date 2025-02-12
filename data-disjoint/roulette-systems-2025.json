@@ -1,5 +1,125 @@
 [
   {
+    "name": "4.2.2",
+    "airDate": "2025-02-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=AtTqPFS-jPE",
+    "reviewUrl": "2025-02-08-4-2-2",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-1-5":10,"x4-8-12":10,"x4-26-30":10,"x4-31-35":10,"x3-16-18":10,"x3-19-21":10,"x2-22-25":10,"x2-10-13":10}},
+      {"wheelType":1,"wagers":{"x4-1-5":15,"x4-8-12":15,"x4-26-30":15,"x4-31-35":15,"x3-16-18":15,"x3-19-21":15,"x2-22-25":15,"x2-10-13":15}},
+      {"wheelType":1,"wagers":{"x4-1-5":20,"x4-8-12":20,"x2-7-10":20,"x3-16-18":20,"x3-19-21":20,"x2-22-25":20,"x4-26-30":20,"x4-31-35":20}},
+      {"wheelType":1,"wagers":{"x4-1-5":25,"x4-8-12":25,"x2-10-13":25,"x3-16-18":25,"x3-19-21":25,"x2-22-25":25,"x4-26-30":25,"x4-31-35":25}},
+      {"wheelType":1,"wagers":{"x4-1-5":30,"x4-8-12":30,"x2-13-14":30,"x3-16-18":30,"x3-19-21":30,"x2-22-23":30,"x4-26-30":30,"x4-31-35":30}},
+      {"wheelType":1,"wagers":{"x4-1-5":35,"x4-8-12":35,"x2-13-14":35,"x3-16-18":35,"x3-19-21":35,"x2-22-23":35,"x4-25-29":35,"x4-32-36":35}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 600,
+    "bets": [
+      80, 120, 160, 200, 240, 280
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "26",
+        "amountBet": 80,
+        "result": 10,
+        "time": "1:13"
+      },
+      {
+        "spin": 2,
+        "number": "0",
+        "amountBet": 80,
+        "result": -80,
+        "time": "1:47"
+      },
+      {
+        "spin": 3,
+        "number": "32",
+        "amountBet": 120,
+        "result": 15,
+        "time": "2:31"
+      },
+      {
+        "spin": 4,
+        "number": "21",
+        "amountBet": 120,
+        "result": 60,
+        "displayedResult": -30,
+        "time": "3:14"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 120,
+        "result": -120,
+        "time": "4:02"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 160,
+        "result": -160,
+        "time": "4:51"
+      },
+      {
+        "spin": 7,
+        "number": "2",
+        "amountBet": 200,
+        "result": 25,
+        "time": "5:28"
+      },
+      {
+        "spin": 8,
+        "number": "4",
+        "amountBet": 200,
+        "result": 25,
+        "time": "6:01"
+      },
+      {
+        "spin": 9,
+        "number": "3",
+        "amountBet": 200,
+        "result": -200,
+        "time": "7:11"
+      },
+      {
+        "spin": 10,
+        "number": "6",
+        "amountBet": 240,
+        "result": -240,
+        "time": "8:08"
+      },
+      {
+        "spin": 11,
+        "number": "25",
+        "amountBet": 280,
+        "result": 35,
+        "time": "9:30"
+      },
+      {
+        "spin": 12,
+        "number": "7",
+        "amountBet": 280,
+        "result": -280,
+        "time": "10:20"
+      }
+    ]
+  },
+  {
     "name": "Nolley Remix",
     "airDate": "2025-02-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=ibYl2MnQkCg",
