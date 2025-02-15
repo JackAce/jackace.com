@@ -1,5 +1,225 @@
 [
   {
+    "name": "Quarter and Dimes",
+    "airDate": "2025-02-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1H2lJGt-uUw",
+    "reviewUrl": "2025-02-14-Quarter-and-Dimes",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25,"x3-28-30":10,"x3-13-15":10}},
+      {"wheelType":1,"wagers":{"x1-11":5,"x1-13":10,"x1-14":10,"x1-17":15,"x1-19":5,"x1-20":15,"x1-22":5,"x2-0-00":10,"x1-25":10,"x1-26":10,"x1-29":20,"x1-31":5,"x1-32":5}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30,"x3-19-21":10,"x3-31-33":10}},
+      {"wheelType":1,"wagers":{"x1-15":5,"x1-17":5,"x1-19":5,"x1-20":5,"x1-23":5,"x12-doz2":50,"x12-col2":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-col2":50,"x2-0-00":10,"x1-17":5,"x1-20":5,"x1-24":5,"x1-26":5}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 300,
+    "bets": [
+      70, 125, 80, 130
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "28",
+        "amountBet": 70,
+        "result": 125,
+        "time": "0:43"
+      },
+      {
+        "spin": 2,
+        "number": "19",
+        "amountBet": 125,
+        "result": 55,
+        "time": "1:22"
+      },
+      {
+        "spin": 3,
+        "number": "23",
+        "amountBet": 125,
+        "result": -125,
+        "time": "2:10"
+      },
+      {
+        "spin": 4,
+        "number": "7",
+        "amountBet": 70,
+        "result": -70,
+        "displayedResult": -125,
+        "time": "2:59"
+      },
+      {
+        "spin": 5,
+        "number": "34",
+        "amountBet": 70,
+        "result": 5,
+        "time": "3:22"
+      },
+      {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 70,
+        "result": 5,
+        "time": "3:44"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 80,
+        "result": 130,
+        "notes": "Alex decided to press up the dozens on step 1 here",
+        "time": "4:21"
+      },
+      {
+        "spin": 8,
+        "number": "18",
+        "amountBet": 125,
+        "result": 25,
+        "time": "4:49"
+      },
+      {
+        "spin": 9,
+        "number": "4",
+        "amountBet": 130,
+        "result": -130,
+        "notes": "Alex decided to press up the $125 bet on step 2 here",
+        "time": "5:23"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 70,
+        "result": 5,
+        "time": "6:08"
+      },
+      {
+        "spin": 11,
+        "number": "2",
+        "amountBet": 70,
+        "result": -70,
+        "time": "6:18"
+      },
+      {
+        "spin": 12,
+        "number": "15",
+        "amountBet": 70,
+        "result": 5,
+        "time": "6:41"
+      },
+      {
+        "spin": 13,
+        "number": "12",
+        "amountBet": 70,
+        "result": -70,
+        "time": "7:23"
+      },
+      {
+        "spin": 14,
+        "number": "17",
+        "amountBet": 70,
+        "result": 5,
+        "time": "7:39"
+      },
+      {
+        "spin": 15,
+        "number": "5",
+        "amountBet": 70,
+        "result": -70,
+        "time": "7:58"
+      },
+      {
+        "spin": 16,
+        "number": "15",
+        "amountBet": 70,
+        "result": 5,
+        "time": "8:35"
+      },
+      {
+        "spin": 17,
+        "number": "7",
+        "amountBet": 70,
+        "result": -70,
+        "time": "9:18"
+      },
+      {
+        "spin": 18,
+        "number": "4",
+        "amountBet": 70,
+        "result": -70,
+        "time": "9:48"
+      },
+      {
+        "spin": 19,
+        "number": "3",
+        "amountBet": 70,
+        "result": -70,
+        "displayedResult": -75,
+        "time": "10:09"
+      },
+      {
+        "spin": 20,
+        "number": "16",
+        "amountBet": 70,
+        "result": 5,
+        "time": "10:25"
+      },
+      {
+        "spin": 21,
+        "number": "12",
+        "amountBet": 70,
+        "result": -70,
+        "time": "10:35"
+      },
+      {
+        "spin": 22,
+        "number": "3",
+        "amountBet": 70,
+        "result": -70,
+        "time": "10:43"
+      },
+      {
+        "spin": 23,
+        "number": "15",
+        "amountBet": 70,
+        "result": 5,
+        "time": "10:55"
+      },
+      {
+        "spin": 24,
+        "number": "21",
+        "amountBet": 70,
+        "result": 5,
+        "time": "11:16"
+      },
+      {
+        "spin": 25,
+        "number": "8",
+        "amountBet": 70,
+        "result": -70,
+        "time": "11:54"
+      },
+      {
+        "spin": 26,
+        "number": "32",
+        "amountBet": 0,
+        "result": 0,
+        "time": "12:32"
+      }
+    ]
+  },
+  {
     "name": "6-12 House Money",
     "airDate": "2025-02-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=Y-nlbyguDqY",
