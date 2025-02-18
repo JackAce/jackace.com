@@ -1,5 +1,232 @@
 [
   {
+    "name": "Texas Two Step Nolley",
+    "airDate": "2025-02-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=cM2DASSfchM",
+    "reviewUrl": "2025-02-15-Texas-Two-Step-Nolley",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col1":10,"x12-col2":10}}       
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 2000,
+    "bets": [
+      20, 30, 40, 60, 90, 80, 120, 100, 150, 180, 140, 160, 240, 300, 400
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "29",
+        "amountBet": 20,
+        "result": 10,
+        "time": "1:42"
+      },
+      {
+        "spin": 2,
+        "number": "31",
+        "amountBet": 30,
+        "result": 30,
+        "time": "2:32"
+      },
+      {
+        "spin": 3,
+        "number": "12",
+        "amountBet": 20,
+        "result": 10,
+        "time": "2:58"
+      },
+      {
+        "spin": 4,
+        "number": "8",
+        "amountBet": 30,
+        "result": 30,
+        "time": "3:12"
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 20,
+        "result": 10,
+        "time": "3:45"
+      },
+      {
+        "spin": 6,
+        "number": "34",
+        "amountBet": 20,
+        "result": 10,
+        "time": "4:24"
+      },
+      {
+        "spin": 7,
+        "number": "7",
+        "amountBet": 30,
+        "result": 0,
+        "time": "4:49"
+      },
+      {
+        "spin": 8,
+        "number": "32",
+        "amountBet": 30,
+        "result": 30,
+        "time": "5:11"
+      },
+      {
+        "spin": 9,
+        "number": "36",
+        "amountBet": 20,
+        "result": 10,
+        "time": "5:35"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 30,
+        "result": 30,
+        "time": "5:58"
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 20,
+        "result": -20,
+        "time": "6:38"
+      },
+      {
+        "spin": 12,
+        "number": "33",
+        "amountBet": 40,
+        "result": -40,
+        "time": "7:02"
+      },
+      {
+        "spin": 13,
+        "number": "1",
+        "amountBet": 60,
+        "result": 30,
+        "time": "7:33"
+      },
+      {
+        "spin": 14,
+        "number": "1",
+        "amountBet": 90,
+        "result": 0,
+        "time": "8:16"
+      },
+      {
+        "spin": 15,
+        "number": "19",
+        "amountBet": 90,
+        "result": 0,
+        "time": "8:32"
+      },
+      {
+        "spin": 16,
+        "number": "27",
+        "amountBet": 90,
+        "result": -90,
+        "time": "9:25"
+      },
+      {
+        "spin": 17,
+        "number": "11",
+        "amountBet": 80,
+        "result": 40,
+        "time": "9:57"
+      },
+      {
+        "spin": 18,
+        "number": "6",
+        "amountBet": 120,
+        "result": -120,
+        "time": "10:12"
+      },
+      {
+        "spin": 19,
+        "number": "10",
+        "amountBet": 100,
+        "result": 50,
+        "time": "10:50"
+      },
+      {
+        "spin": 20,
+        "number": "28",
+        "amountBet": 150,
+        "result": 0,
+        "time": "11:19"
+      },
+      {
+        "spin": 21,
+        "number": "12",
+        "amountBet": 150,
+        "result": -150,
+        "time": "11:40"
+      },
+      {
+        "spin": 22,
+        "number": "35",
+        "amountBet": 120,
+        "result": 60,
+        "time": "12:07"
+      },
+      {
+        "spin": 23,
+        "number": "33",
+        "amountBet": 180,
+        "result": 180,
+        "time": "12:30"
+      },
+      {
+        "spin": 24,
+        "number": "21",
+        "amountBet": 140,
+        "result": -140,
+        "time": "13:05"
+      },
+      {
+        "spin": 25,
+        "number": "31",
+        "amountBet": 160,
+        "result": 80,
+        "time": "13:39"
+      },
+      {
+        "spin": 26,
+        "number": "0",
+        "amountBet": 240,
+        "result": -240,
+        "time": "14:03"
+      },
+      {
+        "spin": 27,
+        "number": "18",
+        "amountBet": 300,
+        "result": -300,
+        "time": "14:42"
+      },
+      {
+        "spin": 28,
+        "number": "27",
+        "amountBet": 400,
+        "result": -400,
+        "notes": "This was a YOLO bet",
+        "time": "15:24"
+      }
+    ]
+  },
+  {
     "name": "Quarter and Dimes",
     "airDate": "2025-02-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=1H2lJGt-uUw",
