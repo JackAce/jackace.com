@@ -459,15 +459,11 @@ layout: page-no-sidebar
       Since this is a Multi-Leg system, the betting diagrams may only include
       the base tier bet.
     </div>
-    <!-- <p>
-      Since this is a Multi-Leg system, the betting diagrams may only include
-      the base tier bet.
-    </p> -->
   {%-  endif -%}
 
   {%-  if system.finalWinLoss < 99999 -%}
     {%-  if system.finalWinLoss != totalWinLoss -%}
-      <div class="infobox-info">
+      <div class="infobox-warning">
         The main player said they were
         {%  if system.finalWinLoss >= 0 %}
           up
@@ -483,22 +479,6 @@ layout: page-no-sidebar
         {%  endif %}
         {% include win-loss-amount.html amount=totalWinLoss -%}.
       </div>
-      <!-- <p>
-        The main player said they were
-        {%  if system.finalWinLoss >= 0 %}
-          up
-        {%  else %}
-          down
-        {%  endif %}
-        {% include win-loss-amount.html amount=system.finalWinLoss -%},
-        but I have them being
-        {%  if totalWinLoss >= 0 %}
-          up
-        {%  else %}
-          down
-        {%  endif %}
-        {% include win-loss-amount.html amount=totalWinLoss -%}.
-      </p> -->
     {%-  endif -%}
   {%-  endif -%}
 </div>
