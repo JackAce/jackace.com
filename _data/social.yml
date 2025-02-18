@@ -4,39 +4,39 @@
 - title: TikTok
   url: https://www.tiktok.com/@jackace.com/
   icon: fab fa-tiktok
-- title: GitHub
-  url: https://github.com/JackAce
-  icon: fab fa-github
-# - title: Twitter
-#   url: https://twitter.com/JackAce
-#   icon: fab fa-twitter
-- title: BlueSky
-  url: https://bsky.app/jackace.com
-  icon: fa-brands fa-bluesky
 - title: Instagram
   url: https://www.instagram.com/jackacedotcom/
   icon: fab fa-instagram
-# - title: RSS Feed
-#   url: /feed.xml
-#   icon: fab fa-rss
-- title: Discord
-  url: https://discord.gg/R6nTPzcpma
-  icon: fab fa-discord
-# - title: Mastodon
-#   url: https://hachyderm.io/@JackAce
-#   icon: fab fa-mastodon
+- title: The JackAce Store
+  url: https://shop.jackace.com/
+  icon: fa-solid fa-basket-shopping
 - title: Amazon Store
   url: https://www.amazon.com/shop/jackace
   icon: fab fa-amazon
-- title: Patreon
-  url: https://www.patreon.com/jackace
-  icon: fab fa-patreon
-- title: Soundcloud
-  url: https://soundcloud.com/jackacestudios
-  icon: fab fa-soundcloud
 - title: TeePublic
   url: https://www.teepublic.com/user/jackace
   icon: fa-solid fa-shirt
+- title: Discord
+  url: https://discord.gg/R6nTPzcpma
+  icon: fab fa-discord
+- title: Patreon
+  url: https://www.patreon.com/jackace
+  icon: fab fa-patreon
+- title: BlueSky
+  url: https://bsky.app/jackace.com
+  icon: fa-brands fa-bluesky
+- title: Mastodon
+  url: https://hachyderm.io/@JackAce
+  icon: fab fa-mastodon
+- title: GitHub
+  url: https://github.com/JackAce
+  icon: fab fa-github
+# - title: RSS Feed
+#   url: /feed.xml
+#   icon: fab fa-rss
+- title: Soundcloud
+  url: https://soundcloud.com/jackacestudios
+  icon: fab fa-soundcloud
 # - title: Twitch
 #   url: https://www.twitch.tv/jackacestudios
 #   icon: fab fa-twitch
@@ -46,6 +46,6 @@
 # - title: Links
 #   url: https://links.jackace.com/
 #   icon: fab fa-sticker-mule
-- title: Links X
+- title: Donk-Tree
   url: https://links.jackace.com/
   icon: fa-solid fa-link
