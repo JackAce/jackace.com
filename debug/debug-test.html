@@ -3,36 +3,37 @@ layout: page
 title: Debug Test Page - Contains instances of include files and examples
 ---
 <h3>roulette-system-type-link</h3>
-    {% include roulette-system-type.html type="Flat Bet" %} <br/>
-    {% include roulette-system-type.html type="Ladder" %} <br/>
-    {% include roulette-system-type.html type="Multi-Leg" %} <br/>
-    {% include roulette-system-type.html type="Positive Progression" %} <br/>
-    {% include roulette-system-type.html type="Negative Progression" %}
+{% include roulette-system-type.html type="Flat Bet" %}
+{% include roulette-system-type.html type="Ladder" %}
+{% include roulette-system-type.html type="Multi-Leg" %}
+{% include roulette-system-type.html type="Positive Progression" %}
+{% include roulette-system-type.html type="Negative Progression" %}
+
 <h3>roulette-system-link</h3>
-    {% include roulette-system-link.html reviewUrl="2022-09-12-Ride-or-Die" %} <br/>
-    {% include roulette-system-link.html reviewUrl="2023-09-05-Golden-Entry" %} <br/>
-    {% include roulette-system-link.html reviewUrl="2020-08-13-Romanovsky" %} <br/>
-    {% include roulette-system-link.html reviewUrl="2023-12-17-36DD" %} <br/>
-    {% include roulette-system-link.html reviewUrl="2022-06-14-Hopscotch" %} <br/>
-    {% include roulette-system-link.html reviewUrl="2024-10-14-Nolley-Molley" %}
+{% include roulette-system-link.html reviewUrl="2022-09-12-Ride-or-Die" %}
+{% include roulette-system-link.html reviewUrl="2023-09-05-Golden-Entry" %}
+{% include roulette-system-link.html reviewUrl="2020-08-13-Romanovsky" %}
+{% include roulette-system-link.html reviewUrl="2023-12-17-36DD" %}
+{% include roulette-system-link.html reviewUrl="2022-06-14-Hopscotch" %}
+{% include roulette-system-link.html reviewUrl="2024-10-14-Nolley-Molley" %}
 
 <h3>ceg-system-rating</h3>
-    {% include ceg-system-rating.html rating="b" showRatingLetter=true showRatingName=false %} <br/>
-    {% include ceg-system-rating.html rating="a" showRatingLetter=true showRatingName=false %}
+{% include ceg-system-rating.html rating="b" showRatingLetter=true showRatingName=false %}
+{% include ceg-system-rating.html rating="a" showRatingLetter=true showRatingName=false %}
 
 <h3>win-loss-amount</h3>
-{% include win-loss-amount.html amount=1234 %} <br/>
+{% include win-loss-amount.html amount=1234 %}
 {% include win-loss-amount.html amount=-12345 %}
 
 <h3>chip-amount</h3>
-{% include chip-amount.html chipAmount=1 %} <br/>
-{% include chip-amount.html chipAmount=5 %} <br/>
+{% include chip-amount.html chipAmount=1 %}
+{% include chip-amount.html chipAmount=5 %}
 
 <h3>roulette-spot</h3>
-{% include roulette-spot.html number="0" %} <br/>
-{% include roulette-spot.html number="00" %} <br/>
-{% include roulette-spot.html number="000" %} <br/>
-{% include roulette-spot.html number="1" %} <br/>
+{% include roulette-spot.html number="0" %}
+{% include roulette-spot.html number="00" %}
+{% include roulette-spot.html number="000" %}
+{% include roulette-spot.html number="1" %}
 {% include roulette-spot.html number="2" %}
 
 <h3>format-number</h3>
@@ -40,10 +41,10 @@ title: Debug Test Page - Contains instances of include files and examples
 {% include format-number.html number=0.234 asPercentage=true places=1 %}
 
 <h3>format-currency</h3>
-{%- include format-currency.html amount=123.45 %} <br/>
+{%- include format-currency.html amount=123.45 %}
 
 <h3>glossary-term</h3>
-{% include glossary-term.html term="Martingale" displayName="Martingaling" %} <br/>
+{% include glossary-term.html term="Martingale" displayName="Martingaling" %}
 {% include glossary-term.html term="AP" %}
 
 <hr/>

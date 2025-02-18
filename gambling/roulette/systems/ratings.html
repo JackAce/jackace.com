@@ -1,0 +1,128 @@
+---
+layout: page
+title: Roulette System Ratings
+---
+{%- assign systemsAllYears = site.data.roulette-systems -%}
+{%- assign filteredSystems = systemsAllYears | where: "isJackAceReview", false -%}
+
+{%- assign ratingsCegA = 0 -%}
+{%- assign ratingsCegB = 0 -%}
+{%- assign ratingsCegC = 0 -%}
+{%- assign ratingsCegD = 0 -%}
+{%- assign ratingsCegF = 0 -%}
+
+{%- assign ratingsJackAceA = 0 -%}
+{%- assign ratingsJackAceB = 0 -%}
+{%- assign ratingsJackAceC = 0 -%}
+{%- assign ratingsJackAceD = 0 -%}
+{%- assign ratingsJackAceF = 0 -%}
+
+{%- assign filteredSystemsX = filteredSystems | where: "rating", "a" -%}
+{%- assign ratingsCegA = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "rating", "b" -%}
+{%- assign ratingsCegB = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "rating", "c" -%}
+{%- assign ratingsCegC = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "rating", "d" -%}
+{%- assign ratingsCegD = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "rating", "f" -%}
+{%- assign ratingsCegF = filteredSystemsX.size -%}
+
+{%- assign filteredSystemsX = filteredSystems | where: "jackaceRating", "a" -%}
+{%- assign ratingsJackAceA = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "jackaceRating", "b" -%}
+{%- assign ratingsJackAceB = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "jackaceRating", "c" -%}
+{%- assign ratingsJackAceC = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "jackaceRating", "d" -%}
+{%- assign ratingsJackAceD = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "jackaceRating", "f" -%}
+{%- assign ratingsJackAceF = filteredSystemsX.size -%}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/roulette-ratings.js"></script>
+
+<h2>CEG Ratings Breakdown</h2>
+<table>
+    <tr>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?rating=a">{% include ceg-system-rating.html rating="a" showRatingLetter=true showRatingName=false %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?rating=b">{% include ceg-system-rating.html rating="b" showRatingLetter=true showRatingName=false %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?rating=c">{% include ceg-system-rating.html rating="c" showRatingLetter=true showRatingName=false %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?rating=d">{% include ceg-system-rating.html rating="d" showRatingLetter=true showRatingName=false %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?rating=f">{% include ceg-system-rating.html rating="f" showRatingLetter=true showRatingName=false %}</a>
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center rating-cell rating-cell-a" id="rating-ceg-a">
+            <a class="rating-link" href="{{site.baseurl}}/gambling/roulette/systems/?rating=a">{% include format-number.html number=ratingsCegA places=0 %}</a>
+        </td>
+        <td class="cell-center rating-cell rating-cell-b" id="rating-ceg-b">
+            <a class="rating-link" href="{{site.baseurl}}/gambling/roulette/systems/?rating=b">{% include format-number.html number=ratingsCegB places=0 %}</a>
+        </td>
+        <td class="cell-center rating-cell rating-cell-c" id="rating-ceg-c">
+            <a class="rating-link" href="{{site.baseurl}}/gambling/roulette/systems/?rating=c">{% include format-number.html number=ratingsCegC places=0 %}</a>
+        </td>
+        <td class="cell-center rating-cell rating-cell-d" id="rating-ceg-d">
+            <a class="rating-link" href="{{site.baseurl}}/gambling/roulette/systems/?rating=d">{% include format-number.html number=ratingsCegD places=0 %}</a>
+        </td>
+        <td class="cell-center rating-cell rating-cell-f" id="rating-ceg-f">
+            <a class="rating-link" href="{{site.baseurl}}/gambling/roulette/systems/?rating=f">{% include format-number.html number=ratingsCegF places=0 %}</a>
+        </td>
+    </tr>
+</table>
+
+<div id="chartContainerCegX" style="width:400px;min-width:300px;max-width:450px;height:400px;max-height:450px;min-height:300px;background-color: #ccc;"></div>
+
+<hr/>
+
+<h2>JackAce Ratings Breakdown</h2>
+<table>
+    <tr>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?jackaceRating=a">{% include ceg-system-rating.html rating="a" showRatingLetter=true showRatingName=false %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?jackaceRating=b">{% include ceg-system-rating.html rating="b" showRatingLetter=true showRatingName=false %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?jackaceRating=c">{% include ceg-system-rating.html rating="c" showRatingLetter=true showRatingName=false %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?jackaceRating=d">{% include ceg-system-rating.html rating="d" showRatingLetter=true showRatingName=false %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?jackaceRating=f">{% include ceg-system-rating.html rating="f" showRatingLetter=true showRatingName=false %}</a>
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center rating-cell rating-cell-a" id="rating-jackace-a">
+            <a class="rating-link" href="{{site.baseurl}}/gambling/roulette/systems/?jackaceRating=a">{% include format-number.html number=ratingsJackAceA places=0 %}</a>
+        </td>
+        <td class="cell-center rating-cell rating-cell-b" id="rating-jackace-b">
+            <a class="rating-link" href="{{site.baseurl}}/gambling/roulette/systems/?jackaceRating=b">{% include format-number.html number=ratingsJackAceB places=0 %}</a>
+        </td>
+        <td class="cell-center rating-cell rating-cell-c" id="rating-jackace-c">
+            <a class="rating-link" href="{{site.baseurl}}/gambling/roulette/systems/?jackaceRating=c">{% include format-number.html number=ratingsJackAceC places=0 %}</a>
+        </td>
+        <td class="cell-center rating-cell rating-cell-d" id="rating-jackace-d">
+            <a class="rating-link" href="{{site.baseurl}}/gambling/roulette/systems/?jackaceRating=d">{% include format-number.html number=ratingsJackAceD places=0 %}</a>
+        </td>
+        <td class="cell-center rating-cell rating-cell-f" id="rating-jackace-f">
+            <a class="rating-link" href="{{site.baseurl}}/gambling/roulette/systems/?jackaceRating=f">{% include format-number.html number=ratingsJackAceF places=0 %}</a>
+        </td>
+    </tr>
+</table>
+
+<div id="chartContainerJackAceX" style="width:400px;min-width:300px;max-width:450px;height:400px;max-height:450px;min-height:300px;background-color: #ccc;"></div>
+
+{%- include footer-roulette-systems.html showRatingsLink=false -%}
