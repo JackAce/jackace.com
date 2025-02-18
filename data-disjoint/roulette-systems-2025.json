@@ -1,34 +1,36 @@
 [
   {
-    "name": "The CTB",
+    "name": "CTB 🍑",
     "airDate": "2025-02-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=0RUBrMo1wjc",
-    "reviewUrl": "2025-02-16-The-CTB",
+    "reviewUrl": "2025-02-16-CTB",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-odd":100}},
       {"wheelType":1,"wagers":{"x12-doz1":100,"x12-doz2":100}},
       {"wheelType":1,"wagers":{"x12-col1":50,"x12-col2":50,"x18-black":50,"x1-35":10,"x1-29":10,"x1-26":10,"x1-20":10,"x1-17":10,"x1-11":10,"x1-8":10,"x1-2":10,"x1-4":10,"x1-10":10,"x1-13":10,"x1-22":10,"x1-28":10,"x1-31":10}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 1000,
     "bets": [
       100, 200, 290
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 2,
+      "jackpotPotential": 4,
+      "scalability": 2,
+      "compValue": 4
     },
     "isJackAceReview": false,
-    "notes": "",
+    "notes": "Clench the Buttcheeks",
     "spins": [{
         "spin": 1,
         "number": "15",
@@ -152,7 +154,7 @@
     ]
   },
   {
-    "name": "Texas Two Step Nolley",
+    "name": "Texas Two Step Nolley 🤠",
     "airDate": "2025-02-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=cM2DASSfchM",
     "reviewUrl": "2025-02-15-Texas-Two-Step-Nolley",
@@ -162,22 +164,23 @@
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-col1":10,"x12-col2":10}}       
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Multi-Leg",
     "buyIn": 2000,
     "bets": [
       20, 30, 40, 60, 90, 80, 120, 100, 150, 180, 140, 160, 240, 300, 400
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "f",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 1,
+      "progressionSimplicity": 1,
+      "chipUniformity": 1,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 1
     },
     "isJackAceReview": false,
+    "finalWinLoss": -950,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -379,12 +382,16 @@
     ]
   },
   {
-    "name": "Quarter and Dimes",
+    "name": "Quarter and Dimes 🪙🪙",
     "airDate": "2025-02-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=1H2lJGt-uUw",
     "reviewUrl": "2025-02-14-Quarter-and-Dimes",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25,"x3-28-30":10,"x3-13-15":10}},
@@ -393,25 +400,27 @@
       {"wheelType":1,"wagers":{"x1-15":5,"x1-17":5,"x1-19":5,"x1-20":5,"x1-23":5,"x12-doz2":50,"x12-col2":50}},
       {"wheelType":1,"wagers":{"x12-doz2":50,"x12-col2":50,"x2-0-00":10,"x1-17":5,"x1-20":5,"x1-24":5,"x1-26":5}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
-      70, 125, 80, 130
+      70, 125, 80, 130, 130
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 1,
+      "progressionSimplicity": 2,
+      "chipUniformity": 2,
+      "jackpotPotential": 5,
+      "scalability": 1,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "friendCount": 2,
     "notes": "",
     "spins": [{
         "spin": 1,
+        "friend": 1,
         "number": "28",
         "amountBet": 70,
         "result": 125,
@@ -419,6 +428,7 @@
       },
       {
         "spin": 2,
+        "friend": 1,
         "number": "19",
         "amountBet": 125,
         "result": 55,
@@ -426,6 +436,7 @@
       },
       {
         "spin": 3,
+        "friend": 1,
         "number": "23",
         "amountBet": 125,
         "result": -125,
@@ -433,6 +444,7 @@
       },
       {
         "spin": 4,
+        "friend": 1,
         "number": "7",
         "amountBet": 70,
         "result": -70,
@@ -441,6 +453,7 @@
       },
       {
         "spin": 5,
+        "friend": 1,
         "number": "34",
         "amountBet": 70,
         "result": 5,
@@ -448,6 +461,7 @@
       },
       {
         "spin": 6,
+        "friend": 1,
         "number": "24",
         "amountBet": 70,
         "result": 5,
@@ -455,6 +469,7 @@
       },
       {
         "spin": 7,
+        "friend": 1,
         "number": "19",
         "amountBet": 80,
         "result": 130,
@@ -463,6 +478,7 @@
       },
       {
         "spin": 8,
+        "friend": 1,
         "number": "18",
         "amountBet": 125,
         "result": 25,
@@ -470,6 +486,7 @@
       },
       {
         "spin": 9,
+        "friend": 1,
         "number": "4",
         "amountBet": 130,
         "result": -130,
@@ -478,6 +495,7 @@
       },
       {
         "spin": 10,
+        "friend": 1,
         "number": "24",
         "amountBet": 70,
         "result": 5,
@@ -485,6 +503,7 @@
       },
       {
         "spin": 11,
+        "friend": 1,
         "number": "2",
         "amountBet": 70,
         "result": -70,
@@ -492,6 +511,7 @@
       },
       {
         "spin": 12,
+        "friend": 1,
         "number": "15",
         "amountBet": 70,
         "result": 5,
@@ -499,6 +519,7 @@
       },
       {
         "spin": 13,
+        "friend": 1,
         "number": "12",
         "amountBet": 70,
         "result": -70,
@@ -506,6 +527,7 @@
       },
       {
         "spin": 14,
+        "friend": 1,
         "number": "17",
         "amountBet": 70,
         "result": 5,
@@ -513,6 +535,7 @@
       },
       {
         "spin": 15,
+        "friend": 1,
         "number": "5",
         "amountBet": 70,
         "result": -70,
@@ -520,6 +543,7 @@
       },
       {
         "spin": 16,
+        "friend": 1,
         "number": "15",
         "amountBet": 70,
         "result": 5,
@@ -527,6 +551,7 @@
       },
       {
         "spin": 17,
+        "friend": 1,
         "number": "7",
         "amountBet": 70,
         "result": -70,
@@ -534,13 +559,16 @@
       },
       {
         "spin": 18,
+        "friend": 2,
         "number": "4",
         "amountBet": 70,
         "result": -70,
-        "time": "9:48"
+        "time": "9:48",
+        "notes": "Alex bought in for more here."
       },
       {
         "spin": 19,
+        "friend": 2,
         "number": "3",
         "amountBet": 70,
         "result": -70,
@@ -549,6 +577,7 @@
       },
       {
         "spin": 20,
+        "friend": 2,
         "number": "16",
         "amountBet": 70,
         "result": 5,
@@ -556,6 +585,7 @@
       },
       {
         "spin": 21,
+        "friend": 2,
         "number": "12",
         "amountBet": 70,
         "result": -70,
@@ -563,6 +593,7 @@
       },
       {
         "spin": 22,
+        "friend": 2,
         "number": "3",
         "amountBet": 70,
         "result": -70,
@@ -570,6 +601,7 @@
       },
       {
         "spin": 23,
+        "friend": 2,
         "number": "15",
         "amountBet": 70,
         "result": 5,
@@ -577,6 +609,7 @@
       },
       {
         "spin": 24,
+        "friend": 2,
         "number": "21",
         "amountBet": 70,
         "result": 5,
@@ -584,13 +617,16 @@
       },
       {
         "spin": 25,
+        "friend": 2,
         "number": "8",
         "amountBet": 70,
         "result": -70,
-        "time": "11:54"
+        "time": "11:54",
+        "notes": "Alex had to buy in for more to cover this bet."
       },
       {
         "spin": 26,
+        "friend": 2,
         "number": "32",
         "amountBet": 0,
         "result": 0,
@@ -599,12 +635,15 @@
     ]
   },
   {
-    "name": "6-12 House Money",
+    "name": "6 to Midnight House Money 🕛",
     "airDate": "2025-02-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=Y-nlbyguDqY",
-    "reviewUrl": "2025-02-12-6-12-House-Money",
+    "reviewUrl": "2025-02-12-6-to-Midnight-House-Money",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-high":10,"x18-black":10}},
@@ -612,25 +651,27 @@
       {"wheelType":1,"wagers":{"x12-doz3":30,"x12-doz2":30}},
       {"wheelType":1,"wagers":{"x4-28-32":5,"x4-29-33":5,"x4-25-29":5,"x4-26-30":5,"x4-23-27":5,"x4-22-26":5,"x4-19-23":5,"x4-20-24":5,"x4-17-21":5,"x4-16-20":5,"x4-13-17":5,"x4-14-18":5,"x4-11-15":5,"x4-10-14":5,"x4-7-11":5,"x4-8-12":5,"x4-5-9":5,"x4-4-8":5}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 160,
     "bets": [
       20, 40, 60, 90
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 4,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 1
     },
     "isJackAceReview": false,
+    "friendCount": 2,
     "notes": "",
     "spins": [{
         "spin": 1,
+        "friend": 1,
         "number": "12",
         "amountBet": 20,
         "result": -20,
@@ -638,6 +679,7 @@
       },
       {
         "spin": 2,
+        "friend": 1,
         "number": "7",
         "amountBet": 20,
         "result": -20,
@@ -645,6 +687,7 @@
       },
       {
         "spin": 3,
+        "friend": 1,
         "number": "22",
         "amountBet": 20,
         "result": 20,
@@ -652,6 +695,7 @@
       },
       {
         "spin": 4,
+        "friend": 1,
         "number": "33",
         "amountBet": 40,
         "result": 20,
@@ -659,6 +703,7 @@
       },
       {
         "spin": 5,
+        "friend": 1,
         "number": "23",
         "amountBet": 60,
         "result": 30,
@@ -666,6 +711,7 @@
       },
       {
         "spin": 6,
+        "friend": 1,
         "number": "32",
         "amountBet": 90,
         "result": 0,
@@ -673,6 +719,7 @@
       },
       {
         "spin": 7,
+        "friend": 1,
         "number": "1",
         "amountBet": 90,
         "result": -90,
@@ -680,6 +727,7 @@
       },
       {
         "spin": 8,
+        "friend": 1,
         "number": "2",
         "amountBet": 20,
         "result": 0,
@@ -687,6 +735,7 @@
       },
       {
         "spin": 9,
+        "friend": 1,
         "number": "11",
         "amountBet": 20,
         "result": 0,
@@ -694,6 +743,7 @@
       },
       {
         "spin": 10,
+        "friend": 1,
         "number": "2",
         "amountBet": 20,
         "result": 0,
@@ -701,6 +751,7 @@
       },
       {
         "spin": 11,
+        "friend": 1,
         "number": "27",
         "amountBet": 20,
         "result": 0,
@@ -708,6 +759,7 @@
       },
       {
         "spin": 12,
+        "friend": 1,
         "number": "15",
         "amountBet": 20,
         "result": 0,
@@ -715,6 +767,7 @@
       },
       {
         "spin": 13,
+        "friend": 1,
         "number": "4",
         "amountBet": 20,
         "result": 0,
@@ -722,6 +775,7 @@
       },
       {
         "spin": 14,
+        "friend": 1,
         "number": "10",
         "amountBet": 20,
         "result": 0,
@@ -729,6 +783,7 @@
       },
       {
         "spin": 15,
+        "friend": 1,
         "number": "30",
         "amountBet": 20,
         "result": 0,
@@ -736,6 +791,7 @@
       },
       {
         "spin": 16,
+        "friend": 1,
         "number": "16",
         "amountBet": 20,
         "result": -20,
@@ -743,6 +799,7 @@
       },
       {
         "spin": 17,
+        "friend": 1,
         "number": "33",
         "amountBet": 20,
         "result": 20,
@@ -750,6 +807,7 @@
       },
       {
         "spin": 18,
+        "friend": 1,
         "number": "6",
         "amountBet": 40,
         "result": -40,
@@ -757,6 +815,7 @@
       },
       {
         "spin": 19,
+        "friend": 1,
         "number": "36",
         "amountBet": 20,
         "result": -20,
@@ -764,6 +823,7 @@
       },
       {
         "spin": 20,
+        "friend": 1,
         "number": "6",
         "amountBet": 20,
         "result": 0,
@@ -771,6 +831,7 @@
       },
       {
         "spin": 21,
+        "friend": 1,
         "number": "15",
         "amountBet": 20,
         "result": 0,
@@ -778,6 +839,7 @@
       },
       {
         "spin": 22,
+        "friend": 1,
         "number": "16",
         "amountBet": 20,
         "result": -20,
@@ -785,6 +847,7 @@
       },
       {
         "spin": 23,
+        "friend": 1,
         "number": "15",
         "amountBet": 20,
         "result": 0,
@@ -792,6 +855,7 @@
       },
       {
         "spin": 24,
+        "friend": 1,
         "number": "4",
         "amountBet": 20,
         "result": 0,
@@ -799,6 +863,7 @@
       },
       {
         "spin": 25,
+        "friend": 1,
         "number": "3",
         "amountBet": 20,
         "result": -20,
@@ -806,6 +871,7 @@
       },
       {
         "spin": 26,
+        "friend": 2,
         "number": "15",
         "amountBet": 20,
         "result": 0,
@@ -813,6 +879,7 @@
       },
       {
         "spin": 27,
+        "friend": 2,
         "number": "14",
         "amountBet": 20,
         "result": -20,
@@ -820,6 +887,7 @@
       },
       {
         "spin": 28,
+        "friend": 2,
         "number": "5",
         "amountBet": 20,
         "result": -20,
@@ -827,6 +895,7 @@
       },
       {
         "spin": 29,
+        "friend": 2,
         "number": "26",
         "amountBet": 20,
         "result": 20,
@@ -834,6 +903,7 @@
       },
       {
         "spin": 30,
+        "friend": 2,
         "number": "17",
         "amountBet": 40,
         "result": 20,
@@ -841,6 +911,7 @@
       },
       {
         "spin": 31,
+        "friend": 2,
         "number": "10",
         "amountBet": 60,
         "result": -60,
@@ -848,6 +919,7 @@
       },
       {
         "spin": 32,
+        "friend": 2,
         "number": "21",
         "amountBet": 20,
         "result": 20,
@@ -855,6 +927,7 @@
       },
       {
         "spin": 33,
+        "friend": 2,
         "number": "32",
         "amountBet": 40,
         "result": 20,
@@ -862,6 +935,7 @@
       },
       {
         "spin": 34,
+        "friend": 2,
         "number": "32",
         "amountBet": 60,
         "result": 30,
@@ -869,6 +943,7 @@
       },
       {
         "spin": 35,
+        "friend": 2,
         "number": "0",
         "amountBet": 90,
         "result": -90,
@@ -876,6 +951,7 @@
       },
       {
         "spin": 36,
+        "friend": 2,
         "number": "22",
         "amountBet": 20,
         "result": 20,
@@ -883,6 +959,7 @@
       },
       {
         "spin": 37,
+        "friend": 2,
         "number": "10",
         "amountBet": 40,
         "result": -40,
@@ -890,6 +967,7 @@
       },
       {
         "spin": 38,
+        "friend": 2,
         "number": "0",
         "amountBet": 20,
         "result": -20,
@@ -897,6 +975,7 @@
       },
       {
         "spin": 39,
+        "friend": 2,
         "number": "27",
         "amountBet": 20,
         "result": 0,
@@ -904,6 +983,7 @@
       },
       {
         "spin": 40,
+        "friend": 2,
         "number": "5",
         "amountBet": 20,
         "result": -20,
@@ -912,7 +992,7 @@
     ]
   },
   {
-    "name": "Degen Tec 25",
+    "name": "Degen Tec 25 🔫🔫",
     "airDate": "2025-02-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=Dto0C-OgjWo",
     "reviewUrl": "2025-02-10-Degen-Tec-25",
@@ -1498,7 +1578,7 @@
     ]
   },
   {
-    "name": "Nolley Remix",
+    "name": "Nolley Remix 🎶🎶",
     "airDate": "2025-02-07",
     "youtubeUrl": "https://www.youtube.com/watch?v=ibYl2MnQkCg",
     "reviewUrl": "2025-02-07-Nolley-Remix",
@@ -2158,7 +2238,7 @@
     ]
   },
   {
-    "name": "Spicy Step System",
+    "name": "Spicy Step System 🌶️🌶️",
     "airDate": "2025-02-03",
     "youtubeUrl": "https://www.youtube.com/watch?v=i97JFT3-VdI",
     "reviewUrl": "2025-02-03-Spicy-Step-System",
@@ -2482,7 +2562,7 @@
     ]
   },
   {
-    "name": "Cover it all",
+    "name": "Cover it all 👰🏻‍♂️👰🏻‍♂️",
     "airDate": "2025-02-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=noRmwB6S2rg",
     "reviewUrl": "2025-02-02-Cover-it-all",
