@@ -769,7 +769,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 100,
     "bets": [
       25,
@@ -14781,7 +14781,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 200,
     "bets": [
       200,
@@ -25855,7 +25855,7 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 300,
     "bets": [
       10,
@@ -25870,7 +25870,7 @@
     "rating": "c",
     "jackaceRating": "d",
     "isJackAceReview": false,
-    "notes": "You bet Low, Even, Red, Black, Odd, High and then back again. Press one unit when you lose, Remove one unit when you win",
+    "notes": "",
     "spins": [
       {
         "spin": 1,

@@ -2954,7 +2954,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 1000,
     "bets": [
       40,
@@ -4395,7 +4395,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       15,
@@ -4731,7 +4731,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 200,
     "bets": [
       10,
@@ -4924,7 +4924,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 1095,
     "bets": [
       2,
@@ -4944,6 +4944,7 @@
       "compValue": 0.5
     },
     "isJackAceReview": false,
+    "finalWinLoss": 35,
     "notes": "",
     "spins": [
       {
@@ -5318,7 +5319,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 1000,
     "bets": [
       75,
@@ -38548,7 +38549,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       50,
@@ -43487,7 +43488,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Martingale",
     "buyIn": 2000,
     "bets": [
       145,
@@ -51855,7 +51856,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 1500,
     "bets": [
       45,
