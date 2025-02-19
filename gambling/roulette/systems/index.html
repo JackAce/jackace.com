@@ -9,6 +9,8 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
 <script type="text/javascript">
   //<![CDATA[
 
+  // TODO: Move this to a js file
+
   let systemUrl = '/json/roulette-systems.json';
 
   $(document).ready(function() {
@@ -67,7 +69,7 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
         typeIcon = "📉";
         break;
       case "Martingale":
-        typeIcon = "😱";
+        typeIcon = "🔥";
         break;
       case "Ladder":
         typeIcon = "🪜";
@@ -90,14 +92,20 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
 
     let ratingQSValue = params.rating;
     let jackaceRatingQSValue = params.jackaceRating;
+    let systemTypeQSValue = params.systemType;
 
+    // TODO: Support for multiple filters
     if (ratingQSValue) {
-      console.log(`Filtering for rating: ${ratingQSValue}`);
+      //console.log(`Filtering for rating: ${ratingQSValue}`);
       data = data.filter(item => item.rating === ratingQSValue);
     }
     else if (jackaceRatingQSValue) {
-      console.log(`Filtering for jackaceRating: ${jackaceRatingQSValue}`);
+      //console.log(`Filtering for jackaceRating: ${jackaceRatingQSValue}`);
       data = data.filter(item => item.jackaceRating === jackaceRatingQSValue);
+    }
+    else if (systemTypeQSValue) {
+      //console.log(`Filtering for systemType: ${systemTypeQSValue}`);
+      data = data.filter(item => item.systemType === systemTypeQSValue);
     }
 
     return data;
@@ -300,4 +308,4 @@ excerpt_image: "/assets/img/roulette/systems/thumbnail-800x450.jpg"
   </table>
 </div>
 
-{%- include footer-roulette-systems.html showRouletteSystemsLink=false -%}
+{%- include footer-roulette-systems.html -%}
