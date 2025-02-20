@@ -5829,6 +5829,38 @@
       "scalability": 3,
       "compValue": 0.5
     },
+    "simulationResults": [
+      {
+        "startingBalance": 100,
+        "desiredBalance": 200,
+        "successPercentage0": 0.412,
+        "spinsPerTrial0": 34.2,
+        "successPercentage00": 0.370,
+        "spinsPerTrial00": 34.0,
+        "successPercentage000": 0.335,
+        "spinsPerTrial000": 34.9
+      },
+      {
+        "startingBalance": 100,
+        "desiredBalance": 250,
+        "successPercentage0": 0.330,
+        "spinsPerTrial0": 46.9,
+        "successPercentage00": 0.269,
+        "spinsPerTrial00": 46.9,
+        "successPercentage000": 0.232,
+        "spinsPerTrial000": 45.7
+      },
+      {
+        "startingBalance": 100,
+        "desiredBalance": 300,
+        "successPercentage0": 0.252,
+        "spinsPerTrial0": 60.2,
+        "successPercentage00": 0.210,
+        "spinsPerTrial00": 58.1,
+        "successPercentage000": 0.172,
+        "spinsPerTrial000": 56.7
+      }
+    ],
     "isJackAceReview": false,
     "notes": "Good low-limit system",
     "spins": [
