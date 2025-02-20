@@ -5820,14 +5820,14 @@
       36
     ],
     "rating": "a",
-    "jackaceRating": "a",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
       "bettingSimplicity": 3,
       "progressionSimplicity": 4,
-      "chipUniformity": 4,
+      "chipUniformity": 3,
       "jackpotPotential": 4,
-      "scalability": 4,
-      "compValue": 1
+      "scalability": 3,
+      "compValue": 0.5
     },
     "isJackAceReview": false,
     "notes": "Good low-limit system",
