@@ -1,4 +1,5 @@
 {%- assign type = include.type | upcase -%}
+{%- assign hideText = include.hideText -%}
 {%- assign emoji = "😵‍💫" -%}
 
 {%- if type == "FLAT BET" -%}
@@ -17,5 +18,8 @@
     {%- assign emoji = "🤯" -%}
 {%- endif -%}
 <span class="system-type" title="{{ include.type }}">
-    {{ emoji }}&nbsp;{{ include.type }}
+    {{- emoji -}}
+    {%- if hideText != true -%}
+        &nbsp;{{- include.type -}}
+    {%- endif -%}
 </span>

@@ -5808,7 +5808,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 440,
     "bets": [
       13,
@@ -6015,7 +6015,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 400,
     "bets": [
       75,
@@ -7262,13 +7262,12 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 500,
     "bets": [
       50,
       75,
       150,
-      225,
       300
     ],
     "rating": "a",
