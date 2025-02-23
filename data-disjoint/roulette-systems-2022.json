@@ -1,5 +1,158 @@
 [
   {
+    "name": "A Mega Crazy One",
+    "airDate": "2022-01-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Aj--PBrDfj4",
+    "reviewUrl": "2022-01-19-A-Mega-Crazy-One",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-0": 10,
+          "x4-1-5": 10,
+          "x2-2-5": 10,
+          "x4-2-6": 10,
+          "x2-3-6": 10,
+          "x4-7-11": 10,
+          "x2-8-11": 10,
+          "x4-8-12": 10,
+          "x2-9-12": 10,
+          "x4-13-17": 10,
+          "x2-14-17": 10,
+          "x4-14-18": 10,
+          "x2-15-18": 10,
+          "x4-19-23": 10,
+          "x2-20-23": 10,
+          "x4-20-24": 10,
+          "x2-21-24": 10,
+          "x4-25-29": 10,
+          "x2-26-29": 10,
+          "x4-26-30": 10,
+          "x2-27-30": 10,
+          "x4-31-35": 10,
+          "x2-32-35": 10,
+          "x4-32-36": 10,
+          "x2-33-36": 10,
+          "x4-4-8": 50,
+          "x4-10-14": 50,
+          "x4-16-20": 50,
+          "x4-22-26": 50,
+          "x4-28-32": 50
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-0": 10,
+          "x4-1-5": 60,
+          "x2-2-5": 10,
+          "x4-2-6": 60,
+          "x2-3-6": 10,
+          "x4-7-11": 60,
+          "x2-8-11": 10,
+          "x4-8-12": 60,
+          "x2-9-12": 10,
+          "x4-13-17": 60,
+          "x2-14-17": 10,
+          "x4-14-18": 60,
+          "x2-15-18": 10,
+          "x4-19-23": 60,
+          "x2-20-23": 10,
+          "x4-20-24": 60,
+          "x2-21-24": 10,
+          "x4-25-29": 60,
+          "x2-26-29": 10,
+          "x4-26-30": 60,
+          "x2-27-30": 10,
+          "x4-31-35": 60,
+          "x2-32-35": 10,
+          "x4-32-36": 60,
+          "x2-33-36": 10,
+          "x4-4-8": 100,
+          "x4-10-14": 100,
+          "x4-16-20": 100,
+          "x4-22-26": 100,
+          "x4-28-32": 100
+        }
+      }
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 2000,
+    "bets": [
+      500,
+      1350
+    ],
+    "rating": "d",
+    "jackaceRating": "f",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 1,
+      "progressionSimplicity": 4,
+      "chipUniformity": 1,
+      "jackpotPotential": 2,
+      "scalability": 1,
+      "compValue": 5
+    },
+    "isJackAceReview": false,
+    "finalWinLoss": 340,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "17",
+        "amountBet": 500,
+        "result": 310,
+        "time": "1:52"
+      },
+      {
+        "spin": 2,
+        "number": "0",
+        "amountBet": 500,
+        "result": -140,
+        "time": "3:28"
+      },
+      {
+        "spin": 3,
+        "number": "19",
+        "amountBet": 1350,
+        "result": 90,
+        "time": "5:23"
+      },
+      {
+        "spin": 4,
+        "number": "11",
+        "amountBet": 1350,
+        "result": 810,
+        "time": "6:13"
+      },
+      {
+        "spin": 5,
+        "number": "34",
+        "amountBet": 500,
+        "result": -410,
+        "time": "9:17"
+      },
+      {
+        "spin": 6,
+        "number": "21",
+        "amountBet": 1350,
+        "result": -630,
+        "time": "10:39"
+      },
+      {
+        "spin": 7,
+        "number": "7",
+        "amountBet": 2200,
+        "result": 140,
+        "time": "12:27",
+        "notes": "Timmy wen't balls out and did another $50 press on the corners."
+      }
+    ]
+  },
+  {
     "name": "Holy Squid Splits 🦑",
     "airDate": "2022-12-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=nEenelojj5c",
@@ -15498,8 +15651,29 @@
       "00-rba-1-800x768.png"
     ],
     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":120,"x6-1-6":60,"x6-31-36":60,"x4-25-29":40,"x4-7-11":40,"x2-0-00":10,"x2-9-12":10,"x2-27-30":10}},
-      {"wheelType":1,"wagers":{"x12-doz2":300,"x6-31-36":150,"x6-1-6":150,"x4-7-11":100,"x4-25-29":100}}
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz2": 120,
+          "x6-1-6": 60,
+          "x6-31-36": 60,
+          "x4-25-29": 40,
+          "x4-7-11": 40,
+          "x2-0-00": 10,
+          "x2-9-12": 10,
+          "x2-27-30": 10
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz2": 300,
+          "x6-31-36": 150,
+          "x6-1-6": 150,
+          "x4-7-11": 100,
+          "x4-25-29": 100
+        }
+      }
     ],
     "systemType": "Negative Progression",
     "buyIn": 1000,
