@@ -15231,6 +15231,38 @@
       "scalability": 2,
       "compValue": 1
     },
+    "simulationResults": [
+      {
+        "startingBalance": 300,
+        "desiredBalance": 400,
+        "successPercentage0": 0.617,
+        "spinsPerTrial0": 31.7,
+        "successPercentage00": 0.534,
+        "spinsPerTrial00": 32.4,
+        "successPercentage000": 0.474,
+        "spinsPerTrial000": 30.9
+      },
+      {
+        "startingBalance": 300,
+        "desiredBalance": 500,
+        "successPercentage0": 0.416,
+        "spinsPerTrial0": 55.8,
+        "successPercentage00": 0.309,
+        "spinsPerTrial00": 53.6,
+        "successPercentage000": 0.232,
+        "spinsPerTrial000": 49.8
+      },
+      {
+        "startingBalance": 300,
+        "desiredBalance": 600,
+        "successPercentage0": 0.285,
+        "spinsPerTrial0": 73.8,
+        "successPercentage00": 0.195,
+        "spinsPerTrial00": 67.4,
+        "successPercentage000": 0.134,
+        "spinsPerTrial000": 61.2
+      }
+    ],
     "isJackAceReview": false,
     "notes": "",
     "spins": [
