@@ -8,25 +8,7 @@
       "00-rba-0-800x768.png"
     ],
      "bettingTiers": [
-      {"wheelType":1,"wagers":{"x18-red":10,"x18-odd":10}},
-      {"wheelType":1,"wagers":{"x18-black":10,"x18-even":10}},
-      {"wheelType":1,"wagers":{"x18-odd":20,"x18-black":20}},
-      {"wheelType":1,"wagers":{"x18-black":30}},
-      {"wheelType":1,"wagers":{"x18-red":30,"x18-even":30}},
-      {"wheelType":1,"wagers":{"x18-red":70,"x18-even":70}},
-      {"wheelType":1,"wagers":{"x18-red":50,"x18-even":50}},
-      {"wheelType":1,"wagers":{"x18-even":90}},
-      {"wheelType":1,"wagers":{"x18-even":80,"x18-black":80}},
-      {"wheelType":1,"wagers":{"x18-even":150,"x18-black":150}},
-      {"wheelType":1,"wagers":{"x18-even":300,"x18-black":300}},
-      {"wheelType":1,"wagers":{"x18-even":610,"x18-black":610}},
-      {"wheelType":1,"wagers":{"x18-even":20,"x18-red":40}},
-      {"wheelType":1,"wagers":{"x18-even":30,"x18-red":40}},
-      {"wheelType":1,"wagers":{"x18-even":40,"x18-red":40}},
-      {"wheelType":1,"wagers":{"x18-even":50,"x18-red":40}},
-      {"wheelType":1,"wagers":{"x18-red":60,"x18-even":50}},
-      {"wheelType":1,"wagers":{"x18-even":30,"x18-red":50}},
-      {"wheelType":1,"wagers":{"x18-red":90,"x18-even":50}} 
+      {"wheelType":1,"wagers":{"x18-red":10,"x18-odd":10}}       
     ],
     "systemType": "Flat Bet",
     "buyIn": 2000,
