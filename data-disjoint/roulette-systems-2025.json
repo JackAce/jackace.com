@@ -1,29 +1,29 @@
 [
   {
-    "name": "Mansaniello Gang Bang",
+    "name": "Masaniello Gang Bang",
     "airDate": "2025-02-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=S8IlNUatGTI",
-    "reviewUrl": "2025-02-26-Mansaniello-Gang-Bang",
+    "reviewUrl": "2025-02-26-Masaniello-Gang-Bang",
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-red":10,"x18-odd":10}}       
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Multi-Leg",
     "buyIn": 2000,
     "bets": [
-      20, 40, 30, 60, 140, 100, 90, 160, 300, 600, 1220, 70, 80, 110
+      20, 30, 40, 60, 70, 80, 90, 100, 110, 140, 160, 300, 600, 1220
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 0.5,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
