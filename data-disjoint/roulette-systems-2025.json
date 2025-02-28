@@ -1,5 +1,309 @@
 [
   {
+    "name": "Masaniello Gang Bang",
+    "airDate": "2025-02-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=S8IlNUatGTI",
+    "reviewUrl": "2025-02-26-Masaniello-Gang-Bang",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-red":10,"x18-odd":10}}       
+    ],
+    "systemType": "Multi-Leg",
+    "buyIn": 2000,
+    "bets": [
+      20, 30, 40, 60, 70, 80, 90, 100, 110, 140, 160, 300, 600, 1220
+    ],
+    "rating": "d",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 0.5,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 2
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "21",
+        "amountBet": 0,
+        "result": 0,
+        "time": "0:56"
+      },
+      {
+        "spin": 2,
+        "number": "22",
+        "amountBet": 20,
+        "result": -20,
+        "time": "1:19"
+      },
+      {
+        "spin": 3,
+        "number": "28",
+        "amountBet": 0,
+        "result": 0,
+        "time": "1:39"
+      },
+      {
+        "spin": 4,
+        "number": "7",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:01"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 0,
+        "result": 0,
+        "time": "2:24"
+      },
+      {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 40,
+        "result": 0,
+        "time": "2:44"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:03"
+      },
+      {
+        "spin": 8,
+        "number": "36",
+        "amountBet": 40,
+        "result": -40,
+        "displayedResult": -50,
+        "time": "3:20"
+      },
+      {
+        "spin": 9,
+        "number": "31",
+        "amountBet": 0,
+        "result": 0,
+        "time": "3:36"
+      },
+      {
+        "spin": 10,
+        "number": "34",
+        "amountBet": 40,
+        "result": -40,
+        "time": "3:51"
+      },
+      {
+        "spin": 11,
+        "number": "32",
+        "amountBet": 0,
+        "result": 0,
+        "time": "4:21"
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 60,
+        "result": 40,
+        "time": "4:55"
+      },
+      {
+        "spin": 13,
+        "number": "33",
+        "amountBet": 140,
+        "result": -140,
+        "time": "5:18"
+      },
+      {
+        "spin": 14,
+        "number": "2",
+        "amountBet": 100,
+        "result": 0,
+        "time": "5:46"
+      },
+      {
+        "spin": 15,
+        "number": "15",
+        "amountBet": 90,
+        "result": -90,
+        "time": "6:03"
+      },
+      {
+        "spin": 16,
+        "number": "4",
+        "amountBet": 160,
+        "result": 160,
+        "time": "6:23"
+      },
+      {
+        "spin": 17,
+        "number": "20",
+        "amountBet": 300,
+        "result": 300,
+        "time": "7:01"
+      },
+      {
+        "spin": 18,
+        "number": "25",
+        "amountBet": 300,
+        "result": -300,
+        "time": "7:36"
+      },
+      {
+        "spin": 19,
+        "number": "1",
+        "amountBet": 600,
+        "result": -600,
+        "time": "7:58"
+      },
+      {
+        "spin": 20,
+        "number": "18",
+        "amountBet": 1220,
+        "result": 0,
+        "time": "8:33"
+      },
+      {
+        "spin": 21,
+        "number": "15",
+        "amountBet": 1220,
+        "result": 0,
+        "time": "9:10"
+      },
+      {
+        "spin": 22,
+        "number": "8",
+        "amountBet": 1220,
+        "result": 1220,
+        "time": "9:22"
+      },
+      {
+        "spin": 23,
+        "number": "12",
+        "amountBet": 0,
+        "result": 0,
+        "time": "9:57"
+      },
+      {
+        "spin": 24,
+        "number": "35",
+        "amountBet": 20,
+        "result": -20,
+        "time": "10:17"
+      },
+      {
+        "spin": 25,
+        "number": "3",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:33"
+      },
+      {
+        "spin": 26,
+        "number": "16",
+        "amountBet": 20,
+        "result": 0,
+        "time": "10:46"
+      },
+      {
+        "spin": 27,
+        "number": "12",
+        "amountBet": 30,
+        "result": 30,
+        "time": "11:05"
+      },
+      {
+        "spin": 28,
+        "number": "16",
+        "amountBet": 60,
+        "result": 60,
+        "time": "11:20"
+      },
+      {
+        "spin": 29,
+        "number": "2",
+        "amountBet": 70,
+        "result": -10,
+        "time": "11:39"
+      },
+      {
+        "spin": 30,
+        "number": "16",
+        "amountBet": 80,
+        "result": 80,
+        "time": "12:10"
+      },
+      {
+        "spin": 31,
+        "number": "1",
+        "amountBet": 100,
+        "result": 0,
+        "time": "12:30"
+      },
+      {
+        "spin": 32,
+        "number": "17",
+        "amountBet": 90,
+        "result": -90,
+        "time": "12:54"
+      },
+      {
+        "spin": 33,
+        "number": "21",
+        "amountBet": 110,
+        "result": 10,
+        "time": "13:24"
+      },
+      {
+        "spin": 34,
+        "number": "22",
+        "amountBet": 80,
+        "result": -20,
+        "time": "13:52"
+      },
+      {
+        "spin": 35,
+        "number": "31",
+        "amountBet": 140,
+        "result": -140,
+        "time": "14:27"
+      },
+      {
+        "spin": 36,
+        "number": "35",
+        "amountBet": 140,
+        "result": -140,
+        "time": "14:57"
+      },
+      {
+        "spin": 37,
+        "number": "35",
+        "amountBet": 90,
+        "result": -90,
+        "time": "15:17"
+      },
+      {
+        "spin": 38,
+        "number": "27",
+        "amountBet": 160,
+        "result": 160,
+        "time": "15:35"
+      },
+      {
+        "spin": 39,
+        "number": "22",
+        "amountBet": 300,
+        "result": -300,
+        "time": "16:01"
+      }
+    ]
+  },
+  {
     "name": "Cake Fart",
     "airDate": "2025-02-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=180bMFqdNF0",
