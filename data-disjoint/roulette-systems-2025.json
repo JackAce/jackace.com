@@ -1,4 +1,207 @@
 [
+   {
+    "name": "ETFPP",
+    "airDate": "2025-02-27",
+    "youtubeUrl": "https://www.youtube.com/watch?v=k0mgyPc_LYc",
+    "reviewUrl": "2025-02-27-ETFPP",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col1":50,"x12-col3":50,"x4-26-30":10,"x4-28-32":10,"x1-29":5}},
+      {"wheelType":1,"wagers":{"x12-col1":60,"x12-col3":60,"x4-26-30":10,"x4-28-32":10,"x1-29":5}},
+      {"wheelType":1,"wagers":{"x12-col1":75,"x12-col3":75,"x4-26-30":15,"x4-28-32":15,"x1-29":5}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 400,
+    "bets": [
+      125, 145, 185
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "0",
+        "amountBet": 125,
+        "result": -125,
+        "time": "1:19"
+      },
+      {
+        "spin": 2,
+        "number": "30",
+        "amountBet": 125,
+        "result": 115,
+        "time": "2:04"
+      },
+      {
+        "spin": 3,
+        "number": "2",
+        "amountBet": 125,
+        "result": -125,
+        "time": "2:31"
+      },
+      {
+        "spin": 4,
+        "number": "1",
+        "amountBet": 125,
+        "result": 25,
+        "time": "3:16"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 145,
+        "result": -145,
+        "displayedResult": -125,
+        "time": "4:12"
+      },
+      {
+        "spin": 6,
+        "number": "6",
+        "amountBet": 125,
+        "result": 25,
+        "time": "5:46"
+      },
+      {
+        "spin": 7,
+        "number": "3",
+        "amountBet": 145,
+        "result": 35,
+        "displayedResult": 25,
+        "time": "6:17"
+      },
+      {
+        "spin": 8,
+        "number": "33",
+        "amountBet": 185,
+        "result": 40,
+        "displayedResult": 25,
+        "time": "7:04"
+      },
+      {
+        "spin": 9,
+        "number": "25",
+        "amountBet": 125,
+        "result": 25,
+        "time": "7:48"
+      },
+      {
+        "spin": 10,
+        "number": "5",
+        "amountBet": 145,
+        "result": -145,
+        "displayedResult": -125,
+        "time": "8:16"
+      },
+      {
+        "spin": 11,
+        "number": "11",
+        "amountBet": 125,
+        "result": -125,
+        "time": "9:08"
+      },
+      {
+        "spin": 12,
+        "number": "1",
+        "amountBet": 125,
+        "result": 25,
+        "time": "9:55"
+      },
+      {
+        "spin": 13,
+        "number": "18",
+        "amountBet": 145,
+        "result": 35,
+        "displayedResult": 25,
+        "time": "10:23"
+      },
+      {
+        "spin": 14,
+        "number": "32",
+        "amountBet": 185,
+        "result": -50,
+        "displayedResult": -35,
+        "time": "10:45"
+      },
+      {
+        "spin": 15,
+        "number": "25",
+        "amountBet": 125,
+        "result": 25,
+        "time": "11:31"
+      },
+      {
+        "spin": 16,
+        "number": "2",
+        "amountBet": 145,
+        "result": -145,
+        "displayedResult": -125,
+        "time": "12:04"
+      },
+      {
+        "spin": 17,
+        "number": "5",
+        "amountBet": 125,
+        "result": -125,
+        "time": "12:40"
+      },
+      {
+        "spin": 18,
+        "number": "7",
+        "amountBet": 125,
+        "result": 25,
+        "time": "13:47"
+      },
+      {
+        "spin": 19,
+        "number": "35",
+        "amountBet": 145,
+        "result": -145,
+        "displayedResult": -125,
+        "time": "14:07"
+      },
+      {
+        "spin": 20,
+        "number": "00",
+        "amountBet": 125,
+        "result": -125,
+        "notes": "Alex decides to modify the system here",
+        "time": "15:05"
+      },
+      {
+        "spin": 21,
+        "number": "11",
+        "amountBet": 125,
+        "result": -125,
+        "time": "15:32"
+      },
+      {
+        "spin": 22,
+        "number": "26",
+        "amountBet": 125,
+        "result": -125,
+        "time": "16:37"
+      },
+      {
+        "spin": 23,
+        "number": "23",
+        "amountBet": 70,
+        "result": -70,
+        "notes": "This was a YOLO bet",
+        "time": "17:41"
+      }
+    ]
+  },
   {
     "name": "Masaniello Gang Bang",
     "airDate": "2025-02-26",
