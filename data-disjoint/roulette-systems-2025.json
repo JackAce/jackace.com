@@ -1,11 +1,15 @@
 [
   {
-    "name": "D1C 5th AVE",
+    "name": "D1C 5th Ave",
     "airDate": "2025-03-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=ETMfTQ7IxNE",
-    "reviewUrl": "2025-03-01-D1C-5th-AVE",
+    "reviewUrl": "2025-03-01-D1C-5th-Ave",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
     ],
     "bettingTiers": [
       {
@@ -58,7 +62,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 250,
     "bets": [
       125,
@@ -68,14 +72,14 @@
       190
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 1,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 1,
+      "compValue": 4
     },
     "isJackAceReview": false,
     "notes": "",
