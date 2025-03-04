@@ -35,7 +35,7 @@ task :json_refresh, [:file_path] do |t, args|
 
     file_path = args[:file_path]
     # TODO: Make sure this process short circuits if there is an error
-    sh "jq . data-disjoint/#{file_path} > data-disjoint/temp-#{file_path}"
+    sh "jq 'sort_by(.airDate) | reverse' data-disjoint/#{file_path} > data-disjoint/temp-#{file_path}"
     sh "rm data-disjoint/#{file_path}"
     sh "mv data-disjoint/temp-#{file_path} data-disjoint/#{file_path}"
 end
