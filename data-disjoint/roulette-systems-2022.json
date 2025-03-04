@@ -16,14 +16,14 @@
       500
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 5,
+      "chipUniformity": 5,
+      "jackpotPotential": 2,
+      "scalability": 5,
+      "compValue": 5
     },
     "isJackAceReview": false,
     "notes": "",
