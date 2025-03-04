@@ -47170,140 +47170,6 @@
     ]
   },
   {
-    "name": "Romeo and Juliet 🥀",
-    "airDate": "2024-02-26",
-    "youtubeUrl": "https://www.youtube.com/watch?v=hpyXwLkGJOI",
-    "reviewUrl": "2024-02-27-Romeo-and-Juliet",
-    "rbaImageUrls": [
-      "00-rba-0-800x768.png"
-    ],
-    "bettingTiers": [
-      {
-        "wheelType": 1,
-        "wagers": {
-          "x4-4-8": 5,
-          "x4-10-14": 5,
-          "x4-16-20": 5,
-          "x4-22-26": 5,
-          "x4-28-32": 5,
-          "x4-5-9": 5,
-          "x4-11-15": 5,
-          "x4-17-21": 5,
-          "x4-23-27": 5,
-          "x4-29-33": 5
-        }
-      }
-    ],
-    "systemType": "Multi-Leg",
-    "buyIn": 3150,
-    "bets": [
-      50,
-      100,
-      200,
-      400,
-      800,
-      1600
-    ],
-    "rating": "f",
-    "jackaceRating": "d",
-    "isJackAceReview": false,
-    "notes": "This is a bullshit 'couple's' system. That means it's garbage.",
-    "spins": [
-      {
-        "spin": 1,
-        "number": "10",
-        "amountBet": 50,
-        "result": -5,
-        "time": "0:56"
-      },
-      {
-        "spin": 2,
-        "number": "33",
-        "amountBet": 75,
-        "result": 15,
-        "time": "1:23"
-      },
-      {
-        "spin": 3,
-        "number": "7",
-        "amountBet": 75,
-        "result": 15,
-        "time": "2:16"
-      },
-      {
-        "spin": 4,
-        "number": "26",
-        "amountBet": 75,
-        "result": -75,
-        "time": "2:45"
-      },
-      {
-        "spin": 5,
-        "number": "13",
-        "amountBet": 125,
-        "result": -60,
-        "time": "3:24"
-      },
-      {
-        "spin": 6,
-        "number": "0",
-        "amountBet": 225,
-        "result": -225,
-        "time": "4:06"
-      },
-      {
-        "spin": 7,
-        "number": "13",
-        "amountBet": 450,
-        "result": -360,
-        "time": "4:39"
-      },
-      {
-        "spin": 8,
-        "number": "0",
-        "amountBet": 825,
-        "result": -825,
-        "time": "5:39"
-      },
-      {
-        "spin": 9,
-        "number": "33",
-        "amountBet": 1650,
-        "result": -1230,
-        "time": "6:29",
-        "notes": "Alex didn't have the money for this bet. He was spotted."
-      },
-      {
-        "spin": 10,
-        "number": "25",
-        "amountBet": 125,
-        "result": 55,
-        "time": "7:18"
-      },
-      {
-        "spin": 11,
-        "number": "3",
-        "amountBet": 75,
-        "result": -75,
-        "time": "8:00"
-      },
-      {
-        "spin": 12,
-        "number": "16",
-        "amountBet": 150,
-        "result": -60,
-        "time": "8:12"
-      },
-      {
-        "spin": 13,
-        "number": "8",
-        "amountBet": 225,
-        "result": 180,
-        "time": "8:40"
-      }
-    ]
-  },
-  {
     "name": "World Series ⚾",
     "airDate": "2024-02-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=7XtlcH711gc",
@@ -47549,6 +47415,140 @@
         "amountBet": 50,
         "result": -50,
         "time": "12:08"
+      }
+    ]
+  },
+  {
+    "name": "Romeo and Juliet 🥀",
+    "airDate": "2024-02-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=hpyXwLkGJOI",
+    "reviewUrl": "2024-02-27-Romeo-and-Juliet",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x4-4-8": 5,
+          "x4-10-14": 5,
+          "x4-16-20": 5,
+          "x4-22-26": 5,
+          "x4-28-32": 5,
+          "x4-5-9": 5,
+          "x4-11-15": 5,
+          "x4-17-21": 5,
+          "x4-23-27": 5,
+          "x4-29-33": 5
+        }
+      }
+    ],
+    "systemType": "Multi-Leg",
+    "buyIn": 3150,
+    "bets": [
+      50,
+      100,
+      200,
+      400,
+      800,
+      1600
+    ],
+    "rating": "f",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "This is a bullshit 'couple's' system. That means it's garbage.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "10",
+        "amountBet": 50,
+        "result": -5,
+        "time": "0:56"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 75,
+        "result": 15,
+        "time": "1:23"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 75,
+        "result": 15,
+        "time": "2:16"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 75,
+        "result": -75,
+        "time": "2:45"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 125,
+        "result": -60,
+        "time": "3:24"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 225,
+        "result": -225,
+        "time": "4:06"
+      },
+      {
+        "spin": 7,
+        "number": "13",
+        "amountBet": 450,
+        "result": -360,
+        "time": "4:39"
+      },
+      {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 825,
+        "result": -825,
+        "time": "5:39"
+      },
+      {
+        "spin": 9,
+        "number": "33",
+        "amountBet": 1650,
+        "result": -1230,
+        "time": "6:29",
+        "notes": "Alex didn't have the money for this bet. He was spotted."
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 125,
+        "result": 55,
+        "time": "7:18"
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 75,
+        "result": -75,
+        "time": "8:00"
+      },
+      {
+        "spin": 12,
+        "number": "16",
+        "amountBet": 150,
+        "result": -60,
+        "time": "8:12"
+      },
+      {
+        "spin": 13,
+        "number": "8",
+        "amountBet": 225,
+        "result": 180,
+        "time": "8:40"
       }
     ]
   },
