@@ -1,5 +1,187 @@
 [
    {
+    "name": "D1C 5th AVE",
+    "airDate": "2025-03-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ETMfTQ7IxNE",
+    "reviewUrl": "2025-03-01-D1C-5th-AVE",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-28-33":25,"x6-22-27":25,"x6-16-21":25,"x6-10-15":25,"x6-4-9":25}},
+      {"wheelType":1,"wagers":{"x6-28-33":25,"x6-22-27":30,"x6-16-21":30,"x6-10-15":30,"x6-4-9":30}},
+      {"wheelType":1,"wagers":{"x6-28-33":25,"x6-22-27":40,"x6-16-21":40,"x6-10-15":40,"x6-4-9":40}},
+      {"wheelType":1,"wagers":{"x6-28-33":25,"x6-22-27":50,"x6-16-21":50,"x6-10-15":50,"x6-4-9":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":75,"x12-col2":75,"x2-17-20":25,"x2-0-00":15}}  
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 250,
+    "bets": [
+      125, 145, 185, 225, 190
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "35",
+        "amountBet": 125,
+        "result": -125,
+        "time": "0:59"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 125,
+        "result": 25,
+        "time": "2:03"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 145,
+        "result": 35,
+        "time": "2:33"
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 185,
+        "result": 55,
+        "time": "3:23"
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 225,
+        "result": 75,
+        "time": "4:24"
+      },
+      {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 190,
+        "result": 260,
+        "time": "5:18"
+      },
+      {
+        "spin": 7,
+        "number": "30",
+        "amountBet": 125,
+        "result": 25,
+        "time": "6:12"
+      },
+      {
+        "spin": 8,
+        "number": "4",
+        "amountBet": 145,
+        "result": 35,
+        "time": "6:38"
+      },
+      {
+        "spin": 9,
+        "number": "20",
+        "amountBet": 185,
+        "result": 55,
+        "time": "7:16"
+      },
+      {
+        "spin": 10,
+        "number": "3",
+        "amountBet": 225,
+        "result": -225,
+        "time": "8:19"
+      },
+      {
+        "spin": 11,
+        "number": "31",
+        "amountBet": 125,
+        "result": 25,
+        "time": "9:29"
+      },
+      {
+        "spin": 12,
+        "number": "17",
+        "amountBet": 145,
+        "result": 35,
+        "time": "9:51"
+      },
+      {
+        "spin": 13,
+        "number": "20",
+        "amountBet": 185,
+        "result": 55,
+        "time": "10:42"
+      },
+      {
+        "spin": 14,
+        "number": "8",
+        "amountBet": 225,
+        "result": 75,
+        "time": "11:13"
+      },
+      {
+        "spin": 15,
+        "number": "22",
+        "amountBet": 190,
+        "result": 35,
+        "time": "12:11"
+      },
+      {
+        "spin": 16,
+        "number": "22",
+        "amountBet": 125,
+        "result": 25,
+        "time": "13:32"
+      },
+      {
+        "spin": 17,
+        "number": "00",
+        "amountBet": 145,
+        "result": -145,
+        "time": "14:23"
+      },
+      {
+        "spin": 18,
+        "number": "26",
+        "amountBet": 125,
+        "result": 25,
+        "time": "15:23"
+      },
+      {
+        "spin": 19,
+        "number": "8",
+        "amountBet": 145,
+        "result": 35,
+        "time": "16:05"
+      },
+      {
+        "spin": 20,
+        "number": "20",
+        "amountBet": 185,
+        "result": 55,
+        "time": "16:47"
+      },
+      {
+        "spin": 21,
+        "number": "35",
+        "amountBet": 225,
+        "result": -225,
+        "displayedResult": -145,
+        "time": "17:27"
+      }
+    ]
+  },
+   {
     "name": "ETFPP",
     "airDate": "2025-02-27",
     "youtubeUrl": "https://www.youtube.com/watch?v=k0mgyPc_LYc",
