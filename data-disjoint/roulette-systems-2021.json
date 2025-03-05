@@ -15,20 +15,20 @@
       {"wheelType":1,"wagers":{"x12-doz1":250,"x12-doz3":250}},
       {"wheelType":1,"wagers":{"x12-doz2":350,"x12-doz3":350}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 3400,
     "bets": [
       100, 50, 200, 300, 500, 700
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 3,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 4,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",

@@ -5,27 +5,29 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=iQuyRU7eF8I",
     "reviewUrl": "2025-03-03-Baton-Rouge-Press-Regress",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-high":25}},
       {"wheelType":1,"wagers":{"x12-doz3":20,"x12-doz2":20,"x2-17-20":5,"x4-28-32":5}},
       {"wheelType":1,"wagers":{"x12-doz3":30,"x12-doz2":30,"x2-17-20":5,"x4-13-17":5,"x2-26-29":5,"x4-26-30":5}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 250,
     "bets": [
       25, 50, 80
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
