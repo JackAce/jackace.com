@@ -7,18 +7,58 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz1":50,"x12-doz3":50}},
-      {"wheelType":1,"wagers":{"x12-doz1":50}},
-      {"wheelType":1,"wagers":{"x12-doz1":100,"x12-doz3":100}},
-      {"wheelType":1,"wagers":{"x12-doz1":150,"x12-doz3":150}},
-      {"wheelType":1,"wagers":{"x12-doz1":250,"x12-doz3":250}},
-      {"wheelType":1,"wagers":{"x12-doz2":350,"x12-doz3":350}} 
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz1": 50,
+          "x12-doz3": 50
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz1": 50
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz1": 100,
+          "x12-doz3": 100
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz1": 150,
+          "x12-doz3": 150
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz1": 250,
+          "x12-doz3": 250
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz2": 350,
+          "x12-doz3": 350
+        }
+      }
     ],
     "systemType": "Ladder",
     "buyIn": 3400,
     "bets": [
-      100, 50, 200, 300, 500, 700
+      100,
+      50,
+      200,
+      300,
+      500,
+      700
     ],
     "rating": "d",
     "jackaceRating": "c",
@@ -32,7 +72,8 @@
     },
     "isJackAceReview": false,
     "notes": "",
-    "spins": [{
+    "spins": [
+      {
         "spin": 1,
         "number": "32",
         "amountBet": 100,
