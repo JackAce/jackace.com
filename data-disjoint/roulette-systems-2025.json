@@ -1,5 +1,308 @@
 [
   {
+    "name": "Baton Rouge Press Regress",
+    "airDate": "2025-03-03",
+    "youtubeUrl": "https://www.youtube.com/watch?v=iQuyRU7eF8I",
+    "reviewUrl": "2025-03-03-Baton-Rouge-Press-Regress",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-high": 25
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz3": 20,
+          "x12-doz2": 20,
+          "x2-17-20": 5,
+          "x4-28-32": 5
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz3": 30,
+          "x12-doz2": 30,
+          "x2-17-20": 5,
+          "x4-13-17": 5,
+          "x2-26-29": 5,
+          "x4-26-30": 5
+        }
+      }
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 250,
+    "bets": [
+      25,
+      50,
+      80
+    ],
+    "rating": "b",
+    "jackaceRating": "b",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "32",
+        "amountBet": 25,
+        "result": 25,
+        "displayedResult": 70,
+        "time": "2:15"
+      },
+      {
+        "spin": 2,
+        "number": "16",
+        "amountBet": 50,
+        "result": 10,
+        "time": "2:55"
+      },
+      {
+        "spin": 3,
+        "number": "25",
+        "amountBet": 50,
+        "result": 10,
+        "time": "3:53"
+      },
+      {
+        "spin": 4,
+        "number": "17",
+        "amountBet": 50,
+        "result": 100,
+        "time": "4:22"
+      },
+      {
+        "spin": 5,
+        "number": "00",
+        "amountBet": 80,
+        "result": -80,
+        "time": "4:50"
+      },
+      {
+        "spin": 6,
+        "number": "6",
+        "amountBet": 25,
+        "result": -25,
+        "time": "5:04"
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 25,
+        "result": 25,
+        "displayedResult": 70,
+        "time": "5:26"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 50,
+        "result": 100,
+        "time": "5:54"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 80,
+        "result": -80,
+        "time": "6:37"
+      },
+      {
+        "spin": 10,
+        "number": "18",
+        "amountBet": 25,
+        "result": -25,
+        "time": "7:17"
+      },
+      {
+        "spin": 11,
+        "number": "36",
+        "amountBet": 25,
+        "result": 25,
+        "time": "7:44"
+      },
+      {
+        "spin": 12,
+        "number": "14",
+        "amountBet": 50,
+        "result": 10,
+        "time": "8:13"
+      },
+      {
+        "spin": 13,
+        "number": "15",
+        "amountBet": 50,
+        "result": 10,
+        "time": "8:35"
+      },
+      {
+        "spin": 14,
+        "number": "20",
+        "amountBet": 50,
+        "result": 55,
+        "time": "9:11"
+      },
+      {
+        "spin": 15,
+        "number": "5",
+        "amountBet": 80,
+        "result": -80,
+        "time": "9:49"
+      },
+      {
+        "spin": 16,
+        "number": "30",
+        "amountBet": 25,
+        "result": 25,
+        "time": "10:06"
+      },
+      {
+        "spin": 17,
+        "number": "36",
+        "amountBet": 50,
+        "result": 10,
+        "time": "10:31"
+      },
+      {
+        "spin": 18,
+        "number": "9",
+        "amountBet": 50,
+        "result": -50,
+        "displayedResult": -80,
+        "time": "10:44"
+      },
+      {
+        "spin": 19,
+        "number": "28",
+        "amountBet": 25,
+        "result": 25,
+        "time": "11:29"
+      },
+      {
+        "spin": 20,
+        "number": "21",
+        "amountBet": 50,
+        "result": 10,
+        "time": "11:47"
+      },
+      {
+        "spin": 21,
+        "number": "5",
+        "amountBet": 50,
+        "result": -50,
+        "time": "12:18"
+      },
+      {
+        "spin": 22,
+        "number": "31",
+        "amountBet": 25,
+        "result": 25,
+        "displayedResult": -50,
+        "time": "12:29"
+      },
+      {
+        "spin": 23,
+        "number": "14",
+        "amountBet": 50,
+        "result": 10,
+        "time": "12:59"
+      },
+      {
+        "spin": 24,
+        "number": "34",
+        "amountBet": 50,
+        "result": 10,
+        "time": "13:32"
+      },
+      {
+        "spin": 25,
+        "number": "23",
+        "amountBet": 50,
+        "result": 10,
+        "time": "13:51"
+      },
+      {
+        "spin": 26,
+        "number": "3",
+        "amountBet": 80,
+        "result": -80,
+        "time": "14:09"
+      },
+      {
+        "spin": 27,
+        "number": "14",
+        "amountBet": 25,
+        "result": -25,
+        "time": "14:31"
+      },
+      {
+        "spin": 28,
+        "number": "0",
+        "amountBet": 25,
+        "result": -25,
+        "time": "15:00"
+      },
+      {
+        "spin": 29,
+        "number": "26",
+        "amountBet": 25,
+        "result": 25,
+        "displayedResult": -25,
+        "time": "15:40"
+      },
+      {
+        "spin": 30,
+        "number": "17",
+        "amountBet": 50,
+        "result": 100,
+        "time": "16:06"
+      },
+      {
+        "spin": 31,
+        "number": "18",
+        "amountBet": 80,
+        "result": 10,
+        "time": "17:00"
+      },
+      {
+        "spin": 32,
+        "number": "6",
+        "amountBet": 25,
+        "result": 25,
+        "time": "17:50"
+      },
+      {
+        "spin": 33,
+        "number": "29",
+        "amountBet": 50,
+        "result": 10,
+        "time": "18:15"
+      },
+      {
+        "spin": 34,
+        "number": "3",
+        "amountBet": 50,
+        "result": -50,
+        "time": "18:50"
+      }
+    ]
+  },
+  {
     "name": "D1C 5th Ave",
     "airDate": "2025-03-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=ETMfTQ7IxNE",

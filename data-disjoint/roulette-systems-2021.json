@@ -1,5 +1,221 @@
 [
   {
+    "name": "The Winning System",
+    "airDate": "2021-12-31",
+    "youtubeUrl": "https://www.youtube.com/watch?v=JxTV1QL3_70",
+    "reviewUrl": "2021-12-31-The-Winning-System",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz1": 50,
+          "x12-doz3": 50
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz1": 50
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz1": 100,
+          "x12-doz3": 100
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz1": 150,
+          "x12-doz3": 150
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz1": 250,
+          "x12-doz3": 250
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz2": 350,
+          "x12-doz3": 350
+        }
+      }
+    ],
+    "systemType": "Ladder",
+    "buyIn": 3400,
+    "bets": [
+      100,
+      50,
+      200,
+      300,
+      500,
+      700
+    ],
+    "rating": "d",
+    "jackaceRating": "c",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 3,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 4,
+      "compValue": 3
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "32",
+        "amountBet": 100,
+        "result": 50,
+        "time": "3:13"
+      },
+      {
+        "spin": 2,
+        "number": "11",
+        "amountBet": 50,
+        "result": 100,
+        "time": "4:00"
+      },
+      {
+        "spin": 3,
+        "number": "1",
+        "amountBet": 100,
+        "result": 50,
+        "time": "4:40"
+      },
+      {
+        "spin": 4,
+        "number": "6",
+        "amountBet": 50,
+        "result": -50,
+        "time": "5:21"
+      },
+      {
+        "spin": 5,
+        "number": "35",
+        "amountBet": 200,
+        "result": 100,
+        "time": "6:05"
+      },
+      {
+        "spin": 6,
+        "number": "20",
+        "amountBet": 200,
+        "result": 100,
+        "time": "6:58"
+      },
+      {
+        "spin": 7,
+        "number": "34",
+        "amountBet": 100,
+        "result": 50,
+        "time": "8:10"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 100,
+        "result": 50,
+        "time": "9:01"
+      },
+      {
+        "spin": 9,
+        "number": "00",
+        "amountBet": 100,
+        "result": -100,
+        "time": "10:58"
+      },
+      {
+        "spin": 10,
+        "number": "17",
+        "amountBet": 200,
+        "result": -200,
+        "time": "11:37"
+      },
+      {
+        "spin": 11,
+        "number": "16",
+        "amountBet": 300,
+        "result": -300,
+        "time": "12:24"
+      },
+      {
+        "spin": 12,
+        "number": "5",
+        "amountBet": 500,
+        "result": 250,
+        "time": "13:13"
+      },
+      {
+        "spin": 13,
+        "number": "11",
+        "amountBet": 500,
+        "result": -500,
+        "time": "13:57"
+      },
+      {
+        "spin": 14,
+        "number": "36",
+        "amountBet": 700,
+        "result": 350,
+        "time": "14:40"
+      },
+      {
+        "spin": 15,
+        "number": "6",
+        "amountBet": 100,
+        "result": 50,
+        "time": "15:39"
+      },
+      {
+        "spin": 16,
+        "number": "13",
+        "amountBet": 100,
+        "result": 50,
+        "time": "16:18"
+      },
+      {
+        "spin": 17,
+        "number": "18",
+        "amountBet": 100,
+        "result": -100,
+        "time": "16:56"
+      },
+      {
+        "spin": 18,
+        "number": "27",
+        "amountBet": 100,
+        "result": 50,
+        "time": "17:37"
+      },
+      {
+        "spin": 19,
+        "number": "10",
+        "amountBet": 100,
+        "result": 50,
+        "time": "18:26"
+      },
+      {
+        "spin": 20,
+        "number": "5",
+        "amountBet": 100,
+        "result": 50,
+        "time": "19:12"
+      }
+    ]
+  },
+  {
     "name": "Diamond Heist 2.0 💎",
     "airDate": "2021-12-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=eZgHu0fdWTo",
