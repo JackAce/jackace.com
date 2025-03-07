@@ -1,5 +1,239 @@
 [
   {
+    "name": "Cats Have Nine Lives",
+    "airDate": "2021-12-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=TyS4h6JNLyM",
+    "reviewUrl": "2021-12-28-Cats-Have-Nine-Lives",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":10,"x12-doz2":10,"x12-doz3":10,"x12-col1":10,"x12-col2":10,"x12-col3":10}},
+      {"wheelType":1,"wagers":{"x12-doz1":20,"x12-doz2":20,"x12-col1":20,"x12-col2":20}},
+      {"wheelType":1,"wagers":{"x12-doz1":40,"x12-doz2":40,"x12-col1":40,"x12-col2":40}},
+      {"wheelType":1,"wagers":{"x12-doz1":60,"x12-doz2":60,"x12-col1":60,"x12-col2":60}},
+      {"wheelType":1,"wagers":{"x12-doz1":80,"x12-col1":80,"x12-col2":80}},
+      {"wheelType":1,"wagers":{"x12-doz1":110,"x12-col1":110,"x12-col2":110}},
+      {"wheelType":1,"wagers":{"x12-doz1":40,"x12-doz3":40,"x12-col1":40}},
+      {"wheelType":1,"wagers":{"x12-doz1":60,"x12-doz3":60,"x12-col1":60}},
+      {"wheelType":1,"wagers":{"x12-doz1":160,"x12-doz3":160}},
+      {"wheelType":1,"wagers":{"x12-doz3":60,"x12-col1":60}},
+      {"wheelType":1,"wagers":{"x12-doz3":80,"x12-col1":80}},
+      {"wheelType":1,"wagers":{"x12-col1":110}},
+      {"wheelType":1,"wagers":{"x12-col1":160}},
+      {"wheelType":1,"wagers":{"x12-col1":240}},
+      {"wheelType":1,"wagers":{"x12-doz3":110,"x12-col2":110}},
+      {"wheelType":1,"wagers":{"x12-doz3":240,"x12-col2":240}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1080,
+    "bets": [
+      60, 80, 160, 240, 330, 120, 180, 320, 110, 220, 480
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "27",
+        "amountBet": 60,
+        "result": 0,
+        "time": "1:55"
+      },
+      {
+        "spin": 2,
+        "number": "33",
+        "amountBet": 80,
+        "result": -80,
+        "time": "2:40"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 160,
+        "result": -160,
+        "time": "3:20"
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 240,
+        "result": -60,
+        "time": "4:02"
+      },
+      {
+        "spin": 5,
+        "number": "15",
+        "amountBet": 240,
+        "result": -240,
+        "time": "4:48"
+      },
+      {
+        "spin": 6,
+        "number": "21",
+        "amountBet": 330,
+        "result": -330,
+        "time": "5:35"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 60,
+        "result": 0,
+        "time": "6:46"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 80,
+        "result": -20,
+        "time": "7:25"
+      },
+      {
+        "spin": 9,
+        "number": "15",
+        "amountBet": 120,
+        "result": -120,
+        "time": "8:09"
+      },
+      {
+        "spin": 10,
+        "number": "15",
+        "amountBet": 180,
+        "result": -180,
+        "time": "8:52"
+      },
+      {
+        "spin": 11,
+        "number": "21",
+        "amountBet": 240,
+        "result": -240,
+        "time": "9:38"
+      },
+      {
+        "spin": 12,
+        "number": "16",
+        "amountBet": 330,
+        "result": 0,
+        "time": "10:20"
+      },
+      {
+        "spin": 13,
+        "number": "00",
+        "amountBet": 320,
+        "result": -320,
+        "time": "11:01"
+      },
+      {
+        "spin": 14,
+        "number": "11",
+        "amountBet": 60,
+        "result": 0,
+        "time": "12:10"
+      },
+      {
+        "spin": 15,
+        "number": "24",
+        "amountBet": 80,
+        "result": 40,
+        "time": "12:49"
+      },
+      {
+        "spin": 16,
+        "number": "2",
+        "amountBet": 120,
+        "result": -120,
+        "time": "13:36"
+      },
+      {
+        "spin": 17,
+        "number": "32",
+        "amountBet": 160,
+        "result": 80,
+        "time": "14:12"
+      },
+      {
+        "spin": 18,
+        "number": "32",
+        "amountBet": 110,
+        "result": -110,
+        "time": "14:49"
+      },
+      {
+        "spin": 19,
+        "number": "17",
+        "amountBet": 160,
+        "result": -160,
+        "time": "15:32"
+      },
+      {
+        "spin": 20,
+        "number": "1",
+        "amountBet": 240,
+        "result": 480,
+        "time": "16:12"
+      },
+      {
+        "spin": 21,
+        "number": "34",
+        "amountBet": 60,
+        "result": 0,
+        "time": "17:33"
+      },
+      {
+        "spin": 22,
+        "number": "4",
+        "amountBet": 80,
+        "result": -20,
+        "time": "18:18"
+      },
+      {
+        "spin": 23,
+        "number": "00",
+        "amountBet": 120,
+        "result": -120,
+        "time": "19:06"
+      },
+      {
+        "spin": 24,
+        "number": "18",
+        "amountBet": 180,
+        "result": 0,
+        "time": "19:54"
+      },
+      {
+        "spin": 25,
+        "number": "0",
+        "amountBet": 160,
+        "result": -160,
+        "time": "20:39"
+      },
+      {
+        "spin": 26,
+        "number": "6",
+        "amountBet": 220,
+        "result": -220,
+        "time": "21:21"
+      },
+      {
+        "spin": 27,
+        "number": "18",
+        "amountBet": 480,
+        "result": -480,
+        "time": "21:58"
+      }
+    ]
+  },
+  {
     "name": "The Winning System",
     "airDate": "2021-12-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=JxTV1QL3_70",
