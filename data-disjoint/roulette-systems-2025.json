@@ -5,27 +5,29 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=fHeDppGVxgk",
     "reviewUrl": "2025-03-05-Nico-Nico",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz3":50}},
       {"wheelType":1,"wagers":{"x12-doz3":50,"x12-doz2":50}},
       {"wheelType":1,"wagers":{"x12-doz3":50,"x12-doz2":50,"x4-1-5":25,"x4-8-12":25}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 500,
     "bets": [
       50, 100, 150
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 2,
+      "scalability": 5,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
