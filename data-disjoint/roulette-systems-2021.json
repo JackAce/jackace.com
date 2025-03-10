@@ -1,11 +1,14 @@
 [
   {
     "name": "Rumple Du Bois",
-    "airDate": "2021-12-26",
+    "airDate": "2021-12-25",
     "youtubeUrl": "https://www.youtube.com/watch?v=Ot84uKSS3T8",
-    "reviewUrl": "2021-12-26-Rumple-Du-Bois",
+    "reviewUrl": "2021-12-25-Rumple-Du-Bois",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x4-1-5":15,"x4-8-12":15,"x4-13-17":15,"x4-20-24":15,"x4-26-30":15,"x4-31-35":15}},
@@ -13,20 +16,20 @@
       {"wheelType":1,"wagers":{"x4-1-5":10,"x4-8-12":10,"x4-14-18":10,"x4-19-23":10,"x4-26-30":10,"x4-31-35":10}},
       {"wheelType":1,"wagers":{"x4-2-6":75,"x4-7-11":75,"x4-14-18":75,"x4-19-23":75,"x4-26-30":75,"x4-31-35":75}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 1500,
     "bets": [
       90, 30, 60, 450
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 3,
+      "jackpotPotential": 3,
+      "scalability": 4,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
