@@ -1,5 +1,179 @@
 [
   {
+    "name": "Rumple Du Bois",
+    "airDate": "2021-12-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Ot84uKSS3T8",
+    "reviewUrl": "2021-12-26-Rumple-Du-Bois",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-1-5":15,"x4-8-12":15,"x4-13-17":15,"x4-20-24":15,"x4-26-30":15,"x4-31-35":15}},
+      {"wheelType":1,"wagers":{"x4-1-5":5,"x4-8-12":5,"x4-14-18":5,"x4-20-24":5,"x4-26-30":5,"x4-31-35":5}},
+      {"wheelType":1,"wagers":{"x4-1-5":10,"x4-8-12":10,"x4-14-18":10,"x4-19-23":10,"x4-26-30":10,"x4-31-35":10}},
+      {"wheelType":1,"wagers":{"x4-2-6":75,"x4-7-11":75,"x4-14-18":75,"x4-19-23":75,"x4-26-30":75,"x4-31-35":75}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1500,
+    "bets": [
+      90, 30, 60, 450
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "26",
+        "amountBet": 90,
+        "result": 45,
+        "time": "2:07"
+      },
+      {
+        "spin": 2,
+        "number": "11",
+        "amountBet": 30,
+        "result": 15,
+        "time": "3:07"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 60,
+        "result": -60,
+        "time": "3:49"
+      },
+      {
+        "spin": 4,
+        "number": "22",
+        "amountBet": 90,
+        "result": -90,
+        "time": "4:33"
+      },
+      {
+        "spin": 5,
+        "number": "6",
+        "amountBet": 90,
+        "result": -90,
+        "time": "6:17"
+      },
+      {
+        "spin": 6,
+        "number": "11",
+        "amountBet": 90,
+        "result": 45,
+        "time": "6:57"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 30,
+        "result": 15,
+        "time": "7:46"
+      },
+      {
+        "spin": 8,
+        "number": "14",
+        "amountBet": 60,
+        "result": 30,
+        "time": "8:23"
+      },
+      {
+        "spin": 9,
+        "number": "28",
+        "amountBet": 30,
+        "result": -30,
+        "time": "9:13"
+      },
+      {
+        "spin": 10,
+        "number": "23",
+        "amountBet": 90,
+        "result": 45,
+        "time": "9:52"
+      },
+      {
+        "spin": 11,
+        "number": "6",
+        "amountBet": 30,
+        "result": -30,
+        "time": "10:39"
+      },
+      {
+        "spin": 12,
+        "number": "1",
+        "amountBet": 90,
+        "result": 45,
+        "time": "11:12"
+      },
+      {
+        "spin": 13,
+        "number": "10",
+        "amountBet": 30,
+        "result": -30,
+        "time": "11:56"
+      },
+      {
+        "spin": 14,
+        "number": "25",
+        "amountBet": 90,
+        "result": -90,
+        "time": "12:32"
+      },
+      {
+        "spin": 15,
+        "number": "8",
+        "amountBet": 90,
+        "result": 45,
+        "time": "13:12"
+      },
+      {
+        "spin": 16,
+        "number": "30",
+        "amountBet": 30,
+        "result": 15,
+        "time": "13:57"
+      },
+      {
+        "spin": 17,
+        "number": "28",
+        "amountBet": 60,
+        "result": -60,
+        "time": "14:36"
+      },
+      {
+        "spin": 18,
+        "number": "36",
+        "amountBet": 450,
+        "result": -450,
+        "notes": "Alex decides to start trying $25 a unit from here on",
+        "time": "15:23"
+      },
+      {
+        "spin": 19,
+        "number": "34",
+        "amountBet": 450,
+        "result": 225,
+        "time": "16:01"
+      },
+      {
+        "spin": 20,
+        "number": "10",
+        "amountBet": 150,
+        "result": -150,
+        "time": "16:58"
+      }
+    ]
+  },
+  {
     "name": "Turn Coal Into Diamonds",
     "airDate": "2021-12-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=EWrrbI0czoI",
