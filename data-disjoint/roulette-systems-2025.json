@@ -2606,7 +2606,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 200,
     "bets": [
       6,
