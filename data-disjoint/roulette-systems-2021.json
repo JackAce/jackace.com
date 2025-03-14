@@ -1,5 +1,112 @@
 [
   {
+    "name": "Santa's Big O",
+    "airDate": "2021-12-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=YRS0eoK0jWs",
+    "reviewUrl": "2021-12-17-Santas-Big-O",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-1-4":5,"x2-10-13":5,"x2-19-22":5,"x2-28-31":5,"x2-6-9":5,"x2-15-18":5,"x2-24-27":5,"x2-33-36":5,"x1-0":5,"x12-col2":25}},
+      {"wheelType":1,"wagers":{"x2-1-4":10,"x2-10-13":10,"x2-19-22":10,"x2-28-31":10,"x2-6-9":10,"x2-15-18":10,"x2-24-27":10,"x2-33-36":10,"x1-0":10,"x12-col2":50}},
+      {"wheelType":1,"wagers":{"x2-1-4":20,"x2-10-13":20,"x2-19-22":20,"x2-28-31":20,"x2-6-9":20,"x2-15-18":20,"x2-24-27":20,"x2-33-36":20,"x1-0":20,"x12-col2":100}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1200,
+    "bets": [
+      70, 140, 280
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "8",
+        "amountBet": 70,
+        "result": 5,
+        "time": "2:19"
+      },
+      {
+        "spin": 2,
+        "number": "10",
+        "amountBet": 70,
+        "result": 20,
+        "time": "3:07"
+      },
+      {
+        "spin": 3,
+        "number": "25",
+        "amountBet": 70,
+        "result": -70,
+        "time": "4:04"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 140,
+        "result": 40,
+        "time": "6:05"
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 140,
+        "result": -140,
+        "time": "7:14"
+      },
+      {
+        "spin": 6,
+        "number": "5",
+        "amountBet": 280,
+        "result": 20,
+        "displayedResult": 15,
+        "time": "8:06"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 280,
+        "result": 80,
+        "displayedResult": 60,
+        "time": "9:10"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 280,
+        "result": 20,
+        "displayedResult": 15,
+        "time": "10:11"
+      },
+      {
+        "spin": 9,
+        "number": "22",
+        "amountBet": 280,
+        "result": 80,
+        "displayedResult": 60,
+        "time": "10:57"
+      },
+      {
+        "spin": 10,
+        "number": "0",
+        "amountBet": 280,
+        "result": 440,
+        "displayedResult": 420,
+        "time": "12:03"
+      }
+    ]
+  },
+  {
     "name": "12 Days of Christmas",
     "airDate": "2021-12-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=V9dWdAosTzI",
