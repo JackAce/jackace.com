@@ -1851,6 +1851,500 @@
     ]
   },
   {
+    "name": "Big Licky",
+    "airDate": "2021-12-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=K3xOXynDxXE",
+    "reviewUrl": "2021-12-22-Big-Licky",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-6": 2,
+          "x1-9": 2,
+          "x1-24": 2,
+          "x1-26": 2,
+          "x1-27": 2,
+          "x1-29": 2,
+          "x1-33": 2,
+          "x1-36": 2,
+          "x1-16": 3,
+          "x18-high": 20,
+          "x12-doz1": 28
+        }
+      }
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 300,
+    "bets": [
+      67
+    ],
+    "rating": "b",
+    "jackaceRating": "c",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 1,
+      "progressionSimplicity": 5,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 1,
+      "compValue": 2
+    },
+    "isJackAceReview": false,
+    "finalWinLoss": 102,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 67,
+        "result": 17,
+        "time": "1:40"
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 67,
+        "result": -27,
+        "time": "2:47"
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 67,
+        "result": 45,
+        "time": "3:52"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 67,
+        "result": 17,
+        "time": "5:12"
+      },
+      {
+        "spin": 5,
+        "number": "8",
+        "amountBet": 67,
+        "result": 17,
+        "time": "6:07"
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 67,
+        "result": 17,
+        "time": "7:05"
+      },
+      {
+        "spin": 7,
+        "number": "15",
+        "amountBet": 67,
+        "result": -67,
+        "time": "8:03"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 67,
+        "result": 45,
+        "time": "9:08"
+      },
+      {
+        "spin": 9,
+        "number": "12",
+        "amountBet": 67,
+        "result": 17,
+        "time": "10:22"
+      },
+      {
+        "spin": 10,
+        "number": "23",
+        "amountBet": 67,
+        "result": -27,
+        "time": "11:15"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 67,
+        "result": 45,
+        "time": "12:10"
+      }
+    ]
+  },
+  {
+    "name": "12 Days of Christmas",
+    "airDate": "2021-12-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=V9dWdAosTzI",
+    "reviewUrl": "2021-12-19-12-Days-of-Christmas",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-1": 5,
+          "x1-2": 5,
+          "x1-3": 5,
+          "x1-4": 5,
+          "x1-5": 5,
+          "x1-6": 5,
+          "x1-7": 5,
+          "x1-8": 5,
+          "x1-9": 5,
+          "x1-10": 5,
+          "x1-11": 5,
+          "x1-12": 5,
+          "x2-1-2": 5,
+          "x2-2-3": 5,
+          "x2-4-5": 5,
+          "x2-5-6": 5,
+          "x2-7-8": 5,
+          "x2-8-9": 5,
+          "x2-10-11": 5,
+          "x2-11-12": 5,
+          "x18-high": 100
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-1": 10,
+          "x1-2": 10,
+          "x1-3": 10,
+          "x1-4": 10,
+          "x1-5": 10,
+          "x1-6": 10,
+          "x1-7": 10,
+          "x1-8": 10,
+          "x1-9": 10,
+          "x1-10": 10,
+          "x1-11": 10,
+          "x1-12": 10,
+          "x2-1-2": 10,
+          "x2-2-3": 10,
+          "x2-4-5": 10,
+          "x2-5-6": 10,
+          "x2-7-8": 10,
+          "x2-8-9": 10,
+          "x2-10-11": 10,
+          "x2-11-12": 10,
+          "x18-high": 200
+        }
+      }
+    ],
+    "systemType": "Martingale",
+    "buyIn": 1000,
+    "bets": [
+      200,
+      400
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 3,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 4
+    },
+    "isJackAceReview": false,
+    "friendCount": 2,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "friend": 1,
+        "number": "17",
+        "amountBet": 200,
+        "result": -200,
+        "time": "2:31"
+      },
+      {
+        "spin": 2,
+        "friend": 1,
+        "number": "17",
+        "amountBet": 400,
+        "result": -400,
+        "time": "3:34"
+      },
+      {
+        "spin": 3,
+        "friend": 2,
+        "number": "14",
+        "amountBet": 200,
+        "result": -200,
+        "time": "4:50"
+      },
+      {
+        "spin": 4,
+        "friend": 2,
+        "number": "34",
+        "amountBet": 400,
+        "result": 0,
+        "time": "6:56"
+      },
+      {
+        "spin": 5,
+        "friend": 2,
+        "number": "3",
+        "amountBet": 400,
+        "result": 140,
+        "time": "7:50"
+      },
+      {
+        "spin": 6,
+        "friend": 2,
+        "number": "29",
+        "amountBet": 400,
+        "result": 0,
+        "time": "9:00"
+      },
+      {
+        "spin": 7,
+        "friend": 2,
+        "number": "12",
+        "amountBet": 400,
+        "result": 140,
+        "time": "9:36"
+      },
+      {
+        "spin": 8,
+        "friend": 2,
+        "number": "13",
+        "amountBet": 200,
+        "result": -200,
+        "time": "10:34"
+      },
+      {
+        "spin": 9,
+        "friend": 2,
+        "number": "31",
+        "amountBet": 400,
+        "result": 0,
+        "time": "11:22"
+      },
+      {
+        "spin": 10,
+        "friend": 2,
+        "number": "6",
+        "amountBet": 400,
+        "result": 140,
+        "time": "11:57"
+      },
+      {
+        "spin": 11,
+        "friend": 2,
+        "number": "26",
+        "amountBet": 400,
+        "result": 0,
+        "time": "13:02"
+      },
+      {
+        "spin": 12,
+        "friend": 2,
+        "number": "34",
+        "amountBet": 400,
+        "result": 0,
+        "time": "13:33"
+      },
+      {
+        "spin": 13,
+        "friend": 2,
+        "number": "18",
+        "amountBet": 400,
+        "result": -400,
+        "time": "14:03"
+      },
+      {
+        "spin": 14,
+        "friend": 2,
+        "number": "35",
+        "amountBet": 800,
+        "result": 0,
+        "notes": "Alex just bought in for more to make this level 3 martingale bet.",
+        "time": "15:29"
+      },
+      {
+        "spin": 15,
+        "friend": 2,
+        "number": "11",
+        "amountBet": 800,
+        "result": 640,
+        "displayedResult": 680,
+        "time": "16:02"
+      },
+      {
+        "spin": 16,
+        "friend": 2,
+        "number": "8",
+        "amountBet": 800,
+        "result": 640,
+        "displayedResult": 680,
+        "time": "17:49"
+      }
+    ]
+  },
+  {
+    "name": "Santa's Big O",
+    "airDate": "2021-12-17",
+    "youtubeUrl": "https://www.youtube.com/watch?v=YRS0eoK0jWs",
+    "reviewUrl": "2021-12-17-Santas-Big-O",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x2-1-4": 5,
+          "x2-10-13": 5,
+          "x2-19-22": 5,
+          "x2-28-31": 5,
+          "x2-6-9": 5,
+          "x2-15-18": 5,
+          "x2-24-27": 5,
+          "x2-33-36": 5,
+          "x1-0": 5,
+          "x12-col2": 25
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x2-1-4": 10,
+          "x2-10-13": 10,
+          "x2-19-22": 10,
+          "x2-28-31": 10,
+          "x2-6-9": 10,
+          "x2-15-18": 10,
+          "x2-24-27": 10,
+          "x2-33-36": 10,
+          "x1-0": 10,
+          "x12-col2": 50
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x2-1-4": 20,
+          "x2-10-13": 20,
+          "x2-19-22": 20,
+          "x2-28-31": 20,
+          "x2-6-9": 20,
+          "x2-15-18": 20,
+          "x2-24-27": 20,
+          "x2-33-36": 20,
+          "x1-0": 20,
+          "x12-col2": 100
+        }
+      }
+    ],
+    "systemType": "Martingale",
+    "buyIn": 1200,
+    "bets": [
+      70,
+      140,
+      280
+    ],
+    "rating": "b",
+    "jackaceRating": "d",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 4,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 1,
+      "compValue": 3
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 70,
+        "result": 5,
+        "time": "2:19"
+      },
+      {
+        "spin": 2,
+        "number": "10",
+        "amountBet": 70,
+        "result": 20,
+        "time": "3:07"
+      },
+      {
+        "spin": 3,
+        "number": "25",
+        "amountBet": 70,
+        "result": -70,
+        "time": "4:04"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 140,
+        "result": 40,
+        "time": "6:05"
+      },
+      {
+        "spin": 5,
+        "number": "12",
+        "amountBet": 140,
+        "result": -140,
+        "time": "7:14"
+      },
+      {
+        "spin": 6,
+        "number": "5",
+        "amountBet": 280,
+        "result": 20,
+        "displayedResult": 15,
+        "time": "8:06"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 280,
+        "result": 80,
+        "displayedResult": 60,
+        "time": "9:10"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 280,
+        "result": 20,
+        "displayedResult": 15,
+        "time": "10:11"
+      },
+      {
+        "spin": 9,
+        "number": "22",
+        "amountBet": 280,
+        "result": 80,
+        "displayedResult": 60,
+        "time": "10:57"
+      },
+      {
+        "spin": 10,
+        "number": "0",
+        "amountBet": 280,
+        "result": 440,
+        "displayedResult": 420,
+        "time": "12:03"
+      }
+    ]
+  },
+  {
     "name": "Diamond Heist 2.0 💎",
     "airDate": "2021-12-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=eZgHu0fdWTo",
