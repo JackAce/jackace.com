@@ -1,5 +1,112 @@
 [
   {
+    "name": "Big Licky",
+    "airDate": "2021-12-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=K3xOXynDxXE",
+    "reviewUrl": "2021-12-22-Big-Licky",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-6":2,"x1-9":2,"x1-24":2,"x1-26":2,"x1-27":2,"x1-29":2,"x1-33":2,"x1-36":2,"x1-16":3,"x18-high":20,"x12-doz1":28}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 300,
+    "bets": [
+      67
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "11",
+        "amountBet": 67,
+        "result": 17,
+        "time": "1:40"
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 67,
+        "result": -27,
+        "time": "2:47"
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 67,
+        "result": 45,
+        "time": "3:52"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 67,
+        "result": 17,
+        "time": "5:12"
+      },
+      {
+        "spin": 5,
+        "number": "8",
+        "amountBet": 67,
+        "result": 17,
+        "time": "6:07"
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 67,
+        "result": 17,
+        "time": "7:05"
+      },
+      {
+        "spin": 7,
+        "number": "15",
+        "amountBet": 67,
+        "result": -67,
+        "time": "8:03"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 67,
+        "result": 45,
+        "time": "9:08"
+      },
+      {
+        "spin": 9,
+        "number": "12",
+        "amountBet": 67,
+        "result": 17,
+        "time": "10:22"
+      },
+      {
+        "spin": 10,
+        "number": "23",
+        "amountBet": 67,
+        "result": -27,
+        "time": "11:15"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 67,
+        "result": 45,
+        "time": "12:10"
+      }
+    ]
+  },
+  {
     "name": "The Winning System",
     "airDate": "2021-12-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=JxTV1QL3_70",
