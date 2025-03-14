@@ -1,15 +1,20 @@
-{%- assign showRouletteSystemsLink = include.showRouletteSystemsLink | default: true -%}
-{%- assign showRatingsLink = include.showRatingsLink | default: true -%}
-{%- assign showDistributionLink = include.showDistributionLink | default: true -%}
+{%- assign hideRouletteSystemsLink = include.hideRouletteSystemsLink -%}
+{%- assign hideRatingsLink = include.hideRatingsLink -%}
+{%- assign hideTypesLink = include.hideTypesLink -%}
+{%- assign hideDistributionLink = include.hideDistributionLink -%}
 
+<br/>
 <div>
-    {%- if showRouletteSystemsLink -%}
+    {%- if hideRouletteSystemsLink != true -%}
         <a href="{{site.baseurl}}/gambling/roulette/systems/">Show all Roulette Systems</a> <br/>
     {%- endif -%}
-    {%- if showRatingsLink -%}
+    {%- if hideRatingsLink != true -%}
         <a href="{{site.baseurl}}/gambling/roulette/systems/ratings/">Breakdown of System Ratings</a> <br/>
     {%- endif -%}
-    {%- if showDistributionLink -%}
+    {%- if hideTypesLink != true -%}
+        <a href="{{site.baseurl}}/gambling/roulette/systems/types/">Breakdown of System Types</a> <br/>
+    {%- endif -%}
+    {%- if hideDistributionLink != true -%}
         <a href="{{site.baseurl}}/gambling/roulette/systems/distribution/">View distribution of all numbers</a> <br/>
     {%- endif -%}
 </div>

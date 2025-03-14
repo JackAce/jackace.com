@@ -376,7 +376,7 @@
     ]
   },
   {
-    "name": "Triple Kim Special",
+    "name": "Triple Kim Special 김김김",
     "airDate": "2024-12-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=-HUwamLJuSk",
     "reviewUrl": "2024-12-29-Triple-Kim-Special",
@@ -2954,7 +2954,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 1000,
     "bets": [
       40,
@@ -4395,7 +4395,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       15,
@@ -4662,6 +4662,7 @@
     "name": "5 Split Street 🛣️🛣️🛣️🛣️🛣️",
     "airDate": "2024-12-09",
     "youtubeUrl": "https://www.youtube.com/watch?v=4Xe7LvZkvgI",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=NRod0Y7zIhw",
     "reviewUrl": "2024-12-09-5-Split-Street",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
@@ -4731,7 +4732,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 200,
     "bets": [
       10,
@@ -4924,7 +4925,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 1095,
     "bets": [
       2,
@@ -4944,6 +4945,7 @@
       "compValue": 0.5
     },
     "isJackAceReview": false,
+    "finalWinLoss": 35,
     "notes": "",
     "spins": [
       {
@@ -5318,7 +5320,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 1000,
     "bets": [
       75,
@@ -5771,6 +5773,7 @@
     "airDate": "2024-12-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=J7qsgvnB_Hc",
     "reviewUrl": "2024-12-02-5-Baked-Potato",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=kwVevhA4SWE",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
       "00-rba-1-800x768.png",
@@ -5819,15 +5822,47 @@
       36
     ],
     "rating": "a",
-    "jackaceRating": "a",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
       "bettingSimplicity": 3,
       "progressionSimplicity": 4,
-      "chipUniformity": 4,
+      "chipUniformity": 3,
       "jackpotPotential": 4,
-      "scalability": 4,
-      "compValue": 1
+      "scalability": 3,
+      "compValue": 0.5
     },
+    "simulationResults": [
+      {
+        "startingBalance": 100,
+        "desiredBalance": 200,
+        "successPercentage0": 0.412,
+        "spinsPerTrial0": 34.2,
+        "successPercentage00": 0.370,
+        "spinsPerTrial00": 34.0,
+        "successPercentage000": 0.335,
+        "spinsPerTrial000": 34.9
+      },
+      {
+        "startingBalance": 100,
+        "desiredBalance": 250,
+        "successPercentage0": 0.330,
+        "spinsPerTrial0": 46.9,
+        "successPercentage00": 0.269,
+        "spinsPerTrial00": 46.9,
+        "successPercentage000": 0.232,
+        "spinsPerTrial000": 45.7
+      },
+      {
+        "startingBalance": 100,
+        "desiredBalance": 300,
+        "successPercentage0": 0.252,
+        "spinsPerTrial0": 60.2,
+        "successPercentage00": 0.210,
+        "spinsPerTrial00": 58.1,
+        "successPercentage000": 0.172,
+        "spinsPerTrial000": 56.7
+      }
+    ],
     "isJackAceReview": false,
     "notes": "Good low-limit system",
     "spins": [
@@ -15088,6 +15123,7 @@
     "airDate": "2024-10-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=aeo76wVdh3Q",
     "reviewUrl": "2024-10-14-Nolley-Molley",
+    "jackaceVideoUrl": "https://www.youtube.com/watch?v=YuowQB4ocUA",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
       "00-rba-1-800x768.png",
@@ -15196,6 +15232,38 @@
       "scalability": 2,
       "compValue": 1
     },
+    "simulationResults": [
+      {
+        "startingBalance": 300,
+        "desiredBalance": 400,
+        "successPercentage0": 0.617,
+        "spinsPerTrial0": 31.7,
+        "successPercentage00": 0.534,
+        "spinsPerTrial00": 32.4,
+        "successPercentage000": 0.474,
+        "spinsPerTrial000": 30.9
+      },
+      {
+        "startingBalance": 300,
+        "desiredBalance": 500,
+        "successPercentage0": 0.416,
+        "spinsPerTrial0": 55.8,
+        "successPercentage00": 0.309,
+        "spinsPerTrial00": 53.6,
+        "successPercentage000": 0.232,
+        "spinsPerTrial000": 49.8
+      },
+      {
+        "startingBalance": 300,
+        "desiredBalance": 600,
+        "successPercentage0": 0.285,
+        "spinsPerTrial0": 73.8,
+        "successPercentage00": 0.195,
+        "spinsPerTrial00": 67.4,
+        "successPercentage000": 0.134,
+        "spinsPerTrial000": 61.2
+      }
+    ],
     "isJackAceReview": false,
     "notes": "",
     "spins": [
@@ -38548,7 +38616,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       50,
@@ -43487,7 +43555,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Martingale",
     "buyIn": 2000,
     "bets": [
       145,
@@ -51855,7 +51923,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 1500,
     "bets": [
       45,

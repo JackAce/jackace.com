@@ -1,0 +1,87 @@
+---
+layout: page
+title: Roulette System Types
+---
+{%- assign systems = site.data.roulette-systems -%}
+{%- assign filteredSystems = systems | where: "isJackAceReview", false -%}
+
+{%- assign typesFlatBet = 0 -%}
+{%- assign typesPositiveProgression = 0 -%}
+{%- assign typesNegativeProgression = 0 -%}
+{%- assign typesMartingale = 0 -%}
+{%- assign typesLadder = 0 -%}
+{%- assign typesMultiLeg = 0 -%}
+{%- assign typesOther = 0 -%}
+
+{%- assign filteredSystemsX = filteredSystems | where: "systemType", "Flat Bet" -%}
+{%- assign typesFlatBet = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "systemType", "Positive Progression" -%}
+{%- assign typesPositiveProgression = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "systemType", "Negative Progression" -%}
+{%- assign typesNegativeProgression = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "systemType", "Martingale" -%}
+{%- assign typesMartingale = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "systemType", "Ladder" -%}
+{%- assign typesLadder = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "systemType", "Multi-Leg" -%}
+{%- assign typesMultiLeg = filteredSystemsX.size -%}
+{%- assign filteredSystemsX = filteredSystems | where: "systemType", "Other" -%}
+{%- assign typesOther = filteredSystemsX.size -%}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/roulette-systemtypes.js"></script>
+
+<h2>System Types</h2>
+<table>
+    <tr>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Flat+Bet">{% include roulette-system-type.html type="Flat Bet" hideText=true %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Positive+Progression">{% include roulette-system-type.html type="Positive Progression" hideText=true %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Negative+Progression">{% include roulette-system-type.html type="Negative Progression" hideText=true %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Martingale">{% include roulette-system-type.html type="Martingale" hideText=true %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Ladder">{% include roulette-system-type.html type="Ladder" hideText=true %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Multi-Leg">{% include roulette-system-type.html type="Multi-Leg" hideText=true %}</a>
+        </th>
+        <th>
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Other">{% include roulette-system-type.html type="Other" hideText=true %}</a>
+        </th>
+    </tr>
+    <tr>
+        <td class="cell-center" id="system-type-flat-bet">
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Flat+Bet">{% include format-number.html number=typesFlatBet places=0 %}</a>
+        </td>
+        <td class="cell-center" id="system-type-positive-progression">
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Positive+Progression">{% include format-number.html number=typesPositiveProgression places=0 %}</a>
+        </td>
+        <td class="cell-center" id="system-type-negative-progression">
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Negative+Progression">{% include format-number.html number=typesNegativeProgression places=0 %}</a>
+        </td>
+        <td class="cell-center" id="system-type-martingale">
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Martingale">{% include format-number.html number=typesMartingale places=0 %}</a>
+        </td>
+        <td class="cell-center" id="system-type-ladder">
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Ladder">{% include format-number.html number=typesLadder places=0 %}</a>
+        </td>
+        <td class="cell-center" id="system-type-multi-leg">
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Multi-Leg">{% include format-number.html number=typesMultiLeg places=0 %}</a>
+        </td>
+        <td class="cell-center" id="system-type-other">
+            <a href="{{site.baseurl}}/gambling/roulette/systems/?systemType=Other">{% include format-number.html number=typesOther places=0 %}</a>
+        </td>
+    </tr>
+</table>
+
+<div id="chartContainerSystemTypes" style="width:400px;min-width:300px;max-width:450px;height:400px;max-height:450px;min-height:300px;background-color: #ccc;"></div>
+
+{%- include footer-roulette-systems.html hideTypesLink=true -%}
