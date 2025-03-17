@@ -1,5 +1,220 @@
 [
   {
+    "name": "Split it to get it",
+    "airDate": "2025-03-14",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZNff7M9ezwU",
+    "reviewUrl": "2025-03-14-Split-it-to-get-it",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-17-20":3,"x2-19-22":3,"x2-23-26":3,"x2-25-28":3,"x2-29-32":3}},
+      {"wheelType":1,"wagers":{"x12-doz2":27,"x12-doz3":27}},
+      {"wheelType":1,"wagers":{"x18-black":33,"x18-high":33}},
+      {"wheelType":1,"wagers":{"x18-black":66,"x18-high":66}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 225,
+    "bets": [
+      15, 54, 66, 132
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "13",
+        "amountBet": 15,
+        "result": -15,
+        "time": "1:18"
+      },
+      {
+        "spin": 2,
+        "number": "36",
+        "amountBet": 15,
+        "result": -15,
+        "time": "1:48"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 15,
+        "result": 39,
+        "time": "2:11"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 54,
+        "result": -54,
+        "time": "2:32"
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 15,
+        "result": -15,
+        "time": "3:09"
+      },
+      {
+        "spin": 6,
+        "number": "14",
+        "amountBet": 15,
+        "result": 39,
+        "time": "4:11"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 54,
+        "result": -54,
+        "time": "5:14"
+      },
+      {
+        "spin": 8,
+        "number": "19",
+        "amountBet": 15,
+        "result": -15,
+        "time": "5:27"
+      },
+      {
+        "spin": 9,
+        "number": "4",
+        "amountBet": 15,
+        "result": -15,
+        "time": "5:42"
+      },
+      {
+        "spin": 10,
+        "number": "31",
+        "amountBet": 15,
+        "result": -20,
+        "time": "6:05"
+      },
+      {
+        "spin": 11,
+        "number": "23",
+        "amountBet": 15,
+        "result": 39,
+        "time": "7:04"
+      },
+      {
+        "spin": 12,
+        "number": "11",
+        "amountBet": 54,
+        "result": -54,
+        "time": "7:19"
+      },
+      {
+        "spin": 13,
+        "number": "1",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:38"
+      },
+      {
+        "spin": 14,
+        "number": "17",
+        "amountBet": 15,
+        "result": 39,
+        "time": "8:08"
+      },
+      {
+        "spin": 15,
+        "number": "27",
+        "amountBet": 54,
+        "result": 27,
+        "time": "8:51"
+      },
+      {
+        "spin": 16,
+        "number": "19",
+        "amountBet": 66,
+        "result": 0,
+        "time": "8:57"
+      },
+      {
+        "spin": 17,
+        "number": "32",
+        "amountBet": 66,
+        "result": 0,
+        "time": "9:19"
+      },
+      {
+        "spin": 18,
+        "number": "22",
+        "amountBet": 66,
+        "result": 66,
+        "time": "9:26"
+      },
+      {
+        "spin": 19,
+        "number": "29",
+        "amountBet": 132,
+        "result": 132,
+        "time": "10:03"
+      },
+      {
+        "spin": 20,
+        "number": "2",
+        "amountBet": 15,
+        "result": -15,
+        "time": "11:02"
+      },
+      {
+        "spin": 21,
+        "number": "00",
+        "amountBet": 15,
+        "result": -15,
+        "time": "11:55"
+      },
+      {
+        "spin": 22,
+        "number": "15",
+        "amountBet": 15,
+        "result": -15,
+        "time": "12:32"
+      },
+      {
+        "spin": 23,
+        "number": "13",
+        "amountBet": 15,
+        "result": -15,
+        "time": "12:55"
+      },
+      {
+        "spin": 24,
+        "number": "18",
+        "amountBet": 15,
+        "result": -15,
+        "time": "13:00"
+      },
+      {
+        "spin": 25,
+        "number": "00",
+        "amountBet": 15,
+        "result": 39,
+        "time": "13:15"
+      },
+      {
+        "spin": 26,
+        "number": "4",
+        "amountBet": 54,
+        "result": -54,
+        "time": "13:55"
+      }
+    ]
+  },
+  {
     "name": "German 10 Shooter 🇩🇪",
     "airDate": "2025-03-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=taKWwo8FmgU",
