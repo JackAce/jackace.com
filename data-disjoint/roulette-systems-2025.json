@@ -1,5 +1,163 @@
 [
   {
+    "name": "16 and Out",
+    "airDate": "2025-03-16",
+    "youtubeUrl": "https://www.youtube.com/watch?v=T0Hf5-UwC0Q",
+    "reviewUrl": "2025-03-16-16-and-Out",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-13-16":5,"x2-19-22":5,"x4-22-26":5,"x4-23-27":5,"x2-21-24":5,"x2-15-18":5,"x4-11-15":5,"x4-10-14":5}},
+      {"wheelType":1,"wagers":{"x2-13-16":10,"x2-19-22":10,"x4-22-26":10,"x4-23-27":10,"x2-21-24":10,"x2-15-18":10,"x4-11-15":10,"x4-10-14":10}},
+      {"wheelType":1,"wagers":{"x2-13-16":15,"x2-19-22":15,"x4-22-26":15,"x4-23-27":15,"x2-21-24":15,"x2-15-18":15,"x4-11-15":15,"x4-10-14":15}},
+      {"wheelType":1,"wagers":{"x2-13-16":20,"x2-19-22":20,"x4-22-26":20,"x4-23-27":20,"x2-21-24":20,"x2-15-18":20,"x4-11-15":20,"x4-10-14":20}},
+      {"wheelType":1,"wagers":{"x2-13-16":25,"x2-19-22":25,"x4-22-26":25,"x4-23-27":25,"x2-21-24":25,"x2-15-18":25,"x4-11-15":25,"x4-10-14":25}},
+      {"wheelType":1,"wagers":{"x2-13-16":30,"x2-19-22":30,"x4-22-26":30,"x4-23-27":30,"x2-21-24":30,"x2-15-18":30,"x4-11-15":30,"x4-10-14":30}},
+      {"wheelType":1,"wagers":{"x2-13-16":40,"x2-19-22":40,"x4-22-26":40,"x4-23-27":40,"x2-21-24":40,"x2-15-18":40,"x4-11-15":40,"x4-10-14":40}},
+      {"wheelType":1,"wagers":{"x2-13-16":45,"x2-19-22":45,"x4-22-26":45,"x4-23-27":45,"x2-21-24":45,"x2-15-18":45,"x4-11-15":45,"x4-10-14":45}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      40, 80, 120, 160, 200, 240, 320, 360
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "9",
+        "amountBet": 40,
+        "result": -40,
+        "time": "0:58"
+      },
+      {
+        "spin": 2,
+        "number": "8",
+        "amountBet": 80,
+        "result": -80,
+        "time": "1:24"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 120,
+        "result": -120,
+        "time": "1:59"
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 160,
+        "result": 380,
+        "time": "2:53"
+      },
+      {
+        "spin": 5,
+        "number": "23",
+        "amountBet": 40,
+        "result": 50,
+        "time": "3:24"
+      },
+      {
+        "spin": 6,
+        "number": "00",
+        "amountBet": 80,
+        "result": -80,
+        "time": "4:37"
+      },
+      {
+        "spin": 7,
+        "number": "5",
+        "amountBet": 40,
+        "result": -40,
+        "time": "4:59"
+      },
+      {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 80,
+        "result": -80,
+        "time": "5:28"
+      },
+      {
+        "spin": 9,
+        "number": "3",
+        "amountBet": 120,
+        "result": -120,
+        "time": "5:47"
+      },
+      {
+        "spin": 10,
+        "number": "10",
+        "amountBet": 120,
+        "result": 15,
+        "time": "6:19"
+      },
+      {
+        "spin": 11,
+        "number": "18",
+        "amountBet": 120,
+        "result": 150,
+        "time": "7:00"
+      },
+      {
+        "spin": 12,
+        "number": "28",
+        "amountBet": 120,
+        "result": -120,
+        "time": "7:32"
+      },
+      {
+        "spin": 13,
+        "number": "00",
+        "amountBet": 160,
+        "result": -160,
+        "time": "8:11"
+      },
+      {
+        "spin": 14,
+        "number": "31",
+        "amountBet": 200,
+        "result": -200,
+        "time": "9:07"
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 240,
+        "result": -240,
+        "displayedResult": -15,
+        "time": "9:35"
+      },
+      {
+        "spin": 16,
+        "number": "12",
+        "amountBet": 320,
+        "result": 40,
+        "notes": "Alex decided to skip $35 per bet and go straight to $40 per bet",
+        "time": "10:25"
+      },
+      {
+        "spin": 17,
+        "number": "17",
+        "amountBet": 360,
+        "result": -360,
+        "time": "11:05"
+      }
+    ]
+  },
+  {
     "name": "Padovean Corners",
     "airDate": "2025-03-15",
     "youtubeUrl": "https://www.youtube.com/watch?v=366b8rBpYYc",
