@@ -1,5 +1,164 @@
 [
   {
+    "name": "Finding the G-Spot 2.0",
+    "airDate": "2021-12-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=nniiENfDUjQ",
+    "reviewUrl": "2021-12-12-Finding-the-G-Spot-2-0",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":10}},
+      {"wheelType":1,"wagers":{"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x4-1-5":10,"x4-8-12":10,"x4-14-18":10,"x4-19-23":10,"x4-25-29":10,"x4-32-36":10}},
+      {"wheelType":1,"wagers":{"x2-0-00":10,"x2-1-4":10,"x2-6-9":10,"x2-8-11":10,"x2-16-19":10,"x2-17-20":10,"x2-22-25":10,"x2-24-27":10,"x2-29-32":10}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 100,
+    "bets": [
+      10, 20, 60, 90
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "17",
+        "amountBet": 10,
+        "result": 10,
+        "time": "2:45"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 20,
+        "result": -20,
+        "time": "3:26"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 10,
+        "result": 10,
+        "time": "4:06"
+      },
+      {
+        "spin": 4,
+        "number": "3",
+        "amountBet": 20,
+        "result": -20,
+        "time": "4:40"
+      },
+      {
+        "spin": 5,
+        "number": "00",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:08"
+      },
+      {
+        "spin": 6,
+        "number": "4",
+        "amountBet": 10,
+        "result": 10,
+        "time": "5:40"
+      },
+      {
+        "spin": 7,
+        "number": "30",
+        "amountBet": 20,
+        "result": 40,
+        "time": "6:16"
+      },
+      {
+        "spin": 8,
+        "number": "8",
+        "amountBet": 60,
+        "result": 30,
+        "time": "8:13"
+      },
+      {
+        "spin": 9,
+        "number": "30",
+        "amountBet": 90,
+        "result": -90,
+        "time": "9:20"
+      },
+      {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 10,
+        "result": -10,
+        "time": "10:02"
+      },
+      {
+        "spin": 11,
+        "number": "18",
+        "amountBet": 10,
+        "result": -10,
+        "time": "10:29"
+      },
+      {
+        "spin": 12,
+        "number": "00",
+        "amountBet": 10,
+        "result": -10,
+        "time": "11:01"
+      },
+      {
+        "spin": 13,
+        "number": "27",
+        "amountBet": 10,
+        "result": 10,
+        "time": "12:03"
+      },
+      {
+        "spin": 14,
+        "number": "16",
+        "amountBet": 20,
+        "result": 40,
+        "time": "12:35"
+      },
+      {
+        "spin": 15,
+        "number": "8",
+        "amountBet": 60,
+        "result": 30,
+        "time": "13:49"
+      },
+      {
+        "spin": 16,
+        "number": "12",
+        "amountBet": 90,
+        "result": -90,
+        "time": "14:41"
+      },
+      {
+        "spin": 17,
+        "number": "25",
+        "amountBet": 10,
+        "result": -10,
+        "time": "15:14"
+      },
+      {
+        "spin": 18,
+        "number": "9",
+        "amountBet": 10,
+        "result": -10,
+        "time": "15:46"
+      }
+    ]
+  },
+  {
     "name": "The Winning System",
     "airDate": "2021-12-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=JxTV1QL3_70",
