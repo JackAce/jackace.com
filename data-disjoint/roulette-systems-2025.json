@@ -1,5 +1,150 @@
 [
   {
+    "name": "Priapism 2.0",
+    "airDate": "2025-03-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=gcSTUmuMlbw",
+    "reviewUrl": "2025-03-22-Priapism-2-0",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25,"x3-10-12":5,"x2-8-9":5}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":25,"x3-10-12":10,"x2-8-9":5}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30,"x3-10-12":10,"x2-8-9":10}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 540,
+    "bets": [
+      60, 70, 80
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "2",
+        "amountBet": 60,
+        "result": -60,
+        "time": "1:38"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 60,
+        "result": 15,
+        "time": "2:29"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 60,
+        "result": 15,
+        "time": "3:04"
+      },
+      {
+        "spin": 4,
+        "number": "1",
+        "amountBet": 70,
+        "result": -70,
+        "displayedResult": -60,
+        "time": "3:51"
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 60,
+        "result": 15,
+        "time": "4:31"
+      },
+      {
+        "spin": 6,
+        "number": "9",
+        "amountBet": 60,
+        "result": 30,
+        "time": "5:21"
+      },
+      {
+        "spin": 7,
+        "number": "26",
+        "amountBet": 60,
+        "result": 15,
+        "time": "6:05"
+      },
+      {
+        "spin": 8,
+        "number": "3",
+        "amountBet": 70,
+        "result": -70,
+        "time": "6:46"
+      },
+      {
+        "spin": 9,
+        "number": "3",
+        "amountBet": 60,
+        "result": -60,
+        "time": "7:27"
+      },
+      {
+        "spin": 10,
+        "number": "17",
+        "amountBet": 70,
+        "result": 20,
+        "time": "8:06"
+      },
+      {
+        "spin": 11,
+        "number": "14",
+        "amountBet": 70,
+        "result": 20,
+        "time": "9:04"
+      },
+      {
+        "spin": 12,
+        "number": "10",
+        "amountBet": 80,
+        "result": 40,
+        "time": "9:53"
+      },
+      {
+        "spin": 13,
+        "number": "23",
+        "amountBet": 80,
+        "result": 10,
+        "time": "10:31"
+      },
+      {
+        "spin": 14,
+        "number": "15",
+        "amountBet": 80,
+        "result": 10,
+        "time": "11:00"
+      },
+      {
+        "spin": 15,
+        "number": "11",
+        "amountBet": 80,
+        "result": 40,
+        "time": "11:19"
+      },
+      {
+        "spin": 16,
+        "number": "29",
+        "amountBet": 80,
+        "result": 10,
+        "time": "12:04"
+      }
+    ]
+  },
+  {
     "name": "Roman Secret",
     "airDate": "2025-03-21",
     "youtubeUrl": "https://www.youtube.com/watch?v=twggvhNsCFE",
