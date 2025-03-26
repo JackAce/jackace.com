@@ -1942,7 +1942,9 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=3puj1yswaSw",
     "reviewUrl": "2021-12-07-Gut-Punch",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
     "bettingTiers": [
       {
@@ -1991,7 +1993,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Martingale",
     "buyIn": 2500,
     "bets": [
       19,
@@ -1999,14 +2001,14 @@
       76
     ],
     "rating": "f",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 1,
+      "progressionSimplicity": 3,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
