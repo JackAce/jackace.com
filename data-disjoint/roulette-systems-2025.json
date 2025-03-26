@@ -1,5 +1,261 @@
 [
   {
+    "name": "Roman Secret",
+    "airDate": "2025-03-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=twggvhNsCFE",
+    "reviewUrl": "2025-03-21-Roman-Secret",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":45,"x12-doz3":45,"x4-2-6":15,"x4-7-11":15}},
+      {"wheelType":1,"wagers":{"x18-high":15,"x18-odd":15,"x18-black":15}},
+      {"wheelType":1,"wagers":{"x12-doz2":30}},
+      {"wheelType":1,"wagers":{"x2-0-00":10,"x2-5-8":10,"x2-17-20":10,"x2-33-36":10,"x4-22-26":10,"x4-28-32":10}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 400,
+    "bets": [
+      120, 45, 30, 60
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "35",
+        "amountBet": 120,
+        "result": 15,
+        "time": "1:02"
+      },
+      {
+        "spin": 2,
+        "number": "26",
+        "amountBet": 120,
+        "result": 15,
+        "time": "1:23"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 120,
+        "result": 15,
+        "time": "1:42"
+      },
+      {
+        "spin": 4,
+        "number": "2",
+        "amountBet": 45,
+        "result": -15,
+        "time": "2:22"
+      },
+      {
+        "spin": 5,
+        "number": "24",
+        "amountBet": 30,
+        "result": 60,
+        "time": "2:36"
+      },
+      {
+        "spin": 6,
+        "number": "3",
+        "amountBet": 60,
+        "result": -60,
+        "time": "3:20"
+      },
+      {
+        "spin": 7,
+        "number": "20",
+        "amountBet": 120,
+        "result": 15,
+        "time": "4:01"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 120,
+        "result": 15,
+        "time": "4:13"
+      },
+      {
+        "spin": 9,
+        "number": "17",
+        "amountBet": 120,
+        "result": 15,
+        "time": "4:34"
+      },
+      {
+        "spin": 10,
+        "number": "35",
+        "amountBet": 45,
+        "result": 45,
+        "time": "4:54"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 60,
+        "result": 30,
+        "time": "5:09"
+      },
+      {
+        "spin": 12,
+        "number": "22",
+        "amountBet": 60,
+        "result": 30,
+        "time": "5:28"
+      },
+      {
+        "spin": 13,
+        "number": "19",
+        "amountBet": 60,
+        "result": -60,
+        "time": "6:10"
+      },
+      {
+        "spin": 14,
+        "number": "19",
+        "amountBet": 120,
+        "result": 15,
+        "time": "6:53"
+      },
+      {
+        "spin": 15,
+        "number": "13",
+        "amountBet": 120,
+        "result": 15,
+        "time": "7:27"
+      },
+      {
+        "spin": 16,
+        "number": "9",
+        "amountBet": 120,
+        "result": -120,
+        "time": "7:52"
+      },
+      {
+        "spin": 17,
+        "number": "19",
+        "amountBet": 120,
+        "result": 15,
+        "time": "8:52"
+      },
+      {
+        "spin": 18,
+        "number": "25",
+        "amountBet": 45,
+        "result": 15,
+        "time": "9:20"
+      },
+      {
+        "spin": 19,
+        "number": "4",
+        "amountBet": 60,
+        "result": -60,
+        "displayedResult": -120,
+        "time": "9:51"
+      },
+      {
+        "spin": 20,
+        "number": "25",
+        "amountBet": 120,
+        "result": 15,
+        "time": "10:12"
+      },
+      {
+        "spin": 21,
+        "number": "20",
+        "amountBet": 120,
+        "result": 15,
+        "time": "10:33"
+      },
+      {
+        "spin": 22,
+        "number": "23",
+        "amountBet": 120,
+        "result": 15,
+        "time": "11:02"
+      },
+      {
+        "spin": 23,
+        "number": "29",
+        "amountBet": 40,
+        "result": 40,
+        "note": "Not part of this system",
+        "time": "11:33"
+      },
+      {
+        "spin": 24,
+        "number": "30",
+        "amountBet": 85,
+        "result": 5,
+        "note": "Not part of this system",
+        "time": "12:15"
+      },
+      {
+        "spin": 25,
+        "number": "10",
+        "amountBet": 80,
+        "result": -80,
+        "note": "Not part of this system",
+        "time": "12:43"
+      },
+      {
+        "spin": 26,
+        "number": "31",
+        "amountBet": 120,
+        "result": 15,
+        "time": "13:22"
+      },
+      {
+        "spin": 27,
+        "number": "30",
+        "amountBet": 120,
+        "result": 15,
+        "time": "14:02"
+      },
+      {
+        "spin": 28,
+        "number": "1",
+        "amountBet": 45,
+        "result": -15,
+        "time": "14:23"
+      },
+      {
+        "spin": 29,
+        "number": "15",
+        "amountBet": 30,
+        "result": 60,
+        "displayedResult": -30,
+        "time": "14:43"
+      },
+      {
+        "spin": 30,
+        "number": "0",
+        "amountBet": 60,
+        "result": 120,
+        "time": "15:09"
+      },
+      {
+        "spin": 31,
+        "number": "13",
+        "amountBet": 100,
+        "result": -100,
+        "displayedResult": -80,
+        "time": "16:15"
+      }
+    ]
+  },
+  {
     "name": "Flip Flopping Nolley",
     "airDate": "2025-03-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=ftRCHrptMwE",
