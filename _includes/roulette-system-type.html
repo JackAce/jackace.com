@@ -1,24 +1,41 @@
 {%- assign type = include.type | upcase -%}
 {%- assign hideText = include.hideText -%}
 {%- assign emoji = "😵‍💫" -%}
+{%- assign image = "system-type-other-40x40.png" -%}
+{%- assign name = "Other" -%}
 
 {%- if type == "FLAT BET" -%}
     {%- assign emoji = "😐" -%}
+    {%- assign image = "system-type-flatbet-40x40.png" -%}
+    {%- assign name = "Flat Bet" -%}
 {%- elsif type == "POSITIVE PROGRESSION" -%}
     {%- assign emoji = "⬆️" -%}
+    {%- assign image = "system-type-positiveprogression-40x40.png" -%}
+    {%- assign name = "Positive Progression" -%}
 {%- elsif type == "NEGATIVE PROGRESSION" -%}
     {%- assign emoji = "⬇️" -%}
+    {%- assign image = "system-type-negativeprogression-40x40.png" -%}
+    {%- assign name = "Negative Progression" -%}
 {%- elsif type == "LADDER" -%}
     {%- assign emoji = "🪜" -%}
+    {%- assign image = "system-type-ladder-40x40.png" -%}
+    {%- assign name = "Ladder" -%}
 {%- elsif type == "MARTINGALE" -%}
     {%- assign emoji = "🔥" -%}
+    {%- assign image = "system-type-martingale-40x40.png" -%}
+    {%- assign name = "Martingale" -%}
 {%- elsif type == "MULTI-LEG" -%}
     {%- assign emoji = "🐙" -%}
+    {%- assign image = "system-type-multileg-40x40.png" -%}
+    {%- assign name = "Multi-Leg" -%}
 {%- elsif type == "OTHER" -%}
     {%- assign emoji = "🤯" -%}
+    {%- assign image = "system-type-other-40x40.png" -%}
+    {%- assign name = "Other" -%}
 {%- endif -%}
-<span class="system-type" title="{{ include.type }}">
+<span class="system-type" title="{{ include.type }}" >
     {{- emoji -}}
+    <!-- <img src="{{- site.baseurl -}}/assets/img/roulette/system-types/{{- image -}}" title="{{ include.type }}" /> -->
     {%- if hideText != true -%}
         &nbsp;{{- include.type -}}
     {%- endif -%}
