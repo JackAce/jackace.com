@@ -1,5 +1,176 @@
 [
   {
+    "name": "Triple Cross to KJ",
+    "airDate": "2021-12-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ET42QEQkPYk",
+    "reviewUrl": "2021-12-02-Triple-Cross-to-KJ",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-col2":10,"x6-13-18":5,"x6-16-21":5,"x6-19-24":5}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-col2":20,"x6-13-18":10,"x6-16-21":10,"x6-19-24":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":15,"x12-col2":15,"x6-13-18":5,"x6-16-21":5,"x6-19-24":5}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-col2":30,"x6-13-18":10,"x6-16-21":10,"x6-19-24":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":60,"x12-col2":60,"x6-13-18":20,"x6-16-21":20,"x6-19-24":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":35,"x12-col2":35,"x6-13-18":15,"x6-16-21":15,"x6-19-24":15}},
+      {"wheelType":1,"wagers":{"x12-doz2":70,"x12-col2":70,"x6-13-18":30,"x6-16-21":30,"x6-19-24":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":140,"x12-col2":140,"x6-13-18":60,"x6-16-21":60,"x6-19-24":60}},
+      {"wheelType":1,"wagers":{"x12-doz2":280,"x12-col2":280,"x6-13-18":120,"x6-16-21":120,"x6-19-24":120}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1500,
+    "bets": [
+      35, 70, 45, 90, 180, 115, 230, 460, 920
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "4",
+        "amountBet": 35,
+        "result": -35,
+        "time": "1:42"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 70,
+        "result": 50,
+        "time": "2:19"
+      },
+      {
+        "spin": 3,
+        "number": "22",
+        "amountBet": 45,
+        "result": 30,
+        "time": "3:19"
+      },
+      {
+        "spin": 4,
+        "number": "21",
+        "amountBet": 35,
+        "result": 55,
+        "time": "5:38"
+      },
+      {
+        "spin": 5,
+        "number": "1",
+        "amountBet": 35,
+        "result": -35,
+        "time": "6:26"
+      },
+      {
+        "spin": 6,
+        "number": "2",
+        "amountBet": 70,
+        "result": -10,
+        "time": "7:05"
+      },
+      {
+        "spin": 7,
+        "number": "24",
+        "amountBet": 70,
+        "result": 50,
+        "time": "7:43"
+      },
+      {
+        "spin": 8,
+        "number": "2",
+        "amountBet": 45,
+        "result": 0,
+        "time": "8:41"
+      },
+      {
+        "spin": 9,
+        "number": "34",
+        "amountBet": 45,
+        "result": -45,
+        "time": "9:23"
+      },
+      {
+        "spin": 10,
+        "number": "5",
+        "amountBet": 90,
+        "result": 0,
+        "time": "10:10"
+      },
+      {
+        "spin": 11,
+        "number": "13",
+        "amountBet": 90,
+        "result": 60,
+        "time": "10:45"
+      },
+      {
+        "spin": 12,
+        "number": "36",
+        "amountBet": 90,
+        "result": -90,
+        "time": "11:38"
+      },
+      {
+        "spin": 13,
+        "number": "23",
+        "amountBet": 180,
+        "result": 300,
+        "time": "12:27"
+      },
+      {
+        "spin": 14,
+        "number": "27",
+        "amountBet": 115,
+        "result": -115,
+        "time": "14:08"
+      },
+      {
+        "spin": 15,
+        "number": "00",
+        "amountBet": 230,
+        "result": -230,
+        "time": "15:15"
+      },
+      {
+        "spin": 16,
+        "number": "26",
+        "amountBet": 460,
+        "result": -40,
+        "time": "16:08"
+      },
+      {
+        "spin": 17,
+        "number": "8",
+        "amountBet": 460,
+        "result": -40,
+        "time": "17:10"
+      },
+      {
+        "spin": 18,
+        "number": "00",
+        "amountBet": 460,
+        "result": -460,
+        "time": "18:01"
+      },
+      {
+        "spin": 19,
+        "number": "14",
+        "amountBet": 920,
+        "result": 1480,
+        "time": "19:15"
+      }
+    ]
+  },
+  {
     "name": "The Winning System",
     "airDate": "2021-12-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=JxTV1QL3_70",
