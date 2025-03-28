@@ -1,5 +1,189 @@
 [
   {
+    "name": "Same Same",
+    "airDate": "2025-03-27",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9oW3pHKqRns",
+    "reviewUrl": "2025-03-27-Same-Same",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-high":20,"x12-doz3":10,"x4-31-35":10,"x4-32-36":10,"x4-26-30":10,"x4-25-29":10,"x4-19-23":10,"x4-20-24":10}},
+      {"wheelType":1,"wagers":{"x18-high":25,"x12-doz3":15,"x4-31-35":15,"x4-32-36":15,"x4-26-30":15,"x4-25-29":15,"x4-19-23":15,"x4-20-24":15}},
+      {"wheelType":1,"wagers":{"x18-high":30,"x12-doz3":20,"x4-31-35":20,"x4-32-36":20,"x4-26-30":20,"x4-25-29":20,"x4-19-23":20,"x4-20-24":20}},
+      {"wheelType":1,"wagers":{"x18-high":35,"x12-doz3":25,"x4-31-35":25,"x4-32-36":25,"x4-26-30":25,"x4-25-29":25,"x4-19-23":25,"x4-20-24":25}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      90, 130, 170, 210
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "20",
+        "amountBet": 90,
+        "result": 130,
+        "time": "2:20"
+      },
+      {
+        "spin": 2,
+        "number": "18",
+        "amountBet": 90,
+        "result": -90,
+        "time": "3:05"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 90,
+        "result": -90,
+        "time": "3:36"
+      },
+      {
+        "spin": 4,
+        "number": "28",
+        "amountBet": 130,
+        "result": 100,
+        "displayedResult": 70,
+        "time": "4:54"
+      },
+      {
+        "spin": 5,
+        "number": "6",
+        "amountBet": 170,
+        "result": -170,
+        "time": "5:37"
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 90,
+        "result": -90,
+        "time": "6:14"
+      },
+      {
+        "spin": 7,
+        "number": "28",
+        "amountBet": 90,
+        "result": 70,
+        "time": "6:41"
+      },
+      {
+        "spin": 8,
+        "number": "9",
+        "amountBet": 130,
+        "result": -130,
+        "time": "7:09"
+      },
+      {
+        "spin": 9,
+        "number": "34",
+        "amountBet": 90,
+        "result": 70,
+        "time": "7:32"
+      },
+      {
+        "spin": 10,
+        "number": "21",
+        "amountBet": 130,
+        "result": 70,
+        "time": "8:11"
+      },
+      {
+        "spin": 11,
+        "number": "34",
+        "amountBet": 130,
+        "result": 100,
+        "displayedResult": 130,
+        "time": "8:31"
+      },
+      {
+        "spin": 12,
+        "number": "25",
+        "amountBet": 170,
+        "result": 130,
+        "time": "9:12"
+      },
+      {
+        "spin": 13,
+        "number": "22",
+        "amountBet": 90,
+        "result": 40,
+        "time": "9:43"
+      },
+      {
+        "spin": 14,
+        "number": "21",
+        "amountBet": 130,
+        "result": 55,
+        "time": "10:26"
+      },
+      {
+        "spin": 15,
+        "number": "25",
+        "amountBet": 170,
+        "result": 130,
+        "time": "10:59"
+      },
+      {
+        "spin": 16,
+        "number": "8",
+        "amountBet": 210,
+        "result": -210,
+        "time": "11:30"
+      },
+      {
+        "spin": 17,
+        "number": "15",
+        "amountBet": 80,
+        "result": -80,
+        "notes": "Alex forgot to bet on the dozen for $10",
+        "time": "11:53"
+      },
+      {
+        "spin": 18,
+        "number": "35",
+        "amountBet": 80,
+        "result": 140,
+        "notes": "Alex forgot to bet on the dozen for $10",
+        "time": "12:31"
+      },
+      {
+        "spin": 19,
+        "number": "21",
+        "amountBet": 130,
+        "result": 55,
+        "time": "13:23"
+      },
+      {
+        "spin": 20,
+        "number": "11",
+        "amountBet": 170,
+        "result": -170,
+        "time": "14:30"
+      },
+      {
+        "spin": 21,
+        "number": "2",
+        "amountBet": 0,
+        "result": 0,
+        "time": "14:56"
+      }
+    ]
+  },
+  {
     "name": "Lucky 10 Fold",
     "airDate": "2025-03-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=NuoBajVEUWY",
