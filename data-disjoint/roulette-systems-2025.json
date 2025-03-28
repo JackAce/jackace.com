@@ -1,5 +1,269 @@
 [
   {
+    "name": "Lucky 10 Fold",
+    "airDate": "2025-03-26",
+    "youtubeUrl": "https://www.youtube.com/watch?v=NuoBajVEUWY",
+    "reviewUrl": "2025-03-26-Lucky-10-Fold",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":100,"x12-doz3":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":100,"x4-25-29":50,"x4-32-36":50,"x4-7-11":50,"x4-2-6":50}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      100, 150, 300
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "26",
+        "amountBet": 100,
+        "result": 50,
+        "time": "2:32"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 150,
+        "result": 150,
+        "time": "2:51"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 300,
+        "result": 150,
+        "time": "3:30"
+      },
+      {
+        "spin": 4,
+        "number": "11",
+        "amountBet": 100,
+        "result": -100,
+        "time": "4:01"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 100,
+        "result": 50,
+        "time": "4:14"
+      },
+      {
+        "spin": 6,
+        "number": "4",
+        "amountBet": 150,
+        "result": -150,
+        "displayedResult": -100,
+        "time": "4:24"
+      },
+      {
+        "spin": 7,
+        "number": "16",
+        "amountBet": 100,
+        "result": 50,
+        "time": "4:49"
+      },
+      {
+        "spin": 8,
+        "number": "5",
+        "amountBet": 150,
+        "result": -150,
+        "time": "5:04"
+      },
+      {
+        "spin": 9,
+        "number": "5",
+        "amountBet": 100,
+        "result": -100,
+        "time": "5:35"
+      },
+      {
+        "spin": 10,
+        "number": "9",
+        "amountBet": 100,
+        "result": -100,
+        "time": "6:04"
+      },
+      {
+        "spin": 11,
+        "number": "35",
+        "amountBet": 100,
+        "result": 50,
+        "time": "6:21"
+      },
+      {
+        "spin": 12,
+        "number": "33",
+        "amountBet": 150,
+        "result": 0,
+        "time": "7:04"
+      },
+      {
+        "spin": 13,
+        "number": "17",
+        "amountBet": 150,
+        "result": 150,
+        "time": "7:17"
+      },
+      {
+        "spin": 14,
+        "number": "29",
+        "amountBet": 300,
+        "result": 150,
+        "time": "7:53"
+      },
+      {
+        "spin": 15,
+        "number": "34",
+        "amountBet": 100,
+        "result": 50,
+        "time": "8:16"
+      },
+      {
+        "spin": 16,
+        "number": "4",
+        "amountBet": 150,
+        "result": -150,
+        "time": "8:44"
+      },
+      {
+        "spin": 17,
+        "number": "4",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:07"
+      },
+      {
+        "spin": 18,
+        "number": "6",
+        "amountBet": 100,
+        "result": -100,
+        "time": "9:23"
+      },
+      {
+        "spin": 19,
+        "number": "25",
+        "amountBet": 100,
+        "result": 50,
+        "time": "9:44"
+      },
+      {
+        "spin": 20,
+        "number": "27",
+        "amountBet": 150,
+        "result": 0,
+        "time": "10:13"
+      },
+      {
+        "spin": 21,
+        "number": "4",
+        "amountBet": 150,
+        "result": -150,
+        "time": "10:33"
+      },
+      {
+        "spin": 22,
+        "number": "20",
+        "amountBet": 100,
+        "result": 50,
+        "time": "11:02"
+      },
+      {
+        "spin": 23,
+        "number": "20",
+        "amountBet": 150,
+        "result": 150,
+        "time": "11:26"
+      },
+      {
+        "spin": 24,
+        "number": "36",
+        "amountBet": 300,
+        "result": 150,
+        "time": "11:43"
+      },
+      {
+        "spin": 25,
+        "number": "34",
+        "amountBet": 100,
+        "result": 50,
+        "time": "12:09"
+      },
+      {
+        "spin": 26,
+        "number": "17",
+        "amountBet": 150,
+        "result": 150,
+        "time": "12:26"
+      },
+      {
+        "spin": 27,
+        "number": "11",
+        "amountBet": 300,
+        "result": 150,
+        "time": "13:03"
+      },
+      {
+        "spin": 28,
+        "number": "32",
+        "amountBet": 100,
+        "result": 50,
+        "time": "13:33"
+      },
+      {
+        "spin": 29,
+        "number": "2",
+        "amountBet": 150,
+        "result": -150,
+        "time": "13:57"
+      },
+      {
+        "spin": 30,
+        "number": "32",
+        "amountBet": 0,
+        "result": 0,
+        "time": "14:18"
+      },
+      {
+        "spin": 31,
+        "number": "24",
+        "amountBet": 0,
+        "result": 0,
+        "time": "14:40"
+      },
+      {
+        "spin": 32,
+        "number": "18",
+        "amountBet": 0,
+        "result": 0,
+        "time": "15:02"
+      },
+      {
+        "spin": 33,
+        "number": "00",
+        "amountBet": 0,
+        "result": 0,
+        "time": "15:14"
+      }
+    ]
+  },
+  {
     "name": "3 Wizards",
     "airDate": "2025-03-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=hLd11wPYeo8",
