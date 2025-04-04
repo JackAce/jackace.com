@@ -1,5 +1,195 @@
 [
   {
+    "name": "Double Trouble",
+    "airDate": "2021-11-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0OAotMF_KV4",
+    "reviewUrl": "2021-11-28-Double-Trouble",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-17":1,"x1-20":1}},
+      {"wheelType":1,"wagers":{"x1-17":1,"x1-20":1,"x1-14":1,"x1-23":1}},
+      {"wheelType":1,"wagers":{"x1-17":1,"x1-20":1,"x1-14":1,"x1-23":1,"x1-13":1,"x1-16":1,"x1-19":1,"x1-22":1}},
+      {"wheelType":1,"wagers":{"x1-17":1,"x1-20":1,"x1-14":1,"x1-23":1,"x1-13":1,"x1-16":1,"x1-19":1,"x1-22":1,"x1-25":1,"x1-26":1,"x1-29":1,"x1-28":1,"x1-32":1,"x1-31":1,"x1-35":1,"x1-34":1}},
+      {"wheelType":1,"wagers":{"x1-1":10,"x1-2":10,"x1-3":10,"x1-4":10,"x1-5":10,"x1-6":10,"x1-7":10,"x1-8":10,"x1-9":10,"x1-10":10,"x1-11":10,"x1-12":10,"x1-13":10,"x1-14":10,"x1-15":10,"x1-16":10,"x1-17":10,"x1-18":10,"x1-19":10,"x1-20":10,"x1-21":10,"x1-22":10,"x1-23":10,"x1-24":10,"x1-25":10,"x1-26":10,"x1-27":10,"x1-28":10,"x1-29":10,"x1-30":10,"x1-31":10,"x1-32":10}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 350,
+    "bets": [
+      2, 4, 8, 16, 320
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "15",
+        "amountBet": 2,
+        "result": -2,
+        "time": "1:25"
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 4,
+        "result": -4,
+        "time": "1:59"
+      },
+      {
+        "spin": 3,
+        "number": "25",
+        "amountBet": 8,
+        "result": -8,
+        "time": "2:28"
+      },
+      {
+        "spin": 4,
+        "number": "12",
+        "amountBet": 16,
+        "result": -16,
+        "time": "3:07"
+      },
+      {
+        "spin": 5,
+        "number": "27",
+        "amountBet": 320,
+        "result": 40,
+        "time": "5:04"
+      },
+      {
+        "spin": 6,
+        "number": "5",
+        "amountBet": 2,
+        "result": -2,
+        "time": "6:23"
+      },
+      {
+        "spin": 7,
+        "number": "17",
+        "amountBet": 4,
+        "result": -4,
+        "time": "6:53"
+      },
+      {
+        "spin": 8,
+        "number": "24",
+        "amountBet": 8,
+        "result": -8,
+        "time": "7:29"
+      },
+      {
+        "spin": 9,
+        "number": "14",
+        "amountBet": 16,
+        "result": -16,
+        "time": "8:10"
+      },
+      {
+        "spin": 10,
+        "number": "10",
+        "amountBet": 320,
+        "result": 40,
+        "time": "8:58"
+      },
+      {
+        "spin": 11,
+        "number": "7",
+        "amountBet": 2,
+        "result": -2,
+        "time": "10:19"
+      },
+      {
+        "spin": 12,
+        "number": "20",
+        "amountBet": 4,
+        "result": -4,
+        "time": "10:55"
+      },
+      {
+        "spin": 13,
+        "number": "15",
+        "amountBet": 8,
+        "result": -8,
+        "time": "11:37"
+      },
+      {
+        "spin": 14,
+        "number": "2",
+        "amountBet": 16,
+        "result": 20,
+        "time": "12:12"
+      },
+      {
+        "spin": 15,
+        "number": "6",
+        "amountBet": 2,
+        "result": -2,
+        "time": "13:03"
+      },
+      {
+        "spin": 16,
+        "number": "34",
+        "amountBet": 2,
+        "result": -2,
+        "notes": "Alex forgot to follow the sequence. This bet should have been $4",
+        "time": "13:35"
+      },
+      {
+        "spin": 17,
+        "number": "14",
+        "amountBet": 8,
+        "result": -8,
+        "time": "14:08"
+      },
+      {
+        "spin": 18,
+        "number": "13",
+        "amountBet": 16,
+        "result": 20,
+        "time": "14:41"
+      },
+      {
+        "spin": 19,
+        "number": "30",
+        "amountBet": 2,
+        "result": -2,
+        "time": "15:34"
+      },
+      {
+        "spin": 20,
+        "number": "8",
+        "amountBet": 4,
+        "result": -4,
+        "time": "16:05"
+      },
+      {
+        "spin": 21,
+        "number": "21",
+        "amountBet": 8,
+        "result": -8,
+        "notes": "Screen displays the wrong number that hit",
+        "time": "16:42"
+      },
+      {
+        "spin": 22,
+        "number": "17",
+        "amountBet": 16,
+        "result": 20,
+        "time": "17:12"
+      }
+    ]
+  },
+  {
     "name": "5 Lines",
     "airDate": "2021-11-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=lV0cVXe8_bU",
