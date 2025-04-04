@@ -1,5 +1,219 @@
 [
   {
+    "name": "Chasing My Dozen",
+    "airDate": "2021-12-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=cpKF03z-_98",
+    "reviewUrl": "2021-12-01-Chasing-My-Dozen",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x12-doz1":20}},
+      {"wheelType":1,"wagers":{"x12-doz1":30}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 2400,
+    "bets": [
+      10, 20, 30
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "25",
+        "amountBet": 10,
+        "result": 20,
+        "time": "2:06"
+      },
+      {
+        "spin": 2,
+        "number": "16",
+        "amountBet": 10,
+        "result": 20,
+        "time": "3:01"
+      },
+      {
+        "spin": 3,
+        "number": "23",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:41"
+      },
+      {
+        "spin": 4,
+        "number": "35",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:22"
+      },
+      {
+        "spin": 5,
+        "number": "18",
+        "amountBet": 20,
+        "result": -20,
+        "time": "4:55"
+      },
+      {
+        "spin": 6,
+        "number": "5",
+        "amountBet": 30,
+        "result": 60,
+        "time": "5:28"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:05"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:41"
+      },
+      {
+        "spin": 9,
+        "number": "35",
+        "amountBet": 20,
+        "result": 40,
+        "time": "7:20"
+      },
+      {
+        "spin": 10,
+        "number": "8",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:56"
+      },
+      {
+        "spin": 11,
+        "number": "4",
+        "amountBet": 10,
+        "result": -10,
+        "time": "8:33"
+      },
+      {
+        "spin": 12,
+        "number": "12",
+        "amountBet": 20,
+        "result": -20,
+        "time": "9:09"
+      },
+      {
+        "spin": 13,
+        "number": "15",
+        "amountBet": 30,
+        "result": 60,
+        "time": "9:49"
+      },
+      {
+        "spin": 14,
+        "number": "6",
+        "amountBet": 10,
+        "result": -10,
+        "time": "10:25"
+      },
+      {
+        "spin": 15,
+        "number": "32",
+        "amountBet": 10,
+        "result": 20,
+        "time": "10:58"
+      },
+      {
+        "spin": 16,
+        "number": "13",
+        "amountBet": 10,
+        "result": -10,
+        "time": "11:36"
+      },
+      {
+        "spin": 17,
+        "number": "31",
+        "amountBet": 10,
+        "result": -10,
+        "time": "12:08"
+      },
+      {
+        "spin": 18,
+        "number": "10",
+        "amountBet": 20,
+        "result": 40,
+        "time": "12:45"
+      },
+      {
+        "spin": 19,
+        "number": "17",
+        "amountBet": 10,
+        "result": 20,
+        "time": "13:26"
+      },
+      {
+        "spin": 20,
+        "number": "4",
+        "amountBet": 10,
+        "result": -10,
+        "time": "14:06"
+      },
+      {
+        "spin": 21,
+        "number": "29",
+        "amountBet": 10,
+        "result": -10,
+        "time": "14:44"
+      },
+      {
+        "spin": 22,
+        "number": "23",
+        "amountBet": 10,
+        "result": -10,
+        "time": "15:20"
+      },
+      {
+        "spin": 23,
+        "number": "35",
+        "amountBet": 20,
+        "result": 40,
+        "time": "15:54"
+      },
+      {
+        "spin": 24,
+        "number": "8",
+        "amountBet": 10,
+        "result": -10,
+        "time": "16:34"
+      },
+      {
+        "spin": 25,
+        "number": "3",
+        "amountBet": 10,
+        "result": -10,
+        "time": "17:12"
+      },
+      {
+        "spin": 26,
+        "number": "18",
+        "amountBet": 20,
+        "result": 40,
+        "time": "17:45"
+      }
+    ]
+  },
+  {
     "name": "Triple Cross to KJ",
     "airDate": "2021-12-02",
     "youtubeUrl": "https://www.youtube.com/watch?v=ET42QEQkPYk",
