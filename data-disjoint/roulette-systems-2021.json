@@ -1,5 +1,172 @@
 [
   {
+    "name": "Double Dicking the Streets",
+    "airDate": "2021-11-25",
+    "youtubeUrl": "https://www.youtube.com/watch?v=An9pOodioyQ",
+    "reviewUrl": "2021-11-25-Double-Dicking-the-Streets",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-16-18":10,"x3-22-24":10}}       
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1500,
+    "bets": [
+      20, 30, 60, 120, 240, 480, 40, 80, 160, 170, 340, 680, 320, 640
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "23",
+        "amountBet": 20,
+        "result": 100,
+        "displayedResult": 110,      
+        "time": "0:58"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 30,
+        "result": -30,
+        "time": "1:57"
+      },
+      {
+        "spin": 3,
+        "number": "14",
+        "amountBet": 60,
+        "result": -60,
+        "time": "2:34"
+      },
+      {
+        "spin": 4,
+        "number": "6",
+        "amountBet": 120,
+        "result": -120,
+        "time": "3:16"
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 240,
+        "result": -240,
+        "time": "3:57"
+      },
+      {
+        "spin": 6,
+        "number": "8",
+        "amountBet": 480,
+        "result": -480,
+        "time": "4:46"
+      },
+      {
+        "spin": 7,
+        "number": "6",
+        "amountBet": 20,
+        "result": -20,
+        "time": "5:55"
+      },
+      {
+        "spin": 8,
+        "number": "6",
+        "amountBet": 40,
+        "result": -40,
+        "time": "6:31"
+      },
+      {
+        "spin": 9,
+        "number": "7",
+        "amountBet": 80,
+        "result": -80,
+        "time": "8:29"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 160,
+        "result": 880,
+        "time": "9:06"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 170,
+        "result": -170,
+        "displayedResult": -180,
+        "time": "10:03"
+      },
+      {
+        "spin": 12,
+        "number": "8",
+        "amountBet": 340,
+        "result": -340,
+        "displayedResult": -360,
+        "time": "10:37"
+      },
+      {
+        "spin": 13,
+        "number": "6",
+        "amountBet": 680,
+        "result": -680,
+        "displayedResult": -720,
+        "time": "11:38"
+      },
+      {
+        "spin": 14,
+        "number": "14",
+        "amountBet": 20,
+        "result": -20,
+        "time": "12:54"
+      },
+      {
+        "spin": 15,
+        "number": "18",
+        "amountBet": 40,
+        "result": -40,
+        "time": "13:26"
+      },
+      {
+        "spin": 16,
+        "number": "5",
+        "amountBet": 80,
+        "result": -80,
+        "time": "14:05"
+      },
+      {
+        "spin": 17,
+        "number": "22",
+        "amountBet": 160,
+        "result": -160,
+        "time": "14:45"
+      },
+      {
+        "spin": 18,
+        "number": "13",
+        "amountBet": 320,
+        "result": -320,
+        "time": "15:29"
+      },
+      {
+        "spin": 19,
+        "number": "23",
+        "amountBet": 640,
+        "result": -640,
+        "time": "16:16"
+      }
+    ]
+  },
+  {
     "name": "Double Trouble",
     "airDate": "2021-11-28",
     "youtubeUrl": "https://www.youtube.com/watch?v=0OAotMF_KV4",
