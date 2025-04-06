@@ -1,5 +1,196 @@
 [
   {
+    "name": "The Notorious Double Chamba",
+    "airDate": "2021-11-21",
+    "youtubeUrl": "https://www.youtube.com/watch?v=2-kWxe_YfNk",
+    "reviewUrl": "2021-11-21-The-Notorious-Double-Chamba",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":100,"x12-doz3":100,"x12-col1":100,"x12-col2":100}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1500,
+    "bets": [
+      400
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "24",
+        "amountBet": 400,
+        "result": -100,
+        "time": "1:06"
+      },
+      {
+        "spin": 2,
+        "number": "14",
+        "amountBet": 400,
+        "result": 200,
+        "time": "1:47"
+      },
+      {
+        "spin": 3,
+        "number": "33",
+        "amountBet": 400,
+        "result": -100,
+        "time": "2:31"
+      },
+      {
+        "spin": 4,
+        "number": "28",
+        "amountBet": 400,
+        "result": 200,
+        "time": "4:25"
+      },
+      {
+        "spin": 5,
+        "number": "26",
+        "amountBet": 400,
+        "result": 200,
+        "time": "5:06"
+      },
+      {
+        "spin": 6,
+        "number": "18",
+        "amountBet": 400,
+        "result": -100,
+        "time": "5:45"
+      },
+      {
+        "spin": 7,
+        "number": "12",
+        "amountBet": 400,
+        "result": -400,
+        "time": "6:27"
+      },
+      {
+        "spin": 8,
+        "number": "32",
+        "amountBet": 400,
+        "result": 200,
+        "time": "7:06"
+      },
+      {
+        "spin": 9,
+        "number": "4",
+        "amountBet": 400,
+        "result": -100,
+        "time": "7:46"
+      },
+      {
+        "spin": 10,
+        "number": "3",
+        "amountBet": 400,
+        "result": -400,
+        "time": "8:26"
+      },
+      {
+        "spin": 11,
+        "number": "4",
+        "amountBet": 400,
+        "result": -100,
+        "time": "9:04"
+      },
+      {
+        "spin": 12,
+        "number": "3",
+        "amountBet": 400,
+        "result": -400,
+        "time": "9:46"
+      },
+      {
+        "spin": 13,
+        "number": "31",
+        "amountBet": 400,
+        "result": 200,
+        "time": "10:32"
+      },
+      {
+        "spin": 14,
+        "number": "34",
+        "amountBet": 400,
+        "result": 200,
+        "time": "11:07"
+      },
+      {
+        "spin": 15,
+        "number": "16",
+        "amountBet": 400,
+        "result": 200,
+        "time": "11:44"
+      },
+      {
+        "spin": 16,
+        "number": "6",
+        "amountBet": 400,
+        "result": -400,
+        "time": "12:25"
+      },
+      {
+        "spin": 17,
+        "number": "22",
+        "amountBet": 400,
+        "result": 200,
+        "time": "13:04"
+      },
+      {
+        "spin": 18,
+        "number": "35",
+        "amountBet": 400,
+        "result": 200,
+        "time": "13:45"
+      },
+      {
+        "spin": 19,
+        "number": "27",
+        "amountBet": 400,
+        "result": -100,
+        "time": "14:27"
+      },
+      {
+        "spin": 20,
+        "number": "19",
+        "amountBet": 400,
+        "result": 200,
+        "time": "15:08"
+      },
+      {
+        "spin": 21,
+        "number": "10",
+        "amountBet": 400,
+        "result": -100,
+        "time": "15:46"
+      },
+      {
+        "spin": 22,
+        "number": "36",
+        "amountBet": 400,
+        "result": -100,
+        "time": "16:23"
+      },
+      {
+        "spin": 23,
+        "number": "13",
+        "amountBet": 400,
+        "result": 200,
+        "time": "17:02"
+      }
+    ]
+  },
+  {
     "name": "Fremont 100",
     "airDate": "2021-11-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=HVpf5Y4FV0g",
