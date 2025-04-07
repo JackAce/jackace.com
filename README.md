@@ -23,4 +23,3 @@ If you notice any errors, please submit a pull request to correct them!
 * Check image folder structure for correct date
 * Preview Twitter card at https://cards-dev.twitter.com/validator
 * Make sure other posts weren't accidentally deployed
-
