@@ -26,6 +26,7 @@ task :build do
     sh "touch gambling/roulette/systems/error-check.html"
 end
 
+# Example: rake "json_refresh[roulette-systems-2021.json]"
 desc "Reformats a single JSON file in place. Usage: `rake \"json_refresh[file_path]\"`"
 task :json_refresh, [:file_path] do |t, args|
     if args[:file_path].nil?

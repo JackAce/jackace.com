@@ -1,36 +1,91 @@
 [
   {
-    "name": "Same Same",
+    "name": "Same Same 🟰",
     "airDate": "2025-03-27",
     "youtubeUrl": "https://www.youtube.com/watch?v=9oW3pHKqRns",
     "reviewUrl": "2025-03-27-Same-Same",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x18-high":20,"x12-doz3":10,"x4-31-35":10,"x4-32-36":10,"x4-26-30":10,"x4-25-29":10,"x4-19-23":10,"x4-20-24":10}},
-      {"wheelType":1,"wagers":{"x18-high":25,"x12-doz3":15,"x4-31-35":15,"x4-32-36":15,"x4-26-30":15,"x4-25-29":15,"x4-19-23":15,"x4-20-24":15}},
-      {"wheelType":1,"wagers":{"x18-high":30,"x12-doz3":20,"x4-31-35":20,"x4-32-36":20,"x4-26-30":20,"x4-25-29":20,"x4-19-23":20,"x4-20-24":20}},
-      {"wheelType":1,"wagers":{"x18-high":35,"x12-doz3":25,"x4-31-35":25,"x4-32-36":25,"x4-26-30":25,"x4-25-29":25,"x4-19-23":25,"x4-20-24":25}} 
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-high": 20,
+          "x12-doz3": 10,
+          "x4-31-35": 10,
+          "x4-32-36": 10,
+          "x4-26-30": 10,
+          "x4-25-29": 10,
+          "x4-19-23": 10,
+          "x4-20-24": 10
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-high": 25,
+          "x12-doz3": 15,
+          "x4-31-35": 15,
+          "x4-32-36": 15,
+          "x4-26-30": 15,
+          "x4-25-29": 15,
+          "x4-19-23": 15,
+          "x4-20-24": 15
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-high": 30,
+          "x12-doz3": 20,
+          "x4-31-35": 20,
+          "x4-32-36": 20,
+          "x4-26-30": 20,
+          "x4-25-29": 20,
+          "x4-19-23": 20,
+          "x4-20-24": 20
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-high": 35,
+          "x12-doz3": 25,
+          "x4-31-35": 25,
+          "x4-32-36": 25,
+          "x4-26-30": 25,
+          "x4-25-29": 25,
+          "x4-19-23": 25,
+          "x4-20-24": 25
+        }
+      }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 500,
     "bets": [
-      90, 130, 170, 210
+      90,
+      130,
+      170,
+      210
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 2,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 4
     },
     "isJackAceReview": false,
     "notes": "",
-    "spins": [{
+    "spins": [
+      {
         "spin": 1,
         "number": "20",
         "amountBet": 90,
@@ -184,36 +239,62 @@
     ]
   },
   {
-    "name": "Lucky 10 Fold",
+    "name": "Lucky 10 Fold 🍀",
     "airDate": "2025-03-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=NuoBajVEUWY",
     "reviewUrl": "2025-03-26-Lucky-10-Fold",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":50}},
-      {"wheelType":1,"wagers":{"x12-doz2":100,"x12-doz3":50}},
-      {"wheelType":1,"wagers":{"x12-doz2":100,"x4-25-29":50,"x4-32-36":50,"x4-7-11":50,"x4-2-6":50}} 
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz2": 50,
+          "x12-doz3": 50
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz2": 100,
+          "x12-doz3": 50
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz2": 100,
+          "x4-25-29": 50,
+          "x4-32-36": 50,
+          "x4-7-11": 50,
+          "x4-2-6": 50
+        }
+      }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 1000,
     "bets": [
-      100, 150, 300
+      100,
+      150,
+      300
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 3,
+      "chipUniformity": 4,
+      "jackpotPotential": 3,
+      "scalability": 5,
+      "compValue": 4
     },
     "isJackAceReview": false,
     "notes": "",
-    "spins": [{
+    "spins": [
+      {
         "spin": 1,
         "number": "26",
         "amountBet": 100,
@@ -448,37 +529,68 @@
     ]
   },
   {
-    "name": "3 Wizards",
+    "name": "3 Wizards 🧙🧙‍♂️🧙",
     "airDate": "2025-03-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=hLd11wPYeo8",
     "reviewUrl": "2025-03-24-3-Wizards",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x18-high":25,"x18-odd":25,"x18-black":25}},
-      {"wheelType":1,"wagers":{"x12-doz2":100}},
-      {"wheelType":1,"wagers":{"x18-odd":50}},
-      {"wheelType":1,"wagers":{"x18-black":50,"x18-odd":50,"x18-high":50}} 
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-high": 25,
+          "x18-odd": 25,
+          "x18-black": 25
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-odd": 50
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz2": 100
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-black": 50,
+          "x18-odd": 50,
+          "x18-high": 50
+        }
+      }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 750,
     "bets": [
-      75, 100, 50, 150
+      75,
+      100,
+      50,
+      150
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 1,
+      "chipUniformity": 4,
+      "jackpotPotential": 3,
+      "scalability": 3,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
-    "spins": [{
+    "spins": [
+      {
         "spin": 1,
         "number": "13",
         "amountBet": 75,
@@ -758,19 +870,19 @@
         "result": 200,
         "time": "11:39"
       },
-       {
+      {
         "spin": 41,
         "number": "27",
         "amountBet": 75,
         "result": 25,
         "time": "11:52"
       },
-       {
+      {
         "spin": 42,
         "number": "12",
         "amountBet": 100,
         "result": -100,
-        "displayedResult": -50, 
+        "displayedResult": -50,
         "time": "12:13"
       }
     ]
