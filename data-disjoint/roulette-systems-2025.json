@@ -1,5 +1,211 @@
 [
   {
+    "name": "Dream Progress",
+    "airDate": "2025-03-30",
+    "youtubeUrl": "https://www.youtube.com/watch?v=aktRBUPD-8I",
+    "reviewUrl": "2025-03-30-Dream-Progress",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-17":10}},
+      {"wheelType":1,"wagers":{"x2-26-29":10}},
+      {"wheelType":1,"wagers":{"x3-basket":20}},
+      {"wheelType":1,"wagers":{"x4-22-26":30}},
+      {"wheelType":1,"wagers":{"x6-16-21":60}},
+      {"wheelType":1,"wagers":{"x12-doz2":150}},
+      {"wheelType":1,"wagers":{"x18-high":400}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 710,
+    "bets": [
+      10, 20, 30, 60, 150, 400
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "8",
+        "amountBet": 10,
+        "result": -10,
+        "time": "1:10"
+      },
+      {
+        "spin": 2,
+        "number": "15",
+        "amountBet": 10,
+        "result": -10,
+        "time": "1:35"
+      },
+      {
+        "spin": 3,
+        "number": "27",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:03"
+      },
+      {
+        "spin": 4,
+        "number": "23",
+        "amountBet": 30,
+        "result": 240,
+        "time": "2:25"
+      },
+      {
+        "spin": 5,
+        "number": "00",
+        "amountBet": 10,
+        "result": -10,
+        "time": "2:53"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:21"
+      },
+      {
+        "spin": 7,
+        "number": "1",
+        "amountBet": 20,
+        "result": -20,
+        "time": "3:43"
+      },
+      {
+        "spin": 8,
+        "number": "29",
+        "amountBet": 30,
+        "result": -30,
+        "time": "4:21"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 60,
+        "result": -60,
+        "time": "4:41"
+      },
+      {
+        "spin": 10,
+        "number": "4",
+        "amountBet": 150,
+        "result": -150,
+        "time": "5:10"
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 400,
+        "result": -400,
+        "time": "5:39"
+      },
+      {
+        "spin": 12,
+        "number": "17",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:09"
+      },
+      {
+        "spin": 13,
+        "number": "12",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:24"
+      },
+      {
+        "spin": 14,
+        "number": "30",
+        "amountBet": 20,
+        "result": -20,
+        "time": "6:44"
+      },
+      {
+        "spin": 15,
+        "number": "4",
+        "amountBet": 30,
+        "result": -30,
+        "time": "7:08"
+      },
+      {
+        "spin": 16,
+        "number": "20",
+        "amountBet": 60,
+        "result": 300,
+        "time": "7:34"
+      },
+      {
+        "spin": 17,
+        "number": "15",
+        "amountBet": 10,
+        "result": -10,
+        "time": "8:16"
+      },
+      {
+        "spin": 18,
+        "number": "22",
+        "amountBet": 10,
+        "result": -10,
+        "time": "8:43"
+      },
+      {
+        "spin": 19,
+        "number": "28",
+        "amountBet": 20,
+        "result": -20,
+        "time": "9:05"
+      },
+      {
+        "spin": 20,
+        "number": "7",
+        "amountBet": 30,
+        "result": -30,
+        "displayedResult": -10,
+        "time": "9:41"
+      },
+      {
+        "spin": 21,
+        "number": "24",
+        "amountBet": 60,
+        "result": -60,
+        "time": "10:05"
+      },
+      {
+        "spin": 22,
+        "number": "27",
+        "amountBet": 150,
+        "result": -150,
+        "time": "10:12"
+      },
+      {
+        "spin": 23,
+        "number": "9",
+        "amountBet": 400,
+        "result": -400,
+        "time": "10:22"
+      },
+      {
+        "spin": 24,
+        "number": "19",
+        "amountBet": 260,
+        "result": -260,
+        "notes": "This is a YOLO bet",
+        "time": "11:14"
+      }
+    ]
+  },
+  {
     "name": "Rico Rough Necks",
     "airDate": "2025-03-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=CL15jIkpXRE",
