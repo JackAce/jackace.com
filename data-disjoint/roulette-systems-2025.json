@@ -1,5 +1,345 @@
 [
   {
+    "name": "Ladder Luck",
+    "airDate": "2025-04-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=XqUyw_DcfpM",
+    "reviewUrl": "2025-04-02-Ladder-Luck",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x18-odd":60}},
+      {"wheelType":1,"wagers":{"x12-doz2":120}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x4-19-23":25,"x4-20-24":25,"x4-13-17":25,"x4-14-18":25,"x1-17":20,"x1-20":20,"x2-0-00":20}},
+      {"wheelType":1,"wagers":{"x12-doz3":65,"x4-25-29":45,"x4-26-30":45,"x4-31-35":45,"x4-32-36":45,"x1-29":40,"x1-32":40,"x2-0-00":35}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 200,
+    "bets": [
+      20, 60, 120, 210, 360
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "17",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:15"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 20,
+        "result": 40,
+        "time": "2:29"
+      },
+      {
+        "spin": 3,
+        "number": "36",
+        "amountBet": 60,
+        "result": -60,
+        "time": "2:48"
+      },
+      {
+        "spin": 4,
+        "number": "5",
+        "amountBet": 20,
+        "result": -20,
+        "time": "3:03"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 20,
+        "result": 40,
+        "time": "3:23"
+      },
+      {
+        "spin": 6,
+        "number": "27",
+        "amountBet": 60,
+        "result": -60,
+        "time": "3:46"
+      },
+      {
+        "spin": 7,
+        "number": "20",
+        "amountBet": 20,
+        "result": 40,
+        "time": "4:02"
+      },
+      {
+        "spin": 8,
+        "number": "3",
+        "amountBet": 60,
+        "result": -60,
+        "time": "4:12"
+      },
+      {
+        "spin": 9,
+        "number": "30",
+        "amountBet": 20,
+        "result": -20,
+        "time": "4:33"
+      },
+      {
+        "spin": 10,
+        "number": "18",
+        "amountBet": 20,
+        "result": -20,
+        "time": "4:56"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 20,
+        "result": 40,
+        "time": "5:28"
+      },
+      {
+        "spin": 12,
+        "number": "29",
+        "amountBet": 60,
+        "result": 60,
+        "time": "5:56"
+      },
+      {
+        "spin": 13,
+        "number": "8",
+        "amountBet": 120,
+        "result": -120,
+        "time": "6:22"
+      },
+      {
+        "spin": 14,
+        "number": "5",
+        "amountBet": 20,
+        "result": -20,
+        "time": "6:49"
+      },
+      {
+        "spin": 15,
+        "number": "6",
+        "amountBet": 20,
+        "result": -20,
+        "time": "7:17"
+      },
+      {
+        "spin": 16,
+        "number": "19",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system. Dennis suggested a change and Alex decided to try it",
+        "time": "7:41"
+      },
+      {
+        "spin": 17,
+        "number": "11",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "8:04"
+      },
+      {
+        "spin": 18,
+        "number": "32",
+        "amountBet": 25,
+        "result": 50,
+        "notes": "Not a part of the system",
+        "time": "8:26"
+      },
+      {
+        "spin": 19,
+        "number": "13",
+        "amountBet": 75,
+        "result": 75,
+        "displayedResult": 60,
+        "notes": "Not a part of the system",
+        "time": "8:40"
+      },
+      {
+        "spin": 20,
+        "number": "16",
+        "amountBet": 125,
+        "result": 250,
+        "displayedResult": 240,
+        "notes": "Not a part of the system",
+        "time": "9:05"
+      },
+      {
+        "spin": 21,
+        "number": "31",
+        "amountBet": 210,
+        "result": -210,
+        "time": "9:50"
+      },
+      {
+        "spin": 22,
+        "number": "13",
+        "amountBet": 25,
+        "result": 50,
+        "notes": "Not a part of the system",
+        "time": "10:13"
+      },
+      {
+        "spin": 23,
+        "number": "5",
+        "amountBet": 75,
+        "result": -75,
+        "notes": "Not a part of the system",
+        "time": "10:30"
+      },
+      {
+        "spin": 24,
+        "number": "21",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "10:48"
+      },
+      {
+        "spin": 25,
+        "number": "11",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "11:00"
+      },
+      {
+        "spin": 26,
+        "number": "00",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "11:16"
+      },
+      {
+        "spin": 27,
+        "number": "22",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "11:50"
+      },
+      {
+        "spin": 28,
+        "number": "2",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "12:04"
+      },
+      {
+        "spin": 29,
+        "number": "18",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "12:33"
+      },
+      {
+        "spin": 30,
+        "number": "31",
+        "amountBet": 25,
+        "result": 50,
+        "notes": "Not a part of the system",
+        "time": "13:02"
+      },
+      {
+        "spin": 31,
+        "number": "24",
+        "amountBet": 75,
+        "result": 75,
+        "notes": "Not a part of the system",
+        "time": "13:28"
+      },
+      {
+        "spin": 32,
+        "number": "33",
+        "amountBet": 125,
+        "result": 250,
+        "displayedResult": 150,
+        "notes": "Not a part of the system",
+        "time": "13:50"
+      },
+      {
+        "spin": 33,
+        "number": "21",
+        "amountBet": 360,
+        "result": -360,
+        "time": "14:46"
+      },
+      {
+        "spin": 34,
+        "number": "31",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "15:13"
+      },
+      {
+        "spin": 35,
+        "number": "11",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "15:29"
+      },
+      {
+        "spin": 36,
+        "number": "27",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "15:57"
+      },
+      {
+        "spin": 37,
+        "number": "30",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "16:17"
+      },
+      {
+        "spin": 38,
+        "number": "11",
+        "amountBet": 25,
+        "result": -25,
+        "notes": "Not a part of the system",
+        "time": "16:43"
+      },
+      {
+        "spin": 39,
+        "number": "15",
+        "amountBet": 25,
+        "result": 50,
+        "notes": "Not a part of the system",
+        "time": "17:17"
+      },
+      {
+        "spin": 40,
+        "number": "5",
+        "amountBet": 75,
+        "result": -75,
+        "notes": "Not a part of the system",
+        "time": "17:47"
+      }
+    ]
+  },
+  {
     "name": "acbs",
     "airDate": "2025-03-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=ZDOevZJeS0o",
