@@ -1,5 +1,209 @@
 [
   {
+    "name": "Straight Up Hybrid Mart",
+    "airDate": "2025-04-04",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0qRFUPwlo-A",
+    "reviewUrl": "2025-04-04-Straight-Up-Hybrid-Mart",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-22":5}},
+      {"wheelType":1,"wagers":{"x1-22":5,"x1-29":5}},
+      {"wheelType":1,"wagers":{"x1-23":5,"x1-34":5,"x2-0-00":10}},
+      {"wheelType":1,"wagers":{"x2-0-00":10,"x1-19":5,"x1-20":5,"x1-10":5,"x1-12":5,"x1-27":5,"x1-34":5}},
+      {"wheelType":1,"wagers":{"x2-0-00":10,"x1-34":5,"x1-35":5,"x1-33":5,"x1-28":5,"x1-29":5,"x1-26":5,"x1-27":5,"x1-22":5,"x1-23":5,"x1-20":5,"x1-21":5,"x1-16":5,"x1-14":5,"x1-11":5}},
+      {"wheelType":1,"wagers":{"x2-0-00":20,"x1-4":10,"x1-10":10,"x1-12":10,"x1-14":10,"x1-15":10,"x1-19":10,"x1-22":10,"x1-23":10,"x1-25":10,"x1-27":10,"x1-28":10,"x1-29":10,"x1-32":10,"x1-34":10}},
+      {"wheelType":1,"wagers":{"x2-0-00":40,"x1-6":20,"x1-7":20,"x1-10":20,"x1-13":20,"x1-16":20,"x1-19":20,"x1-23":20,"x1-25":20,"x1-26":20,"x1-28":20,"x1-29":20,"x1-31":20,"x1-34":20,"x1-35":20}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 800,
+    "bets": [
+      5, 10, 20, 40, 80, 160, 320
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "8",
+        "amountBet": 5,
+        "result": -5,
+        "time": "1:13"
+      },
+      {
+        "spin": 2,
+        "number": "28",
+        "amountBet": 10,
+        "result": -10,
+        "time": "1:47"
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:09"
+      },
+      {
+        "spin": 4,
+        "number": "12",
+        "amountBet": 40,
+        "result": 140,
+        "displayedResult": 200,
+        "time": "2:38"
+      },
+      {
+        "spin": 5,
+        "number": "22",
+        "amountBet": 5,
+        "result": -5,
+        "time": "3:11"
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:44"
+      },
+      {
+        "spin": 7,
+        "number": "0",
+        "amountBet": 20,
+        "result": 160,
+        "time": "4:06"
+      },
+      {
+        "spin": 8,
+        "number": "31",
+        "amountBet": 5,
+        "result": -5,
+        "time": "4:32"
+      },
+      {
+        "spin": 9,
+        "number": "12",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:03"
+      },
+      {
+        "spin": 10,
+        "number": "34",
+        "amountBet": 20,
+        "result": -20,
+        "time": "5:27"
+      },
+      {
+        "spin": 11,
+        "number": "27",
+        "amountBet": 40,
+        "result": -40,
+        "time": "5:36"
+      },
+      {
+        "spin": 12,
+        "number": "0",
+        "amountBet": 80,
+        "result": -80,
+        "notes": "Not sure what number hit here (not 0). It wasn't displayed. I just know it was a loss of $80",
+        "time": "5:44"
+      },
+      {
+        "spin": 13,
+        "number": "8",
+        "amountBet": 160,
+        "result": -160,
+        "displayedResult": -80,
+        "time": "6:13"
+      },
+      {
+        "spin": 14,
+        "number": "18",
+        "amountBet": 320,
+        "result": -320,
+        "displayedResult": -160,
+        "time": "6:37"
+      },
+      {
+        "spin": 15,
+        "number": "27",
+        "amountBet": 400,
+        "result": -400,
+        "notes": "YOLO bet",
+        "time": "7:15"
+      },
+      {
+        "spin": 16,
+        "number": "30",
+        "amountBet": 5,
+        "result": -5,
+        "time": "7:41"
+      },
+      {
+        "spin": 17,
+        "number": "16",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:59"
+      },
+      {
+        "spin": 18,
+        "number": "15",
+        "amountBet": 20,
+        "result": -20,
+        "time": "8:17"
+      },
+      {
+        "spin": 19,
+        "number": "20",
+        "amountBet": 40,
+        "result": -40,
+        "time": "8:35"
+      },
+      {
+        "spin": 20,
+        "number": "25",
+        "amountBet": 80,
+        "result": -80,
+        "time": "8:50"
+      },
+      {
+        "spin": 21,
+        "number": "13",
+        "amountBet": 160,
+        "result": -160,
+        "time": "9:22"
+      },
+      {
+        "spin": 22,
+        "number": "9",
+        "amountBet": 320,
+        "result": -320,
+        "time": "9:55"
+      },
+      {
+        "spin": 23,
+        "number": "32",
+        "amountBet": 165,
+        "result": -165,
+        "displayedResult": -170,
+        "notes": "YOLO bet",
+        "time": "10:32"
+      }
+    ]
+  },
+  {
     "name": "Fib D1C",
     "airDate": "2025-04-03",
     "youtubeUrl": "https://www.youtube.com/watch?v=bVNds3LMpeY",
