@@ -31346,6 +31346,9 @@
     "bets": [
       195
     ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":70,"x3-16-18":20,"x18-high":105}}
+    ],
     "rating": "a",
     "jackaceRating": "b",
     "isJackAceReview": false,
