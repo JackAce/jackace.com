@@ -1,5 +1,229 @@
 [
   {
+    "name": "Nolley Splits",
+    "airDate": "2025-04-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1w6xmJWUjsI",
+    "reviewUrl": "2025-04-12-Nolley-Splits",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x2-28-31":10,"x2-29-32":10,"x2-30-33":10,"x2-18-21":10,"x2-17-20":10,"x2-16-19":10,"x2-6-9":10,"x2-5-8":10,"x2-7-10":10,"x2-0-00":10}},
+      {"wheelType":1,"wagers":{"x2-28-31":10,"x2-29-32":10,"x2-30-33":10,"x2-18-21":10,"x2-17-20":10,"x2-16-19":10,"x2-0-00":10}},
+      {"wheelType":1,"wagers":{"x2-29-32":10,"x2-16-19":10,"x2-17-20":10,"x2-18-21":10,"x2-0-00":10}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      50, 75, 100, 70
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "35",
+        "amountBet": 50,
+        "result": 25,
+        "time": "1:23"
+      },
+      {
+        "spin": 2,
+        "number": "0",
+        "amountBet": 75,
+        "result": -75,
+        "time": "1:44"
+      },
+      {
+        "spin": 3,
+        "number": "34",
+        "amountBet": 50,
+        "result": 25,
+        "time": "1:50"
+      },
+      {
+        "spin": 4,
+        "number": "12",
+        "amountBet": 75,
+        "result": -75,
+        "time": "2:17"
+      },
+      {
+        "spin": 5,
+        "number": "27",
+        "amountBet": 50,
+        "result": 25,
+        "time": "2:43"
+      },
+      {
+        "spin": 6,
+        "number": "7",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:13"
+      },
+      {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:42"
+      },
+      {
+        "spin": 8,
+        "number": "34",
+        "amountBet": 50,
+        "result": 25,
+        "time": "4:13"
+      },
+      {
+        "spin": 9,
+        "number": "30",
+        "amountBet": 75,
+        "result": 0,
+        "time": "4:21"
+      },
+      {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 75,
+        "result": 75,
+        "time": "4:31"
+      },
+      {
+        "spin": 11,
+        "number": "20",
+        "amountBet": 100,
+        "result": 80,        
+        "time": "4:57"
+      },
+      {
+        "spin": 12,
+        "number": "20",
+        "amountBet": 70,
+        "result": 110,
+        "displayedResult": 80,
+        "time": "5:15"
+      },
+      {
+        "spin": 13,
+        "number": "1",
+        "amountBet": 50,
+        "result": -50,
+        "time": "5:49"
+      },
+      {
+        "spin": 14,
+        "number": "34",
+        "amountBet": 50,
+        "result": 25,
+        "time": "6:09"
+      },
+      {
+        "spin": 15,
+        "number": "12",
+        "amountBet": 75,
+        "result": -75,
+        "time": "6:28"
+      },
+      {
+        "spin": 16,
+        "number": "19",
+        "amountBet": 50,
+        "result": 25,
+        "time": "6:55"
+      },
+      {
+        "spin": 17,
+        "number": "00",
+        "amountBet": 75,
+        "result": -75,
+        "time": "7:02"
+      },
+      {
+        "spin": 18,
+        "number": "5",
+        "amountBet": 50,
+        "result": -50,
+        "time": "7:28"
+      },
+      {
+        "spin": 19,
+        "number": "22",
+        "amountBet": 50,
+        "result": 25,
+        "time": "7:38"
+      },
+      {
+        "spin": 20,
+        "number": "8",
+        "amountBet": 75,
+        "result": -75,
+        "time": "7:50"
+      },
+      {
+        "spin": 21,
+        "number": "1",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:03"
+      },
+      {
+        "spin": 22,
+        "number": "11",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:27"
+      },
+      {
+        "spin": 23,
+        "number": "11",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:54"
+      },
+      {
+        "spin": 24,
+        "number": "13",
+        "amountBet": 50,
+        "result": 25,
+        "time": "9:24"
+      },
+      {
+        "spin": 25,
+        "number": "24",
+        "amountBet": 75,
+        "result": -75,
+        "time": "9:44"
+      },
+      {
+        "spin": 26,
+        "number": "4",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:09"
+      },
+      {
+        "spin": 27,
+        "number": "23",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:19"
+      }
+    ]
+  },
+  {
     "name": "Spin Off 4.0",
     "airDate": "2025-04-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=W50gwKcN5rY",
