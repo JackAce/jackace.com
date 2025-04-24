@@ -1,5 +1,148 @@
 [
   {
+    "name": "Triple X Factor",
+    "airDate": "2025-04-13",
+    "youtubeUrl": "https://www.youtube.com/watch?v=SeCg4FO20oU",
+    "reviewUrl": "2025-04-13-Triple-X-Factor",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-31-34":5,"x2-33-36":5,"x2-29-32":5,"x2-25-28":5,"x2-27-30":5,"x2-19-22":5,"x2-21-24":5,"x2-17-20":5,"x2-13-16":5,"x2-15-18":5,"x2-9-12":5,"x2-7-10":5,"x2-1-4":5,"x2-3-6":5,"x2-5-8":5}},
+      {"wheelType":1,"wagers":{"x2-31-34":5,"x2-33-36":5,"x2-29-32":5,"x2-25-28":5,"x2-27-30":5,"x2-19-22":5,"x2-21-24":5,"x2-17-20":5,"x2-13-16":5,"x2-15-18":5,"x2-9-12":5,"x2-7-10":5,"x2-1-4":5,"x2-3-6":5,"x2-5-8":5,"x1-32":5,"x1-29":5,"x1-17":5,"x1-20":5,"x1-5":5,"x1-8":5}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      75, 105
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "31",
+        "amountBet": 75,
+        "result": 15,
+        "time": "1:45"
+      },
+      {
+        "spin": 2,
+        "number": "16",
+        "amountBet": 75,
+        "result": 15,
+        "time": "2:39"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 75,
+        "result": 15,
+        "time": "3:32"
+      },
+      {
+        "spin": 4,
+        "number": "28",
+        "amountBet": 105,
+        "result": -15,
+        "time": "4:17"
+      },
+      {
+        "spin": 5,
+        "number": "5",
+        "amountBet": 75,
+        "result": 15,
+        "time": "4:41"
+      },
+      {
+        "spin": 6,
+        "number": "1",
+        "amountBet": 75,
+        "result": 15,
+        "time": "5:16"
+      },
+      {
+        "spin": 7,
+        "number": "30",
+        "amountBet": 75,
+        "result": 15,
+        "time": "5:39"
+      },
+      {
+        "spin": 8,
+        "number": "7",
+        "amountBet": 105,
+        "result": -15,
+        "time": "6:17"
+      },
+      {
+        "spin": 9,
+        "number": "27",
+        "amountBet": 75,
+        "result": 15,
+        "time": "6:46"
+      },
+      {
+        "spin": 10,
+        "number": "18",
+        "amountBet": 75,
+        "result": 15,
+        "time": "7:37"
+      },
+      {
+        "spin": 11,
+        "number": "33",
+        "amountBet": 75,
+        "result": 15,
+        "time": "7:47"
+      },
+      {
+        "spin": 12,
+        "number": "20",
+        "amountBet": 105,
+        "result": 165,
+        "time": "8:23"
+      },
+      {
+        "spin": 13,
+        "number": "21",
+        "amountBet": 75,
+        "result": 15,
+        "time": "9:41"
+      },
+      {
+        "spin": 14,
+        "number": "5",
+        "amountBet": 75,
+        "result": 15,
+        "time": "10:26"
+      },
+      {
+        "spin": 15,
+        "number": "32",
+        "amountBet": 75,
+        "result": 15,
+        "time": "10:55"
+      },
+      {
+        "spin": 16,
+        "number": "31",
+        "amountBet": 105,
+        "result": -15,
+        "time": "11:26"
+      }
+    ]
+  },
+  {
     "name": "Nolley Splits",
     "airDate": "2025-04-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=1w6xmJWUjsI",
