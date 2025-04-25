@@ -1,5 +1,237 @@
 [
   {
+    "name": "Locked and Loaded",
+    "airDate": "2025-04-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=MtZoMODlOd4",
+    "reviewUrl": "2025-04-18-Locked-and-Loaded",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":15}},
+      {"wheelType":1,"wagers":{"x18-black":25,"x2-0-00":5}},
+      {"wheelType":1,"wagers":{"x18-black":35,"x2-0-00":5}},
+      {"wheelType":1,"wagers":{"x18-black":45,"x2-0-00":10}},
+      {"wheelType":1,"wagers":{"x18-high":55,"x2-0-00":10}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 150,
+    "bets": [
+      15, 30, 40, 55, 65
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "1",
+        "amountBet": 15,
+        "result": -15,
+        "time": "1:25"
+      },
+      {
+        "spin": 2,
+        "number": "5",
+        "amountBet": 15,
+        "result": -15,
+        "time": "1:48"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 15,
+        "result": -15,
+        "time": "2:11"
+      },
+      {
+        "spin": 4,
+        "number": "21",
+        "amountBet": 15,
+        "result": -15,
+        "time": "2:30"
+      },
+      {
+        "spin": 5,
+        "number": "29",
+        "amountBet": 15,
+        "result": 15,
+        "time": "2:43"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 30,
+        "result": 60,
+        "time": "2:57"
+      },
+      {
+        "spin": 7,
+        "number": "2",
+        "amountBet": 40,
+        "result": 30,
+        "time": "3:42"
+      },
+      {
+        "spin": 8,
+        "number": "25",
+        "amountBet": 55,
+        "result": -55,
+        "displayedResult": -15,
+        "time": "3:52"
+      },
+      {
+        "spin": 9,
+        "number": "25",
+        "amountBet": 15,
+        "result": 15,
+        "time": "4:18"
+      },
+      {
+        "spin": 10,
+        "number": "26",
+        "amountBet": 30,
+        "result": 20,
+        "time": "4:41"
+      },
+      {
+        "spin": 11,
+        "number": "14",
+        "amountBet": 40,
+        "result": -40,
+        "time": "4:59"
+      },
+      {
+        "spin": 12,
+        "number": "00",
+        "amountBet": 15,
+        "result": -15,
+        "time": "5:22"
+      },
+      {
+        "spin": 13,
+        "number": "15",
+        "amountBet": 15,
+        "result": 15,
+        "time": "5:35"
+      },
+      {
+        "spin": 14,
+        "number": "6",
+        "amountBet": 30,
+        "result": -30,
+        "time": "5:46"
+      },
+      {
+        "spin": 15,
+        "number": "2",
+        "amountBet": 15,
+        "result": -15,
+        "time": "5:51"
+      },
+      {
+        "spin": 16,
+        "number": "21",
+        "amountBet": 15,
+        "result": 15,
+        "time": "6:01"
+      },
+      {
+        "spin": 17,
+        "number": "32",
+        "amountBet": 30,
+        "result": -30,
+        "time": "6:21"
+      },
+      {
+        "spin": 18,
+        "number": "0",
+        "amountBet": 15,
+        "result": -15,
+        "time": "6:53"
+      },
+      {
+        "spin": 19,
+        "number": "14",
+        "amountBet": 15,
+        "result": -15,
+        "time": "7:07"
+      },
+      {
+        "spin": 20,
+        "number": "2",
+        "amountBet": 15,
+        "result": 15,
+        "time": "7:46"
+      },
+      {
+        "spin": 21,
+        "number": "6",
+        "amountBet": 30,
+        "result": 20,
+        "time": "8:20"
+      },
+      {
+        "spin": 22,
+        "number": "27",
+        "amountBet": 40,
+        "result": -40,
+        "time": "8:33"
+      },
+      {
+        "spin": 23,
+        "number": "30",
+        "amountBet": 15,
+        "result": 15,
+        "time": "8:52"
+      },
+      {
+        "spin": 24,
+        "number": "27",
+        "amountBet": 30,
+        "result": 20,
+        "time": "9:13"
+      },
+      {
+        "spin": 25,
+        "number": "20",
+        "amountBet": 40,
+        "result": 30,
+        "time": "9:22"
+      },
+      {
+        "spin": 26,
+        "number": "30",
+        "amountBet": 55,
+        "result": 35,
+        "displayedResult": 20,
+        "time": "9:41"
+      },
+      {
+        "spin": 27,
+        "number": "0",
+        "amountBet": 65,
+        "result": 115,
+        "time": "10:03"
+      },
+      {
+        "spin": 28,
+        "number": "27",
+        "amountBet": 15,
+        "result": -15,
+        "time": "10:30"
+      }
+    ]
+  },
+  {
     "name": "4 Corner Press",
     "airDate": "2025-04-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=y5TkyVK9OMY",
