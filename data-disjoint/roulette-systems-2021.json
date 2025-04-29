@@ -1,5 +1,94 @@
 [
   {
+    "name": "Super 15 Inch",
+    "airDate": "2021-11-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=fJNbx6AWDbI",
+    "reviewUrl": "2021-11-09-Super-15-Inch",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-1":1,"x1-2":1,"x1-3":1,"x1-4":1,"x1-5":1,"x1-6":1,"x1-7":1,"x1-8":1,"x1-9":1,"x1-10":1,"x1-12":1,"x1-13":1,"x1-15":1,"x1-17":1,"x1-20":1}},
+      {"wheelType":1,"wagers":{"x1-1":2,"x1-2":2,"x1-3":2,"x1-4":2,"x1-5":2,"x1-6":2,"x1-7":2,"x1-8":2,"x1-9":2,"x1-10":2,"x1-12":2,"x1-13":2,"x1-15":2,"x1-17":2,"x1-20":2}},
+      {"wheelType":1,"wagers":{"x1-1":4,"x1-2":4,"x1-3":4,"x1-4":4,"x1-5":4,"x1-6":4,"x1-7":4,"x1-8":4,"x1-9":4,"x1-10":4,"x1-12":4,"x1-13":4,"x1-15":4,"x1-17":4,"x1-20":4}},
+      {"wheelType":1,"wagers":{"x1-1":8,"x1-2":8,"x1-3":8,"x1-4":8,"x1-5":8,"x1-6":8,"x1-7":8,"x1-8":8,"x1-9":8,"x1-10":8,"x1-12":8,"x1-13":8,"x1-15":8,"x1-17":8,"x1-20":8}},
+      {"wheelType":1,"wagers":{"x1-1":16,"x1-2":16,"x1-3":16,"x1-4":16,"x1-5":16,"x1-6":16,"x1-7":16,"x1-8":16,"x1-9":16,"x1-10":16,"x1-12":16,"x1-13":16,"x1-15":16,"x1-17":16,"x1-20":16}},
+      {"wheelType":1,"wagers":{"x1-1":32,"x1-2":32,"x1-3":32,"x1-4":32,"x1-5":32,"x1-6":32,"x1-7":32,"x1-8":32,"x1-9":32,"x1-10":32,"x1-12":32,"x1-13":32,"x1-15":32,"x1-17":32,"x1-20":32}},
+      {"wheelType":1,"wagers":{"x1-1":65,"x1-2":65,"x1-3":65,"x1-4":65,"x1-5":65,"x1-6":65,"x1-7":65,"x1-8":65,"x1-9":65,"x1-10":65,"x1-12":65,"x1-13":65,"x1-15":65,"x1-17":65,"x1-20":65}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 2000,
+    "bets": [
+      15, 30, 60, 120, 240, 480, 975
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "20",
+        "amountBet": 15,
+        "result": 21,
+        "displayedResult": 11,
+        "time": "2:25"
+      },
+      {
+        "spin": 2,
+        "number": "36",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:16"
+      },
+      {
+        "spin": 3,
+        "number": "12",
+        "amountBet": 60,
+        "result": 84,
+        "displayedResult": 44,
+        "time": "4:26"
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 120,
+        "result": 168,
+        "displayedResult": 88,
+        "time": "5:18"
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 240,
+        "result": 336,
+        "displayedResult": 172,
+        "time": "6:33"
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 480,
+        "result": -480,
+        "time": "8:57"
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 975,
+        "result": -975,
+        "time": "10:12"
+      }
+    ]
+  },
+  {
     "name": "Monarch Pass",
     "airDate": "2021-11-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=0Sa7qPEMJcw",
