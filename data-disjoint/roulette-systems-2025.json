@@ -1,4 +1,4 @@
-[
+  [
   {
     "name": "Bounce on It",
     "airDate": "2025-04-21",
@@ -1189,7 +1189,11 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=1w6xmJWUjsI",
     "reviewUrl": "2025-04-12-Nolley-Splits",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25}},
@@ -1201,7 +1205,7 @@
     "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
-      50, 75, 100, 70
+      50, 75, 100, 70, 50
     ],
     "rating": "c",
     "jackaceRating": "",
@@ -1408,12 +1412,15 @@
     ]
   },
   {
-    "name": "Spin Off 4.0",
+    "name": "Spin Off 4.0 🎡🎡🎡🎡",
     "airDate": "2025-04-11",
     "youtubeUrl": "https://www.youtube.com/watch?v=W50gwKcN5rY",
-    "reviewUrl": "2025-04-11-Spin-Off-4-0",
+    "reviewUrl": "2025-04-11-Spin-Off-40",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz2":25,"x12-col2":25}},
@@ -1421,22 +1428,23 @@
       {"wheelType":1,"wagers":{"x4-31-35":25,"x4-26-30":25,"x4-20-24":25,"x4-13-17":25,"x4-7-11":25,"x4-2-6":25}},
       {"wheelType":1,"wagers":{"x2-28-31":15,"x2-29-32":15,"x2-30-33":15,"x2-16-19":15,"x2-17-20":15,"x2-18-21":15,"x2-4-7":15,"x2-5-8":15,"x2-6-9":15,"x2-0-00":15}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 250,
     "bets": [
-      50, 75, 150
+      50, 75, 150, 150
     ],
     "rating": "a",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 4,
+      "scalability": 3,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": 315,
     "notes": "",
     "spins": [{
         "spin": 1,
