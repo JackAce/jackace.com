@@ -1,5 +1,127 @@
 [
   {
+    "name": "Monarch Pass",
+    "airDate": "2021-11-11",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0Sa7qPEMJcw",
+    "reviewUrl": "2021-11-11-Monarch-Pass",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-red":50,"x2-8-11":20,"x2-10-13":20,"x2-17-20":20,"x2-26-29":20,"x2-28-31":20}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      150
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "25",
+        "amountBet": 150,
+        "result": -50,
+        "time": "1:18"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 150,
+        "result": -50,
+        "time": "2:17"
+      },
+      {
+        "spin": 3,
+        "number": "00",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:04"
+      },
+      {
+        "spin": 4,
+        "number": "17",
+        "amountBet": 150,
+        "result": 210,
+        "time": "4:07"
+      },
+      {
+        "spin": 5,
+        "number": "29",
+        "amountBet": 150,
+        "result": 210,
+        "time": "5:23"
+      },
+      {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 150,
+        "result": -50,
+        "time": "6:30"
+      },
+      {
+        "spin": 7,
+        "number": "25",
+        "amountBet": 150,
+        "result": -50,
+        "time": "7:29"
+      },
+      {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 150,
+        "result": 210,
+        "time": "8:27"
+      },
+      {
+        "spin": 9,
+        "number": "19",
+        "amountBet": 150,
+        "result": -50,
+        "time": "9:32"
+      },
+      {
+        "spin": 10,
+        "number": "32",
+        "amountBet": 150,
+        "result": -50,
+        "time": "10:24"
+      },
+      {
+        "spin": 11,
+        "number": "31",
+        "amountBet": 150,
+        "result": 210,
+        "time": "11:12"
+      },
+      {
+        "spin": 12,
+        "number": "22",
+        "amountBet": 150,
+        "result": -150,
+        "displayedResult": -50,
+        "time": "12:03"
+      },
+      {
+        "spin": 13,
+        "number": "27",
+        "amountBet": 150,
+        "result": -50,
+        "time": "12:54"
+      }
+    ]
+  },
+  {
     "name": "Living on a Prayer",
     "airDate": "2021-11-13",
     "youtubeUrl": "https://www.youtube.com/watch?v=Ee25ylFx-jc",
