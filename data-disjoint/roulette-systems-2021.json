@@ -4310,14 +4310,14 @@
       270
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 5,
+      "chipUniformity": 3,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 5
     },
     "isJackAceReview": false,
     "notes": "",
@@ -4436,16 +4436,17 @@
       150
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 5,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 4
     },
     "isJackAceReview": false,
+    "finalWinLoss": 185,
     "notes": "",
     "spins": [
       {
@@ -4548,7 +4549,13 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=fJNbx6AWDbI",
     "reviewUrl": "2021-11-09-Super-15-Inch",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png"
     ],
     "bettingTiers": [
       {
@@ -4692,7 +4699,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 2000,
     "bets": [
       15,
@@ -4704,14 +4711,14 @@
       975
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 3,
+      "chipUniformity": 1,
+      "jackpotPotential": 4,
+      "scalability": 1,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -4777,7 +4784,11 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Or2WwWvJgJA",
     "reviewUrl": "2021-11-08-Uwu",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
     ],
     "bettingTiers": [
       {
@@ -4816,7 +4827,7 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Negative Progression",
     "buyIn": 155,
     "bets": [
       5,
@@ -4826,14 +4837,14 @@
       80
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 4,
+      "chipUniformity": 1,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 0.5
     },
     "isJackAceReview": false,
     "notes": "",
@@ -4958,33 +4969,34 @@
         }
       }
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Multi-Leg",
     "buyIn": 2000,
     "bets": [
       50,
       70,
       90,
+      150,
       170,
       220,
+      300,
       420,
+      600,
       830,
       1000,
-      150,
-      300,
-      600,
       1060
     ],
     "rating": "a",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 3,
+      "chipUniformity": 1,
+      "jackpotPotential": 1,
+      "scalability": 1,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": 1210,
     "notes": "",
     "spins": [
       {
