@@ -1,5 +1,126 @@
 [
   {
+    "name": "Martingale Lover",
+    "airDate": "2021-11-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=OkMqh5YEYxA",
+    "reviewUrl": "2021-11-06-Martingale-Lover",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":10,"x12-doz2":10,"x18-high":10,"x12-col2":10,"x18-even":10}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 2000,
+    "bets": [
+      50, 70, 90, 170, 220, 420, 830, 1000, 150, 300, 600, 1060
+    ],
+    "rating": "a",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "29",
+        "amountBet": 50,
+        "result": 20,
+        "time": "2:08"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 70,
+        "result": 20,
+        "time": "3:17"
+      },
+      {
+        "spin": 3,
+        "number": "12",
+        "amountBet": 90,
+        "result": -70,
+        "time": "4:20"
+      },
+      {
+        "spin": 4,
+        "number": "18",
+        "amountBet": 170,
+        "result": 90,
+        "time": "5:15"
+      },
+      {
+        "spin": 5,
+        "number": "18",
+        "amountBet": 220,
+        "result": -170,
+        "time": "6:18"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 420,
+        "result": -400,
+        "time": "7:11"
+      },
+      {
+        "spin": 7,
+        "number": "4",
+        "amountBet": 830,
+        "result": -170,
+        "time": "7:58"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 1000,
+        "result": 1260,
+        "time": "9:00"
+      },
+      {
+        "spin": 9,
+        "number": "26",
+        "amountBet": 90,
+        "result": 20,
+        "time": "10:54"
+      },
+      {
+        "spin": 10,
+        "number": "9",
+        "amountBet": 150,
+        "result": -150,
+        "time": "11:45"
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 300,
+        "result": -300,
+        "time": "12:28"
+      },
+      {
+        "spin": 12,
+        "number": "33",
+        "amountBet": 600,
+        "result": -440,
+        "time": "13:17"
+      },
+      {
+        "spin": 13,
+        "number": "22",
+        "amountBet": 1060,
+        "result": 1540,
+        "time": "14:31"
+      }
+    ]
+  },
+  {
     "name": "Uwu",
     "airDate": "2021-11-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=Or2WwWvJgJA",
