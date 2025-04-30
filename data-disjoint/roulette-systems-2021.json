@@ -1,5 +1,137 @@
 [
   {
+    "name": "Uwu",
+    "airDate": "2021-11-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Or2WwWvJgJA",
+    "reviewUrl": "2021-11-08-Uwu",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-basket":1,"x12-doz1":4}},
+      {"wheelType":1,"wagers":{"x3-basket":2,"x12-doz1":8}},
+      {"wheelType":1,"wagers":{"x3-basket":4,"x12-doz1":16}},
+      {"wheelType":1,"wagers":{"x3-basket":8,"x12-doz1":32}},
+      {"wheelType":1,"wagers":{"x3-basket":16,"x12-doz1":64}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 155,
+    "bets": [
+      5, 10, 20, 40, 80
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "11",
+        "amountBet": 5,
+        "result": 7,
+        "time": "2:22"
+      },
+      {
+        "spin": 2,
+        "number": "9",
+        "amountBet": 5,
+        "result": 7,
+        "time": "2:59"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 5,
+        "result": 7,
+        "time": "3:40"
+      },
+      {
+        "spin": 4,
+        "number": "18",
+        "amountBet": 5,
+        "result": -5,
+        "time": "4:32"
+      },
+      {
+        "spin": 5,
+        "number": "8",
+        "amountBet": 10,
+        "result": 14,
+        "time": "5:06"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 5,
+        "result": -5,
+        "time": "5:53"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:26"
+      },
+      {
+        "spin": 8,
+        "number": "21",
+        "amountBet": 20,
+        "result": -20,
+        "time": "7:06"
+      },
+      {
+        "spin": 9,
+        "number": "5",
+        "amountBet": 40,
+        "result": 56,
+        "time": "7:43"
+      },
+      {
+        "spin": 10,
+        "number": "13",
+        "amountBet": 5,
+        "result": -5,
+        "time": "8:45"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 10,
+        "result": -10,
+        "time": "9:25"
+      },
+      {
+        "spin": 12,
+        "number": "15",
+        "amountBet": 20,
+        "result": -20,
+        "time": "10:10"
+      },
+      {
+        "spin": 13,
+        "number": "19",
+        "amountBet": 40,
+        "result": -40,
+        "time": "10:49"
+      },
+      {
+        "spin": 14,
+        "number": "10",
+        "amountBet": 80,
+        "result": 112,
+        "time": "11:31"
+      }
+    ]
+  },
+  {
     "name": "Super 15 Inch",
     "airDate": "2021-11-09",
     "youtubeUrl": "https://www.youtube.com/watch?v=fJNbx6AWDbI",
