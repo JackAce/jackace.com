@@ -1,584 +1,5 @@
 [
   {
-    "name": "Martingale Lover",
-    "airDate": "2021-11-06",
-    "youtubeUrl": "https://www.youtube.com/watch?v=OkMqh5YEYxA",
-    "reviewUrl": "2021-11-06-Martingale-Lover",
-    "rbaImageUrls": [
-      "00-rba-0-800x768.png"
-    ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x18-black":10,"x12-doz2":10,"x18-high":10,"x12-col2":10,"x18-even":10}}
-    ],
-    "systemType": "Flat Bet",
-    "buyIn": 2000,
-    "bets": [
-      50, 70, 90, 170, 220, 420, 830, 1000, 150, 300, 600, 1060
-    ],
-    "rating": "a",
-    "jackaceRating": "",
-    "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
-    },
-    "isJackAceReview": false,
-    "notes": "",
-    "spins": [{
-        "spin": 1,
-        "number": "29",
-        "amountBet": 50,
-        "result": 20,
-        "time": "2:08"
-      },
-      {
-        "spin": 2,
-        "number": "32",
-        "amountBet": 70,
-        "result": 20,
-        "time": "3:17"
-      },
-      {
-        "spin": 3,
-        "number": "12",
-        "amountBet": 90,
-        "result": -70,
-        "time": "4:20"
-      },
-      {
-        "spin": 4,
-        "number": "18",
-        "amountBet": 170,
-        "result": 90,
-        "time": "5:15"
-      },
-      {
-        "spin": 5,
-        "number": "18",
-        "amountBet": 220,
-        "result": -170,
-        "time": "6:18"
-      },
-      {
-        "spin": 6,
-        "number": "12",
-        "amountBet": 420,
-        "result": -400,
-        "time": "7:11"
-      },
-      {
-        "spin": 7,
-        "number": "4",
-        "amountBet": 830,
-        "result": -170,
-        "time": "7:58"
-      },
-      {
-        "spin": 8,
-        "number": "35",
-        "amountBet": 1000,
-        "result": 1260,
-        "time": "9:00"
-      },
-      {
-        "spin": 9,
-        "number": "26",
-        "amountBet": 90,
-        "result": 20,
-        "time": "10:54"
-      },
-      {
-        "spin": 10,
-        "number": "9",
-        "amountBet": 150,
-        "result": -150,
-        "time": "11:45"
-      },
-      {
-        "spin": 11,
-        "number": "3",
-        "amountBet": 300,
-        "result": -300,
-        "time": "12:28"
-      },
-      {
-        "spin": 12,
-        "number": "33",
-        "amountBet": 600,
-        "result": -440,
-        "time": "13:17"
-      },
-      {
-        "spin": 13,
-        "number": "22",
-        "amountBet": 1060,
-        "result": 1540,
-        "time": "14:31"
-      }
-    ]
-  },
-  {
-    "name": "Uwu",
-    "airDate": "2021-11-08",
-    "youtubeUrl": "https://www.youtube.com/watch?v=Or2WwWvJgJA",
-    "reviewUrl": "2021-11-08-Uwu",
-    "rbaImageUrls": [
-      "00-rba-0-800x768.png"
-    ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x3-basket":1,"x12-doz1":4}},
-      {"wheelType":1,"wagers":{"x3-basket":2,"x12-doz1":8}},
-      {"wheelType":1,"wagers":{"x3-basket":4,"x12-doz1":16}},
-      {"wheelType":1,"wagers":{"x3-basket":8,"x12-doz1":32}},
-      {"wheelType":1,"wagers":{"x3-basket":16,"x12-doz1":64}} 
-    ],
-    "systemType": "Flat Bet",
-    "buyIn": 155,
-    "bets": [
-      5, 10, 20, 40, 80
-    ],
-    "rating": "b",
-    "jackaceRating": "",
-    "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
-    },
-    "isJackAceReview": false,
-    "notes": "",
-    "spins": [{
-        "spin": 1,
-        "number": "11",
-        "amountBet": 5,
-        "result": 7,
-        "time": "2:22"
-      },
-      {
-        "spin": 2,
-        "number": "9",
-        "amountBet": 5,
-        "result": 7,
-        "time": "2:59"
-      },
-      {
-        "spin": 3,
-        "number": "0",
-        "amountBet": 5,
-        "result": 7,
-        "time": "3:40"
-      },
-      {
-        "spin": 4,
-        "number": "18",
-        "amountBet": 5,
-        "result": -5,
-        "time": "4:32"
-      },
-      {
-        "spin": 5,
-        "number": "8",
-        "amountBet": 10,
-        "result": 14,
-        "time": "5:06"
-      },
-      {
-        "spin": 6,
-        "number": "31",
-        "amountBet": 5,
-        "result": -5,
-        "time": "5:53"
-      },
-      {
-        "spin": 7,
-        "number": "23",
-        "amountBet": 10,
-        "result": -10,
-        "time": "6:26"
-      },
-      {
-        "spin": 8,
-        "number": "21",
-        "amountBet": 20,
-        "result": -20,
-        "time": "7:06"
-      },
-      {
-        "spin": 9,
-        "number": "5",
-        "amountBet": 40,
-        "result": 56,
-        "time": "7:43"
-      },
-      {
-        "spin": 10,
-        "number": "13",
-        "amountBet": 5,
-        "result": -5,
-        "time": "8:45"
-      },
-      {
-        "spin": 11,
-        "number": "24",
-        "amountBet": 10,
-        "result": -10,
-        "time": "9:25"
-      },
-      {
-        "spin": 12,
-        "number": "15",
-        "amountBet": 20,
-        "result": -20,
-        "time": "10:10"
-      },
-      {
-        "spin": 13,
-        "number": "19",
-        "amountBet": 40,
-        "result": -40,
-        "time": "10:49"
-      },
-      {
-        "spin": 14,
-        "number": "10",
-        "amountBet": 80,
-        "result": 112,
-        "time": "11:31"
-      }
-    ]
-  },
-  {
-    "name": "Super 15 Inch",
-    "airDate": "2021-11-09",
-    "youtubeUrl": "https://www.youtube.com/watch?v=fJNbx6AWDbI",
-    "reviewUrl": "2021-11-09-Super-15-Inch",
-    "rbaImageUrls": [
-      "00-rba-0-800x768.png"
-    ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x1-1":1,"x1-2":1,"x1-3":1,"x1-4":1,"x1-5":1,"x1-6":1,"x1-7":1,"x1-8":1,"x1-9":1,"x1-10":1,"x1-12":1,"x1-13":1,"x1-15":1,"x1-17":1,"x1-20":1}},
-      {"wheelType":1,"wagers":{"x1-1":2,"x1-2":2,"x1-3":2,"x1-4":2,"x1-5":2,"x1-6":2,"x1-7":2,"x1-8":2,"x1-9":2,"x1-10":2,"x1-12":2,"x1-13":2,"x1-15":2,"x1-17":2,"x1-20":2}},
-      {"wheelType":1,"wagers":{"x1-1":4,"x1-2":4,"x1-3":4,"x1-4":4,"x1-5":4,"x1-6":4,"x1-7":4,"x1-8":4,"x1-9":4,"x1-10":4,"x1-12":4,"x1-13":4,"x1-15":4,"x1-17":4,"x1-20":4}},
-      {"wheelType":1,"wagers":{"x1-1":8,"x1-2":8,"x1-3":8,"x1-4":8,"x1-5":8,"x1-6":8,"x1-7":8,"x1-8":8,"x1-9":8,"x1-10":8,"x1-12":8,"x1-13":8,"x1-15":8,"x1-17":8,"x1-20":8}},
-      {"wheelType":1,"wagers":{"x1-1":16,"x1-2":16,"x1-3":16,"x1-4":16,"x1-5":16,"x1-6":16,"x1-7":16,"x1-8":16,"x1-9":16,"x1-10":16,"x1-12":16,"x1-13":16,"x1-15":16,"x1-17":16,"x1-20":16}},
-      {"wheelType":1,"wagers":{"x1-1":32,"x1-2":32,"x1-3":32,"x1-4":32,"x1-5":32,"x1-6":32,"x1-7":32,"x1-8":32,"x1-9":32,"x1-10":32,"x1-12":32,"x1-13":32,"x1-15":32,"x1-17":32,"x1-20":32}},
-      {"wheelType":1,"wagers":{"x1-1":65,"x1-2":65,"x1-3":65,"x1-4":65,"x1-5":65,"x1-6":65,"x1-7":65,"x1-8":65,"x1-9":65,"x1-10":65,"x1-12":65,"x1-13":65,"x1-15":65,"x1-17":65,"x1-20":65}} 
-    ],
-    "systemType": "Flat Bet",
-    "buyIn": 2000,
-    "bets": [
-      15, 30, 60, 120, 240, 480, 975
-    ],
-    "rating": "d",
-    "jackaceRating": "",
-    "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
-    },
-    "isJackAceReview": false,
-    "notes": "",
-    "spins": [{
-        "spin": 1,
-        "number": "20",
-        "amountBet": 15,
-        "result": 21,
-        "displayedResult": 11,
-        "time": "2:25"
-      },
-      {
-        "spin": 2,
-        "number": "36",
-        "amountBet": 30,
-        "result": -30,
-        "time": "3:16"
-      },
-      {
-        "spin": 3,
-        "number": "12",
-        "amountBet": 60,
-        "result": 84,
-        "displayedResult": 44,
-        "time": "4:26"
-      },
-      {
-        "spin": 4,
-        "number": "15",
-        "amountBet": 120,
-        "result": 168,
-        "displayedResult": 88,
-        "time": "5:18"
-      },
-      {
-        "spin": 5,
-        "number": "9",
-        "amountBet": 240,
-        "result": 336,
-        "displayedResult": 172,
-        "time": "6:33"
-      },
-      {
-        "spin": 6,
-        "number": "32",
-        "amountBet": 480,
-        "result": -480,
-        "time": "8:57"
-      },
-      {
-        "spin": 7,
-        "number": "29",
-        "amountBet": 975,
-        "result": -975,
-        "time": "10:12"
-      }
-    ]
-  },
-  {
-    "name": "Monarch Pass",
-    "airDate": "2021-11-11",
-    "youtubeUrl": "https://www.youtube.com/watch?v=0Sa7qPEMJcw",
-    "reviewUrl": "2021-11-11-Monarch-Pass",
-    "rbaImageUrls": [
-      "00-rba-0-800x768.png"
-    ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x18-red":50,"x2-8-11":20,"x2-10-13":20,"x2-17-20":20,"x2-26-29":20,"x2-28-31":20}} 
-    ],
-    "systemType": "Flat Bet",
-    "buyIn": 500,
-    "bets": [
-      150
-    ],
-    "rating": "c",
-    "jackaceRating": "",
-    "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
-    },
-    "isJackAceReview": false,
-    "notes": "",
-    "spins": [{
-        "spin": 1,
-        "number": "25",
-        "amountBet": 150,
-        "result": -50,
-        "time": "1:18"
-      },
-      {
-        "spin": 2,
-        "number": "32",
-        "amountBet": 150,
-        "result": -50,
-        "time": "2:17"
-      },
-      {
-        "spin": 3,
-        "number": "00",
-        "amountBet": 150,
-        "result": -150,
-        "time": "3:04"
-      },
-      {
-        "spin": 4,
-        "number": "17",
-        "amountBet": 150,
-        "result": 210,
-        "time": "4:07"
-      },
-      {
-        "spin": 5,
-        "number": "29",
-        "amountBet": 150,
-        "result": 210,
-        "time": "5:23"
-      },
-      {
-        "spin": 6,
-        "number": "23",
-        "amountBet": 150,
-        "result": -50,
-        "time": "6:30"
-      },
-      {
-        "spin": 7,
-        "number": "25",
-        "amountBet": 150,
-        "result": -50,
-        "time": "7:29"
-      },
-      {
-        "spin": 8,
-        "number": "13",
-        "amountBet": 150,
-        "result": 210,
-        "time": "8:27"
-      },
-      {
-        "spin": 9,
-        "number": "19",
-        "amountBet": 150,
-        "result": -50,
-        "time": "9:32"
-      },
-      {
-        "spin": 10,
-        "number": "32",
-        "amountBet": 150,
-        "result": -50,
-        "time": "10:24"
-      },
-      {
-        "spin": 11,
-        "number": "31",
-        "amountBet": 150,
-        "result": 210,
-        "time": "11:12"
-      },
-      {
-        "spin": 12,
-        "number": "22",
-        "amountBet": 150,
-        "result": -150,
-        "displayedResult": -50,
-        "time": "12:03"
-      },
-      {
-        "spin": 13,
-        "number": "27",
-        "amountBet": 150,
-        "result": -50,
-        "time": "12:54"
-      }
-    ]
-  },
-  {
-    "name": "Living on a Prayer",
-    "airDate": "2021-11-13",
-    "youtubeUrl": "https://www.youtube.com/watch?v=Ee25ylFx-jc",
-    "reviewUrl": "2021-11-13-Living-on-a-Prayer",
-    "rbaImageUrls": [
-      "00-rba-0-800x768.png"
-    ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz1":100,"x1-17":5,"x1-29":5,"x2-14-17":10,"x2-17-20":10,"x2-16-17":10,"x2-17-18":10,"x4-14-18":10,"x4-17-21":10,"x4-16-20":10,"x4-13-17":10,"x2-26-29":10,"x2-29-32":10,"x2-29-30":10,"x2-28-29":10,"x4-25-29":10,"x4-28-32":10,"x4-29-33":10,"x4-26-30":10}} 
-    ],
-    "systemType": "Flat Bet",
-    "buyIn": 1300,
-    "bets": [
-      270
-    ],
-    "rating": "d",
-    "jackaceRating": "",
-    "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
-    },
-    "isJackAceReview": false,
-    "notes": "",
-    "spins": [{
-        "spin": 1,
-        "number": "8",
-        "amountBet": 270,
-        "result": 30,
-        "time": "1:28"
-      },
-      {
-        "spin": 2,
-        "number": "18",
-        "amountBet": 270,
-        "result": 90,
-        "time": "2:09"
-      },
-      {
-        "spin": 3,
-        "number": "24",
-        "amountBet": 270,
-        "result": 270,
-        "time": "3:10"
-      },
-      {
-        "spin": 4,
-        "number": "16",
-        "amountBet": 270,
-        "result": 90,
-        "time": "3:57"
-      },
-      {
-        "spin": 5,
-        "number": "24",
-        "amountBet": 270,
-        "result": -270,
-        "time": "5:21"
-      },
-      {
-        "spin": 6,
-        "number": "15",
-        "amountBet": 270,
-        "result": -180,
-        "time": "6:08"
-      },
-      {
-        "spin": 7,
-        "number": "33",
-        "amountBet": 270,
-        "result": -180,
-        "time": "7:27"
-      },
-      {
-        "spin": 8,
-        "number": "1",
-        "amountBet": 270,
-        "result": 30,
-        "time": "8:50"
-      },
-      {
-        "spin": 9,
-        "number": "2",
-        "amountBet": 270,
-        "result": 30,
-        "time": "9:27"
-      },
-      {
-        "spin": 10,
-        "number": "23",
-        "amountBet": 270,
-        "result": -270,
-        "time": "10:07"
-      },
-      {
-        "spin": 11,
-        "number": "31",
-        "amountBet": 270,
-        "result": -180,
-        "time": "10:55"
-      },
-      {
-        "spin": 12,
-        "number": "23",
-        "amountBet": 270,
-        "result": -270,
-        "displayedResult": -180,
-        "time": "12:01"
-      }
-    ]
-  },
-  {
     "name": "The Winning System",
     "airDate": "2021-12-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=JxTV1QL3_70",
@@ -4850,6 +4271,816 @@
     ]
   },
   {
+    "name": "Living on a Prayer",
+    "airDate": "2021-11-13",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Ee25ylFx-jc",
+    "reviewUrl": "2021-11-13-Living-on-a-Prayer",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz1": 100,
+          "x1-17": 5,
+          "x1-29": 5,
+          "x2-14-17": 10,
+          "x2-17-20": 10,
+          "x2-16-17": 10,
+          "x2-17-18": 10,
+          "x4-14-18": 10,
+          "x4-17-21": 10,
+          "x4-16-20": 10,
+          "x4-13-17": 10,
+          "x2-26-29": 10,
+          "x2-29-32": 10,
+          "x2-29-30": 10,
+          "x2-28-29": 10,
+          "x4-25-29": 10,
+          "x4-28-32": 10,
+          "x4-29-33": 10,
+          "x4-26-30": 10
+        }
+      }
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1300,
+    "bets": [
+      270
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "8",
+        "amountBet": 270,
+        "result": 30,
+        "time": "1:28"
+      },
+      {
+        "spin": 2,
+        "number": "18",
+        "amountBet": 270,
+        "result": 90,
+        "time": "2:09"
+      },
+      {
+        "spin": 3,
+        "number": "24",
+        "amountBet": 270,
+        "result": 270,
+        "time": "3:10"
+      },
+      {
+        "spin": 4,
+        "number": "16",
+        "amountBet": 270,
+        "result": 90,
+        "time": "3:57"
+      },
+      {
+        "spin": 5,
+        "number": "24",
+        "amountBet": 270,
+        "result": -270,
+        "time": "5:21"
+      },
+      {
+        "spin": 6,
+        "number": "15",
+        "amountBet": 270,
+        "result": -180,
+        "time": "6:08"
+      },
+      {
+        "spin": 7,
+        "number": "33",
+        "amountBet": 270,
+        "result": -180,
+        "time": "7:27"
+      },
+      {
+        "spin": 8,
+        "number": "1",
+        "amountBet": 270,
+        "result": 30,
+        "time": "8:50"
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 270,
+        "result": 30,
+        "time": "9:27"
+      },
+      {
+        "spin": 10,
+        "number": "23",
+        "amountBet": 270,
+        "result": -270,
+        "time": "10:07"
+      },
+      {
+        "spin": 11,
+        "number": "31",
+        "amountBet": 270,
+        "result": -180,
+        "time": "10:55"
+      },
+      {
+        "spin": 12,
+        "number": "23",
+        "amountBet": 270,
+        "result": -270,
+        "displayedResult": -180,
+        "time": "12:01"
+      }
+    ]
+  },
+  {
+    "name": "Monarch Pass",
+    "airDate": "2021-11-11",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0Sa7qPEMJcw",
+    "reviewUrl": "2021-11-11-Monarch-Pass",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-red": 50,
+          "x2-8-11": 20,
+          "x2-10-13": 20,
+          "x2-17-20": 20,
+          "x2-26-29": 20,
+          "x2-28-31": 20
+        }
+      }
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      150
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "25",
+        "amountBet": 150,
+        "result": -50,
+        "time": "1:18"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 150,
+        "result": -50,
+        "time": "2:17"
+      },
+      {
+        "spin": 3,
+        "number": "00",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:04"
+      },
+      {
+        "spin": 4,
+        "number": "17",
+        "amountBet": 150,
+        "result": 210,
+        "time": "4:07"
+      },
+      {
+        "spin": 5,
+        "number": "29",
+        "amountBet": 150,
+        "result": 210,
+        "time": "5:23"
+      },
+      {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 150,
+        "result": -50,
+        "time": "6:30"
+      },
+      {
+        "spin": 7,
+        "number": "25",
+        "amountBet": 150,
+        "result": -50,
+        "time": "7:29"
+      },
+      {
+        "spin": 8,
+        "number": "13",
+        "amountBet": 150,
+        "result": 210,
+        "time": "8:27"
+      },
+      {
+        "spin": 9,
+        "number": "19",
+        "amountBet": 150,
+        "result": -50,
+        "time": "9:32"
+      },
+      {
+        "spin": 10,
+        "number": "32",
+        "amountBet": 150,
+        "result": -50,
+        "time": "10:24"
+      },
+      {
+        "spin": 11,
+        "number": "31",
+        "amountBet": 150,
+        "result": 210,
+        "time": "11:12"
+      },
+      {
+        "spin": 12,
+        "number": "22",
+        "amountBet": 150,
+        "result": -150,
+        "displayedResult": -50,
+        "time": "12:03"
+      },
+      {
+        "spin": 13,
+        "number": "27",
+        "amountBet": 150,
+        "result": -50,
+        "time": "12:54"
+      }
+    ]
+  },
+  {
+    "name": "Super 15 Inch",
+    "airDate": "2021-11-09",
+    "youtubeUrl": "https://www.youtube.com/watch?v=fJNbx6AWDbI",
+    "reviewUrl": "2021-11-09-Super-15-Inch",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-1": 1,
+          "x1-2": 1,
+          "x1-3": 1,
+          "x1-4": 1,
+          "x1-5": 1,
+          "x1-6": 1,
+          "x1-7": 1,
+          "x1-8": 1,
+          "x1-9": 1,
+          "x1-10": 1,
+          "x1-12": 1,
+          "x1-13": 1,
+          "x1-15": 1,
+          "x1-17": 1,
+          "x1-20": 1
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-1": 2,
+          "x1-2": 2,
+          "x1-3": 2,
+          "x1-4": 2,
+          "x1-5": 2,
+          "x1-6": 2,
+          "x1-7": 2,
+          "x1-8": 2,
+          "x1-9": 2,
+          "x1-10": 2,
+          "x1-12": 2,
+          "x1-13": 2,
+          "x1-15": 2,
+          "x1-17": 2,
+          "x1-20": 2
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-1": 4,
+          "x1-2": 4,
+          "x1-3": 4,
+          "x1-4": 4,
+          "x1-5": 4,
+          "x1-6": 4,
+          "x1-7": 4,
+          "x1-8": 4,
+          "x1-9": 4,
+          "x1-10": 4,
+          "x1-12": 4,
+          "x1-13": 4,
+          "x1-15": 4,
+          "x1-17": 4,
+          "x1-20": 4
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-1": 8,
+          "x1-2": 8,
+          "x1-3": 8,
+          "x1-4": 8,
+          "x1-5": 8,
+          "x1-6": 8,
+          "x1-7": 8,
+          "x1-8": 8,
+          "x1-9": 8,
+          "x1-10": 8,
+          "x1-12": 8,
+          "x1-13": 8,
+          "x1-15": 8,
+          "x1-17": 8,
+          "x1-20": 8
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-1": 16,
+          "x1-2": 16,
+          "x1-3": 16,
+          "x1-4": 16,
+          "x1-5": 16,
+          "x1-6": 16,
+          "x1-7": 16,
+          "x1-8": 16,
+          "x1-9": 16,
+          "x1-10": 16,
+          "x1-12": 16,
+          "x1-13": 16,
+          "x1-15": 16,
+          "x1-17": 16,
+          "x1-20": 16
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-1": 32,
+          "x1-2": 32,
+          "x1-3": 32,
+          "x1-4": 32,
+          "x1-5": 32,
+          "x1-6": 32,
+          "x1-7": 32,
+          "x1-8": 32,
+          "x1-9": 32,
+          "x1-10": 32,
+          "x1-12": 32,
+          "x1-13": 32,
+          "x1-15": 32,
+          "x1-17": 32,
+          "x1-20": 32
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-1": 65,
+          "x1-2": 65,
+          "x1-3": 65,
+          "x1-4": 65,
+          "x1-5": 65,
+          "x1-6": 65,
+          "x1-7": 65,
+          "x1-8": 65,
+          "x1-9": 65,
+          "x1-10": 65,
+          "x1-12": 65,
+          "x1-13": 65,
+          "x1-15": 65,
+          "x1-17": 65,
+          "x1-20": 65
+        }
+      }
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 2000,
+    "bets": [
+      15,
+      30,
+      60,
+      120,
+      240,
+      480,
+      975
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "20",
+        "amountBet": 15,
+        "result": 21,
+        "displayedResult": 11,
+        "time": "2:25"
+      },
+      {
+        "spin": 2,
+        "number": "36",
+        "amountBet": 30,
+        "result": -30,
+        "time": "3:16"
+      },
+      {
+        "spin": 3,
+        "number": "12",
+        "amountBet": 60,
+        "result": 84,
+        "displayedResult": 44,
+        "time": "4:26"
+      },
+      {
+        "spin": 4,
+        "number": "15",
+        "amountBet": 120,
+        "result": 168,
+        "displayedResult": 88,
+        "time": "5:18"
+      },
+      {
+        "spin": 5,
+        "number": "9",
+        "amountBet": 240,
+        "result": 336,
+        "displayedResult": 172,
+        "time": "6:33"
+      },
+      {
+        "spin": 6,
+        "number": "32",
+        "amountBet": 480,
+        "result": -480,
+        "time": "8:57"
+      },
+      {
+        "spin": 7,
+        "number": "29",
+        "amountBet": 975,
+        "result": -975,
+        "time": "10:12"
+      }
+    ]
+  },
+  {
+    "name": "Uwu",
+    "airDate": "2021-11-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Or2WwWvJgJA",
+    "reviewUrl": "2021-11-08-Uwu",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x3-basket": 1,
+          "x12-doz1": 4
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x3-basket": 2,
+          "x12-doz1": 8
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x3-basket": 4,
+          "x12-doz1": 16
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x3-basket": 8,
+          "x12-doz1": 32
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x3-basket": 16,
+          "x12-doz1": 64
+        }
+      }
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 155,
+    "bets": [
+      5,
+      10,
+      20,
+      40,
+      80
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "11",
+        "amountBet": 5,
+        "result": 7,
+        "time": "2:22"
+      },
+      {
+        "spin": 2,
+        "number": "9",
+        "amountBet": 5,
+        "result": 7,
+        "time": "2:59"
+      },
+      {
+        "spin": 3,
+        "number": "0",
+        "amountBet": 5,
+        "result": 7,
+        "time": "3:40"
+      },
+      {
+        "spin": 4,
+        "number": "18",
+        "amountBet": 5,
+        "result": -5,
+        "time": "4:32"
+      },
+      {
+        "spin": 5,
+        "number": "8",
+        "amountBet": 10,
+        "result": 14,
+        "time": "5:06"
+      },
+      {
+        "spin": 6,
+        "number": "31",
+        "amountBet": 5,
+        "result": -5,
+        "time": "5:53"
+      },
+      {
+        "spin": 7,
+        "number": "23",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:26"
+      },
+      {
+        "spin": 8,
+        "number": "21",
+        "amountBet": 20,
+        "result": -20,
+        "time": "7:06"
+      },
+      {
+        "spin": 9,
+        "number": "5",
+        "amountBet": 40,
+        "result": 56,
+        "time": "7:43"
+      },
+      {
+        "spin": 10,
+        "number": "13",
+        "amountBet": 5,
+        "result": -5,
+        "time": "8:45"
+      },
+      {
+        "spin": 11,
+        "number": "24",
+        "amountBet": 10,
+        "result": -10,
+        "time": "9:25"
+      },
+      {
+        "spin": 12,
+        "number": "15",
+        "amountBet": 20,
+        "result": -20,
+        "time": "10:10"
+      },
+      {
+        "spin": 13,
+        "number": "19",
+        "amountBet": 40,
+        "result": -40,
+        "time": "10:49"
+      },
+      {
+        "spin": 14,
+        "number": "10",
+        "amountBet": 80,
+        "result": 112,
+        "time": "11:31"
+      }
+    ]
+  },
+  {
+    "name": "Martingale Lover",
+    "airDate": "2021-11-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=OkMqh5YEYxA",
+    "reviewUrl": "2021-11-06-Martingale-Lover",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x18-black": 10,
+          "x12-doz2": 10,
+          "x18-high": 10,
+          "x12-col2": 10,
+          "x18-even": 10
+        }
+      }
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 2000,
+    "bets": [
+      50,
+      70,
+      90,
+      170,
+      220,
+      420,
+      830,
+      1000,
+      150,
+      300,
+      600,
+      1060
+    ],
+    "rating": "a",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "29",
+        "amountBet": 50,
+        "result": 20,
+        "time": "2:08"
+      },
+      {
+        "spin": 2,
+        "number": "32",
+        "amountBet": 70,
+        "result": 20,
+        "time": "3:17"
+      },
+      {
+        "spin": 3,
+        "number": "12",
+        "amountBet": 90,
+        "result": -70,
+        "time": "4:20"
+      },
+      {
+        "spin": 4,
+        "number": "18",
+        "amountBet": 170,
+        "result": 90,
+        "time": "5:15"
+      },
+      {
+        "spin": 5,
+        "number": "18",
+        "amountBet": 220,
+        "result": -170,
+        "time": "6:18"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 420,
+        "result": -400,
+        "time": "7:11"
+      },
+      {
+        "spin": 7,
+        "number": "4",
+        "amountBet": 830,
+        "result": -170,
+        "time": "7:58"
+      },
+      {
+        "spin": 8,
+        "number": "35",
+        "amountBet": 1000,
+        "result": 1260,
+        "time": "9:00"
+      },
+      {
+        "spin": 9,
+        "number": "26",
+        "amountBet": 90,
+        "result": 20,
+        "time": "10:54"
+      },
+      {
+        "spin": 10,
+        "number": "9",
+        "amountBet": 150,
+        "result": -150,
+        "time": "11:45"
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 300,
+        "result": -300,
+        "time": "12:28"
+      },
+      {
+        "spin": 12,
+        "number": "33",
+        "amountBet": 600,
+        "result": -440,
+        "time": "13:17"
+      },
+      {
+        "spin": 13,
+        "number": "22",
+        "amountBet": 1060,
+        "result": 1540,
+        "time": "14:31"
+      }
+    ]
+  },
+  {
     "name": "Squid Games 🦑",
     "airDate": "2021-10-31",
     "youtubeUrl": "https://www.youtube.com/watch?v=Zk-dK4OXZO4",
@@ -5246,7 +5477,24 @@
       350
     ],
     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x2-2-3":25,"x2-4-5":25,"x2-8-9":25,"x2-10-11":25,"x2-14-15":25,"x2-16-17":25,"x2-20-21":25,"x2-22-23":25,"x2-26-27":25,"x2-28-29":25,"x2-32-33":25,"x2-34-35":25,"x12-col2":50}}
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x2-2-3": 25,
+          "x2-4-5": 25,
+          "x2-8-9": 25,
+          "x2-10-11": 25,
+          "x2-14-15": 25,
+          "x2-16-17": 25,
+          "x2-20-21": 25,
+          "x2-22-23": 25,
+          "x2-26-27": 25,
+          "x2-28-29": 25,
+          "x2-32-33": 25,
+          "x2-34-35": 25,
+          "x12-col2": 50
+        }
+      }
     ],
     "rating": "b",
     "jackaceRating": "d",
@@ -5560,7 +5808,16 @@
       310
     ],
     "bettingTiers": [
-      {"wheelType":0,"wagers":{"x6-1-6":60,"x6-31-36":60,"x4-7-11":40,"x4-25-29":40,"x12-doz2":110}}
+      {
+        "wheelType": 0,
+        "wagers": {
+          "x6-1-6": 60,
+          "x6-31-36": 60,
+          "x4-7-11": 40,
+          "x4-25-29": 40,
+          "x12-doz2": 110
+        }
+      }
     ],
     "rating": "d",
     "jackaceRating": "a",
