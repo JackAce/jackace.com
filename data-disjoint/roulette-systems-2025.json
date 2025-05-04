@@ -2098,7 +2098,7 @@
         "number": "20",
         "amountBet": 70,
         "result": 110,
-        "displayedfResult": 80,
+        "displayedResult": 80,
         "time": "5:15"
       },
       {
@@ -2280,11 +2280,12 @@
       "compValue": 2
     },
     "isJackAceReview": false,
-    "finalWinLoss": 315,
+    "friendCount": 2,
     "notes": "",
     "spins": [
       {
         "spin": 1,
+        "friend": 1,
         "number": "15",
         "amountBet": 50,
         "result": 25,
@@ -2292,6 +2293,7 @@
       },
       {
         "spin": 2,
+        "friend": 1,
         "number": "32",
         "amountBet": 75,
         "result": 75,
@@ -2299,6 +2301,7 @@
       },
       {
         "spin": 3,
+        "friend": 1,
         "number": "30",
         "amountBet": 150,
         "result": 75,
@@ -2306,6 +2309,7 @@
       },
       {
         "spin": 4,
+        "friend": 1,
         "number": "9",
         "amountBet": 150,
         "result": 120,
@@ -2313,6 +2317,7 @@
       },
       {
         "spin": 5,
+        "friend": 2,
         "number": "12",
         "amountBet": 50,
         "result": -50,
@@ -2320,6 +2325,7 @@
       },
       {
         "spin": 6,
+        "friend": 2,
         "number": "23",
         "amountBet": 50,
         "result": 100,
@@ -2327,6 +2333,7 @@
       },
       {
         "spin": 7,
+        "friend": 2,
         "number": "13",
         "amountBet": 150,
         "result": -150,
@@ -2334,6 +2341,7 @@
       },
       {
         "spin": 8,
+        "friend": 2,
         "number": "24",
         "amountBet": 50,
         "result": 25,
@@ -2341,6 +2349,7 @@
       },
       {
         "spin": 9,
+        "friend": 2,
         "number": "19",
         "amountBet": 75,
         "result": 75,
@@ -2348,6 +2357,7 @@
       },
       {
         "spin": 10,
+        "friend": 2,
         "number": "16",
         "amountBet": 150,
         "result": 120,
@@ -2355,6 +2365,7 @@
       },
       {
         "spin": 11,
+        "friend": 2,
         "number": "14",
         "amountBet": 50,
         "result": 100, 
@@ -2363,6 +2374,7 @@
       },
       {
         "spin": 12,
+        "friend": 2,
         "number": "18",
         "amountBet": 150,
         "result": 75,
@@ -2370,6 +2382,7 @@
       },
       {
         "spin": 13,
+        "friend": 2,
         "number": "19",
         "amountBet": 150,
         "result": -150,
@@ -2377,6 +2390,7 @@
       },
       {
         "spin": 14,
+        "friend": 2,
         "number": "00",
         "amountBet": 50,
         "result": -50,
@@ -2384,6 +2398,7 @@
       },
       {
         "spin": 15,
+        "friend": 2,
         "number": "21",
         "amountBet": 50,
         "result": 25,
@@ -2391,6 +2406,7 @@
       },
       {
         "spin": 16,
+        "friend": 2,
         "number": "24",
         "amountBet": 75,
         "result": 75,
@@ -2398,6 +2414,7 @@
       },
       {
         "spin": 17,
+        "friend": 2,
         "number": "3",
         "amountBet": 150,
         "result": -150,
@@ -2405,6 +2422,7 @@
       },
       {
         "spin": 18,
+        "friend": 2,
         "number": "17",
         "amountBet": 50,
         "result": 100,
@@ -2412,6 +2430,7 @@
       },
       {
         "spin": 19,
+        "friend": 2,
         "number": "0",
         "amountBet": 150,
         "result": -150,
@@ -2419,6 +2438,7 @@
       },
       {
         "spin": 20,
+        "friend": 2,
         "number": "21",
         "amountBet": 50,
         "result": 25,
@@ -2426,6 +2446,7 @@
       },
       {
         "spin": 21,
+        "friend": 2,
         "number": "23",
         "amountBet": 75,
         "result": 150,
@@ -2433,6 +2454,7 @@
       },
       {
         "spin": 22,
+        "friend": 2,
         "number": "16",
         "amountBet": 150,
         "result": -150,
