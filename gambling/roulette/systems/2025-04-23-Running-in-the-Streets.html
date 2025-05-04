@@ -2,3 +2,14 @@
 layout: roulette-system
 title: Running in the Streets - Roulette System Review
 ---
+<p>
+    This is a 
+    {% include roulette-system-type.html type="Positive Progression" %}
+    system, but you only progress to tier 2 when you hit the 
+    {% include win-loss-amount.html amount=65 %} win on tier 1.
+</p>
+<p>
+    On tier 2, you reset to tier 1 when you get whacked or when you win 
+    {% include win-loss-amount.html amount=130 -%}. If you only win 
+    {% include win-loss-amount.html amount=10 -%}, then stay on tier 2.
+</p>
