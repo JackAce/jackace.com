@@ -151,6 +151,34 @@
         "amountBet": 80,
         "result": 10,
         "time": "10:34"
+      },
+      {
+        "spin": 18,
+        "number": "24",
+        "amountBet": 50,
+        "result": 10,
+        "time": "11:03"
+      },
+      {
+        "spin": 19,
+        "number": "20",
+        "amountBet": 50,
+        "result": 100,
+        "time": "11:37"
+      },
+      {
+        "spin": 20,
+        "number": "6",
+        "amountBet": 80,
+        "result": -80,
+        "time": "12:19"
+      },
+      {
+        "spin": 21,
+        "number": "8",
+        "amountBet": 10,
+        "result": 50,
+        "time": "13:12"
       }
     ]
   },
