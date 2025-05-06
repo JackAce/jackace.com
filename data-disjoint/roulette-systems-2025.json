@@ -1,5 +1,160 @@
 [
   {
+    "name": "Money Management",
+    "airDate": "2025-04-24",
+    "youtubeUrl": "https://www.youtube.com/watch?v=NywbgHQ3H50",
+    "reviewUrl": "2025-04-24-Money-Management",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-high":50}},
+      {"wheelType":1,"wagers":{"x6-16-21":10}},
+      {"wheelType":1,"wagers":{"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x18-black":20,"x12-col2":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":20,"x2-29-32":5,"x4-16-20":5}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30,"x2-29-32":5,"x4-28-32":5,"x2-17-20":5,"x4-16-20":5}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 100,
+    "bets": [
+      50, 10, 30, 80
+    ],
+    "rating": "a",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "10",
+        "amountBet": 50,
+        "result": -50,
+        "displayedResult": -150,
+        "time": "0:42"
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 50,
+        "result": 50,
+        "time": "1:48"
+      },
+      {
+        "spin": 3,
+        "number": "2",
+        "amountBet": 10,
+        "result": -10,
+        "time": "2:38"
+      },
+      {
+        "spin": 4,
+        "number": "11",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:20"
+      },
+      {
+        "spin": 5,
+        "number": "3",
+        "amountBet": 10,
+        "result": -10,
+        "time": "3:58"
+      },
+      {
+        "spin": 6,
+        "number": "26",
+        "amountBet": 10,
+        "result": -10,
+        "time": "4:31"
+      },
+      {
+        "spin": 7,
+        "number": "17",
+        "amountBet": 10,
+        "result": 50,
+        "time": "4:59"
+      },
+      {
+        "spin": 8,
+        "number": "10",
+        "amountBet": 10,
+        "result": -10,
+        "time": "5:43"
+      },
+      {
+        "spin": 9,
+        "number": "7",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:18"
+      },
+      {
+        "spin": 10,
+        "number": "6",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:52"
+      },
+      {
+        "spin": 11,
+        "number": "15",
+        "amountBet": 10,
+        "result": -10,
+        "time": "7:24"
+      },
+      {
+        "spin": 12,
+        "number": "29",
+        "amountBet": 10,
+        "result": 20,
+        "time": "7:39"
+      },
+      {
+        "spin": 13,
+        "number": "17",
+        "amountBet": 30,
+        "result": 40,
+        "time": "8:16"
+      },
+      {
+        "spin": 14,
+        "number": "22",
+        "amountBet": 50,
+        "result": 10,
+        "time": "8:59"
+      },
+      {
+        "spin": 15,
+        "number": "34",
+        "amountBet": 50,
+        "result": 10,
+        "time": "9:37"
+      },
+      {
+        "spin": 16,
+        "number": "35",
+        "amountBet": 50,
+        "result": 10,
+        "time": "10:08"
+      },
+      {
+        "spin": 17,
+        "number": "35",
+        "amountBet": 80,
+        "result": 10,
+        "time": "10:34"
+      }
+    ]
+  },
+  {
     "name": "Running in the Streets",
     "airDate": "2025-04-23",
     "youtubeUrl": "https://www.youtube.com/watch?v=8Z9rNRvumkg",
