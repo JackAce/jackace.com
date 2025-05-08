@@ -1,5 +1,125 @@
 [
   {
+    "name": "Double Nolley Press",
+    "airDate": "2025-04-27",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1DWkhsg8AxA",
+    "reviewUrl": "2025-04-27-Double-Nolley-Press",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-col2":30,"x12-doz3":15,"x12-col1":15}},
+      {"wheelType":1,"wagers":{"x12-doz2":35,"x12-col2":35,"x12-doz3":20,"x12-col1":20}},
+      {"wheelType":1,"wagers":{"x12-doz3":40,"x12-col1":40,"x12-doz2":25,"x12-col2":25}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 450,
+    "bets": [
+      90, 110, 130
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "29",
+        "amountBet": 90,
+        "result": 45,
+        "time": "1:16"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 110,
+        "result": 100,
+        "time": "1:44"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 130,
+        "result": -55,
+        "time": "2:17"
+      },
+      {
+        "spin": 4,
+        "number": "16",
+        "amountBet": 90,
+        "result": 45,
+        "displayedResult": 50,
+        "time": "2:39"
+      },
+      {
+        "spin": 5,
+        "number": "23",
+        "amountBet": 110,
+        "result": 10,
+        "displayedResult": 0,
+        "time": "3:17"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 130,
+        "result": 110,
+        "time": "3:37"
+      },
+      {
+        "spin": 7,
+        "number": "11",
+        "amountBet": 90,
+        "result": 0,
+        "displayedResult": -15,
+        "time": "4:36"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 110,
+        "result": 55,
+        "time": "5:00"
+      },
+      {
+        "spin": 9,
+        "number": "4",
+        "amountBet": 130,
+        "result": -55,
+        "time": "5:31"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 90,
+        "result": 0,
+        "displayedResult": -15,
+        "time": "6:14"
+      },
+      {
+        "spin": 11,
+        "number": "32",
+        "amountBet": 110,
+        "result": 55,
+        "time": "6:50"
+      },
+      {
+        "spin": 12,
+        "number": "30",
+        "amountBet": 130,
+        "result": -55,
+        "time": "7:28"
+      }
+    ]
+  },
+  {
     "name": "401(k)",
     "airDate": "2025-04-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=ji1c57O9Hak",
