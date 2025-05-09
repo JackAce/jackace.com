@@ -1,5 +1,141 @@
 [
   {
+    "name": "Odd Snake",
+    "airDate": "2025-05-01",
+    "youtubeUrl": "https://www.youtube.com/watch?v=WkYoLzMB1qA",
+    "reviewUrl": "2025-05-01-Odd-Snake",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col1":90,"x12-col3":90,"x1-5":10,"x1-11":10,"x1-17":10,"x1-23":10,"x1-29":10,"x1-35":10,"x1-3":5,"x1-7":5,"x1-15":5,"x1-19":5,"x1-27":5,"x1-31":5}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 2000,
+    "bets": [
+      270
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "17",
+        "amountBet": 270,
+        "result": 90,
+        "time": "2:06"
+      },
+      {
+        "spin": 2,
+        "number": "35",
+        "amountBet": 270,
+        "result": 90,
+        "time": "2:58"
+      },
+      {
+        "spin": 3,
+        "number": "26",
+        "amountBet": 270,
+        "result": -270,
+        "time": "3:25"
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 270,
+        "result": 0,
+        "time": "4:16"
+      },
+      {
+        "spin": 5,
+        "number": "24",
+        "amountBet": 270,
+        "result": 0,
+        "time": "4:51"
+      },
+      {
+        "spin": 6,
+        "number": "0",
+        "amountBet": 270,
+        "result": -270,
+        "time": "5:16"
+      },
+      {
+        "spin": 7,
+        "number": "32",
+        "amountBet": 270,
+        "result": -270,
+        "time": "5:42"
+      },
+      {
+        "spin": 8,
+        "number": "31",
+        "amountBet": 270,
+        "result": 180,
+        "time": "6:23"
+      },
+      {
+        "spin": 9,
+        "number": "30",
+        "amountBet": 270,
+        "result": 0,
+        "time": "6:57"
+      },
+      {
+        "spin": 10,
+        "number": "26",
+        "amountBet": 270,
+        "result": -270,
+        "time": "7:51"
+      },
+      {
+        "spin": 11,
+        "number": "29",
+        "amountBet": 270,
+        "result": 90,
+        "time": "8:25"
+      },
+      {
+        "spin": 12,
+        "number": "36",
+        "amountBet": 270,
+        "result": 0,
+        "time": "8:59"
+      },
+      {
+        "spin": 13,
+        "number": "11",
+        "amountBet": 270,
+        "result": 90,
+        "displayedResult": 0,
+        "time": "9:32"
+      },
+      {
+        "spin": 14,
+        "number": "9",
+        "amountBet": 270,
+        "result": 0,
+        "time": "9:55"
+      },
+      {
+        "spin": 15,
+        "number": "32",
+        "amountBet": 270,
+        "result": -270,
+        "time": "10:19"
+      }
+    ]
+  },
+  {
     "name": "PH+",
     "airDate": "2025-04-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=rsTgJDmQpZk",
