@@ -1,5 +1,265 @@
 [
   {
+    "name": "Golden Ladder",
+    "airDate": "2025-05-02",
+    "youtubeUrl": "https://www.youtube.com/watch?v=jqpvtw0kX48",
+    "reviewUrl": "2025-05-02-Golden-Ladder",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":20}},
+      {"wheelType":1,"wagers":{"x12-doz3":20,"x12-doz2":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 300,
+    "bets": [
+      10, 20, 40, 30, 60
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "3",
+        "amountBet": 10,
+        "result": -10,
+        "time": "0:42"
+      },
+      {
+        "spin": 2,
+        "number": "1",
+        "amountBet": 20,
+        "result": -20,
+        "time": "1:00"
+      },
+      {
+        "spin": 3,
+        "number": "14",
+        "amountBet": 20,
+        "result": 40,
+        "time": "1:31"
+      },
+      {
+        "spin": 4,
+        "number": "27",
+        "amountBet": 20,
+        "result": 10,
+        "time": "1:45"
+      },
+      {
+        "spin": 5,
+        "number": "26",
+        "amountBet": 10,
+        "result": 20,
+        "time": "2:03"
+      },
+      {
+        "spin": 6,
+        "number": "13",
+        "amountBet": 10,
+        "result": -10,
+        "displayedResult": 20,
+        "time": "2:26"
+      },
+      {
+        "spin": 7,
+        "number": "9",
+        "amountBet": 20,
+        "result": -20,
+        "time": "2:47"
+      },
+      {
+        "spin": 8,
+        "number": "16",
+        "amountBet": 20,
+        "result": 40,
+        "time": "3:00"
+      },
+      {
+        "spin": 9,
+        "number": "0",
+        "amountBet": 20,
+        "result": -20,
+        "time": "3:29"
+      },
+      {
+        "spin": 10,
+        "number": "35",
+        "amountBet": 20,
+        "result": -20,
+        "time": "3:49"
+      },
+      {
+        "spin": 11,
+        "number": "13",
+        "amountBet": 40,
+        "result": 20,
+        "time": "4:04"
+      },
+      {
+        "spin": 12,
+        "number": "3",
+        "amountBet": 20,
+        "result": -20,
+        "time": "4:29"
+      },
+      {
+        "spin": 13,
+        "number": "0",
+        "amountBet": 40,
+        "result": -40,
+        "time": "4:59"
+      },
+      {
+        "spin": 14,
+        "number": "19",
+        "amountBet": 30,
+        "result": 60,
+        "time": "5:16"
+      },
+      {
+        "spin": 15,
+        "number": "28",
+        "amountBet": 40,
+        "result": 20,
+        "time": "5:41"
+      },
+      {
+        "spin": 16,
+        "number": "25",
+        "amountBet": 20,
+        "result": 40,
+        "time": "6:02"
+      },
+      {
+        "spin": 17,
+        "number": "32",
+        "amountBet": 20,
+        "result": 10,
+        "time": "6:24"
+      },
+      {
+        "spin": 18,
+        "number": "31",
+        "amountBet": 10,
+        "result": -10,
+        "time": "6:50"
+      },
+      {
+        "spin": 19,
+        "number": "2",
+        "amountBet": 20,
+        "result": -20,
+        "time": "7:04"
+      },
+      {
+        "spin": 20,
+        "number": "26",
+        "amountBet": 20,
+        "result": 40,
+        "time": "7:37"
+      },
+      {
+        "spin": 21,
+        "number": "5",
+        "amountBet": 20,
+        "result": -20,
+        "time": "8:04"
+      },
+      {
+        "spin": 22,
+        "number": "27",
+        "amountBet": 20,
+        "result": -20,
+        "time": "8:21"
+      },
+      {
+        "spin": 23,
+        "number": "11",
+        "amountBet": 40,
+        "result": -40,
+        "time": "8:47"
+      },
+      {
+        "spin": 24,
+        "number": "23",
+        "amountBet": 30,
+        "result": -30,
+        "time": "9:24"
+      },
+      {
+        "spin": 25,
+        "number": "18",
+        "amountBet": 60,
+        "result": 30,
+        "time": "9:42"
+      },
+      {
+        "spin": 26,
+        "number": "36",
+        "amountBet": 30,
+        "result": 60,
+        "time": "10:22"
+      },
+      {
+        "spin": 27,
+        "number": "20",
+        "amountBet": 40,
+        "result": 20,
+        "time": "10:41"
+      },
+      {
+        "spin": 28,
+        "number": "31",
+        "amountBet": 20,
+        "result": 40,
+        "time": "11:01"
+      },
+      {
+        "spin": 29,
+        "number": "00",
+        "amountBet": 20,
+        "result": -20,
+        "time": "11:31"
+      },
+      {
+        "spin": 30,
+        "number": "13",
+        "amountBet": 20,
+        "result": -20,
+        "time": "11:59"
+      },
+      {
+        "spin": 31,
+        "number": "27",
+        "amountBet": 40,
+        "result": 20,
+        "time": "12:20"
+      },
+      {
+        "spin": 32,
+        "number": "10",
+        "amountBet": 20,
+        "result": -20,
+        "time": "12:42"
+      }
+    ]
+  },
+  {
     "name": "Odd Snake",
     "airDate": "2025-05-01",
     "youtubeUrl": "https://www.youtube.com/watch?v=WkYoLzMB1qA",
