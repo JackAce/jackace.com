@@ -12,7 +12,7 @@ google_analytics: G-0HYRRBTEVY #changed name of stream in Google Analytics
 # Google Adsense
 google_adsense: ca-pub-5831288475713424 #new business adsense account
 
-cookiebot_cbid: 39de6a87-ccd2-4762-a5a9-d2685ebc06ff
+# cookiebot_cbid: 39de6a87-ccd2-4762-a5a9-d2685ebc06ff
 
 contact:
   url: https://github.com/JackAce
