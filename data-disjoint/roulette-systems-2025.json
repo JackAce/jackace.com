@@ -1,5 +1,229 @@
 [
   {
+    "name": "Only 4 Holes",
+    "airDate": "2025-05-10",
+    "youtubeUrl": "https://www.youtube.com/watch?v=l_G9BOmbZio",
+    "reviewUrl": "2025-05-10-Only-4-Holes",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":15,"x18-odd":15}},
+      {"wheelType":1,"wagers":{"x18-black":15,"x18-odd":15,"x12-col1":15,"x12-col2":15}},
+      {"wheelType":1,"wagers":{"x18-black":15,"x18-high":15,"x12-col1":15,"x12-col2":15}},
+      {"wheelType":1,"wagers":{"x18-black":15,"x18-high":15}},
+      {"wheelType":1,"wagers":{"x18-red":15,"x18-odd":15}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 300,
+    "bets": [
+      30, 60
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "15",
+        "amountBet": 30,
+        "result": 30,
+        "time": "1:10"
+      },
+      {
+        "spin": 2,
+        "number": "8",
+        "amountBet": 60,
+        "result": 15,
+        "time": "1:43"
+      },
+      {
+        "spin": 3,
+        "number": "30",
+        "amountBet": 60,
+        "result": -30,
+        "time": "2:13"
+      },
+      {
+        "spin": 4,
+        "number": "7",
+        "amountBet": 30,
+        "result": 0,
+        "time": "2:34"
+      },
+      {
+        "spin": 5,
+        "number": "20",
+        "amountBet": 30,
+        "result": 0,
+        "time": "2:46"
+      },
+      {
+        "spin": 6,
+        "number": "28",
+        "amountBet": 30,
+        "result": 30,
+        "time": "3:04"
+      },
+      {
+        "spin": 7,
+        "number": "00",
+        "amountBet": 60,
+        "result": -60,
+        "time": "3:12"
+      },
+      {
+        "spin": 8,
+        "number": "18",
+        "amountBet": 30,
+        "result": 0,
+        "time": "3:27"
+      },
+      {
+        "spin": 9,
+        "number": "15",
+        "amountBet": 30,
+        "result": 0,
+        "time": "3:46"
+      },
+      {
+        "spin": 10,
+        "number": "33",
+        "amountBet": 30,
+        "result": 30,
+        "time": "4:06"
+      },
+      {
+        "spin": 11,
+        "number": "13",
+        "amountBet": 60,
+        "result": 15,
+        "time": "4:32"
+      },
+      {
+        "spin": 12,
+        "number": "15",
+        "amountBet": 60,
+        "result": -30,
+        "time": "5:04"
+      },
+      {
+        "spin": 13,
+        "number": "11",
+        "amountBet": 30,
+        "result": 0,
+        "time": "5:25"
+      },
+      {
+        "spin": 14,
+        "number": "0",
+        "amountBet": 30,
+        "result": -30,
+        "time": "6:07"
+      },
+      {
+        "spin": 15,
+        "number": "25",
+        "amountBet": 30,
+        "result": 0,
+        "time": "6:33"
+      },
+      {
+        "spin": 16,
+        "number": "1",
+        "amountBet": 30,
+        "result": 0,
+        "displayedResult": -30,
+        "time": "7:07"
+      },
+      {
+        "spin": 17,
+        "number": "35",
+        "amountBet": 30,
+        "result": 30,
+        "time": "7:46"
+      },
+      {
+        "spin": 18,
+        "number": "18",
+        "amountBet": 60,
+        "result": -60,
+        "time": "8:29"
+      },
+      {
+        "spin": 19,
+        "number": "24",
+        "amountBet": 30,
+        "result": 30,
+        "time": "8:43"
+      },
+      {
+        "spin": 20,
+        "number": "28",
+        "amountBet": 60,
+        "result": 45,
+        "time": "8:52"
+      },
+      {
+        "spin": 21,
+        "number": "36",
+        "amountBet": 30,
+        "result": 0,
+        "time": "9:08"
+      },
+      {
+        "spin": 22,
+        "number": "4",
+        "amountBet": 30,
+        "result": 0,
+        "time": "9:29"
+      },
+      {
+        "spin": 23,
+        "number": "33",
+        "amountBet": 30,
+        "result": 30,
+        "time": "9:35"
+      },
+      {
+        "spin": 24,
+        "number": "35",
+        "amountBet": 60,
+        "result": 45,
+        "time": "9:53"
+      },
+      {
+        "spin": 25,
+        "number": "29",
+        "amountBet": 30,
+        "result": 30,
+        "time": "10:21"
+      },
+      {
+        "spin": 26,
+        "number": "35",
+        "amountBet": 60,
+        "result": 45,
+        "time": "10:28"
+      },
+      {
+        "spin": 27,
+        "number": "14",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:38"
+      }
+    ]
+  },
+  {
     "name": "Victory Rush",
     "airDate": "2025-05-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=Wo5PdRs3yvY",
