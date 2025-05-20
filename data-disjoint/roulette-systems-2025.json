@@ -1,5 +1,241 @@
 [
   {
+    "name": "Flatbet Hell",
+    "airDate": "2025-05-15",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xFiC-FnOQkU",
+    "reviewUrl": "2025-05-15-Flatbet-Hell",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col2":20,"x12-col3":20}},
+      {"wheelType":1,"wagers":{"x12-col2":20,"x12-col3":20,"x6-31-36":10,"x3-28-30":10}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 600,
+    "bets": [
+      40, 60, 80, 90, 100
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "34",
+        "amountBet": 40,
+        "result": -40,
+        "time": "0:49"
+      },
+      {
+        "spin": 2,
+        "number": "17",
+        "amountBet": 40,
+        "result": 20,
+        "time": "1:02"
+      },
+      {
+        "spin": 3,
+        "number": "16",
+        "amountBet": 60,
+        "result": -60,
+        "time": "1:48"
+      },
+      {
+        "spin": 4,
+        "number": "3",
+        "amountBet": 40,
+        "result": 20,
+        "time": "2:16"
+      },
+      {
+        "spin": 5,
+        "number": "3",
+        "amountBet": 60,
+        "result": 0,
+        "time": "2:54"
+      },
+      {
+        "spin": 6,
+        "number": "9",
+        "amountBet": 60,
+        "result": 0,
+        "time": "3:04"
+      },
+      {
+        "spin": 7,
+        "number": "5",
+        "amountBet": 60,
+        "result": 0,
+        "time": "3:39"
+      },
+      {
+        "spin": 8,
+        "number": "00",
+        "amountBet": 60,
+        "result": -60,
+        "time": "4:01"
+      },
+      {
+        "spin": 9,
+        "number": "17",
+        "amountBet": 40,
+        "result": 20,
+        "time": "4:29"
+      },
+      {
+        "spin": 10,
+        "number": "24",
+        "amountBet": 40,
+        "result": 20,
+        "time": "4:56"
+      },
+      {
+        "spin": 11,
+        "number": "34",
+        "amountBet": 80,
+        "result": -20,
+        "notes": "Not a part of the system. Alex decided to modify it.",
+        "time": "5:20"
+      },
+      {
+        "spin": 12,
+        "number": "30",
+        "amountBet": 40,
+        "result": 20,
+        "time": "6:06"
+      },
+      {
+        "spin": 13,
+        "number": "17",
+        "amountBet": 80,
+        "result": 10,
+        "notes": "Not a part of the system.",
+        "time": "6:20"
+      },
+      {
+        "spin": 14,
+        "number": "32",
+        "amountBet": 90,
+        "result": 75,
+        "notes": "Not a part of the system.",
+        "time": "6:50"
+      },
+      {
+        "spin": 15,
+        "number": "9",
+        "amountBet": 100,
+        "result": 20,
+        "displayedResult": 10,
+        "notes": "Not a part of the system.",
+        "time": "7:08"
+      },
+      {
+        "spin": 16,
+        "number": "33",
+        "amountBet": 40,
+        "result": -40,
+        "time": "7:39"
+      },
+      {
+        "spin": 17,
+        "number": "32",
+        "amountBet": 40,
+        "result": 20,
+        "time": "7:49"
+      },
+      {
+        "spin": 18,
+        "number": "12",
+        "amountBet": 40,
+        "result": 20,
+        "time": "8:13"
+      },
+      {
+        "spin": 19,
+        "number": "17",
+        "amountBet": 80,
+        "result": 10,
+        "notes": "Not a part of the system.",
+        "time": "8:30"
+      },
+      {
+        "spin": 20,
+        "number": "1",
+        "amountBet": 90,
+        "result": -90,
+        "displayedResult": -80,
+        "notes": "Not a part of the system.",
+        "time": "9:02"
+      },
+      {
+        "spin": 21,
+        "number": "33",
+        "amountBet": 40,
+        "result": 20,
+        "time": "9:46"
+      },
+      {
+        "spin": 22,
+        "number": "10",
+        "amountBet": 40,
+        "result": -40,
+        "time": "9:54"
+      },
+      {
+        "spin": 23,
+        "number": "13",
+        "amountBet": 40,
+        "result": -40,
+        "time": "10:06"
+      },
+      {
+        "spin": 24,
+        "number": "10",
+        "amountBet": 40,
+        "result": -40,
+        "time": "10:16"
+      },
+      {
+        "spin": 25,
+        "number": "0",
+        "amountBet": 40,
+        "result": -40,
+        "time": "10:26"
+      },
+      {
+        "spin": 26,
+        "number": "5",
+        "amountBet": 40,
+        "result": 20,
+        "time": "10:47"
+      },
+      {
+        "spin": 27,
+        "number": "24",
+        "amountBet": 40,
+        "result": 20,
+        "time": "11:16"
+      },
+      {
+        "spin": 28,
+        "number": "29",
+        "amountBet": 80,
+        "result": 130,
+        "notes": "Not a part of the system.",
+        "time": "11:41"
+      }
+    ]
+  },
+  {
     "name": "Sweet and Salty",
     "airDate": "2025-05-14",
     "youtubeUrl": "https://www.youtube.com/watch?v=vQGvSl1IA_I",
