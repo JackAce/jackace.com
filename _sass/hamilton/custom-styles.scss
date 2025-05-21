@@ -304,8 +304,16 @@ div.infobox-error {
 
 .more-link {
     font-size: 12px;
+    font-weight: bold;
+    background-color: #009baf;
     border: solid 1px #2d3339;
     padding: 6px 10px;
+    a {
+        color: #fff;
+    }
+    a:visited {
+        color: #fff;
+    }
 }
 
 // --------------------------------------------------
