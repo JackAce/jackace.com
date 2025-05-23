@@ -256,8 +256,11 @@
     "bets": [
       150
     ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-2-6":25,"x4-7-11":25,"x4-14-18":25,"x4-19-23":25,"x4-26-30":25,"x4-31-35":25}}
+    ],
     "rating": "b",
-    "jackaceRating": "d",
+    "jackaceRating": "c",
     "notes": "This is just a 24 number bet. You can bet two Dozens or two Columns instead.",
     "isJackAceReview": false,
     "spins": [
@@ -380,6 +383,9 @@
     "buyIn": 500,
     "bets": [
       200
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-2-6":25,"x4-7-11":25,"x12-doz2":75,"x12-doz3":75}}
     ],
     "rating": "",
     "jackaceRating": "b",
