@@ -5,7 +5,11 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=jds4ak9_HIs",
     "reviewUrl": "2025-05-20-Spicy-Hopscotch",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-odd":15}},
