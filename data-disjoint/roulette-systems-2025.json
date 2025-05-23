@@ -13,20 +13,21 @@
     "systemType": "Flat Bet",
     "buyIn": 400,
     "bets": [
-      60, 120, 75, 105
+      60
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 5,
+      "chipUniformity": 5,
+      "jackpotPotential": 2,
+      "scalability": 5,
+      "compValue": 2
     },
     "isJackAceReview": false,
-    "notes": "",
+    "finalWinLoss": 20,
+    "notes": "Ultimate Gambler's Fallacy",
     "spins": [{
         "spin": 1,
         "number": "28",
@@ -151,7 +152,7 @@
         "result": 35,
         "displayedResult": -35,
         "notes": "Not a part of the system",
-        "time": "3:27"
+        "time": "9:27"
       },
       {
         "spin": 18,
@@ -199,34 +200,39 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Bw9iBkLhbCU",
     "reviewUrl": "2025-05-17-Long-Shot",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":50}},
       {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":50}},
       {"wheelType":1,"wagers":{"x12-doz2":100,"x12-doz3":50}},
-      {"wheelType":1,"wagers":{"x12-doz2":50}},
       {"wheelType":1,"wagers":{"x1-32":30,"x1-19":30,"x1-20":30,"x1-21":30,"x1-17":30,"x1-6":10,"x1-8":10,"x1-9":10,"x1-14":10,"x1-16":10,"x1-25":10,"x1-28":10,"x1-35":10,"x2-0-00":20}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 500,
     "bets": [
-      50, 100, 150, 25, 75, 250
+      50, 100, 150, 250
     ],
-    "rating": "a",
-    "jackaceRating": "",
+    "rating": "c",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 3,
+      "chipUniformity": 1,
+      "jackpotPotential": 4,
+      "scalability": 2,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": -700,
+    "friendCount": 2,
     "notes": "",
     "spins": [{
         "spin": 1,
+        "friend": 1,
         "number": "15",
         "amountBet": 50,
         "result": 50,
@@ -234,6 +240,7 @@
       },
       {
         "spin": 2,
+        "friend": 1,
         "number": "22",
         "amountBet": 100,
         "result": 50,
@@ -241,6 +248,7 @@
       },
       {
         "spin": 3,
+        "friend": 1,
         "number": "5",
         "amountBet": 150,
         "result": -150,
@@ -249,6 +257,7 @@
       },
       {
         "spin": 4,
+        "friend": 1,
         "number": "4",
         "amountBet": 50,
         "result": -50,
@@ -256,6 +265,7 @@
       },
       {
         "spin": 5,
+        "friend": 1,
         "number": "25",
         "amountBet": 50,
         "result": 50,
@@ -263,6 +273,7 @@
       },
       {
         "spin": 6,
+        "friend": 1,
         "number": "23",
         "amountBet": 100,
         "result": 50,
@@ -270,6 +281,7 @@
       },
       {
         "spin": 7,
+        "friend": 1,
         "number": "10",
         "amountBet": 150,
         "result": -150,
@@ -278,6 +290,7 @@
       },
       {
         "spin": 8,
+        "friend": 1,
         "number": "27",
         "amountBet": 50,
         "result": -50,
@@ -286,6 +299,7 @@
       },
       {
         "spin": 9,
+        "friend": 1,
         "number": "16",
         "amountBet": 50,
         "result": -50,
@@ -294,6 +308,7 @@
       },
       {
         "spin": 10,
+        "friend": 1,
         "number": "12",
         "amountBet": 50,
         "result": -50,
@@ -302,6 +317,7 @@
       },
       {
         "spin": 11,
+        "friend": 1,
         "number": "35",
         "amountBet": 25,
         "result": 50,
@@ -310,6 +326,7 @@
       },
       {
         "spin": 12,
+        "friend": 1,
         "number": "13",
         "amountBet": 75,
         "result": 75,
@@ -318,6 +335,7 @@
       },
       {
         "spin": 13,
+        "friend": 1,
         "number": "9",
         "amountBet": 150,
         "result": -150,
@@ -325,6 +343,7 @@
       },
       {
         "spin": 14,
+        "friend": 1,
         "number": "15",
         "amountBet": 50,
         "result": 100,
@@ -333,6 +352,7 @@
       },
       {
         "spin": 15,
+        "friend": 1,
         "number": "7",
         "amountBet": 150,
         "result": -150,
@@ -340,6 +360,7 @@
       },
       {
         "spin": 16,
+        "friend": 1,
         "number": "13",
         "amountBet": 50,
         "result": -50,
@@ -348,6 +369,7 @@
       },
       {
         "spin": 17,
+        "friend": 1,
         "number": "1",
         "amountBet": 50,
         "result": -50,
@@ -356,6 +378,7 @@
       },
       {
         "spin": 18,
+        "friend": 2,
         "number": "3",
         "amountBet": 50,
         "result": -50,
@@ -364,6 +387,7 @@
       },
       {
         "spin": 19,
+        "friend": 2,
         "number": "18",
         "amountBet": 50,
         "result": 100,
@@ -372,6 +396,7 @@
       },
       {
         "spin": 20,
+        "friend": 2,
         "number": "13",
         "amountBet": 150,
         "result": 150,
@@ -379,6 +404,7 @@
       },
       {
         "spin": 21,
+        "friend": 2,
         "number": "7",
         "amountBet": 250,
         "result": -250,
@@ -386,6 +412,7 @@
       },
       {
         "spin": 22,
+        "friend": 2,
         "number": "35",
         "amountBet": 50,
         "result": 100,
@@ -394,6 +421,7 @@
       },
       {
         "spin": 23,
+        "friend": 2,
         "number": "1",
         "amountBet": 150,
         "result": -150,
@@ -401,6 +429,7 @@
       },
       {
         "spin": 24,
+        "friend": 2,
         "number": "00",
         "amountBet": 50,
         "result": -50,
@@ -409,6 +438,7 @@
       },
       {
         "spin": 25,
+        "friend": 2,
         "number": "11",
         "amountBet": 50,
         "result": -50,
@@ -417,6 +447,7 @@
       },
       {
         "spin": 26,
+        "friend": 2,
         "number": "1",
         "amountBet": 0,
         "result": 0,
@@ -430,26 +461,27 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=xFiC-FnOQkU",
     "reviewUrl": "2025-05-15-Flatbet-Hell",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-col2":20,"x12-col3":20}},
       {"wheelType":1,"wagers":{"x12-col2":20,"x12-col3":20,"x6-31-36":10,"x3-28-30":10}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 600,
     "bets": [
-      40, 60, 80, 90, 100
+      40, 60
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 1.5
     },
     "isJackAceReview": false,
     "notes": "",
@@ -666,33 +698,37 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=vQGvSl1IA_I",
     "reviewUrl": "2025-05-14-Sweet-and-Salty",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-col2":15}},
       {"wheelType":1,"wagers":{"x12-col2":45}},
-      {"wheelType":1,"wagers":{"x6-28-33":10,"x6-22-27":10,"x6-16-21":10,"x6-10-15":10,"x6-4-9":10,"x2-29-32":10,"x2-23-26":10,"x2-17-20":10,"x2-11-14":10,"x2-5-8":10}},
-      {"wheelType":1,"wagers":{"x12-col2":60}} 
+      {"wheelType":1,"wagers":{"x6-28-33":10,"x6-22-27":10,"x6-16-21":10,"x6-10-15":10,"x6-4-9":10,"x2-29-32":10,"x2-23-26":10,"x2-17-20":10,"x2-11-14":10,"x2-5-8":10}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 150,
     "bets": [
-      15, 45, 100, 60
+      15, 45, 100
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 3,
+      "jackpotPotential": 3,
+      "scalability": 3,
+      "compValue": 1
     },
     "isJackAceReview": false,
+    "friendCount": 2,
+    "finalWinLoss": -245,
     "notes": "",
     "spins": [{
         "spin": 1,
+        "friend": 1,
         "number": "0",
         "amountBet": 15,
         "result": -15,
@@ -700,6 +736,7 @@
       },
       {
         "spin": 2,
+        "friend": 1,
         "number": "34",
         "amountBet": 15,
         "result": 30,
@@ -707,6 +744,7 @@
       },
       {
         "spin": 3,
+        "friend": 1,
         "number": "36",
         "amountBet": 45,
         "result": -45,
@@ -714,6 +752,7 @@
       },
       {
         "spin": 4,
+        "friend": 1,
         "number": "14",
         "amountBet": 15,
         "result": 30,
@@ -721,6 +760,7 @@
       },
       {
         "spin": 5,
+        "friend": 1,
         "number": "20",
         "amountBet": 45,
         "result": -45,
@@ -728,6 +768,7 @@
       },
       {
         "spin": 6,
+        "friend": 1,
         "number": "29",
         "amountBet": 15,
         "result": -15,
@@ -735,6 +776,7 @@
       },
       {
         "spin": 7,
+        "friend": 1,
         "number": "10",
         "amountBet": 15,
         "result": -15,
@@ -742,6 +784,7 @@
       },
       {
         "spin": 8,
+        "friend": 1,
         "number": "8",
         "amountBet": 15,
         "result": -15,
@@ -749,6 +792,7 @@
       },
       {
         "spin": 9,
+        "friend": 1,
         "number": "28",
         "amountBet": 15,
         "result": 30,
@@ -756,6 +800,7 @@
       },
       {
         "spin": 10,
+        "friend": 1,
         "number": "8",
         "amountBet": 45,
         "result": 90,
@@ -763,6 +808,7 @@
       },
       {
         "spin": 11,
+        "friend": 1,
         "number": "2",
         "amountBet": 100,
         "result": -100,
@@ -770,6 +816,7 @@
       },
       {
         "spin": 12,
+        "friend": 1,
         "number": "8",
         "amountBet": 15,
         "result": -15,
@@ -777,6 +824,7 @@
       },
       {
         "spin": 13,
+        "friend": 1,
         "number": "30",
         "amountBet": 15,
         "result": -15,
@@ -784,6 +832,7 @@
       },
       {
         "spin": 14,
+        "friend": 1,
         "number": "16",
         "amountBet": 15,
         "result": 30,
@@ -791,6 +840,7 @@
       },
       {
         "spin": 15,
+        "friend": 1,
         "number": "4",
         "amountBet": 45,
         "result": -45,
@@ -798,6 +848,7 @@
       },
       {
         "spin": 16,
+        "friend": 1,
         "number": "28",
         "amountBet": 15,
         "result": -15,
@@ -805,6 +856,7 @@
       },
       {
         "spin": 17,
+        "friend": 1,
         "number": "36",
         "amountBet": 15,
         "result": -15,
@@ -812,6 +864,7 @@
       },
       {
         "spin": 18,
+        "friend": 2,
         "number": "24",
         "amountBet": 15,
         "result": -15,
@@ -819,6 +872,7 @@
       },
       {
         "spin": 19,
+        "friend": 2,
         "number": "0",
         "amountBet": 15,
         "result": -15,
@@ -826,6 +880,7 @@
       },
       {
         "spin": 20,
+        "friend": 2,
         "number": "10",
         "amountBet": 15,
         "result": -15,
@@ -833,6 +888,7 @@
       },
       {
         "spin": 21,
+        "friend": 2,
         "number": "33",
         "amountBet": 15,
         "result": -15,
@@ -840,6 +896,7 @@
       },
       {
         "spin": 22,
+        "friend": 2,
         "number": "23",
         "amountBet": 15,
         "result": 30,
@@ -847,6 +904,7 @@
       },
       {
         "spin": 23,
+        "friend": 2,
         "number": "11",
         "amountBet": 45,
         "result": 90,
@@ -854,6 +912,7 @@
       },
       {
         "spin": 24,
+        "friend": 2,
         "number": "9",
         "amountBet": 100,
         "result": -40,
@@ -861,13 +920,15 @@
       },
       {
         "spin": 25,
+        "friend": 2,
         "number": "36",
-        "amountBet": 60,
-        "result": -60,
+        "amountBet": 45,
+        "result": -45,
         "time": "9:51"
       },
       {
         "spin": 26,
+        "friend": 2,
         "number": "24",
         "amountBet": 15,
         "result": -15,
@@ -875,6 +936,7 @@
       },
       {
         "spin": 27,
+        "friend": 2,
         "number": "30",
         "amountBet": 15,
         "result": -15,
@@ -882,6 +944,7 @@
       },
       {
         "spin": 28,
+        "friend": 2,
         "number": "12",
         "amountBet": 15,
         "result": -15,
@@ -889,6 +952,7 @@
       },
       {
         "spin": 29,
+        "friend": 2,
         "number": "13",
         "amountBet": 15,
         "result": 30,
@@ -896,6 +960,7 @@
       },
       {
         "spin": 30,
+        "friend": 2,
         "number": "24",
         "amountBet": 45,
         "result": -45,
@@ -903,6 +968,7 @@
       },
       {
         "spin": 31,
+        "friend": 2,
         "number": "25",
         "amountBet": 15,
         "result": 30,
@@ -910,6 +976,7 @@
       },
       {
         "spin": 32,
+        "friend": 2,
         "number": "31",
         "amountBet": 45,
         "result": 90,
@@ -917,6 +984,7 @@
       },
       {
         "spin": 33,
+        "friend": 2,
         "number": "36",
         "amountBet": 100,
         "result": -100,
@@ -924,6 +992,7 @@
       },
       {
         "spin": 34,
+        "friend": 2,
         "number": "21",
         "amountBet": 15,
         "result": -15,
@@ -937,27 +1006,29 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=AgrzwVytI6o",
     "reviewUrl": "2025-05-13-Tootsie-Roll-Lollipop",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-odd":10}},
       {"wheelType":1,"wagers":{"x12-doz3":20}},
       {"wheelType":1,"wagers":{"x1-17":5,"x1-20":5,"x1-23":5,"x1-16":5,"x1-19":5,"x1-14":5,"x1-18":5,"x1-21":5}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 100,
     "bets": [
       10, 20, 40
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 5,
+      "chipUniformity": 4,
+      "jackpotPotential": 3.5,
+      "scalability": 4,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -1274,29 +1345,27 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=l_G9BOmbZio",
     "reviewUrl": "2025-05-10-Only-4-Holes",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x18-black":15,"x18-odd":15}},
-      {"wheelType":1,"wagers":{"x18-black":15,"x18-odd":15,"x12-col1":15,"x12-col2":15}},
-      {"wheelType":1,"wagers":{"x18-black":15,"x18-high":15,"x12-col1":15,"x12-col2":15}},
-      {"wheelType":1,"wagers":{"x18-black":15,"x18-high":15}},
-      {"wheelType":1,"wagers":{"x18-red":15,"x18-odd":15}} 
+      {"wheelType":1,"wagers":{"x18-black":15,"x18-odd":15,"x12-col1":15,"x12-col2":15}}
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 300,
     "bets": [
       30, 60
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -1498,29 +1567,32 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Wo5PdRs3yvY",
     "reviewUrl": "2025-05-08-Victory-Rush",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz1":25,"x12-doz2":25}},
       {"wheelType":1,"wagers":{"x12-doz1":25,"x12-doz2":50}},
       {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":50,"x4-2-6":25,"x4-8-12":25}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 500,
     "bets": [
       50, 75, 150
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": -800,
     "notes": "",
     "spins": [{
         "spin": 1,
