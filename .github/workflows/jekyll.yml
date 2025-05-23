@@ -69,6 +69,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Run Rake Build
+        id: consolidatejson
+        run: |
+          bundle exec rake build
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
