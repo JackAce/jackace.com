@@ -3,7 +3,7 @@ author: Jack Haze
 avatar_url: https://en.gravatar.com/userimage/16333631/fd0ff7b3a6145af790737011dc6b2272.png?size=300
 description: > # this means to ignore newlines until next section
   Gambling. Crypto. Math.
-repository: JackAce/jackace.com
+repository: JackAce/staging.jackace.com
 
 # Google Analytics
 #google_analytics: G-0HGGCJRR8F # DO NOT USE THIS
@@ -38,7 +38,7 @@ show_excerpts: true  # set to true to show excerpts on the homepage, otherwise f
 
 # Comments
 # To enable comments, set the `enabled` field to true and supply either a Disqus short name or a Jekyll comments receiver
-disqus: jackace
+disqus: jackace-beta
 comments:
   enabled: true
   #disqus: jackace
