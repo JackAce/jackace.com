@@ -5,7 +5,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=pbD1O88BgrQ",
     "reviewUrl": "2020-11-12-Martingale-Lover",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-col3":10,"x18-low":10,"x18-red":10,"x18-odd":10}} 
     ],
     "systemType": "Multi-Leg",
     "buyIn": 1600,
