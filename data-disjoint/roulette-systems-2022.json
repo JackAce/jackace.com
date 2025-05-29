@@ -896,89 +896,6 @@
     ]
   },
   {
-    "name": "25s",
-    "airDate": "2022-12-08",
-    "youtubeUrl": "https://www.youtube.com/watch?v=ul6cjB2XH8Y",
-    "reviewUrl": "2022-12-08-25s",
-    "rbaImageUrls": [
-      "00-rba-0-800x662.png"
-    ],
-    "systemType": "Flat Bet",
-    "buyIn": 300,
-    "bets": [
-      125
-    ],
-    "rating": "c",
-    "jackaceRating": "d",
-    "isJackAceReview": false,
-    "notes": "Original system is supposed to be a $150 buy-in. Alex bumped it up to $300.",
-    "spins": [
-      {
-        "spin": 1,
-        "number": "29",
-        "amountBet": 125,
-        "result": -5,
-        "time": "2:35"
-      },
-      {
-        "spin": 2,
-        "number": "31",
-        "amountBet": 125,
-        "result": -5,
-        "time": "3:30"
-      },
-      {
-        "spin": 3,
-        "number": "32",
-        "amountBet": 125,
-        "result": 140,
-        "time": "4:24"
-      },
-      {
-        "spin": 4,
-        "number": "10",
-        "amountBet": 125,
-        "result": -75,
-        "time": "5:20"
-      },
-      {
-        "spin": 5,
-        "number": "18",
-        "amountBet": 125,
-        "result": 95,
-        "time": "6:05"
-      },
-      {
-        "spin": 6,
-        "number": "19",
-        "amountBet": 125,
-        "result": 0,
-        "time": "7:02"
-      },
-      {
-        "spin": 7,
-        "number": "8",
-        "amountBet": 125,
-        "result": -75,
-        "time": "7:50"
-      },
-      {
-        "spin": 8,
-        "number": "19",
-        "amountBet": 125,
-        "result": 0,
-        "time": "8:40"
-      },
-      {
-        "spin": 9,
-        "number": "5",
-        "amountBet": 125,
-        "result": -75,
-        "time": "9:42"
-      }
-    ]
-  },
-  {
     "name": "Peach Gobbler 2.0 🍑",
     "airDate": "2022-12-08",
     "youtubeUrl": "https://www.youtube.com/watch?v=X4NGsf8AMw4",
@@ -1183,6 +1100,89 @@
         "amountBet": 720,
         "ev": -19.44,
         "result": 720
+      }
+    ]
+  },
+  {
+    "name": "25s",
+    "airDate": "2022-12-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ul6cjB2XH8Y",
+    "reviewUrl": "2022-12-08-25s",
+    "rbaImageUrls": [
+      "00-rba-0-800x662.png"
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 300,
+    "bets": [
+      125
+    ],
+    "rating": "c",
+    "jackaceRating": "d",
+    "isJackAceReview": false,
+    "notes": "Original system is supposed to be a $150 buy-in. Alex bumped it up to $300.",
+    "spins": [
+      {
+        "spin": 1,
+        "number": "29",
+        "amountBet": 125,
+        "result": -5,
+        "time": "2:35"
+      },
+      {
+        "spin": 2,
+        "number": "31",
+        "amountBet": 125,
+        "result": -5,
+        "time": "3:30"
+      },
+      {
+        "spin": 3,
+        "number": "32",
+        "amountBet": 125,
+        "result": 140,
+        "time": "4:24"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 125,
+        "result": -75,
+        "time": "5:20"
+      },
+      {
+        "spin": 5,
+        "number": "18",
+        "amountBet": 125,
+        "result": 95,
+        "time": "6:05"
+      },
+      {
+        "spin": 6,
+        "number": "19",
+        "amountBet": 125,
+        "result": 0,
+        "time": "7:02"
+      },
+      {
+        "spin": 7,
+        "number": "8",
+        "amountBet": 125,
+        "result": -75,
+        "time": "7:50"
+      },
+      {
+        "spin": 8,
+        "number": "19",
+        "amountBet": 125,
+        "result": 0,
+        "time": "8:40"
+      },
+      {
+        "spin": 9,
+        "number": "5",
+        "amountBet": 125,
+        "result": -75,
+        "time": "9:42"
       }
     ]
   },
