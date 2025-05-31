@@ -6210,7 +6210,10 @@
     "reviewUrl": "2021-02-27-Comp-Killer",
     "jackaceVideoUrl": "https://www.youtube.com/watch?v=c-YGdxhtlt8",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-2-6":25,"x4-7-11":25,"x4-14-18":25,"x4-19-23":25,"x4-26-30":25,"x4-31-35":25,"x1-1":5,"x1-16":5,"x1-24":5,"x1-28":5,"x1-33":5}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 1400,
