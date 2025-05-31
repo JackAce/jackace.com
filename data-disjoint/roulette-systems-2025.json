@@ -1,5 +1,195 @@
 [
   {
+    "name": "Walking the Streets",
+    "airDate": "2025-05-27",
+    "youtubeUrl": "https://www.youtube.com/watch?v=oNRgeu4s1vk",
+    "reviewUrl": "2025-05-27-Walking-the-Streets",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x3-34-36":5,"x3-31-33":5,"x3-28-30":5,"x3-25-27":5,"x3-22-24":5}},
+      {"wheelType":1,"wagers":{"x3-34-36":10,"x3-31-33":10,"x3-25-27":10,"x3-22-24":10,"x3-16-18":10}} 
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 500,
+    "bets": [
+      25, 50
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "11",
+        "amountBet": 25,
+        "result": -25,
+        "time": "2:05"
+      },
+      {
+        "spin": 2,
+        "number": "25",
+        "amountBet": 25,
+        "result": 35,
+        "time": "2:22"
+      },
+      {
+        "spin": 3,
+        "number": "20",
+        "amountBet": 25,
+        "result": 35,
+        "time": "2:46"
+      },
+      {
+        "spin": 4,
+        "number": "9",
+        "amountBet": 25,
+        "result": -25,
+        "displayedResult": -20,
+        "notes": "Alex has a $5 chip under David's chips",
+        "time": "3:01"
+      },
+      {
+        "spin": 5,
+        "number": "13",
+        "amountBet": 25,
+        "result": -25,
+        "displayedResult": -20,
+        "notes": "Alex has a $5 chip under David's chips",
+        "time": "3:31"
+      },
+      {
+        "spin": 6,
+        "number": "17",
+        "amountBet": 50,
+        "result": 70,
+        "time": "4:22"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:54"
+      },
+      {
+        "spin": 8,
+        "number": "31",
+        "amountBet": 25,
+        "result": 35,
+        "time": "5:02"
+      },
+      {
+        "spin": 9,
+        "number": "26",
+        "amountBet": 25,
+        "result": -25,
+        "time": "5:31"
+      },
+      {
+        "spin": 10,
+        "number": "11",
+        "amountBet": 25,
+        "result": 35,
+        "time": "5:41"
+      },
+      {
+        "spin": 11,
+        "number": "26",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:16"
+      },
+      {
+        "spin": 12,
+        "number": "21",
+        "amountBet": 25,
+        "result": -25,
+        "time": "6:47"
+      },
+      {
+        "spin": 13,
+        "number": "28",
+        "amountBet": 50,
+        "result": 70,
+        "time": "7:17"
+      },
+      {
+        "spin": 14,
+        "number": "17",
+        "amountBet": 25,
+        "result": -25,
+        "time": "7:34"
+      },
+      {
+        "spin": 15,
+        "number": "29",
+        "amountBet": 25,
+        "result": -25,
+        "time": "8:22"
+      },
+      {
+        "spin": 16,
+        "number": "22",
+        "amountBet": 50,
+        "result": 70,
+        "time": "8:53"
+      },
+      {
+        "spin": 17,
+        "number": "34",
+        "amountBet": 25,
+        "result": 35,
+        "time": "9:27"
+      },
+      {
+        "spin": 18,
+        "number": "32",
+        "amountBet": 25,
+        "result": -25,
+        "time": "10:06"
+      },
+      {
+        "spin": 19,
+        "number": "10",
+        "amountBet": 25,
+        "result": 35,
+        "time": "10:21"
+      },
+      {
+        "spin": 20,
+        "number": "21",
+        "amountBet": 25,
+        "result": -25,
+        "time": "10:56"
+      },
+      {
+        "spin": 21,
+        "number": "15",
+        "amountBet": 25,
+        "result": 35,
+        "time": "11:10"
+      },
+      {
+        "spin": 22,
+        "number": "35",
+        "amountBet": 25,
+        "result": -25,
+        "time": "11:20"
+      }
+    ]
+  },
+  {
     "name": "1 vs. 100",
     "airDate": "2025-05-24",
     "youtubeUrl": "https://www.youtube.com/watch?v=ktwiLqLh5Zk",
