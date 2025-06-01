@@ -5098,9 +5098,14 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Zk-dK4OXZO4",
     "reviewUrl": "2021-10-31-Squid-Games",
     "rbaImageUrls": [
-      "00-rba-0-800x662.png",
-      "00-rba-1-800x662.png",
-      "00-rba-2-800x662.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-0-00":10,"x18-red":40}},
+      {"wheelType":1,"wagers":{"x12-doz2":40,"x12-doz3":40}},
+      {"wheelType":1,"wagers":{"x2-0-00":12,"x1-2":6,"x1-6":6,"x1-9":6,"x1-7":6,"x1-4":6,"x1-11":6,"x1-15":6,"x1-13":6,"x1-17":6,"x1-20":6,"x1-24":6,"x1-22":6,"x1-27":6,"x1-25":6,"x1-29":6,"x1-32":6,"x1-36":6,"x1-34":6}}
     ],
     "systemType": "Ladder",
     "buyIn": 50,
