@@ -5212,7 +5212,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=g46h_Lv9_UU",
     "reviewUrl": "2021-10-21-For-a-Good-Time-Call",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-0":10,"x1-3":10,"x1-6":10,"x1-5":10,"x1-7":10,"x1-8":10,"x1-9":15,"x12-doz2":80,"x12-doz3":80,"x12-col3":5,"x12-col2":5,"x12-col1":5}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 875,
