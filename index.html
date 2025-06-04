@@ -2,8 +2,12 @@
 layout: page
 title: Latest Posts
 ---
+
+{% assign postCounter = 0 %}
+{% assign postLimit = site.page_group_size | default: 2 %}
+
 <div>
-    {% for post in site.posts | limit: 8 %}
+    {% for post in site.posts %}
         <div class="blog-list-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
         <div class="blog-list-date">
             {{ post.date | date: site.date_format }}
@@ -15,6 +19,11 @@ title: Latest Posts
             <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
         </span>
         <br/><br/>
+
+        {% assign postCounter = postCounter | plus: 1 %}
+        {% if postCounter == postLimit %}
+            {% break %}
+        {% endif %}
     {% endfor %}
 </div>
 

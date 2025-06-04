@@ -1,3 +1,10 @@
+title: JackAce
+author: Jack Haze
+avatar_url: https://en.gravatar.com/userimage/16333631/fd0ff7b3a6145af790737011dc6b2272.png?size=300
+description: > # this means to ignore newlines until next section
+  Gambling. Crypto. Math.
+repository: JackAce/jackace.com
+
 # Google Analytics
 google_analytics: G-0HYRRBTEVY
 
@@ -7,13 +14,6 @@ google_adsense: ca-pub-5831288475713424
 # Cookie Compliance
 cookiebot_cbid: 39de6a87-ccd2-4762-a5a9-d2685ebc06ff
 
-repository: JackAce/jackace.com
-
-title: JackAce
-author: Jack Haze
-avatar_url: https://en.gravatar.com/userimage/16333631/fd0ff7b3a6145af790737011dc6b2272.png?size=300
-description: > # this means to ignore newlines until next section
-  Gambling. Crypto. Math.
 contact:
   url: https://github.com/JackAce
 

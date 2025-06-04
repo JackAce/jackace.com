@@ -1,19 +1,19 @@
-# Google Analytics
-google_analytics: G-0HYRRBTEVY
-
-# Google Adsense
-google_adsense: ca-pub-5831288475713424
-
-# Cookie Compliance
-cookiebot_cbid: 39de6a87-ccd2-4762-a5a9-d2685ebc06ff
-
-repository: JackAce/jackace.com
-
 title: JackAce
 author: Jack Haze
 avatar_url: https://en.gravatar.com/userimage/16333631/fd0ff7b3a6145af790737011dc6b2272.png?size=300
 description: > # this means to ignore newlines until next section
   Gambling. Crypto. Math.
+repository: JackAce/jackace.com
+
+# Google Analytics
+google_analytics: G-0HYRRBTEVY
+
+# Google Adsense
+# google_adsense: ca-pub-5831288475713424
+
+# Cookie Compliance
+# cookiebot_cbid: 39de6a87-ccd2-4762-a5a9-d2685ebc06ff
+
 contact:
   url: https://github.com/JackAce
 
@@ -36,7 +36,7 @@ show_excerpts: true  # set to true to show excerpts on the homepage, otherwise f
 
 # Comments
 # To enable comments, set the `enabled` field to true and supply either a Disqus short name or a Jekyll comments receiver
-disqus: jackace
+disqus: jackace-beta
 comments:
   enabled: true
   #show_count: true
