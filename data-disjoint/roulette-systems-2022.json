@@ -19387,12 +19387,20 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=CdaM17LVKi0",
     "reviewUrl": "2022-01-22-Grower-not-a-Shower",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png",
-      "00-rba-3-800x440.png",
-      "00-rba-4-800x440.png",
-      "00-rba-5-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":5,"x6-10-15":5,"x6-16-21":5,"x6-22-27":5,"x6-28-33":5}},
+      {"wheelType":1,"wagers":{"x6-4-9":6,"x6-10-15":6,"x6-16-21":6,"x6-22-27":6,"x6-28-33":6}},
+      {"wheelType":1,"wagers":{"x6-4-9":7,"x6-10-15":7,"x6-16-21":7,"x6-22-27":7,"x6-28-33":7,"x2-0-00":1}},
+      {"wheelType":1,"wagers":{"x6-4-9":8,"x6-10-15":8,"x6-16-21":8,"x6-22-27":8,"x6-28-33":8}},
+      {"wheelType":1,"wagers":{"x6-4-9":10,"x6-10-15":10,"x6-16-21":10,"x6-22-27":10,"x6-28-33":10}},
+      {"wheelType":1,"wagers":{"x6-4-9":12,"x6-10-15":12,"x6-16-21":12,"x6-22-27":12,"x6-28-33":12}}
     ],
     "systemType": "Positive Progression",
     "buyIn": 125,
