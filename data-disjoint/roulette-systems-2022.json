@@ -19231,7 +19231,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=AL0_plXbhCk",
     "reviewUrl": "2022-01-24-Grind-or-hype-or-whack",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":40,"x6-16-21":30,"x12-doz3":40}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 400,
