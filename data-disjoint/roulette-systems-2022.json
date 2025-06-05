@@ -19109,7 +19109,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=6TYqFSMurdQ",
     "reviewUrl": "2022-01-25-Half-a-Lulu",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":30,"x2-14-17":5,"x2-16-19":5,"x2-20-23":5,"x2-27-30":5,"x2-25-28":5,"x2-29-32":5,"x2-31-34":5,"x2-18-21":5}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 200,
