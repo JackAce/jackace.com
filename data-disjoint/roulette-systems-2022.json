@@ -18632,7 +18632,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=bdQ6TC5PM-k",
     "reviewUrl": "2022-02-01-Jack-Pot-Baby",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x18-low":15,"x18-even":15,"x18-red":15,"x1-14":5,"x12-col2":10}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 500,
