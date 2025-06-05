@@ -18859,7 +18859,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=tqR5-Agroz0",
     "reviewUrl": "2022-01-29-MOD-TIE-Fighter",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":0,"wagers":{"x6-1-6":75,"x4-7-11":50,"x4-25-29":50,"x6-31-36":75,"x12-doz2":150}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 500,
