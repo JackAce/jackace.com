@@ -18155,8 +18155,12 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=U_R6gEC-MmQ",
     "reviewUrl": "2022-02-08-Donkey-Work",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-0-00":3,"x4-1-5":6,"x4-8-12":6,"x2-7-10":3,"x4-13-17":6,"x2-19-22":3,"x4-20-24":6,"x4-25-29":6,"x4-32-36":6,"x2-31-34":3}},
+      {"wheelType":1,"wagers":{"x2-0-00":6,"x4-1-5":12,"x4-8-12":12,"x2-7-10":6,"x4-13-17":12,"x2-19-22":6,"x4-20-24":12,"x4-25-29":12,"x4-32-36":12,"x2-31-34":6}}
     ],
     "systemType": "Martingale",
     "buyIn": 350,
