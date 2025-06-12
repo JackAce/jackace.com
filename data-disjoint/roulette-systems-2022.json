@@ -18473,10 +18473,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=vp60E_m9Fqg",
     "reviewUrl": "2022-02-04-Discount-Tickets-to-the-Streets",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png",
-      "00-rba-3-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-red":100}},
+      {"wheelType":1,"wagers":{"x12-doz1":100,"x12-doz2":100}},
+      {"wheelType":1,"wagers":{"x18-low":300}},
+      {"wheelType":1,"wagers":{"x6-1-6":100,"x6-7-12":100,"x6-13-18":100,"x6-19-24":100,"x6-25-30":100}}
     ],
     "systemType": "Other",
     "buyIn": 1200,
