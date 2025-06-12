@@ -16,7 +16,7 @@
       {"wheelType":1,"wagers":{"x12-doz3":100,"x12-doz2":50}},
       {"wheelType":1,"wagers":{"x18-high":50,"x12-col1":50,"x12-col2":50,"x18-black":50}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Positive Progression",
     "buyIn": 500,
     "bets": [
       50, 75, 150, 200
