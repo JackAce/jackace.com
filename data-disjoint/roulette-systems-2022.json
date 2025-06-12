@@ -18254,10 +18254,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=c3s20NM1DFg",
     "reviewUrl": "2022-02-07-EXTENZE",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png",
-      "00-rba-3-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col3":50,"x12-col1":50,"x1-29":5,"x1-26":5,"x1-23":5,"x1-20":5,"x1-17":5}},
+      {"wheelType":1,"wagers":{"x12-col3":50,"x12-col1":50,"x1-29":5,"x1-26":5,"x1-23":5,"x1-20":5,"x1-17":5,"x1-14":5}},
+      {"wheelType":1,"wagers":{"x12-col3":50,"x12-col1":50,"x1-29":5,"x1-26":5,"x1-23":5,"x1-20":5,"x1-17":5,"x1-14":5,"x1-11":5}},
+      {"wheelType":1,"wagers":{"x12-col3":50,"x12-col1":50,"x1-29":5,"x1-26":5,"x1-23":5,"x1-20":5,"x1-17":5,"x1-14":5,"x1-11":5,"x1-8":5}}
     ],
     "systemType": "Ladder",
     "buyIn": 500,
