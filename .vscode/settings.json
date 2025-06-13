@@ -1,0 +1,27 @@
+{
+  "files.exclude": {
+    "_site": true,
+    "_data/roulette-systems.json": true,
+    "json": true,
+    "Gemfile.lock": true,
+    "android-chrome-192x192.png": true,
+    "android-chrome-512x512.png": true,
+    "apple-touch-icon.png": true,
+    "favicon-16x16.png": true,
+    "favicon-32x32.png": true,
+    "favicon.ico": true,
+    "LICENSE": true,
+    ".jekyll-metadata": true,
+    ".jekyll-cache": true
+  },
+  "search.exclude": {
+    "_site": true,
+    "_data/roulette-systems.json": true,
+    "json": true,
+    "Gemfile.lock": true,
+    "android-chrome-192x192.png": true,
+    "LICENSE": true,
+    ".jekyll-metadata": true,
+    ".jekyll-cache": true
+  }
+}
