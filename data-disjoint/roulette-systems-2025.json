@@ -21548,14 +21548,14 @@
       125
     ],
     "rating": "a",
-    "jackaceRating": "c",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": 3,
-      "progressionSimplicity": 3,
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 4,
       "chipUniformity": 2,
       "jackpotPotential": 4,
-      "scalability": 2,
-      "compValue": 2
+      "scalability": 3,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
