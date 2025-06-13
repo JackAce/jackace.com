@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "json-file-cleanup",
+      "type": "shell",
+      "command": "rake",
+      "args": [
+        "json_refresh_all"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "concatenate-json-files",
+      "type": "shell",
+      "command": "rake",
+      "args": [
+        "build"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build"
+      }
+    }
+  ]
+}
