@@ -4,8 +4,8 @@ google_analytics: G-0HYRRBTEVY
 # Google Adsense
 google_adsense: ca-pub-5831288475713424
 
-# Cookie Compliance
-cookiebot_cbid: 39de6a87-ccd2-4762-a5a9-d2685ebc06ff
+# Cookie Compliance (cookie-script.com)
+cookie_script_id: 2be5e82d68f0c53bc790ee87ffbd568c
 
 repository: JackAce/jackace.com
 
