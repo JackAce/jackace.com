@@ -1,5 +1,243 @@
 [
   {
+    "name": "USC",
+    "airDate": "2025-06-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xtw1qx7puSY",
+    "reviewUrl": "2025-06-06-USC",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":15,"x12-col3":15}},
+      {"wheelType":1,"wagers":{"x12-doz2":15,"x12-col3":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-col3":30}} 
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 300,
+    "bets": [
+      30, 45, 60
+    ],
+    "rating": "f",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "36",
+        "amountBet": 30,
+        "result": 15,
+        "time": "0:50"
+      },
+      {
+        "spin": 2,
+        "number": "31",
+        "amountBet": 45,
+        "result": -45,
+        "time": "1:16"
+      },
+      {
+        "spin": 3,
+        "number": "11",
+        "amountBet": 30,
+        "result": -30,
+        "time": "1:28"
+      },
+      {
+        "spin": 4,
+        "number": "27",
+        "amountBet": 30,
+        "result": 15,
+        "time": "1:44"
+      },
+      {
+        "spin": 5,
+        "number": "21",
+        "amountBet": 45,
+        "result": 90,
+        "time": "2:11"
+      },
+      {
+        "spin": 6,
+        "number": "8",
+        "amountBet": 60,
+        "result": -60,
+        "time": "2:49"
+      },
+      {
+        "spin": 7,
+        "number": "27",
+        "amountBet": 30,
+        "result": 15,
+        "time": "3:12"
+      },
+      {
+        "spin": 8,
+        "number": "20",
+        "amountBet": 45,
+        "result": 0,
+        "time": "3:29"
+      },
+      {
+        "spin": 9,
+        "number": "19",
+        "amountBet": 45,
+        "result": 0,
+        "time": "3:55"
+      },
+      {
+        "spin": 10,
+        "number": "17",
+        "amountBet": 45,
+        "result": 0,
+        "time": "4:06"
+      },
+      {
+        "spin": 11,
+        "number": "0",
+        "amountBet": 45,
+        "result": -45,
+        "time": "4:16"
+      },
+      {
+        "spin": 12,
+        "number": "12",
+        "amountBet": 30,
+        "result": 15,
+        "time": "4:27"
+      },
+      {
+        "spin": 13,
+        "number": "15",
+        "amountBet": 45,
+        "result": 90,
+        "time": "4:43"
+      },
+      {
+        "spin": 14,
+        "number": "2",
+        "amountBet": 60,
+        "result": -60,
+        "time": "5:23"
+      },
+      {
+        "spin": 15,
+        "number": "12",
+        "amountBet": 30,
+        "result": 15,
+        "time": "5:48"
+      },
+      {
+        "spin": 16,
+        "number": "23",
+        "amountBet": 45,
+        "result": 0,
+        "time": "6:01"
+      },
+      {
+        "spin": 17,
+        "number": "22",
+        "amountBet": 45,
+        "result": 0,
+        "time": "6:08"
+      },
+      {
+        "spin": 18,
+        "number": "32",
+        "amountBet": 45,
+        "result": -45,
+        "time": "6:15"
+      },
+      {
+        "spin": 19,
+        "number": "14",
+        "amountBet": 30,
+        "result": 15,
+        "displayedResult": -30,
+        "time": "6:38"
+      },
+      {
+        "spin": 20,
+        "number": "12",
+        "amountBet": 45,
+        "result": 0,
+        "time": "7:06"
+      },
+      {
+        "spin": 21,
+        "number": "6",
+        "amountBet": 45,
+        "result": 0,
+        "time": "7:27"
+      },
+      {
+        "spin": 22,
+        "number": "36",
+        "amountBet": 45,
+        "result": 45,
+        "time": "7:43"
+      },
+      {
+        "spin": 23,
+        "number": "8",
+        "amountBet": 45,
+        "result": -45,
+        "time": "8:17"
+      },
+      {
+        "spin": 24,
+        "number": "25",
+        "amountBet": 30,
+        "result": -30,
+        "time": "8:38"
+      },
+      {
+        "spin": 25,
+        "number": "21",
+        "amountBet": 30,
+        "result": 60,
+        "time": "8:47"
+      },
+      {
+        "spin": 26,
+        "number": "36",
+        "amountBet": 60,
+        "result": 30,
+        "time": "9:30"
+      },
+      {
+        "spin": 27,
+        "number": "11",
+        "amountBet": 60,
+        "result": -60,
+        "time": "9:49"
+      },
+      {
+        "spin": 28,
+        "number": "32",
+        "amountBet": 30,
+        "result": -30,
+        "time": "10:01"
+      },
+      {
+        "spin": 29,
+        "number": "22",
+        "amountBet": 30,
+        "result": 15,
+        "time": "10:15"
+      }
+    ]
+  },
+  {
     "name": "Big Double D's",
     "airDate": "2025-06-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=7G6HC3zn80o",
