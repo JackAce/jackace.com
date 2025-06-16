@@ -1,5 +1,280 @@
 [
   {
+    "name": "DP Dozens",
+    "airDate": "2025-06-08",
+    "youtubeUrl": "https://www.youtube.com/watch?v=MPJ5lh9bftY",
+    "reviewUrl": "2025-06-08-DP-Dozens",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png",
+      "00-rba-7-800x768.png",
+      "00-rba-8-800x768.png",
+      "00-rba-9-800x768.png",
+      "00-rba-10-800x768.png",
+      "00-rba-11-800x768.png",
+      "00-rba-12-800x768.png",
+      "00-rba-13-800x768.png",
+      "00-rba-14-800x768.png",
+      "00-rba-15-800x768.png",
+      "00-rba-16-800x768.png",
+      "00-rba-17-800x768.png",
+      "00-rba-18-800x768.png",
+      "00-rba-19-800x768.png",
+      "00-rba-20-800x768.png",
+      "00-rba-21-800x768.png",
+      "00-rba-22-800x768.png",
+      "00-rba-23-800x768.png",
+      "00-rba-24-800x768.png",
+      "00-rba-25-800x768.png",
+      "00-rba-26-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":10,"x12-doz3":10}},
+      {"wheelType":1,"wagers":{"x12-doz1":20,"x12-doz2":20}},
+      {"wheelType":1,"wagers":{"x12-doz1":30,"x12-doz2":30}},
+      {"wheelType":1,"wagers":{"x12-doz1":40,"x12-doz2":40}},
+      {"wheelType":1,"wagers":{"x12-doz1":50,"x12-doz2":50}},
+      {"wheelType":1,"wagers":{"x12-doz1":60,"x12-doz3":60}},
+      {"wheelType":1,"wagers":{"x12-doz1":70,"x12-doz3":70}},
+      {"wheelType":1,"wagers":{"x12-doz1":80,"x12-doz3":80}},
+      {"wheelType":1,"wagers":{"x12-doz1":90,"x12-doz3":90}},
+      {"wheelType":1,"wagers":{"x12-doz1":100,"x12-doz3":100}},
+      {"wheelType":1,"wagers":{"x12-doz1":110,"x12-doz3":110}},
+      {"wheelType":1,"wagers":{"x12-doz2":120,"x12-doz3":120}},
+      {"wheelType":1,"wagers":{"x12-doz1":130,"x12-doz3":130}},
+      {"wheelType":1,"wagers":{"x12-doz2":140,"x12-doz3":140}},
+      {"wheelType":1,"wagers":{"x12-doz2":150,"x12-doz3":150}},
+      {"wheelType":1,"wagers":{"x12-doz2":160,"x12-doz3":160}},
+      {"wheelType":1,"wagers":{"x12-doz1":170,"x12-doz3":170}},
+      {"wheelType":1,"wagers":{"x12-doz1":180,"x12-doz2":180}},
+      {"wheelType":1,"wagers":{"x12-doz1":190,"x12-doz2":190}},
+      {"wheelType":1,"wagers":{"x12-doz1":200,"x12-doz2":200}},
+      {"wheelType":1,"wagers":{"x12-doz1":210,"x12-doz2":210}},
+      {"wheelType":1,"wagers":{"x12-doz1":230,"x12-doz2":230}},
+      {"wheelType":1,"wagers":{"x12-doz1":240,"x12-doz3":240}},
+      {"wheelType":1,"wagers":{"x12-doz1":250,"x12-doz2":250}},
+      {"wheelType":1,"wagers":{"x12-doz1":270,"x12-doz2":270}},
+      {"wheelType":1,"wagers":{"x12-doz2":280,"x12-doz3":280}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 1000,
+    "bets": [
+      20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500, 540, 560
+    ],
+    "rating": "f",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "35",
+        "amountBet": 20,
+        "result": 10,
+        "time": "1:02"
+      },
+      {
+        "spin": 2,
+        "number": "00",
+        "amountBet": 40,
+        "result": -40,
+        "time": "1:22"
+      },
+      {
+        "spin": 3,
+        "number": "34",
+        "amountBet": 60,
+        "result": -60,
+        "time": "1:33"
+      },
+      {
+        "spin": 4,
+        "number": "32",
+        "amountBet": 80,
+        "result": -80,
+        "time": "1:53"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 100,
+        "result": 50,
+        "time": "2:09"
+      },
+      {
+        "spin": 6,
+        "number": "15",
+        "amountBet": 120,
+        "result": -120,
+        "time": "2:21"
+      },
+      {
+        "spin": 7,
+        "number": "13",
+        "amountBet": 140,
+        "result": -140,
+        "time": "2:35"
+      },
+      {
+        "spin": 8,
+        "number": "15",
+        "amountBet": 160,
+        "result": -160,
+        "time": "2:53"
+      },
+      {
+        "spin": 9,
+        "number": "16",
+        "amountBet": 180,
+        "result": -180,
+        "time": "3:18"
+      },
+      {
+        "spin": 10,
+        "number": "18",
+        "amountBet": 200,
+        "result": -200,
+        "time": "3:42"
+      },
+      {
+        "spin": 11,
+        "number": "4",
+        "amountBet": 220,
+        "result": 110,
+        "time": "4:04"
+      },
+      {
+        "spin": 12,
+        "number": "24",
+        "amountBet": 240,
+        "result": 120,
+        "time": "4:35"
+      },
+      {
+        "spin": 13,
+        "number": "9",
+        "amountBet": 260,
+        "result": 130,
+        "time": "5:04"
+      },
+      {
+        "spin": 14,
+        "number": "30",
+        "amountBet": 280,
+        "result": 140,
+        "time": "5:32"
+      },
+      {
+        "spin": 15,
+        "number": "35",
+        "amountBet": 300,
+        "result": -150,
+        "time": "6:02"
+      },
+      {
+        "spin": 16,
+        "number": "18",
+        "amountBet": 320,
+        "result": 160,
+        "time": "6:18"
+      },
+      {
+        "spin": 17,
+        "number": "27",
+        "amountBet": 340,
+        "result": 170,
+        "time": "6:35"
+      },
+      {
+        "spin": 18,
+        "number": "34",
+        "amountBet": 360,
+        "result": -360,
+        "time": "6:56"
+      },
+      {
+        "spin": 19,
+        "number": "31",
+        "amountBet": 380,
+        "result": -380,
+        "time": "7:12"
+      },
+      {
+        "spin": 20,
+        "number": "8",
+        "amountBet": 400,
+        "result": 200,
+        "time": "7:36"
+      },
+      {
+        "spin": 21,
+        "number": "5",
+        "amountBet": 420,
+        "result": 210,
+        "notes": "Alex should have moved his bet from the first dozen because it hit on the previous spin",
+        "time": "7:47"
+      },
+      {
+        "spin": 22,
+        "number": "36",
+        "amountBet": 440,
+        "result": 220,
+        "time": "8:28"
+      },
+      {
+        "spin": 23,
+        "number": "15",
+        "amountBet": 460,
+        "result": 230,
+        "time": "8:59"
+      },
+      {
+        "spin": 24,
+        "number": "34",
+        "amountBet": 480,
+        "result": 240,
+        "time": "9:10"
+      },
+      {
+        "spin": 25,
+        "number": "27",
+        "amountBet": 500,
+        "result": -500,
+        "time": "9:27"
+      },
+      {
+        "spin": 26,
+        "number": "9",
+        "amountBet": 540,
+        "result": 270,
+        "notes": "Bet should have been $520",
+        "displayedResult": 260,
+        "time": "9:47"
+      },
+      {
+        "spin": 27,
+        "number": "31",
+        "amountBet": 560,
+        "result": 280,
+        "notes": "Bet should have been $540",
+        "displayedResult": 270,
+        "time": "9:59"
+      }
+    ]
+  },
+  {
     "name": "USC",
     "airDate": "2025-06-06",
     "youtubeUrl": "https://www.youtube.com/watch?v=xtw1qx7puSY",
