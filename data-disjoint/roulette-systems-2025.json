@@ -55,13 +55,14 @@
       {"wheelType":1,"wagers":{"x12-doz1":190,"x12-doz2":190}},
       {"wheelType":1,"wagers":{"x12-doz1":200,"x12-doz2":200}},
       {"wheelType":1,"wagers":{"x12-doz1":210,"x12-doz2":210}},
+      {"wheelType":1,"wagers":{"x12-doz2":220,"x12-doz3":220}}, 
       {"wheelType":1,"wagers":{"x12-doz1":230,"x12-doz2":230}},
       {"wheelType":1,"wagers":{"x12-doz1":240,"x12-doz3":240}},
       {"wheelType":1,"wagers":{"x12-doz1":250,"x12-doz2":250}},
       {"wheelType":1,"wagers":{"x12-doz1":270,"x12-doz2":270}},
       {"wheelType":1,"wagers":{"x12-doz2":280,"x12-doz3":280}} 
     ],
-    "systemType": "Flat Bet",
+    "systemType": "Ladder",
     "buyIn": 1000,
     "bets": [
       20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500, 540, 560
