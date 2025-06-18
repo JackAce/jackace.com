@@ -1,11 +1,11 @@
 # Google Analytics
-# google_analytics: G-0HYRRBTEVY #changed name of stream in Google Analytics
+google_analytics: G-0HYRRBTEVY #changed name of stream in Google Analytics
 
 # Google Adsense
-# google_adsense: ca-pub-5831288475713424
+google_adsense: ca-pub-5831288475713424
 
 # Cookie Compliance (cookie-script.com)
-# cookie_script_id: 2be5e82d68f0c53bc790ee87ffbd568c
+cookie_script_id: 2be5e82d68f0c53bc790ee87ffbd568c
 
 repository: JackAce/jackace.com
 
@@ -36,7 +36,7 @@ show_excerpts: true  # set to true to show excerpts on the homepage, otherwise f
 
 # Comments
 # To enable comments, set the `enabled` field to true and supply either a Disqus short name or a Jekyll comments receiver
-disqus: jackace-beta
+disqus: jackace
 comments:
   enabled: true
   #show_count: true
