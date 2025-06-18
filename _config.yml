@@ -1,5 +1,5 @@
 # Google Analytics
-google_analytics: G-0HYRRBTEVY #changed name of stream in Google Analytics
+google_analytics: G-0HYRRBTEVY
 
 # Google Adsense
 google_adsense: ca-pub-5831288475713424
@@ -73,3 +73,4 @@ plugins:
   - jekyll-include-cache
   #- jemoji
   #- jekyll-glossary_tooltip
+
