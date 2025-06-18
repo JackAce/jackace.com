@@ -1,0 +1,22 @@
+{% assign delta = include.delta | default: 1 %}
+{% assign pageReviewUrl = page.url | split: "/" | last %}
+
+{% assign sorted_records = site.data.roulette-systems | sort: "airDate" | reverse %}
+{% assign record_count = sorted_records | size %}
+{% assign current_index = nil %}
+
+{% for i in (0..record_count) %}
+  {% assign record = sorted_records[i] %}
+  {% if record.reviewUrl == pageReviewUrl %}
+    {% assign current_index = i %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if current_index != nil %}
+  {% assign target_index = current_index | plus: include.delta %}
+  {% if target_index >= 0 and target_index < record_count %}
+    {% assign target_record = sorted_records[target_index] %}
+    <a href="{{ site.baseurl }}/gambling/roulette/systems/{{ target_record.reviewUrl }}">{{ target_record.name }}</a>
+  {% endif %}
+{% endif %}

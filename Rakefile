@@ -1,5 +1,6 @@
 require 'rake'
 
+# Example: rake build
 desc "Rolls up all the JSON files into a single JSON file and makes two copies. Usage: `rake build`"
 task :build do
     sh "touch _data/roulette-systems.json" # It's ok if the file's not there.
@@ -27,7 +28,7 @@ task :build do
 end
 
 # Example: rake "json_refresh[roulette-systems-2021.json]"
-desc "Reformats a single JSON file in place. Usage: `rake \"json_refresh[file_path]\"`"
+desc "Reformats a single roulette-system JSON file in place. Usage: `rake \"json_refresh[file_path]\"`"
 task :json_refresh, [:file_path] do |t, args|
     if args[:file_path].nil?
         puts "Usage: rake json_refresh[file_path]"
@@ -39,4 +40,16 @@ task :json_refresh, [:file_path] do |t, args|
     sh "jq 'sort_by(.airDate) | reverse' data-disjoint/#{file_path} > data-disjoint/temp-#{file_path}"
     sh "rm data-disjoint/#{file_path}"
     sh "mv data-disjoint/temp-#{file_path} data-disjoint/#{file_path}"
+end
+
+# Example: rake json_refresh_all
+desc "Reformats a ALL roulette-system JSON files in place. Usage: `rake json_refresh_all`"
+task :json_refresh_all do
+    sh "rake \"json_refresh[roulette-systems-2019.json]\""
+    sh "rake \"json_refresh[roulette-systems-2020.json]\""
+    sh "rake \"json_refresh[roulette-systems-2021.json]\""
+    sh "rake \"json_refresh[roulette-systems-2022.json]\""
+    sh "rake \"json_refresh[roulette-systems-2023.json]\""
+    sh "rake \"json_refresh[roulette-systems-2024.json]\""
+    sh "rake \"json_refresh[roulette-systems-2025.json]\""
 end
