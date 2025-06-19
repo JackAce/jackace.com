@@ -1,5 +1,204 @@
 [
   {
+    "name": "Night Lizard",
+    "airDate": "2025-06-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=cC6QiSxYxkk",
+    "reviewUrl": "2025-06-12-Night-Lizard",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-high":35,"x2-0-00":5,"x3-16-18":5}},
+      {"wheelType":1,"wagers":{"x18-high":40,"x2-0-00":10,"x3-16-18":10}},
+      {"wheelType":1,"wagers":{"x18-high":45,"x2-0-00":15,"x3-16-18":15}} 
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 400,
+    "bets": [
+      45, 60, 75
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "24",
+        "amountBet": 45,
+        "result": 25,
+        "time": "2:13"
+      },
+      {
+        "spin": 2,
+        "number": "22",
+        "amountBet": 45,
+        "result": 25,
+        "time": "2:44"
+      },
+      {
+        "spin": 3,
+        "number": "24",
+        "amountBet": 45,
+        "result": 25,
+        "time": "3:19"
+      },
+      {
+        "spin": 4,
+        "number": "27",
+        "amountBet": 60,
+        "result": 20,
+        "time": "3:48"
+      },
+      {
+        "spin": 5,
+        "number": "20",
+        "amountBet": 75,
+        "result": 15,
+        "time": "4:19"
+      },
+      {
+        "spin": 6,
+        "number": "25",
+        "amountBet": 0,
+        "result": 0,
+        "time": "5:06"
+      },
+      {
+        "spin": 7,
+        "number": "00",
+        "amountBet": 45,
+        "result": 45,
+        "time": "5:21"
+      },
+      {
+        "spin": 8,
+        "number": "20",
+        "amountBet": 45,
+        "result": 15,
+        "time": "5:57"
+      },
+      {
+        "spin": 9,
+        "number": "22",
+        "amountBet": 45,
+        "result": 15,
+        "time": "6:27"
+      },
+      {
+        "spin": 10,
+        "number": "36",
+        "amountBet": 45,
+        "result": 25,
+        "time": "6:57"
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 60,
+        "result": -60,
+        "time": "7:29"
+      },
+      {
+        "spin": 12,
+        "number": "20",
+        "amountBet": 35,
+        "result": 25,
+        "time": "7:42"
+      },
+      {
+        "spin": 13,
+        "number": "18",
+        "amountBet": 45,
+        "result": 15,
+        "time": "8:19"
+      },
+      {
+        "spin": 14,
+        "number": "26",
+        "amountBet": 45,
+        "result": 25,
+        "time": "8:42"
+      },
+      {
+        "spin": 15,
+        "number": "7",
+        "amountBet": 65,
+        "result": -65,
+        "notes": "Not a part of the system. Alex modified it here",
+        "time": "9:12"
+      },
+      {
+        "spin": 16,
+        "number": "18",
+        "amountBet": 45,
+        "result": 15,
+        "time": "9:24"
+      },
+      {
+        "spin": 17,
+        "number": "0",
+        "amountBet": 45,
+        "result": 45,
+        "time": "10:04"
+      },
+      {
+        "spin": 18,
+        "number": "24",
+        "amountBet": 65,
+        "result": 25,
+        "notes": "Not a part of the system. Alex modified it here",
+        "time": "10:56"
+      },
+      {
+        "spin": 19,
+        "number": "29",
+        "amountBet": 85,
+        "result": 25,
+        "notes": "Not a part of the system. Alex modified it here",
+        "time": "11:25"
+      },
+      {
+        "spin": 20,
+        "number": "5",
+        "amountBet": 105,
+        "result": -105,
+        "notes": "Not a part of the system. Alex modified it here",
+        "time": "11:50"
+      },
+      {
+        "spin": 21,
+        "number": "19",
+        "amountBet": 45,
+        "result": 25,
+        "time": "12:02"
+      },
+      {
+        "spin": 22,
+        "number": "0",
+        "amountBet": 45,
+        "result": 45,
+        "time": "12:16"
+      },
+      {
+        "spin": 23,
+        "number": "25",
+        "amountBet": 0,
+        "result": 0,
+        "time": "12:56"
+      }
+    ]
+  },
+  {
     "name": "57% 🥧",
     "airDate": "2025-06-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=Ccec3SDoKTU",
