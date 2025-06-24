@@ -1,5 +1,264 @@
 [
   {
+    "name": "EDGSPP 5.0",
+    "airDate": "2025-06-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=8gO9xeCIt3Y",
+    "reviewUrl": "2025-06-18-EDGSPP-50",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png",
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":5,"x6-10-15":5,"x6-16-21":5,"x6-22-27":5,"x6-28-33":5}},
+      {"wheelType":1,"wagers":{"x6-4-9":10,"x6-10-15":10,"x6-16-21":10,"x6-22-27":10,"x6-28-33":10}},
+      {"wheelType":1,"wagers":{"x6-4-9":15,"x6-10-15":15,"x6-16-21":15,"x6-22-27":15,"x6-28-33":15}},
+      {"wheelType":1,"wagers":{"x6-4-9":20,"x6-10-15":20,"x6-16-21":20,"x6-22-27":20,"x6-28-33":20}},
+      {"wheelType":1,"wagers":{"x6-4-9":25,"x6-10-15":25,"x6-16-21":25,"x6-22-27":25,"x6-28-33":25}},
+      {"wheelType":1,"wagers":{"x6-4-9":30,"x6-10-15":30,"x6-16-21":30,"x6-22-27":30,"x6-28-33":30}},
+      {"wheelType":1,"wagers":{"x6-4-9":35,"x6-10-15":35,"x6-16-21":35,"x6-22-27":35,"x6-28-33":35}} 
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 500,
+    "bets": [
+      25, 50, 75, 100, 125, 150, 175
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "1",
+        "amountBet": 25,
+        "result": -25,
+        "time": "2:18"
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 25,
+        "result": 5,
+        "time": "2:32"
+      },
+      {
+        "spin": 3,
+        "number": "13",
+        "amountBet": 50,
+        "result": 10,
+        "time": "2:54"
+      },
+      {
+        "spin": 4,
+        "number": "25",
+        "amountBet": 75,
+        "result": 15,
+        "time": "3:08"
+      },
+      {
+        "spin": 5,
+        "number": "31",
+        "amountBet": 100,
+        "result": 20,
+        "time": "3:34"
+      },
+      {
+        "spin": 6,
+        "number": "15",
+        "amountBet": 25,
+        "result": 5,
+        "time": "3:47"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 50,
+        "result": 10,
+        "time": "3:59"
+      },
+      {
+        "spin": 8,
+        "number": "27",
+        "amountBet": 75,
+        "result": 15,
+        "time": "4:17"
+      },
+      {
+        "spin": 9,
+        "number": "0",
+        "amountBet": 100,
+        "result": -100,
+        "time": "4:40"
+      },
+      {
+        "spin": 10,
+        "number": "5",
+        "amountBet": 100,
+        "result": 20,
+        "time": "5:21"
+      },
+      {
+        "spin": 11,
+        "number": "16",
+        "amountBet": 125,
+        "result": 25,
+        "time": "5:38"
+      },
+      {
+        "spin": 12,
+        "number": "5",
+        "amountBet": 150,
+        "result": 30,
+        "time": "6:15"
+      },
+      {
+        "spin": 13,
+        "number": "16",
+        "amountBet": 175,
+        "result": 35,
+        "time": "6:38"
+      },
+      {
+        "spin": 14,
+        "number": "21",
+        "amountBet": 25,
+        "result": 5,
+        "time": "7:23"
+      },
+      {
+        "spin": 15,
+        "number": "3",
+        "amountBet": 50,
+        "result": -50,
+        "time": "7:47"
+      },
+      {
+        "spin": 16,
+        "number": "2",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:06"
+      },
+      {
+        "spin": 17,
+        "number": "4",
+        "amountBet": 50,
+        "result": 10,
+        "time": "8:36"
+      },
+      {
+        "spin": 18,
+        "number": "15",
+        "amountBet": 75,
+        "result": 15,
+        "time": "8:52"
+      },
+      {
+        "spin": 19,
+        "number": "29",
+        "amountBet": 100,
+        "result": 20,
+        "time": "9:21"
+      },
+      {
+        "spin": 20,
+        "number": "13",
+        "amountBet": 125,
+        "result": 25,
+        "time": "9:40"
+      },
+      {
+        "spin": 21,
+        "number": "5",
+        "amountBet": 25,
+        "result": 5,
+        "time": "10:23"
+      },
+      {
+        "spin": 22,
+        "number": "6",
+        "amountBet": 50,
+        "result": 10,
+        "time": "10:44"
+      },
+      {
+        "spin": 23,
+        "number": "19",
+        "amountBet": 75,
+        "result": 15,
+        "time": "10:53"
+      },
+      {
+        "spin": 24,
+        "number": "24",
+        "amountBet": 100,
+        "result": 20,
+        "time": "11:07"
+      },
+      {
+        "spin": 25,
+        "number": "22",
+        "amountBet": 25,
+        "result": 5,
+        "time": "11:21"
+      },
+      {
+        "spin": 26,
+        "number": "2",
+        "amountBet": 50,
+        "result": -50,
+        "time": "12:18"
+      },
+      {
+        "spin": 27,
+        "number": "17",
+        "amountBet": 50,
+        "result": 10,
+        "time": "12:56"
+      },
+      {
+        "spin": 28,
+        "number": "23",
+        "amountBet": 75,
+        "result": 15,
+        "time": "13:04"
+      },
+      {
+        "spin": 29,
+        "number": "33",
+        "amountBet": 100,
+        "result": 20,
+        "time": "13:13"
+      },
+      {
+        "spin": 30,
+        "number": "1",
+        "amountBet": 125,
+        "result": 25,
+        "time": "13:27"
+      },
+      {
+        "spin": 31,
+        "number": "20",
+        "amountBet": 0,
+        "result": 0,
+        "time": "13:58"
+      }
+    ]
+  },
+  {
     "name": "Sad Chicken Dinner",
     "airDate": "2025-06-16",
     "youtubeUrl": "https://www.youtube.com/watch?v=L4xDgTiK4QM",
