@@ -11,7 +11,7 @@
       "00-rba-3-800x768.png",
       "00-rba-4-800x768.png",
       "00-rba-5-800x768.png",
-      "00-rba-6-800x768.png",
+      "00-rba-6-800x768.png"
     ],
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x6-4-9":5,"x6-10-15":5,"x6-16-21":5,"x6-22-27":5,"x6-28-33":5}},
@@ -28,16 +28,17 @@
       25, 50, 75, 100, 125, 150, 175
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 2,
+      "chipUniformity": 1,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 1
     },
     "isJackAceReview": false,
+    "finalWinLoss": 400,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -281,14 +282,14 @@
       100, 150, 300, 100
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 5,
+      "chipUniformity": 1,
+      "jackpotPotential": 4,
+      "scalability": 1,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
@@ -513,14 +514,14 @@
       45, 60, 100, 200
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 5,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
@@ -732,14 +733,14 @@
       5, 10, 30, 90
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 5,
+      "chipUniformity": 4,
+      "jackpotPotential": 4,
+      "scalability": 4,
+      "compValue": 0.5
     },
     "isJackAceReview": false,
     "notes": "",
@@ -1151,14 +1152,14 @@
       45, 60, 75
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 3,
+      "chipUniformity": 2,
+      "jackpotPotential": 4,
+      "scalability": 2,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
