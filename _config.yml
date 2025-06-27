@@ -58,7 +58,7 @@ kramdown:
   hard_wrap: false
 remote_theme: jackacestudios/jekyll-theme-hamilton
 
-exclude: [README.md CODE_OF_CONDUCT.md script .gitattributes .gitignore keybase.txt RakeFile]
+exclude: [_config_dev.yml _config_prod.yml _config_staging.yml CNAME_dev CNAME_staging CNAME_prod README.md CODE_OF_CONDUCT.md script .gitattributes .gitignore keybase.txt RakeFile]
 keep_files: [images demos code ads.txt robots.txt favicon.ico]
 incremental: true
 
