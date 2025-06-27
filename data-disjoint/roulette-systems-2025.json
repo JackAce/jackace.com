@@ -1,5 +1,216 @@
 [
   {
+    "name": "Bear with me",
+    "airDate": "2025-06-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=63Mp7f4-pPw",
+    "reviewUrl": "2025-06-19-Bear-with-me",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":50,"x4-17-21":10,"x4-28-32":10}},
+      {"wheelType":1,"wagers":{"x12-doz2":60,"x12-doz3":60,"x4-17-21":15,"x4-28-32":15}},
+      {"wheelType":1,"wagers":{"x12-doz2":70,"x12-doz3":70,"x4-25-29":20,"x4-13-17":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":80,"x12-doz3":80,"x4-25-29":25,"x4-13-17":25}} 
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 600,
+    "bets": [
+      120, 150, 180, 210
+    ],
+    "rating": "a",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "34",
+        "amountBet": 120,
+        "result": 30,
+        "time": "2:28"
+      },
+      {
+        "spin": 2,
+        "number": "10",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:04"
+      },
+      {
+        "spin": 3,
+        "number": "23",
+        "amountBet": 120,
+        "result": 30,
+        "time": "3:13"
+      },
+      {
+        "spin": 4,
+        "number": "29",
+        "amountBet": 150,
+        "result": 165,
+        "time": "3:49"
+      },
+      {
+        "spin": 5,
+        "number": "36",
+        "amountBet": 120,
+        "result": 30,
+        "time": "4:40"
+      },
+      {
+        "spin": 6,
+        "number": "14",
+        "amountBet": 120,
+        "result": -120,
+        "time": "5:06"
+      },
+      {
+        "spin": 7,
+        "number": "36",
+        "amountBet": 120,
+        "result": 30,
+        "time": "5:24"
+      },
+      {
+        "spin": 8,
+        "number": "30",
+        "amountBet": 120,
+        "result": 120,
+        "time": "5:31"
+      },
+      {
+        "spin": 9,
+        "number": "00",
+        "amountBet": 120,
+        "result": -120,
+        "time": "5:44"
+      },
+      {
+        "spin": 10,
+        "number": "25",
+        "amountBet": 120,
+        "result": 120,
+        "time": "6:04"
+      },
+      {
+        "spin": 11,
+        "number": "17",
+        "amountBet": 120,
+        "result": 30,
+        "time": "6:25"
+      },
+      {
+        "spin": 12,
+        "number": "20",
+        "amountBet": 150,
+        "result": 165,
+        "time": "6:48"
+      },
+      {
+        "spin": 13,
+        "number": "2",
+        "amountBet": 120,
+        "result": -120,
+        "time": "7:09"
+      },
+      {
+        "spin": 14,
+        "number": "7",
+        "amountBet": 120,
+        "result": -120,
+        "time": "7:32"
+      },
+      {
+        "spin": 15,
+        "number": "26",
+        "amountBet": 120,
+        "result": 30,
+        "time": "7:44"
+      },
+      {
+        "spin": 16,
+        "number": "30",
+        "amountBet": 150,
+        "result": 30,
+        "time": "7:56"
+      },
+      {
+        "spin": 17,
+        "number": "23",
+        "amountBet": 180,
+        "result": 30,
+        "time": "8:24"
+      },
+      {
+        "spin": 18,
+        "number": "25",
+        "amountBet": 210,
+        "result": 255,
+        "time": "9:03"
+      },
+      {
+        "spin": 19,
+        "number": "33",
+        "amountBet": 120,
+        "result": 30,
+        "time": "10:05"
+      },
+      {
+        "spin": 20,
+        "number": "16",
+        "amountBet": 150,
+        "result": 30,
+        "time": "10:24"
+      },
+      {
+        "spin": 21,
+        "number": "9",
+        "amountBet": 180,
+        "result": -180,
+        "time": "11:09"
+      },
+      {
+        "spin": 22,
+        "number": "1",
+        "amountBet": 120,
+        "result": -120,
+        "time": "11:42"
+      },
+      {
+        "spin": 23,
+        "number": "3",
+        "amountBet": 120,
+        "result": -120,
+        "time": "12:05"
+      },
+      {
+        "spin": 24,
+        "number": "27",
+        "amountBet": 120,
+        "result": 30,
+        "time": "12:16"
+      },
+      {
+        "spin": 25,
+        "number": "20",
+        "amountBet": 150,
+        "result": 165,
+        "time": "12:29"
+      }
+    ]
+  },
+  {
     "name": "EDGSPP 5.0",
     "airDate": "2025-06-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=8gO9xeCIt3Y",
