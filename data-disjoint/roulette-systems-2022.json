@@ -16886,10 +16886,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=mSieyHMou1Y",
     "reviewUrl": "2022-02-28-Pendulum",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png",
-      "00-rba-3-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":5,"x12-doz2":5}},
+      {"wheelType":1,"wagers":{"x12-doz1":10,"x12-doz2":10}},
+      {"wheelType":1,"wagers":{"x12-doz1":20,"x12-doz2":20}},
+      {"wheelType":1,"wagers":{"x12-doz1":40,"x12-doz2":40}}
     ],
     "systemType": "Martingale",
     "buyIn": 400,
