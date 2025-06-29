@@ -17506,7 +17506,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=GpokzbCbfzo",
     "reviewUrl": "2022-02-20-Self-Assessment",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-0-00":5,"x2-2-5":5,"x2-8-11":5,"x2-17-20":5,"x2-26-29":5,"x12-col3":30,"x12-col1":30}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 500,
