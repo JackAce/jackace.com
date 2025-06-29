@@ -17128,7 +17128,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=VWsTVXND7nk",
     "reviewUrl": "2022-02-25-Champions-Corner",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":150,"x12-doz3":150,"x3-13-15":25,"x3-16-18":25,"x3-19-21":25,"x3-22-24":25,"x2-21-24":25,"x2-20-23":25}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 1000,
