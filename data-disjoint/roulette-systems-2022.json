@@ -17872,7 +17872,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=yK78b2EE3VI",
     "reviewUrl": "2022-02-14-Diamond-Cross",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-11":5,"x1-14":5,"x1-17":10,"x1-20":10,"x1-18":5,"x1-21":5,"x1-16":5,"x1-19":5,"x1-23":5,"x1-26":5,"x12-col3":50,"x12-col1":50,"x12-doz1":50,"x12-doz3":50}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 1040,
