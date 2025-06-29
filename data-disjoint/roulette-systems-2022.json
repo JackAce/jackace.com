@@ -17390,7 +17390,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Jqmh1HEHqko",
     "reviewUrl": "2022-02-21-EZ-MOJO",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":60,"x12-doz3":60,"x1-14":5,"x1-23":5,"x1-18":5,"x1-21":5,"x1-16":5,"x1-19":5}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 500,
