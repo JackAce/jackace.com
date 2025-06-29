@@ -17704,7 +17704,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=JUiEyDDaAzs",
     "reviewUrl": "2022-02-15-Tie-Advanced",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-1-5":30,"x4-7-11":30,"x12-doz2":105,"x12-doz3":105}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 900,
