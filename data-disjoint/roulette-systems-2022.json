@@ -16543,7 +16543,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Sgl7oOAoNWQ",
     "reviewUrl": "2022-03-05-In-a-Clint-Eastwood-Accent",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":100,"x6-28-33":100,"x2-14-17":30,"x2-17-20":50,"x2-20-23":30,"x1-18":30,"x1-21":30,"x1-16":30,"x1-19":30}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 2600,
