@@ -16772,8 +16772,12 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=59yQCogxCMM",
     "reviewUrl": "2022-03-01-Lever-Up",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-5":5,"x1-9":5,"x1-7":5,"x1-11":5,"x1-17":5,"x1-20":5,"x1-22":5,"x1-26":5,"x1-30":5,"x1-32":5}},
+      {"wheelType":1,"wagers":{"x1-5":10,"x1-9":10,"x1-7":10,"x1-11":10,"x1-17":10,"x1-20":10,"x1-22":10,"x1-26":10,"x1-30":10,"x1-32":10}}
     ],
     "systemType": "Martingale",
     "buyIn": 500,
