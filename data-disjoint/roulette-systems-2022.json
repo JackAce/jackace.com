@@ -16446,7 +16446,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Rbmp0rzgKBA",
     "reviewUrl": "2022-03-07-Rack-em-and-Stack-em",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":150,"x1-9":10,"x2-9-12":5,"x1-12":10,"x1-18":10,"x2-18-21":5,"x1-21":10,"x1-2":10,"x1-8":15,"x1-11":25,"x1-14":10,"x1-17":25,"x1-20":15,"x1-23":15,"x1-4":10,"x2-4-7":5,"x1-7":10,"x1-16":10}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 1350,
