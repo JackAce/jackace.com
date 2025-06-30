@@ -16276,7 +16276,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=aOcIHlLmb1E",
     "reviewUrl": "2022-03-08-Go-Big-Green",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-00":5,"x1-0":5,"x6-1-6":15,"x6-7-12":15,"x6-13-18":15,"x6-19-24":15,"x6-25-30":15}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 300,
