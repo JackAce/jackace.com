@@ -16653,7 +16653,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Qwb6Hr2DJdg",
     "reviewUrl": "2022-03-04-Residents-of-the-Streets",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-1-6":25,"x6-7-12":25,"x6-25-30":25,"x12-doz2":100}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 1000,
