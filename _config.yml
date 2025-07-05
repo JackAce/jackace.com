@@ -4,8 +4,8 @@ google_analytics: G-0HYRRBTEVY
 # Google Adsense
 google_adsense: ca-pub-5831288475713424
 
-# Cookie Compliance
-cookiebot_cbid: 39de6a87-ccd2-4762-a5a9-d2685ebc06ff
+# Cookie Compliance (cookie-script.com)
+cookie_script_id: 2be5e82d68f0c53bc790ee87ffbd568c
 
 repository: JackAce/jackace.com
 
@@ -58,7 +58,7 @@ kramdown:
   hard_wrap: false
 remote_theme: jackacestudios/jekyll-theme-hamilton
 
-exclude: [README.md CODE_OF_CONDUCT.md script .gitattributes .gitignore keybase.txt RakeFile]
+exclude: [_config_dev.yml _config_prod.yml _config_staging.yml CNAME_dev CNAME_staging CNAME_prod README.md CODE_OF_CONDUCT.md script .gitattributes .gitignore keybase.txt RakeFile]
 keep_files: [images demos code ads.txt robots.txt favicon.ico]
 incremental: true
 
@@ -73,3 +73,4 @@ plugins:
   - jekyll-include-cache
   #- jemoji
   #- jekyll-glossary_tooltip
+
