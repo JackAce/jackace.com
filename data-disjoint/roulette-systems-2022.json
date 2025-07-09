@@ -16276,7 +16276,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=aOcIHlLmb1E",
     "reviewUrl": "2022-03-08-Go-Big-Green",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-00":5,"x1-0":5,"x6-1-6":15,"x6-7-12":15,"x6-13-18":15,"x6-19-24":15,"x6-25-30":15}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 300,
@@ -16446,7 +16449,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Rbmp0rzgKBA",
     "reviewUrl": "2022-03-07-Rack-em-and-Stack-em",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":150,"x1-9":10,"x2-9-12":5,"x1-12":10,"x1-18":10,"x2-18-21":5,"x1-21":10,"x1-2":10,"x1-8":15,"x1-11":25,"x1-14":10,"x1-17":25,"x1-20":15,"x1-23":15,"x1-4":10,"x2-4-7":5,"x1-7":10,"x1-16":10}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 1350,
@@ -16543,7 +16549,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Sgl7oOAoNWQ",
     "reviewUrl": "2022-03-05-In-a-Clint-Eastwood-Accent",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":100,"x6-28-33":100,"x2-14-17":30,"x2-17-20":50,"x2-20-23":30,"x1-18":30,"x1-21":30,"x1-16":30,"x1-19":30}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 2600,
@@ -16653,7 +16662,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Qwb6Hr2DJdg",
     "reviewUrl": "2022-03-04-Residents-of-the-Streets",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-1-6":25,"x6-7-12":25,"x6-25-30":25,"x12-doz2":100}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 1000,
@@ -16772,8 +16784,12 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=59yQCogxCMM",
     "reviewUrl": "2022-03-01-Lever-Up",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-5":5,"x1-9":5,"x1-7":5,"x1-11":5,"x1-17":5,"x1-20":5,"x1-22":5,"x1-26":5,"x1-30":5,"x1-32":5}},
+      {"wheelType":1,"wagers":{"x1-5":10,"x1-9":10,"x1-7":10,"x1-11":10,"x1-17":10,"x1-20":10,"x1-22":10,"x1-26":10,"x1-30":10,"x1-32":10}}
     ],
     "systemType": "Martingale",
     "buyIn": 500,
@@ -16886,10 +16902,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=mSieyHMou1Y",
     "reviewUrl": "2022-02-28-Pendulum",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png",
-      "00-rba-3-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":5,"x12-doz2":5}},
+      {"wheelType":1,"wagers":{"x12-doz1":10,"x12-doz2":10}},
+      {"wheelType":1,"wagers":{"x12-doz1":20,"x12-doz2":20}},
+      {"wheelType":1,"wagers":{"x12-doz1":40,"x12-doz2":40}}
     ],
     "systemType": "Martingale",
     "buyIn": 400,
@@ -17032,9 +17054,14 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Vjhpz1wSgj8",
     "reviewUrl": "2022-02-26-Peach-Cobbler",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col1":60,"x12-col2":60,"x1-3":5,"x1-5":5,"x1-7":5,"x1-12":5,"x1-14":5,"x1-16":5,"x1-21":5,"x1-23":5,"x1-25":5,"x1-32":5,"x1-30":5,"x1-34":5}},
+      {"wheelType":1,"wagers":{"x12-col1":120,"x12-col2":120,"x1-3":10,"x1-5":10,"x1-7":10,"x1-12":10,"x1-14":10,"x1-16":10,"x1-21":10,"x1-23":10,"x1-25":10,"x1-32":10,"x1-30":10,"x1-34":10}},
+      {"wheelType":1,"wagers":{"x12-col1":240,"x12-col2":240,"x1-3":20,"x1-5":20,"x1-7":20,"x1-12":20,"x1-14":20,"x1-16":20,"x1-21":20,"x1-23":20,"x1-25":20,"x1-32":20,"x1-30":20,"x1-34":20}}
     ],
     "systemType": "Martingale",
     "buyIn": 1500,
@@ -17128,7 +17155,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=VWsTVXND7nk",
     "reviewUrl": "2022-02-25-Champions-Corner",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":150,"x12-doz3":150,"x3-13-15":25,"x3-16-18":25,"x3-19-21":25,"x3-22-24":25,"x2-21-24":25,"x2-20-23":25}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 1000,
@@ -17231,8 +17261,12 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=PWsiza44ecU",
     "reviewUrl": "2022-02-22-POOR-MAN-BIG-DREAMS",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x6-4-9":10,"x6-10-15":10,"x6-16-21":10,"x6-22-27":10,"x6-28-33":10}},
+      {"wheelType":1,"wagers":{"x2-7-10":10,"x4-13-17":10,"x3-19-21":10,"x6-22-27":10,"x1-5":10}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 100,
@@ -17390,7 +17424,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Jqmh1HEHqko",
     "reviewUrl": "2022-02-21-EZ-MOJO",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":60,"x12-doz3":60,"x1-14":5,"x1-23":5,"x1-18":5,"x1-21":5,"x1-16":5,"x1-19":5}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 500,
@@ -17506,7 +17543,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=GpokzbCbfzo",
     "reviewUrl": "2022-02-20-Self-Assessment",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-0-00":5,"x2-2-5":5,"x2-8-11":5,"x2-17-20":5,"x2-26-29":5,"x12-col3":30,"x12-col1":30}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 500,
@@ -17617,7 +17657,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=NkT2TZMgAmY",
     "reviewUrl": "2022-02-18-Lucky-Sections",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-00":4,"x1-0":2,"x18-black":25,"x1-1":3,"x1-9":2,"x1-14":2,"x1-20":5,"x1-27":3,"x1-28":2,"x1-2":2}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 500,
@@ -17704,7 +17747,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=JUiEyDDaAzs",
     "reviewUrl": "2022-02-15-Tie-Advanced",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x4-1-5":30,"x4-7-11":30,"x12-doz2":105,"x12-doz3":105}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 900,
@@ -17872,7 +17918,10 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=yK78b2EE3VI",
     "reviewUrl": "2022-02-14-Diamond-Cross",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png"
+      "00-rba-0-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-11":5,"x1-14":5,"x1-17":10,"x1-20":10,"x1-18":5,"x1-21":5,"x1-16":5,"x1-19":5,"x1-23":5,"x1-26":5,"x12-col3":50,"x12-col1":50,"x12-doz1":50,"x12-doz3":50}}
     ],
     "systemType": "Flat Bet",
     "buyIn": 1040,
@@ -17970,10 +18019,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=5xDKWayWqgI",
     "reviewUrl": "2022-02-13-Rated-T",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png",
-      "00-rba-3-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-1":1,"x1-4":1,"x1-7":1,"x1-5":1,"x1-6":1,"x1-8":1,"x1-9":1,"x1-10":1,"x1-34":1,"x1-25":1,"x1-28":1,"x1-31":1,"x1-29":1,"x1-32":1,"x1-30":1,"x1-33":1,"x12-doz2":10}},
+      {"wheelType":1,"wagers":{"x1-1":5,"x1-4":5,"x1-7":5,"x1-5":5,"x1-6":5,"x1-8":5,"x1-9":5,"x1-10":5,"x1-34":5,"x1-25":5,"x1-28":5,"x1-31":5,"x1-29":5,"x1-32":5,"x1-30":5,"x1-33":5,"x12-doz2":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":250,"x1-1":25,"x1-4":25,"x1-7":25,"x1-10":25,"x1-34":25,"x1-31":25,"x1-28":25,"x1-25":25,"x1-5":25,"x1-8":25,"x1-9":25,"x1-6":25,"x1-29":25,"x1-32":25,"x1-33":25,"x1-30":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":1250,"x1-1":125,"x1-4":125,"x1-7":125,"x1-10":125,"x1-34":125,"x1-31":125,"x1-28":125,"x1-25":125,"x1-5":125,"x1-8":125,"x1-9":125,"x1-6":125,"x1-29":125,"x1-32":125,"x1-33":125,"x1-30":125}}
     ],
     "systemType": "Negative Progression",
     "buyIn": 3000,
@@ -18057,9 +18112,14 @@
     "reviewUrl": "2022-02-11-Dirty-Bird",
     "jackaceVideoUrl": "https://www.youtube.com/watch?v=HtE7LVvRPfI",
     "rbaImageUrls": [
-      "00-rba-0-800x440.png",
-      "00-rba-1-800x440.png",
-      "00-rba-2-800x440.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+    "bettingTiers": [
+      {"wheelType":1,"wagers":{"x1-2":1,"x1-5":1,"x1-4":1,"x1-1":1,"x1-8":1,"x1-7":1,"x1-10":1,"x1-11":1,"x1-9":1,"x1-12":1}},
+      {"wheelType":1,"wagers":{"x1-2":2,"x1-5":2,"x1-4":2,"x1-1":2,"x1-8":2,"x1-7":2,"x1-10":2,"x1-11":2,"x1-9":2,"x1-12":2}},
+      {"wheelType":1,"wagers":{"x1-2":4,"x1-5":4,"x1-4":4,"x1-1":4,"x1-8":4,"x1-7":4,"x1-10":4,"x1-11":4,"x1-9":4,"x1-12":4}}
     ],
     "systemType": "Other",
     "buyIn": 200,
