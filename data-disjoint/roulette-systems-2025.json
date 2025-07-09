@@ -34,14 +34,14 @@
       40, 20, 45, 25, 15, 35, 40, 40, 20, 30
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "f",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 1,
+      "progressionSimplicity": 1,
+      "chipUniformity": 1,
+      "jackpotPotential": 1,
+      "scalability": 1,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -270,16 +270,17 @@
       50, 60, 70, 90, 100
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 3,
+      "chipUniformity": 3,
+      "jackpotPotential": 1,
+      "scalability": 2,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": -250,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -442,7 +443,7 @@
     "name": "4 Falls at Niagara",
     "airDate": "2025-06-22",
     "youtubeUrl": "https://www.youtube.com/watch?v=ztaBmuQF5sY",
-    "reviewUrl": "2025-06-27-4-Falls-at-Niagara",
+    "reviewUrl": "2025-06-22-4-Falls-at-Niagara",
     "rbaImageUrls": [
       "00-rba-0-800x768.png",
       "00-rba-1-800x768.png",
@@ -465,14 +466,14 @@
       25, 40, 50, 50, 50, 80
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 1,
+      "progressionSimplicity": 1,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -671,14 +672,14 @@
       40, 80, 120, 160, 200
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 4,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -825,9 +826,9 @@
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz3":60,"x1-22":5,"x1-19":5}},
       {"wheelType":1,"wagers":{"x12-doz2":90,"x2-25-28":15}},
+      {"wheelType":1,"wagers":{"x12-doz1":120,"x2-0-00":20}},
       {"wheelType":1,"wagers":{"x12-doz2":180,"x2-0-00":30}},
-      {"wheelType":1,"wagers":{"x12-doz2":240,"x2-0-00":40}},
-      {"wheelType":1,"wagers":{"x12-doz1":120,"x2-0-00":20}} 
+      {"wheelType":1,"wagers":{"x12-doz2":240,"x2-0-00":40}}
     ],
     "systemType": "Negative Progression",
     "buyIn": 1000,
@@ -837,14 +838,15 @@
     "rating": "c",
     "jackaceRating": "",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 3,
+      "chipUniformity": 3,
+      "jackpotPotential": 3,
+      "scalability": 2,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": 1175,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -1026,14 +1028,14 @@
       120, 150, 180, 210
     ],
     "rating": "a",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 3,
+      "jackpotPotential": 4,
+      "scalability": 2,
+      "compValue": 5
     },
     "isJackAceReview": false,
     "notes": "",
@@ -1161,7 +1163,8 @@
         "number": "25",
         "amountBet": 210,
         "result": 255,
-        "time": "9:03"
+        "time": "9:03",
+        "notes": "Alex should have quit with success here, but he kept playing."
       },
       {
         "spin": 19,
