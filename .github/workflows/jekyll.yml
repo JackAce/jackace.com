@@ -41,18 +41,18 @@ jobs:
           ruby-version: '3.1.3' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
-      - name: Prepare environment-specific config
-        run: |
-          if [ "${{ github.repository }}" = "JackAce/www.jackace.com" ]; then
-            cp CNAME_prod _site/CNAME
-            cp _config_prod.yml _config.yml
-          elif [ "${{ github.repository }}" = "JackAce/staging.jackace.com" ]; then
-            cp CNAME_staging _site/CNAME
-            cp _config_staging.yml _config.yml
-          elif [ "${{ github.repository }}" = "JackAce/dev.jackace.com" ]; then
-            cp CNAME_dev _site/CNAME
-            cp _config_dev.yml _config.yml
-          fi
+      # - name: Prepare environment-specific config
+      #   run: |
+      #     if [ "${{ github.repository }}" = "JackAce/www.jackace.com" ]; then
+      #       cp CNAME_prod _site/CNAME
+      #       cp _config_prod.yml _config.yml
+      #     elif [ "${{ github.repository }}" = "JackAce/staging.jackace.com" ]; then
+      #       cp CNAME_staging _site/CNAME
+      #       cp _config_staging.yml _config.yml
+      #     elif [ "${{ github.repository }}" = "JackAce/dev.jackace.com" ]; then
+      #       cp CNAME_dev _site/CNAME
+      #       cp _config_dev.yml _config.yml
+      #     fi
       - name: Run Rake Build
         run: |
           rake build
