@@ -44,13 +44,13 @@ jobs:
       - name: Prepare environment-specific config
         run: |
           if [ "${{ github.repository }}" = "JackAce/www.jackace.com" ]; then
-            cp CNAME_prod CNAME
+            cp CNAME_prod _site/CNAME
             cp _config_prod.yml _config.yml
           elif [ "${{ github.repository }}" = "JackAce/staging.jackace.com" ]; then
-            cp CNAME_staging CNAME
+            cp CNAME_staging _site/CNAME
             cp _config_staging.yml _config.yml
           elif [ "${{ github.repository }}" = "JackAce/dev.jackace.com" ]; then
-            cp CNAME_dev CNAME
+            cp CNAME_dev _site/CNAME
             cp _config_dev.yml _config.yml
           fi
       - name: Run Rake Build
