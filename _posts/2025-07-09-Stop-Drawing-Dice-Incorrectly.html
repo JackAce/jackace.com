@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stop Drawing Dice Incorrectly"
+title: "Stop Drawing Dice Incorrectly!"
 date: 2025-07-09 00:00:01 -0700
 author: Jack Haze
 tags: [dice, craps, gambling, casino]
@@ -53,13 +53,17 @@ published: true
 </p>
 <p>
     {% include die-face.html value=1 %}
-    is opposite
+    should be opposite of
     {% include die-face.html value=6 -%}.
+</p>
+<p>
     {% include die-face.html value=2 %}
-    opposite
+    should be opposite of
     {% include die-face.html value=5 -%}.
+</p>
+<p>
     {% include die-face.html value=3 %}
-    opposite
+    should be opposite of
     {% include die-face.html value=4 -%}.
 </p>
 <p>
@@ -79,7 +83,7 @@ published: true
 </h4>
 <p>
     On a standard die, there's always one corner where you can see the
-    {% include die-face.html value=1 %}
+    {% include die-face.html value=1 -%},
     {% include die-face.html value=2 -%}, and
     {% include die-face.html value=3 %}
     faces touching. It's the easiest way to orient yourself and the surest way to
