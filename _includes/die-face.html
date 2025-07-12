@@ -1,0 +1,17 @@
+{%- assign value = include.value -%}
+
+{% if value == 1 %}
+    {%- assign imgUrl = "die-1-red-30x30.png" -%}
+{% elsif value == 2 %}
+    {%- assign imgUrl = "die-2-red-30x30.png" -%}
+{% elsif value == 3 %}
+    {%- assign imgUrl = "die-3-red-30x30.png" -%}
+{% elsif value == 4 %}
+    {%- assign imgUrl = "die-4-red-30x30.png" -%}
+{% elsif value == 5 %}
+    {%- assign imgUrl = "die-5-red-30x30.png" -%}
+{% elsif value == 6 %}
+    {%- assign imgUrl = "die-6-red-30x30.png" -%}
+{% endif %}
+{%- assign imgUrl = imgUrl | prepend: "/assets/img/dice/" | prepend: site.baseurl -%}
+<img src="{{ imgUrl }}" title="{{ value }} Pip" />
