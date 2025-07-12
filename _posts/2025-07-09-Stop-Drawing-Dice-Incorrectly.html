@@ -11,7 +11,14 @@ comments: true
 published: true 
 ---
 
-<img src="{{site.baseurl}}{{page.excerpt_image}}" class="excerpt-image" alt="Arthur takes down a round of Dominoes wearing his Legendary Bear hat" />
+<figure>
+    <img src="{{site.baseurl}}{{page.excerpt_image}}" class="excerpt-image" alt="Arthur takes down a round of Dominoes wearing his Legendary Bear hat" />
+    <figcaption>
+        This is a schematic for a perfectly crafted die. The orientation of all
+        {%- include glossary-term.html term="pip" displayName="pips" %}
+        conforms with the standards used by most casinos.
+    </figcaption>
+</figure>
 <h3>
     Casino Dice Schematics: Why Do So Many Get This Wrong?
 </h3>
@@ -94,20 +101,26 @@ published: true
     {% include die-face.html value=2 %}
     and the
     {% include die-face.html value=3 %}
-    should form a "V" when you look at the two shared faces, with the 
+    should form a "V" when you look at the two shared faces with the 
+    {% include die-face.html value=1 %} on top. When oriented like this,
+    the
     {% include die-face.html value=2 %}
-    on the left, and the 
+    should be on the left, and the 
     {% include die-face.html value=3 %}
-    on the right.
+    should be on the right.
 </p>
 <p>
     This means that the corner that the three faces share does not contain a pip.
     I learned this when I was 8 years old and I noticed that if you spin a die
     with that corner on top, the corner will be free of any pip.
 </p>
+<div class="infobox-info">
+    On dice, a "pip" refers to one of the small dots on a face of the die that
+    represent numbers from 1 to 6.
+</div>
 <p>
-    Just look at the Die Emoji! They actually got this one right (if you ignore
-    the color of the 1 Pip).
+    Just look at the <a href="https://emojipedia.org/game-die" target="_blank">Game Die Emoji</a>!
+    They actually got this one right (if you ignore the color of the 1 Pip).
 </p>
 <p>
     <span style="font-size: 100px;">🎲</span>
