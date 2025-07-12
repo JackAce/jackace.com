@@ -88,6 +88,12 @@
     "definition": "A series of bets in Roulette where hitting a specific number results in multiple bets winning."
   },
   {
+    "term": "pip",
+    "categories": ["general gambling, baccarat, craps, poker, blackjack"],
+    "summary": "the spot on a card or die representing a single unit of the rank or value",
+    "definition": "A pip is a small mark indicating quantity — a dot on dice and a suit symbol on numbered playing cards."
+  },
+  {
     "term": "RNG",
     "categories": ["general gambling, probability, math"],
     "summary": "The Random Number Generator used by computers to select a random number (duh)",
