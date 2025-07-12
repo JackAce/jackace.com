@@ -50,16 +50,20 @@ published: true
 </h4>
 <p>
     This is not a suggestion. It's math.
-    <img src="{{site.baseurl}}/assets/img/dice/die-1-red-30x30.png" alt="1 Pip" />
+</p>
+<p>
+    {% include die-face.html value=1 %}
     is opposite
-    <img src="{{site.baseurl}}/assets/img/dice/die-6-red-30x30.png" alt="6 Pip" />,
-    <img src="{{site.baseurl}}/assets/img/dice/die-2-red-30x30.png" alt="2 Pip" />
+    {% include die-face.html value=6 -%}.
+    {% include die-face.html value=2 %}
     opposite
-    <img src="{{site.baseurl}}/assets/img/dice/die-5-red-30x30.png" alt="5 Pip" />,
-    <img src="{{site.baseurl}}/assets/img/dice/die-3-red-30x30.png" alt="3 Pip" />
+    {% include die-face.html value=5 -%}.
+    {% include die-face.html value=3 %}
     opposite
-    <img src="{{site.baseurl}}/assets/img/dice/die-4-red-30x30.png" alt="4 Pip" />
-    — simple and universal. If your drawing has 3 and 4 on adjacent sides,
+    {% include die-face.html value=4 -%}.
+</p>
+<p>
+    Simple and universal. If your drawing has 3 and 4 on adjacent sides,
     congratulations, you've created some kind of cursed object that belongs in
     a dollar store.
 </p>
@@ -75,20 +79,21 @@ published: true
 </h4>
 <p>
     On a standard die, there's always one corner where you can see the
-    <img src="{{site.baseurl}}/assets/img/dice/die-1-red-30x30.png" alt="1 Pip" />,
-    <img src="{{site.baseurl}}/assets/img/dice/die-2-red-30x30.png" alt="2 Pip" />, and
-    <img src="{{site.baseurl}}/assets/img/dice/die-3-red-30x30.png" alt="3 Pip" />
+    {% include die-face.html value=1 %}
+    {% include die-face.html value=2 -%}, and
+    {% include die-face.html value=3 %}
     faces touching. It's the easiest way to orient yourself and the surest way to
     spot a malformed imposter.
 </p>
 <p>
     ALSO, the 
-    <img src="{{site.baseurl}}/assets/img/dice/die-2-red-30x30.png" alt="2 Pip" /> and the
-    <img src="{{site.baseurl}}/assets/img/dice/die-3-red-30x30.png" alt="3 Pip" />
+    {% include die-face.html value=2 %}
+    and the
+    {% include die-face.html value=3 %}
     should form a "V" when you look at the two shared faces, with the 
-    <img src="{{site.baseurl}}/assets/img/dice/die-2-red-30x30.png" alt="2 Pip" />
+    {% include die-face.html value=2 %}
     on the left, and the 
-    <img src="{{site.baseurl}}/assets/img/dice/die-3-red-30x30.png" alt="3 Pip" />
+    {% include die-face.html value=3 %}
     on the right.
 </p>
 <p>
@@ -104,10 +109,11 @@ published: true
 <p>
     It goes "up and down," meaning if you're looking at a properly aligned die,
     the rows of three dots on the   
-    <img src="{{site.baseurl}}/assets/img/dice/die-6-red-30x30.png" alt="6 Pip" />
+    {% include die-face.html value=6 %}
     face run vertically, with the
-    <img src="{{site.baseurl}}/assets/img/dice/die-3-red-30x30.png" alt="3 Pip" /> and
-    <img src="{{site.baseurl}}/assets/img/dice/die-4-red-30x30.png" alt="4 Pip" />
+    {% include die-face.html value=3 %}
+    and
+    {% include die-face.html value=4 %}
     faces adjacent to the opening edges.
 </p>
 <figure>
