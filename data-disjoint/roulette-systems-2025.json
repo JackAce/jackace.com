@@ -1,5 +1,237 @@
 [
   {
+    "name": "Plug the Holes",
+    "airDate": "2025-06-29",
+    "youtubeUrl": "https://m.youtube.com/watch?v=fMDxaG9pRzI",
+    "reviewUrl": "2025-06-29-Plug-the-Holes",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":25,"x2-0-00":5,"x2-1-2":5,"x2-4-5":5,"x2-7-8":5,"x2-10-11":5}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30,"x4-1-5":15,"x4-8-12":15}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":50,"x4-1-5":15,"x4-8-12":15}} 
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 250,
+    "bets": [
+      50, 75, 90, 130
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "4",
+        "amountBet": 50,
+        "result": -50,
+        "time": "1:03"
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 50,
+        "result": -50,
+        "time": "1:31"
+      },
+      {
+        "spin": 3,
+        "number": "10",
+        "amountBet": 50,
+        "result": -50,
+        "time": "1:52"
+      },
+      {
+        "spin": 4,
+        "number": "24",
+        "amountBet": 50,
+        "result": 50,
+        "time": "2:17"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 75,
+        "result": 0,
+        "time": "2:44"
+      },
+      {
+        "spin": 6,
+        "number": "00",
+        "amountBet": 75,
+        "result": 15,
+        "time": "2:52"
+      },
+      {
+        "spin": 7,
+        "number": "16",
+        "amountBet": 90,
+        "result": 0,
+        "time": "3:58"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 90,
+        "result": 45,
+        "time": "4:06"
+      },
+      {
+        "spin": 9,
+        "number": "6",
+        "amountBet": 130,
+        "result": -130,
+        "time": "4:35"
+      },
+      {
+        "spin": 10,
+        "number": "21",
+        "amountBet": 50,
+        "result": 25,
+        "time": "4:59"
+      },
+      {
+        "spin": 11,
+        "number": "15",
+        "amountBet": 50,
+        "result": 25,
+        "time": "5:18"
+      },
+      {
+        "spin": 12,
+        "number": "1",
+        "amountBet": 75,
+        "result": 15,
+        "time": "5:25"
+      },
+      {
+        "spin": 13,
+        "number": "6",
+        "amountBet": 90,
+        "result": -90,
+        "time": "5:44"
+      },
+      {
+        "spin": 14,
+        "number": "0",
+        "amountBet": 50,
+        "result": -50,
+        "time": "5:58"
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 50,
+        "result": 25,
+        "time": "6:09"
+      },
+      {
+        "spin": 16,
+        "number": "14",
+        "amountBet": 75,
+        "result": 0,
+        "time": "6:46"
+      },
+      {
+        "spin": 17,
+        "number": "28",
+        "amountBet": 75,
+        "result": 0,
+        "time": "6:55"
+      },
+      {
+        "spin": 18,
+        "number": "4",
+        "amountBet": 75,
+        "result": 15,
+        "time": "7:21"
+      },
+      {
+        "spin": 19,
+        "number": "21",
+        "amountBet": 90,
+        "result": 0,
+        "time": "8:15"
+      },
+      {
+        "spin": 20,
+        "number": "20",
+        "amountBet": 90,
+        "result": 0,
+        "time": "8:24"
+      },
+      {
+        "spin": 21,
+        "number": "1",
+        "amountBet": 90,
+        "result": 45,
+        "time": "8:38"
+      },
+      {
+        "spin": 22,
+        "number": "0",
+        "amountBet": 130,
+        "result": -130,
+        "time": "9:01"
+      },
+      {
+        "spin": 23,
+        "number": "21",
+        "amountBet": 50,
+        "result": -50,
+        "time": "9:25"
+      },
+      {
+        "spin": 24,
+        "number": "6",
+        "amountBet": 0,
+        "result": 0,
+        "time": "9:56"
+      },
+      {
+        "spin": 25,
+        "number": "24",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:06"
+      },
+      {
+        "spin": 26,
+        "number": "17",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:17"
+      },
+      {
+        "spin": 27,
+        "number": "5",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:25"
+      },
+      {
+        "spin": 28,
+        "number": "26",
+        "amountBet": 0,
+        "result": 0,
+        "time": "10:36"
+      }
+    ]
+  },
+  {
     "name": "The Little Split",
     "airDate": "2025-06-28",
     "youtubeUrl": "https://m.youtube.com/watch?v=8mYD4_vKlZ4",
