@@ -19232,6 +19232,46 @@
         }
       }
     ],
+    "jackaceRatingDetails": {
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 5,
+      "chipUniformity": 3,
+      "jackpotPotential": 3,
+      "scalability": 4,
+      "compValue": 2
+    },
+    "simulationResults": [
+      {
+        "startingBalance": 300,
+        "desiredBalance": 600,
+        "successPercentage0": 0.350,
+        "spinsPerTrial0": 30.3,
+        "successPercentage00": 0.264,
+        "spinsPerTrial00": 28.2,
+        "successPercentage000": 0.194,
+        "spinsPerTrial000": 26.4
+      },
+      {
+        "startingBalance": 500,
+        "desiredBalance": 750,
+        "successPercentage0": 0.495,
+        "spinsPerTrial0": 48.0,
+        "successPercentage00": 0.388,
+        "spinsPerTrial00": 46.2,
+        "successPercentage000": 0.286,
+        "spinsPerTrial000": 43.3
+      },
+      {
+        "startingBalance": 500,
+        "desiredBalance": 1000,
+        "successPercentage0": 0.288,
+        "spinsPerTrial0": 86.4,
+        "successPercentage00": 0.162,
+        "spinsPerTrial00": 74.2,
+        "successPercentage000": 0.091,
+        "spinsPerTrial000": 63.2
+      }
+    ],
     "systemType": "Flat Bet",
     "buyIn": 500,
     "bets": [
