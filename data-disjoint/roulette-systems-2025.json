@@ -1,5 +1,131 @@
 [
   {
+    "name": "ACS",
+    "airDate": "2025-07-02",
+    "youtubeUrl": "https://m.youtube.com/watch?v=6gBIHWC1_ro",
+    "reviewUrl": "2025-07-02-ACS",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col3":30,"x4-4-8":10,"x4-13-17":10,"x4-19-23":10,"x4-28-32":10}},
+      {"wheelType":1,"wagers":{"x12-col3":60,"x4-4-8":20,"x4-13-17":20,"x4-19-23":20,"x4-28-32":20}},
+      {"wheelType":1,"wagers":{"x12-col3":120,"x4-4-8":40,"x4-13-17":40,"x4-19-23":40,"x4-28-32":40}},
+      {"wheelType":1,"wagers":{"x12-col3":240,"x4-4-8":80,"x4-13-17":80,"x4-19-23":80,"x4-28-32":80}},
+      {"wheelType":1,"wagers":{"x12-col3":480,"x4-4-8":160,"x4-13-17":160,"x4-19-23":160,"x4-28-32":160}} 
+    ],
+    "systemType": "Negative Progression",
+    "buyIn": 500,
+    "bets": [
+      70, 140, 280, 560, 1120
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "0",
+        "amountBet": 70,
+        "result": -70,
+        "time": "1:12"
+      },
+      {
+        "spin": 2,
+        "number": "13",
+        "amountBet": 140,
+        "result": 40,
+        "time": "1:55"
+      },
+      {
+        "spin": 3,
+        "number": "3",
+        "amountBet": 140,
+        "result": 40,
+        "displayedResult": 100,
+        "time": "2:39"
+      },
+      {
+        "spin": 4,
+        "number": "10",
+        "amountBet": 280,
+        "result": -280,
+        "displayedResult": -240,
+        "time": "3:53"
+      },
+      {
+        "spin": 5,
+        "number": "27",
+        "amountBet": 560,
+        "result": 160,
+        "time": "5:43"
+      },
+      {
+        "spin": 6,
+        "number": "15",
+        "amountBet": 1120,
+        "result": 320,
+        "displayedResult": 270,
+        "time": "7:14"
+      },
+      {
+        "spin": 7,
+        "number": "20",
+        "amountBet": 1120,
+        "result": 320,
+        "time": "8:28"
+      },
+      {
+        "spin": 8,
+        "number": "27",
+        "amountBet": 70,
+        "result": 20,
+        "displayedResult": 40,
+        "time": "10:41"
+      },
+      {
+        "spin": 9,
+        "number": "27",
+        "amountBet": 140,
+        "result": 40,
+        "time": "11:36"
+      },
+      {
+        "spin": 10,
+        "number": "27",
+        "amountBet": 280,
+        "result": 80,
+        "time": "12:28"
+      },
+      {
+        "spin": 11,
+        "number": "15",
+        "amountBet": 560,
+        "result": 160,
+        "time": "13:39"
+      },
+      {
+        "spin": 12,
+        "number": "28",
+        "amountBet": 560,
+        "result": 160,
+        "time": "14:22"
+      }
+    ]
+  },
+  {
     "name": "Let AI Cook",
     "airDate": "2025-07-01",
     "youtubeUrl": "https://m.youtube.com/watch?v=xS69-6SL40M",
