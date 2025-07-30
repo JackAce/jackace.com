@@ -1,5 +1,147 @@
 [
   {
+    "name": "Andrussi",
+    "airDate": "2025-07-05",
+    "youtubeUrl": "https://www.youtube.com/watch?v=g6BDeT6HW9Y",
+    "reviewUrl": "2025-07-05-Andrussi",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x2-0-00":10,"x1-5":5,"x1-8":5,"x1-19":5,"x1-20":5,"x1-27":5,"x1-33":5,"x1-35":5}} 
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      45
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "36",
+        "amountBet": 45,
+        "result": -45,
+        "time": "2:15"
+      },
+      {
+        "spin": 2,
+        "number": "3",
+        "amountBet": 45,
+        "result": -45,
+        "time": "2:31"
+      },
+      {
+        "spin": 3,
+        "number": "16",
+        "amountBet": 45,
+        "result": -45,
+        "time": "2:55"
+      },
+      {
+        "spin": 4,
+        "number": "22",
+        "amountBet": 45,
+        "result": -45,
+        "time": "3:42"
+      },
+      {
+        "spin": 5,
+        "number": "11",
+        "amountBet": 45,
+        "result": -45,
+        "time": "3:54"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 45,
+        "result": -45,
+        "time": "4:52"
+      },
+      {
+        "spin": 7,
+        "number": "36",
+        "amountBet": 45,
+        "result": -45,
+        "time": "5:42"
+      },
+      {
+        "spin": 8,
+        "number": "0",
+        "amountBet": 45,
+        "result": 135,
+        "time": "5:56"
+      },
+      {
+        "spin": 9,
+        "number": "34",
+        "amountBet": 45,
+        "result": -45,
+        "time": "6:47"
+      },
+      {
+        "spin": 10,
+        "number": "14",
+        "amountBet": 45,
+        "result": -45,
+        "time": "7:01"
+      },
+      {
+        "spin": 11,
+        "number": "33",
+        "amountBet": 45,
+        "result": 135,
+        "time": "7:36"
+      },
+      {
+        "spin": 12,
+        "number": "5",
+        "amountBet": 45,
+        "result": 135,
+        "time": "7:50"
+      },
+      {
+        "spin": 13,
+        "number": "9",
+        "amountBet": 45,
+        "result": -45,
+        "time": "8:35"
+      },
+      {
+        "spin": 14,
+        "number": "0",
+        "amountBet": 45,
+        "result": 135,
+        "time": "8:58"
+      },
+      {
+        "spin": 15,
+        "number": "6",
+        "amountBet": 45,
+        "result": -45,
+        "time": "9:28"
+      },
+      {
+        "spin": 16,
+        "number": "7",
+        "amountBet": 45,
+        "result": -45,
+        "time": "10:05"
+      }
+    ]
+  },
+  {
     "name": "ACS",
     "airDate": "2025-07-02",
     "youtubeUrl": "https://m.youtube.com/watch?v=6gBIHWC1_ro",
