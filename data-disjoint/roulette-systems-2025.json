@@ -7,8 +7,20 @@
     "rbaImageUrls": [
       "00-rba-0-800x768.png"
     ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x2-0-00":10,"x1-5":5,"x1-8":5,"x1-19":5,"x1-20":5,"x1-27":5,"x1-33":5,"x1-35":5}} 
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x2-0-00": 10,
+          "x1-5": 5,
+          "x1-8": 5,
+          "x1-19": 5,
+          "x1-20": 5,
+          "x1-27": 5,
+          "x1-33": 5,
+          "x1-35": 5
+        }
+      }
     ],
     "systemType": "Flat Bet",
     "buyIn": 500,
@@ -16,18 +28,19 @@
       45
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 5,
+      "chipUniformity": 5,
+      "jackpotPotential": 3,
+      "scalability": 3,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
-    "spins": [{
+    "spins": [
+      {
         "spin": 1,
         "number": "36",
         "amountBet": 45,
@@ -142,7 +155,7 @@
     ]
   },
   {
-    "name": "ACS",
+    "name": "ACS 👫",
     "airDate": "2025-07-02",
     "youtubeUrl": "https://m.youtube.com/watch?v=6gBIHWC1_ro",
     "reviewUrl": "2025-07-02-ACS",
@@ -153,31 +166,82 @@
       "00-rba-3-800x768.png",
       "00-rba-4-800x768.png"
     ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-col3":30,"x4-4-8":10,"x4-13-17":10,"x4-19-23":10,"x4-28-32":10}},
-      {"wheelType":1,"wagers":{"x12-col3":60,"x4-4-8":20,"x4-13-17":20,"x4-19-23":20,"x4-28-32":20}},
-      {"wheelType":1,"wagers":{"x12-col3":120,"x4-4-8":40,"x4-13-17":40,"x4-19-23":40,"x4-28-32":40}},
-      {"wheelType":1,"wagers":{"x12-col3":240,"x4-4-8":80,"x4-13-17":80,"x4-19-23":80,"x4-28-32":80}},
-      {"wheelType":1,"wagers":{"x12-col3":480,"x4-4-8":160,"x4-13-17":160,"x4-19-23":160,"x4-28-32":160}} 
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-col3": 30,
+          "x4-4-8": 10,
+          "x4-13-17": 10,
+          "x4-19-23": 10,
+          "x4-28-32": 10
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-col3": 60,
+          "x4-4-8": 20,
+          "x4-13-17": 20,
+          "x4-19-23": 20,
+          "x4-28-32": 20
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-col3": 120,
+          "x4-4-8": 40,
+          "x4-13-17": 40,
+          "x4-19-23": 40,
+          "x4-28-32": 40
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-col3": 240,
+          "x4-4-8": 80,
+          "x4-13-17": 80,
+          "x4-19-23": 80,
+          "x4-28-32": 80
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-col3": 480,
+          "x4-4-8": 160,
+          "x4-13-17": 160,
+          "x4-19-23": 160,
+          "x4-28-32": 160
+        }
+      }
     ],
     "systemType": "Negative Progression",
     "buyIn": 500,
     "bets": [
-      70, 140, 280, 560, 1120
+      70,
+      140,
+      280,
+      560,
+      1120
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 3,
+      "chipUniformity": 1,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 2
     },
     "isJackAceReview": false,
-    "notes": "",
-    "spins": [{
+    "finalWinLoss": 790,
+    "notes": "(A Couples System)",
+    "spins": [
+      {
         "spin": 1,
         "number": "0",
         "amountBet": 70,
@@ -268,7 +332,7 @@
     ]
   },
   {
-    "name": "Let AI Cook",
+    "name": "Let AI Cook 🤖",
     "airDate": "2025-07-01",
     "youtubeUrl": "https://m.youtube.com/watch?v=xS69-6SL40M",
     "reviewUrl": "2025-07-01-Let-AI-Cook",
@@ -279,31 +343,89 @@
       "00-rba-3-800x768.png",
       "00-rba-4-800x768.png"
     ],
-     "bettingTiers": [
-      {"wheelType":1,"wagers":{"x12-doz2":25,"x1-34":5,"x1-35":5,"x1-31":5,"x1-32":5,"x4-31-35":5}},
-      {"wheelType":1,"wagers":{"x2-0-00":15,"x2-16-19":15,"x2-17-20":15,"x2-26-27":15,"x2-29-32":15}},
-      {"wheelType":1,"wagers":{"x1-34":10,"x1-35":10,"x1-32":10,"x1-31":10,"x4-31-35":10,"x12-doz2":50}},
-      {"wheelType":1,"wagers":{"x2-0-00":30,"x2-29-32":30,"x2-16-19":30,"x2-15-18":30,"x2-10-13":30}},
-      {"wheelType":1,"wagers":{"x2-0-00":15,"x2-16-19":15,"x2-23-26":15,"x2-28-31":15,"x2-29-32":15,"x1-13":30,"x1-20":30,"x1-10":30,"x1-27":30,"x1-8":30,"x1-15":30}} 
+    "bettingTiers": [
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x12-doz2": 25,
+          "x1-34": 5,
+          "x1-35": 5,
+          "x1-31": 5,
+          "x1-32": 5,
+          "x4-31-35": 5
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x2-0-00": 15,
+          "x2-16-19": 15,
+          "x2-17-20": 15,
+          "x2-26-27": 15,
+          "x2-29-32": 15
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x1-34": 10,
+          "x1-35": 10,
+          "x1-32": 10,
+          "x1-31": 10,
+          "x4-31-35": 10,
+          "x12-doz2": 50
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x2-0-00": 30,
+          "x2-29-32": 30,
+          "x2-16-19": 30,
+          "x2-15-18": 30,
+          "x2-10-13": 30
+        }
+      },
+      {
+        "wheelType": 1,
+        "wagers": {
+          "x2-0-00": 15,
+          "x2-16-19": 15,
+          "x2-23-26": 15,
+          "x2-28-31": 15,
+          "x2-29-32": 15,
+          "x1-13": 30,
+          "x1-20": 30,
+          "x1-10": 30,
+          "x1-27": 30,
+          "x1-8": 30,
+          "x1-15": 30
+        }
+      }
     ],
-    "systemType": "Positive Progression",
+    "systemType": "Negative Progression",
     "buyIn": 700,
     "bets": [
-      50, 75, 100, 150, 255
+      50,
+      75,
+      100,
+      150,
+      255
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 1,
+      "progressionSimplicity": 1,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 1,
+      "compValue": 2
     },
     "isJackAceReview": false,
     "notes": "",
-    "spins": [{
+    "spins": [
+      {
         "spin": 1,
         "number": "21",
         "amountBet": 50,
