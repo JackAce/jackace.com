@@ -1,5 +1,240 @@
 [
   {
+    "name": "Roads to Riches",
+    "airDate": "2025-07-06",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0uelNhmM5p4",
+    "reviewUrl": "2025-07-06-Roads-to-Riches",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-col2":25}},
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-col2":50}},
+      {"wheelType":1,"wagers":{"x6-13-18":25,"x6-19-24":25,"x2-14-17":25,"x2-20-23":25,"x4-17-21":25,"x4-16-20":25}},
+      {"wheelType":1,"wagers":{"x6-13-18":25,"x6-19-24":25,"x2-14-17":25,"x2-20-23":25,"x4-17-21":25,"x4-16-20":25,"x12-col2":75}} 
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 300,
+    "bets": [
+      50, 75, 150, 225
+    ],
+    "rating": "a",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "4",
+        "amountBet": 50,
+        "result": -50,
+        "time": "1:07"
+      },
+      {
+        "spin": 2,
+        "number": "7",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:03"
+      },
+      {
+        "spin": 3,
+        "number": "7",
+        "amountBet": 50,
+        "result": -50,
+        "time": "2:23"
+      },
+      {
+        "spin": 4,
+        "number": "35",
+        "amountBet": 50,
+        "result": 25,
+        "time": "2:47"
+      },
+      {
+        "spin": 5,
+        "number": "10",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:20"
+      },
+      {
+        "spin": 6,
+        "number": "12",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:31"
+      },
+      {
+        "spin": 7,
+        "number": "6",
+        "amountBet": 50,
+        "result": -50,
+        "time": "4:46"
+      },
+      {
+        "spin": 8,
+        "number": "23",
+        "amountBet": 50,
+        "result": 100,
+        "displayedResult": 200,
+        "time": "5:22"
+      },
+      {
+        "spin": 9,
+        "number": "27",
+        "amountBet": 150,
+        "result": -150,
+        "time": "6:07"
+      },
+      {
+        "spin": 10,
+        "number": "29",
+        "amountBet": 50,
+        "result": 25,
+        "time": "6:45"
+      },
+      {
+        "spin": 11,
+        "number": "3",
+        "amountBet": 75,
+        "result": -75,
+        "time": "7:07"
+      },
+      {
+        "spin": 12,
+        "number": "6",
+        "amountBet": 50,
+        "result": -50,
+        "displayedResult": 25,
+        "time": "7:53"
+      },
+      {
+        "spin": 13,
+        "number": "35",
+        "amountBet": 50,
+        "result": 25,
+        "time": "8:25"
+      },
+      {
+        "spin": 14,
+        "number": "10",
+        "amountBet": 75,
+        "result": -75,
+        "time": "8:53"
+      },
+      {
+        "spin": 15,
+        "number": "11",
+        "amountBet": 50,
+        "result": 25,
+        "time": "9:10"
+      },
+      {
+        "spin": 16,
+        "number": "24",
+        "amountBet": 75,
+        "result": 75,
+        "time": "9:23"
+      },
+      {
+        "spin": 17,
+        "number": "14",
+        "amountBet": 150,
+        "result": 450,
+        "time": "9:49"
+      },
+      {
+        "spin": 18,
+        "number": "17",
+        "amountBet": 50,
+        "result": 100,
+        "time": "10:09"
+      },
+      {
+        "spin": 19,
+        "number": "19",
+        "amountBet": 150,
+        "result": 225,
+        "time": "10:29"
+      },
+      {
+        "spin": 20,
+        "number": "4",
+        "amountBet": 50,
+        "result": -50,
+        "time": "10:57"
+      },
+      {
+        "spin": 21,
+        "number": "20",
+        "amountBet": 50,
+        "result": 25,
+        "time": "11:10"
+      },
+      {
+        "spin": 22,
+        "number": "15",
+        "amountBet": 75,
+        "result": -75,
+        "time": "11:27"
+      },
+      {
+        "spin": 23,
+        "number": "28",
+        "amountBet": 50,
+        "result": 25,
+        "time": "11:43"
+      },
+      {
+        "spin": 24,
+        "number": "35",
+        "amountBet": 75,
+        "result": 150,
+        "time": "12:04"
+      },
+      {
+        "spin": 25,
+        "number": "24",
+        "amountBet": 225,
+        "result": -75,
+        "displayedResult": 150,
+        "time": "12:39"
+      },
+      {
+        "spin": 26,
+        "number": "23",
+        "amountBet": 150,
+        "result": 450,
+        "time": "13:09"
+      },
+      {
+        "spin": 27,
+        "number": "29",
+        "amountBet": 50,
+        "result": 25,
+        "time": "13:46"
+      },
+      {
+        "spin": 28,
+        "number": "22",
+        "amountBet": 75,
+        "result": -75,
+        "time": "14:00"
+      }
+    ]
+  },
+  {
     "name": "Andrussi",
     "airDate": "2025-07-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=g6BDeT6HW9Y",
