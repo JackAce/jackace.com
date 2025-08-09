@@ -1,5 +1,228 @@
 [
   {
+    "name": "Rampaging Dozen 2.0",
+    "airDate": "2025-07-16",
+    "youtubeUrl": "https://www.youtube.com/watch?v=nMd44pRT8xA",
+    "reviewUrl": "2025-07-16-Rampaging-Dozen-20",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col1":30,"x12-col2":30}},
+      {"wheelType":1,"wagers":{"x12-col2":60,"x12-col3":30}},
+      {"wheelType":1,"wagers":{"x6-13-18":15,"x6-16-21":15,"x6-19-24":15,"x2-13-14":15,"x2-14-15":15,"x2-16-17":15,"x2-17-18":15,"x2-19-20":15,"x2-20-21":15,"x2-22-23":15,"x2-23-24":15,"x2-14-17":5,"x2-17-20":5,"x2-20-23":5}} 
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 300,
+    "bets": [
+      60, 90, 180
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "22",
+        "amountBet": 60,
+        "result": 30,
+        "time": "3:29"
+      },
+      {
+        "spin": 2,
+        "number": "23",
+        "amountBet": 90,
+        "result": 90,
+        "time": "3:49"
+      },
+      {
+        "spin": 3,
+        "number": "19",
+        "amountBet": 180,
+        "result": 270,
+        "time": "4:30"
+      },
+      {
+        "spin": 4,
+        "number": "33",
+        "amountBet": 60,
+        "result": -60,
+        "time": "5:20"
+      },
+      {
+        "spin": 5,
+        "number": "22",
+        "amountBet": 60,
+        "result": 30,
+        "time": "5:45"
+      },
+      {
+        "spin": 6,
+        "number": "13",
+        "amountBet": 90,
+        "result": 0,
+        "time": "6:22"
+      },
+      {
+        "spin": 7,
+        "number": "19",
+        "amountBet": 90,
+        "result": 0,
+        "time": "6:42"
+      },
+      {
+        "spin": 8,
+        "number": "22",
+        "amountBet": 90,
+        "result": -90,
+        "time": "7:00"
+      },
+      {
+        "spin": 9,
+        "number": "12",
+        "amountBet": 60,
+        "result": -60,
+        "time": "7:23"
+      },
+      {
+        "spin": 10,
+        "number": "11",
+        "amountBet": 60,
+        "result": 30,
+        "time": "8:21"
+      },
+      {
+        "spin": 11,
+        "number": "31",
+        "amountBet": 90,
+        "result": -90,
+        "time": "9:28"
+      },
+      {
+        "spin": 12,
+        "number": "3",
+        "amountBet": 60,
+        "result": 30,
+        "time": "10:04"
+      },
+      {
+        "spin": 13,
+        "number": "2",
+        "amountBet": 90,
+        "result": 0,
+        "time": "10:39"
+      },
+      {
+        "spin": 14,
+        "number": "24",
+        "amountBet": 90,
+        "result": 0,
+        "time": "10:54"
+      },
+      {
+        "spin": 15,
+        "number": "36",
+        "amountBet": 90,
+        "result": 0,
+        "time": "11:39"
+      },
+      {
+        "spin": 16,
+        "number": "27",
+        "amountBet": 90,
+        "result": 0,
+        "time": "11:55"
+      },
+      {
+        "spin": 17,
+        "number": "12",
+        "amountBet": 90,
+        "result": -90,
+        "time": "12:45"
+      },
+      {
+        "spin": 18,
+        "number": "1",
+        "amountBet": 60,
+        "result": 30,
+        "time": "13:02"
+      },
+      {
+        "spin": 19,
+        "number": "32",
+        "amountBet": 90,
+        "result": 90,
+        "time": "13:31"
+      },
+      {
+        "spin": 20,
+        "number": "30",
+        "amountBet": 180,
+        "result": -180,
+        "time": "14:03"
+      },
+      {
+        "spin": 21,
+        "number": "17",
+        "amountBet": 60,
+        "result": 30,
+        "time": "14:21"
+      },
+      {
+        "spin": 22,
+        "number": "3",
+        "amountBet": 90,
+        "result": 0,
+        "time": "14:50"
+      },
+      {
+        "spin": 23,
+        "number": "31",
+        "amountBet": 90,
+        "result": -90,
+        "time": "15:32"
+      },
+      {
+        "spin": 24,
+        "number": "3",
+        "amountBet": 60,
+        "result": -60,
+        "time": "16:12"
+      },
+      {
+        "spin": 25,
+        "number": "24",
+        "amountBet": 60,
+        "result": -60,
+        "time": "17:00"
+      },
+      {
+        "spin": 26,
+        "number": "21",
+        "amountBet": 60,
+        "result": -60,
+        "time": "17:32"
+      },
+      {
+        "spin": 27,
+        "number": "33",
+        "amountBet": 0,
+        "result": 0,
+        "time": "17:50"
+      }
+    ]
+  },
+  {
     "name": "Owed Win",
     "airDate": "2025-07-12",
     "youtubeUrl": "https://www.youtube.com/watch?v=WC0wWu6DtRQ",
