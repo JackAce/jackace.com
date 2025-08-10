@@ -1,5 +1,205 @@
 [
   {
+    "name": "Grapefruit Slot Machine",
+    "airDate": "2025-07-18",
+    "youtubeUrl": "https://www.youtube.com/watch?v=bAUq6ncp7Jk",
+    "reviewUrl": "2025-07-18-Grapefruit-Slot-Machine",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png",
+      "00-rba-7-800x768.png",
+      "00-rba-8-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":20,"x18-odd":20,"x18-high":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30,"x4-7-11":10,"x4-2-6":10}},
+      {"wheelType":1,"wagers":{"x6-28-33":20,"x6-22-27":25,"x6-16-21":25,"x6-10-15":25,"x6-4-9":25}},
+      {"wheelType":1,"wagers":{"x6-28-33":20,"x6-22-27":35,"x6-16-21":35,"x6-10-15":35,"x6-4-9":35}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":40,"x12-doz3":20}},
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":60,"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x12-doz1":40,"x12-doz3":40}} 
+    ],
+    "systemType": "Ladder",
+    "buyIn": 360,
+    "bets": [
+      60, 80, 120, 160, 40, 90
+    ],
+    "rating": "a",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "20",
+        "amountBet": 60,
+        "result": 20,
+        "time": "2:09"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 80,
+        "result": 10,
+        "time": "2:38"
+      },
+      {
+        "spin": 3,
+        "number": "6",
+        "amountBet": 80,
+        "result": 10,
+        "time": "3:19"
+      },
+      {
+        "spin": 4,
+        "number": "19",
+        "amountBet": 80,
+        "result": 10,
+        "time": "3:38"
+      },
+      {
+        "spin": 5,
+        "number": "17",
+        "amountBet": 80,
+        "result": 10,
+        "time": "4:18"
+      },
+      {
+        "spin": 6,
+        "number": "29",
+        "amountBet": 60,
+        "result": 60,
+        "time": "4:49"
+      },
+      {
+        "spin": 7,
+        "number": "10",
+        "amountBet": 120,
+        "result": 30,
+        "time": "5:28"
+      },
+      {
+        "spin": 8,
+        "number": "36",
+        "amountBet": 160,
+        "result": -160,
+        "time": "6:19"
+      },
+      {
+        "spin": 9,
+        "number": "18",
+        "amountBet": 60,
+        "result": -60,
+        "time": "7:05"
+      },
+      {
+        "spin": 10,
+        "number": "11",
+        "amountBet": 60,
+        "result": 20,
+        "time": "7:19"
+      },
+      {
+        "spin": 11,
+        "number": "17",
+        "amountBet": 80,
+        "result": 10,
+        "time": "7:44"
+      },
+      {
+        "spin": 12,
+        "number": "17",
+        "amountBet": 80,
+        "result": 10,
+        "time": "8:10"
+      },
+      {
+        "spin": 13,
+        "number": "24",
+        "amountBet": 80,
+        "result": 10,
+        "time": "8:35"
+      },
+      {
+        "spin": 14,
+        "number": "3",
+        "amountBet": 80,
+        "result": 10,
+        "time": "9:05"
+      },
+      {
+        "spin": 15,
+        "number": "12",
+        "amountBet": 60,
+        "result": -20,
+        "time": "9:28"
+      },
+      {
+        "spin": 16,
+        "number": "24",
+        "amountBet": 40,
+        "result": 20,
+        "time": "10:11"
+      },
+      {
+        "spin": 17,
+        "number": "31",
+        "amountBet": 60,
+        "result": 0,
+        "time": "10:58"
+      },
+      {
+        "spin": 18,
+        "number": "23",
+        "amountBet": 60,
+        "result": 60,
+        "time": "11:55"
+      },
+      {
+        "spin": 19,
+        "number": "13",
+        "amountBet": 60,
+        "result": 30,
+        "time": "12:27"
+      },
+      {
+        "spin": 20,
+        "number": "21",
+        "amountBet": 90,
+        "result": 90,
+        "time": "12:56"
+      },
+      {
+        "spin": 21,
+        "number": "21",
+        "amountBet": 80,
+        "result": -80,
+        "time": "13:28"
+      },
+      {
+        "spin": 22,
+        "number": "3",
+        "amountBet": 0,
+        "result": 0,
+        "time": "13:58"
+      }
+    ]
+  },
+  {
     "name": "Pressed Kiss",
     "airDate": "2025-07-17",
     "youtubeUrl": "https://www.youtube.com/watch?v=aFSW6O_xuNU",
