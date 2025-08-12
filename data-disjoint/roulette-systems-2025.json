@@ -1,5 +1,210 @@
 [
   {
+    "name": "Super Nolley",
+    "airDate": "2025-07-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_D9d-vN9_rE",
+    "reviewUrl": "2025-07-20-Super-Nolley",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":30,"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x12-doz3":20,"x12-doz2":70}},
+      {"wheelType":1,"wagers":{"x12-doz3":75,"x12-doz2":75}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-doz3":175}} 
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 600,
+    "bets": [
+      60, 90, 150, 225
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "17",
+        "amountBet": 60,
+        "result": 30,
+        "time": "1:53"
+      },
+      {
+        "spin": 2,
+        "number": "36",
+        "amountBet": 90,
+        "result": -30,
+        "time": "2:11"
+      },
+      {
+        "spin": 3,
+        "number": "16",
+        "amountBet": 60,
+        "result": 30,
+        "time": "2:33"
+      },
+      {
+        "spin": 4,
+        "number": "00",
+        "amountBet": 90,
+        "result": -90,
+        "time": "3:01"
+      },
+      {
+        "spin": 5,
+        "number": "14",
+        "amountBet": 60,
+        "result": 30,
+        "time": "3:24"
+      },
+      {
+        "spin": 6,
+        "number": "36",
+        "amountBet": 90,
+        "result": -30,
+        "time": "4:06"
+      },
+      {
+        "spin": 7,
+        "number": "36",
+        "amountBet": 60,
+        "result": 30,
+        "time": "4:33"
+      },
+      {
+        "spin": 8,
+        "number": "36",
+        "amountBet": 90,
+        "result": -30,
+        "time": "4:49"
+      },
+      {
+        "spin": 9,
+        "number": "11",
+        "amountBet": 60,
+        "result": -60,
+        "time": "5:17"
+      },
+      {
+        "spin": 10,
+        "number": "18",
+        "amountBet": 60,
+        "result": 30,
+        "time": "5:44"
+      },
+      {
+        "spin": 11,
+        "number": "18",
+        "amountBet": 90,
+        "result": 120,
+        "time": "6:20"
+      },
+      {
+        "spin": 12,
+        "number": "25",
+        "amountBet": 150,
+        "result": 75,
+        "time": "7:01"
+      },
+      {
+        "spin": 13,
+        "number": "34",
+        "amountBet": 225,
+        "result": 300,
+        "time": "7:36"
+      },
+      {
+        "spin": 14,
+        "number": "36",
+        "amountBet": 60,
+        "result": 30,
+        "time": "8:32"
+      },
+      {
+        "spin": 15,
+        "number": "24",
+        "amountBet": 90,
+        "result": 120,
+        "time": "9:03"
+      },
+      {
+        "spin": 16,
+        "number": "8",
+        "amountBet": 150,
+        "result": -150,
+        "time": "9:28"
+      },
+      {
+        "spin": 17,
+        "number": "12",
+        "amountBet": 60,
+        "result": -60,
+        "displayedResult": -160,
+        "time": "9:58"
+      },
+      {
+        "spin": 18,
+        "number": "13",
+        "amountBet": 60,
+        "result": 30,
+        "time": "10:36"
+      },
+      {
+        "spin": 19,
+        "number": "6",
+        "amountBet": 90,
+        "result": -90,
+        "time": "10:59"
+      },
+      {
+        "spin": 20,
+        "number": "00",
+        "amountBet": 60,
+        "result": -60,
+        "time": "11:23"
+      },
+      {
+        "spin": 21,
+        "number": "6",
+        "amountBet": 60,
+        "result": -60,
+        "time": "11:44"
+      },
+      {
+        "spin": 22,
+        "number": "22",
+        "amountBet": 60,
+        "result": 30,
+        "time": "12:06"
+      },
+      {
+        "spin": 23,
+        "number": "36",
+        "amountBet": 90,
+        "result": -30,
+        "time": "12:17"
+      },
+      {
+        "spin": 24,
+        "number": "12",
+        "amountBet": 60,
+        "result": -60,
+        "time": "12:43"
+      }
+    ]
+  },
+  {
     "name": "Bed Rocc",
     "airDate": "2025-07-19",
     "youtubeUrl": "https://www.youtube.com/watch?v=7uP9FbXkPos",
