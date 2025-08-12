@@ -1,5 +1,239 @@
 [
   {
+    "name": "Bed Rocc",
+    "airDate": "2025-07-19",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7uP9FbXkPos",
+    "reviewUrl": "2025-07-19-Bed-Rocc",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":20}},
+      {"wheelType":1,"wagers":{"x18-black":20,"x18-even":20}},
+      {"wheelType":1,"wagers":{"x18-black":20,"x18-even":20,"x12-doz1":20,"x12-doz2":20}},
+      {"wheelType":1,"wagers":{"x6-16-21":20,"x18-black":20}}
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 200,
+    "bets": [
+      20, 40, 80, 40
+    ],
+    "rating": "f",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "0",
+        "amountBet": 20,
+        "result": -20,
+        "time": "1:15"
+      },
+      {
+        "spin": 2,
+        "number": "24",
+        "amountBet": 20,
+        "result": 20,
+        "time": "1:40"
+      },
+      {
+        "spin": 3,
+        "number": "28",
+        "amountBet": 40,
+        "result": 40,
+        "time": "2:07"
+      },
+      {
+        "spin": 4,
+        "number": "1",
+        "amountBet": 80,
+        "result": -20,
+        "time": "2:49"
+      },
+      {
+        "spin": 5,
+        "number": "32",
+        "amountBet": 20,
+        "result": -20,
+        "time": "3:09"
+      },
+      {
+        "spin": 6,
+        "number": "3",
+        "amountBet": 20,
+        "result": -20,
+        "displayedResult": 20,
+        "time": "3:37"
+      },
+      {
+        "spin": 7,
+        "number": "34",
+        "amountBet": 20,
+        "result": -20,
+        "time": "3:57"
+      },
+      {
+        "spin": 8,
+        "number": "11",
+        "amountBet": 20,
+        "result": 20,
+        "time": "4:24"
+      },
+      {
+        "spin": 9,
+        "number": "13",
+        "amountBet": 40,
+        "result": 0,
+        "time": "5:05"
+      },
+      {
+        "spin": 10,
+        "number": "13",
+        "amountBet": 40,
+        "result": 0,
+        "time": "5:31"
+      },
+      {
+        "spin": 11,
+        "number": "30",
+        "amountBet": 40,
+        "result": 0,
+        "time": "5:53"
+      },
+      {
+        "spin": 12,
+        "number": "18",
+        "amountBet": 40,
+        "result": 0,
+        "time": "6:21"
+      },
+      {
+        "spin": 13,
+        "number": "18",
+        "amountBet": 40,
+        "result": -40,
+        "time": "6:29"
+      },
+      {
+        "spin": 14,
+        "number": "32",
+        "amountBet": 20,
+        "result": -20,
+        "time": "6:59"
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 20,
+        "result": 20,
+        "time": "7:22"
+      },
+      {
+        "spin": 16,
+        "number": "00",
+        "amountBet": 40,
+        "result": -40,
+        "time": "7:56"
+      },
+      {
+        "spin": 17,
+        "number": "8",
+        "amountBet": 20,
+        "result": 20,
+        "time": "8:08"
+      },
+      {
+        "spin": 18,
+        "number": "1",
+        "amountBet": 40,
+        "result": -40,
+        "time": "8:23"
+      },
+      {
+        "spin": 19,
+        "number": "10",
+        "amountBet": 20,
+        "result": 20,
+        "time": "8:56"
+      },
+      {
+        "spin": 20,
+        "number": "12",
+        "amountBet": 40,
+        "result": 0,
+        "time": "9:17"
+      },
+      {
+        "spin": 21,
+        "number": "14",
+        "amountBet": 40,
+        "result": 0,
+        "time": "9:29"
+      },
+      {
+        "spin": 22,
+        "number": "11",
+        "amountBet": 40,
+        "result": 0,
+        "time": "9:40"
+      },
+      {
+        "spin": 23,
+        "number": "25",
+        "amountBet": 40,
+        "result": -40,
+        "time": "10:10"
+      },
+      {
+        "spin": 24,
+        "number": "29",
+        "amountBet": 20,
+        "result": 20,
+        "time": "10:30"
+      },
+      {
+        "spin": 25,
+        "number": "11",
+        "amountBet": 40,
+        "result": 120,
+        "time": "10:59"
+      },
+      {
+        "spin": 26,
+        "number": "31",
+        "amountBet": 80,
+        "result": -40,
+        "time": "11:45"
+      },
+      {
+        "spin": 27,
+        "number": "14",
+        "amountBet": 40,
+        "result": 80,
+        "displayedResult": 120,
+        "time": "12:05"
+      },
+      {
+        "spin": 28,
+        "number": "2",
+        "amountBet": 80,
+        "result": 60,
+        "time": "12:35"
+      }
+    ]
+  },
+  {
     "name": "Grapefruit Slot Machine",
     "airDate": "2025-07-18",
     "youtubeUrl": "https://www.youtube.com/watch?v=bAUq6ncp7Jk",
