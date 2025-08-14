@@ -1,5 +1,227 @@
 [
   {
+    "name": "PB and J",
+    "airDate": "2025-07-22",
+    "youtubeUrl": "https://www.youtube.com/watch?v=JYfNlXm4AnA",
+    "reviewUrl": "2025-07-22-PB-and-J",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":25,"x12-doz3":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":100,"x12-doz3":50}} 
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 600,
+    "bets": [
+      75, 150
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "31",
+        "amountBet": 75,
+        "result": 75,
+        "time": "2:21"
+      },
+      {
+        "spin": 2,
+        "number": "27",
+        "amountBet": 150,
+        "result": 0,
+        "time": "2:52"
+      },
+      {
+        "spin": 3,
+        "number": "5",
+        "amountBet": 150,
+        "result": -150,
+        "time": "3:09"
+      },
+      {
+        "spin": 4,
+        "number": "2",
+        "amountBet": 75,
+        "result": -75,
+        "time": "3:29"
+      },
+      {
+        "spin": 5,
+        "number": "29",
+        "amountBet": 75,
+        "result": 75,
+        "time": "4:09"
+      },
+      {
+        "spin": 6,
+        "number": "4",
+        "amountBet": 150,
+        "result": -150,
+        "time": "4:43"
+      },
+      {
+        "spin": 7,
+        "number": "6",
+        "amountBet": 75,
+        "result": -75,
+        "time": "4:58"
+      },
+      {
+        "spin": 8,
+        "number": "10",
+        "amountBet": 75,
+        "result": 0,
+        "time": "5:47"
+      },
+      {
+        "spin": 9,
+        "number": "2",
+        "amountBet": 75,
+        "result": -75,
+        "time": "6:46"
+      },
+      {
+        "spin": 10,
+        "number": "19",
+        "amountBet": 75,
+        "result": 0,
+        "time": "7:12"
+      },
+      {
+        "spin": 11,
+        "number": "19",
+        "amountBet": 75,
+        "result": 0,
+        "time": "7:39"
+      },
+      {
+        "spin": 12,
+        "number": "5",
+        "amountBet": 75,
+        "result": -75,
+        "time": "7:53"
+      },
+      {
+        "spin": 13,
+        "number": "35",
+        "amountBet": 75,
+        "result": -75,
+        "time": "8:17"
+      },
+      {
+        "spin": 14,
+        "number": "7",
+        "amountBet": 75,
+        "result": -75,
+        "time": "8:43"
+      },
+      {
+        "spin": 15,
+        "number": "5",
+        "amountBet": 75,
+        "result": -75,
+        "time": "9:08"
+      },
+      {
+        "spin": 16,
+        "number": "4",
+        "amountBet": 75,
+        "result": -75,
+        "time": "9:30"
+      },
+      {
+        "spin": 17,
+        "number": "4",
+        "amountBet": 75,
+        "result": -75,
+        "notes": "Not a part of the system",
+        "time": "11:17"
+      },
+      {
+        "spin": 18,
+        "number": "1",
+        "amountBet": 75,
+        "result": -75,
+        "time": "12:03"
+      },
+      {
+        "spin": 19,
+        "number": "15",
+        "amountBet": 75,
+        "result": 0,
+        "time": "12:49"
+      },
+      {
+        "spin": 20,
+        "number": "26",
+        "amountBet": 75,
+        "result": 75,
+        "time": "12:58"
+      },
+      {
+        "spin": 21,
+        "number": "13",
+        "amountBet": 150,
+        "result": 0,
+        "time": "13:31"
+      },
+      {
+        "spin": 22,
+        "number": "12",
+        "amountBet": 150,
+        "result": -150,
+        "time": "13:58"
+      },
+      {
+        "spin": 23,
+        "number": "21",
+        "amountBet": 75,
+        "result": -75,
+        "time": "14:15"
+      },
+      {
+        "spin": 24,
+        "number": "3",
+        "amountBet": 75,
+        "result": -75,
+        "time": "14:36"
+      },
+      {
+        "spin": 25,
+        "number": "9",
+        "amountBet": 75,
+        "result": 0,
+        "time": "14:59"
+      },
+      {
+        "spin": 26,
+        "number": "11",
+        "amountBet": 75,
+        "result": 0,
+        "time": "15:54"
+      },
+      {
+        "spin": 27,
+        "number": "21",
+        "amountBet": 75,
+        "result": -75,
+        "time": "16:06"
+      }
+    ]
+  },
+  {
     "name": "Super Nolley",
     "airDate": "2025-07-20",
     "youtubeUrl": "https://www.youtube.com/watch?v=_D9d-vN9_rE",
