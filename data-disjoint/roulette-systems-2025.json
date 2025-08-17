@@ -1,5 +1,192 @@
 [
   {
+    "name": "Two-Thirds",
+    "airDate": "2025-07-28",
+    "youtubeUrl": "https://www.youtube.com/watch?v=l7P-pFxilAw",
+    "reviewUrl": "2025-07-28-Two-Thirds",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x18-black":10,"x18-odd":10,"x12-doz2":10,"x12-doz3":10,"x12-col3":10}},
+      {"wheelType":1,"wagers":{"x18-black":15,"x18-odd":15,"x12-doz2":15,"x12-doz3":15,"x12-col3":15}},
+      {"wheelType":1,"wagers":{"x18-black":20,"x18-odd":20,"x12-doz2":20,"x12-doz3":20,"x12-col3":20}} 
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 200,
+    "bets": [
+      50, 75, 100
+    ],
+    "rating": "d",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "2",
+        "amountBet": 50,
+        "result": -30,
+        "time": "1:15"
+      },
+      {
+        "spin": 2,
+        "number": "13",
+        "amountBet": 50,
+        "result": 20,
+        "time": "1:50"
+      },
+      {
+        "spin": 3,
+        "number": "19",
+        "amountBet": 50,
+        "result": 0,
+        "time": "2:42"
+      },
+      {
+        "spin": 4,
+        "number": "30",
+        "amountBet": 50,
+        "result": 10,
+        "displayedResult": 50,
+        "time": "3:10"
+      },
+      {
+        "spin": 5,
+        "number": "16",
+        "amountBet": 50,
+        "result": -20,
+        "time": "3:44"
+      },
+      {
+        "spin": 6,
+        "number": "8",
+        "amountBet": 50,
+        "result": -30,
+        "time": "4:11"
+      },
+      {
+        "spin": 7,
+        "number": "11",
+        "amountBet": 50,
+        "result": -10,
+        "time": "4:44"
+      },
+      {
+        "spin": 8,
+        "number": "34",
+        "amountBet": 50,
+        "result": -20,
+        "time": "5:23"
+      },
+      {
+        "spin": 9,
+        "number": "9",
+        "amountBet": 50,
+        "result": 0,
+        "time": "5:50"
+      },
+      {
+        "spin": 10,
+        "number": "16",
+        "amountBet": 50,
+        "result": -20,
+        "time": "6:28"
+      },
+      {
+        "spin": 11,
+        "number": "19",
+        "amountBet": 50,
+        "result": 0,
+        "time": "7:07"
+      },
+      {
+        "spin": 12,
+        "number": "1",
+        "amountBet": 50,
+        "result": -30,
+        "time": "7:23"
+      },
+      {
+        "spin": 13,
+        "number": "16",
+        "amountBet": 50,
+        "result": -20,
+        "time": "7:46"
+      },
+      {
+        "spin": 14,
+        "number": "33",
+        "amountBet": 50,
+        "result": 50,
+        "displayedResult": 20,
+        "time": "8:45"
+      },
+      {
+        "spin": 15,
+        "number": "17",
+        "amountBet": 75,
+        "result": 30,
+        "time": "9:51"
+      },
+      {
+        "spin": 16,
+        "number": "2",
+        "amountBet": 100,
+        "result": -60,
+        "displayedResult": -50,
+        "time": "10:30"
+      },
+      {
+        "spin": 17,
+        "number": "22",
+        "amountBet": 50,
+        "result": 0,
+        "time": "11:06"
+      },
+      {
+        "spin": 18,
+        "number": "33",
+        "amountBet": 30,
+        "result": 50,
+        "notes": "Not a part of the system.",
+        "time": "11:33"
+      },
+      {
+        "spin": 19,
+        "number": "31",
+        "amountBet": 50,
+        "result": 20,
+        "time": "12:18"
+      },
+      {
+        "spin": 20,
+        "number": "30",
+        "amountBet": 20,
+        "result": 10,
+        "notes": "Not a part of the system.",
+        "time": "12:51"
+      },
+      {
+        "spin": 21,
+        "number": "27",
+        "amountBet": 10,
+        "result": -10,
+        "notes": "Not a part of the system.",
+        "time": "13:20"
+      }
+    ]
+  },
+  {
     "name": "Fiddling with the G Spot",
     "airDate": "2025-07-26",
     "youtubeUrl": "https://www.youtube.com/watch?v=KW_T0uH8i3Y",
