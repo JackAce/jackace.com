@@ -1784,15 +1784,15 @@
       150
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "b",
     "friendCount": 2,
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 4,
+      "chipUniformity": 5,
+      "jackpotPotential": 4,
+      "scalability": 5,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
