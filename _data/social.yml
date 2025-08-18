@@ -10,6 +10,9 @@
 - title: The JackAce Store
   url: https://shop.jackace.com/
   icon: fa-solid fa-basket-shopping
+- title: Etsy
+  url: https://www.etsy.com/shop/JackAceStudios
+  icon: fab fa-etsy
 - title: Amazon Store
   url: https://www.amazon.com/shop/jackace
   icon: fab fa-amazon
