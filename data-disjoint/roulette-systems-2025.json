@@ -1,5 +1,212 @@
 [
   {
+    "name": "The Equalizer D1C",
+    "airDate": "2025-08-07",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9Tw3qEJFj6U",
+    "reviewUrl": "2025-08-07-The-Equalizer-D1C",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png",
+      "00-rba-3-800x768.png",
+      "00-rba-4-800x768.png",
+      "00-rba-5-800x768.png",
+      "00-rba-6-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz3":25,"x12-col1":25}},
+      {"wheelType":1,"wagers":{"x12-doz3":25,"x12-col1":50}},
+      {"wheelType":1,"wagers":{"x12-doz2":50,"x12-col2":75}},
+      {"wheelType":1,"wagers":{"x12-doz3":50,"x12-col1":50}},
+      {"wheelType":1,"wagers":{"x12-doz3":75,"x12-col1":75}},
+      {"wheelType":1,"wagers":{"x12-col2":125,"x12-doz3":25}},
+      {"wheelType":1,"wagers":{"x12-doz3":75,"x12-col2":25}} 
+    ],
+    "systemType": "Multi-Leg",
+    "buyIn": 1750,
+    "bets": [
+      50, 75, 125, 100, 150, 150, 100
+    ],
+    "rating": "c",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "35",
+        "amountBet": 50,
+        "result": 25,
+        "time": "3:04"
+      },
+      {
+        "spin": 2,
+        "number": "0",
+        "amountBet": 50,
+        "result": -50,
+        "time": "3:42"
+      },
+      {
+        "spin": 3,
+        "number": "31",
+        "amountBet": 75,
+        "result": 150,
+        "displayedResult": 0,
+        "time": "4:13"
+      },
+      {
+        "spin": 4,
+        "number": "26",
+        "amountBet": 50,
+        "result": 25,
+        "time": "4:36"
+      },
+      {
+        "spin": 5,
+        "number": "18",
+        "amountBet": 50,
+        "result": 25,
+        "time": "5:25"
+      },
+      {
+        "spin": 6,
+        "number": "23",
+        "amountBet": 75,
+        "result": 150,
+        "time": "5:57"
+      },
+      {
+        "spin": 7,
+        "number": "13",
+        "amountBet": 50,
+        "result": 25,
+        "time": "6:31"
+      },
+      {
+        "spin": 8,
+        "number": "7",
+        "amountBet": 50,
+        "result": -50,
+        "time": "6:51"
+      },
+      {
+        "spin": 9,
+        "number": "10",
+        "amountBet": 75,
+        "result": -75,
+        "time": "8:04"
+      },
+      {
+        "spin": 10,
+        "number": "20",
+        "amountBet": 125,
+        "result": 250,
+        "displayedResult": 200,
+        "time": "8:27"
+      },
+      {
+        "spin": 11,
+        "number": "11",
+        "amountBet": 50,
+        "result": -50,
+        "time": "8:45"
+      },
+      {
+        "spin": 12,
+        "number": "3",
+        "amountBet": 50,
+        "result": -50,
+        "time": "9:04"
+      },
+      {
+        "spin": 13,
+        "number": "17",
+        "amountBet": 100,
+        "result": -100,
+        "time": "10:02"
+      },
+      {
+        "spin": 14,
+        "number": "27",
+        "amountBet": 150,
+        "result": 75,
+        "time": "10:22"
+      },
+      {
+        "spin": 15,
+        "number": "5",
+        "amountBet": 150,
+        "result": 225,
+        "displayedResult": 175,
+        "time": "10:44"
+      },
+      {
+        "spin": 16,
+        "number": "20",
+        "amountBet": 100,
+        "result": 50,
+        "time": "11:20"
+      },
+      {
+        "spin": 17,
+        "number": "2",
+        "amountBet": 100,
+        "result": -25,
+        "time": "11:39"
+      },
+      {
+        "spin": 18,
+        "number": "35",
+        "amountBet": 100,
+        "result": 200,
+        "displayedResult": -25,
+        "time": "11:56"
+      },
+      {
+        "spin": 19,
+        "number": "32",
+        "amountBet": 50,
+        "result": -50,
+        "time": "12:21"
+      },
+      {
+        "spin": 20,
+        "number": "14",
+        "amountBet": 50,
+        "result": 100,
+        "time": "12:45"
+      },
+      {
+        "spin": 21,
+        "number": "22",
+        "amountBet": 50,
+        "result": 25,
+        "time": "13:17"
+      },
+      {
+        "spin": 22,
+        "number": "26",
+        "amountBet": 50,
+        "result": -50,
+        "time": "13:31"
+      },
+      {
+        "spin": 23,
+        "number": "24",
+        "amountBet": 50,
+        "result": 25,
+        "time": "13:51"
+      }
+    ]
+  },
+  {
     "name": "Big Red Snake",
     "airDate": "2025-08-05",
     "youtubeUrl": "https://www.youtube.com/watch?v=MFFVKr29B5A",
