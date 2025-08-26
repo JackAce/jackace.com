@@ -1,5 +1,215 @@
 [
   {
+    "name": "French Kiss",
+    "airDate": "2025-08-12",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Cy6MW097-fI",
+    "reviewUrl": "2025-08-12-French-Kiss",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png",
+      "00-rba-2-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-col1":25}},
+      {"wheelType":1,"wagers":{"x12-col2":75}},
+      {"wheelType":1,"wagers":{"x3-34-36":25,"x3-1-3":25,"x2-17-20":25,"x1-25":25,"x1-27":25,"x1-30":25,"x1-13":25,"x1-7":25,"x1-9":25}} 
+    ],
+    "systemType": "Positive Progression",
+    "buyIn": 400,
+    "bets": [
+      25, 75, 225
+    ],
+    "rating": "b",
+    "jackaceRating": "",
+    "jackaceRatingDetails": {
+      "bettingSimplicity": -1,
+      "progressionSimplicity": -1,
+      "chipUniformity": -1,
+      "jackpotPotential": -1,
+      "scalability": -1,
+      "compValue": -1
+    },
+    "isJackAceReview": false,
+    "notes": "",
+    "spins": [{
+        "spin": 1,
+        "number": "18",
+        "amountBet": 25,
+        "result": -25,
+        "time": "1:29"
+      },
+      {
+        "spin": 2,
+        "number": "20",
+        "amountBet": 25,
+        "result": 50,
+        "time": "1:59"
+      },
+      {
+        "spin": 3,
+        "number": "21",
+        "amountBet": 75,
+        "result": -75,
+        "time": "2:25"
+      },
+      {
+        "spin": 4,
+        "number": "2",
+        "amountBet": 25,
+        "result": -25,
+        "time": "2:42"
+      },
+      {
+        "spin": 5,
+        "number": "32",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:09"
+      },
+      {
+        "spin": 6,
+        "number": "24",
+        "amountBet": 25,
+        "result": -25,
+        "time": "3:33"
+      },
+      {
+        "spin": 7,
+        "number": "1",
+        "amountBet": 25,
+        "result": 50,
+        "time": "3:40"
+      },
+      {
+        "spin": 8,
+        "number": "5",
+        "amountBet": 75,
+        "result": -75,
+        "displayedResult": -25,
+        "time": "4:10"
+      },
+      {
+        "spin": 9,
+        "number": "1",
+        "amountBet": 25,
+        "result": -25,
+        "time": "4:56"
+      },
+      {
+        "spin": 10,
+        "number": "16",
+        "amountBet": 25,
+        "result": -25,
+        "time": "5:28"
+      },
+      {
+        "spin": 11,
+        "number": "8",
+        "amountBet": 25,
+        "result": 50,
+        "time": "5:37"
+      },
+      {
+        "spin": 12,
+        "number": "32",
+        "amountBet": 75,
+        "result": 150,
+        "time": "6:02"
+      },
+      {
+        "spin": 13,
+        "number": "32",
+        "amountBet": 225,
+        "result": -225,
+        "time": "6:31"
+      },
+      {
+        "spin": 14,
+        "number": "4",
+        "amountBet": 25,
+        "result": 50,
+        "time": "7:05"
+      },
+      {
+        "spin": 15,
+        "number": "35",
+        "amountBet": 75,
+        "result": -75,
+        "time": "7:27"
+      },
+      {
+        "spin": 16,
+        "number": "27",
+        "amountBet": 25,
+        "result": 50,
+        "time": "7:46"
+      },
+      {
+        "spin": 17,
+        "number": "3",
+        "amountBet": 75,
+        "result": 150,
+        "time": "8:12"
+      },
+      {
+        "spin": 18,
+        "number": "20",
+        "amountBet": 225,
+        "result": -225,
+        "time": "8:51"
+      },
+      {
+        "spin": 19,
+        "number": "2",
+        "amountBet": 25,
+        "result": -25,
+        "time": "9:02"
+      },
+      {
+        "spin": 20,
+        "number": "7",
+        "amountBet": 25,
+        "result": 50,
+        "time": "9:19"
+      },
+      {
+        "spin": 21,
+        "number": "21",
+        "amountBet": 75,
+        "result": -75,
+        "time": "9:56"
+      },
+      {
+        "spin": 22,
+        "number": "12",
+        "amountBet": 25,
+        "result": -25,
+        "time": "10:17"
+      },
+      {
+        "spin": 23,
+        "number": "8",
+        "amountBet": 25,
+        "result": -25,
+        "time": "10:46"
+      },
+      {
+        "spin": 24,
+        "number": "3",
+        "amountBet": 25,
+        "result": -25,
+        "time": "10:55"
+      },
+      {
+        "spin": 25,
+        "number": "33",
+        "amountBet": 0,
+        "result": 0,
+        "time": "11:06"
+      }
+    ]
+  },
+  {
     "name": "High and Tight",
     "airDate": "2025-08-10",
     "youtubeUrl": "https://www.youtube.com/watch?v=4B8g-hJJohY",
