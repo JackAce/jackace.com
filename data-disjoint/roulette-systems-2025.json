@@ -22,16 +22,17 @@
       75, 225, 175, 125
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 1,
+      "chipUniformity": 2,
+      "jackpotPotential": 4,
+      "scalability": 1,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": 1620,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -190,14 +191,14 @@
       25, 75, 225
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "a",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 5,
+      "chipUniformity": 5,
+      "jackpotPotential": 5,
+      "scalability": 5,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -398,14 +399,14 @@
       120, 150
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 4,
+      "progressionSimplicity": 4,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 3
     },
     "isJackAceReview": false,
     "notes": "",
@@ -557,25 +558,28 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=fdxRG4huUYI",
     "reviewUrl": "2025-08-08-M5",
     "rbaImageUrls": [
-      "00-rba-0-800x768.png"
+      "00-rba-0-800x768.png",
+      "00-rba-1-800x768.png"
     ],
      "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":70,"x12-doz3":70,"x3-19-21":20,"x2-22-23":15,"x4-11-15":25}},
       {"wheelType":1,"wagers":{"x12-doz1":70,"x12-doz3":70,"x4-14-18":25,"x3-19-21":20,"x2-22-23":15}} 
     ],
     "systemType": "Flat Bet",
     "buyIn": 400,
     "bets": [
+      200,
       200
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 5,
+      "chipUniformity": 3,
+      "jackpotPotential": 2,
+      "scalability": 2,
+      "compValue": 4
     },
     "isJackAceReview": false,
     "notes": "",
@@ -619,7 +623,8 @@
         "number": "1",
         "amountBet": 200,
         "result": 10,
-        "time": "5:01"
+        "time": "5:01",
+        "notes": "Alex changed the betting pattern for this spin and used this new betting pattern for the rest of the video."
       },
       {
         "spin": 7,
@@ -785,16 +790,17 @@
       50, 75, 125, 100, 150, 150, 100
     ],
     "rating": "c",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 5,
+      "progressionSimplicity": 2,
+      "chipUniformity": 2,
+      "jackpotPotential": 3,
+      "scalability": 4,
+      "compValue": 2
     },
     "isJackAceReview": false,
+    "finalWinLoss": 800,
     "notes": "",
     "spins": [{
         "spin": 1,
@@ -986,14 +992,14 @@
       25, 50, 60, 90
     ],
     "rating": "d",
-    "jackaceRating": "",
+    "jackaceRating": "c",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 3,
+      "progressionSimplicity": 4,
+      "chipUniformity": 4,
+      "jackpotPotential": 2,
+      "scalability": 3,
+      "compValue": 1
     },
     "isJackAceReview": false,
     "notes": "",
@@ -1210,14 +1216,14 @@
       130, 145, 160, 175, 190, 220
     ],
     "rating": "b",
-    "jackaceRating": "",
+    "jackaceRating": "d",
     "jackaceRatingDetails": {
-      "bettingSimplicity": -1,
-      "progressionSimplicity": -1,
-      "chipUniformity": -1,
-      "jackpotPotential": -1,
-      "scalability": -1,
-      "compValue": -1
+      "bettingSimplicity": 2,
+      "progressionSimplicity": 2,
+      "chipUniformity": 2,
+      "jackpotPotential": 2,
+      "scalability": 1,
+      "compValue": 4
     },
     "isJackAceReview": false,
     "notes": "",
@@ -7268,7 +7274,7 @@
     },
     "isJackAceReview": false,
     "finalWinLoss": 400,
-    "notes": "",
+    "notes": "I think the name is supposed to be EGDSPP, not EDGSPP...",
     "spins": [
       {
         "spin": 1,
