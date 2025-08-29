@@ -39,7 +39,7 @@
 - title: Tools
   sublinks:
     - title: TipiT - Tip Calculator
-      url: https://tipit.jackace.com/
+      url: /apps/tipit
     - title: Wordle Solver
       url: /games/wordle/solver/
     - title: GTO Baccarat
